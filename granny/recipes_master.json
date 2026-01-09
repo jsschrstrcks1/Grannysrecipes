@@ -9609,6 +9609,374 @@
           "handwritten recipe - some text unclear"
         ]
       }
+    },
+    {
+      "id": "chefs-hamburgers-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chef's Hamburgers",
+      "category": "mains",
+      "description": "Elegant hamburger patties with cognac, mushrooms, and Dijon mustard sauce.",
+      "source_note": "My Great Recipes card",
+      "prep_time": "15 min",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "extra-lean ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "coarsely cracked"
+        },
+        {
+          "item": "coarse salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cognac",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh mushrooms",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "finely chopped, for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine beef, parsley and garlic. Divide into 4 parts. Shape each into a 1-inch thick patty. Press black pepper onto both sides of each patty."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy skillet, sprinkle salt. Place over medium-high heat until smoking hot."
+        },
+        {
+          "step": 3,
+          "text": "Add patties to skillet. Cook 1 minute on each side. Turn heat to low. Cook 2-4 minutes longer until done to your liking."
+        },
+        {
+          "step": 4,
+          "text": "If using cognac, spoon over meat. Touch with match to flame. Remove meat from pan. Keep warm. Turn heat to high."
+        },
+        {
+          "step": 5,
+          "text": "To the pan, add butter, mushrooms and mustard. Saut\u00e9 1 minute or until mushrooms are heated through."
+        },
+        {
+          "step": 6,
+          "text": "Spoon over the meat patties. Sprinkle with parsley. Serve immediately."
+        }
+      ],
+      "notes": [
+        "For best results, use a hot cast-iron skillet to cook hamburgers.",
+        "Hamburgers may be mixed and shaped ahead of time. Cover and refrigerate until about 1 hour before cooking.",
+        "Bring meat to room temperature prior to cooking."
+      ],
+      "tags": [
+        "beef",
+        "hamburger",
+        "main dish",
+        "quick"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 452,
+          "fat_g": 33,
+          "protein_g": 38,
+          "carbs_g": 4,
+          "sodium_mg": 530
+        }
+      }
+    },
+    {
+      "id": "yuletide-toffee-squares-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Yuletide Toffee Squares",
+      "category": "desserts",
+      "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "About 6 dozen",
+      "pan_size": "15x10-inch jelly roll pan",
+      "ingredients": [
+        {
+          "item": "Quaker Oats",
+          "quantity": "4-1/2",
+          "unit": "cups",
+          "prep_note": "quick or old fashioned, uncooked"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "melted (1-1/2 sticks)"
+        },
+        {
+          "item": "corn syrup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "teaspoon",
+          "prep_note": "optional"
+        },
+        {
+          "item": "semi-sweet chocolate morsels",
+          "quantity": "12",
+          "unit": "oz package",
+          "prep_note": "2 cups"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oven to 400\u00b0F. Grease 15x10-inch jelly roll pan."
+        },
+        {
+          "step": 2,
+          "text": "Combine oats, brown sugar, margarine, corn syrup, vanilla and salt; mix well."
+        },
+        {
+          "step": 3,
+          "text": "Firmly press mixture into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake about 18 minutes or until mixture is brown and bubbly."
+        },
+        {
+          "step": 5,
+          "text": "Remove from oven. Immediately sprinkle chocolate morsels evenly over toffee."
+        },
+        {
+          "step": 6,
+          "text": "Let stand 10 minutes. Spread chocolate evenly over toffee; sprinkle with nuts."
+        },
+        {
+          "step": 7,
+          "text": "Cool completely. Cut into squares."
+        }
+      ],
+      "notes": [
+        "Store tightly covered in cool, dry place."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "holiday",
+        "christmas"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "make-ahead-cookie-mix-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Make-Ahead Cookie Mix",
+      "category": "desserts",
+      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety of favorite cookies.",
+      "source_note": "Pillsbury magazine clipping",
+      "servings_yield": "6 cups mix",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1-3/4",
+          "unit": "cups",
+          "prep_note": "softened"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "Pillsbury's Best Unbleached or All Purpose"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In very large bowl, combine butter, salt, and baking powder; using electric mixer, blend well."
+        },
+        {
+          "step": 2,
+          "text": "Lightly spoon flour into measuring cup; level off. Add flour to bowl, scraping bowl often."
+        },
+        {
+          "step": 3,
+          "text": "Store tightly covered in refrigerator up to 4 weeks (6 cups mix)."
+        }
+      ],
+      "notes": [
+        "Mix can be stored up to 4 weeks!",
+        "See reverse side for cookie recipes using this mix.",
+        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "make-ahead",
+        "basic mix"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "magazine clipping - image upside down, some text obscured"
+        ]
+      }
+    },
+    {
+      "id": "basic-crust-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Basic Crust",
+      "category": "desserts",
+      "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
+      "source_note": "Pillsbury Bake-Off magazine clipping",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9-inch oblong pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "Pillsbury's Best"
+        },
+        {
+          "item": "pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "4-serving size, not instant"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tablespoons",
+          "prep_note": "softened"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "No need to sift flour; measure by lightly spooning into cup and leveling off."
+        },
+        {
+          "step": 2,
+          "text": "In small mixer bowl, combine all ingredients. Blend at low speed; blend 1 minute at medium speed."
+        },
+        {
+          "step": 3,
+          "text": "Knead to form smooth ball."
+        },
+        {
+          "step": 4,
+          "text": "Roll and press into ungreased 13x9-inch oblong pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0 for 12 to 15 minutes. Cool completely."
+        }
+      ],
+      "notes": [
+        "For use with Pillsbury's Best Self-Rising Flour, omit salt and the 2 tablespoons butter."
+      ],
+      "tags": [
+        "dessert",
+        "crust",
+        "base recipe"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
     }
   ],
   "meta": {
