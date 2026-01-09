@@ -1,63 +1,39 @@
-# Family Recipe Archive - AI Assistant Context
+# Granny Hudson's Recipe Archive - AI Assistant Context
 
 ## Project Mission & Values
 
 This is a labor of love being performed by a Reformed Baptist family. Our ethos is **Soli Deo Gloria** (Glory to God Alone).
 
-We are endeavoring to preserve well-loved recipes from three generations of family cooks:
-- **Grandma Baker** - Michigan roots, transplanted to Florida (Southern & Northern recipes)
-- **MomMom Baker** - Family recipes passed down through generations
-- **Granny Hudson** - Additional family collection (future)
+This repository contains **Granny Hudson's** recipe collection - one of several family recipe archives that have been split from the original Grandmasrecipes repository for better organization.
+
+**Related repositories:**
+- **Grandmasrecipes** - Main repository (Grandma Baker's collection)
+- **Grannysrecipes** - This repository (Granny Hudson's collection)
 
 **Accuracy is more important than speed.** There are hundreds of real people that will be impacted by these recipes. They matter deeply to this family.
 
 ---
 
-## Recipe Collections
+## Recipe Collection
 
 ### Collection Configuration
 ```json
 {
   "collections": {
-    "grandma": {
-      "id": "grandma",
-      "display_name": "Grandma Baker",
-      "folder": "data/",
-      "description": "Michigan roots, Southern cooking"
-    },
-    "mommom": {
-      "id": "mommom",
-      "display_name": "MomMom Baker",
-      "folder": "data/mom/",
-      "description": "Family recipes passed down through generations"
-    },
     "granny": {
       "id": "granny",
       "display_name": "Granny Hudson",
-      "folder": "data/granny/",
-      "description": "Additional family collection"
-    },
-    "reference": {
-      "id": "reference",
-      "display_name": "Reference Cookbook",
-      "folder": "data/all/",
-      "description": "Digital cookbook recipes (used with permission)",
-      "hidden_from_filters": true,
-      "show_only_in_all": true
+      "folder": "granny/",
+      "description": "Granny Hudson's family collection"
     }
   }
 }
 ```
 
-**Note:** The `reference` collection uses special flags:
-- `hidden_from_filters: true` - Don't show as a filter option in the UI
-- `show_only_in_all: true` - Only visible when user selects "All" recipes
-
 ### Collection Rules
-1. **Every recipe MUST have a `collection` field** - identifies which family member's recipe box it came from
-2. **Use collection ID** (lowercase) in the recipe JSON: `"collection": "grandma"`
-3. **Website displays `collection_display`** for user-friendly names
-4. **Filtering** - Users can view all recipes or filter by collection
+1. **Every recipe MUST have a `collection` field** set to `"granny"`
+2. **Website displays `collection_display`** for user-friendly names
+3. All images are stored in the `granny/` folder
 
 ---
 
@@ -105,7 +81,7 @@ the image dimensions exceed max allowed size for many-image requests: 2000 pixel
 python scripts/image_safeguards.py status
 
 # If no manifest exists or status shows oversized images:
-python scripts/process_images.py --collection mommom
+python scripts/process_images.py --collection granny
 python scripts/image_safeguards.py validate
 ```
 
@@ -113,15 +89,14 @@ python scripts/image_safeguards.py validate
 
 | Collection | Source | Max Dimension | Path to Use |
 |------------|--------|---------------|-------------|
-| Grandma | Scanner | ≤1280px | `data/*.jpeg` (direct) |
-| MomMom | iPhone | 4032x3024px | `data/mom/processed/*.jpeg` (NEVER originals!) |
-| Reference | Kindle | 1320x2868px | `data/all/processed/*.jpeg` (NEVER originals!) |
-| Granny | TBD | TBD | TBD |
+| Granny | Scanned cards | Check dimensions | `granny/*.jpeg` or `granny/processed/*.jpeg` if oversized |
 
-**NEVER read MomMom images from `data/mom/*.jpeg` directly!**
-**NEVER read Reference images from `data/all/*.PNG` directly!**
-**ALWAYS use `data/mom/processed/*.jpeg` for MomMom collection.**
-**ALWAYS use `data/all/processed/*.jpeg` for Reference collection.**
+**Always check image dimensions first** using:
+```bash
+python scripts/image_safeguards.py status
+```
+
+If images are oversized (>2000px), use the processed versions at `granny/processed/*.jpeg`.
 
 #### Step 1: Source Classification
 Identify the image type BEFORE attempting extraction:
@@ -204,28 +179,21 @@ API Error: 400 ... image dimensions exceed max allowed size ... 2000 pixels
 
 **STOP immediately.** Do NOT retry the same request. Follow these steps:
 
-1. **Identify which collection caused the error:**
-   - MomMom images (`data/mom/`) are always oversized (4032x3024px)
-   - Reference images (`data/all/`) are always oversized (1320x2868px)
-   - Grandma images (`data/`) are usually safe (≤1280px)
-
-2. **Run the image processing script:**
+1. **Run the image processing script:**
    ```bash
-   python scripts/process_images.py --collection mommom
-   python scripts/process_images.py --collection reference
+   python scripts/process_images.py --collection granny
    ```
 
-3. **Update the manifest:**
+2. **Update the manifest:**
    ```bash
    python scripts/image_safeguards.py validate
    ```
 
-4. **Resume with correct paths:**
-   - Use `data/mom/processed/*.jpeg` for MomMom images
-   - Use `data/all/processed/*.jpeg` for Reference images
-   - NEVER use `data/mom/*.jpeg` or `data/all/*.PNG` directly
+3. **Resume with processed images:**
+   - Use `granny/processed/*.jpeg` for oversized images
+   - NEVER use oversized original images directly
 
-5. **If the error persists:** The image may be corrupted or in an unexpected format. Mark it as broken:
+4. **If the error persists:** The image may be corrupted or in an unexpected format. Mark it as broken:
    ```bash
    python scripts/image_safeguards.py mark "filename.jpeg" broken "Dimension error"
    ```
@@ -490,28 +458,21 @@ Q: "1 can tomatoes" — what size?
 ## Project Structure
 
 ```
-Grandmasrecipes/
+Grannysrecipes/
 ├── CLAUDE.md                 # This file
 ├── README.md                 # Setup and hosting instructions
 ├── index.html                # Home page (root for GitHub Pages)
 ├── recipe.html               # Recipe detail page
 ├── styles.css                # Stylesheet
 ├── script.js                 # Client-side rendering
-├── data/
-│   ├── *.jpeg               # Grandma Baker's original scans (≤1280px, AI-safe)
-│   ├── mom/                 # MomMom Baker's scans (4032x3024px, OVERSIZED!)
-│   │   ├── *.jpeg           # NEVER use directly - too large for API
-│   │   └── processed/       # AI-friendly versions (≤2000px) - USE THESE!
-│   │       └── *.jpeg
-│   ├── all/                 # Reference collection (1320x2868px, OVERSIZED!)
-│   │   ├── *.PNG            # NEVER use directly - too large for API
-│   │   └── processed/       # AI-friendly versions (≤2000px) - USE THESE!
-│   │       └── *.jpeg
-│   ├── granny/              # Granny Hudson's scans (future)
+├── robots.txt                # Search engine directives
+├── granny/                   # Granny Hudson's recipe collection
+│   ├── *.jpeg               # Original scanned recipe images
+│   ├── processed/           # AI-friendly resized versions (if needed)
 │   │   └── *.jpeg
-│   ├── recipes_master.json  # All recipes (all collections)
+│   ├── recipes_master.json  # All recipes for this collection
 │   ├── collections.json     # Collection metadata
-│   ├── processed_images.json # Scan processing log (legacy OCR tracking)
+│   ├── processed_images.json # Scan processing log
 │   └── image_manifest.json  # Image validation status & dimensions
 ├── scripts/
 │   ├── validate-recipes.py  # Recipe validation script
@@ -528,9 +489,7 @@ Grandmasrecipes/
 ## Image Processing Safeguards
 
 ### The Problem
-- **Grandma's images**: Scanner-sourced, 1280px max — AI-friendly
-- **MomMom's images**: iPhone photos, 4032x3024px — too large for reliable AI processing (>2000px limit)
-- **Reference images**: Kindle screenshots, 1320x2868px — height exceeds 2000px limit
+- **Oversized images**: Images larger than 2000px in any dimension cannot be processed by Claude's API
 - **Broken images**: Corrupted or truncated files can crash AI sessions
 
 ### Solution: Two-Layer Protection
@@ -543,16 +502,11 @@ Resizes oversized images to max 2000px while preserving quality for OCR.
 # Preview what will be processed (no changes)
 python scripts/process_images.py --dry-run
 
-# Process a specific collection
-python scripts/process_images.py --collection mommom
-
-# Process all collections
-python scripts/process_images.py
+# Process granny collection
+python scripts/process_images.py --collection granny
 ```
 
-**Output**: Creates `data/mom/processed/` folder with AI-friendly versions.
-
-**For MomMom images**: Always use the processed versions at `data/mom/processed/*.jpeg`
+**Output**: Creates `granny/processed/` folder with AI-friendly versions.
 
 #### 2. Image Safeguards (`scripts/image_safeguards.py`)
 
@@ -566,11 +520,11 @@ python scripts/image_safeguards.py validate
 python scripts/image_safeguards.py status
 
 # Get next unprocessed image
-python scripts/image_safeguards.py next mommom
+python scripts/image_safeguards.py next granny
 
 # Mark an image as processed/skipped
-python scripts/image_safeguards.py mark "Moms Recipes - 1.jpeg" processed
-python scripts/image_safeguards.py mark "Moms Recipes - 2.jpeg" skipped "Not a recipe"
+python scripts/image_safeguards.py mark "1 Medium.jpeg" processed
+python scripts/image_safeguards.py mark "2 Medium.jpeg" skipped "Not a recipe"
 
 # List broken images
 python scripts/image_safeguards.py broken
@@ -587,14 +541,14 @@ python scripts/image_safeguards.py broken
 | `processed` | Recipe extraction complete |
 | `skipped` | Not a recipe |
 
-### Workflow for Processing MomMom Images
+### Workflow for Processing Granny Images
 
 1. **Before starting a new session**:
    ```bash
    python scripts/image_safeguards.py status
    ```
 
-2. **Use processed images** from `data/mom/processed/` (not originals)
+2. **Use processed images** from `granny/processed/` if originals are oversized
 
 3. **If an image fails**, mark it:
    ```bash
@@ -606,9 +560,9 @@ python scripts/image_safeguards.py broken
 ### Recovering from Crashes
 
 If a session crashes mid-processing:
-1. The manifest (`data/image_manifest.json`) preserves state
+1. The manifest (`granny/image_manifest.json`) preserves state
 2. Run `python scripts/image_safeguards.py status` to see progress
-3. Run `python scripts/image_safeguards.py next mommom` to get the next image
+3. Run `python scripts/image_safeguards.py next granny` to get the next image
 4. Continue processing without losing work
 
 ---
@@ -616,20 +570,20 @@ If a session crashes mid-processing:
 ## Repository Bloat Management
 
 ### The Problem
-- **Current repo size**: ~1 GB in images alone
-- **Git history**: Another ~1 GB (images are versioned)
-- **Root cause**: Scanner software saves at 100% JPEG quality
+- **Large repo size**: Image files can be large
+- **Git history**: Old versions remain in .git directory
+- **Root cause**: Scanner software may save at 100% JPEG quality
 
 ### Solution: Image Optimization (`scripts/optimize_images.py`)
 
-Re-compresses JPEGs at Q85 (visually identical, human-readable) for major size reduction.
+Re-compresses JPEGs at Q85 (visually identical, human-readable) for size reduction.
 
 ```bash
 # Preview savings (no changes)
 python scripts/optimize_images.py --dry-run
 
-# Optimize a specific collection
-python scripts/optimize_images.py --collection grandma
+# Optimize granny collection
+python scripts/optimize_images.py --collection granny
 
 # Optimize with backups (keeps .original.jpeg files)
 python scripts/optimize_images.py --backup
@@ -637,14 +591,6 @@ python scripts/optimize_images.py --backup
 # Custom quality (default: 85)
 python scripts/optimize_images.py --quality 80
 ```
-
-### Expected Savings
-
-| Collection | Original | Optimized (Q85) | Savings |
-|------------|----------|-----------------|---------|
-| Grandma (687 images) | 804 MB | ~113 MB | **86%** |
-| MomMom (104 images) | 218 MB | ~153 MB | **30%** |
-| **Total** | **1,022 MB** | **~266 MB** | **~750 MB** |
 
 ### Important Notes
 

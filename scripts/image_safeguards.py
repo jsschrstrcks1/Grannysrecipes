@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Image Safeguards for Grandma's Recipe Archive
+Image Safeguards for Granny Hudson's Recipe Archive
 
 This module provides safeguards to prevent broken images from crashing
 AI processing sessions. It creates a processing manifest that tracks:
@@ -11,10 +11,10 @@ AI processing sessions. It creates a processing manifest that tracks:
 Usage:
     python scripts/image_safeguards.py validate         # Validate all images
     python scripts/image_safeguards.py status           # Show processing status
-    python scripts/image_safeguards.py next             # Get next processable image
+    python scripts/image_safeguards.py next granny      # Get next processable image
     python scripts/image_safeguards.py mark <file> <status>  # Mark image status
 
-The manifest file (image_manifest.json) can be used by AI assistants to:
+The manifest file (granny/image_manifest.json) can be used by AI assistants to:
 - Skip known broken images
 - Resume from where processing left off
 - Track which images need human intervention
@@ -38,11 +38,9 @@ except ImportError:
 MANIFEST_FILE = "image_manifest.json"
 MAX_DIMENSION = 2000
 
+# This repository only contains the granny collection
 COLLECTIONS = {
-    "grandma": {"path": "", "prefix": "Grandmas-recipes"},
-    "mommom": {"path": "mom/", "prefix": "Moms Recipes"},
-    "granny": {"path": "granny/", "prefix": "Granny"},
-    "reference": {"path": "all/", "prefix": "IMG_"}
+    "granny": {"path": "granny/", "prefix": ""}
 }
 
 # Image statuses
@@ -59,9 +57,10 @@ STATUS_SKIPPED = "skipped"             # Not a recipe (household hints, etc.)
 class ImageManifest:
     """Manages the image processing manifest for session resilience."""
 
-    def __init__(self, data_dir: Path):
-        self.data_dir = data_dir
-        self.manifest_path = data_dir / MANIFEST_FILE
+    def __init__(self, repo_dir: Path):
+        self.repo_dir = repo_dir
+        # Store manifest in the granny folder
+        self.manifest_path = repo_dir / 'granny' / MANIFEST_FILE
         self.manifest = self._load_manifest()
 
     def _load_manifest(self) -> Dict:
@@ -187,7 +186,7 @@ class ImageManifest:
             return []
 
         collection_info = COLLECTIONS[collection_id]
-        collection_path = self.data_dir / collection_info["path"]
+        collection_path = self.repo_dir / collection_info["path"]
 
         if not collection_path.exists():
             return []
@@ -223,7 +222,7 @@ class ImageManifest:
                 self.manifest["images"][key] = {
                     "collection": coll_id,
                     "filename": img_path.name,
-                    "path": str(img_path.relative_to(self.data_dir)),
+                    "path": str(img_path.relative_to(self.repo_dir)),
                     **validation
                 }
 
@@ -259,11 +258,11 @@ class ImageManifest:
             elif status == STATUS_OVERSIZED:
                 # Check if processed version exists
                 processed_path = (
-                    self.data_dir /
+                    self.repo_dir /
                     data.get("path", "").replace(data["filename"], f"processed/{data['filename']}")
                 )
                 if processed_path.exists():
-                    data["processed_path"] = str(processed_path.relative_to(self.data_dir))
+                    data["processed_path"] = str(processed_path.relative_to(self.repo_dir))
                     data["status"] = STATUS_RESIZED
                     result.append({"key": key, **data})
                 else:
@@ -365,15 +364,17 @@ def main():
 
     command = sys.argv[1]
 
-    # Find data directory
+    # Find repository root directory
     script_dir = Path(__file__).parent
-    data_dir = script_dir.parent / 'data'
+    repo_dir = script_dir.parent
 
-    if not data_dir.exists():
-        print(f"ERROR: Data directory not found: {data_dir}")
+    # Check that granny folder exists
+    granny_dir = repo_dir / 'granny'
+    if not granny_dir.exists():
+        print(f"ERROR: Granny directory not found: {granny_dir}")
         sys.exit(1)
 
-    manifest = ImageManifest(data_dir)
+    manifest = ImageManifest(repo_dir)
 
     if command == "validate":
         collection = sys.argv[2] if len(sys.argv) > 2 else None

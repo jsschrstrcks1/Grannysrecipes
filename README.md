@@ -1,4 +1,4 @@
-# Grandma's Recipe Archive
+# Granny Hudson's Recipe Archive
 
 A treasured collection of family recipes, preserved with love.
 
@@ -8,27 +8,37 @@ A treasured collection of family recipes, preserved with love.
 
 ## About This Project
 
-This archive preserves Grandma's recipes—collected from handwritten cards, newspaper clippings, magazine cuttings, and other family treasures. The recipes span her journey from Michigan to Florida, representing both Northern and Southern culinary traditions.
+This archive preserves Granny Hudson's recipes—collected from handwritten cards, newspaper clippings, magazine cuttings, and other family treasures.
 
-**Current Status:** 5 unique recipes extracted from 6 scanned images
+This repository is part of a family recipe preservation project, split from the main Grandmasrecipes repository for better organization.
+
+**Related repositories:**
+- **Grandmasrecipes** - Main repository (Grandma Baker's collection)
+- **Grannysrecipes** - This repository (Granny Hudson's collection)
 
 ---
 
 ## Project Structure
 
 ```
-Grandmasrecipes/
+Grannysrecipes/
 ├── CLAUDE.md                  # AI assistant context & guidelines
 ├── README.md                  # This file
-├── data/
+├── index.html                 # Home page with search & filters
+├── recipe.html                # Recipe detail page
+├── styles.css                 # Stylesheet
+├── script.js                  # Client-side JavaScript
+├── robots.txt                 # Search engine directives
+├── granny/                    # Granny Hudson's recipe collection
 │   ├── *.jpeg                 # Original scanned recipe images
+│   ├── processed/             # AI-friendly resized versions (if needed)
 │   ├── recipes_master.json    # All recipes in structured format
 │   └── processed_images.json  # Scan processing log & metadata
-├── site/
-│   ├── index.html             # Home page with search & filters
-│   ├── recipe.html            # Recipe detail page
-│   ├── styles.css             # Stylesheet
-│   └── script.js              # Client-side JavaScript
+├── scripts/                   # Utility scripts
+│   ├── validate-recipes.py    # Recipe validation
+│   ├── process_images.py      # Image resizing
+│   ├── image_safeguards.py    # Image validation
+│   └── optimize_images.py     # JPEG optimization
 └── ebook/
     ├── book.html              # Print-optimized e-book HTML
     └── print.css              # Print stylesheet
@@ -42,10 +52,10 @@ Grandmasrecipes/
 
 1. **Using Python (recommended):**
    ```bash
-   cd Grandmasrecipes
+   cd Grannysrecipes
    python -m http.server 8000
    ```
-   Then open http://localhost:8000/site/ in your browser.
+   Then open http://localhost:8000/ in your browser.
 
 2. **Using Node.js:**
    ```bash
@@ -61,22 +71,21 @@ Grandmasrecipes/
 
 1. Push this repository to GitHub
 2. Go to **Settings → Pages**
-3. Set source to your main branch and `/site` folder (or root)
-4. Your site will be live at `https://yourusername.github.io/Grandmasrecipes/site/`
+3. Set source to your main branch and root folder
+4. Your site will be live at `https://yourusername.github.io/Grannysrecipes/`
 
 ### Host on Netlify
 
 1. Push to GitHub/GitLab
 2. Connect to Netlify
-3. Set publish directory to `site`
+3. Set publish directory to root
 4. Deploy!
 
 ### Host on Vercel
 
 1. Push to GitHub
 2. Import project in Vercel
-3. Set output directory to `site`
-4. Deploy!
+3. Deploy!
 
 ---
 
@@ -128,8 +137,8 @@ pandoc ebook/book.html \
 ### 1. Scan Your Recipe
 
 - Scan at 300 DPI or higher
-- Save as JPEG in `data/` folder
-- Name format: `Grandmas-recipes - N.jpeg`
+- Save as JPEG in `granny/` folder
+- Recommended naming: descriptive or numbered (e.g., `recipe-name.jpeg` or `101 Medium.jpeg`)
 
 ### 2. Extract the Recipe
 
@@ -137,8 +146,8 @@ Follow the workflow in `CLAUDE.md`:
 1. Analyze the scan for orientation and content
 2. Extract all recipe data following the JSON schema
 3. Check for duplicates against existing recipes
-4. Add to `recipes_master.json`
-5. Update `processed_images.json`
+4. Add to `granny/recipes_master.json`
+5. Update `granny/processed_images.json`
 
 ### 3. Update the E-Book
 
@@ -183,31 +192,9 @@ Add the new recipe to `ebook/book.html`:
 
 ---
 
-## Current Recipes
+## Current Status
 
-| Recipe | Category | Source | Confidence |
-|--------|----------|--------|------------|
-| Ginger-Onion Lo Mein | Mains | Magazine clipping | Medium* |
-| Glazed Carrots | Sides | Tampa Tribune, 1994 | High |
-| Jubilie Jumbles | Desserts | Typed card (Betty Crocker, 1955) | High |
-| Original Chex Party Mix | Snacks | Cereal box | High |
-| She's a Geisha Cocktail | Beverages | Izumi restaurant menu | High |
-
-*\* Instructions partially inferred from standard technique*
-
----
-
-## Known Issues & Flags
-
-### Ginger-Onion Lo Mein
-- Original clipping was cut off
-- Steps 5-7 inferred from standard lo mein technique
-- **If you find the original source, please update!**
-
-### Jubilie Jumbles
-- Original card showed "2 tsp" butter in glaze
-- Corrected to "2 tbsp" per canonical Carnation recipe
-- Spelling "Jubilie" preserved from original (may be "Jubilee")
+Recipe extraction from Granny Hudson's collection is in progress. Check `granny/recipes_master.json` for the current list of extracted recipes.
 
 ---
 
@@ -236,20 +223,10 @@ After modifying recipes, validate:
 
 ```bash
 # Check JSON syntax
-python -m json.tool data/recipes_master.json > /dev/null && echo "JSON valid"
+python -m json.tool granny/recipes_master.json > /dev/null && echo "JSON valid"
 
-# Check for required fields (basic)
-python -c "
-import json
-with open('data/recipes_master.json') as f:
-    data = json.load(f)
-    for r in data['recipes']:
-        assert 'id' in r, f'Missing id in {r.get(\"title\", \"unknown\")}'
-        assert 'title' in r, f'Missing title in {r[\"id\"]}'
-        assert 'ingredients' in r, f'Missing ingredients in {r[\"title\"]}'
-        assert 'instructions' in r, f'Missing instructions in {r[\"title\"]}'
-print('All recipes valid!')
-"
+# Use the validation script
+python scripts/validate-recipes.py
 ```
 
 ---
@@ -257,7 +234,7 @@ print('All recipes valid!')
 ## Contributing
 
 This is a family project. If you're family and have:
-- Additional scans of Grandma's recipes
+- Additional scans of Granny Hudson's recipes
 - Corrections to existing recipes
 - Memories or context about specific recipes
 

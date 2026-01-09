@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Recipe Validation Script for Grandma's Recipe Archive
-Validates recipes_master.json for schema compliance and common issues.
+Recipe Validation Script for Granny Hudson's Recipe Archive
+Validates granny/recipes_master.json for schema compliance and common issues.
 
 Usage:
     python scripts/validate-recipes.py
@@ -189,9 +189,9 @@ class RecipeValidator:
             self.error(recipe_id, "image_refs must be a list")
             return
 
-        data_dir = Path(__file__).parent.parent / 'data'
+        granny_dir = Path(__file__).parent.parent / 'granny'
         for ref in image_refs:
-            img_path = data_dir / ref
+            img_path = granny_dir / ref
             if not img_path.exists():
                 self.warn(recipe_id, f"Referenced image not found: {ref}")
 
@@ -271,7 +271,7 @@ def main():
 
     # Find recipes file
     script_dir = Path(__file__).parent
-    recipes_file = script_dir.parent / 'data' / 'recipes_master.json'
+    recipes_file = script_dir.parent / 'granny' / 'recipes_master.json'
 
     if not recipes_file.exists():
         print(f"ERROR: Cannot find {recipes_file}")

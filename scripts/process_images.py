@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Image Processing Script for Grandma's Recipe Archive
+Image Processing Script for Granny Hudson's Recipe Archive
 
 Handles:
 1. Images larger than 2000px in any dimension (resizes for AI processing)
@@ -9,8 +9,8 @@ Handles:
 4. Non-destructive processing (creates optimized copies)
 
 Usage:
-    python scripts/process_images.py                    # Process all collections
-    python scripts/process_images.py --collection mom   # Process MomMom's images only
+    python scripts/process_images.py                    # Process granny collection
+    python scripts/process_images.py --collection granny  # Process granny's images
     python scripts/process_images.py --dry-run          # Preview without changes
     python scripts/process_images.py --fix-broken       # Attempt recovery of broken images
 """
@@ -38,12 +38,10 @@ MAX_DIMENSION = 2000  # Maximum pixels in any dimension
 JPEG_QUALITY = 92     # Quality for resized images (high quality for OCR)
 PROCESSED_FOLDER = "processed"  # Subfolder for resized images
 
-# Collection paths relative to data/
+# Collection paths relative to repository root
+# This repository only contains the granny collection
 COLLECTIONS = {
-    "grandma": "",           # data/*.jpeg
-    "mommom": "mom/",        # data/mom/*.jpeg
-    "granny": "granny/",     # data/granny/*.jpeg (future)
-    "reference": "all/"      # data/all/*.PNG (Kindle screenshots)
+    "granny": "granny/"      # granny/*.jpeg
 }
 
 
@@ -432,9 +430,9 @@ def main():
     )
     parser.add_argument(
         '--collection', '-c',
-        choices=['grandma', 'mommom', 'granny', 'reference', 'all'],
-        default='all',
-        help="Collection to process (default: all)"
+        choices=['granny', 'all'],
+        default='granny',
+        help="Collection to process (default: granny)"
     )
     parser.add_argument(
         '--dry-run', '-n',
@@ -449,15 +447,17 @@ def main():
 
     args = parser.parse_args()
 
-    # Find data directory
+    # Find repository root directory
     script_dir = Path(__file__).parent
-    data_dir = script_dir.parent / 'data'
+    repo_dir = script_dir.parent
 
-    if not data_dir.exists():
-        print(f"ERROR: Data directory not found: {data_dir}")
+    # Check that granny folder exists
+    granny_dir = repo_dir / 'granny'
+    if not granny_dir.exists():
+        print(f"ERROR: Granny directory not found: {granny_dir}")
         sys.exit(1)
 
-    processor = ImageProcessor(data_dir, dry_run=args.dry_run)
+    processor = ImageProcessor(repo_dir, dry_run=args.dry_run)
 
     if args.dry_run:
         print("\n*** DRY RUN MODE - No files will be modified ***\n")
@@ -473,7 +473,7 @@ def main():
 
     # Save log
     if not args.dry_run:
-        log_path = data_dir / f"processing_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        log_path = granny_dir / f"processing_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
         generate_processing_log(results, log_path)
 
     # Exit with error code if there were failures

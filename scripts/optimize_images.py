@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Image Optimization Script for Grandma's Recipe Archive
+Image Optimization Script for Granny Hudson's Recipe Archive
 
 Reduces repository bloat by optimizing JPEG quality while maintaining
-human readability. Scanner images (Grandma's) are often saved at 100%
-quality and can be reduced 80-90% with no visible quality loss.
+human readability. Scanner images are often saved at 100%
+quality and can be reduced significantly with no visible quality loss.
 
 Usage:
     python scripts/optimize_images.py --dry-run          # Preview changes
-    python scripts/optimize_images.py --collection grandma  # Optimize one collection
+    python scripts/optimize_images.py --collection granny  # Optimize granny collection
     python scripts/optimize_images.py                    # Optimize all collections
     python scripts/optimize_images.py --quality 80       # Custom quality (default: 85)
     python scripts/optimize_images.py --backup           # Keep .original files
@@ -42,9 +42,8 @@ except ImportError:
 DEFAULT_QUALITY = 85  # Excellent quality, major size reduction
 MIN_SAVINGS_PERCENT = 10  # Skip if savings < 10%
 
+# This repository only contains the granny collection
 COLLECTIONS = {
-    "grandma": {"path": "", "expected_savings": 0.85},
-    "mommom": {"path": "mom/", "expected_savings": 0.30},
     "granny": {"path": "granny/", "expected_savings": 0.50}
 }
 
@@ -333,9 +332,9 @@ def main():
     )
     parser.add_argument(
         '--collection', '-c',
-        choices=['grandma', 'mommom', 'granny', 'all'],
-        default='all',
-        help="Collection to optimize (default: all)"
+        choices=['granny', 'all'],
+        default='granny',
+        help="Collection to optimize (default: granny)"
     )
     parser.add_argument(
         '--quality', '-q',
@@ -361,16 +360,18 @@ def main():
         print("ERROR: Quality must be between 1 and 100")
         sys.exit(1)
 
-    # Find data directory
+    # Find repository root directory
     script_dir = Path(__file__).parent
-    data_dir = script_dir.parent / 'data'
+    repo_dir = script_dir.parent
 
-    if not data_dir.exists():
-        print(f"ERROR: Data directory not found: {data_dir}")
+    # Check that granny folder exists
+    granny_dir = repo_dir / 'granny'
+    if not granny_dir.exists():
+        print(f"ERROR: Granny directory not found: {granny_dir}")
         sys.exit(1)
 
     optimizer = ImageOptimizer(
-        data_dir,
+        repo_dir,
         quality=args.quality,
         dry_run=args.dry_run,
         keep_backup=args.backup
