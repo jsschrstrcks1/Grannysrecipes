@@ -724,7 +724,7 @@ function getCollectionImagePath(collection) {
 }
 
 /**
- * Render original scan thumbnail
+ * Render original handwritten scan (treasured family recipe images)
  */
 function renderOriginalScan(imageRefs, collection) {
   if (!imageRefs || imageRefs.length === 0) return '';
@@ -733,15 +733,24 @@ function renderOriginalScan(imageRefs, collection) {
 
   return `
     <section class="original-scan">
-      <h3>Original Scan</h3>
-      ${imageRefs.map(ref => {
-        const safePath = sanitizeUrl(basePath + ref);
-        return `
-        <a href="${escapeAttr(safePath)}" target="_blank">
-          <img src="${escapeAttr(safePath)}" alt="Original recipe scan" class="scan-thumbnail"
-               style="max-width: 200px; max-height: 150px; object-fit: cover;">
-        </a>
-      `;}).join('')}
+      <h3>Original Handwritten Recipe</h3>
+      <p class="scan-note">This treasured family recipe in Granny's own handwriting</p>
+      <div class="scan-images">
+        ${imageRefs.map(ref => {
+          // Build the full filename - handle both "123" and "IMG_1234" formats
+          const filename = ref.startsWith('IMG_')
+            ? ref + ' Medium.jpeg'
+            : ref + ' Medium.jpeg';
+          const safePath = sanitizeUrl(basePath + filename);
+          return `
+          <figure class="scan-figure">
+            <a href="${escapeAttr(safePath)}" target="_blank" title="Click to view full size">
+              <img src="${escapeAttr(safePath)}" alt="Original handwritten recipe" class="scan-thumbnail">
+            </a>
+            <figcaption>Click to enlarge</figcaption>
+          </figure>
+        `;}).join('')}
+      </div>
     </section>
   `;
 }

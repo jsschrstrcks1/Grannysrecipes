@@ -9520,6 +9520,95 @@
         "flags": []
       },
       "image_refs": []
+    },
+    {
+      "id": "pork-chop-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pork Chop Casserole",
+      "category": "mains",
+      "description": "A simple one-dish pork chop bake with potatoes and noodles.",
+      "source_note": "handwritten recipe card",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "casserole dish",
+      "ingredients": [
+        {
+          "item": "thick pork chops",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "egg noodles",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "bouillon cube",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "hot water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for noodles"
+        },
+        {
+          "item": "milk or water",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown pork chops for about 15 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add hot water for noodles."
+        },
+        {
+          "step": 3,
+          "text": "Layer potatoes and noodles in casserole dish."
+        },
+        {
+          "step": 4,
+          "text": "Add bouillon and remaining liquid."
+        },
+        {
+          "step": 5,
+          "text": "Place pork chops on top."
+        },
+        {
+          "step": 6,
+          "text": "Bake in casserole until done."
+        }
+      ],
+      "notes": [
+        "Handwritten card is difficult to read - some ingredients/steps may need verification"
+      ],
+      "tags": [
+        "pork",
+        "casserole",
+        "one-dish",
+        "comfort food"
+      ],
+      "image_refs": [
+        "66"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten recipe - some text unclear"
+        ]
+      }
     }
   ],
   "meta": {
