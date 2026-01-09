@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A treasured collection of family recipes from Grandma Baker, MomMom Baker, and Granny Hudson - preserved with love.">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+  <meta name="googlebot" content="noindex, nofollow">
+  <title>Grandma's Kitchen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Grandma's Kitchen</h1>
+      <p class="tagline">A treasured collection of family recipes, preserved with love</p>
+      <p class="tagline" style="font-size: 0.9rem; opacity: 0.8;">Soli Deo Gloria</p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="container">
+      <ul>
+        <li><a href="index.html" class="active">All Recipes</a></li>
+        <li><a href="#" onclick="filterByCategory('desserts'); return false;">Desserts</a></li>
+        <li><a href="#" onclick="filterByCategory('mains'); return false;">Main Dishes</a></li>
+        <li><a href="#" onclick="filterByCategory('sides'); return false;">Sides</a></li>
+        <li><a href="#" onclick="filterByCategory('snacks'); return false;">Snacks</a></li>
+        <li><a href="#" onclick="filterByCategory('beverages'); return false;">Beverages</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <!-- Search and Filter Section -->
+      <section class="search-section">
+        <form id="search-form" class="search-box">
+          <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        <!-- Collection Filter -->
+        <div class="collection-filter">
+          <span class="filter-label">Recipe Box:</span>
+          <div class="collection-buttons" id="collection-filters">
+            <button type="button" class="collection-btn active" data-collection="">All</button>
+            <button type="button" class="collection-btn" data-collection="grandma">Grandma Baker</button>
+            <button type="button" class="collection-btn" data-collection="mommom">MomMom Baker</button>
+            <button type="button" class="collection-btn" data-collection="granny">Granny Hudson</button>
+          </div>
+        </div>
+
+        <div class="category-filter-row">
+          <label for="category-filter" class="filter-label">Category:</label>
+          <select id="category-filter" class="category-select">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+
+        <!-- Collapsible Tags Section -->
+        <div class="tags-section">
+          <button type="button" class="tags-toggle" id="tags-toggle" aria-expanded="true">
+            <span class="filter-label">Tags</span>
+            <span class="toggle-icon">▼</span>
+          </button>
+          <div id="tag-filters" class="filter-tags">
+            <!-- Tags populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Recipe Grid -->
+      <section>
+        <div id="recipe-grid" class="recipe-grid">
+          <div class="text-center" style="grid-column: 1/-1; padding: 2rem;">
+            <p>Loading recipes...</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- A-Z Index -->
+      <section class="index-section" style="margin-top: 3rem;">
+        <h2>Recipe Index</h2>
+        <div id="alpha-index" class="alpha-index">
+          <!-- Populated by JavaScript -->
+        </div>
+        <div id="index-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Grandma's Kitchen &middot; A Family Treasure</p>
+      <p style="margin-top: 0.5rem; font-size: 0.8rem;">From Michigan to Florida &middot; Preserved with Love</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Additional home page functionality
+    function filterByCategory(category) {
+      const select = document.getElementById('category-filter');
+      if (select) {
+        select.value = category;
+        select.dispatchEvent(new Event('change'));
+      }
+    }
+
+    // Build A-Z index after recipes load
+    document.addEventListener('DOMContentLoaded', () => {
+      setTimeout(buildAlphaIndex, 500);
+    });
+
+    function buildAlphaIndex() {
+      const indexContainer = document.getElementById('alpha-index');
+      const listContainer = document.getElementById('index-list');
+
+      if (!indexContainer || !listContainer || !window.recipes) return;
+
+      // Wait for recipes to load
+      if (recipes.length === 0) {
+        setTimeout(buildAlphaIndex, 500);
+        return;
+      }
+
+      // Get unique first letters
+      const letters = new Set();
+      recipes.forEach(r => {
+        if (r.title && !r.variant_of) {
+          letters.add(r.title.charAt(0).toUpperCase());
+        }
+      });
+
+      // Build A-Z navigation
+      let alphaHtml = '';
+      for (let i = 65; i <= 90; i++) {
+        const letter = String.fromCharCode(i);
+        const hasRecipes = letters.has(letter);
+        alphaHtml += `<a href="#letter-${letter}" class="${hasRecipes ? '' : 'disabled'}">${letter}</a>`;
+      }
+      indexContainer.innerHTML = alphaHtml;
+
+      // Build recipe list grouped by letter
+      const grouped = {};
+      recipes.forEach(r => {
+        if (r.variant_of && r.variant_of !== r.id) return;
+        const letter = r.title.charAt(0).toUpperCase();
+        if (!grouped[letter]) grouped[letter] = [];
+        grouped[letter].push(r);
+      });
+
+      let listHtml = '';
+      Object.keys(grouped).sort().forEach(letter => {
+        listHtml += `<h3 id="letter-${letter}" style="margin-top: 1.5rem;">${letter}</h3>`;
+        listHtml += '<ul class="recipe-index-list">';
+        grouped[letter].sort((a, b) => a.title.localeCompare(b.title)).forEach(r => {
+          listHtml += `<li><a href="recipe.html#${r.id}">${r.title}</a> <span class="text-muted">(${r.category})</span></li>`;
+        });
+        listHtml += '</ul>';
+      });
+
+      listContainer.innerHTML = listHtml;
+    }
+
+    // Make recipes accessible globally for buildAlphaIndex
+    window.recipes = [];
+    const originalLoadRecipes = loadRecipes;
+    loadRecipes = async function() {
+      await originalLoadRecipes();
+      window.recipes = recipes;
+    };
+  </script>
+</body>
+</html>

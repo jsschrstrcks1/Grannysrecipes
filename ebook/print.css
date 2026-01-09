@@ -1,0 +1,780 @@
+/* Grandma's Recipe Archive - E-Book Print Stylesheet */
+/* 1950s Teal Refrigerator Aesthetic - Print Optimized */
+
+/* Google Fonts for PDF generation (embedded during build) */
+/* Pacifico for script, Lora for headings, Source Sans 3 for body */
+
+@page {
+  size: letter;
+  margin: 0.75in 1in;
+
+  @top-center {
+    content: "Grandma's Recipe Archive";
+    font-family: 'Lora', Georgia, serif;
+    font-size: 10pt;
+    color: #4db6ac;
+  }
+
+  @bottom-center {
+    content: counter(page);
+    font-family: 'Lora', Georgia, serif;
+    font-size: 10pt;
+  }
+}
+
+@page :first {
+  @top-center { content: none; }
+  @bottom-center { content: none; }
+}
+
+/* ============================================
+   1950s Color Palette
+   ============================================ */
+:root {
+  /* Core teal palette */
+  --color-teal: #4db6ac;
+  --color-teal-dark: #26a69a;
+  --color-teal-light: #b2dfdb;
+  --color-teal-pale: #e0f2f1;
+
+  /* Warm accents */
+  --color-cream: #fefaf6;
+  --color-coral: #ff6b6b;
+  --color-cherry: #c0392b;
+  --color-butter: #ffeaa7;
+
+  /* Neutrals */
+  --color-chrome: #b8c5d0;
+  --color-chrome-dark: #8896a3;
+  --color-text: #3d3d3d;
+  --color-text-light: #666;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans 3', 'Segoe UI', Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================
+   Typography - 1950s Style
+   ============================================ */
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 28pt;
+  margin: 0 0 0.5em;
+  color: var(--color-teal-dark);
+  page-break-after: avoid;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 18pt;
+  margin: 1.5em 0 0.5em;
+  color: var(--color-teal-dark);
+  border-bottom: 2pt solid var(--color-teal-light);
+  padding-bottom: 0.25em;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 14pt;
+  margin: 1em 0 0.5em;
+  color: var(--color-coral);
+  page-break-after: avoid;
+}
+
+h4 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 12pt;
+  margin: 0.75em 0 0.25em;
+  color: var(--color-teal-dark);
+}
+
+p {
+  margin: 0 0 0.75em;
+  orphans: 3;
+  widows: 3;
+}
+
+/* ============================================
+   Cover Page - Retro Style
+   ============================================ */
+.cover-page {
+  page-break-after: always;
+  text-align: center;
+  padding-top: 2in;
+  position: relative;
+}
+
+.cover-page::before {
+  content: "";
+  position: absolute;
+  top: 0.5in;
+  left: 0.5in;
+  right: 0.5in;
+  bottom: 0.5in;
+  border: 4pt double var(--color-teal);
+  border-radius: 8pt;
+}
+
+.cover-page h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 42pt;
+  color: var(--color-teal-dark);
+  margin-bottom: 0.25em;
+  border: none;
+  text-shadow: 2pt 2pt 0 var(--color-teal-light);
+}
+
+.cover-page .subtitle {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 16pt;
+  font-style: italic;
+  color: var(--color-coral);
+  margin-bottom: 2em;
+}
+
+.cover-page .dedication {
+  font-size: 12pt;
+  color: var(--color-text-light);
+  margin-top: 3em;
+  font-style: italic;
+}
+
+.cover-page .soli-deo-gloria {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 14pt;
+  font-style: italic;
+  color: var(--color-teal);
+  margin-top: 2em;
+  letter-spacing: 2pt;
+}
+
+/* Decorative divider */
+.cover-page .divider {
+  margin: 1.5em auto;
+  width: 3in;
+  height: 2pt;
+  background: linear-gradient(90deg, transparent, var(--color-teal), var(--color-coral), var(--color-teal), transparent);
+}
+
+/* ============================================
+   Table of Contents
+   ============================================ */
+.toc {
+  page-break-after: always;
+}
+
+.toc h2 {
+  text-align: center;
+  border: none;
+  font-family: 'Pacifico', cursive;
+  color: var(--color-teal-dark);
+}
+
+.toc-section {
+  margin: 1.5em 0;
+}
+
+.toc-section h3 {
+  margin-bottom: 0.5em;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  color: var(--color-coral);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.toc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 0;
+  border-bottom: 1px dotted var(--color-teal-light);
+}
+
+.toc-list li:last-child {
+  border-bottom: none;
+}
+
+.toc-list .page-num {
+  color: var(--color-teal-dark);
+  font-weight: bold;
+}
+
+/* ============================================
+   Section Dividers
+   ============================================ */
+.section-divider {
+  page-break-before: always;
+  text-align: center;
+  padding-top: 2in;
+}
+
+.section-divider h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 32pt;
+  border: none;
+  color: var(--color-teal-dark);
+  margin-bottom: 0.5em;
+}
+
+.section-divider .section-icon {
+  font-size: 48pt;
+  margin-bottom: 0.5em;
+  color: var(--color-coral);
+}
+
+.section-divider::after {
+  content: "✿ ✿ ✿";
+  display: block;
+  margin-top: 1em;
+  color: var(--color-teal);
+  letter-spacing: 0.5em;
+}
+
+/* ============================================
+   Recipe Page
+   ============================================ */
+.recipe {
+  page-break-before: always;
+  page-break-inside: avoid;
+}
+
+.recipe-header {
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 3pt solid var(--color-teal);
+  position: relative;
+}
+
+.recipe-header::after {
+  content: "";
+  position: absolute;
+  bottom: -6pt;
+  left: 0;
+  right: 0;
+  height: 1pt;
+  background: var(--color-teal-light);
+}
+
+.recipe-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 22pt;
+  margin: 0 0 0.25em;
+  color: var(--color-teal-dark);
+  font-weight: normal;
+}
+
+.recipe-attribution {
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  color: var(--color-coral);
+  margin: 0;
+}
+
+.recipe-source {
+  font-size: 10pt;
+  color: var(--color-text-light);
+  margin: 0.25em 0 0;
+}
+
+.recipe-description {
+  font-style: italic;
+  margin: 0.5em 0;
+  color: var(--color-text-light);
+}
+
+/* ============================================
+   Quick Facts - Retro Badge Style
+   ============================================ */
+.quick-facts {
+  display: table;
+  width: 100%;
+  margin: 1em 0;
+  background: var(--color-teal-pale);
+  padding: 0.5em;
+  border: 1pt solid var(--color-teal-light);
+  border-radius: 4pt;
+}
+
+.quick-facts-row {
+  display: table-row;
+}
+
+.quick-fact {
+  display: table-cell;
+  text-align: center;
+  padding: 0.25em 0.5em;
+  width: 20%;
+}
+
+.quick-fact-label {
+  font-size: 8pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5pt;
+  color: var(--color-teal-dark);
+  display: block;
+  font-weight: bold;
+}
+
+.quick-fact-value {
+  font-size: 11pt;
+  font-weight: bold;
+  color: var(--color-coral);
+}
+
+/* ============================================
+   Ingredients - Index Card Style
+   ============================================ */
+.ingredients {
+  margin: 1em 0;
+  page-break-inside: avoid;
+  background: linear-gradient(to bottom, transparent 0, transparent 1.4em, var(--color-teal-pale) 1.4em, var(--color-teal-pale) 1.5em);
+  background-size: 100% 1.5em;
+  padding: 0.75em;
+  border: 1pt solid var(--color-chrome);
+  border-radius: 2pt;
+}
+
+.ingredients h3 {
+  margin-top: 0;
+  color: var(--color-teal-dark);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 2em;
+}
+
+.ingredients-list li {
+  break-inside: avoid;
+  padding: 0.2em 0;
+  line-height: 1.5em;
+}
+
+.ingredient-qty {
+  font-weight: bold;
+  color: var(--color-teal-dark);
+}
+
+.ingredient-prep {
+  font-size: 10pt;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+/* ============================================
+   Instructions - Numbered Steps
+   ============================================ */
+.instructions {
+  margin: 1em 0;
+}
+
+.instructions h3 {
+  color: var(--color-teal-dark);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.instructions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step;
+}
+
+.instructions-list li {
+  position: relative;
+  padding: 0.5em 0 0.5em 2.5em;
+  border-bottom: 1px dashed var(--color-teal-light);
+  counter-increment: step;
+  page-break-inside: avoid;
+}
+
+.instructions-list li:last-child {
+  border-bottom: none;
+}
+
+.instructions-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 1.5em;
+  height: 1.5em;
+  background: var(--color-teal);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.instructions-list li.inferred {
+  background: var(--color-butter);
+  margin-left: -0.5em;
+  padding-left: 3em;
+  border-left: 3pt solid var(--color-coral);
+}
+
+.instructions-list li.inferred::after {
+  content: " (inferred)";
+  font-size: 9pt;
+  color: var(--color-coral);
+  font-style: italic;
+}
+
+/* ============================================
+   Sub-recipe (frosting, sauce, etc.)
+   ============================================ */
+.sub-recipe {
+  background: var(--color-cream);
+  padding: 0.75em;
+  margin: 1em 0;
+  border-left: 4pt solid var(--color-coral);
+  border-radius: 0 4pt 4pt 0;
+}
+
+.sub-recipe h4 {
+  margin-top: 0;
+  color: var(--color-coral);
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* ============================================
+   Notes Section
+   ============================================ */
+.notes {
+  background: var(--color-teal-pale);
+  padding: 0.75em;
+  margin: 1em 0;
+  border-left: 4pt solid var(--color-teal);
+  border-radius: 0 4pt 4pt 0;
+}
+
+.notes h4 {
+  margin-top: 0;
+  color: var(--color-teal-dark);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.notes h4::before {
+  content: "✎ ";
+}
+
+.notes ul {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+/* ============================================
+   Nutrition Facts - Retro Label Style
+   ============================================ */
+.nutrition {
+  margin: 1em 0;
+  padding: 0.75em;
+  border: 2pt solid var(--color-teal);
+  border-radius: 4pt;
+  page-break-inside: avoid;
+}
+
+.nutrition h4 {
+  margin: 0 0 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 1pt solid var(--color-teal-light);
+  color: var(--color-teal-dark);
+  font-family: 'Lora', Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  font-size: 10pt;
+}
+
+.nutrition-grid {
+  display: table;
+  width: 100%;
+  font-size: 10pt;
+}
+
+.nutrition-row {
+  display: table-row;
+}
+
+.nutrition-label,
+.nutrition-value {
+  display: table-cell;
+  padding: 0.15em 0;
+  border-bottom: 1px dotted var(--color-teal-light);
+}
+
+.nutrition-label {
+  color: var(--color-text-light);
+}
+
+.nutrition-value {
+  text-align: right;
+  font-weight: bold;
+  color: var(--color-teal-dark);
+}
+
+/* ============================================
+   Tags - Retro Label Style
+   ============================================ */
+.recipe-tags {
+  margin-top: 1em;
+  font-size: 9pt;
+}
+
+.recipe-tag {
+  display: inline-block;
+  background: var(--color-teal-light);
+  padding: 0.15em 0.6em;
+  margin: 0.1em;
+  border-radius: 10pt;
+  color: var(--color-teal-dark);
+  font-weight: 600;
+}
+
+/* ============================================
+   Variants Section
+   ============================================ */
+.variants {
+  margin: 1em 0;
+  padding: 0.75em;
+  background: var(--color-butter);
+  border: 1pt dashed var(--color-coral);
+  border-radius: 4pt;
+}
+
+.variants h4 {
+  margin-top: 0;
+  color: var(--color-coral);
+  font-family: 'Lora', Georgia, serif;
+}
+
+.variants h4::before {
+  content: "★ ";
+}
+
+.variant-item {
+  padding: 0.25em 0;
+  border-bottom: 1px dotted var(--color-coral);
+}
+
+.variant-item:last-child {
+  border-bottom: none;
+}
+
+/* ============================================
+   Index - Alphabetical
+   ============================================ */
+.index {
+  page-break-before: always;
+}
+
+.index h2 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: var(--color-teal-dark);
+}
+
+.index-columns {
+  columns: 2;
+  column-gap: 2em;
+}
+
+.index-letter {
+  break-after: avoid-column;
+  font-family: 'Pacifico', cursive;
+  font-size: 18pt;
+  font-weight: normal;
+  color: var(--color-coral);
+  margin: 1em 0 0.25em;
+  border-bottom: 2pt solid var(--color-teal-light);
+}
+
+.index-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em;
+}
+
+.index-list li {
+  break-inside: avoid;
+  padding: 0.1em 0;
+  font-size: 10pt;
+}
+
+.index-list .page-ref {
+  color: var(--color-teal-dark);
+  font-weight: bold;
+}
+
+/* ============================================
+   Appendix - Original Scans
+   ============================================ */
+.appendix {
+  page-break-before: always;
+}
+
+.appendix h2 {
+  font-family: 'Pacifico', cursive;
+  color: var(--color-teal-dark);
+}
+
+.scan-entry {
+  margin: 1em 0;
+  break-inside: avoid;
+}
+
+.scan-entry img {
+  max-width: 3in;
+  max-height: 2in;
+  border: 2pt solid var(--color-chrome);
+  border-radius: 2pt;
+}
+
+.scan-caption {
+  font-size: 9pt;
+  color: var(--color-text-light);
+  margin-top: 0.25em;
+  font-style: italic;
+}
+
+/* ============================================
+   Confidence Indicators
+   ============================================ */
+.confidence-high {
+  /* No special styling needed */
+}
+
+.confidence-medium {
+  position: relative;
+}
+
+.confidence-medium::after {
+  content: "◐";
+  color: var(--color-butter);
+  margin-left: 0.25em;
+}
+
+.confidence-low {
+  position: relative;
+}
+
+.confidence-low::after {
+  content: "◯";
+  color: var(--color-coral);
+  margin-left: 0.25em;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+.page-break {
+  page-break-before: always;
+}
+
+.no-break {
+  page-break-inside: avoid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.decorative-border {
+  border: 2pt double var(--color-teal);
+  padding: 1em;
+  border-radius: 4pt;
+}
+
+/* Retro star divider */
+.star-divider {
+  text-align: center;
+  margin: 1em 0;
+  color: var(--color-teal);
+  letter-spacing: 0.5em;
+}
+
+.star-divider::before {
+  content: "✦ ✦ ✦";
+}
+
+/* ============================================
+   Print-specific adjustments
+   ============================================ */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .instructions-list li::before {
+    background: var(--color-teal) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .quick-facts {
+    background: var(--color-teal-pale) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .ingredients {
+    background: linear-gradient(to bottom, transparent 0, transparent 1.4em, var(--color-teal-pale) 1.4em, var(--color-teal-pale) 1.5em) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .notes {
+    background: var(--color-teal-pale) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .sub-recipe {
+    background: var(--color-cream) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .variants {
+    background: var(--color-butter) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .recipe-tag {
+    background: var(--color-teal-light) !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

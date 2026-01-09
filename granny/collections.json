@@ -1,0 +1,36 @@
+{
+  "collections": {
+    "grandma": {
+      "id": "grandma",
+      "display_name": "Grandma Baker",
+      "folder": "data/",
+      "description": "Michigan roots, Southern cooking",
+      "recipe_count": 624
+    },
+    "mommom": {
+      "id": "mommom",
+      "display_name": "MomMom Baker",
+      "folder": "data/mom/",
+      "description": "Family recipes passed down through generations",
+      "recipe_count": 0
+    },
+    "granny": {
+      "id": "granny",
+      "display_name": "Granny Hudson",
+      "folder": "data/granny/",
+      "description": "Additional family collection",
+      "recipe_count": 0
+    },
+    "reference": {
+      "id": "reference",
+      "display_name": "Reference Cookbook",
+      "folder": "data/all/",
+      "description": "Digital cookbook recipes (used with permission)",
+      "recipe_count": 0,
+      "hidden_from_filters": true,
+      "show_only_in_all": true
+    }
+  },
+  "default_collection": "all",
+  "version": "1.0.0"
+}
