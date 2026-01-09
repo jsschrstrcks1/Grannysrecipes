@@ -1,5 +1,5 @@
 /**
- * Grandma's Recipe Archive - Client-side JavaScript
+ * Granny Hudson's Recipe Archive - Client-side JavaScript
  * Handles recipe loading, search, filtering, and navigation
  */
 
@@ -84,7 +84,7 @@ async function init() {
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('data/recipes_master.json');
+    const response = await fetch('granny/recipes_master.json');
     const data = await response.json();
     recipes = data.recipes || [];
 
@@ -395,7 +395,7 @@ function renderRecipeDetail(recipeId) {
   const variants = findVariants(recipe);
 
   // Update page title
-  document.title = `${recipe.title} - Grandma's Recipe Archive`;
+  document.title = `${recipe.title} - Granny's Recipe Archive`;
 
   let html = `
     <article class="recipe-detail">
@@ -719,13 +719,8 @@ function renderConfidenceFlags(flags) {
  * Get the folder path for a collection's images
  */
 function getCollectionImagePath(collection) {
-  const collectionPaths = {
-    'grandma': 'grandma/',
-    'mommom': 'mom/',
-    'granny': 'granny/',
-    'reference': 'all/'
-  };
-  return collectionPaths[collection] || 'grandma/';
+  // This repository only contains the granny collection
+  return 'granny/';
 }
 
 /**
