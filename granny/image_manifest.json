@@ -1,6 +1,6 @@
 {
   "created": "2026-01-09T17:12:44.525483",
-  "last_updated": "2026-01-10T00:25:04.250252",
+  "last_updated": "2026-01-10T00:29:32.479737",
   "max_dimension": 2000,
   "collections": {
     "granny": {
@@ -381,12 +381,14 @@
       "collection": "granny",
       "filename": "168 Medium.jpeg",
       "path": "granny/168 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.003511",
-      "file_size": 113037
+      "file_size": 113037,
+      "status_updated": "2026-01-10T00:26:32.905168",
+      "notes": "Handwritten Pickled Beets"
     },
     "granny/169 Medium.jpeg": {
       "collection": "granny",
@@ -418,34 +420,40 @@
       "collection": "granny",
       "filename": "170 Medium.jpeg",
       "path": "granny/170 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.003977",
-      "file_size": 133303
+      "file_size": 133303,
+      "status_updated": "2026-01-10T00:27:22.921105",
+      "notes": "Handwritten Banana Bread (page 1)"
     },
     "granny/171 Medium.jpeg": {
       "collection": "granny",
       "filename": "171 Medium.jpeg",
       "path": "granny/171 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.004126",
-      "file_size": 82065
+      "file_size": 82065,
+      "status_updated": "2026-01-10T00:27:58.298501",
+      "notes": "Handwritten Banana Bread (page 2)"
     },
     "granny/172 Medium.jpeg": {
       "collection": "granny",
       "filename": "172 Medium.jpeg",
       "path": "granny/172 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.004265",
-      "file_size": 114398
+      "file_size": 114398,
+      "status_updated": "2026-01-10T00:28:44.738557",
+      "notes": "Handwritten Grandma's Wheat Berrie Muffins"
     },
     "granny/173 Medium.jpeg": {
       "collection": "granny",
@@ -462,12 +470,14 @@
       "collection": "granny",
       "filename": "174 Medium.jpeg",
       "path": "granny/174 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.004520",
-      "file_size": 96281
+      "file_size": 96281,
+      "status_updated": "2026-01-10T00:29:32.479721",
+      "notes": "Handwritten Angel Delight"
     },
     "granny/18 Medium.jpeg": {
       "collection": "granny",
@@ -4976,7 +4986,7 @@
     "validated": 443,
     "broken": 5,
     "oversized": 0,
-    "processed": 9,
+    "processed": 14,
     "skipped": 0
   }
 }
