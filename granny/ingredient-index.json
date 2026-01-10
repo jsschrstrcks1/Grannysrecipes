@@ -1,0 +1,1765 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "description": "Pre-compiled ingredient search index for Granny Hudson's Kitchen",
+    "total_ingredients": 435,
+    "total_recipes_indexed": 100
+  },
+  "ingredients": {
+    "active-dry-yeast": [
+      "easy-croissants-granny",
+      "peachn-berry-twists-granny"
+    ],
+    "all-purpose-flour": [
+      "banana-bread-dewolf-granny",
+      "basic-crust-granny",
+      "caramel-crunch-bars-granny",
+      "carrot-cake-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "crabmeat-clam-chowder-granny",
+      "cranberry-upside-down-muffins-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "easy-croissants-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "fruit-pie-in-cookie-crust-granny",
+      "irish-soda-bread-granny",
+      "make-ahead-cookie-mix-granny",
+      "maple-pecan-waffles-granny",
+      "markys-blue-eyed-muffins-granny",
+      "melting-moments-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "pizza-horns-granny",
+      "pound-cake-granny",
+      "praline-lace-sundaes-granny",
+      "pumpkin-sheet-cookies-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "quiche-crepes-granny",
+      "quick-corn-souffle-granny",
+      "red-snapper-vera-cruz-granny",
+      "savory-beef-granny",
+      "shrimp-newburg-in-patty-shells-granny",
+      "swordfish-steamed-vegetables-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "allspice": [
+      "spiced-blueberry-jam-granny"
+    ],
+    "almond-extract": [
+      "buttercups-granny",
+      "grandmas-wheat-berrie-muffins-granny"
+    ],
+    "angel-food-cake": [
+      "angel-delight-granny"
+    ],
+    "apple-cider-or-apple-juice": [
+      "pork-chops-cider-sauce-granny"
+    ],
+    "apple-juice": [
+      "fruit-pie-in-cookie-crust-granny",
+      "walnut-chocolate-fudge-granny"
+    ],
+    "apricot-or-raspberry-jam": [
+      "danish-kringle-and-pastry-horns-granny"
+    ],
+    "argo-or-kingsford's-corn-starch": [
+      "linguine-with-garden-clam-sauce-granny",
+      "peanutty-chocolate-pie-granny"
+    ],
+    "bacon": [
+      "quiche-crepes-granny"
+    ],
+    "bacon-slices": [
+      "smoky-bacon-burgers-granny"
+    ],
+    "baked-crust-made-with-coconut-cream-pudding-and-pie-filling-mix": [
+      "berry-banana-dessert-granny",
+      "frosty-orange-delight-granny"
+    ],
+    "baked-crust-made-with-lemon-pudding-and-pie-filling-mix": [
+      "strawberries-n-cream-cheese-freeze-granny"
+    ],
+    "baking-powder": [
+      "banana-bread-dewolf-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "cranberry-upside-down-muffins-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "grandmas-wheat-berrie-muffins-granny",
+      "irish-soda-bread-granny",
+      "make-ahead-cookie-mix-granny",
+      "maple-pecan-waffles-granny",
+      "markys-blue-eyed-muffins-granny",
+      "pound-cake-granny",
+      "quick-corn-souffle-granny",
+      "strawberry-shortcut-cake-granny"
+    ],
+    "baking-soda": [
+      "caramel-corn-granny",
+      "carrot-cake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "irish-soda-bread-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "banana": [
+      "banana-chocolate-cake-granny"
+    ],
+    "bananas": [
+      "banana-pudding-bobby-jones-granny"
+    ],
+    "barley": [
+      "beef-vegetable-soup-granny"
+    ],
+    "bay-leaf": [
+      "red-snapper-vera-cruz-granny",
+      "spanish-rice-granny"
+    ],
+    "beaten-egg": [
+      "chocolate-strawberry-shortcake-granny"
+    ],
+    "beef-bouillon-cube": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "beef-round-or-stew-meat": [
+      "beef-vegetable-soup-granny"
+    ],
+    "beets": [
+      "pickled-beets-granny"
+    ],
+    "big-green-peppers": [
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "bing-cherries": [
+      "black-cherry-tart-granny"
+    ],
+    "black-pepper": [
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-vegetable-soup-granny",
+      "chefs-hamburgers-granny",
+      "corned-beef-hash-casserole-granny",
+      "country-style-ribs-and-corn-granny",
+      "deviled-cornish-hens-granny",
+      "easy-potato-gratin-granny",
+      "garden-leaf-salad-granny",
+      "roast-leg-of-lamb-with-mint-sauce-granny",
+      "shrimp-newburg-in-patty-shells-granny",
+      "smoky-bacon-burgers-granny",
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "blade-cut-or-round-bone-pot-roast": [
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "blueberries": [
+      "grandmas-wheat-berrie-muffins-granny"
+    ],
+    "boiled-potato": [
+      "vegetable-mix-salad-granny"
+    ],
+    "boiling-water": [
+      "lime-coconut-salad-granny",
+      "toasted-herb-rice-granny"
+    ],
+    "boneless-pork": [
+      "pork-broccoli-delight-granny"
+    ],
+    "boneless-sirloin": [
+      "sirloin-steak-in-marinade-granny"
+    ],
+    "bottle-chili-sauce": [
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "bouillon-cube": [
+      "pork-chop-casserole-granny"
+    ],
+    "bread-crumbs": [
+      "italian-meat-loaf-granny"
+    ],
+    "bread-crumbs-or-croutons": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "breakfast-style-seasoned-pork-sausage": [
+      "sausage-stuffed-mushrooms-granny"
+    ],
+    "brewed-coffee": [
+      "cinnamon-mocha-sheet-cake-granny"
+    ],
+    "broiler-fryer-chickens": [
+      "herb-grilled-chicken-granny"
+    ],
+    "brown-sugar": [
+      "caramel-corn-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "markys-blue-eyed-muffins-granny",
+      "senator-russells-sweet-potatoes-granny",
+      "sirloin-steak-in-marinade-granny",
+      "sweet-and-spicy-pot-roast-granny",
+      "white-chocolate-chunk-cookies-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "butter": [
+      "bubble-loaf-granny",
+      "caramel-corn-granny",
+      "caramel-crunch-bars-granny",
+      "carrot-cake-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-butter-cake-granny",
+      "pound-cake-granny",
+      "salt-cod-fish-recipes-granny"
+    ],
+    "butter-and-green-bell-pepper": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "butter-cake": [
+      "pineapple-dream-cake-granny"
+    ],
+    "butter-or-margarine": [
+      "banana-chocolate-cake-granny",
+      "basic-crust-granny",
+      "beef-vegetable-soup-granny",
+      "black-cherry-tart-granny",
+      "broiled-spring-chicken-granny",
+      "caramel-crunch-bars-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "corned-beef-hash-casserole-granny",
+      "country-style-ribs-and-corn-granny",
+      "crabmeat-clam-chowder-granny",
+      "cranberry-upside-down-muffins-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "dump-cake-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "easy-potato-gratin-granny",
+      "fruit-pie-in-cookie-crust-granny",
+      "grandmas-wheat-berrie-muffins-granny",
+      "herb-grilled-chicken-granny",
+      "make-ahead-cookie-mix-granny",
+      "markys-blue-eyed-muffins-granny",
+      "melting-moments-granny",
+      "nestle-famous-fudge-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "pork-chops-cider-sauce-granny",
+      "praline-lace-sundaes-granny",
+      "pumpkin-sheet-cookies-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "quick-corn-souffle-granny",
+      "red-snapper-vera-cruz-granny",
+      "shrimp-newburg-in-patty-shells-granny",
+      "swordfish-steamed-vegetables-granny",
+      "toasted-herb-rice-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "butterhead-lettuce": [
+      "garden-leaf-salad-granny"
+    ],
+    "buttermilk": [
+      "irish-soda-bread-granny",
+      "old-fashioned-butter-cake-granny"
+    ],
+    "canned-diced-tomatoes-with-juice": [
+      "joyces-chicken-granny"
+    ],
+    "cannellini-beans": [
+      "garlic-bean-dip-granny"
+    ],
+    "carnation-evaporated-milk": [
+      "nestle-famous-fudge-granny"
+    ],
+    "carrots": [
+      "beef-vegetable-soup-granny",
+      "carrot-cake-granny",
+      "country-style-ribs-and-corn-granny",
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "catsup": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "cayenne": [
+      "corned-beef-hash-casserole-granny"
+    ],
+    "celery": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "celery-and-sliced-onions": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "cherry-pie-filling": [
+      "dump-cake-granny"
+    ],
+    "chicken-bouillon-cubes": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "chicken-breast-halves": [
+      "chicken-breasts-roma-granny"
+    ],
+    "chicken-breasts": [
+      "joyces-chicken-granny"
+    ],
+    "chicken-broth": [
+      "joyces-chicken-granny",
+      "toasted-herb-rice-granny"
+    ],
+    "chicken-stock": [
+      "fennel-glazed-pork-loin-granny"
+    ],
+    "chilled-soda-water": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "chocolate-curls": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "chocolate-syrup": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "chopped-celery": [
+      "savory-beef-granny"
+    ],
+    "chopped-chives": [
+      "savory-beef-granny"
+    ],
+    "chopped-fresh-parsley": [
+      "garlic-bean-dip-granny"
+    ],
+    "chopped-green-onion": [
+      "vegetable-mix-salad-granny"
+    ],
+    "chopped-green-onions": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "chopped-green-pepper": [
+      "joyces-chicken-granny"
+    ],
+    "chopped-nuts": [
+      "easy-double-chocolate-chip-brownies-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "chopped-onion": [
+      "broccoli-casserole-granny",
+      "joyces-chicken-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "chopped-onions": [
+      "stuffed-peppers-granny"
+    ],
+    "chopped-parsley": [
+      "italian-meat-loaf-granny",
+      "joyces-chicken-granny",
+      "sausage-stuffed-mushrooms-granny"
+    ],
+    "chopped-peanuts": [
+      "peanutty-chocolate-pie-granny"
+    ],
+    "chopped-pecans": [
+      "carrot-cake-granny",
+      "maple-pecan-waffles-granny"
+    ],
+    "chopped-pecans-or-walnuts": [
+      "senator-russells-sweet-potatoes-granny"
+    ],
+    "chopped-walnuts": [
+      "crumb-topped-blueberry-cake-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "cider-vinegar": [
+      "garlic-bean-dip-granny"
+    ],
+    "cinnamon": [
+      "black-cherry-tart-granny",
+      "carrot-cake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "irish-soda-bread-granny",
+      "praline-lace-sundaes-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "red-snapper-vera-cruz-granny",
+      "spiced-blueberry-jam-granny"
+    ],
+    "coarse-salt": [
+      "chefs-hamburgers-granny"
+    ],
+    "coarsely-chopped-walnuts": [
+      "walnut-chocolate-fudge-granny"
+    ],
+    "cocoa-or-margarine": [
+      "cinnamon-mocha-sheet-cake-granny"
+    ],
+    "coconut": [
+      "dump-cake-granny"
+    ],
+    "coffee-syrup": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "cognac": [
+      "chefs-hamburgers-granny"
+    ],
+    "coleslaw": [
+      "pork-barbecue-sandwiches-granny"
+    ],
+    "condensed-tomato-soup": [
+      "stuffed-peppers-granny"
+    ],
+    "cooked-pork": [
+      "pork-barbecue-sandwiches-granny"
+    ],
+    "cooked-prunes": [
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "cool-whip": [
+      "angel-delight-granny"
+    ],
+    "cool-whip-or-whipped-cream": [
+      "lime-coconut-salad-granny"
+    ],
+    "corn-oil-or-clarified-butter": [
+      "spanish-rice-granny"
+    ],
+    "corn-syrup": [
+      "caramel-corn-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "corned-beef-hash": [
+      "corned-beef-hash-casserole-granny"
+    ],
+    "cornish-game-hens": [
+      "deviled-cornish-hens-granny"
+    ],
+    "cornstarch": [
+      "black-cherry-tart-granny",
+      "fruit-pie-in-cookie-crust-granny"
+    ],
+    "cottage-cheese": [
+      "lime-coconut-salad-granny"
+    ],
+    "cranberries": [
+      "cranberry-upside-down-muffins-granny"
+    ],
+    "cream-cheese": [
+      "berry-banana-dessert-granny",
+      "broiled-spring-chicken-granny",
+      "carrot-cake-granny",
+      "frosty-orange-delight-granny",
+      "no-regrets-cheesecake-granny",
+      "strawberries-n-cream-cheese-freeze-granny"
+    ],
+    "cream-of-chicken-soup": [
+      "busy-day-casserole-granny"
+    ],
+    "cream-of-mushroom-soup": [
+      "busy-day-casserole-granny"
+    ],
+    "cream-of-tartar": [
+      "caramel-corn-granny"
+    ],
+    "cream-style-corn": [
+      "country-style-ribs-and-corn-granny"
+    ],
+    "creamed-style-corn": [
+      "quick-corn-souffle-granny"
+    ],
+    "crepes": [
+      "quiche-crepes-granny"
+    ],
+    "croutons": [
+      "pork-broccoli-delight-granny"
+    ],
+    "crushed-fennel": [
+      "fennel-glazed-pork-loin-granny"
+    ],
+    "crushed-pineapple": [
+      "dump-cake-granny",
+      "lime-coconut-salad-granny",
+      "pineapple-dream-cake-granny"
+    ],
+    "cubed-or-shredded-cheese": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "dairy-sour-cream": [
+      "peachn-berry-twists-granny"
+    ],
+    "dark-brown-sugar": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "diced-fresh-sliced-or-assorted-fruit": [
+      "fruit-pie-in-cookie-crust-granny"
+    ],
+    "diced-ham": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "diced-tomatoes": [
+      "chicken-breasts-roma-granny"
+    ],
+    "dijon-mustard": [
+      "broccoli-with-egg-dressing-granny"
+    ],
+    "dijon-style-mustard": [
+      "chefs-hamburgers-granny",
+      "pork-chops-cider-sauce-granny"
+    ],
+    "dill-pickles": [
+      "pork-barbecue-sandwiches-granny"
+    ],
+    "dried-basil-leaves": [
+      "beef-bean-and-noodle-skillet-granny",
+      "joyces-chicken-granny"
+    ],
+    "dried-oregano": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "dried-oregano-leaves": [
+      "italian-meat-loaf-granny"
+    ],
+    "dried-parsley": [
+      "bubble-loaf-granny"
+    ],
+    "dried-rosemary": [
+      "roast-leg-of-lamb-with-mint-sauce-granny",
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "dried-sage-leaves": [
+      "pork-chops-cider-sauce-granny"
+    ],
+    "dried-tarragon-leaves": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "dried-tarragon-or-basil-leaves": [
+      "toasted-herb-rice-granny"
+    ],
+    "dried-thyme-leaves": [
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "dry-bread-crumbs": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "dry-mustard": [
+      "corned-beef-hash-casserole-granny"
+    ],
+    "dry-white-wine": [
+      "joyces-chicken-granny",
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "dry-white-wine-or-water": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "dry-yeast": [
+      "danish-kringle-and-pastry-horns-granny"
+    ],
+    "dutch-process-cocoa-powder": [
+      "banana-chocolate-cake-granny"
+    ],
+    "each-baking-soda-and-salt": [
+      "banana-chocolate-cake-granny"
+    ],
+    "egg": [
+      "beef-meatballs-in-tomato-sauce-granny",
+      "cranberry-upside-down-muffins-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "italian-meat-loaf-granny",
+      "markys-blue-eyed-muffins-granny",
+      "smoky-bacon-burgers-granny",
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "egg-noodles": [
+      "pork-chop-casserole-granny"
+    ],
+    "egg-white": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "egg-whites": [
+      "maple-pecan-waffles-granny"
+    ],
+    "egg-yolk": [
+      "fruit-pie-in-cookie-crust-granny"
+    ],
+    "egg-yolks": [
+      "buttercups-granny",
+      "caramel-crunch-bars-granny",
+      "maple-pecan-waffles-granny",
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "eggs": [
+      "alans-basic-flan-granny",
+      "banana-bread-dewolf-granny",
+      "banana-chocolate-cake-granny",
+      "broccoli-casserole-granny",
+      "carrot-cake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "easy-croissants-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "easy-potato-gratin-granny",
+      "frosty-orange-delight-granny",
+      "garden-leaf-salad-granny",
+      "grandmas-wheat-berrie-muffins-granny",
+      "irish-soda-bread-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "no-regrets-cheesecake-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "pineapple-dream-cake-granny",
+      "pound-cake-granny",
+      "pumpkin-sheet-cookies-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "quiche-crepes-granny",
+      "quick-corn-souffle-granny",
+      "salt-cod-fish-recipes-granny",
+      "senator-russells-sweet-potatoes-granny",
+      "strawberry-shortcut-cake-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny"
+    ],
+    "evaporated-milk-or-crisco": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "extra-lean-ground-beef": [
+      "chefs-hamburgers-granny",
+      "smoky-bacon-burgers-granny"
+    ],
+    "finely-chopped-onion": [
+      "smoky-bacon-burgers-granny"
+    ],
+    "finely-diced-cooked-ham": [
+      "easy-potato-gratin-granny"
+    ],
+    "finely-minced-onion": [
+      "quiche-crepes-granny"
+    ],
+    "finely-sliced-green-onions": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "firm-butter-or-margarine": [
+      "easy-croissants-granny"
+    ],
+    "firmly-packed-brown-sugar": [
+      "quakers-best-oatmeal-cookies-granny"
+    ],
+    "flexible-straws-and-large-marshmallows": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "florida-tomatoes": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "flour": [
+      "buttercups-granny",
+      "ham-and-cheese-casserole-granny"
+    ],
+    "fresh-basil-leaves": [
+      "herb-grilled-chicken-granny"
+    ],
+    "fresh-blueberries": [
+      "spiced-blueberry-jam-granny"
+    ],
+    "fresh-bread-cubes": [
+      "beef-vegetable-soup-granny"
+    ],
+    "fresh-broccoli": [
+      "broccoli-with-egg-dressing-granny"
+    ],
+    "fresh-cilantro-leaves": [
+      "easy-guacamole-granny"
+    ],
+    "fresh-cracked-black-pepper": [
+      "herb-grilled-chicken-granny"
+    ],
+    "fresh-lemon-juice": [
+      "broiled-spring-chicken-granny"
+    ],
+    "fresh-lime-juice": [
+      "easy-guacamole-granny"
+    ],
+    "fresh-mushrooms": [
+      "chefs-hamburgers-granny",
+      "chicken-breasts-roma-granny"
+    ],
+    "fresh-or-frozen-blueberries": [
+      "markys-blue-eyed-muffins-granny"
+    ],
+    "fresh-parsley": [
+      "chefs-hamburgers-granny",
+      "easy-potato-gratin-granny"
+    ],
+    "fresh-red-snapper-fillets": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "fresh-strawberries": [
+      "angel-delight-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "maple-pecan-waffles-granny"
+    ],
+    "fresh-tomato": [
+      "country-style-ribs-and-corn-granny"
+    ],
+    "freshly-ground-black-pepper": [
+      "barbecued-spareribs-orientale-granny",
+      "joyces-chicken-granny"
+    ],
+    "frozen-bread-dough": [
+      "bubble-loaf-granny",
+      "pizza-horns-granny"
+    ],
+    "frozen-broccoli": [
+      "broccoli-casserole-granny"
+    ],
+    "frozen-broccoli-spears": [
+      "pork-broccoli-delight-granny"
+    ],
+    "frozen-crabmeat": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "frozen-lemonade-concentrate": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "frozen-mixed-vegetables": [
+      "busy-day-casserole-granny"
+    ],
+    "frozen-patty-shells": [
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "frozen-pound-cakes": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "frozen-raspberries": [
+      "berry-banana-dessert-granny"
+    ],
+    "frozen-strawberries": [
+      "homemade-ice-cream-sodas-granny",
+      "strawberries-n-cream-cheese-freeze-granny"
+    ],
+    "frozen-strawberries-in-syrup": [
+      "strawberry-shortcut-cake-granny"
+    ],
+    "fryer-chicken": [
+      "broiled-spring-chicken-granny"
+    ],
+    "garlic": [
+      "barbecued-spareribs-orientale-granny",
+      "chefs-hamburgers-granny",
+      "chicken-breasts-roma-granny",
+      "crabmeat-clam-chowder-granny",
+      "easy-guacamole-granny",
+      "easy-potato-gratin-granny",
+      "fennel-glazed-pork-loin-granny",
+      "garlic-bean-dip-granny",
+      "herb-grilled-chicken-granny",
+      "italian-meat-loaf-granny",
+      "joyces-chicken-granny",
+      "pork-chops-cider-sauce-granny",
+      "red-snapper-vera-cruz-granny",
+      "roast-leg-of-lamb-with-mint-sauce-granny",
+      "savory-beef-granny",
+      "sirloin-steak-in-marinade-granny",
+      "spanish-rice-granny",
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "garlic-cloves": [
+      "deviled-cornish-hens-granny"
+    ],
+    "garlic-powder": [
+      "bubble-loaf-granny",
+      "pizza-horns-granny"
+    ],
+    "garlic-salt": [
+      "country-style-ribs-and-corn-granny",
+      "italian-meat-loaf-granny",
+      "sweet-and-spicy-pot-roast-granny",
+      "turkey-burgers-deluxe-granny"
+    ],
+    "gelatin": [
+      "peachn-berry-twists-granny"
+    ],
+    "graham-cracker-crumbs": [
+      "black-cherry-tart-granny"
+    ],
+    "graham-cracker-crust": [
+      "no-regrets-cheesecake-granny"
+    ],
+    "granulated-sugar": [
+      "alans-basic-flan-granny",
+      "barbecued-spareribs-orientale-granny",
+      "caramel-crunch-bars-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "cranberry-upside-down-muffins-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "easy-croissants-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "fruit-pie-in-cookie-crust-granny",
+      "homemade-ice-cream-sodas-granny",
+      "markys-blue-eyed-muffins-granny",
+      "nestle-famous-fudge-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "praline-lace-sundaes-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "quick-corn-souffle-granny",
+      "spiced-blueberry-jam-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "walnut-chocolate-fudge-granny",
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "grated-carrots": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "grated-coconut": [
+      "buttercups-granny"
+    ],
+    "grated-lemon-rind": [
+      "fruit-pie-in-cookie-crust-granny"
+    ],
+    "grated-mozzarella": [
+      "pizza-horns-granny"
+    ],
+    "grated-orange-rind": [
+      "praline-lace-sundaes-granny"
+    ],
+    "grated-parmesan-cheese": [
+      "linguine-with-garden-clam-sauce-granny",
+      "pork-broccoli-delight-granny"
+    ],
+    "green-onions": [
+      "country-style-ribs-and-corn-granny",
+      "sirloin-steak-in-marinade-granny",
+      "toasted-herb-rice-granny"
+    ],
+    "green-pepper": [
+      "beef-bean-and-noodle-skillet-granny",
+      "chicken-breasts-roma-granny",
+      "pizza-horns-granny"
+    ],
+    "ground-almonds": [
+      "black-cherry-tart-granny"
+    ],
+    "ground-beef": [
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-meatballs-in-tomato-sauce-granny",
+      "busy-day-casserole-granny",
+      "italian-meat-loaf-granny"
+    ],
+    "ground-cardamom": [
+      "danish-kringle-and-pastry-horns-granny"
+    ],
+    "ground-cloves": [
+      "spiced-blueberry-jam-granny"
+    ],
+    "ground-cumin": [
+      "garlic-bean-dip-granny"
+    ],
+    "ground-nutmeg": [
+      "irish-soda-bread-granny"
+    ],
+    "ground-turkey-or-chicken": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "half-and-half": [
+      "alans-basic-flan-granny",
+      "praline-lace-sundaes-granny",
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "hamburger-buns": [
+      "smoky-bacon-burgers-granny"
+    ],
+    "hard-boiled-eggs": [
+      "broccoli-with-egg-dressing-granny",
+      "corned-beef-hash-casserole-granny"
+    ],
+    "heavy-or-whipping-cream": [
+      "peanutty-chocolate-pie-granny"
+    ],
+    "hellmann's-or-best-foods-real-or-low-fat-mayonnaise-dressing": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "hellmann's-or-best-foods-real-or-low-fat-mayonnaise-or-dressing": [
+      "garlic-bean-dip-granny"
+    ],
+    "honey": [
+      "barbecued-spareribs-orientale-granny",
+      "berry-banana-dessert-granny",
+      "black-cherry-tart-granny",
+      "fennel-glazed-pork-loin-granny"
+    ],
+    "horseradish": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "hot-pepper-sauce": [
+      "herb-grilled-chicken-granny"
+    ],
+    "hot-water": [
+      "banana-chocolate-cake-granny",
+      "pork-chop-casserole-granny"
+    ],
+    "instant-beef-broth": [
+      "beef-meatballs-in-tomato-sauce-granny"
+    ],
+    "instant-coffee": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "instant-espresso-or-coffee-crystals": [
+      "cinnamon-mocha-sheet-cake-granny"
+    ],
+    "italian-seasoning": [
+      "chicken-breasts-roma-granny"
+    ],
+    "jalape\u00f1o-peppers": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "julienne-cut-beets-or-shredded-lettuce": [
+      "vegetable-mix-salad-granny"
+    ],
+    "ketchup": [
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "large-cloves-garlic": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "large-green-pepper": [
+      "corned-beef-hash-casserole-granny"
+    ],
+    "large-hamburger-buns": [
+      "pork-barbecue-sandwiches-granny"
+    ],
+    "large-tomato": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "large-white-mushrooms": [
+      "sausage-stuffed-mushrooms-granny"
+    ],
+    "lean-center-cut-pork-chops": [
+      "pork-chops-cider-sauce-granny"
+    ],
+    "lean-hamburger": [
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "leg-of-lamb": [
+      "roast-leg-of-lamb-with-mint-sauce-granny"
+    ],
+    "lemon-juice": [
+      "black-cherry-tart-granny",
+      "broccoli-with-egg-dressing-granny",
+      "caramel-crunch-bars-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "fruit-pie-in-cookie-crust-granny",
+      "herb-grilled-chicken-granny",
+      "spiced-blueberry-jam-granny"
+    ],
+    "lettuce-leaves": [
+      "smoky-bacon-burgers-granny",
+      "turkey-burgers-deluxe-granny"
+    ],
+    "light-brown-sugar": [
+      "cranberry-upside-down-muffins-granny",
+      "praline-lace-sundaes-granny"
+    ],
+    "light-corn-syrup": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "lightly-beaten-oregano": [
+      "pizza-horns-granny"
+    ],
+    "lime-gelatin": [
+      "lime-coconut-salad-granny"
+    ],
+    "liquid-pectin": [
+      "spiced-blueberry-jam-granny"
+    ],
+    "liquid-smoke-seasoning": [
+      "smoky-bacon-burgers-granny"
+    ],
+    "long-grain-rice": [
+      "toasted-herb-rice-granny"
+    ],
+    "long-grain-white-rice": [
+      "spanish-rice-granny"
+    ],
+    "mandarin-orange-slices": [
+      "pineapple-dream-cake-granny"
+    ],
+    "mandarin-oranges": [
+      "frosty-orange-delight-granny"
+    ],
+    "maple-candy": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "maple-flavored-extract": [
+      "maple-pecan-waffles-granny"
+    ],
+    "maraschino-cherries": [
+      "buttercups-granny"
+    ],
+    "margarine": [
+      "broccoli-casserole-granny",
+      "buttercups-granny"
+    ],
+    "margarine-or-butter": [
+      "yuletide-toffee-squares-granny"
+    ],
+    "mashed-bananas": [
+      "banana-bread-dewolf-granny"
+    ],
+    "mashed-potatoes": [
+      "salt-cod-fish-recipes-granny"
+    ],
+    "mashed-sweet-potatoes": [
+      "senator-russells-sweet-potatoes-granny"
+    ],
+    "mayonnaise": [
+      "broccoli-with-egg-dressing-granny",
+      "pork-broccoli-delight-granny"
+    ],
+    "mayonnaise-or-cream-cheese": [
+      "broccoli-casserole-granny"
+    ],
+    "mazola-no-stick-corn-oil-cooking-spray": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "mazola-right-blend-canola-&-corn-oil": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "medium-bananas": [
+      "berry-banana-dessert-granny"
+    ],
+    "medium-onion": [
+      "beef-meatballs-in-tomato-sauce-granny",
+      "corned-beef-hash-casserole-granny",
+      "spanish-rice-granny"
+    ],
+    "medium-potatoes": [
+      "country-style-ribs-and-corn-granny",
+      "easy-potato-gratin-granny"
+    ],
+    "medium-tomato": [
+      "easy-guacamole-granny"
+    ],
+    "medium-wide-noodles": [
+      "ham-and-cheese-casserole-granny"
+    ],
+    "medium-zucchini": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "melted-butter": [
+      "quiche-crepes-granny",
+      "senator-russells-sweet-potatoes-granny"
+    ],
+    "melted-paraffin": [
+      "spiced-blueberry-jam-granny"
+    ],
+    "milk": [
+      "alans-basic-flan-granny",
+      "banana-pudding-bobby-jones-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "crabmeat-clam-chowder-granny",
+      "cranberry-upside-down-muffins-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "ham-and-cheese-casserole-granny",
+      "homemade-ice-cream-sodas-granny",
+      "maple-pecan-waffles-granny",
+      "markys-blue-eyed-muffins-granny",
+      "peanutty-chocolate-pie-granny",
+      "quiche-crepes-granny",
+      "quick-corn-souffle-granny",
+      "salt-cod-fish-recipes-granny",
+      "senator-russells-sweet-potatoes-granny",
+      "strawberry-shortcut-cake-granny",
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "milk-and-water": [
+      "quiche-crepes-granny"
+    ],
+    "milk-or-water": [
+      "pork-chop-casserole-granny"
+    ],
+    "minced-chives-or-parsley": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "minced-clams": [
+      "crabmeat-clam-chowder-granny",
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "minced-fresh-tarragon": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "minced-onion": [
+      "easy-potato-gratin-granny"
+    ],
+    "minced-parsley": [
+      "corned-beef-hash-casserole-granny"
+    ],
+    "minced-walnuts": [
+      "herb-grilled-chicken-granny"
+    ],
+    "miniature-marshmallows": [
+      "berry-banana-dessert-granny",
+      "nestle-famous-fudge-granny",
+      "strawberry-shortcut-cake-granny"
+    ],
+    "minute-rice": [
+      "stuffed-peppers-granny",
+      "stuffed-peppers-webb-granny"
+    ],
+    "mixed-nuts": [
+      "caramel-corn-granny"
+    ],
+    "mixed-vegetables": [
+      "vegetable-mix-salad-granny"
+    ],
+    "molasses": [
+      "praline-lace-sundaes-granny"
+    ],
+    "mozzarella-cheese": [
+      "chicken-breasts-roma-granny",
+      "italian-meat-loaf-granny"
+    ],
+    "mueller's-linguine": [
+      "linguine-with-garden-clam-sauce-granny"
+    ],
+    "multicolored-marshmallow-rope": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "mushrooms": [
+      "beef-vegetable-soup-granny",
+      "savory-beef-granny"
+    ],
+    "nestle-toll-house-semi-sweet-chocolate-morsels": [
+      "easy-double-chocolate-chip-brownies-granny",
+      "nestle-famous-fudge-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny"
+    ],
+    "non-dairy-whipped-topping": [
+      "pineapple-dream-cake-granny"
+    ],
+    "nonfat-dry-milk": [
+      "easy-croissants-granny"
+    ],
+    "noodles": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "nuts": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "oil": [
+      "beef-vegetable-soup-granny",
+      "pineapple-dream-cake-granny",
+      "roast-leg-of-lamb-with-mint-sauce-granny",
+      "savory-beef-granny"
+    ],
+    "olive-oil": [
+      "chicken-breasts-roma-granny",
+      "herb-grilled-chicken-granny",
+      "joyces-chicken-granny",
+      "pizza-horns-granny",
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "olive-or-salad-oil": [
+      "easy-potato-gratin-granny"
+    ],
+    "onion": [
+      "beef-bean-and-noodle-skillet-granny",
+      "busy-day-casserole-granny",
+      "ham-and-cheese-casserole-granny",
+      "savory-beef-granny",
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "onion-salt": [
+      "country-style-ribs-and-corn-granny"
+    ],
+    "orange-rind": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "oregano": [
+      "spanish-rice-granny"
+    ],
+    "packed-brown-sugar": [
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny"
+    ],
+    "packed-light-brown-sugar": [
+      "old-fashioned-oatmeal-cookies-nestle-granny"
+    ],
+    "paprika": [
+      "broiled-spring-chicken-granny",
+      "country-style-ribs-and-corn-granny",
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "parmesan-cheese": [
+      "bubble-loaf-granny",
+      "pizza-horns-granny"
+    ],
+    "parsley": [
+      "chefs-hamburgers-granny",
+      "vegetable-mix-salad-granny"
+    ],
+    "pastel-colored-peanut-m&m's": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "peach-syrup": [
+      "peachn-berry-twists-granny"
+    ],
+    "peanut-butter-flavored-keebler-cookie-stix": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "peanut-shaped-peanut-butter-sandwich-cookies": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "peas": [
+      "ham-and-cheese-casserole-granny",
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "pecans": [
+      "dump-cake-granny",
+      "praline-lace-sundaes-granny"
+    ],
+    "pepper": [
+      "beef-meatballs-in-tomato-sauce-granny",
+      "easy-guacamole-granny",
+      "pork-chops-cider-sauce-granny",
+      "salt-cod-fish-recipes-granny",
+      "savory-beef-granny",
+      "stuffed-peppers-webb-granny",
+      "turkey-burgers-deluxe-granny"
+    ],
+    "pepperoni": [
+      "pizza-horns-granny"
+    ],
+    "pie-crust": [
+      "buttercups-granny"
+    ],
+    "pillsbury's-best-all-purpose-flour": [
+      "strawberry-shortcut-cake-granny"
+    ],
+    "pineapple-juice": [
+      "lime-coconut-salad-granny"
+    ],
+    "pizza-oregano-leaves": [
+      "pizza-horns-granny"
+    ],
+    "popped-popcorn": [
+      "caramel-corn-granny"
+    ],
+    "pork-country-style-back-ribs": [
+      "country-style-ribs-and-corn-granny"
+    ],
+    "pork-loin-roast": [
+      "fennel-glazed-pork-loin-granny"
+    ],
+    "pork-spareribs": [
+      "barbecued-spareribs-orientale-granny"
+    ],
+    "potatoes": [
+      "pork-chop-casserole-granny"
+    ],
+    "powdered-orange-flavored-instant-breakfast-drink": [
+      "frosty-orange-delight-granny"
+    ],
+    "powdered-sugar": [
+      "carrot-cake-granny"
+    ],
+    "prepared-graham-cracker-crust": [
+      "peanutty-chocolate-pie-granny"
+    ],
+    "pudding-and-pie-filling-mix": [
+      "basic-crust-granny"
+    ],
+    "pumpkin-pie-spice": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "quaker-oats": [
+      "quakers-best-oatmeal-cookies-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "quick-oats": [
+      "old-fashioned-oatmeal-cookies-nestle-granny"
+    ],
+    "radishes": [
+      "garden-leaf-salad-granny"
+    ],
+    "raisins": [
+      "cranberry-upside-down-muffins-granny",
+      "irish-soda-bread-granny"
+    ],
+    "raspberries-or-peaches": [
+      "homemade-ice-cream-sodas-granny"
+    ],
+    "raspberry-flavored-or-vanilla-yogurt": [
+      "berry-banana-dessert-granny"
+    ],
+    "raw-potatoes": [
+      "country-style-ribs-and-corn-granny",
+      "sweet-and-spicy-pot-roast-granny"
+    ],
+    "red-and-green-food-coloring": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "red-bell-pepper": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "red-currant-jelly": [
+      "black-cherry-tart-granny"
+    ],
+    "red-kidney-beans": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "red-or-green-food-coloring": [
+      "melting-moments-granny"
+    ],
+    "red-or-green-pepper-slices": [
+      "quick-corn-souffle-granny"
+    ],
+    "red-raspberry-flavored-gelatin": [
+      "berry-banana-dessert-granny"
+    ],
+    "reserved-2-tablespoons": [
+      "peachn-berry-twists-granny"
+    ],
+    "ricotta-cheese": [
+      "chocolate-strawberry-shortcake-granny"
+    ],
+    "ripe-avocados": [
+      "easy-guacamole-granny"
+    ],
+    "ritz-crackers": [
+      "broccoli-casserole-granny"
+    ],
+    "round-pink-cake-decors": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "round-steak": [
+      "savory-beef-granny"
+    ],
+    "rum": [
+      "alans-basic-flan-granny"
+    ],
+    "sake-or-sweet-sherry": [
+      "barbecued-spareribs-orientale-granny"
+    ],
+    "salami": [
+      "italian-meat-loaf-granny"
+    ],
+    "salt": [
+      "banana-bread-dewolf-granny",
+      "basic-crust-granny",
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-meatballs-in-tomato-sauce-granny",
+      "caramel-crunch-bars-granny",
+      "carrot-cake-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "crabmeat-clam-chowder-granny",
+      "cranberry-upside-down-muffins-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "deviled-cornish-hens-granny",
+      "easy-croissants-granny",
+      "easy-guacamole-granny",
+      "easy-potato-gratin-granny",
+      "fruit-pie-in-cookie-crust-granny",
+      "garlic-bean-dip-granny",
+      "grandmas-wheat-berrie-muffins-granny",
+      "ham-and-cheese-casserole-granny",
+      "make-ahead-cookie-mix-granny",
+      "maple-pecan-waffles-granny",
+      "markys-blue-eyed-muffins-granny",
+      "nestle-famous-fudge-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "peachn-berry-twists-granny",
+      "pumpkin-sheet-cookies-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "quiche-crepes-granny",
+      "roast-leg-of-lamb-with-mint-sauce-granny",
+      "savory-beef-granny",
+      "shrimp-newburg-in-patty-shells-granny",
+      "smoky-bacon-burgers-granny",
+      "strawberry-shortcut-cake-granny",
+      "stuffed-peppers-webb-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "white-chocolate-chunk-cookies-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "salt-and-black-pepper": [
+      "broiled-spring-chicken-granny",
+      "sausage-stuffed-mushrooms-granny"
+    ],
+    "salt-and-pepper": [
+      "broccoli-casserole-granny",
+      "broccoli-with-egg-dressing-granny",
+      "italian-meat-loaf-granny",
+      "spanish-rice-granny"
+    ],
+    "salt-and-white-pepper": [
+      "quick-corn-souffle-granny"
+    ],
+    "salt-codfish": [
+      "salt-cod-fish-recipes-granny"
+    ],
+    "salted-water": [
+      "pork-broccoli-delight-granny"
+    ],
+    "seasoned-salt": [
+      "beef-vegetable-soup-granny"
+    ],
+    "self-rising-flour": [
+      "senator-russells-sweet-potatoes-granny"
+    ],
+    "semi-sweet-chocolate-morsels": [
+      "yuletide-toffee-squares-granny"
+    ],
+    "semisweet-chocolate-chips": [
+      "chocolate-strawberry-shortcake-granny",
+      "no-bake-easter-basket-cake-granny",
+      "peanutty-chocolate-pie-granny"
+    ],
+    "semisweet-chocolate-pieces": [
+      "walnut-chocolate-fudge-granny"
+    ],
+    "sesame-seeds": [
+      "sirloin-steak-in-marinade-granny"
+    ],
+    "shelled-shrimp": [
+      "shrimp-newburg-in-patty-shells-granny"
+    ],
+    "sherried-apples": [
+      "pork-chops-cider-sauce-granny"
+    ],
+    "shortening": [
+      "banana-bread-dewolf-granny",
+      "banana-chocolate-cake-granny"
+    ],
+    "shredded-coconut": [
+      "lime-coconut-salad-granny"
+    ],
+    "shredded-edam-cheese": [
+      "beef-vegetable-soup-granny"
+    ],
+    "shredded-jarlsberg-or-swiss-cheese": [
+      "easy-potato-gratin-granny"
+    ],
+    "shredded-swiss-cheese": [
+      "quiche-crepes-granny"
+    ],
+    "sifted-cake-flour": [
+      "banana-chocolate-cake-granny"
+    ],
+    "sifted-powdered-sugar": [
+      "banana-chocolate-cake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "old-fashioned-butter-cake-granny"
+    ],
+    "skippy-creamy-peanut-butter": [
+      "peanutty-chocolate-pie-granny"
+    ],
+    "sliced-almonds": [
+      "danish-kringle-and-pastry-horns-granny",
+      "melting-moments-granny"
+    ],
+    "sliced-black-olives": [
+      "red-snapper-vera-cruz-granny"
+    ],
+    "sliced-celery": [
+      "vegetable-mix-salad-granny"
+    ],
+    "sliced-fresh-mushrooms": [
+      "joyces-chicken-granny"
+    ],
+    "sliced-green-onions": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "sliced-peaches": [
+      "peachn-berry-twists-granny"
+    ],
+    "slivered-almonds": [
+      "caramel-crunch-bars-granny"
+    ],
+    "small-cucumber": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "small-onion": [
+      "beef-vegetable-soup-granny",
+      "easy-guacamole-granny"
+    ],
+    "small-potatoes": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "soft-cream-cheese": [
+      "black-cherry-tart-granny",
+      "melting-moments-granny"
+    ],
+    "solid-shortening": [
+      "basic-crust-granny",
+      "peachn-berry-twists-granny",
+      "strawberry-shortcut-cake-granny"
+    ],
+    "sour-cream": [
+      "banana-pudding-bobby-jones-granny",
+      "corned-beef-hash-casserole-granny",
+      "pork-broccoli-delight-granny",
+      "pound-cake-granny",
+      "savory-beef-granny"
+    ],
+    "soy-sauce": [
+      "barbecued-spareribs-orientale-granny",
+      "sirloin-steak-in-marinade-granny",
+      "toasted-herb-rice-granny"
+    ],
+    "stewed-tomatoes": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "strawberry-flavored-fruit-chew-candies": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "strawberry-flavored-gelatin": [
+      "strawberry-shortcut-cake-granny"
+    ],
+    "strawberry-jello": [
+      "angel-delight-granny"
+    ],
+    "sugar": [
+      "banana-bread-dewolf-granny",
+      "buttercups-granny",
+      "carrot-cake-granny",
+      "crumb-topped-blueberry-cake-granny",
+      "frosty-orange-delight-granny",
+      "grandmas-wheat-berrie-muffins-granny",
+      "irish-soda-bread-granny",
+      "no-regrets-cheesecake-granny",
+      "peachn-berry-twists-granny",
+      "peanutty-chocolate-pie-granny",
+      "pickled-beets-granny",
+      "pound-cake-granny",
+      "red-snapper-vera-cruz-granny",
+      "strawberries-n-cream-cheese-freeze-granny",
+      "strawberry-shortcut-cake-granny"
+    ],
+    "sunflower-seeds": [
+      "grandmas-wheat-berrie-muffins-granny"
+    ],
+    "sweet-butter": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "sweetened-flaked-coconut": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "swordfish-steak": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "tater-tots": [
+      "busy-day-casserole-granny"
+    ],
+    "thick-pork-chops": [
+      "pork-chop-casserole-granny"
+    ],
+    "thomas'-original-english-muffins": [
+      "turkey-burgers-deluxe-granny"
+    ],
+    "thyme": [
+      "beef-meatballs-in-tomato-sauce-granny"
+    ],
+    "tomato-juice": [
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-meatballs-in-tomato-sauce-granny"
+    ],
+    "tomato-paste": [
+      "joyces-chicken-granny"
+    ],
+    "tomato-sauce": [
+      "savory-beef-granny",
+      "spanish-rice-granny"
+    ],
+    "tomato-sauce-or-puree": [
+      "italian-meat-loaf-granny"
+    ],
+    "tomato-slices": [
+      "smoky-bacon-burgers-granny",
+      "turkey-burgers-deluxe-granny"
+    ],
+    "tomato-soup": [
+      "stuffed-peppers-webb-granny"
+    ],
+    "tomatoes": [
+      "beef-vegetable-soup-granny"
+    ],
+    "uncooked-rice": [
+      "beef-meatballs-in-tomato-sauce-granny"
+    ],
+    "unsalted-butter": [
+      "chefs-hamburgers-granny"
+    ],
+    "unsifted-cornstarch": [
+      "melting-moments-granny"
+    ],
+    "unsifted-powdered-sugar": [
+      "melting-moments-granny"
+    ],
+    "unsweetened-cocoa-powder": [
+      "chocolate-strawberry-shortcake-granny"
+    ],
+    "vanilla": [
+      "banana-chocolate-cake-granny",
+      "berry-banana-dessert-granny",
+      "caramel-crunch-bars-granny",
+      "carrot-cake-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "quakers-best-oatmeal-cookies-granny",
+      "senator-russells-sweet-potatoes-granny",
+      "strawberry-shortcut-cake-granny",
+      "white-chocolate-chunk-cookies-granny",
+      "yuletide-toffee-squares-granny"
+    ],
+    "vanilla-bean": [
+      "alans-basic-flan-granny"
+    ],
+    "vanilla-extract": [
+      "alans-basic-flan-granny",
+      "danish-kringle-and-pastry-horns-granny",
+      "easy-double-chocolate-chip-brownies-granny",
+      "melting-moments-granny",
+      "nestle-toll-house-chocolate-chip-cookies-granny",
+      "no-regrets-cheesecake-granny",
+      "old-fashioned-butter-cake-granny",
+      "old-fashioned-oatmeal-cookies-nestle-granny",
+      "pound-cake-granny",
+      "ultimate-chocolate-chocolate-chip-cookies-granny"
+    ],
+    "vanilla-frosting": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "vanilla-ice-cream": [
+      "homemade-ice-cream-sodas-granny",
+      "praline-lace-sundaes-granny"
+    ],
+    "vanilla-instant-pudding": [
+      "banana-pudding-bobby-jones-granny"
+    ],
+    "vanilla-instant-pudding-mix": [
+      "pineapple-dream-cake-granny"
+    ],
+    "vanilla-wafers": [
+      "banana-pudding-bobby-jones-granny"
+    ],
+    "vegetable-oil": [
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-meatballs-in-tomato-sauce-granny",
+      "carrot-cake-granny",
+      "maple-pecan-waffles-granny",
+      "sirloin-steak-in-marinade-granny"
+    ],
+    "vegetable-shortening": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "vinegar": [
+      "pickled-beets-granny"
+    ],
+    "walnuts": [
+      "swordfish-steamed-vegetables-granny"
+    ],
+    "warm-milk": [
+      "peachn-berry-twists-granny"
+    ],
+    "warm-pillsbury's-best-all-purpose-flour": [
+      "peachn-berry-twists-granny"
+    ],
+    "warm-water": [
+      "easy-croissants-granny"
+    ],
+    "water": [
+      "alans-basic-flan-granny",
+      "barbecued-spareribs-orientale-granny",
+      "beef-bean-and-noodle-skillet-granny",
+      "beef-vegetable-soup-granny",
+      "caramel-corn-granny",
+      "cinnamon-mocha-sheet-cake-granny",
+      "crabmeat-clam-chowder-granny",
+      "homemade-ice-cream-sodas-granny",
+      "linguine-with-garden-clam-sauce-granny",
+      "pickled-beets-granny",
+      "spanish-rice-granny",
+      "sweet-and-spicy-pot-roast-granny",
+      "walnut-chocolate-fudge-granny"
+    ],
+    "water-or-dry-white-wine": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "whipped-cream": [
+      "banana-pudding-bobby-jones-granny"
+    ],
+    "whipping-cream": [
+      "alans-basic-flan-granny",
+      "caramel-crunch-bars-granny",
+      "chocolate-strawberry-shortcake-granny",
+      "crabmeat-clam-chowder-granny",
+      "frosty-orange-delight-granny",
+      "quiche-crepes-granny",
+      "strawberries-n-cream-cheese-freeze-granny"
+    ],
+    "whipping-cream-or-milk": [
+      "easy-potato-gratin-granny"
+    ],
+    "white-chocolate": [
+      "white-chocolate-chunk-cookies-granny"
+    ],
+    "white-chocolate-chips": [
+      "no-bake-easter-basket-cake-granny"
+    ],
+    "white-corn-syrup": [
+      "praline-lace-sundaes-granny"
+    ],
+    "white-flour": [
+      "grandmas-wheat-berrie-muffins-granny"
+    ],
+    "white-pepper": [
+      "crabmeat-clam-chowder-granny"
+    ],
+    "white-sugar": [
+      "senator-russells-sweet-potatoes-granny"
+    ],
+    "white-wine": [
+      "fennel-glazed-pork-loin-granny",
+      "herb-grilled-chicken-granny"
+    ],
+    "white-wine-vinegar": [
+      "barbecued-spareribs-orientale-granny"
+    ],
+    "whole-allspice": [
+      "pickled-beets-granny"
+    ],
+    "whole-blueberries": [
+      "crumb-topped-blueberry-cake-granny"
+    ],
+    "whole-fennel-seeds": [
+      "fennel-glazed-pork-loin-granny"
+    ],
+    "whole-wheat-flour": [
+      "grandmas-wheat-berrie-muffins-granny"
+    ],
+    "worcestershire-sauce": [
+      "beef-bean-and-noodle-skillet-granny"
+    ],
+    "yellow-cake-mix": [
+      "pumpkin-sheet-cookies-granny"
+    ],
+    "yellow-or-white-cake-mix": [
+      "dump-cake-granny"
+    ],
+    "zucchini": [
+      "swordfish-steamed-vegetables-granny"
+    ]
+  }
+}
