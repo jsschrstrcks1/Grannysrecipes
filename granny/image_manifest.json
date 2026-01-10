@@ -1,6 +1,6 @@
 {
   "created": "2026-01-09T17:12:44.525483",
-  "last_updated": "2026-01-10T00:29:32.479737",
+  "last_updated": "2026-01-10T00:49:31.605776",
   "max_dimension": 2000,
   "collections": {
     "granny": {
@@ -1052,12 +1052,14 @@
       "collection": "granny",
       "filename": "Grannys-recipes - 1 Medium.jpeg",
       "path": "granny/Grannys-recipes - 1 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.010820",
-      "file_size": 142212
+      "file_size": 142212,
+      "status_updated": "2026-01-10T00:48:33.646956",
+      "notes": "Handwritten Coconut Bread (possible duplicate of image 1)"
     },
     "granny/Grannys-recipes - 10 Medium.jpeg": {
       "collection": "granny",
@@ -2273,12 +2275,14 @@
       "collection": "granny",
       "filename": "Grannys-recipes - 2 Medium.jpeg",
       "path": "granny/Grannys-recipes - 2 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.023083",
-      "file_size": 133394
+      "file_size": 133394,
+      "status_updated": "2026-01-10T00:49:31.605758",
+      "notes": "Handwritten Pumpkin Bread Casserole (possible duplicate of image 2)"
     },
     "granny/Grannys-recipes - 20 Medium.jpeg": {
       "collection": "granny",
@@ -4986,7 +4990,7 @@
     "validated": 443,
     "broken": 5,
     "oversized": 0,
-    "processed": 14,
+    "processed": 16,
     "skipped": 0
   }
 }
