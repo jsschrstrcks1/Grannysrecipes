@@ -1,6 +1,6 @@
 {
   "created": "2026-01-09T17:12:44.525483",
-  "last_updated": "2026-01-09T17:36:18.859072",
+  "last_updated": "2026-01-10T00:18:02.862367",
   "max_dimension": 2000,
   "collections": {
     "granny": {
@@ -13,12 +13,14 @@
       "collection": "granny",
       "filename": "1 Medium.jpeg",
       "path": "granny/1 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:04.999250",
-      "file_size": 144404
+      "file_size": 144404,
+      "status_updated": "2026-01-10T00:08:46.875470",
+      "notes": "Handwritten coconut bread - JSON needs correction"
     },
     "granny/10 Medium.jpeg": {
       "collection": "granny",
@@ -57,12 +59,14 @@
       "collection": "granny",
       "filename": "102 Medium.jpeg",
       "path": "granny/102 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.000004",
-      "file_size": 110107
+      "file_size": 110107,
+      "status_updated": "2026-01-10T00:09:40.377121",
+      "notes": "Handwritten Pumpkin Bread Casserole - JSON title may be incorrect"
     },
     "granny/103 Medium.jpeg": {
       "collection": "granny",
@@ -90,12 +94,14 @@
       "collection": "granny",
       "filename": "105 Medium.jpeg",
       "path": "granny/105 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.000413",
-      "file_size": 156741
+      "file_size": 156741,
+      "status_updated": "2026-01-10T00:11:49.033978",
+      "notes": "Handwritten Sour Cream Pound Cake"
     },
     "granny/106 Medium.jpeg": {
       "collection": "granny",
@@ -112,12 +118,14 @@
       "collection": "granny",
       "filename": "107 Medium.jpeg",
       "path": "granny/107 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.000800",
-      "file_size": 149553
+      "file_size": 149553,
+      "status_updated": "2026-01-10T00:13:00.554658",
+      "notes": "Handwritten Broccoli Cornbread"
     },
     "granny/108 Medium.jpeg": {
       "collection": "granny",
@@ -134,12 +142,14 @@
       "collection": "granny",
       "filename": "109 Medium.jpeg",
       "path": "granny/109 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.001089",
-      "file_size": 138217
+      "file_size": 138217,
+      "status_updated": "2026-01-10T00:14:06.376886",
+      "notes": "Handwritten Ham & Cheese Casserole"
     },
     "granny/11 Medium.jpeg": {
       "collection": "granny",
@@ -393,12 +403,14 @@
       "collection": "granny",
       "filename": "17 Medium.jpeg",
       "path": "granny/17 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.003802",
-      "file_size": 68178
+      "file_size": 68178,
+      "status_updated": "2026-01-10T00:17:15.652633",
+      "notes": "Handwritten Cornish Game Hen - JSON mismatch (shows caramel-corn)"
     },
     "granny/170 Medium.jpeg": {
       "collection": "granny",
@@ -459,12 +471,14 @@
       "collection": "granny",
       "filename": "18 Medium.jpeg",
       "path": "granny/18 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.004643",
-      "file_size": 89110
+      "file_size": 89110,
+      "status_updated": "2026-01-10T00:18:02.862342",
+      "notes": "Handwritten Carrot Cake with cream cheese frosting"
     },
     "granny/187 Medium.jpeg": {
       "collection": "granny",
@@ -4958,7 +4972,7 @@
     "validated": 443,
     "broken": 5,
     "oversized": 0,
-    "processed": 0,
+    "processed": 7,
     "skipped": 0
   }
 }

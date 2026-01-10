@@ -70,9 +70,7 @@
         "quick",
         "family"
       ],
-      "image_refs": [
-        "4"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -267,9 +265,7 @@
         "oatmeal",
         "classic"
       ],
-      "image_refs": [
-        "15"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
