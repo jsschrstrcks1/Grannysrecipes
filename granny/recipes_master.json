@@ -3221,15 +3221,15 @@
         "quick bread"
       ],
       "image_refs": [
-        "70",
-        "71"
+        "73"
       ],
       "confidence": {
         "overall": "high",
         "flags": [
           "handwritten recipe card"
         ]
-      }
+      },
+      "source_note": "Recipe from the kitchen of Dewolf"
     },
     {
       "id": "grandmas-wheat-berrie-muffins-granny",
@@ -3322,7 +3322,8 @@
         "healthy"
       ],
       "image_refs": [
-        "72"
+        "72",
+        "71"
       ],
       "confidence": {
         "overall": "medium",
@@ -3397,7 +3398,7 @@
         "no-bake"
       ],
       "image_refs": [
-        "74"
+        "79"
       ],
       "confidence": {
         "overall": "high",
@@ -8609,7 +8610,8 @@
       "image_refs": [
         "IMG_4389",
         "IMG_4390",
-        "IMG_4391"
+        "IMG_4391",
+        "Grannys-recipes - 66"
       ]
     },
     {
@@ -9964,6 +9966,521 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      }
+    },
+    {
+      "id": "beef-bean-and-noodle-skillet-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef, Bean and Noodle Skillet",
+      "category": "mains",
+      "source_note": "Printed recipe card",
+      "description": "A hearty one-skillet meal with ground beef, kidney beans, and noodles in a tomato base.",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried basil leaves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "noodles",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "uncooked medium-size"
+        },
+        {
+          "item": "red kidney beans",
+          "quantity": "1",
+          "unit": "can (16 oz)",
+          "prep_note": "undrained"
+        },
+        {
+          "item": "tomato juice",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "beef bouillon cube",
+          "quantity": "1",
+          "unit": "cube"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "stewed tomatoes",
+          "quantity": "3/4-1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 10-inch skillet with cover, saute beef for about 5 minutes, stirring until beef loses its red color."
+        },
+        {
+          "step": 2,
+          "text": "Add onion, green pepper and celery. Saute 5 minutes longer. Sprinkle with salt, pepper, Worcestershire sauce and basil."
+        },
+        {
+          "step": 3,
+          "text": "Stir in noodles, tomatoes, kidney beans and water. Add bouillon cube."
+        },
+        {
+          "step": 4,
+          "text": "Bring mixture to a boil. Reduce heat. Cover. Simmer, stirring occasionally, for 20 minutes or until liquid is absorbed."
+        }
+      ],
+      "tags": [
+        "skillet",
+        "ground beef",
+        "beans",
+        "noodles",
+        "one-pot"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 18,
+          "carbs_g": 55,
+          "protein_g": 26,
+          "sodium_mg": 1156,
+          "fiber_g": 8,
+          "sugar_g": 10
+        },
+        "assumptions": [
+          "Based on 4 servings",
+          "Using 80/20 ground beef"
+        ]
+      }
+    },
+    {
+      "id": "savory-beef-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Savory Beef",
+      "category": "mains",
+      "source_note": "Printed recipe card",
+      "description": "Tender beef cubes braised with mushrooms in a savory sauce, served over rice.",
+      "prep_time": "20 minutes",
+      "cook_time": "1.5-2 hours",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "round steak",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "cut into 1/2-inch cubes"
+        },
+        {
+          "item": "oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "can (3 oz)"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "can (8 oz)"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped celery",
+          "quantity": "for garnish",
+          "unit": ""
+        },
+        {
+          "item": "chopped chives",
+          "quantity": "for garnish",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan, heat oil. Add beef. Brown. Add onion and garlic. Cook, stirring, until onions are transparent."
+        },
+        {
+          "step": 2,
+          "text": "Add flour, stirring until beef cubes are coated. Add mushrooms with juice and celery."
+        },
+        {
+          "step": 3,
+          "text": "In a small bowl, combine remaining ingredients. Mix well. Pour over meat."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Turn mixture into a greased 2-quart casserole dish."
+        },
+        {
+          "step": 5,
+          "text": "Cover. Bake at 325\u00b0F for 1\u00bc to 1\u00bd hours until meat is tender."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle with chopped celery and chives and garnish."
+        }
+      ],
+      "tags": [
+        "beef",
+        "casserole",
+        "mushrooms",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 714,
+          "fat_g": 51,
+          "carbs_g": 12,
+          "protein_g": 52,
+          "sodium_mg": 930,
+          "fiber_g": 2,
+          "sugar_g": 4
+        },
+        "assumptions": [
+          "Based on 4 servings",
+          "Using round steak"
+        ]
+      }
+    },
+    {
+      "id": "italian-meat-loaf-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Italian Meat Loaf",
+      "category": "mains",
+      "source_note": "Printed recipe card",
+      "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1.25",
+          "unit": "lbs"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "beaten"
+        },
+        {
+          "item": "tomato sauce or puree",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": "soft"
+        },
+        {
+          "item": "dried oregano leaves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped parsley",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "small clove",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "1/8",
+          "unit": "tsp each"
+        },
+        {
+          "item": "salami",
+          "quantity": "2.5",
+          "unit": "oz",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Mozzarella cheese",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine egg, tomato sauce, bread crumbs, parsley, oregano, garlic, salt and pepper. Add ground beef. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "Place meat on foil. Shape into a 7-by-9-inch rectangle."
+        },
+        {
+          "step": 3,
+          "text": "Evenly sprinkle salami over top. Sprinkle cheese over salami, leaving a narrow margin around edges."
+        },
+        {
+          "step": 4,
+          "text": "Beginning from 7-inch end, roll meat jelly-roll fashion, using foil to help you roll. Press to seal edges."
+        },
+        {
+          "step": 5,
+          "text": "Place loaf seam-side down in a greased baking pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 1 hour or until done."
+        },
+        {
+          "step": 7,
+          "text": "Drain fat. Slice. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with hot rice or sauteed French-cut green beans in olive oil and garlic.",
+        "To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk."
+      ],
+      "tags": [
+        "meatloaf",
+        "Italian",
+        "cheese",
+        "beef"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 540,
+          "fat_g": 38,
+          "carbs_g": 9,
+          "protein_g": 44,
+          "sodium_mg": 616,
+          "fiber_g": 1,
+          "sugar_g": 2
+        },
+        "assumptions": [
+          "Based on 4 servings",
+          "Using 80/20 ground beef"
+        ]
+      }
+    },
+    {
+      "id": "stuffed-peppers-webb-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Stuffed Peppers (Webb)",
+      "category": "mains",
+      "source_note": "Typed recipe sheet, attributed to Webb",
+      "description": "Classic stuffed bell peppers with ground beef and rice.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "big green peppers",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "lean hamburger",
+          "quantity": "1.5",
+          "unit": "lb"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "Minute Rice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "boxed"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "to taste",
+          "unit": ""
+        },
+        {
+          "item": "tomato soup",
+          "quantity": "1",
+          "unit": "large can",
+          "prep_note": "Campbell's, condensed family soup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Put on top."
+        },
+        {
+          "step": 2,
+          "text": "Put in pepper loosely."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350 degrees."
+        }
+      ],
+      "tags": [
+        "stuffed peppers",
+        "ground beef",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Instructions abbreviated on original"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 485,
+          "fat_g": 24,
+          "carbs_g": 28,
+          "protein_g": 38,
+          "sodium_mg": 1180,
+          "fiber_g": 4,
+          "sugar_g": 10
+        },
+        "assumptions": [
+          "Based on 4 servings",
+          "Using 90/10 lean ground beef"
+        ]
       }
     }
   ],
