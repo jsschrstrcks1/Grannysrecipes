@@ -3398,7 +3398,8 @@
         "no-bake"
       ],
       "image_refs": [
-        "79"
+        "79",
+        "74"
       ],
       "confidence": {
         "overall": "high",
@@ -5278,7 +5279,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [
+        "220"
+      ]
     },
     {
       "id": "quiche-crepes-granny",
