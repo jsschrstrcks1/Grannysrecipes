@@ -70,9 +70,7 @@
         "quick",
         "family"
       ],
-      "image_refs": [
-        "4"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -267,9 +265,7 @@
         "oatmeal",
         "classic"
       ],
-      "image_refs": [
-        "15"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -1041,9 +1037,7 @@
         "coconut",
         "cherry"
       ],
-      "image_refs": [
-        "34"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -2881,9 +2875,7 @@
         "banana",
         "southern"
       ],
-      "image_refs": [
-        "62"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -2968,9 +2960,7 @@
         "peppers",
         "stuffed"
       ],
-      "image_refs": [
-        "62"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -3074,9 +3064,7 @@
         "soda bread",
         "raisins"
       ],
-      "image_refs": [
-        "64"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": [
