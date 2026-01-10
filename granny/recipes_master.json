@@ -2666,7 +2666,10 @@
         }
       ],
       "notes": [
-        "Good served with barbecued fresh vegetables and a tossed salad. Tips: You may precook spareribs ahead of time and simply heat and glaze over charcoal before serving."
+        "Good served with barbecued vegetables or steamed fresh vegetables and a tossed salad.",
+        "Recipe may be halved or doubled.",
+        "For 8-12 servings, use only 1\u00bd times the sweet-and-sour broth.",
+        "You may precook spareribs ahead of time and simply heat and glaze over charcoal before serving."
       ],
       "tags": [
         "main dish",
@@ -2884,10 +2887,10 @@
       }
     },
     {
-      "id": "stuffed-peppers-granny",
+      "id": "stuffed-peppers-webb-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Stuffed Peppers",
+      "title": "Stuffed Peppers (Webb)",
       "category": "mains",
       "description": "Classic stuffed bell peppers with ground beef and rice.",
       "temperature": "350\u00b0F (175\u00b0C)",
@@ -3221,15 +3224,15 @@
         "quick bread"
       ],
       "image_refs": [
-        "73"
+        "70",
+        "71"
       ],
       "confidence": {
         "overall": "high",
         "flags": [
           "handwritten recipe card"
         ]
-      },
-      "source_note": "Recipe from the kitchen of Dewolf"
+      }
     },
     {
       "id": "grandmas-wheat-berrie-muffins-granny",
@@ -3322,8 +3325,7 @@
         "healthy"
       ],
       "image_refs": [
-        "72",
-        "71"
+        "72"
       ],
       "confidence": {
         "overall": "medium",
@@ -3398,7 +3400,6 @@
         "no-bake"
       ],
       "image_refs": [
-        "79",
         "74"
       ],
       "confidence": {
@@ -3569,6 +3570,7 @@
         }
       ],
       "notes": [
+        "Health Note: To reduce fat, cholesterol and calories, use reduced-fat mayonnaise and light dairy sour cream.",
         "Good served with: Tossed green or tomato salad.",
         "Variations: You may substitute cooked asparagus for the broccoli and cooked cubed chicken for the pork.",
         "Tips: To use fresh broccoli in place of frozen, break into flowerettes and parboil 2 minutes. Drain well. The casserole can be assembled ahead of time and refrigerated to be baked later."
@@ -3959,7 +3961,10 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "notes": [
+        "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
+      ]
     },
     {
       "id": "swordfish-steamed-vegetables-granny",
@@ -4051,7 +4056,8 @@
         }
       ],
       "notes": [
-        "To simplify this recipe, place butter and oil in baking dish. Heat at 425\u00b0F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally."
+        "To simplify this recipe, place butter and oil in baking dish. Heat at 425\u00b0F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
+        "Good served with: Brown rice pilaf, crisp rolls with herbed butter, and lemon pie for dessert."
       ],
       "tags": [
         "fish",
@@ -4343,7 +4349,8 @@
         }
       ],
       "notes": [
-        "Recipe may be halved or doubled. For 2 servings, use an 8-inch round baking dish. For 8, use 2 10-inch round dishes."
+        "Recipe may be halved or doubled. For 2 servings, use an 8-inch round baking dish. For 8, use 2 10-inch round dishes.",
+        "Good served with: Spinach salad and hot crusty bread."
       ],
       "tags": [
         "potatoes",
@@ -4740,7 +4747,8 @@
         }
       ],
       "notes": [
-        "Recipe may be doubled. Tips: To make this dish into a satisfying brunch, add a small can of drained shrimp to salad."
+        "Recipe may be doubled. Tips: To make this dish into a satisfying brunch, add a small can of drained shrimp to salad.",
+        "Good served with: Roast lamb, rice pilaf, glazed carrots, and brownies for dessert."
       ],
       "tags": [
         "salad",
@@ -4858,7 +4866,8 @@
         }
       ],
       "notes": [
-        "For added flavor, other vegetables, peas, celery or parsnips may be added to soup. Tips: To saut\u00e9 Edam, add shredded Edam to skillet and cook 15 to 20 minutes until golden. Stir in carrots and slices. Cook stirring, about 5 minutes until tender."
+        "Tips: For added flavor, other vegetables such as potatoes, green beans, peas, celery or parsnips may be added to soup.",
+        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, \u00bc cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
       ],
       "tags": [
         "soup",
@@ -5279,9 +5288,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [
-        "220"
-      ]
+      "image_refs": []
     },
     {
       "id": "quiche-crepes-granny",
@@ -8613,8 +8620,7 @@
       "image_refs": [
         "IMG_4389",
         "IMG_4390",
-        "IMG_4391",
-        "Grannys-recipes - 66"
+        "IMG_4391"
       ]
     },
     {
@@ -9977,8 +9983,8 @@
       "collection_display": "Granny Hudson",
       "title": "Beef, Bean and Noodle Skillet",
       "category": "mains",
-      "source_note": "Printed recipe card",
-      "description": "A hearty one-skillet meal with ground beef, kidney beans, and noodles in a tomato base.",
+      "source_note": "My Great Recipes card",
+      "description": "A hearty one-skillet meal with ground beef, kidney beans, and noodles.",
       "prep_time": "20 minutes",
       "cook_time": "30 minutes",
       "servings_yield": "4 servings",
@@ -10008,12 +10014,12 @@
         },
         {
           "item": "salt",
-          "quantity": "1",
+          "quantity": "1/2",
           "unit": "tsp"
         },
         {
           "item": "black pepper",
-          "quantity": "1/4",
+          "quantity": "1/8",
           "unit": "tsp"
         },
         {
@@ -10040,14 +10046,9 @@
           "prep_note": "undrained"
         },
         {
-          "item": "tomato juice",
-          "quantity": "3",
-          "unit": "cups"
-        },
-        {
-          "item": "vegetable oil",
-          "quantity": "1/4",
-          "unit": "cup"
+          "item": "stewed tomatoes",
+          "quantity": "1",
+          "unit": "can (8 oz)"
         },
         {
           "item": "beef bouillon cube",
@@ -10058,17 +10059,12 @@
           "item": "water",
           "quantity": "1",
           "unit": "cup"
-        },
-        {
-          "item": "stewed tomatoes",
-          "quantity": "3/4-1",
-          "unit": "cup"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "In a 10-inch skillet with cover, saute beef for about 5 minutes, stirring until beef loses its red color."
+          "text": "In a 10-inch skillet with cover, saute beef for about 5 minutes, stirring until meat loses its red color."
         },
         {
           "step": 2,
@@ -10083,6 +10079,12 @@
           "text": "Bring mixture to a boil. Reduce heat. Cover. Simmer, stirring occasionally, for 20 minutes or until liquid is absorbed."
         }
       ],
+      "notes": [
+        "Health Note: To reduce sodium, substitute low-salt beef broth for bouillon cube and water.",
+        "Good served with a tossed green salad or coleslaw.",
+        "Recipe may be halved or doubled.",
+        "For 8 servings, use 1 16-oz. can stewed tomatoes."
+      ],
       "tags": [
         "skillet",
         "ground beef",
@@ -10094,23 +10096,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 498,
-          "fat_g": 18,
-          "carbs_g": 55,
-          "protein_g": 26,
-          "sodium_mg": 1156,
-          "fiber_g": 8,
-          "sugar_g": 10
-        },
-        "assumptions": [
-          "Based on 4 servings",
-          "Using 80/20 ground beef"
-        ]
-      }
+      "image_refs": []
     },
     {
       "id": "savory-beef-granny",
@@ -10118,18 +10104,18 @@
       "collection_display": "Granny Hudson",
       "title": "Savory Beef",
       "category": "mains",
-      "source_note": "Printed recipe card",
-      "description": "Tender beef cubes braised with mushrooms in a savory sauce, served over rice.",
+      "source_note": "My Great Recipes card",
+      "description": "Tender beef cubes braised with mushrooms in a savory sauce.",
       "prep_time": "20 minutes",
-      "cook_time": "1.5-2 hours",
+      "cook_time": "1\u00bc to 1\u00bd hours",
       "temperature": "325\u00b0F (165\u00b0C)",
-      "servings_yield": "4 servings",
+      "servings_yield": "4-5 servings",
       "ingredients": [
         {
           "item": "round steak",
           "quantity": "2",
           "unit": "lbs",
-          "prep_note": "cut into 1/2-inch cubes"
+          "prep_note": "cut into \u00bd-inch cubes"
         },
         {
           "item": "oil",
@@ -10156,7 +10142,8 @@
         {
           "item": "mushrooms",
           "quantity": "1",
-          "unit": "can (3 oz)"
+          "unit": "can (3 oz)",
+          "prep_note": "undrained"
         },
         {
           "item": "sour cream",
@@ -10175,18 +10162,20 @@
         },
         {
           "item": "pepper",
-          "quantity": "1/4",
-          "unit": "tsp"
-        },
-        {
-          "item": "chopped celery",
-          "quantity": "for garnish",
+          "quantity": "to taste",
           "unit": ""
         },
         {
-          "item": "chopped chives",
+          "item": "celery",
           "quantity": "for garnish",
-          "unit": ""
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "chives",
+          "quantity": "for garnish",
+          "unit": "",
+          "prep_note": "chopped"
         }
       ],
       "instructions": [
@@ -10215,6 +10204,10 @@
           "text": "Sprinkle with chopped celery and chives and garnish."
         }
       ],
+      "notes": [
+        "Recipe may be doubled. Cooking time will remain the same.",
+        "Good served with hot white rice and crusty rolls."
+      ],
       "tags": [
         "beef",
         "casserole",
@@ -10225,23 +10218,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 714,
-          "fat_g": 51,
-          "carbs_g": 12,
-          "protein_g": 52,
-          "sodium_mg": 930,
-          "fiber_g": 2,
-          "sugar_g": 4
-        },
-        "assumptions": [
-          "Based on 4 servings",
-          "Using round steak"
-        ]
-      }
+      "image_refs": []
     },
     {
       "id": "italian-meat-loaf-granny",
@@ -10249,46 +10226,42 @@
       "collection_display": "Granny Hudson",
       "title": "Italian Meat Loaf",
       "category": "mains",
-      "source_note": "Printed recipe card",
+      "source_note": "My Great Recipes card",
       "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
       "prep_time": "15 minutes",
-      "cook_time": "1 hour",
+      "cook_time": "about 1 hour",
       "temperature": "350\u00b0F (175\u00b0C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
           "item": "ground beef",
-          "quantity": "1.25",
+          "quantity": "1\u00bc",
           "unit": "lbs"
         },
         {
           "item": "egg",
           "quantity": "1",
-          "unit": "beaten"
+          "unit": "",
+          "prep_note": "beaten"
         },
         {
-          "item": "tomato sauce or puree",
+          "item": "tomato sauce or tomato puree",
           "quantity": "1/4",
           "unit": "cup"
         },
         {
-          "item": "bread crumbs",
-          "quantity": "6",
-          "unit": "tbsp",
-          "prep_note": "soft"
-        },
-        {
-          "item": "dried oregano leaves",
-          "quantity": "1/4",
-          "unit": "tsp"
-        },
-        {
-          "item": "chopped parsley",
+          "item": "soft bread crumbs",
           "quantity": "6",
           "unit": "tbsp"
         },
         {
-          "item": "garlic salt",
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dried oregano leaves",
           "quantity": "1/4",
           "unit": "tsp"
         },
@@ -10299,13 +10272,18 @@
           "prep_note": "crushed"
         },
         {
-          "item": "salt and pepper",
+          "item": "salt",
           "quantity": "1/8",
-          "unit": "tsp each"
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
         },
         {
           "item": "salami",
-          "quantity": "2.5",
+          "quantity": "2\u00bd",
           "unit": "oz",
           "prep_note": "chopped"
         },
@@ -10347,8 +10325,8 @@
         }
       ],
       "notes": [
-        "Good served with hot rice or sauteed French-cut green beans in olive oil and garlic.",
-        "To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk."
+        "Health Note: To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk.",
+        "Good served with hot rice or noodles and French-cut green beans saut\u00e9ed in olive oil and garlic."
       ],
       "tags": [
         "meatloaf",
@@ -10360,131 +10338,97 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 540,
-          "fat_g": 38,
-          "carbs_g": 9,
-          "protein_g": 44,
-          "sodium_mg": 616,
-          "fiber_g": 1,
-          "sugar_g": 2
-        },
-        "assumptions": [
-          "Based on 4 servings",
-          "Using 80/20 ground beef"
-        ]
-      }
+      "image_refs": []
     },
     {
-      "id": "stuffed-peppers-webb-granny",
+      "id": "thai-chicken-with-peanut-sauce-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Stuffed Peppers (Webb)",
+      "title": "Thai Chicken with Peanut Sauce",
       "category": "mains",
-      "source_note": "Typed recipe sheet, attributed to Webb",
-      "description": "Classic stuffed bell peppers with ground beef and rice.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "source_note": "Publix Aprons card, 3/23/00",
       "servings_yield": "4 servings",
       "ingredients": [
         {
-          "item": "big green peppers",
+          "item": "boneless, skinless chicken breasts",
           "quantity": "4",
           "unit": ""
         },
         {
-          "item": "lean hamburger",
-          "quantity": "1.5",
-          "unit": "lb"
+          "item": "oil or cooking spray",
+          "quantity": "2",
+          "unit": "tsp"
         },
         {
-          "item": "chopped onion",
-          "quantity": "1/2",
+          "item": "creamy peanut butter",
+          "quantity": "2",
           "unit": "cup"
         },
         {
-          "item": "garlic",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": "minced"
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "Minute Rice",
-          "quantity": "1/2",
-          "unit": "cup",
-          "prep_note": "boxed"
-        },
-        {
-          "item": "milk",
+          "item": "lime juice (or lemon)",
           "quantity": "1/4",
           "unit": "cup"
         },
         {
-          "item": "salt",
+          "item": "hot water",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "soy sauce",
           "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "green onion",
+          "quantity": "1",
+          "unit": "Tbsp",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "dried crushed red pepper",
+          "quantity": "1/8",
           "unit": "tsp"
-        },
-        {
-          "item": "pepper",
-          "quantity": "to taste",
-          "unit": ""
-        },
-        {
-          "item": "tomato soup",
-          "quantity": "1",
-          "unit": "large can",
-          "prep_note": "Campbell's, condensed family soup"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Put on top."
+          "text": "Dry chicken with paper towel. Heat oil (or spray) in large skillet over medium heat. Cook chicken 3-4 minutes on each side, or until juices run clear."
         },
         {
           "step": 2,
-          "text": "Put in pepper loosely."
+          "text": "In blender, thoroughly combine peanut butter, lime juice, water, soy sauce, honey, onion, garlic and pepper."
         },
         {
           "step": 3,
-          "text": "Bake at 350 degrees."
+          "text": "Spoon peanut sauce over each cooked chicken breast."
         }
       ],
+      "notes": [
+        "Peanut sauce recipe makes 3/4 cup."
+      ],
       "tags": [
-        "stuffed peppers",
-        "ground beef",
-        "comfort food"
+        "chicken",
+        "Thai",
+        "peanut sauce",
+        "quick"
       ],
       "confidence": {
-        "overall": "medium",
-        "flags": [
-          "Instructions abbreviated on original"
-        ]
+        "overall": "high",
+        "flags": []
       },
-      "image_refs": [],
-      "nutrition": {
-        "status": "complete",
-        "per_serving": {
-          "calories": 485,
-          "fat_g": 24,
-          "carbs_g": 28,
-          "protein_g": 38,
-          "sodium_mg": 1180,
-          "fiber_g": 4,
-          "sugar_g": 10
-        },
-        "assumptions": [
-          "Based on 4 servings",
-          "Using 90/10 lean ground beef"
-        ]
-      }
+      "image_refs": []
     }
   ],
   "meta": {
