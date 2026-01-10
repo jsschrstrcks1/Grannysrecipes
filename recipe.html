@@ -3,19 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Family recipe from Grandma's Kitchen">
+  <meta name="description" content="Family recipe from Granny's Kitchen">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
   <meta name="googlebot" content="noindex, nofollow">
-  <title>Recipe - Grandma's Kitchen</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <!-- SHARED STYLES FROM HUB - includes auth gate, nav, mobile responsive -->
+  <link rel="stylesheet" href="https://jsschrstrcks1.github.io/Grandmasrecipes/styles.css">
+
+  <title>Recipe - Granny's Kitchen</title>
 </head>
 <body>
+  <!-- Authentication Gate -->
+  <div id="auth-gate" class="auth-gate">
+    <div class="auth-container">
+      <h1>Grandma's Kitchen</h1>
+      <p>This is a private family recipe archive.</p>
+      <form id="auth-form">
+        <label for="auth-answer">What is Grandma's last name?</label>
+        <input type="text" id="auth-answer" autocomplete="off" required>
+        <button type="submit" class="btn btn-primary">Enter</button>
+        <p id="auth-error" class="auth-error" style="display: none;">Incorrect. Please try again.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Authentication Script - MUST use exact key for cross-site auth -->
+  <script>
+    (function() {
+      const AUTH_KEY = 'grandmas-kitchen-auth';
+      const CORRECT_ANSWER = 'Baker';
+
+      function checkAuth() {
+        return localStorage.getItem(AUTH_KEY) === 'true';
+      }
+
+      function showSite() {
+        document.getElementById('auth-gate').style.display = 'none';
+        document.getElementById('site-content').style.display = 'block';
+      }
+
+      function showGate() {
+        document.getElementById('auth-gate').style.display = 'flex';
+        document.getElementById('site-content').style.display = 'none';
+      }
+
+      if (checkAuth()) {
+        showSite();
+      } else {
+        showGate();
+      }
+
+      document.getElementById('auth-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const answer = document.getElementById('auth-answer').value;
+        if (answer === CORRECT_ANSWER) {
+          localStorage.setItem(AUTH_KEY, 'true');
+          showSite();
+        } else {
+          document.getElementById('auth-error').style.display = 'block';
+          document.getElementById('auth-answer').value = '';
+          document.getElementById('auth-answer').focus();
+        }
+      });
+    })();
+  </script>
+
+  <!-- Site Content (hidden until authenticated) -->
+  <div id="site-content" style="display: none;">
+
   <header class="site-header">
     <div class="container">
-      <h1><a href="index.html">Grandma's Kitchen</a></h1>
+      <h1><a href="index.html">Granny's Kitchen</a></h1>
       <p class="tagline">A treasured collection of family recipes, preserved with love</p>
+      <p class="tagline" style="font-size: 0.9rem; opacity: 0.8;">Soli Deo Gloria</p>
     </div>
   </header>
+
+  <!-- Family Collections Navigation - mark current site as active -->
+  <nav class="family-collections">
+    <div class="container">
+      <span class="nav-label">Family Collections:</span>
+      <a href="https://jsschrstrcks1.github.io/Grandmasrecipes/">Grandma</a>
+      <a href="https://jsschrstrcks1.github.io/MomsRecipes/">MomMom</a>
+      <a href="https://jsschrstrcks1.github.io/Grannysrecipes/" class="active">Granny</a>
+      <a href="https://jsschrstrcks1.github.io/Allrecipes/">Other Recipes</a>
+    </div>
+  </nav>
 
   <nav class="site-nav">
     <div class="container">
@@ -46,10 +119,12 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Grandma's Kitchen &middot; A Family Treasure</p>
+      <p>Granny's Kitchen &middot; A Family Treasure</p>
       <p style="margin-top: 0.5rem; font-size: 0.8rem;">From Michigan to Florida &middot; Preserved with Love</p>
     </div>
   </footer>
+
+  </div><!-- end site-content -->
 
   <script src="script.js"></script>
 </body>
