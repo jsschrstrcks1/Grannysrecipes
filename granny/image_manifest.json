@@ -1,6 +1,6 @@
 {
   "created": "2026-01-09T17:12:44.525483",
-  "last_updated": "2026-01-10T00:18:02.862367",
+  "last_updated": "2026-01-10T00:25:04.250252",
   "max_dimension": 2000,
   "collections": {
     "granny": {
@@ -357,12 +357,14 @@
       "collection": "granny",
       "filename": "166 Medium.jpeg",
       "path": "granny/166 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.003239",
-      "file_size": 116244
+      "file_size": 116244,
+      "status_updated": "2026-01-10T00:25:04.250232",
+      "notes": "Handwritten Orange Marmalade - JSON mismatch (shows pork-chop-casserole)"
     },
     "granny/167 Medium.jpeg": {
       "collection": "granny",
@@ -572,12 +574,14 @@
       "collection": "granny",
       "filename": "33 Medium.jpeg",
       "path": "granny/33 Medium.jpeg",
-      "status": "valid",
+      "status": "processed",
       "width": null,
       "height": null,
       "error": "Pillow not installed, assuming valid",
       "validated_at": "2026-01-09T17:28:05.005927",
-      "file_size": 96970
+      "file_size": 96970,
+      "status_updated": "2026-01-10T00:20:47.997071",
+      "notes": "Handwritten Dump Cake"
     },
     "granny/34 Medium.jpeg": {
       "collection": "granny",
@@ -4972,7 +4976,7 @@
     "validated": 443,
     "broken": 5,
     "oversized": 0,
-    "processed": 7,
+    "processed": 9,
     "skipped": 0
   }
 }
