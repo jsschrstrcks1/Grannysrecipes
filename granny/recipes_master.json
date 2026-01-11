@@ -4451,9 +4451,7 @@
         "honey",
         "main dish"
       ],
-      "image_refs": [
-        "104"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4570,9 +4568,7 @@
         "bread",
         "party food"
       ],
-      "image_refs": [
-        "106"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4675,9 +4671,7 @@
         "pecans",
         "maple"
       ],
-      "image_refs": [
-        "108"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4755,9 +4749,7 @@
         "vegetables",
         "side dish"
       ],
-      "image_refs": [
-        "110"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4876,9 +4868,7 @@
         "barley",
         "hearty"
       ],
-      "image_refs": [
-        "112"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4940,9 +4930,7 @@
         "eggs",
         "simple"
       ],
-      "image_refs": [
-        "114"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -9427,7 +9415,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [
+        "IMG_4400"
+      ]
     },
     {
       "id": "easy-double-chocolate-chip-brownies-granny",
@@ -10429,6 +10419,76 @@
         "flags": []
       },
       "image_refs": []
+    },
+    {
+      "id": "honey-wallbanger-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Honey Wallbanger Cake",
+      "category": "desserts",
+      "source_note": "Newspaper clipping, saved by family",
+      "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "45 minutes",
+      "ingredients": [
+        {
+          "item": "orange cake mix",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "instant vanilla pudding",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Galliano liqueur",
+          "quantity": "3/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix cake mix, pudding, eggs, oil, and Galliano."
+        },
+        {
+          "step": 2,
+          "text": "Pour into greased bundt pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350\u00b0F for 45 minutes."
+        }
+      ],
+      "notes": [
+        "Frosting: Mix 1 cup confectioners sugar with 1 Tbsp Galliano. Drizzle over cooled cake."
+      ],
+      "tags": [
+        "cake",
+        "dessert",
+        "liqueur",
+        "bundt"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Partial transcription from worn newspaper clipping"
+        ]
+      },
+      "image_refs": [
+        "199"
+      ]
     }
   ],
   "meta": {
