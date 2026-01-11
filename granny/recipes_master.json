@@ -1545,7 +1545,8 @@
         }
       ],
       "notes": [
-        "Do not stir layers - just dump and spread each one."
+        "Do not stir layers - just dump and spread each one.",
+        "Back of card has additional notes referencing Basic Brownies and chocolate frostings"
       ],
       "tags": [
         "dessert",
@@ -1555,7 +1556,8 @@
         "no-mix"
       ],
       "image_refs": [
-        "33"
+        "33",
+        "Grannys-recipes - 70"
       ],
       "confidence": {
         "overall": "high",
@@ -3221,7 +3223,8 @@
         "quick bread"
       ],
       "image_refs": [
-        "73"
+        "73",
+        "70"
       ],
       "confidence": {
         "overall": "high",
@@ -10485,6 +10488,670 @@
           "Using 90/10 lean ground beef"
         ]
       }
+    },
+    {
+      "id": "cornish-game-hens-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cornish Game Hens",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "Handwritten recipe card in red ink",
+      "description": "Herb-stuffed Cornish game hens with wine-butter basting, perfect for picnics.",
+      "servings_yield": "8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 30 minutes",
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "ingredients": [
+        {
+          "item": "frozen Cornish hens",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "about 1 lb each"
+        },
+        {
+          "item": "herb rice",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "6 oz"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw hens. Cook giblets in 2 1/2 cups water until tender. Drain and save broth. Chop giblets."
+        },
+        {
+          "step": 2,
+          "text": "Cook rice according to package directions, using reserved broth instead of water. Add chopped giblets to rice."
+        },
+        {
+          "step": 3,
+          "text": "Stuff hens with the rice mixture. Truss well with small skewers and white string."
+        },
+        {
+          "step": 4,
+          "text": "Heat butter, wine, and rosemary in a pan until butter is melted."
+        },
+        {
+          "step": 5,
+          "text": "Arrange hens in a shallow roasting pan. Brush with butter mixture."
+        },
+        {
+          "step": 6,
+          "text": "Roast at 425\u00b0F for 1 hour or until done, basting several times with the butter mixture."
+        },
+        {
+          "step": 7,
+          "text": "Chill until ready for picnic."
+        }
+      ],
+      "notes": [
+        "This was a family picnic recipe - chill before transporting",
+        "Use the giblet broth for extra flavor in the rice"
+      ],
+      "tags": [
+        "poultry",
+        "main dish",
+        "picnic",
+        "entertaining",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "Grannys-recipes - 19"
+      ]
+    },
+    {
+      "id": "no-bake-easter-basket-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "No-Bake Easter Basket Cake",
+      "category": "desserts",
+      "attribution": "Woman's World magazine",
+      "source_note": "Magazine clipping from Woman's World 3/31/08",
+      "description": "A totally edible, adorable Easter basket made with frozen poundcakes and decorated with store-bought cookies and candy.",
+      "servings_yield": "30 servings",
+      "prep_time": "1 hour 30 minutes",
+      "total_time": "1 hour 50 minutes",
+      "ingredients": [
+        {
+          "item": "white chocolate chips",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable shortening",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "peanut-shaped peanut butter sandwich cookies",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "such as Nutter Butter"
+        },
+        {
+          "item": "round pink cake decors",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "strawberry-flavored fruit chew candies",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "such as Starburst"
+        },
+        {
+          "item": "semisweet chocolate chips",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "vanilla frosting",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "16 oz each"
+        },
+        {
+          "item": "red food coloring",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "green food coloring",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "frozen poundcakes",
+          "quantity": "4",
+          "unit": "pkgs",
+          "prep_note": "10.75 oz each, thawed"
+        },
+        {
+          "item": "pastel-colored peanut M&M's",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "about 80 pieces"
+        },
+        {
+          "item": "peanut butter-flavored Cookie Stix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "10 oz, Keebler"
+        },
+        {
+          "item": "sweetened flaked coconut",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "multicolored marshmallow rope",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "2 oz, such as Marshmallow Bunny Ropes"
+        },
+        {
+          "item": "flexible straws and large marshmallows",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional, for handle alternative"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In bowl set over hot (not simmering) water, melt white chocolate with shortening until smooth. Dip 1 side of each peanut-shaped cookie in mixture; place dipped side up on wire rack. Press 1 cake decor into icing for nose. Let stand until dry, 15-20 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Roll out Starbursts to 1/4 inch thick. With clean scissors cut two 1 1/2-inch long bunny ears per cookie. Cut small slits on 1 short side of cookie through to filling. Dip tips of ears into remaining chocolate mixture; insert into slits."
+        },
+        {
+          "step": 3,
+          "text": "Transfer melted semisweet chocolate to plastic food storage bag with corner snipped; pipe eyes and whiskers on bunny cookies."
+        },
+        {
+          "step": 4,
+          "text": "Tint frosting pink with red food coloring. Transfer 1 1/2 cups frosting to plastic bag; set aside."
+        },
+        {
+          "step": 5,
+          "text": "With small amount of frosting, attach bottom of 1 poundcake to serving platter. Attach remaining cakes with frosting on bottom and vertical sides. Frost top and sides with remaining frosting."
+        },
+        {
+          "step": 6,
+          "text": "Toss coconut with green food coloring and a few drops of water; set aside."
+        },
+        {
+          "step": 7,
+          "text": "Press M&M's along bottom edge of cake in alternating colors. Press Cookie Stix vertically onto sides, fitting bottom tips in crevice where M&M's meet. Leave 1 1/2-inch wide gap on each long side for handle."
+        },
+        {
+          "step": 8,
+          "text": "Press remaining M&M's along top edge in alternating colors. Pipe alternating horizontal lines of pink frosting over cookies for basket weave."
+        },
+        {
+          "step": 9,
+          "text": "Press Bunny Rope onto sides for handle; insert toothpicks through rope into cake to secure. Prop handle with toothpicks or wooden skewer until serving."
+        },
+        {
+          "step": 10,
+          "text": "Insert bunny cookies into top of cake. Arrange green coconut around cookies."
+        }
+      ],
+      "notes": [
+        "P.S. Want to make it even easier? Skip the bunny cookies and simply 'fill' your basket with candy eggs and other Easter goodies!",
+        "Basket handle alternative: If unable to find Marshmallow Bunny Ropes, use flexible straws cut to fit, threaded with marshmallows and inserted into each other",
+        "Peanut allergy substitution: Use pastel-colored plain M&M's, plain Cookie Stix, and chocolate candy bunnies instead of peanut versions"
+      ],
+      "tags": [
+        "dessert",
+        "no-bake",
+        "Easter",
+        "holiday",
+        "cake",
+        "kids",
+        "decorative"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "per_serving": {
+          "calories": 437,
+          "protein_g": 4,
+          "fat_g": 20,
+          "carbs_g": 56,
+          "sodium_mg": 280,
+          "fiber_g": 1
+        },
+        "assumptions": [
+          "Per serving based on 30 servings as stated in original recipe"
+        ]
+      },
+      "image_refs": []
+    },
+    {
+      "id": "frosty-orange-delight-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Frosty Orange Delight",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Inspired from winner in Pillsbury's 21st Bake-Off - magazine clipping",
+      "description": "A frozen cream cheese dessert with Mandarin oranges on a coconut pudding crust.",
+      "servings_yield": "15-18 servings",
+      "temperature": "Frozen dessert",
+      "ingredients": [
+        {
+          "item": "baked Basic Crust",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "made with coconut cream pudding mix, cooled"
+        },
+        {
+          "item": "Mandarin oranges",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "11 oz, well drained"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "1/2 pint, whipped"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for sweetening whipped cream"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "8 oz each, softened"
+        },
+        {
+          "item": "powdered orange flavored instant breakfast drink",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "4 3/4 oz"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large mixer bowl, combine cream cheese, powdered instant breakfast drink, and sugar at low speed."
+        },
+        {
+          "step": 2,
+          "text": "Beat 3 minutes at high speed until smooth and creamy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs, one at a time, beating well after each addition."
+        },
+        {
+          "step": 4,
+          "text": "Fold in whipped cream and drained Mandarin oranges."
+        },
+        {
+          "step": 5,
+          "text": "Pour over baked and cooled crust."
+        },
+        {
+          "step": 6,
+          "text": "Freeze covered with foil, overnight."
+        },
+        {
+          "step": 7,
+          "text": "Remove from freezer 10 minutes before serving."
+        }
+      ],
+      "notes": [
+        "Use Basic Crust recipe made with coconut cream pudding mix",
+        "Must freeze overnight before serving"
+      ],
+      "tags": [
+        "dessert",
+        "frozen",
+        "cream cheese",
+        "orange",
+        "make-ahead",
+        "vintage",
+        "contest-winner"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "basic-crust-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Basic Crust",
+      "category": "desserts",
+      "attribution": "Pillsbury",
+      "source_note": "Pillsbury's 21st Bake-Off magazine clipping",
+      "description": "A versatile pudding-based crust for desserts.",
+      "servings_yield": "One 13x9-inch crust",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "12-15 minutes",
+      "pan_size": "13x9-inch baking pan",
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "4-serving size, not instant"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "No need to sift flour; measure by lightly spooning into cup and leveling off."
+        },
+        {
+          "step": 2,
+          "text": "In small mixer bowl, combine all ingredients."
+        },
+        {
+          "step": 3,
+          "text": "Blend 30 seconds at low speed; blend 1 minute at medium speed."
+        },
+        {
+          "step": 4,
+          "text": "Spread dough in ungreased 13x9-inch baking pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 12 to 15 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Cool completely before filling."
+        }
+      ],
+      "notes": [
+        "For use with Pillsbury's Best Self-Rising Flour, omit salt and the 2 tablespoons butter",
+        "Use coconut cream pudding mix for Frosty Orange Delight"
+      ],
+      "tags": [
+        "dessert",
+        "crust",
+        "base recipe",
+        "vintage"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "berry-banana-dessert-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Berry Banana Dessert",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Inspired from winner in Pillsbury's 21st Bake-Off - magazine clipping",
+      "description": "A layered dessert with raspberries, bananas, and cream cheese on a coconut pudding crust.",
+      "servings_yield": "15-18 servings",
+      "ingredients": [
+        {
+          "item": "baked Basic Crust",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "made with coconut cream pudding mix, cooled"
+        },
+        {
+          "item": "miniature marshmallows",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "frozen raspberries",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "10 oz each, drain and reserve 1 cup syrup"
+        },
+        {
+          "item": "red raspberry flavored gelatin",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "3 oz each"
+        },
+        {
+          "item": "honey",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "8 oz each, softened"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "raspberry or vanilla yogurt",
+          "quantity": "2",
+          "unit": "cartons",
+          "prep_note": "8 oz each"
+        },
+        {
+          "item": "bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large saucepan, combine miniature marshmallows, gelatin, and reserved raspberry syrup."
+        },
+        {
+          "step": 2,
+          "text": "Cook over medium heat, stirring occasionally, until marshmallows are melted. Chill while preparing cream cheese mixture."
+        },
+        {
+          "step": 3,
+          "text": "In large mixer bowl, combine honey, cream cheese and vanilla at low speed; beat 3 minutes at high speed until smooth and creamy."
+        },
+        {
+          "step": 4,
+          "text": "Add yogurt and reserved marshmallow mixture; beat at medium speed 1 minute."
+        },
+        {
+          "step": 5,
+          "text": "Slice bananas and spoon drained raspberries over baked and cooled crust."
+        },
+        {
+          "step": 6,
+          "text": "Pour filling over fruit. Refrigerate 3 hours or until set."
+        }
+      ],
+      "notes": [
+        "Fresh raspberry substitution: 1 cup fresh raspberries sweetened with 1/4 cup sugar can replace frozen. Use 1 cup water for raspberry syrup."
+      ],
+      "tags": [
+        "dessert",
+        "fruit",
+        "cream cheese",
+        "no-bake",
+        "vintage",
+        "contest-winner"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    },
+    {
+      "id": "strawberries-n-cream-cheese-freeze-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Strawberries 'n Cream Cheese Freeze",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Adapted from winner in Pillsbury's 21st Bake-Off - magazine clipping",
+      "description": "A frozen strawberry cream cheese dessert on a lemon pudding crust.",
+      "servings_yield": "15-18 servings",
+      "ingredients": [
+        {
+          "item": "baked Basic Crust",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "made with lemon pudding mix, cooled"
+        },
+        {
+          "item": "frozen strawberries",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "10 oz each, drain and reserve 1/2 cup syrup"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "1/2 pint, whipped"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for sweetening whipped cream"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "pkgs",
+          "prep_note": "8 oz each, softened"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large mixer bowl, combine cream cheese and sugar at low speed."
+        },
+        {
+          "step": 2,
+          "text": "Beat at high speed for 3 minutes until smooth and creamy."
+        },
+        {
+          "step": 3,
+          "text": "Add reserved syrup; beat 1 minute at medium speed."
+        },
+        {
+          "step": 4,
+          "text": "Fold in strawberries and whipped cream."
+        },
+        {
+          "step": 5,
+          "text": "Pour over baked and cooled crust."
+        },
+        {
+          "step": 6,
+          "text": "Freeze covered with foil overnight."
+        },
+        {
+          "step": 7,
+          "text": "Remove from freezer 10 minutes before serving."
+        }
+      ],
+      "notes": [
+        "Fresh strawberry substitution: 1 pint fresh strawberries, mashed and sweetened with 1/3 cup sugar can replace frozen. Use juice from mashed strawberries for syrup."
+      ],
+      "tags": [
+        "dessert",
+        "frozen",
+        "strawberry",
+        "cream cheese",
+        "make-ahead",
+        "vintage",
+        "contest-winner"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
     }
   ],
   "meta": {
