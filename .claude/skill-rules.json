@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "description": "Auto-activation rules for Claude Code skills - Granny Hudson's Recipe Archive",
+  "skills": {
+    "recipe-transcription": {
+      "enabled": true,
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Transcribe handwritten recipe cards with maximum accuracy and fidelity to the original source",
+      "fileTriggers": {
+        "pathPatterns": [
+          "granny/*.jpeg",
+          "granny/*.jpg",
+          "granny/*.png",
+          "granny/processed/*.jpeg",
+          "granny/processed/*.jpg",
+          "granny/processed/*.png"
+        ]
+      },
+      "promptTriggers": {
+        "keywords": [
+          "transcribe",
+          "OCR",
+          "handwritten",
+          "recipe card",
+          "read image",
+          "extract recipe",
+          "handwriting",
+          "scan",
+          "digitize"
+        ],
+        "intentPatterns": [
+          "(transcribe|read|extract).*?(recipe|card|image)",
+          "(handwritten|handwriting).*?(recipe|card)",
+          "OCR.*?recipe"
+        ]
+      },
+      "toolTriggers": [
+        "Read"
+      ],
+      "autoLoad": {
+        "mainFile": ".claude/skills/recipe-transcription/SKILL.md",
+        "maxLines": 300,
+        "loadOnFirstFileEdit": false
+      },
+      "guardrails": {
+        "must_do": [
+          "Use [UNCLEAR] for any text you cannot read with certainty",
+          "Preserve original spelling and grammar",
+          "Check image dimensions before reading (<=2000px)",
+          "Run validation after adding recipe"
+        ],
+        "must_not": [
+          "Invent ingredients, steps, or measurements",
+          "Guess what unclear text says",
+          "Improve or modernize granny's wording",
+          "Delete handwritten image files"
+        ]
+      },
+      "activationMessage": "Recipe Transcription skill activated. Remember: Accuracy over speed. Use [UNCLEAR] for uncertain text."
+    },
+    "recipe-validation": {
+      "enabled": true,
+      "type": "guardrail",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Ensure all recipes conform to the schema and pass quality checks",
+      "fileTriggers": {
+        "pathPatterns": [
+          "granny/recipes_master.json",
+          "granny/recipes-*.json"
+        ],
+        "exclude": [
+          "granny/collections.json",
+          "granny/image_manifest.json"
+        ]
+      },
+      "promptTriggers": {
+        "keywords": [
+          "validate",
+          "check",
+          "schema",
+          "recipe errors",
+          "fix recipe",
+          "validation",
+          "verify recipe"
+        ],
+        "intentPatterns": [
+          "(validate|check|verify).*?recipe",
+          "(fix|correct).*?(error|warning)",
+          "schema.*?compliance"
+        ]
+      },
+      "toolTriggers": [
+        "Edit",
+        "Write"
+      ],
+      "autoLoad": {
+        "mainFile": ".claude/skills/recipe-validation/SKILL.md",
+        "maxLines": 250,
+        "loadOnFirstFileEdit": true
+      },
+      "postWriteAction": {
+        "script": "python scripts/validate-recipes.py",
+        "runAutomatically": false,
+        "description": "Validate recipes after modifications"
+      },
+      "guardrails": {
+        "must_do": [
+          "Run validation after ANY edit to recipes_master.json",
+          "Fix all ERRORs before committing",
+          "Investigate all WARNINGs",
+          "Preserve [UNCLEAR] markers"
+        ],
+        "must_not": [
+          "Commit recipes with validation errors",
+          "Ignore suspicious measurement warnings",
+          "Remove [UNCLEAR] markers without verification",
+          "Auto-fix errors by inventing data"
+        ]
+      },
+      "activationMessage": "Recipe Validation skill activated. Run: python scripts/validate-recipes.py"
+    },
+    "image-safety": {
+      "enabled": true,
+      "type": "guardrail",
+      "enforcement": "warn",
+      "priority": "critical",
+      "description": "Ensure images are safe to read (<=2000px) before processing",
+      "fileTriggers": {
+        "pathPatterns": [
+          "granny/*.jpeg",
+          "granny/*.jpg",
+          "granny/*.png"
+        ],
+        "exclude": [
+          "granny/processed/*"
+        ]
+      },
+      "promptTriggers": {
+        "keywords": [
+          "read image",
+          "view image",
+          "look at",
+          "show me",
+          "open image"
+        ]
+      },
+      "toolTriggers": [
+        "Read"
+      ],
+      "guardrails": {
+        "must_do": [
+          "Check image dimensions before reading",
+          "Use granny/processed/ versions when available",
+          "Run image_safeguards.py status first"
+        ],
+        "must_not": [
+          "Read oversized images directly",
+          "Skip the dimension check"
+        ]
+      },
+      "activationMessage": "Image Safety: Check dimensions first. Run: python scripts/image_safeguards.py status"
+    }
+  },
+  "globalSettings": {
+    "enableAutoActivation": true,
+    "verboseLogging": false,
+    "cacheSkillContext": true,
+    "maxConcurrentSkills": 2
+  },
+  "notes": {
+    "project": "Granny Hudson's Recipe Archive - Family Recipe Collection",
+    "philosophy": {
+      "priority_order": [
+        "1. Accuracy-First: Never guess or invent recipe content",
+        "2. Preservation-First: Handwritten images are sacred heirlooms",
+        "3. Fidelity-First: Preserve granny's exact wording",
+        "4. Readability-First: Family members need clear, usable recipes"
+      ],
+      "core_principle": "Accuracy is more important than speed. These recipes matter deeply to this family."
+    },
+    "enforcement_types": {
+      "suggest": "Skill suggestion appears but doesn't block execution",
+      "warn": "Shows warning but allows proceeding",
+      "block": "Requires skill to be used before proceeding"
+    },
+    "priority_levels": {
+      "critical": "Highest - Always trigger when matched (image safety)",
+      "high": "Important - Trigger for most matches (transcription, validation)",
+      "medium": "Moderate - Trigger for clear matches",
+      "low": "Optional - Trigger only for explicit matches"
+    },
+    "theological_foundation": "Soli Deo Gloria - Glory to God Alone"
+  }
+}
