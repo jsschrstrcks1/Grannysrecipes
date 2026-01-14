@@ -521,22 +521,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 259,
-          "fat_g": 18.4,
-          "carbs_g": 0.6,
-          "protein_g": 22.2,
-          "sodium_mg": 706,
-          "fiber_g": 0.0,
-          "sugar_g": 0.3
+          "calories": 265,
+          "fat_g": 18.7,
+          "carbs_g": 1.8,
+          "protein_g": 22.5,
+          "sodium_mg": 708,
+          "fiber_g": 0.7,
+          "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "paprika"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "cream cheese: used default unit"
+          "cream cheese: used default unit",
+          "paprika: used default unit"
         ]
       }
     },
@@ -649,7 +648,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 7,
         "per_serving": {
           "calories": 412,
@@ -660,10 +659,9 @@
           "fiber_g": 0.7,
           "sugar_g": 0.6
         },
-        "missing_inputs": [
-          "fresh basil leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "fresh basil leaves: used default unit",
           "garlic: used default unit",
           "hot pepper sauce: used default unit",
           "white wine: used default unit"
@@ -782,28 +780,26 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 171,
           "fat_g": 8.4,
-          "carbs_g": 9.3,
-          "protein_g": 11.2,
+          "carbs_g": 9.4,
+          "protein_g": 11.3,
           "sodium_mg": 276,
-          "fiber_g": 2.3,
+          "fiber_g": 2.4,
           "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "dried basil leaves",
-          "chopped parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "chopped onion: used default unit",
           "garlic: used default unit",
           "chopped green pepper: used default unit",
           "canned diced tomatoes with juice: used default unit",
           "tomato paste: used default unit",
-          "freshly ground black pepper: used default unit"
+          "freshly ground black pepper: used default unit",
+          "chopped parsley: used default unit"
         ]
       }
     },
@@ -912,23 +908,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 261,
-          "fat_g": 21.8,
-          "carbs_g": 6.5,
-          "protein_g": 10.3,
+          "calories": 262,
+          "fat_g": 21.9,
+          "carbs_g": 6.8,
+          "protein_g": 10.4,
           "sodium_mg": 281,
-          "fiber_g": 1.1,
-          "sugar_g": 2.9
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "cayenne",
-          "minced parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "black pepper: used default unit",
+          "cayenne: used default unit",
           "corned beef hash: used default unit"
         ]
       }
@@ -1235,22 +1229,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 387,
+          "calories": 390,
           "fat_g": 14.6,
-          "carbs_g": 57.6,
+          "carbs_g": 57.9,
           "protein_g": 6.8,
           "sodium_mg": 119,
           "fiber_g": 1.4,
-          "sugar_g": 25.6
+          "sugar_g": 25.9
         },
-        "missing_inputs": [
-          "Maraschino cherries",
-          "almond extract"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "Maraschino cherries: used default unit",
           "flour: used default unit"
         ]
       }
@@ -1352,7 +1344,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 340,
@@ -1363,9 +1355,7 @@
           "fiber_g": 2.3,
           "sugar_g": 4.1
         },
-        "missing_inputs": [
-          "liquid smoke seasoning"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "finely chopped onion: used default unit"
         ]
@@ -1586,7 +1576,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
           "calories": 263,
@@ -1597,9 +1587,7 @@
           "fiber_g": 1.1,
           "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "warm water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "active dry yeast: used default unit",
           "all-purpose flour: used default unit",
@@ -1969,23 +1957,22 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 210,
-          "fat_g": 20.2,
-          "carbs_g": 2.6,
-          "protein_g": 5.5,
-          "sodium_mg": 566,
-          "fiber_g": 0.4,
-          "sugar_g": 1.5
+          "calories": 236,
+          "fat_g": 21.6,
+          "carbs_g": 5.8,
+          "protein_g": 5.9,
+          "sodium_mg": 606,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "Ritz crackers"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen broccoli: used default unit",
-          "chopped onion: used default unit"
+          "chopped onion: used default unit",
+          "Ritz crackers: used default unit"
         ]
       }
     },
@@ -2102,21 +2089,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 384,
-          "fat_g": 8.8,
-          "carbs_g": 58.9,
-          "protein_g": 15.7,
-          "sodium_mg": 540,
-          "fiber_g": 3.6,
-          "sugar_g": 6.0
+          "calories": 391,
+          "fat_g": 8.9,
+          "carbs_g": 60.9,
+          "protein_g": 15.8,
+          "sodium_mg": 600,
+          "fiber_g": 3.7,
+          "sugar_g": 7.5
         },
-        "missing_inputs": [
-          "catsup",
-          "horseradish"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "medium-wide noodles: used default unit",
           "onion: used default unit",
@@ -2256,21 +2240,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 141,
-          "fat_g": 5.6,
-          "carbs_g": 20.4,
+          "calories": 145,
+          "fat_g": 5.5,
+          "carbs_g": 21.4,
           "protein_g": 2.6,
           "sodium_mg": 189,
           "fiber_g": 0.6,
-          "sugar_g": 9.6
+          "sugar_g": 10.4
         },
-        "missing_inputs": [
-          "maple candy",
-          "orange rind"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "pumpkin pie spice: used default unit",
           "yellow cake mix: used default unit"
@@ -2380,24 +2361,21 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 300,
-          "fat_g": 12.4,
-          "carbs_g": 49.1,
-          "protein_g": 2.6,
-          "sodium_mg": 190,
-          "fiber_g": 1.8,
-          "sugar_g": 33.8
+          "calories": 400,
+          "fat_g": 21.4,
+          "carbs_g": 52.1,
+          "protein_g": 5.1,
+          "sodium_mg": 191,
+          "fiber_g": 2.8,
+          "sugar_g": 34.3
         },
-        "missing_inputs": [
-          "water",
-          "cream of tartar",
-          "mixed nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "popped popcorn: used default unit"
+          "popped popcorn: used default unit",
+          "water: used default unit"
         ]
       }
     },
@@ -2717,23 +2695,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 35,
-          "fat_g": 3.9,
-          "carbs_g": 0.0,
-          "protein_g": 0.1,
-          "sodium_mg": 28,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 135,
+          "fat_g": 5.5,
+          "carbs_g": 18.4,
+          "protein_g": 3.1,
+          "sodium_mg": 212,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "frozen bread dough",
-          "dried parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Parmesan cheese: used default unit",
+          "dried parsley: used default unit",
           "garlic powder: used default unit"
         ]
       }
@@ -2957,20 +2933,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 707,
+          "calories": 708,
           "fat_g": 26.1,
-          "carbs_g": 85.3,
+          "carbs_g": 85.5,
           "protein_g": 34.9,
           "sodium_mg": 192,
-          "fiber_g": 10.9,
+          "fiber_g": 11.0,
           "sugar_g": 11.0
         },
-        "missing_inputs": [
-          "paprika"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "pork country-style back ribs: used default unit",
           "onion salt: used default unit",
@@ -3077,22 +3051,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 126,
-          "fat_g": 5.7,
-          "carbs_g": 18.4,
-          "protein_g": 1.8,
-          "sodium_mg": 95,
-          "fiber_g": 2.4,
+          "calories": 323,
+          "fat_g": 17.1,
+          "carbs_g": 19.2,
+          "protein_g": 23.2,
+          "sodium_mg": 152,
+          "fiber_g": 2.8,
           "sugar_g": 11.3
         },
-        "missing_inputs": [
-          "boneless sirloin",
-          "sesame seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "boneless sirloin: used default unit",
           "garlic: used default unit",
           "soy sauce: used default unit"
         ]
@@ -3201,25 +3173,24 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 652,
+          "calories": 654,
           "fat_g": 34.7,
-          "carbs_g": 28.9,
+          "carbs_g": 29.0,
           "protein_g": 54.4,
           "sodium_mg": 190,
           "fiber_g": 0.1,
           "sugar_g": 28.2
         },
-        "missing_inputs": [
-          "water",
-          "sake or sweet sherry"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "pork spareribs: used default unit",
+          "water: used default unit",
           "white wine vinegar: used default unit",
           "soy sauce: used default unit",
+          "sake or sweet sherry: used default unit",
           "garlic: used default unit"
         ]
       }
@@ -3343,26 +3314,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 191,
-          "fat_g": 0.2,
-          "carbs_g": 44.7,
-          "protein_g": 3.9,
-          "sodium_mg": 35,
-          "fiber_g": 4.6,
-          "sugar_g": 12.8
+          "calories": 497,
+          "fat_g": 15.6,
+          "carbs_g": 57.4,
+          "protein_g": 33.5,
+          "sodium_mg": 151,
+          "fiber_g": 6.0,
+          "sugar_g": 20.4
         },
-        "missing_inputs": [
-          "blade cut or round bone pot roast",
-          "paprika",
-          "bottle chili sauce",
-          "water",
-          "cooked prunes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "onion: used default unit"
+          "blade cut or round bone pot roast: used default unit",
+          "onion: used default unit",
+          "bottle chili sauce: used default unit"
         ]
       }
     },
@@ -3448,24 +3415,23 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 958,
-          "fat_g": 90.1,
-          "carbs_g": 25.9,
-          "protein_g": 14.3,
-          "sodium_mg": 273,
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
           "fiber_g": 0.8,
-          "sugar_g": 16.7
+          "sugar_g": 21.2
         },
-        "missing_inputs": [
-          "whipped cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vanilla instant pudding: used default unit",
           "milk: used default unit",
           "sour cream: used default unit",
+          "whipped cream: used default unit",
           "vanilla wafers: used default unit"
         ]
       }
@@ -3679,22 +3645,21 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 360,
-          "fat_g": 18.9,
-          "carbs_g": 43.2,
-          "protein_g": 6.5,
+          "calories": 363,
+          "fat_g": 19.1,
+          "carbs_g": 43.5,
+          "protein_g": 6.6,
           "sodium_mg": 386,
-          "fiber_g": 1.1,
+          "fiber_g": 1.2,
           "sugar_g": 26.2
         },
-        "missing_inputs": [
-          "ground nutmeg"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
+          "ground nutmeg: used default unit",
           "baking soda: used default unit",
           "sugar: used default unit",
           "raisins: used default unit",
@@ -3771,21 +3736,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 123,
-          "fat_g": 0.2,
-          "carbs_g": 29.7,
-          "protein_g": 2.0,
-          "sodium_mg": 106,
-          "fiber_g": 4.0,
+          "calories": 134,
+          "fat_g": 0.7,
+          "carbs_g": 32.9,
+          "protein_g": 2.2,
+          "sodium_mg": 108,
+          "fiber_g": 4.9,
           "sugar_g": 25.7
         },
-        "missing_inputs": [
-          "water",
-          "whole allspice"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vinegar: used default unit"
         ]
@@ -3999,21 +3961,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 577,
-          "fat_g": 26.2,
-          "carbs_g": 76.2,
-          "protein_g": 9.9,
+          "calories": 630,
+          "fat_g": 30.7,
+          "carbs_g": 78.0,
+          "protein_g": 11.7,
           "sodium_mg": 580,
-          "fiber_g": 2.1,
-          "sugar_g": 27.3
+          "fiber_g": 2.9,
+          "sugar_g": 27.6
         },
-        "missing_inputs": [
-          "almond extract",
-          "sunflower seeds"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "blueberries: used default unit"
         ]
@@ -4094,20 +4053,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 41,
+          "calories": 50,
           "fat_g": 1.8,
-          "carbs_g": 6.1,
-          "protein_g": 0.5,
-          "sodium_mg": 18,
+          "carbs_g": 8.1,
+          "protein_g": 0.8,
+          "sodium_mg": 44,
           "fiber_g": 0.4,
-          "sugar_g": 5.0
+          "sugar_g": 6.5
         },
-        "missing_inputs": [
-          "angel food cake"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "fresh strawberries: used default unit",
           "Cool Whip: used default unit",
@@ -4200,20 +4157,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
           "calories": 118,
           "fat_g": 9.7,
           "carbs_g": 8.1,
           "protein_g": 1.7,
-          "sodium_mg": 103,
+          "sodium_mg": 104,
           "fiber_g": 4.9,
           "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "fresh cilantro leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": []
       }
     },
@@ -4310,23 +4265,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 350,
-          "fat_g": 24.1,
-          "carbs_g": 1.7,
-          "protein_g": 30.2,
-          "sodium_mg": 502,
-          "fiber_g": 0.3,
-          "sugar_g": 0.7
+          "calories": 391,
+          "fat_g": 24.8,
+          "carbs_g": 9.0,
+          "protein_g": 31.5,
+          "sodium_mg": 572,
+          "fiber_g": 1.0,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "croutons"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "boneless pork: used default unit",
           "frozen broccoli spears: used default unit",
+          "croutons: used default unit",
           "mayonnaise: used default unit",
           "grated Parmesan cheese: used default unit"
         ]
@@ -4412,20 +4366,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
           "calories": 78,
           "fat_g": 4.2,
           "carbs_g": 2.0,
-          "protein_g": 8.2,
+          "protein_g": 8.3,
           "sodium_mg": 167,
           "fiber_g": 0.7,
           "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "chopped parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": []
       }
     },
@@ -4512,20 +4464,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
           "calories": 705,
           "fat_g": 51.8,
-          "carbs_g": 0.5,
+          "carbs_g": 0.6,
           "protein_g": 55.1,
           "sodium_mg": 466,
-          "fiber_g": 0.0,
+          "fiber_g": 0.1,
           "sugar_g": 0.0
         },
-        "missing_inputs": [
-          "dried rosemary"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "leg of lamb: used default unit",
           "garlic: used default unit"
@@ -4621,23 +4571,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 202,
+          "calories": 204,
           "fat_g": 0.2,
-          "carbs_g": 52.0,
+          "carbs_g": 52.5,
           "protein_g": 0.4,
-          "sodium_mg": 1,
-          "fiber_g": 1.6,
+          "sodium_mg": 2,
+          "fiber_g": 1.8,
           "sugar_g": 49.4
         },
-        "missing_inputs": [
-          "ground cloves",
-          "allspice",
-          "liquid pectin",
-          "melted paraffin"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "fresh blueberries: used default unit",
           "granulated sugar: used default unit"
@@ -4771,22 +4716,18 @@
         "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 811,
-          "fat_g": 13.3,
-          "carbs_g": 135.5,
-          "protein_g": 24.5,
-          "sodium_mg": 750,
+          "calories": 1017,
+          "fat_g": 35.3,
+          "carbs_g": 137.3,
+          "protein_g": 25.8,
+          "sodium_mg": 773,
           "fiber_g": 6.4,
-          "sugar_g": 11.9
+          "sugar_g": 13.7
         },
-        "missing_inputs": [
-          "water",
-          "whipping cream",
-          "minced chives or parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen crabmeat: used default unit",
           "minced clams: used default unit",
@@ -4904,7 +4845,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 660,
@@ -4915,9 +4856,7 @@
           "fiber_g": 4.0,
           "sugar_g": 4.2
         },
-        "missing_inputs": [
-          "dried tarragon leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "swordfish steak: used default unit",
           "all-purpose flour: used default unit",
@@ -5027,20 +4966,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 130,
-          "fat_g": 5.7,
-          "carbs_g": 13.4,
-          "protein_g": 7.5,
+          "calories": 131,
+          "fat_g": 5.8,
+          "carbs_g": 13.6,
+          "protein_g": 7.6,
           "sodium_mg": 89,
-          "fiber_g": 2.1,
+          "fiber_g": 2.3,
           "sugar_g": 9.5
         },
-        "missing_inputs": [
-          "dried sage leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Dijon-style mustard: used default unit",
           "apple cider or apple juice: used default unit"
@@ -5120,21 +5057,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 296,
-          "fat_g": 18.4,
-          "carbs_g": 0.4,
-          "protein_g": 30.5,
-          "sodium_mg": 435,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 336,
+          "fat_g": 20.4,
+          "carbs_g": 5.6,
+          "protein_g": 31.1,
+          "sodium_mg": 718,
+          "fiber_g": 0.7,
+          "sugar_g": 2.8
         },
-        "missing_inputs": [
-          "dill pickles",
-          "coleslaw"
-        ],
+        "missing_inputs": [],
         "assumptions": []
       }
     },
@@ -5258,23 +5192,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 372,
           "fat_g": 21.2,
-          "carbs_g": 30.9,
-          "protein_g": 14.9,
-          "sodium_mg": 586,
+          "carbs_g": 31.0,
+          "protein_g": 15.0,
+          "sodium_mg": 587,
           "fiber_g": 3.3,
           "sugar_g": 2.9
         },
-        "missing_inputs": [
-          "fresh parsley, minced fresh chives and dried chervil leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "minced onion: used default unit",
-          "finely diced cooked ham: used default unit"
+          "finely diced cooked ham: used default unit",
+          "fresh parsley, minced fresh chives and dried chervil leaves: used default unit"
         ]
       }
     },
@@ -5368,21 +5301,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 726,
-          "fat_g": 27.2,
-          "carbs_g": 17.9,
-          "protein_g": 93.0,
-          "sodium_mg": 231,
-          "fiber_g": 0.0,
+          "calories": 738,
+          "fat_g": 27.7,
+          "carbs_g": 19.6,
+          "protein_g": 93.5,
+          "sodium_mg": 234,
+          "fiber_g": 1.4,
           "sugar_g": 17.2
         },
-        "missing_inputs": [
-          "whole fennel seeds",
-          "crushed fennel"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "pork loin roast: used default unit",
           "garlic: used default unit",
@@ -5507,28 +5437,27 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 41,
-          "fat_g": 1.1,
-          "carbs_g": 6.6,
-          "protein_g": 1.1,
-          "sodium_mg": 8,
-          "fiber_g": 0.4,
-          "sugar_g": 0.2
+          "calories": 220,
+          "fat_g": 5.5,
+          "carbs_g": 34.6,
+          "protein_g": 8.2,
+          "sodium_mg": 342,
+          "fiber_g": 1.4,
+          "sugar_g": 1.8
         },
-        "missing_inputs": [
-          "frozen bread dough",
-          "pizza oregano leaves",
-          "grated Mozzarella",
-          "lightly beaten oregano"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "frozen bread dough: used default unit",
+          "pizza oregano leaves: used default unit",
           "garlic powder: used default unit",
+          "grated Mozzarella: used default unit",
           "Parmesan cheese: used default unit",
           "green pepper: used default unit",
-          "pepperoni: used default unit"
+          "pepperoni: used default unit",
+          "lightly beaten oregano: used default unit"
         ]
       }
     },
@@ -5635,10 +5564,10 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 429,
+          "calories": 430,
           "fat_g": 22.4,
           "carbs_g": 44.1,
           "protein_g": 14.3,
@@ -5646,9 +5575,7 @@
           "fiber_g": 3.8,
           "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "maple-flavored extract"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "vegetable oil: used default unit"
@@ -5733,10 +5660,10 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 96,
+          "calories": 97,
           "fat_g": 0.3,
           "carbs_g": 20.4,
           "protein_g": 4.0,
@@ -5744,9 +5671,7 @@
           "fiber_g": 4.2,
           "sugar_g": 5.4
         },
-        "missing_inputs": [
-          "parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "mixed vegetables: used default unit",
           "sliced celery: used default unit",
@@ -5873,24 +5798,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 207,
-          "fat_g": 14.7,
-          "carbs_g": 11.1,
-          "protein_g": 8.6,
-          "sodium_mg": 938,
-          "fiber_g": 2.7,
-          "sugar_g": 5.8
+          "calories": 501,
+          "fat_g": 23.4,
+          "carbs_g": 34.0,
+          "protein_g": 38.5,
+          "sodium_mg": 1063,
+          "fiber_g": 7.0,
+          "sugar_g": 6.4
         },
-        "missing_inputs": [
-          "beef round or stew meat",
-          "barley",
-          "water",
-          "fresh bread cubes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "water: used default unit",
           "tomatoes: used default unit"
         ]
       }
@@ -5957,22 +5878,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 462,
+          "calories": 467,
           "fat_g": 49.8,
-          "carbs_g": 0.7,
-          "protein_g": 5.0,
-          "sodium_mg": 374,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "carbs_g": 1.7,
+          "protein_g": 5.2,
+          "sodium_mg": 386,
+          "fiber_g": 0.7,
+          "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "radishes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Butterhead lettuce: used default unit"
+          "Butterhead lettuce: used default unit",
+          "radishes: used default unit"
         ]
       }
     },
@@ -6110,23 +6030,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 389,
-          "fat_g": 14.7,
-          "carbs_g": 51.7,
-          "protein_g": 11.4,
-          "sodium_mg": 309,
+          "calories": 578,
+          "fat_g": 28.3,
+          "carbs_g": 65.0,
+          "protein_g": 14.3,
+          "sodium_mg": 441,
           "fiber_g": 2.4,
-          "sugar_g": 2.0
+          "sugar_g": 3.2
         },
-        "missing_inputs": [
-          "frozen patty shells",
-          "dried rosemary",
-          "dried thyme leaves",
-          "half-and-half"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "butter or margarine: used default unit",
           "shelled shrimp: used default unit",
@@ -6230,20 +6145,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 177,
+          "calories": 178,
           "fat_g": 8.7,
           "carbs_g": 21.9,
           "protein_g": 3.4,
           "sodium_mg": 699,
-          "fiber_g": 2.1,
+          "fiber_g": 2.2,
           "sugar_g": 5.0
         },
-        "missing_inputs": [
-          "dried tarragon or basil leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "chicken broth: used default unit",
           "boiling water: used default unit"
@@ -6362,24 +6275,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 105,
-          "fat_g": 6.0,
-          "carbs_g": 12.0,
+          "calories": 107,
+          "fat_g": 6.1,
+          "carbs_g": 12.3,
           "protein_g": 1.7,
           "sodium_mg": 1104,
-          "fiber_g": 1.4,
+          "fiber_g": 1.6,
           "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "bay leaf",
-          "water",
-          "oregano"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "tomato sauce: used default unit",
+          "water: used default unit",
+          "oregano: used default unit",
           "salt and pepper: used default unit"
         ]
       }
@@ -6521,21 +6432,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 319,
-          "fat_g": 17.7,
-          "carbs_g": 23.9,
-          "protein_g": 15.5,
-          "sodium_mg": 656,
+          "calories": 419,
+          "fat_g": 27.3,
+          "carbs_g": 26.8,
+          "protein_g": 16.6,
+          "sodium_mg": 685,
           "fiber_g": 1.6,
-          "sugar_g": 6.0
+          "sugar_g": 7.1
         },
-        "missing_inputs": [
-          "whipping cream",
-          "crepes (see below)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "bacon: used default unit",
           "finely minced onion: used default unit"
@@ -6673,22 +6581,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 790,
-          "fat_g": 16.0,
-          "carbs_g": 148.0,
-          "protein_g": 13.5,
-          "sodium_mg": 94,
+          "calories": 808,
+          "fat_g": 17.5,
+          "carbs_g": 148.7,
+          "protein_g": 13.9,
+          "sodium_mg": 100,
           "fiber_g": 3.6,
-          "sugar_g": 48.9
+          "sugar_g": 49.5
         },
-        "missing_inputs": [
-          "grated orange rind",
-          "half-and-half"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "grated orange rind: used default unit",
           "all-purpose flour: used default unit",
           "vanilla ice cream: used default unit"
         ]
@@ -6816,24 +6722,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 276,
-          "fat_g": 6.0,
-          "carbs_g": 47.4,
-          "protein_g": 8.4,
-          "sodium_mg": 272,
+          "calories": 374,
+          "fat_g": 15.6,
+          "carbs_g": 49.5,
+          "protein_g": 9.9,
+          "sodium_mg": 293,
           "fiber_g": 0.7,
-          "sugar_g": 31.2
+          "sugar_g": 33.2
         },
-        "missing_inputs": [
-          "water",
-          "half-and-half",
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "water: used default unit",
           "milk: used default unit",
+          "half-and-half: used default unit",
           "rum: used default unit"
         ]
       }
@@ -6954,24 +6858,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 741,
+          "calories": 746,
           "fat_g": 20.9,
-          "carbs_g": 117.4,
+          "carbs_g": 118.6,
           "protein_g": 18.6,
           "sodium_mg": 142,
           "fiber_g": 4.0,
-          "sugar_g": 9.3
+          "sugar_g": 10.3
         },
-        "missing_inputs": [
-          "ground cardamom",
-          "apricot or raspberry jam"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "dry yeast: used default unit",
-          "all-purpose flour: used default unit"
+          "all-purpose flour: used default unit",
+          "apricot or raspberry jam: used default unit"
         ]
       }
     },
@@ -7093,23 +6995,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 286,
+          "calories": 301,
           "fat_g": 22.9,
-          "carbs_g": 15.8,
-          "protein_g": 8.7,
-          "sodium_mg": 91,
-          "fiber_g": 4.4,
-          "sugar_g": 5.4
+          "carbs_g": 19.8,
+          "protein_g": 8.9,
+          "sodium_mg": 92,
+          "fiber_g": 4.7,
+          "sugar_g": 8.5
         },
-        "missing_inputs": [
-          "Bing cherries",
-          "red currant jelly"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "soft cream cheese: used default unit",
+          "Bing cherries: used default unit",
           "cornstarch: used default unit",
           "graham cracker crumbs: used default unit",
           "ground almonds: used default unit"
@@ -7256,21 +7156,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 592,
-          "fat_g": 57.9,
-          "carbs_g": 14.4,
-          "protein_g": 4.5,
-          "sodium_mg": 413,
-          "fiber_g": 1.8,
+          "calories": 612,
+          "fat_g": 59.7,
+          "carbs_g": 15.5,
+          "protein_g": 4.6,
+          "sodium_mg": 608,
+          "fiber_g": 2.2,
           "sugar_g": 5.1
         },
-        "missing_inputs": [
-          "sliced black olives",
-          "bay leaf"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "fresh red snapper fillets: used default unit",
           "butter or margarine: used default unit",
@@ -7411,7 +7308,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
           "calories": 626,
@@ -7422,9 +7319,7 @@
           "fiber_g": 1.5,
           "sugar_g": 84.9
         },
-        "missing_inputs": [
-          "hot water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "sifted cake flour: used default unit",
           "sifted powdered sugar: used default unit"
@@ -7965,27 +7860,25 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 1,
         "per_serving": {
-          "calories": 2945,
+          "calories": 3745,
           "fat_g": 38.9,
-          "carbs_g": 674.0,
+          "carbs_g": 890.0,
           "protein_g": 10.6,
-          "sodium_mg": 666,
+          "sodium_mg": 742,
           "fiber_g": 13.0,
-          "sugar_g": 509.0
+          "sugar_g": 709.0
         },
-        "missing_inputs": [
-          "chilled soda water",
-          "frozen lemonade concentrate",
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "chocolate syrup: used default unit",
           "vanilla ice cream: used default unit",
+          "chilled soda water: used default unit",
           "chocolate curls: used default unit",
           "Coffee Syrup (see below): used default unit",
+          "frozen lemonade concentrate: used default unit",
           "frozen strawberries: used default unit",
           "raspberries or peaches: used default unit",
           "light corn syrup: used default unit"
@@ -8107,7 +8000,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
           "calories": 346,
@@ -8118,12 +8011,11 @@
           "fiber_g": 1.8,
           "sugar_g": 23.2
         },
-        "missing_inputs": [
-          "red or green food coloring"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "sliced almonds: used default unit",
-          "soft cream cheese: used default unit"
+          "soft cream cheese: used default unit",
+          "red or green food coloring: used default unit"
         ]
       }
     },
@@ -8227,23 +8119,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 10,
         "per_serving": {
-          "calories": 234,
+          "calories": 242,
           "fat_g": 23.2,
-          "carbs_g": 4.5,
-          "protein_g": 2.8,
-          "sodium_mg": 159,
-          "fiber_g": 0.4,
-          "sugar_g": 3.4
+          "carbs_g": 6.3,
+          "protein_g": 2.9,
+          "sodium_mg": 160,
+          "fiber_g": 0.6,
+          "sugar_g": 4.8
         },
-        "missing_inputs": [
-          "mandarin orange slices"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "butter cake: used default unit",
           "oil: used default unit",
+          "mandarin orange slices: used default unit",
           "vanilla instant pudding mix: used default unit",
           "crushed pineapple: used default unit",
           "non-dairy whipped topping: used default unit"
@@ -8370,25 +8261,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 255,
-          "fat_g": 7.2,
-          "carbs_g": 45.7,
-          "protein_g": 4.4,
-          "sodium_mg": 95,
-          "fiber_g": 2.4,
-          "sugar_g": 23.8
+          "calories": 315,
+          "fat_g": 7.5,
+          "carbs_g": 60.9,
+          "protein_g": 5.2,
+          "sodium_mg": 96,
+          "fiber_g": 4.7,
+          "sugar_g": 34.4
         },
-        "missing_inputs": [
-          "grated lemon rind",
-          "diced fresh sliced or assorted fruit"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cornstarch: used default unit",
           "apple juice: used default unit",
-          "lemon juice: used default unit"
+          "grated lemon rind: used default unit",
+          "lemon juice: used default unit",
+          "diced fresh sliced or assorted fruit: used default unit"
         ]
       }
     },
@@ -8477,7 +8367,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
           "calories": 507,
@@ -8488,9 +8378,7 @@
           "fiber_g": 2.5,
           "sugar_g": 78.7
         },
-        "missing_inputs": [
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "granulated sugar: used default unit",
           "apple juice: used default unit",
@@ -8644,23 +8532,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 350,
-          "fat_g": 12.4,
-          "carbs_g": 52.1,
-          "protein_g": 7.5,
-          "sodium_mg": 318,
+          "calories": 464,
+          "fat_g": 24.6,
+          "carbs_g": 53.1,
+          "protein_g": 8.2,
+          "sodium_mg": 330,
           "fiber_g": 1.7,
-          "sugar_g": 23.9
+          "sugar_g": 24.8
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "unsweetened cocoa powder: used default unit",
+          "whipping cream: used default unit",
           "fresh strawberries: used default unit",
           "Ricotta cheese: used default unit"
         ]
@@ -8803,7 +8690,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 32,
         "per_serving": {
           "calories": 150,
@@ -8814,9 +8701,7 @@
           "fiber_g": 0.2,
           "sugar_g": 22.4
         },
-        "missing_inputs": [
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "instant espresso or coffee crystals: used default unit",
           "all-purpose flour: used default unit",
@@ -8965,20 +8850,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 227,
-          "fat_g": 14.7,
-          "carbs_g": 21.5,
-          "protein_g": 3.1,
-          "sodium_mg": 117,
+          "calories": 244,
+          "fat_g": 16.5,
+          "carbs_g": 21.6,
+          "protein_g": 3.2,
+          "sodium_mg": 119,
           "fiber_g": 0.8,
-          "sugar_g": 12.8
+          "sugar_g": 12.9
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "lemon juice: used default unit"
@@ -9456,21 +9339,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 33,
-          "fat_g": 0.5,
-          "carbs_g": 5.1,
-          "protein_g": 1.9,
-          "sodium_mg": 272,
+          "calories": 34,
+          "fat_g": 0.6,
+          "carbs_g": 5.2,
+          "protein_g": 2.0,
+          "sodium_mg": 273,
           "fiber_g": 1.5,
           "sugar_g": 0.1
         },
-        "missing_inputs": [
-          "ground cumin",
-          "chopped fresh parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cannellini beans: used default unit",
           "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
@@ -9586,20 +9466,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 395,
-          "fat_g": 24.5,
-          "carbs_g": 41.3,
-          "protein_g": 6.8,
-          "sodium_mg": 184,
+          "calories": 498,
+          "fat_g": 35.5,
+          "carbs_g": 42.2,
+          "protein_g": 7.4,
+          "sodium_mg": 195,
           "fiber_g": 2.5,
-          "sugar_g": 30.5
+          "sugar_g": 31.4
         },
-        "missing_inputs": [
-          "heavy or whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Argo or Kingsford's Corn Starch: used default unit",
           "milk: used default unit",
@@ -9738,22 +9616,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 294,
-          "fat_g": 16.8,
-          "carbs_g": 12.0,
-          "protein_g": 24.5,
-          "sodium_mg": 158,
-          "fiber_g": 2.5,
-          "sugar_g": 4.4
+          "calories": 434,
+          "fat_g": 17.8,
+          "carbs_g": 39.4,
+          "protein_g": 28.8,
+          "sodium_mg": 423,
+          "fiber_g": 4.7,
+          "sugar_g": 6.9
         },
-        "missing_inputs": [
-          "small cucumber",
-          "minced fresh tarragon",
-          "Thomas' Original English Muffins"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "grated carrots: used default unit",
           "chopped green onions: used default unit",
@@ -9873,23 +9747,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 728,
           "fat_g": 29.9,
           "carbs_g": 59.3,
-          "protein_g": 56.5,
+          "protein_g": 56.6,
           "sodium_mg": 206,
           "fiber_g": 4.7,
           "sugar_g": 4.5
         },
-        "missing_inputs": [
-          "dried oregano",
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "minced clams: used default unit",
+          "water: used default unit",
           "Argo or Kingsford's Corn Starch: used default unit",
           "grated Parmesan cheese: used default unit"
         ]
@@ -10150,20 +10022,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 301,
+          "calories": 314,
           "fat_g": 10.8,
-          "carbs_g": 46.2,
-          "protein_g": 5.3,
-          "sodium_mg": 345,
+          "carbs_g": 49.6,
+          "protein_g": 5.4,
+          "sodium_mg": 346,
           "fiber_g": 1.1,
-          "sugar_g": 27.2
+          "sugar_g": 29.6
         },
-        "missing_inputs": [
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen strawberries in syrup: used default unit",
           "strawberry flavored gelatin: used default unit",
@@ -10289,21 +10159,20 @@
         "IMG_4391"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 685,
-          "fat_g": 46.5,
-          "carbs_g": 17.7,
+          "calories": 686,
+          "fat_g": 46.6,
+          "carbs_g": 17.8,
           "protein_g": 44.3,
           "sodium_mg": 1570,
-          "fiber_g": 1.8,
+          "fiber_g": 1.9,
           "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "thyme"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "thyme: used default unit",
           "tomato juice: used default unit",
           "vegetable oil: used default unit",
           "instant beef broth: used default unit"
@@ -10446,30 +10315,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "servings_used": 30,
         "per_serving": {
-          "calories": 485,
-          "fat_g": 52.8,
-          "carbs_g": 4.3,
-          "protein_g": 0.9,
-          "sodium_mg": 301,
-          "fiber_g": 0.6,
-          "sugar_g": 3.5
+          "calories": 872,
+          "fat_g": 68.8,
+          "carbs_g": 58.0,
+          "protein_g": 5.9,
+          "sodium_mg": 591,
+          "fiber_g": 2.0,
+          "sugar_g": 38.9
         },
         "missing_inputs": [
-          "round pink cake decors",
-          "strawberry-flavored fruit chew candies",
-          "red and green food coloring",
-          "frozen pound cakes",
           "pastel-colored peanut M&M's",
-          "multicolored marshmallow rope",
-          "flexible straws and large marshmallows"
+          "multicolored marshmallow rope"
         ],
         "assumptions": [
           "vegetable shortening: used default unit",
           "vanilla frosting: used default unit",
-          "peanut butter-flavored Keebler Cookie Stix: used default unit"
+          "frozen pound cakes: used default unit",
+          "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "flexible straws and large marshmallows: used default unit"
         ]
       }
     },
@@ -10562,24 +10428,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 56,
-          "fat_g": 3.9,
-          "carbs_g": 4.1,
-          "protein_g": 1.6,
-          "sodium_mg": 25,
-          "fiber_g": 0.4,
-          "sugar_g": 3.6
+          "calories": 120,
+          "fat_g": 9.4,
+          "carbs_g": 7.4,
+          "protein_g": 2.2,
+          "sodium_mg": 45,
+          "fiber_g": 0.6,
+          "sugar_g": 6.4
         },
-        "missing_inputs": [
-          "mandarin oranges",
-          "whipping cream",
-          "powdered orange flavored instant breakfast drink"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "cream cheese: used default unit"
+          "mandarin oranges: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit",
+          "powdered orange flavored instant breakfast drink: used default unit"
         ]
       }
     },
@@ -10688,26 +10553,25 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 99,
-          "fat_g": 4.0,
-          "carbs_g": 14.5,
-          "protein_g": 2.4,
-          "sodium_mg": 28,
-          "fiber_g": 0.8,
-          "sugar_g": 12.4
+          "calories": 136,
+          "fat_g": 4.1,
+          "carbs_g": 24.1,
+          "protein_g": 2.8,
+          "sodium_mg": 32,
+          "fiber_g": 1.8,
+          "sugar_g": 18.5
         },
-        "missing_inputs": [
-          "frozen raspberries",
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cream cheese: used default unit",
           "vanilla: used default unit",
           "raspberry flavored or vanilla yogurt: used default unit",
-          "red raspberry flavored gelatin: used default unit"
+          "frozen raspberries: used default unit",
+          "red raspberry flavored gelatin: used default unit",
+          "miniature marshmallows: used default unit"
         ]
       }
     },
@@ -10790,22 +10654,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 95,
-          "fat_g": 1.3,
-          "carbs_g": 21.0,
-          "protein_g": 0.4,
-          "sodium_mg": 17,
+          "calories": 146,
+          "fat_g": 6.8,
+          "carbs_g": 21.4,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
           "fiber_g": 0.6,
-          "sugar_g": 18.5
+          "sugar_g": 18.9
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen strawberries: used default unit",
+          "whipping cream: used default unit",
           "cream cheese: used default unit"
         ]
       }
@@ -10917,20 +10780,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 30,
         "per_serving": {
-          "calories": 143,
-          "fat_g": 7.2,
-          "carbs_g": 18.3,
-          "protein_g": 1.5,
+          "calories": 169,
+          "fat_g": 9.6,
+          "carbs_g": 19.1,
+          "protein_g": 2.2,
           "sodium_mg": 168,
-          "fiber_g": 0.4,
-          "sugar_g": 10.9
+          "fiber_g": 0.6,
+          "sugar_g": 11.1
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "butter: used default unit",
@@ -11022,21 +10883,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 212,
+          "calories": 242,
           "fat_g": 5.2,
-          "carbs_g": 41.7,
-          "protein_g": 1.0,
-          "sodium_mg": 176,
+          "carbs_g": 49.4,
+          "protein_g": 1.2,
+          "sodium_mg": 180,
           "fiber_g": 0.4,
-          "sugar_g": 41.1
+          "sugar_g": 46.6
         },
-        "missing_inputs": [
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "miniature marshmallows: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "granulated sugar: used default unit"
         ]
@@ -11380,20 +11240,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 225,
-          "fat_g": 10.5,
-          "carbs_g": 29.5,
-          "protein_g": 3.2,
-          "sodium_mg": 125,
-          "fiber_g": 0.6,
-          "sugar_g": 19.0
+          "calories": 258,
+          "fat_g": 13.5,
+          "carbs_g": 30.5,
+          "protein_g": 4.0,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
+          "sugar_g": 19.2
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "butter or margarine: used default unit",
@@ -11490,21 +11348,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 246,
+          "calories": 247,
           "fat_g": 4.0,
-          "carbs_g": 42.1,
-          "protein_g": 11.5,
-          "sodium_mg": 56,
+          "carbs_g": 42.2,
+          "protein_g": 11.6,
+          "sodium_mg": 206,
           "fiber_g": 4.5,
           "sugar_g": 4.0
         },
-        "missing_inputs": [
-          "bouillon cube",
-          "hot water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "egg noodles: used default unit"
         ]
@@ -11622,13 +11477,23 @@
       },
       "nutrition": {
         "status": "complete",
+        "servings_used": 4,
         "per_serving": {
-          "calories": 452,
-          "fat_g": 33,
-          "protein_g": 38,
-          "carbs_g": 4,
-          "sodium_mg": 530
-        }
+          "calories": 289,
+          "fat_g": 18.1,
+          "carbs_g": 3.3,
+          "protein_g": 24.4,
+          "sodium_mg": 585,
+          "fiber_g": 0.9,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh parsley: used default unit",
+          "garlic: used default unit",
+          "black pepper: used default unit",
+          "fresh mushrooms: used default unit"
+        ]
       }
     },
     {
@@ -11736,20 +11601,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 36,
         "per_serving": {
-          "calories": 141,
-          "fat_g": 7.1,
-          "carbs_g": 18.5,
-          "protein_g": 1.2,
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 19.0,
+          "protein_g": 1.6,
           "sodium_mg": 69,
-          "fiber_g": 1.2,
+          "fiber_g": 1.3,
           "sugar_g": 12.8
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Quaker Oats: used default unit",
           "vanilla: used default unit",
@@ -12060,27 +11923,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 338,
+          "calories": 339,
           "fat_g": 12.4,
-          "carbs_g": 36.3,
-          "protein_g": 18.6,
-          "sodium_mg": 489,
-          "fiber_g": 5.5,
+          "carbs_g": 36.5,
+          "protein_g": 18.8,
+          "sodium_mg": 714,
+          "fiber_g": 5.6,
           "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "dried basil leaves",
-          "beef bouillon cube",
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "celery: used default unit",
           "noodles: used default unit",
           "red kidney beans: used default unit",
-          "stewed tomatoes: used default unit"
+          "stewed tomatoes: used default unit",
+          "beef bouillon cube: used default unit"
         ]
       }
     },
@@ -12206,22 +12066,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 520,
-          "fat_g": 17.1,
+          "calories": 881,
+          "fat_g": 29.1,
           "carbs_g": 79.4,
-          "protein_g": 12.1,
-          "sodium_mg": 930,
+          "protein_g": 72.1,
+          "sodium_mg": 1050,
           "fiber_g": 4.0,
           "sugar_g": 4.2
         },
-        "missing_inputs": [
-          "round steak",
-          "chives"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "round steak: used default unit",
           "all-purpose flour: used default unit",
           "mushrooms: used default unit",
           "tomato sauce: used default unit"
@@ -12348,22 +12206,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 1186,
-          "fat_g": 47.3,
-          "carbs_g": 120.7,
-          "protein_g": 63.6,
-          "sodium_mg": 2040,
-          "fiber_g": 4.6,
+          "calories": 1216,
+          "fat_g": 49.8,
+          "carbs_g": 120.9,
+          "protein_g": 65.2,
+          "sodium_mg": 2173,
+          "fiber_g": 4.7,
           "sugar_g": 9.9
         },
-        "missing_inputs": [
-          "parsley",
-          "dried oregano leaves",
-          "salami"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "ground beef: used default unit",
           "tomato sauce or tomato puree: used default unit",
@@ -12463,7 +12317,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 951,
@@ -12474,12 +12328,11 @@
           "fiber_g": 0.5,
           "sugar_g": 5.5
         },
-        "missing_inputs": [
-          "hot water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "oil or cooking spray: used default unit",
           "lime juice (or lemon): used default unit",
+          "hot water: used default unit",
           "green onion: used default unit"
         ]
       }
@@ -12554,24 +12407,23 @@
         "199"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 163,
+          "calories": 170,
           "fat_g": 4.9,
-          "carbs_g": 26.2,
+          "carbs_g": 26.9,
           "protein_g": 3.3,
           "sodium_mg": 257,
           "fiber_g": 0.3,
-          "sugar_g": 14.0
+          "sugar_g": 14.7
         },
-        "missing_inputs": [
-          "Galliano liqueur"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "orange cake mix: used default unit",
           "instant vanilla pudding: used default unit",
-          "oil: used default unit"
+          "oil: used default unit",
+          "Galliano liqueur: used default unit"
         ]
       }
     }

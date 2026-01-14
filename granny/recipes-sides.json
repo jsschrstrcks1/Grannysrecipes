@@ -217,23 +217,22 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 210,
-          "fat_g": 20.2,
-          "carbs_g": 2.6,
-          "protein_g": 5.5,
-          "sodium_mg": 566,
-          "fiber_g": 0.4,
-          "sugar_g": 1.5
+          "calories": 236,
+          "fat_g": 21.6,
+          "carbs_g": 5.8,
+          "protein_g": 5.9,
+          "sodium_mg": 606,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
         },
-        "missing_inputs": [
-          "Ritz crackers"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen broccoli: used default unit",
-          "chopped onion: used default unit"
+          "chopped onion: used default unit",
+          "Ritz crackers: used default unit"
         ]
       }
     },
@@ -403,21 +402,18 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 123,
-          "fat_g": 0.2,
-          "carbs_g": 29.7,
-          "protein_g": 2.0,
-          "sodium_mg": 106,
-          "fiber_g": 4.0,
+          "calories": 134,
+          "fat_g": 0.7,
+          "carbs_g": 32.9,
+          "protein_g": 2.2,
+          "sodium_mg": 108,
+          "fiber_g": 4.9,
           "sugar_g": 25.7
         },
-        "missing_inputs": [
-          "water",
-          "whole allspice"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vinegar: used default unit"
         ]
@@ -543,23 +539,22 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 372,
           "fat_g": 21.2,
-          "carbs_g": 30.9,
-          "protein_g": 14.9,
-          "sodium_mg": 586,
+          "carbs_g": 31.0,
+          "protein_g": 15.0,
+          "sodium_mg": 587,
           "fiber_g": 3.3,
           "sugar_g": 2.9
         },
-        "missing_inputs": [
-          "fresh parsley, minced fresh chives and dried chervil leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "minced onion: used default unit",
-          "finely diced cooked ham: used default unit"
+          "finely diced cooked ham: used default unit",
+          "fresh parsley, minced fresh chives and dried chervil leaves: used default unit"
         ]
       }
     },
@@ -659,20 +654,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 177,
+          "calories": 178,
           "fat_g": 8.7,
           "carbs_g": 21.9,
           "protein_g": 3.4,
           "sodium_mg": 699,
-          "fiber_g": 2.1,
+          "fiber_g": 2.2,
           "sugar_g": 5.0
         },
-        "missing_inputs": [
-          "dried tarragon or basil leaves"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "chicken broth: used default unit",
           "boiling water: used default unit"
@@ -791,24 +784,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 105,
-          "fat_g": 6.0,
-          "carbs_g": 12.0,
+          "calories": 107,
+          "fat_g": 6.1,
+          "carbs_g": 12.3,
           "protein_g": 1.7,
           "sodium_mg": 1104,
-          "fiber_g": 1.4,
+          "fiber_g": 1.6,
           "sugar_g": 3.6
         },
-        "missing_inputs": [
-          "bay leaf",
-          "water",
-          "oregano"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "tomato sauce: used default unit",
+          "water: used default unit",
+          "oregano: used default unit",
           "salt and pepper: used default unit"
         ]
       }

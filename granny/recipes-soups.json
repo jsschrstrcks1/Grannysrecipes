@@ -131,22 +131,18 @@
         "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 811,
-          "fat_g": 13.3,
-          "carbs_g": 135.5,
-          "protein_g": 24.5,
-          "sodium_mg": 750,
+          "calories": 1017,
+          "fat_g": 35.3,
+          "carbs_g": 137.3,
+          "protein_g": 25.8,
+          "sodium_mg": 773,
           "fiber_g": 6.4,
-          "sugar_g": 11.9
+          "sugar_g": 13.7
         },
-        "missing_inputs": [
-          "water",
-          "whipping cream",
-          "minced chives or parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen crabmeat: used default unit",
           "minced clams: used default unit",
@@ -275,24 +271,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 207,
-          "fat_g": 14.7,
-          "carbs_g": 11.1,
-          "protein_g": 8.6,
-          "sodium_mg": 938,
-          "fiber_g": 2.7,
-          "sugar_g": 5.8
+          "calories": 501,
+          "fat_g": 23.4,
+          "carbs_g": 34.0,
+          "protein_g": 38.5,
+          "sodium_mg": 1063,
+          "fiber_g": 7.0,
+          "sugar_g": 6.4
         },
-        "missing_inputs": [
-          "beef round or stew meat",
-          "barley",
-          "water",
-          "fresh bread cubes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "water: used default unit",
           "tomatoes: used default unit"
         ]
       }

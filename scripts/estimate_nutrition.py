@@ -6,7 +6,12 @@ Estimates nutritional information based on ingredient lists and standard
 nutritional values. Results are approximations suitable for home cooking.
 
 Usage:
-    python scripts/estimate_nutrition.py [--dry-run] [--recipe-id ID]
+    python scripts/estimate_nutrition.py [--dry-run] [--recipe-id ID] [--force]
+
+Options:
+    --dry-run      Preview nutrition estimates without saving
+    --recipe-id    Estimate for a specific recipe only
+    --force        Re-estimate all recipes (even those with existing nutrition)
 """
 
 import json
@@ -210,6 +215,186 @@ NUTRITION_DB = {
     'beer': {'cup': {'cal': 100, 'fat': 0, 'carb': 9, 'protein': 1, 'sodium': 10, 'fiber': 0, 'sugar': 0}},
     'coffee': {'cup': {'cal': 2, 'fat': 0, 'carb': 0, 'protein': 0.3, 'sodium': 5, 'fiber': 0, 'sugar': 0}},
     'apple cider': {'cup': {'cal': 120, 'fat': 0, 'carb': 28, 'protein': 0.3, 'sodium': 10, 'fiber': 0.5, 'sugar': 24}},
+    'galliano liqueur': {'oz': {'cal': 103, 'fat': 0, 'carb': 11, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 11}},
+    'sake': {'oz': {'cal': 39, 'fat': 0, 'carb': 1.5, 'protein': 0.1, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'sherry': {'oz': {'cal': 45, 'fat': 0, 'carb': 2, 'protein': 0.1, 'sodium': 3, 'fiber': 0, 'sugar': 1}},
+    'soda water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 75, 'fiber': 0, 'sugar': 0}},
+
+    # WATER (0 calories but included for completeness)
+    'water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'hot water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'warm water': {'cup': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # ADDITIONAL DAIRY
+    'whipping cream': {'cup': {'cal': 821, 'fat': 88, 'carb': 7, 'protein': 5, 'sodium': 89, 'fiber': 0, 'sugar': 7}},
+    'half-and-half': {'cup': {'cal': 315, 'fat': 28, 'carb': 10, 'protein': 7, 'sodium': 98, 'fiber': 0, 'sugar': 10},
+                      'tbsp': {'cal': 20, 'fat': 1.7, 'carb': 0.6, 'protein': 0.4, 'sodium': 6, 'fiber': 0, 'sugar': 0.6}},
+    'whipped cream': {'cup': {'cal': 400, 'fat': 43, 'carb': 3, 'protein': 2, 'sodium': 44, 'fiber': 0, 'sugar': 3}},
+
+    # HERBS & SPICES (minimal calories, but tracked for completeness)
+    'paprika': {'tsp': {'cal': 6, 'fat': 0.3, 'carb': 1.2, 'protein': 0.3, 'sodium': 2, 'fiber': 0.7, 'sugar': 0.3}},
+    'cayenne': {'tsp': {'cal': 6, 'fat': 0.3, 'carb': 1, 'protein': 0.2, 'sodium': 1, 'fiber': 0.5, 'sugar': 0.2}},
+    'basil': {'tsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+    'dried basil': {'tsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+    'dried basil leaves': {'tsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+    'fresh basil': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'fresh basil leaves': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'parsley': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0.1, 'sodium': 2, 'fiber': 0.1, 'sugar': 0}},
+    'chopped parsley': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0.1, 'sodium': 2, 'fiber': 0.1, 'sugar': 0}},
+    'minced parsley': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0.1, 'sodium': 2, 'fiber': 0.1, 'sugar': 0}},
+    'fresh parsley': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.2, 'protein': 0.1, 'sodium': 2, 'fiber': 0.1, 'sugar': 0}},
+    'cilantro': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'fresh cilantro': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'fresh cilantro leaves': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'rosemary': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'dried rosemary': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'thyme': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.6, 'protein': 0.1, 'sodium': 1, 'fiber': 0.3, 'sugar': 0}},
+    'dried thyme': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.6, 'protein': 0.1, 'sodium': 1, 'fiber': 0.3, 'sugar': 0}},
+    'sage': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0.1, 'sodium': 0, 'fiber': 0.3, 'sugar': 0}},
+    'dried sage': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0.1, 'sodium': 0, 'fiber': 0.3, 'sugar': 0}},
+    'dried sage leaves': {'tsp': {'cal': 2, 'fat': 0.1, 'carb': 0.4, 'protein': 0.1, 'sodium': 0, 'fiber': 0.3, 'sugar': 0}},
+    'tarragon': {'tsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'dried tarragon': {'tsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'dried tarragon leaves': {'tsp': {'cal': 2, 'fat': 0, 'carb': 0.4, 'protein': 0.2, 'sodium': 1, 'fiber': 0, 'sugar': 0}},
+    'oregano': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.7, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0}},
+    'dried oregano': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.7, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0}},
+    'dried oregano leaves': {'tsp': {'cal': 3, 'fat': 0.1, 'carb': 0.7, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0}},
+    'chives': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'minced chives': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'bay leaf': {'each': {'cal': 2, 'fat': 0.1, 'carb': 0.5, 'protein': 0, 'sodium': 0, 'fiber': 0.2, 'sugar': 0}},
+    'nutmeg': {'tsp': {'cal': 12, 'fat': 0.8, 'carb': 1.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.5, 'sugar': 0}},
+    'ground nutmeg': {'tsp': {'cal': 12, 'fat': 0.8, 'carb': 1.1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.5, 'sugar': 0}},
+    'cumin': {'tsp': {'cal': 8, 'fat': 0.5, 'carb': 0.9, 'protein': 0.4, 'sodium': 4, 'fiber': 0.2, 'sugar': 0}},
+    'ground cumin': {'tsp': {'cal': 8, 'fat': 0.5, 'carb': 0.9, 'protein': 0.4, 'sodium': 4, 'fiber': 0.2, 'sugar': 0}},
+    'cardamom': {'tsp': {'cal': 6, 'fat': 0.1, 'carb': 1.4, 'protein': 0.2, 'sodium': 0, 'fiber': 0.6, 'sugar': 0}},
+    'ground cardamom': {'tsp': {'cal': 6, 'fat': 0.1, 'carb': 1.4, 'protein': 0.2, 'sodium': 0, 'fiber': 0.6, 'sugar': 0}},
+    'fennel seeds': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.3, 'sodium': 2, 'fiber': 0.8, 'sugar': 0}},
+    'whole fennel seeds': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.3, 'sodium': 2, 'fiber': 0.8, 'sugar': 0}},
+    'crushed fennel': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1, 'protein': 0.3, 'sodium': 2, 'fiber': 0.8, 'sugar': 0}},
+
+    # EXTRACTS
+    'almond extract': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'maple extract': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'maple-flavored extract': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+    'liquid smoke': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'liquid smoke seasoning': {'tsp': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # SWEETS & CANDIES
+    'marshmallows': {'cup': {'cal': 159, 'fat': 0.1, 'carb': 41, 'protein': 1.4, 'sodium': 22, 'fiber': 0, 'sugar': 29}},
+    'miniature marshmallows': {'cup': {'cal': 159, 'fat': 0.1, 'carb': 41, 'protein': 1.4, 'sodium': 22, 'fiber': 0, 'sugar': 29}},
+    'maraschino cherries': {'each': {'cal': 8, 'fat': 0, 'carb': 2, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 2}},
+    'bing cherries': {'cup': {'cal': 87, 'fat': 0.3, 'carb': 22, 'protein': 1.5, 'sodium': 0, 'fiber': 3, 'sugar': 18}},
+    'maple candy': {'oz': {'cal': 100, 'fat': 0, 'carb': 25, 'protein': 0, 'sodium': 3, 'fiber': 0, 'sugar': 24}},
+
+    # ADDITIONAL NUTS & SEEDS
+    'nuts': {'cup': {'cal': 800, 'fat': 72, 'carb': 24, 'protein': 20, 'sodium': 5, 'fiber': 8, 'sugar': 4}},
+    'chopped nuts': {'cup': {'cal': 800, 'fat': 72, 'carb': 24, 'protein': 20, 'sodium': 5, 'fiber': 8, 'sugar': 4}},
+    'sesame seeds': {'tbsp': {'cal': 52, 'fat': 4.5, 'carb': 2, 'protein': 1.6, 'sodium': 1, 'fiber': 1, 'sugar': 0}},
+    'sunflower seeds': {'cup': {'cal': 818, 'fat': 72, 'carb': 28, 'protein': 29, 'sodium': 4, 'fiber': 12, 'sugar': 3}},
+
+    # JAMS, JELLIES & PRESERVES
+    'jam': {'tbsp': {'cal': 56, 'fat': 0, 'carb': 14, 'protein': 0.1, 'sodium': 6, 'fiber': 0.2, 'sugar': 12}},
+    'apricot jam': {'tbsp': {'cal': 56, 'fat': 0, 'carb': 14, 'protein': 0.1, 'sodium': 6, 'fiber': 0.2, 'sugar': 12}},
+    'raspberry jam': {'tbsp': {'cal': 56, 'fat': 0, 'carb': 14, 'protein': 0.1, 'sodium': 6, 'fiber': 0.2, 'sugar': 12}},
+    'jelly': {'tbsp': {'cal': 52, 'fat': 0, 'carb': 14, 'protein': 0, 'sodium': 6, 'fiber': 0, 'sugar': 10}},
+    'red currant jelly': {'tbsp': {'cal': 52, 'fat': 0, 'carb': 14, 'protein': 0, 'sodium': 6, 'fiber': 0, 'sugar': 10}},
+
+    # ADDITIONAL VEGETABLES
+    'cucumber': {'medium': {'cal': 45, 'fat': 0.3, 'carb': 11, 'protein': 2, 'sodium': 6, 'fiber': 2, 'sugar': 5}},
+    'small cucumber': {'each': {'cal': 20, 'fat': 0.1, 'carb': 5, 'protein': 1, 'sodium': 3, 'fiber': 1, 'sugar': 2}},
+    'radishes': {'cup': {'cal': 19, 'fat': 0.1, 'carb': 4, 'protein': 0.8, 'sodium': 45, 'fiber': 2, 'sugar': 2}},
+    'olives': {'cup': {'cal': 155, 'fat': 14, 'carb': 8, 'protein': 1, 'sodium': 1560, 'fiber': 3, 'sugar': 0}},
+    'black olives': {'cup': {'cal': 155, 'fat': 14, 'carb': 8, 'protein': 1, 'sodium': 1560, 'fiber': 3, 'sugar': 0}},
+    'sliced black olives': {'cup': {'cal': 155, 'fat': 14, 'carb': 8, 'protein': 1, 'sodium': 1560, 'fiber': 3, 'sugar': 0}},
+
+    # ADDITIONAL FRUITS
+    'raspberries': {'cup': {'cal': 64, 'fat': 0.8, 'carb': 15, 'protein': 1.5, 'sodium': 1, 'fiber': 8, 'sugar': 5}},
+    'frozen raspberries': {'cup': {'cal': 64, 'fat': 0.8, 'carb': 15, 'protein': 1.5, 'sodium': 1, 'fiber': 8, 'sugar': 5}},
+    'mandarin oranges': {'cup': {'cal': 72, 'fat': 0.2, 'carb': 18, 'protein': 1, 'sodium': 10, 'fiber': 2, 'sugar': 14}},
+    'mandarin orange slices': {'cup': {'cal': 72, 'fat': 0.2, 'carb': 18, 'protein': 1, 'sodium': 10, 'fiber': 2, 'sugar': 14}},
+    'orange rind': {'tbsp': {'cal': 6, 'fat': 0, 'carb': 2, 'protein': 0.1, 'sodium': 0, 'fiber': 0.6, 'sugar': 1}},
+    'grated orange rind': {'tbsp': {'cal': 6, 'fat': 0, 'carb': 2, 'protein': 0.1, 'sodium': 0, 'fiber': 0.6, 'sugar': 1}},
+    'lemon rind': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.4}},
+    'grated lemon rind': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.4}},
+    'lemonade concentrate': {'can': {'cal': 400, 'fat': 0, 'carb': 108, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 100}},
+    'frozen lemonade concentrate': {'can': {'cal': 400, 'fat': 0, 'carb': 108, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 100}},
+
+    # ADDITIONAL PROTEINS
+    'sirloin': {'lb': {'cal': 880, 'fat': 48, 'carb': 0, 'protein': 104, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'boneless sirloin': {'lb': {'cal': 880, 'fat': 48, 'carb': 0, 'protein': 104, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'round steak': {'lb': {'cal': 720, 'fat': 24, 'carb': 0, 'protein': 120, 'sodium': 240, 'fiber': 0, 'sugar': 0}},
+    'salami': {'oz': {'cal': 119, 'fat': 10, 'carb': 0.5, 'protein': 6, 'sodium': 529, 'fiber': 0, 'sugar': 0}},
+
+    # BREADS & BAKED GOODS
+    'english muffin': {'each': {'cal': 134, 'fat': 1, 'carb': 26, 'protein': 4, 'sodium': 264, 'fiber': 2, 'sugar': 2}},
+    'angel food cake': {'slice': {'cal': 72, 'fat': 0.2, 'carb': 16, 'protein': 2, 'sodium': 210, 'fiber': 0, 'sugar': 12}},
+    'crepe': {'each': {'cal': 90, 'fat': 4, 'carb': 11, 'protein': 3, 'sodium': 100, 'fiber': 0, 'sugar': 2}},
+    'crepes': {'each': {'cal': 90, 'fat': 4, 'carb': 11, 'protein': 3, 'sodium': 100, 'fiber': 0, 'sugar': 2}},
+    'croutons': {'cup': {'cal': 122, 'fat': 2, 'carb': 22, 'protein': 4, 'sodium': 209, 'fiber': 2, 'sugar': 1}},
+    'ritz crackers': {'cup': {'cal': 310, 'fat': 16, 'carb': 38, 'protein': 4, 'sodium': 480, 'fiber': 1, 'sugar': 6}},
+
+    # CONDIMENTS
+    'catsup': {'tbsp': {'cal': 19, 'fat': 0, 'carb': 5, 'protein': 0.2, 'sodium': 154, 'fiber': 0, 'sugar': 4}},
+    'horseradish': {'tbsp': {'cal': 7, 'fat': 0.1, 'carb': 2, 'protein': 0.2, 'sodium': 47, 'fiber': 0.5, 'sugar': 1}},
+
+    # BOUILLON
+    'bouillon cube': {'each': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+    'beef bouillon cube': {'each': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+    'chicken bouillon cube': {'each': {'cal': 5, 'fat': 0.1, 'carb': 0.6, 'protein': 0.5, 'sodium': 900, 'fiber': 0, 'sugar': 0}},
+
+    # FOOD COLORING (essentially 0 nutrition)
+    'food coloring': {'drop': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'red food coloring': {'drop': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'green food coloring': {'drop': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+
+    # ADDITIONAL SPECIALTY ITEMS
+    'cream of tartar': {'tsp': {'cal': 2, 'fat': 0, 'carb': 0.5, 'protein': 0, 'sodium': 2, 'fiber': 0, 'sugar': 0}},
+    'frozen bread dough': {'loaf': {'cal': 1200, 'fat': 20, 'carb': 220, 'protein': 36, 'sodium': 2200, 'fiber': 8, 'sugar': 12}},
+    'bread dough': {'loaf': {'cal': 1200, 'fat': 20, 'carb': 220, 'protein': 36, 'sodium': 2200, 'fiber': 8, 'sugar': 12}},
+    'cognac': {'tbsp': {'cal': 33, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0},
+               'oz': {'cal': 66, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'barley': {'cup': {'cal': 651, 'fat': 2.3, 'carb': 135, 'protein': 23, 'sodium': 22, 'fiber': 32, 'sugar': 1}},
+    'allspice': {'tsp': {'cal': 5, 'fat': 0.2, 'carb': 1.4, 'protein': 0.1, 'sodium': 1, 'fiber': 0.4, 'sugar': 0}},
+    'whole allspice': {'tsp': {'cal': 5, 'fat': 0.2, 'carb': 1.4, 'protein': 0.1, 'sodium': 1, 'fiber': 0.4, 'sugar': 0}},
+    'ground allspice': {'tsp': {'cal': 5, 'fat': 0.2, 'carb': 1.4, 'protein': 0.1, 'sodium': 1, 'fiber': 0.4, 'sugar': 0}},
+    'prunes': {'cup': {'cal': 418, 'fat': 0.7, 'carb': 111, 'protein': 4, 'sodium': 4, 'fiber': 12, 'sugar': 66}},
+    'cooked prunes': {'cup': {'cal': 265, 'fat': 0.5, 'carb': 70, 'protein': 2, 'sodium': 3, 'fiber': 8, 'sugar': 42}},
+    'chili sauce': {'tbsp': {'cal': 20, 'fat': 0.1, 'carb': 5, 'protein': 0.3, 'sodium': 200, 'fiber': 0.2, 'sugar': 3},
+                    'cup': {'cal': 320, 'fat': 1.6, 'carb': 80, 'protein': 4.8, 'sodium': 3200, 'fiber': 3.2, 'sugar': 48}},
+    'pot roast': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'beef roast': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'round bone pot roast': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'beef round': {'lb': {'cal': 720, 'fat': 32, 'carb': 0, 'protein': 104, 'sodium': 260, 'fiber': 0, 'sugar': 0}},
+    'stew meat': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'grated mozzarella': {'cup': {'cal': 316, 'fat': 20, 'carb': 4, 'protein': 28, 'sodium': 632, 'fiber': 0, 'sugar': 1}},
+    'bread cubes': {'cup': {'cal': 130, 'fat': 2, 'carb': 24, 'protein': 4, 'sodium': 230, 'fiber': 1, 'sugar': 2}},
+    'fresh bread cubes': {'cup': {'cal': 130, 'fat': 2, 'carb': 24, 'protein': 4, 'sodium': 230, 'fiber': 1, 'sugar': 2}},
+    'patty shells': {'each': {'cal': 150, 'fat': 10, 'carb': 12, 'protein': 2, 'sodium': 120, 'fiber': 0, 'sugar': 0}},
+    'frozen patty shells': {'each': {'cal': 150, 'fat': 10, 'carb': 12, 'protein': 2, 'sodium': 120, 'fiber': 0, 'sugar': 0}},
+    'instant breakfast drink': {'packet': {'cal': 130, 'fat': 0.5, 'carb': 28, 'protein': 5, 'sodium': 220, 'fiber': 0, 'sugar': 24}},
+    'orange drink': {'cup': {'cal': 120, 'fat': 0, 'carb': 30, 'protein': 0, 'sodium': 10, 'fiber': 0, 'sugar': 28}},
+    'fruit': {'cup': {'cal': 80, 'fat': 0.3, 'carb': 20, 'protein': 1, 'sodium': 2, 'fiber': 3, 'sugar': 14}},
+    'mixed fruit': {'cup': {'cal': 80, 'fat': 0.3, 'carb': 20, 'protein': 1, 'sodium': 2, 'fiber': 3, 'sugar': 14}},
+    'assorted fruit': {'cup': {'cal': 80, 'fat': 0.3, 'carb': 20, 'protein': 1, 'sodium': 2, 'fiber': 3, 'sugar': 14}},
+
+    # MORE SPECIALTY ITEMS
+    'cloves': {'tsp': {'cal': 7, 'fat': 0.4, 'carb': 1.3, 'protein': 0.1, 'sodium': 5, 'fiber': 0.7, 'sugar': 0.5}},
+    'ground cloves': {'tsp': {'cal': 7, 'fat': 0.4, 'carb': 1.3, 'protein': 0.1, 'sodium': 5, 'fiber': 0.7, 'sugar': 0.5}},
+    'whole cloves': {'tsp': {'cal': 7, 'fat': 0.4, 'carb': 1.3, 'protein': 0.1, 'sodium': 5, 'fiber': 0.7, 'sugar': 0.5}},
+    'pectin': {'packet': {'cal': 10, 'fat': 0, 'carb': 3, 'protein': 0, 'sodium': 5, 'fiber': 1, 'sugar': 0}},
+    'liquid pectin': {'pouch': {'cal': 10, 'fat': 0, 'carb': 3, 'protein': 0, 'sodium': 5, 'fiber': 1, 'sugar': 0}},
+    'paraffin': {'each': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},  # Not consumed
+    'melted paraffin': {'each': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'pickles': {'cup': {'cal': 17, 'fat': 0.2, 'carb': 3.7, 'protein': 0.4, 'sodium': 1208, 'fiber': 1, 'sugar': 2}},
+    'dill pickles': {'each': {'cal': 12, 'fat': 0.1, 'carb': 2.7, 'protein': 0.3, 'sodium': 870, 'fiber': 0.8, 'sugar': 1}},
+    'pickle': {'each': {'cal': 12, 'fat': 0.1, 'carb': 2.7, 'protein': 0.3, 'sodium': 870, 'fiber': 0.8, 'sugar': 1}},
+    'coleslaw': {'cup': {'cal': 150, 'fat': 8, 'carb': 18, 'protein': 2, 'sodium': 260, 'fiber': 2, 'sugar': 10}},
+    'pound cake': {'slice': {'cal': 220, 'fat': 10, 'carb': 28, 'protein': 3, 'sodium': 180, 'fiber': 0.5, 'sugar': 18}},
+    'frozen pound cake': {'each': {'cal': 2640, 'fat': 120, 'carb': 336, 'protein': 36, 'sodium': 2160, 'fiber': 6, 'sugar': 216}},
+    'frozen pound cakes': {'each': {'cal': 2640, 'fat': 120, 'carb': 336, 'protein': 36, 'sodium': 2160, 'fiber': 6, 'sugar': 216}},
+    'cake decors': {'tbsp': {'cal': 70, 'fat': 0, 'carb': 18, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 14}},
+    'm&ms': {'cup': {'cal': 1024, 'fat': 44, 'carb': 148, 'protein': 10, 'sodium': 88, 'fiber': 4, 'sugar': 128}},
+    'peanut m&ms': {'cup': {'cal': 1024, 'fat': 48, 'carb': 132, 'protein': 16, 'sodium': 80, 'fiber': 6, 'sugar': 108}},
 }
 
 # Unit conversions to standard measures
@@ -453,6 +638,7 @@ def estimate_nutrition(recipe):
 
 def main():
     dry_run = '--dry-run' in sys.argv
+    force = '--force' in sys.argv
     target_id = None
 
     for i, arg in enumerate(sys.argv):
@@ -468,8 +654,8 @@ def main():
     updated_count = 0
 
     for recipe in recipes:
-        # Skip if already has nutrition (unless targeting specific recipe)
-        if recipe.get('nutrition') and not target_id:
+        # Skip if already has nutrition (unless targeting specific recipe or forcing)
+        if recipe.get('nutrition') and not target_id and not force:
             continue
 
         # Skip if not matching target

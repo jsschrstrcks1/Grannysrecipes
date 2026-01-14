@@ -323,22 +323,20 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 387,
+          "calories": 390,
           "fat_g": 14.6,
-          "carbs_g": 57.6,
+          "carbs_g": 57.9,
           "protein_g": 6.8,
           "sodium_mg": 119,
           "fiber_g": 1.4,
-          "sugar_g": 25.6
+          "sugar_g": 25.9
         },
-        "missing_inputs": [
-          "Maraschino cherries",
-          "almond extract"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "Maraschino cherries: used default unit",
           "flour: used default unit"
         ]
       }
@@ -742,21 +740,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 141,
-          "fat_g": 5.6,
-          "carbs_g": 20.4,
+          "calories": 145,
+          "fat_g": 5.5,
+          "carbs_g": 21.4,
           "protein_g": 2.6,
           "sodium_mg": 189,
           "fiber_g": 0.6,
-          "sugar_g": 9.6
+          "sugar_g": 10.4
         },
-        "missing_inputs": [
-          "maple candy",
-          "orange rind"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "pumpkin pie spice: used default unit",
           "yellow cake mix: used default unit"
@@ -964,24 +959,23 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 958,
-          "fat_g": 90.1,
-          "carbs_g": 25.9,
-          "protein_g": 14.3,
-          "sodium_mg": 273,
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
           "fiber_g": 0.8,
-          "sugar_g": 16.7
+          "sugar_g": 21.2
         },
-        "missing_inputs": [
-          "whipped cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vanilla instant pudding: used default unit",
           "milk: used default unit",
           "sour cream: used default unit",
+          "whipped cream: used default unit",
           "vanilla wafers: used default unit"
         ]
       }
@@ -1061,20 +1055,18 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 41,
+          "calories": 50,
           "fat_g": 1.8,
-          "carbs_g": 6.1,
-          "protein_g": 0.5,
-          "sodium_mg": 18,
+          "carbs_g": 8.1,
+          "protein_g": 0.8,
+          "sodium_mg": 44,
           "fiber_g": 0.4,
-          "sugar_g": 5.0
+          "sugar_g": 6.5
         },
-        "missing_inputs": [
-          "angel food cake"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "fresh strawberries: used default unit",
           "Cool Whip: used default unit",
@@ -1213,22 +1205,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 790,
-          "fat_g": 16.0,
-          "carbs_g": 148.0,
-          "protein_g": 13.5,
-          "sodium_mg": 94,
+          "calories": 808,
+          "fat_g": 17.5,
+          "carbs_g": 148.7,
+          "protein_g": 13.9,
+          "sodium_mg": 100,
           "fiber_g": 3.6,
-          "sugar_g": 48.9
+          "sugar_g": 49.5
         },
-        "missing_inputs": [
-          "grated orange rind",
-          "half-and-half"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "grated orange rind: used default unit",
           "all-purpose flour: used default unit",
           "vanilla ice cream: used default unit"
         ]
@@ -1356,24 +1346,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 276,
-          "fat_g": 6.0,
-          "carbs_g": 47.4,
-          "protein_g": 8.4,
-          "sodium_mg": 272,
+          "calories": 374,
+          "fat_g": 15.6,
+          "carbs_g": 49.5,
+          "protein_g": 9.9,
+          "sodium_mg": 293,
           "fiber_g": 0.7,
-          "sugar_g": 31.2
+          "sugar_g": 33.2
         },
-        "missing_inputs": [
-          "water",
-          "half-and-half",
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "water: used default unit",
           "milk: used default unit",
+          "half-and-half: used default unit",
           "rum: used default unit"
         ]
       }
@@ -1496,23 +1484,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 286,
+          "calories": 301,
           "fat_g": 22.9,
-          "carbs_g": 15.8,
-          "protein_g": 8.7,
-          "sodium_mg": 91,
-          "fiber_g": 4.4,
-          "sugar_g": 5.4
+          "carbs_g": 19.8,
+          "protein_g": 8.9,
+          "sodium_mg": 92,
+          "fiber_g": 4.7,
+          "sugar_g": 8.5
         },
-        "missing_inputs": [
-          "Bing cherries",
-          "red currant jelly"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "soft cream cheese: used default unit",
+          "Bing cherries: used default unit",
           "cornstarch: used default unit",
           "graham cracker crumbs: used default unit",
           "ground almonds: used default unit"
@@ -1651,7 +1637,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
           "calories": 626,
@@ -1662,9 +1648,7 @@
           "fiber_g": 1.5,
           "sugar_g": 84.9
         },
-        "missing_inputs": [
-          "hot water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "sifted cake flour: used default unit",
           "sifted powdered sugar: used default unit"
@@ -2052,7 +2036,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
           "calories": 346,
@@ -2063,12 +2047,11 @@
           "fiber_g": 1.8,
           "sugar_g": 23.2
         },
-        "missing_inputs": [
-          "red or green food coloring"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "sliced almonds: used default unit",
-          "soft cream cheese: used default unit"
+          "soft cream cheese: used default unit",
+          "red or green food coloring: used default unit"
         ]
       }
     },
@@ -2172,23 +2155,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 10,
         "per_serving": {
-          "calories": 234,
+          "calories": 242,
           "fat_g": 23.2,
-          "carbs_g": 4.5,
-          "protein_g": 2.8,
-          "sodium_mg": 159,
-          "fiber_g": 0.4,
-          "sugar_g": 3.4
+          "carbs_g": 6.3,
+          "protein_g": 2.9,
+          "sodium_mg": 160,
+          "fiber_g": 0.6,
+          "sugar_g": 4.8
         },
-        "missing_inputs": [
-          "mandarin orange slices"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "butter cake: used default unit",
           "oil: used default unit",
+          "mandarin orange slices: used default unit",
           "vanilla instant pudding mix: used default unit",
           "crushed pineapple: used default unit",
           "non-dairy whipped topping: used default unit"
@@ -2315,25 +2297,24 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 255,
-          "fat_g": 7.2,
-          "carbs_g": 45.7,
-          "protein_g": 4.4,
-          "sodium_mg": 95,
-          "fiber_g": 2.4,
-          "sugar_g": 23.8
+          "calories": 315,
+          "fat_g": 7.5,
+          "carbs_g": 60.9,
+          "protein_g": 5.2,
+          "sodium_mg": 96,
+          "fiber_g": 4.7,
+          "sugar_g": 34.4
         },
-        "missing_inputs": [
-          "grated lemon rind",
-          "diced fresh sliced or assorted fruit"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cornstarch: used default unit",
           "apple juice: used default unit",
-          "lemon juice: used default unit"
+          "grated lemon rind: used default unit",
+          "lemon juice: used default unit",
+          "diced fresh sliced or assorted fruit: used default unit"
         ]
       }
     },
@@ -2422,7 +2403,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
           "calories": 507,
@@ -2433,9 +2414,7 @@
           "fiber_g": 2.5,
           "sugar_g": 78.7
         },
-        "missing_inputs": [
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "granulated sugar: used default unit",
           "apple juice: used default unit",
@@ -2589,23 +2568,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 350,
-          "fat_g": 12.4,
-          "carbs_g": 52.1,
-          "protein_g": 7.5,
-          "sodium_mg": 318,
+          "calories": 464,
+          "fat_g": 24.6,
+          "carbs_g": 53.1,
+          "protein_g": 8.2,
+          "sodium_mg": 330,
           "fiber_g": 1.7,
-          "sugar_g": 23.9
+          "sugar_g": 24.8
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "unsweetened cocoa powder: used default unit",
+          "whipping cream: used default unit",
           "fresh strawberries: used default unit",
           "Ricotta cheese: used default unit"
         ]
@@ -2748,7 +2726,7 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 32,
         "per_serving": {
           "calories": 150,
@@ -2759,9 +2737,7 @@
           "fiber_g": 0.2,
           "sugar_g": 22.4
         },
-        "missing_inputs": [
-          "water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "instant espresso or coffee crystals: used default unit",
           "all-purpose flour: used default unit",
@@ -2910,20 +2886,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 227,
-          "fat_g": 14.7,
-          "carbs_g": 21.5,
-          "protein_g": 3.1,
-          "sodium_mg": 117,
+          "calories": 244,
+          "fat_g": 16.5,
+          "carbs_g": 21.6,
+          "protein_g": 3.2,
+          "sodium_mg": 119,
           "fiber_g": 0.8,
-          "sugar_g": 12.8
+          "sugar_g": 12.9
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "lemon juice: used default unit"
@@ -3189,20 +3163,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 395,
-          "fat_g": 24.5,
-          "carbs_g": 41.3,
-          "protein_g": 6.8,
-          "sodium_mg": 184,
+          "calories": 498,
+          "fat_g": 35.5,
+          "carbs_g": 42.2,
+          "protein_g": 7.4,
+          "sodium_mg": 195,
           "fiber_g": 2.5,
-          "sugar_g": 30.5
+          "sugar_g": 31.4
         },
-        "missing_inputs": [
-          "heavy or whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Argo or Kingsford's Corn Starch: used default unit",
           "milk: used default unit",
@@ -3325,20 +3297,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 301,
+          "calories": 314,
           "fat_g": 10.8,
-          "carbs_g": 46.2,
-          "protein_g": 5.3,
-          "sodium_mg": 345,
+          "carbs_g": 49.6,
+          "protein_g": 5.4,
+          "sodium_mg": 346,
           "fiber_g": 1.1,
-          "sugar_g": 27.2
+          "sugar_g": 29.6
         },
-        "missing_inputs": [
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen strawberries in syrup: used default unit",
           "strawberry flavored gelatin: used default unit",
@@ -3486,30 +3456,27 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "partial",
         "servings_used": 30,
         "per_serving": {
-          "calories": 485,
-          "fat_g": 52.8,
-          "carbs_g": 4.3,
-          "protein_g": 0.9,
-          "sodium_mg": 301,
-          "fiber_g": 0.6,
-          "sugar_g": 3.5
+          "calories": 872,
+          "fat_g": 68.8,
+          "carbs_g": 58.0,
+          "protein_g": 5.9,
+          "sodium_mg": 591,
+          "fiber_g": 2.0,
+          "sugar_g": 38.9
         },
         "missing_inputs": [
-          "round pink cake decors",
-          "strawberry-flavored fruit chew candies",
-          "red and green food coloring",
-          "frozen pound cakes",
           "pastel-colored peanut M&M's",
-          "multicolored marshmallow rope",
-          "flexible straws and large marshmallows"
+          "multicolored marshmallow rope"
         ],
         "assumptions": [
           "vegetable shortening: used default unit",
           "vanilla frosting: used default unit",
-          "peanut butter-flavored Keebler Cookie Stix: used default unit"
+          "frozen pound cakes: used default unit",
+          "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "flexible straws and large marshmallows: used default unit"
         ]
       }
     },
@@ -3602,24 +3569,23 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 56,
-          "fat_g": 3.9,
-          "carbs_g": 4.1,
-          "protein_g": 1.6,
-          "sodium_mg": 25,
-          "fiber_g": 0.4,
-          "sugar_g": 3.6
+          "calories": 120,
+          "fat_g": 9.4,
+          "carbs_g": 7.4,
+          "protein_g": 2.2,
+          "sodium_mg": 45,
+          "fiber_g": 0.6,
+          "sugar_g": 6.4
         },
-        "missing_inputs": [
-          "mandarin oranges",
-          "whipping cream",
-          "powdered orange flavored instant breakfast drink"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "cream cheese: used default unit"
+          "mandarin oranges: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit",
+          "powdered orange flavored instant breakfast drink: used default unit"
         ]
       }
     },
@@ -3728,26 +3694,25 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 99,
-          "fat_g": 4.0,
-          "carbs_g": 14.5,
-          "protein_g": 2.4,
-          "sodium_mg": 28,
-          "fiber_g": 0.8,
-          "sugar_g": 12.4
+          "calories": 136,
+          "fat_g": 4.1,
+          "carbs_g": 24.1,
+          "protein_g": 2.8,
+          "sodium_mg": 32,
+          "fiber_g": 1.8,
+          "sugar_g": 18.5
         },
-        "missing_inputs": [
-          "frozen raspberries",
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cream cheese: used default unit",
           "vanilla: used default unit",
           "raspberry flavored or vanilla yogurt: used default unit",
-          "red raspberry flavored gelatin: used default unit"
+          "frozen raspberries: used default unit",
+          "red raspberry flavored gelatin: used default unit",
+          "miniature marshmallows: used default unit"
         ]
       }
     },
@@ -3830,22 +3795,21 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
-          "calories": 95,
-          "fat_g": 1.3,
-          "carbs_g": 21.0,
-          "protein_g": 0.4,
-          "sodium_mg": 17,
+          "calories": 146,
+          "fat_g": 6.8,
+          "carbs_g": 21.4,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
           "fiber_g": 0.6,
-          "sugar_g": 18.5
+          "sugar_g": 18.9
         },
-        "missing_inputs": [
-          "whipping cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "frozen strawberries: used default unit",
+          "whipping cream: used default unit",
           "cream cheese: used default unit"
         ]
       }
@@ -3957,20 +3921,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 30,
         "per_serving": {
-          "calories": 143,
-          "fat_g": 7.2,
-          "carbs_g": 18.3,
-          "protein_g": 1.5,
+          "calories": 169,
+          "fat_g": 9.6,
+          "carbs_g": 19.1,
+          "protein_g": 2.2,
           "sodium_mg": 168,
-          "fiber_g": 0.4,
-          "sugar_g": 10.9
+          "fiber_g": 0.6,
+          "sugar_g": 11.1
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
           "butter: used default unit",
@@ -4062,21 +4024,20 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 212,
+          "calories": 242,
           "fat_g": 5.2,
-          "carbs_g": 41.7,
-          "protein_g": 1.0,
-          "sodium_mg": 176,
+          "carbs_g": 49.4,
+          "protein_g": 1.2,
+          "sodium_mg": 180,
           "fiber_g": 0.4,
-          "sugar_g": 41.1
+          "sugar_g": 46.6
         },
-        "missing_inputs": [
-          "miniature marshmallows"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "miniature marshmallows: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "granulated sugar: used default unit"
         ]
@@ -4420,20 +4381,18 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 225,
-          "fat_g": 10.5,
-          "carbs_g": 29.5,
-          "protein_g": 3.2,
-          "sodium_mg": 125,
-          "fiber_g": 0.6,
-          "sugar_g": 19.0
+          "calories": 258,
+          "fat_g": 13.5,
+          "carbs_g": 30.5,
+          "protein_g": 4.0,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
+          "sugar_g": 19.2
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
           "butter or margarine: used default unit",
@@ -4546,20 +4505,18 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 36,
         "per_serving": {
-          "calories": 141,
-          "fat_g": 7.1,
-          "carbs_g": 18.5,
-          "protein_g": 1.2,
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 19.0,
+          "protein_g": 1.6,
           "sodium_mg": 69,
-          "fiber_g": 1.2,
+          "fiber_g": 1.3,
           "sugar_g": 12.8
         },
-        "missing_inputs": [
-          "chopped nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Quaker Oats: used default unit",
           "vanilla: used default unit",
@@ -4819,24 +4776,23 @@
         "199"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 163,
+          "calories": 170,
           "fat_g": 4.9,
-          "carbs_g": 26.2,
+          "carbs_g": 26.9,
           "protein_g": 3.3,
           "sodium_mg": 257,
           "fiber_g": 0.3,
-          "sugar_g": 14.0
+          "sugar_g": 14.7
         },
-        "missing_inputs": [
-          "Galliano liqueur"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "orange cake mix: used default unit",
           "instant vanilla pudding: used default unit",
-          "oil: used default unit"
+          "oil: used default unit",
+          "Galliano liqueur: used default unit"
         ]
       }
     }

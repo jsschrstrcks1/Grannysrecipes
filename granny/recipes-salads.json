@@ -197,10 +197,10 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 96,
+          "calories": 97,
           "fat_g": 0.3,
           "carbs_g": 20.4,
           "protein_g": 4.0,
@@ -208,9 +208,7 @@
           "fiber_g": 4.2,
           "sugar_g": 5.4
         },
-        "missing_inputs": [
-          "parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "mixed vegetables: used default unit",
           "sliced celery: used default unit",
@@ -280,22 +278,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 462,
+          "calories": 467,
           "fat_g": 49.8,
-          "carbs_g": 0.7,
-          "protein_g": 5.0,
-          "sodium_mg": 374,
-          "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "carbs_g": 1.7,
+          "protein_g": 5.2,
+          "sodium_mg": 386,
+          "fiber_g": 0.7,
+          "sugar_g": 0.5
         },
-        "missing_inputs": [
-          "radishes"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "Butterhead lettuce: used default unit"
+          "Butterhead lettuce: used default unit",
+          "radishes: used default unit"
         ]
       }
     }

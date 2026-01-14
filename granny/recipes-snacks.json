@@ -107,24 +107,21 @@
         ]
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 300,
-          "fat_g": 12.4,
-          "carbs_g": 49.1,
-          "protein_g": 2.6,
-          "sodium_mg": 190,
-          "fiber_g": 1.8,
-          "sugar_g": 33.8
+          "calories": 400,
+          "fat_g": 21.4,
+          "carbs_g": 52.1,
+          "protein_g": 5.1,
+          "sodium_mg": 191,
+          "fiber_g": 2.8,
+          "sugar_g": 34.3
         },
-        "missing_inputs": [
-          "water",
-          "cream of tartar",
-          "mixed nuts"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "popped popcorn: used default unit"
+          "popped popcorn: used default unit",
+          "water: used default unit"
         ]
       }
     }

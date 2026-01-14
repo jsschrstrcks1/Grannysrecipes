@@ -100,7 +100,7 @@
         "flags": []
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 16,
         "per_serving": {
           "calories": 263,
@@ -111,9 +111,7 @@
           "fiber_g": 1.1,
           "sugar_g": 1.3
         },
-        "missing_inputs": [
-          "warm water"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "active dry yeast: used default unit",
           "all-purpose flour: used default unit",
@@ -203,23 +201,21 @@
         "flags": []
       },
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 35,
-          "fat_g": 3.9,
-          "carbs_g": 0.0,
-          "protein_g": 0.1,
-          "sodium_mg": 28,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 135,
+          "fat_g": 5.5,
+          "carbs_g": 18.4,
+          "protein_g": 3.1,
+          "sodium_mg": 212,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
         },
-        "missing_inputs": [
-          "frozen bread dough",
-          "dried parsley"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Parmesan cheese: used default unit",
+          "dried parsley: used default unit",
           "garlic powder: used default unit"
         ]
       }
@@ -328,22 +324,21 @@
         ]
       },
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 9,
         "per_serving": {
-          "calories": 360,
-          "fat_g": 18.9,
-          "carbs_g": 43.2,
-          "protein_g": 6.5,
+          "calories": 363,
+          "fat_g": 19.1,
+          "carbs_g": 43.5,
+          "protein_g": 6.6,
           "sodium_mg": 386,
-          "fiber_g": 1.1,
+          "fiber_g": 1.2,
           "sugar_g": 26.2
         },
-        "missing_inputs": [
-          "ground nutmeg"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "all-purpose flour: used default unit",
+          "ground nutmeg: used default unit",
           "baking soda: used default unit",
           "sugar: used default unit",
           "raisins: used default unit",
@@ -575,24 +570,22 @@
       },
       "image_refs": [],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 741,
+          "calories": 746,
           "fat_g": 20.9,
-          "carbs_g": 117.4,
+          "carbs_g": 118.6,
           "protein_g": 18.6,
           "sodium_mg": 142,
           "fiber_g": 4.0,
-          "sugar_g": 9.3
+          "sugar_g": 10.3
         },
-        "missing_inputs": [
-          "ground cardamom",
-          "apricot or raspberry jam"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "dry yeast: used default unit",
-          "all-purpose flour: used default unit"
+          "all-purpose flour: used default unit",
+          "apricot or raspberry jam: used default unit"
         ]
       }
     },
