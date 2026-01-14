@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "category": "soups",
+    "count": 2
+  },
+  "recipes": [
+    {
+      "id": "crabmeat-clam-chowder-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Crabmeat Clam Chowder",
+      "category": "soups",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "frozen crabmeat",
+          "quantity": "1",
+          "unit": "pkg (6 oz)",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "minced clams",
+          "quantity": "1",
+          "unit": "can (8 oz)",
+          "prep_note": "juice included"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "optional, minced or pressed"
+        },
+        {
+          "item": "sliced green onions",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "small potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut into 1/2-inch cubes"
+        },
+        {
+          "item": "water or dry white wine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "white pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "whipped, salted"
+        },
+        {
+          "item": "minced chives or parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a heavy saucepan, melt butter. Add garlic, if used. Saut\u00e9 30 seconds. Add onions and potatoes. Saut\u00e9 2 minutes or until onions are heated through."
+        },
+        {
+          "step": 2,
+          "text": "Add water. Simmer 15 minutes or until potatoes are cooked. Stir in milk, salt and pepper. Bring to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Combine flour with 4 tablespoons water. Mix to make a smooth paste. Stir into boiling mixture. Cook about 4 minutes until thickened."
+        },
+        {
+          "step": 4,
+          "text": "Stir in crab and clams in juice. Heat through."
+        },
+        {
+          "step": 5,
+          "text": "Ladle into serving bowls. Top each with a dollop of whipped cream. Sprinkle with parsley."
+        }
+      ],
+      "tags": [
+        "soup",
+        "seafood",
+        "chowder",
+        "crab",
+        "clams"
+      ],
+      "image_refs": [
+        "93"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "notes": [
+        "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
+      ]
+    },
+    {
+      "id": "beef-vegetable-soup-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef Vegetable Soup",
+      "category": "soups",
+      "prep_time": "15 min",
+      "cook_time": "50-60 min",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "beef round or stew meat",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "seasoned salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "barley",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "4",
+          "unit": "cans (10 1/2 oz each)",
+          "prep_note": "or beef broth"
+        },
+        {
+          "item": "tomatoes",
+          "quantity": "1",
+          "unit": "can (8 1/2 oz)"
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "medium, sliced"
+        },
+        {
+          "item": "carrots",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "fresh bread cubes",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "shredded Edam cheese",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut beef into small 1/2-inch wide strips. In a heavy 3-quart saucepan, heat oil. Add meat. Lightly brown onion. Saut\u00e9 3-4 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add salt, pepper, barley, if used, parsley, broth, water and tomatoes. Bring to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Cover. Simmer for 30 minutes."
+        },
+        {
+          "step": 4,
+          "text": "To prepare croutons, toss bread cubes with butter. Sprinkle with Edam, stirring after 5 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Ladle soup into bowls. Top with croutons."
+        }
+      ],
+      "notes": [
+        "Tips: For added flavor, other vegetables such as potatoes, green beans, peas, celery or parsnips may be added to soup.",
+        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, \u00bc cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
+      ],
+      "tags": [
+        "soup",
+        "beef",
+        "vegetables",
+        "barley",
+        "hearty"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    }
+  ]
+}
