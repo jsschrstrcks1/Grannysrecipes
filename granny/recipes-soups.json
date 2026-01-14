@@ -129,7 +129,28 @@
       },
       "notes": [
         "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1017,
+          "fat_g": 35.3,
+          "carbs_g": 137.3,
+          "protein_g": 25.8,
+          "sodium_mg": 773,
+          "fiber_g": 6.4,
+          "sugar_g": 13.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen crabmeat: used default unit",
+          "minced clams: used default unit",
+          "sliced green onions: used default unit",
+          "milk: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-vegetable-soup-granny",
@@ -248,6 +269,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 501,
+          "fat_g": 23.4,
+          "carbs_g": 34.0,
+          "protein_g": 38.5,
+          "sodium_mg": 1063,
+          "fiber_g": 7.0,
+          "sugar_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "water: used default unit",
+          "tomatoes: used default unit"
+        ]
       }
     }
   ]

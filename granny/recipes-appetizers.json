@@ -87,6 +87,21 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 9.7,
+          "carbs_g": 8.1,
+          "protein_g": 1.7,
+          "sodium_mg": 104,
+          "fiber_g": 4.9,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -167,6 +182,21 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 4.2,
+          "carbs_g": 2.0,
+          "protein_g": 8.3,
+          "sodium_mg": 167,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -284,6 +314,30 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 220,
+          "fat_g": 5.5,
+          "carbs_g": 34.6,
+          "protein_g": 8.2,
+          "sodium_mg": 342,
+          "fiber_g": 1.4,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen bread dough: used default unit",
+          "pizza oregano leaves: used default unit",
+          "garlic powder: used default unit",
+          "grated Mozzarella: used default unit",
+          "Parmesan cheese: used default unit",
+          "green pepper: used default unit",
+          "pepperoni: used default unit",
+          "lightly beaten oregano: used default unit"
+        ]
       }
     },
     {
@@ -370,7 +424,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 0.6,
+          "carbs_g": 5.2,
+          "protein_g": 2.0,
+          "sodium_mg": 273,
+          "fiber_g": 1.5,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cannellini beans: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
+        ]
+      }
     }
   ]
 }

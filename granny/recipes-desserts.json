@@ -81,6 +81,23 @@
         "flags": [
           "partial view of recipe card"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 17.2,
+          "carbs_g": 23.3,
+          "protein_g": 4.3,
+          "sodium_mg": 174,
+          "fiber_g": 0.2,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "graham cracker crust: used default unit"
+        ]
       }
     },
     {
@@ -195,6 +212,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 140,
+          "fat_g": 7.0,
+          "carbs_g": 18.0,
+          "protein_g": 1.9,
+          "sodium_mg": 129,
+          "fiber_g": 0.9,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "Quaker Oats: used default unit"
+        ]
       }
     },
     {
@@ -286,6 +321,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 390,
+          "fat_g": 14.6,
+          "carbs_g": 57.9,
+          "protein_g": 6.8,
+          "sodium_mg": 119,
+          "fiber_g": 1.4,
+          "sugar_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Maraschino cherries: used default unit",
+          "flour: used default unit"
+        ]
       }
     },
     {
@@ -413,6 +466,27 @@
         "flags": [
           "handwritten recipe, some details unclear"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 479,
+          "fat_g": 23.5,
+          "carbs_g": 63.0,
+          "protein_g": 6.6,
+          "sodium_mg": 548,
+          "fiber_g": 1.9,
+          "sugar_g": 44.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "sugar: used default unit",
+          "vegetable oil: used default unit",
+          "carrots: used default unit",
+          "powdered sugar: used default unit"
+        ]
       }
     },
     {
@@ -511,6 +585,27 @@
         "overall": "high",
         "flags": [
           "handwritten recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 337,
+          "fat_g": 23.0,
+          "carbs_g": 32.2,
+          "protein_g": 2.7,
+          "sodium_mg": 315,
+          "fiber_g": 2.3,
+          "sugar_g": 17.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "crushed pineapple: used default unit",
+          "coconut: used default unit",
+          "cherry pie filling: used default unit",
+          "yellow or white cake mix: used default unit",
+          "butter or margarine: used default unit"
         ]
       }
     },
@@ -643,6 +738,24 @@
           "multiple ingredients marked [UNCLEAR]",
           "previous extraction had significant errors"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 145,
+          "fat_g": 5.5,
+          "carbs_g": 21.4,
+          "protein_g": 2.6,
+          "sodium_mg": 189,
+          "fiber_g": 0.6,
+          "sugar_g": 10.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pumpkin pie spice: used default unit",
+          "yellow cake mix: used default unit"
+        ]
       }
     },
     {
@@ -743,6 +856,25 @@
           "handwritten recipe",
           "some measurements estimated"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 653,
+          "fat_g": 37.1,
+          "carbs_g": 74.7,
+          "protein_g": 7.1,
+          "sodium_mg": 271,
+          "fiber_g": 0.8,
+          "sugar_g": 50.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter: used default unit",
+          "sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
       }
     },
     {
@@ -825,6 +957,27 @@
         "flags": [
           "typed recipe"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
+          "fiber_g": 0.8,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vanilla instant pudding: used default unit",
+          "milk: used default unit",
+          "sour cream: used default unit",
+          "whipped cream: used default unit",
+          "vanilla wafers: used default unit"
+        ]
       }
     },
     {
@@ -899,6 +1052,25 @@
         "overall": "high",
         "flags": [
           "handwritten recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 50,
+          "fat_g": 1.8,
+          "carbs_g": 8.1,
+          "protein_g": 0.8,
+          "sodium_mg": 44,
+          "fiber_g": 0.4,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh strawberries: used default unit",
+          "Cool Whip: used default unit",
+          "strawberry Jello: used default unit"
         ]
       }
     },
@@ -1031,7 +1203,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 808,
+          "fat_g": 17.5,
+          "carbs_g": 148.7,
+          "protein_g": 13.9,
+          "sodium_mg": 100,
+          "fiber_g": 3.6,
+          "sugar_g": 49.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "grated orange rind: used default unit",
+          "all-purpose flour: used default unit",
+          "vanilla ice cream: used default unit"
+        ]
+      }
     },
     {
       "id": "alans-basic-flan-granny",
@@ -1153,7 +1344,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 374,
+          "fat_g": 15.6,
+          "carbs_g": 49.5,
+          "protein_g": 9.9,
+          "sodium_mg": 293,
+          "fiber_g": 0.7,
+          "sugar_g": 33.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "water: used default unit",
+          "milk: used default unit",
+          "half-and-half: used default unit",
+          "rum: used default unit"
+        ]
+      }
     },
     {
       "id": "black-cherry-tart-granny",
@@ -1271,7 +1482,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 301,
+          "fat_g": 22.9,
+          "carbs_g": 19.8,
+          "protein_g": 8.9,
+          "sodium_mg": 92,
+          "fiber_g": 4.7,
+          "sugar_g": 8.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "soft cream cheese: used default unit",
+          "Bing cherries: used default unit",
+          "cornstarch: used default unit",
+          "graham cracker crumbs: used default unit",
+          "ground almonds: used default unit"
+        ]
+      }
     },
     {
       "id": "banana-chocolate-cake-granny",
@@ -1403,7 +1635,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 626,
+          "fat_g": 23.1,
+          "carbs_g": 103.4,
+          "protein_g": 4.1,
+          "sodium_mg": 237,
+          "fiber_g": 1.5,
+          "sugar_g": 84.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sifted cake flour: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "white-chocolate-chunk-cookies-granny",
@@ -1517,7 +1767,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 21,
+        "per_serving": {
+          "calories": 162,
+          "fat_g": 9.1,
+          "carbs_g": 18.1,
+          "protein_g": 2.2,
+          "sodium_mg": 66,
+          "fiber_g": 1.0,
+          "sugar_g": 9.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "old-fashioned-butter-cake-granny",
@@ -1634,7 +1901,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 604,
+          "fat_g": 32.6,
+          "carbs_g": 73.9,
+          "protein_g": 5.6,
+          "sodium_mg": 340,
+          "fiber_g": 0.8,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "melting-moments-granny",
@@ -1749,7 +2034,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 346,
+          "fat_g": 22.4,
+          "carbs_g": 34.4,
+          "protein_g": 4.2,
+          "sodium_mg": 116,
+          "fiber_g": 1.8,
+          "sugar_g": 23.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sliced almonds: used default unit",
+          "soft cream cheese: used default unit",
+          "red or green food coloring: used default unit"
+        ]
+      }
     },
     {
       "id": "pineapple-dream-cake-granny",
@@ -1849,7 +2153,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 10,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 23.2,
+          "carbs_g": 6.3,
+          "protein_g": 2.9,
+          "sodium_mg": 160,
+          "fiber_g": 0.6,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter cake: used default unit",
+          "oil: used default unit",
+          "mandarin orange slices: used default unit",
+          "vanilla instant pudding mix: used default unit",
+          "crushed pineapple: used default unit",
+          "non-dairy whipped topping: used default unit"
+        ]
+      }
     },
     {
       "id": "fruit-pie-in-cookie-crust-granny",
@@ -1969,7 +2295,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 315,
+          "fat_g": 7.5,
+          "carbs_g": 60.9,
+          "protein_g": 5.2,
+          "sodium_mg": 96,
+          "fiber_g": 4.7,
+          "sugar_g": 34.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cornstarch: used default unit",
+          "apple juice: used default unit",
+          "grated lemon rind: used default unit",
+          "lemon juice: used default unit",
+          "diced fresh sliced or assorted fruit: used default unit"
+        ]
+      }
     },
     {
       "id": "walnut-chocolate-fudge-granny",
@@ -2054,7 +2401,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 507,
+          "fat_g": 20.1,
+          "carbs_g": 82.7,
+          "protein_g": 4.7,
+          "sodium_mg": 2,
+          "fiber_g": 2.5,
+          "sugar_g": 78.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "apple juice: used default unit",
+          "semisweet chocolate pieces: used default unit",
+          "coarsely chopped walnuts: used default unit"
+        ]
+      }
     },
     {
       "id": "chocolate-strawberry-shortcake-granny",
@@ -2199,7 +2566,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 464,
+          "fat_g": 24.6,
+          "carbs_g": 53.1,
+          "protein_g": 8.2,
+          "sodium_mg": 330,
+          "fiber_g": 1.7,
+          "sugar_g": 24.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "unsweetened cocoa powder: used default unit",
+          "whipping cream: used default unit",
+          "fresh strawberries: used default unit",
+          "Ricotta cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "cinnamon-mocha-sheet-cake-granny",
@@ -2336,7 +2724,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 32,
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 4.4,
+          "carbs_g": 27.0,
+          "protein_g": 1.2,
+          "sodium_mg": 56,
+          "fiber_g": 0.2,
+          "sugar_g": 22.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "instant espresso or coffee crystals: used default unit",
+          "all-purpose flour: used default unit",
+          "brewed coffee: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "caramel-crunch-bars-granny",
@@ -2476,7 +2884,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 244,
+          "fat_g": 16.5,
+          "carbs_g": 21.6,
+          "protein_g": 3.2,
+          "sodium_mg": 119,
+          "fiber_g": 0.8,
+          "sugar_g": 12.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "lemon juice: used default unit"
+        ]
+      }
     },
     {
       "id": "crumb-topped-blueberry-cake-granny",
@@ -2608,7 +3034,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 298,
+          "fat_g": 10.8,
+          "carbs_g": 44.8,
+          "protein_g": 5.7,
+          "sodium_mg": 251,
+          "fiber_g": 1.7,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "whole blueberries: used default unit"
+        ]
+      }
     },
     {
       "id": "peanutty-chocolate-pie-granny",
@@ -2717,7 +3161,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 35.5,
+          "carbs_g": 42.2,
+          "protein_g": 7.4,
+          "sodium_mg": 195,
+          "fiber_g": 2.5,
+          "sugar_g": 31.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Argo or Kingsford's Corn Starch: used default unit",
+          "milk: used default unit",
+          "semisweet chocolate chips: used default unit",
+          "prepared graham cracker crust: used default unit"
+        ]
+      }
     },
     {
       "id": "strawberry-shortcut-cake-granny",
@@ -2831,7 +3295,30 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 10.8,
+          "carbs_g": 49.6,
+          "protein_g": 5.4,
+          "sodium_mg": 346,
+          "fiber_g": 1.1,
+          "sugar_g": 29.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries in syrup: used default unit",
+          "strawberry flavored gelatin: used default unit",
+          "Pillsbury's Best All Purpose Flour: used default unit",
+          "sugar: used default unit",
+          "baking powder: used default unit",
+          "salt: used default unit",
+          "vanilla: used default unit"
+        ]
+      }
     },
     {
       "id": "no-bake-easter-basket-cake-granny",
@@ -2967,7 +3454,31 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 872,
+          "fat_g": 68.8,
+          "carbs_g": 58.0,
+          "protein_g": 5.9,
+          "sodium_mg": 591,
+          "fiber_g": 2.0,
+          "sugar_g": 38.9
+        },
+        "missing_inputs": [
+          "pastel-colored peanut M&M's",
+          "multicolored marshmallow rope"
+        ],
+        "assumptions": [
+          "vegetable shortening: used default unit",
+          "vanilla frosting: used default unit",
+          "frozen pound cakes: used default unit",
+          "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "flexible straws and large marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "frosty-orange-delight-granny",
@@ -3056,7 +3567,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 9.4,
+          "carbs_g": 7.4,
+          "protein_g": 2.2,
+          "sodium_mg": 45,
+          "fiber_g": 0.6,
+          "sugar_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mandarin oranges: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit",
+          "powdered orange flavored instant breakfast drink: used default unit"
+        ]
+      }
     },
     {
       "id": "berry-banana-dessert-granny",
@@ -3161,7 +3692,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 4.1,
+          "carbs_g": 24.1,
+          "protein_g": 2.8,
+          "sodium_mg": 32,
+          "fiber_g": 1.8,
+          "sugar_g": 18.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cream cheese: used default unit",
+          "vanilla: used default unit",
+          "raspberry flavored or vanilla yogurt: used default unit",
+          "frozen raspberries: used default unit",
+          "red raspberry flavored gelatin: used default unit",
+          "miniature marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "strawberries-n-cream-cheese-freeze-granny",
@@ -3240,7 +3793,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 146,
+          "fat_g": 6.8,
+          "carbs_g": 21.4,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
+          "fiber_g": 0.6,
+          "sugar_g": 18.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-toll-house-chocolate-chip-cookies-granny",
@@ -3347,7 +3919,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 9.6,
+          "carbs_g": 19.1,
+          "protein_g": 2.2,
+          "sodium_mg": 168,
+          "fiber_g": 0.6,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-famous-fudge-granny",
@@ -3431,7 +4022,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 5.2,
+          "carbs_g": 49.4,
+          "protein_g": 1.2,
+          "sodium_mg": 180,
+          "fiber_g": 0.4,
+          "sugar_g": 46.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "miniature marshmallows: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "granulated sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "old-fashioned-oatmeal-cookies-nestle-granny",
@@ -3535,7 +4145,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 12.7,
+          "carbs_g": 41.2,
+          "protein_g": 4.2,
+          "sodium_mg": 216,
+          "fiber_g": 1.9,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter or margarine: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "quick oats: used default unit"
+        ]
+      }
     },
     {
       "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
@@ -3639,7 +4269,26 @@
       },
       "image_refs": [
         "IMG_4400"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 9.9,
+          "carbs_g": 26.0,
+          "protein_g": 2.5,
+          "sodium_mg": 213,
+          "fiber_g": 0.7,
+          "sugar_g": 14.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "easy-double-chocolate-chip-brownies-granny",
@@ -3730,7 +4379,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 13.5,
+          "carbs_g": 30.5,
+          "protein_g": 4.0,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "yuletide-toffee-squares-granny",
@@ -3835,6 +4503,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 36,
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 19.0,
+          "protein_g": 1.6,
+          "sodium_mg": 69,
+          "fiber_g": 1.3,
+          "sugar_g": 12.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Quaker Oats: used default unit",
+          "vanilla: used default unit",
+          "salt: used default unit",
+          "semi-sweet chocolate morsels: used default unit"
+        ]
       }
     },
     {
@@ -3900,6 +4588,26 @@
         "overall": "medium",
         "flags": [
           "magazine clipping - image upside down, some text obscured"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 520,
+          "fat_g": 21.0,
+          "carbs_g": 71.5,
+          "protein_g": 10.0,
+          "sodium_mg": 555,
+          "fiber_g": 2.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter or margarine: used default unit",
+          "salt: used default unit",
+          "baking powder: used default unit",
+          "all-purpose flour: used default unit"
         ]
       }
     },
@@ -3977,6 +4685,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 684,
+          "fat_g": 59.0,
+          "carbs_g": 38.1,
+          "protein_g": 2.1,
+          "sodium_mg": 407,
+          "fiber_g": 0.9,
+          "sugar_g": 22.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pudding and pie filling mix: used default unit",
+          "salt: used default unit",
+          "butter or margarine: used default unit"
+        ]
       }
     },
     {
@@ -4047,7 +4774,27 @@
       },
       "image_refs": [
         "199"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 4.9,
+          "carbs_g": 26.9,
+          "protein_g": 3.3,
+          "sodium_mg": 257,
+          "fiber_g": 0.3,
+          "sugar_g": 14.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange cake mix: used default unit",
+          "instant vanilla pudding: used default unit",
+          "oil: used default unit",
+          "Galliano liqueur: used default unit"
+        ]
+      }
     }
   ]
 }
