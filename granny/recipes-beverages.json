@@ -132,7 +132,34 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 1,
+        "per_serving": {
+          "calories": 2945,
+          "fat_g": 38.9,
+          "carbs_g": 674.0,
+          "protein_g": 10.6,
+          "sodium_mg": 666,
+          "fiber_g": 13.0,
+          "sugar_g": 509.0
+        },
+        "missing_inputs": [
+          "chilled soda water",
+          "frozen lemonade concentrate",
+          "water"
+        ],
+        "assumptions": [
+          "chocolate syrup: used default unit",
+          "vanilla ice cream: used default unit",
+          "chocolate curls: used default unit",
+          "Coffee Syrup (see below): used default unit",
+          "frozen strawberries: used default unit",
+          "raspberries or peaches: used default unit",
+          "light corn syrup: used default unit"
+        ]
+      }
     }
   ]
 }

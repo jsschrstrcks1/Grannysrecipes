@@ -98,6 +98,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 263,
+          "fat_g": 12.7,
+          "carbs_g": 31.4,
+          "protein_g": 5.4,
+          "sodium_mg": 238,
+          "fiber_g": 1.1,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "warm water"
+        ],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "all-purpose flour: used default unit",
+          "eggs: used default unit"
+        ]
       }
     },
     {
@@ -180,6 +201,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 35,
+          "fat_g": 3.9,
+          "carbs_g": 0.0,
+          "protein_g": 0.1,
+          "sodium_mg": 28,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "frozen bread dough",
+          "dried parsley"
+        ],
+        "assumptions": [
+          "Parmesan cheese: used default unit",
+          "garlic powder: used default unit"
+        ]
       }
     },
     {
@@ -284,6 +326,29 @@
         "flags": [
           "typed recipe from restaurant"
         ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 360,
+          "fat_g": 18.9,
+          "carbs_g": 43.2,
+          "protein_g": 6.5,
+          "sodium_mg": 386,
+          "fiber_g": 1.1,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [
+          "ground nutmeg"
+        ],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "baking soda: used default unit",
+          "sugar: used default unit",
+          "raisins: used default unit",
+          "buttermilk: used default unit"
+        ]
       }
     },
     {
@@ -373,6 +438,24 @@
         "overall": "high",
         "flags": [
           "handwritten recipe card"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 5.2,
+          "carbs_g": 20.5,
+          "protein_g": 2.1,
+          "sodium_mg": 160,
+          "fiber_g": 0.5,
+          "sugar_g": 12.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "mashed bananas: used default unit"
         ]
       }
     },
@@ -490,7 +573,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 741,
+          "fat_g": 20.9,
+          "carbs_g": 117.4,
+          "protein_g": 18.6,
+          "sodium_mg": 142,
+          "fiber_g": 4.0,
+          "sugar_g": 9.3
+        },
+        "missing_inputs": [
+          "ground cardamom",
+          "apricot or raspberry jam"
+        ],
+        "assumptions": [
+          "dry yeast: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "cranberry-upside-down-muffins-granny",
@@ -610,7 +714,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 17.0,
+          "carbs_g": 64.8,
+          "protein_g": 6.3,
+          "sodium_mg": 401,
+          "fiber_g": 2.2,
+          "sugar_g": 29.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
+      }
     },
     {
       "id": "peachn-berry-twists-granny",
@@ -729,7 +851,29 @@
           "PARTIAL_TEXT_VISIBLE"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 13.5,
+          "carbs_g": 26.0,
+          "protein_g": 4.8,
+          "sodium_mg": 221,
+          "fiber_g": 1.0,
+          "sugar_g": 13.1
+        },
+        "missing_inputs": [
+          "reserved 2 tablespoons"
+        ],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "peach syrup: used default unit",
+          "sliced peaches: used default unit",
+          "gelatin: used default unit"
+        ]
+      }
     }
   ]
 }

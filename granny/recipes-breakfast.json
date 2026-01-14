@@ -104,6 +104,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 264,
+          "fat_g": 11.7,
+          "carbs_g": 36.0,
+          "protein_g": 4.7,
+          "sodium_mg": 403,
+          "fiber_g": 1.2,
+          "sugar_g": 20.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
       }
     },
     {
@@ -204,6 +221,26 @@
         "flags": [
           "handwritten on notebook paper"
         ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 577,
+          "fat_g": 26.2,
+          "carbs_g": 76.2,
+          "protein_g": 9.9,
+          "sodium_mg": 580,
+          "fiber_g": 2.1,
+          "sugar_g": 27.3
+        },
+        "missing_inputs": [
+          "almond extract",
+          "sunflower seeds"
+        ],
+        "assumptions": [
+          "blueberries: used default unit"
+        ]
       }
     },
     {
@@ -293,6 +330,29 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 0.2,
+          "carbs_g": 52.0,
+          "protein_g": 0.4,
+          "sodium_mg": 1,
+          "fiber_g": 1.6,
+          "sugar_g": 49.4
+        },
+        "missing_inputs": [
+          "ground cloves",
+          "allspice",
+          "liquid pectin",
+          "melted paraffin"
+        ],
+        "assumptions": [
+          "fresh blueberries: used default unit",
+          "granulated sugar: used default unit"
+        ]
       }
     },
     {
@@ -396,6 +456,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 429,
+          "fat_g": 22.4,
+          "carbs_g": 44.1,
+          "protein_g": 14.3,
+          "sodium_mg": 358,
+          "fiber_g": 3.8,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [
+          "maple-flavored extract"
+        ],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "vegetable oil: used default unit"
+        ]
       }
     },
     {
@@ -533,7 +613,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 319,
+          "fat_g": 17.7,
+          "carbs_g": 23.9,
+          "protein_g": 15.5,
+          "sodium_mg": 656,
+          "fiber_g": 1.6,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "whipping cream",
+          "crepes (see below)"
+        ],
+        "assumptions": [
+          "bacon: used default unit",
+          "finely minced onion: used default unit"
+        ]
+      }
     }
   ]
 }

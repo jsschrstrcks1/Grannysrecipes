@@ -102,6 +102,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 329,
+          "fat_g": 12.9,
+          "carbs_g": 46.3,
+          "protein_g": 8.6,
+          "sodium_mg": 593,
+          "fiber_g": 1.4,
+          "sugar_g": 25.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
       }
     },
     {
@@ -196,6 +215,26 @@
           "key ingredient unclear (mayo vs cheese)",
           "Optional: Hot Peppers noted on card"
         ]
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 210,
+          "fat_g": 20.2,
+          "carbs_g": 2.6,
+          "protein_g": 5.5,
+          "sodium_mg": 566,
+          "fiber_g": 0.4,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "Ritz crackers"
+        ],
+        "assumptions": [
+          "frozen broccoli: used default unit",
+          "chopped onion: used default unit"
+        ]
       }
     },
     {
@@ -275,6 +314,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 3.9,
+          "carbs_g": 2.0,
+          "protein_g": 3.7,
+          "sodium_mg": 650,
+          "fiber_g": 0.5,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh broccoli: used default unit",
+          "mayonnaise: used default unit"
+        ]
       }
     },
     {
@@ -343,6 +400,26 @@
         "overall": "medium",
         "flags": [
           "handwritten on envelope from Wauchula, Florida"
+        ]
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 0.2,
+          "carbs_g": 29.7,
+          "protein_g": 2.0,
+          "sodium_mg": 106,
+          "fiber_g": 4.0,
+          "sugar_g": 25.7
+        },
+        "missing_inputs": [
+          "water",
+          "whole allspice"
+        ],
+        "assumptions": [
+          "vinegar: used default unit"
         ]
       }
     },
@@ -464,6 +541,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 372,
+          "fat_g": 21.2,
+          "carbs_g": 30.9,
+          "protein_g": 14.9,
+          "sodium_mg": 586,
+          "fiber_g": 3.3,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [
+          "fresh parsley, minced fresh chives and dried chervil leaves"
+        ],
+        "assumptions": [
+          "minced onion: used default unit",
+          "finely diced cooked ham: used default unit"
+        ]
       }
     },
     {
@@ -560,7 +657,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 177,
+          "fat_g": 8.7,
+          "carbs_g": 21.9,
+          "protein_g": 3.4,
+          "sodium_mg": 699,
+          "fiber_g": 2.1,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [
+          "dried tarragon or basil leaves"
+        ],
+        "assumptions": [
+          "chicken broth: used default unit",
+          "boiling water: used default unit"
+        ]
+      }
     },
     {
       "id": "spanish-rice-granny",
@@ -672,7 +789,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 105,
+          "fat_g": 6.0,
+          "carbs_g": 12.0,
+          "protein_g": 1.7,
+          "sodium_mg": 1104,
+          "fiber_g": 1.4,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "bay leaf",
+          "water",
+          "oregano"
+        ],
+        "assumptions": [
+          "tomato sauce: used default unit",
+          "salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "senator-russells-sweet-potatoes-granny",
@@ -778,7 +917,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 7,
+        "per_serving": {
+          "calories": 664,
+          "fat_g": 32.8,
+          "carbs_g": 88.5,
+          "protein_g": 8.2,
+          "sodium_mg": 180,
+          "fiber_g": 3.2,
+          "sugar_g": 61.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mashed sweet potatoes: used default unit"
+        ]
+      }
     }
   ]
 }

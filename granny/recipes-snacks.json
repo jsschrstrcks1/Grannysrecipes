@@ -105,6 +105,27 @@
           "handwritten recipe in red ink",
           "some details unclear"
         ]
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 300,
+          "fat_g": 12.4,
+          "carbs_g": 49.1,
+          "protein_g": 2.6,
+          "sodium_mg": 190,
+          "fiber_g": 1.8,
+          "sugar_g": 33.8
+        },
+        "missing_inputs": [
+          "water",
+          "cream of tartar",
+          "mixed nuts"
+        ],
+        "assumptions": [
+          "popped popcorn: used default unit"
+        ]
       }
     }
   ]

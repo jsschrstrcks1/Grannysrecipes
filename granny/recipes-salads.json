@@ -97,6 +97,26 @@
           "title and most ingredients uncertain",
           "may reference \"Anne Linda\" as source"
         ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 216,
+          "fat_g": 12.2,
+          "carbs_g": 20.0,
+          "protein_g": 8.9,
+          "sodium_mg": 216,
+          "fiber_g": 2.9,
+          "sugar_g": 15.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lime gelatin (Jello): used default unit",
+          "boiling water: used default unit",
+          "crushed pineapple: used default unit",
+          "pineapple juice: used default unit"
+        ]
       }
     },
     {
@@ -175,6 +195,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 0.3,
+          "carbs_g": 20.4,
+          "protein_g": 4.0,
+          "sodium_mg": 15,
+          "fiber_g": 4.2,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [
+          "parsley"
+        ],
+        "assumptions": [
+          "mixed vegetables: used default unit",
+          "sliced celery: used default unit",
+          "chopped green onion: used default unit"
+        ]
       }
     },
     {
@@ -237,6 +278,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 462,
+          "fat_g": 49.8,
+          "carbs_g": 0.7,
+          "protein_g": 5.0,
+          "sodium_mg": 374,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "radishes"
+        ],
+        "assumptions": [
+          "Butterhead lettuce: used default unit"
+        ]
       }
     }
   ]

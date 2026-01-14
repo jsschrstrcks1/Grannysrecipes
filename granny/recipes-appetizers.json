@@ -87,6 +87,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 9.7,
+          "carbs_g": 8.1,
+          "protein_g": 1.7,
+          "sodium_mg": 103,
+          "fiber_g": 4.9,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [
+          "fresh cilantro leaves"
+        ],
+        "assumptions": []
       }
     },
     {
@@ -167,6 +184,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 4.2,
+          "carbs_g": 2.0,
+          "protein_g": 8.2,
+          "sodium_mg": 167,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [
+          "chopped parsley"
+        ],
+        "assumptions": []
       }
     },
     {
@@ -284,6 +318,31 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 41,
+          "fat_g": 1.1,
+          "carbs_g": 6.6,
+          "protein_g": 1.1,
+          "sodium_mg": 8,
+          "fiber_g": 0.4,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [
+          "frozen bread dough",
+          "pizza oregano leaves",
+          "grated Mozzarella",
+          "lightly beaten oregano"
+        ],
+        "assumptions": [
+          "garlic powder: used default unit",
+          "Parmesan cheese: used default unit",
+          "green pepper: used default unit",
+          "pepperoni: used default unit"
+        ]
       }
     },
     {
@@ -370,7 +429,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 33,
+          "fat_g": 0.5,
+          "carbs_g": 5.1,
+          "protein_g": 1.9,
+          "sodium_mg": 272,
+          "fiber_g": 1.5,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [
+          "ground cumin",
+          "chopped fresh parsley"
+        ],
+        "assumptions": [
+          "cannellini beans: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
+        ]
+      }
     }
   ]
 }
