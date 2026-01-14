@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "category": "snacks",
+    "count": 1
+  },
+  "recipes": [
+    {
+      "id": "caramel-corn-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Caramel Corn",
+      "category": "snacks",
+      "description": "Homemade caramel corn - crunchy and sweet.",
+      "temperature": "250\u00b0F (120\u00b0C)",
+      "ingredients": [
+        {
+          "item": "popped popcorn",
+          "quantity": "4",
+          "unit": "quarts"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "real butter"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "corn syrup (Karo)",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cream of tartar",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "mixed nuts",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Pop corn and place in large roasting pan. Add nuts if using."
+        },
+        {
+          "step": 2,
+          "text": "In saucepan, combine butter, brown sugar, corn syrup, water, and cream of tartar."
+        },
+        {
+          "step": 3,
+          "text": "Bring to boil, stirring constantly. Boil 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Stir in baking soda (mixture will foam)."
+        },
+        {
+          "step": 5,
+          "text": "Pour over popcorn, stirring to coat evenly."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 250\u00b0F, stirring every 15 minutes, for about 1 hour."
+        },
+        {
+          "step": 7,
+          "text": "Spread on wax paper to cool. Break apart when cooled."
+        }
+      ],
+      "notes": [
+        "Store in airtight container. Like brittle when done right."
+      ],
+      "tags": [
+        "snack",
+        "popcorn",
+        "caramel",
+        "candy"
+      ],
+      "image_refs": [
+        "17"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten recipe in red ink",
+          "some details unclear"
+        ]
+      }
+    }
+  ]
+}

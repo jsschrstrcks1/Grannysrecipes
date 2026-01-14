@@ -64,11 +64,15 @@ function escapeAttr(value) {
 // =============================================================================
 
 // Global state
-let recipes = [];
+let recipes = [];              // Recipe index (minimal metadata for grid)
+let recipesFull = {};          // Full recipe data cache (keyed by recipe id)
+let loadedShards = {};         // Loaded shard cache (keyed by category)
+let shardManifest = [];        // Available shards from index
 let categories = new Set();
 let allTags = new Set();
 let currentFilter = { search: '', category: '', tag: '', collection: '' };
-let showMetric = false; // Toggle for metric conversions
+let showMetric = false;        // Toggle for metric conversions
+let isSharded = false;         // Whether we're using sharded loading
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', init);
@@ -80,26 +84,101 @@ async function init() {
 }
 
 /**
- * Load recipes from JSON file
+ * Load recipes from JSON file (with sharding support)
+ *
+ * Attempts to load from sharded index first for better performance.
+ * Falls back to monolithic recipes_master.json if shards are unavailable.
  */
 async function loadRecipes() {
   try {
-    const response = await fetch('granny/recipes_master.json');
-    const data = await response.json();
-    recipes = data.recipes || [];
+    // Try loading sharded index first
+    let response = await fetch('granny/recipes-index.json');
 
-    // Extract categories and tags
+    if (response.ok) {
+      // Sharded mode: load lightweight index
+      const data = await response.json();
+      recipes = data.recipes || [];
+      shardManifest = data.shards || [];
+      isSharded = true;
+      console.log(`Loaded ${recipes.length} recipes from sharded index (${shardManifest.length} shards available)`);
+    } else {
+      // Fallback to monolithic file
+      response = await fetch('granny/recipes_master.json');
+      if (!response.ok) {
+        throw new Error('Failed to load recipes');
+      }
+      const data = await response.json();
+      recipes = data.recipes || [];
+      isSharded = false;
+      // In monolithic mode, cache all recipes as full
+      recipes.forEach(r => { recipesFull[r.id] = r; });
+      console.log(`Loaded ${recipes.length} recipes from monolithic file (fallback mode)`);
+    }
+
+    // Extract categories and tags from index
     recipes.forEach(recipe => {
       if (recipe.category) categories.add(recipe.category);
       if (recipe.tags) recipe.tags.forEach(tag => allTags.add(tag));
     });
 
-    console.log(`Loaded ${recipes.length} recipes`);
     updateCollectionCounts();
   } catch (error) {
     console.error('Failed to load recipes:', error);
     showError('Unable to load recipes. Please refresh the page.');
   }
+}
+
+/**
+ * Load a category shard on-demand
+ * @param {string} category - The category to load
+ * @returns {Promise<Array>} - Array of full recipes in that category
+ */
+async function loadShard(category) {
+  // Return cached shard if already loaded
+  if (loadedShards[category]) {
+    return loadedShards[category];
+  }
+
+  try {
+    const response = await fetch(`granny/recipes-${category}.json`);
+    if (!response.ok) {
+      throw new Error(`Failed to load shard: ${category}`);
+    }
+    const data = await response.json();
+
+    // Cache the shard and index full recipes by id
+    loadedShards[category] = data.recipes;
+    data.recipes.forEach(r => { recipesFull[r.id] = r; });
+
+    console.log(`Loaded shard: ${category} (${data.recipes.length} recipes)`);
+    return data.recipes;
+  } catch (error) {
+    console.error(`Failed to load shard ${category}:`, error);
+    return [];
+  }
+}
+
+/**
+ * Get full recipe data, loading shard if necessary
+ * @param {string} recipeId - The recipe ID to fetch
+ * @returns {Promise<Object|null>} - Full recipe object or null if not found
+ */
+async function getFullRecipe(recipeId) {
+  // Return cached full recipe if available
+  if (recipesFull[recipeId]) {
+    return recipesFull[recipeId];
+  }
+
+  // Find the recipe in the index to determine its category
+  const indexEntry = recipes.find(r => r.id === recipeId);
+  if (!indexEntry) {
+    return null;
+  }
+
+  // Load the shard for this category
+  await loadShard(indexEntry.category);
+
+  return recipesFull[recipeId] || null;
 }
 
 /**
@@ -372,22 +451,27 @@ function renderRecipeCard(recipe) {
 }
 
 /**
- * Render full recipe detail page
+ * Render full recipe detail page (async for on-demand shard loading)
  */
-function renderRecipeDetail(recipeId) {
-  const recipe = recipes.find(r => r.id === recipeId);
+async function renderRecipeDetail(recipeId) {
   const container = document.getElementById('recipe-content');
 
-  if (!recipe || !container) {
-    if (container) {
-      container.innerHTML = `
-        <div class="text-center">
-          <h2>Recipe Not Found</h2>
-          <p>Sorry, we couldn't find that recipe.</p>
-          <a href="index.html" class="btn btn-primary">Back to Recipes</a>
-        </div>
-      `;
-    }
+  if (!container) return;
+
+  // Show loading state while fetching full recipe
+  container.innerHTML = '<p class="text-center" style="padding: 2rem;">Loading recipe...</p>';
+
+  // Get full recipe (loads shard if needed)
+  const recipe = await getFullRecipe(recipeId);
+
+  if (!recipe) {
+    container.innerHTML = `
+      <div class="text-center">
+        <h2>Recipe Not Found</h2>
+        <p>Sorry, we couldn't find that recipe.</p>
+        <a href="index.html" class="btn btn-primary">Back to Recipes</a>
+      </div>
+    `;
     return;
   }
 

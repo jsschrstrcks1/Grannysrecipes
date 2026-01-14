@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "category": "breakfast",
+    "count": 5
+  },
+  "recipes": [
+    {
+      "id": "markys-blue-eyed-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Marky's Blue-Eyed Muffins",
+      "category": "breakfast",
+      "source_note": "My Great Recipes packet",
+      "description": "Blueberry muffins with a cinnamon crumble topping.",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "servings_yield": "10 muffins",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "slightly beaten"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "fresh or frozen blueberries",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl, cream together butter and sugars until light. Beat in egg."
+        },
+        {
+          "step": 2,
+          "text": "In a medium bowl, combine flour, baking powder and salt. Alternately with milk, add to creamed mixture. Do not over-mix."
+        },
+        {
+          "step": 3,
+          "text": "Fold in blueberries. Spoon mixture into greased muffin pans."
+        },
+        {
+          "step": 4,
+          "text": "To prepare topping, combine sugar, flour and cinnamon. Cut in butter."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle topping evenly over muffin batter."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 400\u00b0F for 20 minutes. Cool for 1 minute. Remove from pans."
+        }
+      ],
+      "notes": [
+        "Good served with fresh pineapple and hot coffee or tea."
+      ],
+      "tags": [
+        "breakfast",
+        "muffins",
+        "blueberry",
+        "crumble topping"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "grandmas-wheat-berrie-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Wheat Berrie Muffins",
+      "category": "breakfast",
+      "description": "Healthy muffins with wheat flour, blueberries and sunflower seeds.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "20-25 minutes",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "almond extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "whole wheat flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "white flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "blueberries",
+          "quantity": "1-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "sunflower seeds",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix together: eggs, sugar, butter/margarine, extract."
+        },
+        {
+          "step": 2,
+          "text": "Add to egg mix: flour, baking powder, salt. Add to another bowl, mix flour, baking powder, and salt. Stir in blueberries."
+        },
+        {
+          "step": 3,
+          "text": "Stir in sunflower seeds."
+        },
+        {
+          "step": 4,
+          "text": "Fill muffin cups 3/4 full."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350 degrees for 20-25 minutes."
+        }
+      ],
+      "tags": [
+        "breakfast",
+        "muffins",
+        "whole wheat",
+        "blueberry",
+        "healthy"
+      ],
+      "image_refs": [
+        "72"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten on notebook paper"
+        ]
+      }
+    },
+    {
+      "id": "spiced-blueberry-jam-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Spiced Blueberry Jam",
+      "category": "breakfast",
+      "source_note": "My Great Recipes packet",
+      "description": "Homemade blueberry jam with warm spices.",
+      "prep_time": "10 minutes",
+      "cook_time": "1 minute",
+      "servings_yield": "4 cups",
+      "ingredients": [
+        {
+          "item": "fresh blueberries",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "or 1 pkg (1 lb) frozen blueberries, thawed"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "allspice",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid pectin",
+          "quantity": "1",
+          "unit": "pouch"
+        },
+        {
+          "item": "melted paraffin",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for sealing"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Remove any stems from berries. Crush fruit, 1/2 cup at a time. Measure 2-1/4 cups, packed solidly. If necessary, add water to make up amount. Pour into very large saucepan or Dutch oven."
+        },
+        {
+          "step": 2,
+          "text": "Add lemon juice, sugar and spices. Mix well. Bring to a rolling boil (a boil that can't be stirred down). Boil 1 minute. Remove from heat. Immediately stir in pectin."
+        },
+        {
+          "step": 3,
+          "text": "Ladle into hot jelly glasses or jars. Pour 1/8-inch hot paraffin over top. Paraffin should cling to sides of jars and contain no air bubbles."
+        },
+        {
+          "step": 4,
+          "text": "Cover with lids. Store in cool, dry place."
+        }
+      ],
+      "notes": [
+        "Tips: If using fresh blueberries, carefully rinse under cold running water, drain and plump berries."
+      ],
+      "tags": [
+        "breakfast",
+        "jam",
+        "blueberry",
+        "preserves",
+        "canning"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "maple-pecan-waffles-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Maple Pecan Waffles",
+      "category": "breakfast",
+      "prep_time": "15 min",
+      "cook_time": "1-2 min per waffle",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "egg whites",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "maple-flavored extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh strawberries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In bowl, sift together flour, baking powder and salt."
+        },
+        {
+          "step": 2,
+          "text": "In mixing bowl, beat together egg yolks, milk and oil until combined. Gradually add flour mixture, beating after each addition. Beat only until smooth."
+        },
+        {
+          "step": 3,
+          "text": "In small bowl, beat egg whites until stiff peaks form. Fold whites into batter. Stir in pecans and maple extract."
+        },
+        {
+          "step": 4,
+          "text": "For each waffle, pour up to 3/4 cup batter into center of waffle iron until it spreads to 1 inch from edges."
+        },
+        {
+          "step": 5,
+          "text": "Cook until waffle iron stops steaming. Waffle should be crisp and golden. Serve immediately."
+        },
+        {
+          "step": 6,
+          "text": "Garnish with sliced strawberries. Serve with warmed maple syrup and melted butter."
+        }
+      ],
+      "notes": [
+        "Any leftover waffles can be frozen. Wrap tightly in plastic wrap or seal in a plastic bag and freeze. Reheat frozen waffles in toaster."
+      ],
+      "tags": [
+        "breakfast",
+        "waffles",
+        "pecans",
+        "maple"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      }
+    },
+    {
+      "id": "quiche-crepes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quiche Crepes",
+      "category": "breakfast",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Individual quiches baked in delicate crepes with bacon and Swiss cheese.",
+      "servings_yield": "4-6 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "25-30 minutes",
+      "total_time": "2 hours (includes standing time)",
+      "ingredients": [
+        {
+          "item": "bacon",
+          "quantity": "4",
+          "unit": "slices",
+          "prep_note": ""
+        },
+        {
+          "item": "shredded Swiss cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "finely minced onion",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "each salt, white pepper and nutmeg"
+        },
+        {
+          "item": "crepes (see below)",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk and water",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "each"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "melted butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "or margarine"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To make batter for crepes, combine egg, milk and water. Blend well. Add flour."
+        },
+        {
+          "step": 2,
+          "text": "To make crepes: In 1-cup souffle dishes, allowing them to line souffle dish, place crepes in 1-cup souffle dishes. Saute until tender."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, beat together remaining ingredients. Pour an equal amount into each crepe. Place dishes on baking sheet."
+        },
+        {
+          "step": 4,
+          "text": "Place crepes in 1-cup souffle dishes. Cover and refrigerate."
+        },
+        {
+          "step": 5,
+          "text": "Assemble broccoli dish. Refrigerate."
+        },
+        {
+          "step": 6,
+          "text": "Place pan in upper third of oven. Bake at 375\u00b0F for 25 to 30 minutes until puffed and browned."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "1-cup souffle dishes",
+      "notes": [
+        "Crepes can be served from dish. To remove from dish, loosen with knife tip"
+      ],
+      "tags": [
+        "breakfast",
+        "brunch",
+        "quiche",
+        "crepes",
+        "bacon"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": []
+    }
+  ]
+}
