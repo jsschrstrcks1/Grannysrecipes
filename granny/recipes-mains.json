@@ -1040,7 +1040,8 @@
           "flour: used default unit",
           "diced ham: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings"
     },
     {
       "id": "country-style-ribs-and-corn-granny",
@@ -3043,7 +3044,7 @@
       "attribution": "",
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
+      "servings_yield": "6-8 servings",
       "prep_time": "",
       "cook_time": "1 hour",
       "total_time": "",

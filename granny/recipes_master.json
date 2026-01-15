@@ -1741,7 +1741,8 @@
           "carrots: used default unit",
           "powdered sugar: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-16 servings"
     },
     {
       "id": "dump-cake-granny",
@@ -2107,7 +2108,8 @@
           "flour: used default unit",
           "diced ham: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings"
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -3434,7 +3436,8 @@
           "whipped cream: used default unit",
           "vanilla wafers: used default unit"
         ]
-      }
+      },
+      "servings_yield": "10-12 servings"
     },
     {
       "id": "stuffed-peppers-webb-granny",
@@ -3751,7 +3754,8 @@
         "assumptions": [
           "vinegar: used default unit"
         ]
-      }
+      },
+      "servings_yield": "6 servings"
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -10054,7 +10058,7 @@
       "attribution": "",
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
+      "servings_yield": "6-8 servings",
       "prep_time": "",
       "cook_time": "1 hour",
       "total_time": "",
@@ -11627,7 +11631,7 @@
       "collection_display": "Granny Hudson",
       "title": "Make-Ahead Cookie Mix",
       "category": "desserts",
-      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety of favorite cookies.",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. See notes for recipe variations.",
       "source_note": "Pillsbury magazine clipping",
       "servings_yield": "6 cups mix",
       "ingredients": [
@@ -11670,8 +11674,12 @@
       ],
       "notes": [
         "Mix can be stored up to 4 weeks!",
-        "See reverse side for cookie recipes using this mix.",
-        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup."
+        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
+        "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
       ],
       "tags": [
         "dessert",
@@ -11683,7 +11691,9 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "magazine clipping - image upside down, some text obscured"
+          "magazine clipping - image upside down, some text obscured",
+          "INCOMPLETE: Original companion cookie recipes from reverse side not available",
+          "Common variations added based on standard butter-flour mix formulas"
         ]
       },
       "nutrition": {

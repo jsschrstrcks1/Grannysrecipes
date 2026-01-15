@@ -324,7 +324,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic carrot cake with cream cheese frosting.",
-      "servings_yield": "",
+      "servings_yield": "12-16 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -381,7 +381,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A hearty macaroni casserole with ham and cheese.",
-      "servings_yield": "",
+      "servings_yield": "4-6 servings",
       "total_time": "30 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -586,7 +586,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic Southern banana pudding with vanilla wafers and whipped cream.",
-      "servings_yield": "",
+      "servings_yield": "10-12 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -640,7 +640,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Simple homemade pickled beets.",
-      "servings_yield": "",
+      "servings_yield": "6 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -1552,7 +1552,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
+      "servings_yield": "6-8 servings",
       "total_time": "1 hour",
       "variant_of": null,
       "canonical_id": null
@@ -1790,7 +1790,7 @@
       ],
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety o",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. ",
       "servings_yield": "6 cups mix",
       "total_time": "",
       "variant_of": null,
