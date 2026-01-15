@@ -879,7 +879,9 @@
           "sugar: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "banana-pudding-bobby-jones-granny",
@@ -1521,14 +1523,26 @@
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
       "prep_time": "20 minutes",
-      "cook_time": "1 hour 8 minutes",
-      "total_time": "1 hour 28 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "55 minutes",
       "ingredients": [
+        {
+          "item": "[CAKE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
         {
           "item": "shortening",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for cake"
         },
         {
           "item": "eggs",
@@ -1561,16 +1575,28 @@
           "prep_note": ""
         },
         {
-          "item": "each baking soda and salt",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "salt",
           "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "mashed, for cake"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
           "unit": "",
-          "prep_note": "mashed (2 medium)"
+          "prep_note": ""
         },
         {
           "item": "butter or margarine",
@@ -1585,10 +1611,16 @@
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "ripe banana",
           "quantity": "1",
           "unit": "",
-          "prep_note": "mashed"
+          "prep_note": "mashed, for frosting"
+        },
+        {
+          "item": "banana extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
         }
       ],
       "instructions": [
@@ -1637,8 +1669,12 @@
         "banana"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Sugar amount added (was missing)",
+          "Bananas clarified: 2 for cake, 1 for frosting",
+          "Cook time corrected to 35 min (was inconsistent)"
+        ]
       },
       "image_refs": [],
       "nutrition": {
@@ -3197,8 +3233,8 @@
       "attribution": "",
       "source_note": "Magazine clipping (Pillsbury)",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "12-15 servings",
+      "prep_time": "15 minutes",
       "cook_time": "45-50 minutes",
       "total_time": "",
       "ingredients": [

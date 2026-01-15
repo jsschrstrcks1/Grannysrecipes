@@ -309,6 +309,8 @@
         }
       ],
       "notes": [
+        "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -319,9 +321,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
+        "overall": "medium",
         "flags": [
-          "typed recipe from restaurant"
+          "typed recipe from restaurant",
+          "COMMERCIAL BATCH: Makes 8-10 loaves - see notes for home-scale version"
         ]
       },
       "nutrition": {

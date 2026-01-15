@@ -436,7 +436,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic Southern pound cake with sour cream.",
-      "servings_yield": "",
+      "servings_yield": "12-16 servings",
       "total_time": "1-1/2 hours",
       "variant_of": null,
       "canonical_id": null
@@ -1170,7 +1170,7 @@
       "collection_display": "Granny Hudson",
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
-      "total_time": "1 hour 28 minutes",
+      "total_time": "55 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1534,7 +1534,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
+      "servings_yield": "12-15 servings",
       "total_time": "45-50 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -1736,8 +1736,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple one-dish pork chop bake with potatoes and noodles.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "4 servings",
+      "total_time": "45-60 minutes",
       "variant_of": null,
       "canonical_id": null
     },

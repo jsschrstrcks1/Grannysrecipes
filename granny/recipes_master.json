@@ -2501,7 +2501,9 @@
           "sugar: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "lime-coconut-salad-granny",
@@ -3636,6 +3638,8 @@
         }
       ],
       "notes": [
+        "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -3646,9 +3650,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
+        "overall": "medium",
         "flags": [
-          "typed recipe from restaurant"
+          "typed recipe from restaurant",
+          "COMMERCIAL BATCH: Makes 8-10 loaves - see notes for home-scale version"
         ]
       },
       "nutrition": {
@@ -4432,6 +4437,36 @@
           "item": "black pepper",
           "quantity": "1/2",
           "unit": "tsp"
+        },
+        {
+          "item": "[MINT SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -4469,7 +4504,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Mint sauce ingredients were missing from original - added standard mint sauce recipe"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -5696,6 +5733,36 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -5728,7 +5795,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Dressing ingredients were missing from original - added based on instructions"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -7269,14 +7338,26 @@
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
       "prep_time": "20 minutes",
-      "cook_time": "1 hour 8 minutes",
-      "total_time": "1 hour 28 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "55 minutes",
       "ingredients": [
+        {
+          "item": "[CAKE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
         {
           "item": "shortening",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for cake"
         },
         {
           "item": "eggs",
@@ -7309,16 +7390,28 @@
           "prep_note": ""
         },
         {
-          "item": "each baking soda and salt",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "salt",
           "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "mashed, for cake"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
           "unit": "",
-          "prep_note": "mashed (2 medium)"
+          "prep_note": ""
         },
         {
           "item": "butter or margarine",
@@ -7333,10 +7426,16 @@
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "ripe banana",
           "quantity": "1",
           "unit": "",
-          "prep_note": "mashed"
+          "prep_note": "mashed, for frosting"
+        },
+        {
+          "item": "banana extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
         }
       ],
       "instructions": [
@@ -7385,8 +7484,12 @@
         "banana"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Sugar amount added (was missing)",
+          "Bananas clarified: 2 for cake, 1 for frosting",
+          "Cook time corrected to 35 min (was inconsistent)"
+        ]
       },
       "image_refs": [],
       "nutrition": {
@@ -9999,8 +10102,8 @@
       "attribution": "",
       "source_note": "Magazine clipping (Pillsbury)",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "12-15 servings",
+      "prep_time": "15 minutes",
       "cook_time": "45-50 minutes",
       "total_time": "",
       "ingredients": [
@@ -11388,27 +11491,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Brown pork chops for about 15 minutes."
+          "text": "Brown pork chops in skillet for about 15 minutes total, turning once."
         },
         {
           "step": 2,
-          "text": "Add hot water for noodles."
+          "text": "Meanwhile, cook egg noodles in 1 cup hot water until almost tender; drain."
         },
         {
           "step": 3,
-          "text": "Layer potatoes and noodles in casserole dish."
+          "text": "Layer sliced potatoes and noodles in casserole dish."
         },
         {
           "step": 4,
-          "text": "Add bouillon and remaining liquid."
+          "text": "Dissolve bouillon cube in 1 cup milk or water. Pour over potatoes and noodles."
         },
         {
           "step": 5,
-          "text": "Place pork chops on top."
+          "text": "Place browned pork chops on top."
         },
         {
           "step": 6,
-          "text": "Bake in casserole until done."
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -11445,7 +11548,10 @@
         "assumptions": [
           "egg noodles: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "chefs-hamburgers-granny",

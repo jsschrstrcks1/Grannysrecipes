@@ -162,6 +162,36 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -194,7 +224,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Dressing ingredients were missing from original - added based on instructions"
+        ]
       },
       "nutrition": {
         "status": "complete",

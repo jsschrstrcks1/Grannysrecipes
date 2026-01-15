@@ -1827,6 +1827,36 @@
           "item": "black pepper",
           "quantity": "1/2",
           "unit": "tsp"
+        },
+        {
+          "item": "[MINT SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -1864,7 +1894,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Mint sauce ingredients were missing from original - added standard mint sauce recipe"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -3279,27 +3311,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Brown pork chops for about 15 minutes."
+          "text": "Brown pork chops in skillet for about 15 minutes total, turning once."
         },
         {
           "step": 2,
-          "text": "Add hot water for noodles."
+          "text": "Meanwhile, cook egg noodles in 1 cup hot water until almost tender; drain."
         },
         {
           "step": 3,
-          "text": "Layer potatoes and noodles in casserole dish."
+          "text": "Layer sliced potatoes and noodles in casserole dish."
         },
         {
           "step": 4,
-          "text": "Add bouillon and remaining liquid."
+          "text": "Dissolve bouillon cube in 1 cup milk or water. Pour over potatoes and noodles."
         },
         {
           "step": 5,
-          "text": "Place pork chops on top."
+          "text": "Place browned pork chops on top."
         },
         {
           "step": 6,
-          "text": "Bake in casserole until done."
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -3336,7 +3368,10 @@
         "assumptions": [
           "egg noodles: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "chefs-hamburgers-granny",
