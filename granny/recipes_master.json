@@ -94,7 +94,9 @@
           "frozen mixed vegetables: used default unit",
           "tater tots: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "no-regrets-cheesecake-granny",
@@ -190,7 +192,10 @@
         "assumptions": [
           "graham cracker crust: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "quakers-best-oatmeal-cookies-granny",
@@ -322,7 +327,8 @@
           "all-purpose flour: used default unit",
           "Quaker Oats: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "chicken-breasts-roma-granny",
@@ -740,7 +746,8 @@
         {
           "item": "freshly ground black pepper",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "tsp",
+          "prep_note": "was \"1/2 cup\" - corrected (likely OCR error)"
         },
         {
           "item": "chopped parsley",
@@ -776,8 +783,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1080,6 +1089,42 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "peeled, split"
+        },
+        {
+          "item": "[BASTING SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "watercress",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
         }
       ],
       "instructions": [
@@ -1119,8 +1164,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Basting sauce ingredients were missing - added deviled-style sauce"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1245,7 +1292,9 @@
           "Maraschino cherries: used default unit",
           "flour: used default unit"
         ]
-      }
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "15 minutes"
     },
     {
       "id": "smoky-bacon-burgers-granny",
@@ -1742,7 +1791,8 @@
           "powdered sugar: used default unit"
         ]
       },
-      "servings_yield": "12-16 servings"
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "dump-cake-granny",
@@ -1923,18 +1973,22 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix dry ingredients together."
+          "text": "Cook and drain broccoli according to package directions."
         },
         {
           "step": 2,
-          "text": "Put in 9x13 casserole dish."
+          "text": "Mix broccoli with mayonnaise (or cream cheese), eggs, margarine, onion, salt and pepper."
         },
         {
           "step": 3,
-          "text": "Top with crushed Ritz crackers."
+          "text": "Pour into greased 9x13 casserole dish."
         },
         {
           "step": 4,
+          "text": "Top with crushed Ritz crackers."
+        },
+        {
+          "step": 5,
           "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
         }
       ],
@@ -1978,7 +2032,9 @@
           "chopped onion: used default unit",
           "Ritz crackers: used default unit"
         ]
-      }
+      },
+      "servings_yield": "6-8 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "ham-and-cheese-casserole-granny",
@@ -2112,7 +2168,8 @@
           "diced ham: used default unit"
         ]
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -2189,6 +2246,36 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "grated [UNCLEAR quantity]"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "orange zest",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -2241,7 +2328,8 @@
           "NEEDS_MANUAL_REVIEW",
           "handwritten recipe rotated 90\u00b0",
           "multiple ingredients marked [UNCLEAR]",
-          "previous extraction had significant errors"
+          "previous extraction had significant errors",
+          "Frosting ingredients were missing - added standard cream cheese frosting"
         ]
       },
       "nutrition": {
@@ -2261,7 +2349,11 @@
           "pumpkin pie spice: used default unit",
           "yellow cake mix: used default unit"
         ]
-      }
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "20 minutes",
+      "cook_time": "25-30 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)"
     },
     {
       "id": "caramel-corn-granny",
@@ -2382,7 +2474,10 @@
           "popped popcorn: used default unit",
           "water: used default unit"
         ]
-      }
+      },
+      "servings_yield": "6 quarts",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour"
     },
     {
       "id": "pound-cake-granny",
@@ -2618,7 +2713,11 @@
           "crushed pineapple: used default unit",
           "pineapple juice: used default unit"
         ]
-      }
+      },
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "N/A (no cooking)",
+      "total_time": "4 hours (includes chilling)"
     },
     {
       "id": "bubble-loaf-granny",
@@ -2720,7 +2819,8 @@
           "garlic powder: used default unit"
         ]
       },
-      "servings_yield": "8-10 servings"
+      "servings_yield": "8-10 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "broccoli-with-egg-dressing-granny",
@@ -3443,7 +3543,8 @@
           "vanilla wafers: used default unit"
         ]
       },
-      "servings_yield": "10-12 servings"
+      "servings_yield": "10-12 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "stuffed-peppers-webb-granny",
@@ -3548,7 +3649,10 @@
           "garlic: used default unit",
           "condensed tomato soup: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "irish-soda-bread-granny",
@@ -3677,7 +3781,8 @@
           "raisins: used default unit",
           "buttermilk: used default unit"
         ]
-      }
+      },
+      "prep_time": "20 minutes"
     },
     {
       "id": "pickled-beets-granny",
@@ -3764,7 +3869,8 @@
           "vinegar: used default unit"
         ]
       },
-      "servings_yield": "6 servings"
+      "servings_yield": "6 servings",
+      "prep_time": "10 minutes"
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -3872,7 +3978,9 @@
           "all-purpose flour: used default unit",
           "mashed bananas: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes",
+      "cook_time": "55-65 minutes"
     },
     {
       "id": "grandmas-wheat-berrie-muffins-granny",
@@ -3989,7 +4097,9 @@
         "assumptions": [
           "blueberries: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 muffins",
+      "prep_time": "15 minutes"
     },
     {
       "id": "angel-delight-granny",
@@ -4083,7 +4193,10 @@
           "Cool Whip: used default unit",
           "strawberry Jello: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "easy-guacamole-granny",
@@ -5987,6 +6100,42 @@
           "quantity": "",
           "unit": "",
           "prep_note": "optional"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
         }
       ],
       "instructions": [
@@ -6014,8 +6163,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Dressing ingredients were missing - added standard vinaigrette"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -6034,7 +6185,8 @@
           "Butterhead lettuce: used default unit",
           "radishes: used default unit"
         ]
-      }
+      },
+      "cook_time": "N/A (no cooking)"
     },
     {
       "id": "shrimp-newburg-in-patty-shells-granny",
@@ -9213,7 +9365,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -9325,7 +9477,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Sweet potato casserole with a pecan streusel topping.",
       "servings_yield": "6-8 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "30 minutes",
       "total_time": "",
       "ingredients": [
@@ -9448,7 +9600,7 @@
       "source_note": "Printed recipe card (Hellmann's)",
       "description": "Creamy white bean dip with garlic and cumin.",
       "servings_yield": "2 cups",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -9552,7 +9704,7 @@
       "source_note": "Printed recipe card (Skippy/Argo)",
       "description": "No-bake chocolate peanut butter pie with graham cracker crust.",
       "servings_yield": "8 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -9681,7 +9833,7 @@
       "source_note": "Printed recipe card (Hellmann's/Mazola)",
       "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "6 minutes",
       "total_time": "",
       "ingredients": [
@@ -9831,7 +9983,7 @@
       "source_note": "Printed recipe card (Mazola/Mueller's)",
       "description": "Quick pasta dish with clams and fresh vegetables.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -9962,7 +10114,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off",
       "description": "Sweet breakfast pastries with peach filling.",
       "servings_yield": "12 rolls",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -10240,7 +10392,7 @@
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
       "servings_yield": "6-8 servings",
-      "prep_time": "",
+      "prep_time": "25 minutes",
       "cook_time": "1 hour",
       "total_time": "",
       "ingredients": [
@@ -10534,7 +10686,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Frozen orange cream dessert with a cookie crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "12-15 minutes",
       "total_time": "",
       "ingredients": [
@@ -10770,7 +10922,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off adapted",
       "description": "Frozen strawberry cream cheese dessert with lemon pudding crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -10868,7 +11020,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "The classic original chocolate chip cookie recipe.",
       "servings_yield": "About 5 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "9-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -10994,7 +11146,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic creamy chocolate fudge with marshmallows.",
       "servings_yield": "About 3 pounds",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "4-5 minutes",
       "total_time": "",
       "ingredients": [
@@ -11097,7 +11249,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic oatmeal cookies with chocolate chips.",
       "servings_yield": "About 3 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -11221,7 +11373,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Double chocolate cookies with melted chocolate in the batter.",
       "servings_yield": "About 4 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-9 minutes",
       "total_time": "",
       "ingredients": [
@@ -11344,7 +11496,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Fudgy brownies loaded with chocolate chips.",
       "servings_yield": "2 dozen brownies",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "16-20 minutes",
       "total_time": "",
       "ingredients": [
@@ -11682,7 +11834,8 @@
           "black pepper: used default unit",
           "fresh mushrooms: used default unit"
         ]
-      }
+      },
+      "cook_time": "8-12 minutes"
     },
     {
       "id": "yuletide-toffee-squares-granny",
@@ -11807,7 +11960,9 @@
           "salt: used default unit",
           "semi-sweet chocolate morsels: used default unit"
         ]
-      }
+      },
+      "prep_time": "20 minutes",
+      "cook_time": "20-25 minutes"
     },
     {
       "id": "make-ahead-cookie-mix-granny",
@@ -11899,7 +12054,8 @@
           "baking powder: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "basic-crust-granny",
@@ -12627,7 +12783,9 @@
           "oil: used default unit",
           "Galliano liqueur: used default unit"
         ]
-      }
+      },
+      "servings_yield": "16 servings",
+      "prep_time": "20 minutes"
     }
   ],
   "meta": {

@@ -179,18 +179,22 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix dry ingredients together."
+          "text": "Cook and drain broccoli according to package directions."
         },
         {
           "step": 2,
-          "text": "Put in 9x13 casserole dish."
+          "text": "Mix broccoli with mayonnaise (or cream cheese), eggs, margarine, onion, salt and pepper."
         },
         {
           "step": 3,
-          "text": "Top with crushed Ritz crackers."
+          "text": "Pour into greased 9x13 casserole dish."
         },
         {
           "step": 4,
+          "text": "Top with crushed Ritz crackers."
+        },
+        {
+          "step": 5,
           "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
         }
       ],
@@ -234,7 +238,9 @@
           "chopped onion: used default unit",
           "Ritz crackers: used default unit"
         ]
-      }
+      },
+      "servings_yield": "6-8 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "broccoli-with-egg-dressing-granny",
@@ -418,7 +424,8 @@
           "vinegar: used default unit"
         ]
       },
-      "servings_yield": "6 servings"
+      "servings_yield": "6 servings",
+      "prep_time": "10 minutes"
     },
     {
       "id": "easy-potato-gratin-granny",
@@ -815,7 +822,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Sweet potato casserole with a pecan streusel topping.",
       "servings_yield": "6-8 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "30 minutes",
       "total_time": "",
       "ingredients": [

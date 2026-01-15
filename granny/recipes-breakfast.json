@@ -238,7 +238,9 @@
         "assumptions": [
           "blueberries: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 muffins",
+      "prep_time": "15 minutes"
     },
     {
       "id": "spiced-blueberry-jam-granny",

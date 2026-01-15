@@ -98,7 +98,9 @@
           "frozen mixed vegetables: used default unit",
           "tater tots: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "chicken-breasts-roma-granny",
@@ -516,7 +518,8 @@
         {
           "item": "freshly ground black pepper",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "tsp",
+          "prep_note": "was \"1/2 cup\" - corrected (likely OCR error)"
         },
         {
           "item": "chopped parsley",
@@ -552,8 +555,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -737,6 +742,42 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "peeled, split"
+        },
+        {
+          "item": "[BASTING SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "watercress",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
         }
       ],
       "instructions": [
@@ -776,8 +817,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Basting sauce ingredients were missing - added deviled-style sauce"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1041,7 +1084,8 @@
           "diced ham: used default unit"
         ]
       },
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "country-style-ribs-and-corn-granny",
@@ -1668,7 +1712,10 @@
           "garlic: used default unit",
           "condensed tomato soup: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "pork-broccoli-delight-granny",
@@ -2747,7 +2794,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -2859,7 +2906,7 @@
       "source_note": "Printed recipe card (Hellmann's/Mazola)",
       "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "6 minutes",
       "total_time": "",
       "ingredients": [
@@ -3009,7 +3056,7 @@
       "source_note": "Printed recipe card (Mazola/Mueller's)",
       "description": "Quick pasta dish with clams and fresh vegetables.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -3140,7 +3187,7 @@
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
       "servings_yield": "6-8 servings",
-      "prep_time": "",
+      "prep_time": "25 minutes",
       "cook_time": "1 hour",
       "total_time": "",
       "ingredients": [
@@ -3502,7 +3549,8 @@
           "black pepper: used default unit",
           "fresh mushrooms: used default unit"
         ]
-      }
+      },
+      "cook_time": "8-12 minutes"
     },
     {
       "id": "beef-bean-and-noodle-skillet-granny",
