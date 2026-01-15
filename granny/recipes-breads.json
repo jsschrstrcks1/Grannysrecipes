@@ -218,7 +218,9 @@
           "dried parsley: used default unit",
           "garlic powder: used default unit"
         ]
-      }
+      },
+      "servings_yield": "8-10 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "irish-soda-bread-granny",
@@ -308,6 +310,8 @@
         }
       ],
       "notes": [
+        "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -318,9 +322,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
+        "overall": "medium",
         "flags": [
-          "typed recipe from restaurant"
+          "typed recipe from restaurant",
+          "COMMERCIAL BATCH: Makes 8-10 loaves - see notes for home-scale version"
         ]
       },
       "nutrition": {
@@ -344,7 +349,8 @@
           "raisins: used default unit",
           "buttermilk: used default unit"
         ]
-      }
+      },
+      "prep_time": "20 minutes"
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -452,7 +458,9 @@
           "all-purpose flour: used default unit",
           "mashed bananas: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes",
+      "cook_time": "55-65 minutes"
     },
     {
       "id": "danish-kringle-and-pastry-horns-granny",
@@ -737,7 +745,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off",
       "description": "Sweet breakfast pastries with peach filling.",
       "servings_yield": "12 rolls",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [

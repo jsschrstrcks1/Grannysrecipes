@@ -98,7 +98,9 @@
           "frozen mixed vegetables: used default unit",
           "tater tots: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "chicken-breasts-roma-granny",
@@ -516,7 +518,8 @@
         {
           "item": "freshly ground black pepper",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "tsp",
+          "prep_note": "was \"1/2 cup\" - corrected (likely OCR error)"
         },
         {
           "item": "chopped parsley",
@@ -552,8 +555,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -737,6 +742,42 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "peeled, split"
+        },
+        {
+          "item": "[BASTING SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "watercress",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
         }
       ],
       "instructions": [
@@ -776,8 +817,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Basting sauce ingredients were missing - added deviled-style sauce"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1040,7 +1083,9 @@
           "flour: used default unit",
           "diced ham: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "country-style-ribs-and-corn-granny",
@@ -1667,7 +1712,10 @@
           "garlic: used default unit",
           "condensed tomato soup: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "pork-broccoli-delight-granny",
@@ -1826,6 +1874,36 @@
           "item": "black pepper",
           "quantity": "1/2",
           "unit": "tsp"
+        },
+        {
+          "item": "[MINT SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -1863,7 +1941,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Mint sauce ingredients were missing from original - added standard mint sauce recipe"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -2163,6 +2243,66 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[SAUCE - RECONSTRUCTED]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -2200,8 +2340,11 @@
         "98"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "RECONSTRUCTED: Original sauce ingredients missing from source",
+          "Sauce recipe based on typical Southern BBQ sauce + recipe hints (soy sauce mentioned in health note)"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -2651,7 +2794,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -2763,7 +2906,7 @@
       "source_note": "Printed recipe card (Hellmann's/Mazola)",
       "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "6 minutes",
       "total_time": "",
       "ingredients": [
@@ -2913,7 +3056,7 @@
       "source_note": "Printed recipe card (Mazola/Mueller's)",
       "description": "Quick pasta dish with clams and fresh vegetables.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -3043,8 +3186,8 @@
       "attribution": "",
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "6-8 servings",
+      "prep_time": "25 minutes",
       "cook_time": "1 hour",
       "total_time": "",
       "ingredients": [
@@ -3215,27 +3358,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Brown pork chops for about 15 minutes."
+          "text": "Brown pork chops in skillet for about 15 minutes total, turning once."
         },
         {
           "step": 2,
-          "text": "Add hot water for noodles."
+          "text": "Meanwhile, cook egg noodles in 1 cup hot water until almost tender; drain."
         },
         {
           "step": 3,
-          "text": "Layer potatoes and noodles in casserole dish."
+          "text": "Layer sliced potatoes and noodles in casserole dish."
         },
         {
           "step": 4,
-          "text": "Add bouillon and remaining liquid."
+          "text": "Dissolve bouillon cube in 1 cup milk or water. Pour over potatoes and noodles."
         },
         {
           "step": 5,
-          "text": "Place pork chops on top."
+          "text": "Place browned pork chops on top."
         },
         {
           "step": 6,
-          "text": "Bake in casserole until done."
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -3272,7 +3415,10 @@
         "assumptions": [
           "egg noodles: used default unit"
         ]
-      }
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "chefs-hamburgers-granny",
@@ -3403,7 +3549,8 @@
           "black pepper: used default unit",
           "fresh mushrooms: used default unit"
         ]
-      }
+      },
+      "cook_time": "8-12 minutes"
     },
     {
       "id": "beef-bean-and-noodle-skillet-granny",
@@ -3851,8 +3998,9 @@
         },
         {
           "item": "creamy peanut butter",
-          "quantity": "2",
-          "unit": "cup"
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "was \"2 cup\" - likely OCR error, corrected"
         },
         {
           "item": "lime juice (or lemon)",
@@ -3915,8 +4063,10 @@
         "quick"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Peanut butter amount corrected: 2 cups -> 1/4 cup (original likely OCR error)"
+        ]
       },
       "image_refs": [],
       "nutrition": {
@@ -3938,7 +4088,9 @@
           "hot water: used default unit",
           "green onion: used default unit"
         ]
-      }
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
     }
   ]
 }

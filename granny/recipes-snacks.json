@@ -123,7 +123,10 @@
           "popped popcorn: used default unit",
           "water: used default unit"
         ]
-      }
+      },
+      "servings_yield": "6 quarts",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour"
     }
   ]
 }

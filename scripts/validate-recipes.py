@@ -190,9 +190,15 @@ class RecipeValidator:
             return
 
         granny_dir = Path(__file__).parent.parent / 'granny'
+        extensions = ['', '.jpeg', '.jpg', '.png', '.gif']
         for ref in image_refs:
-            img_path = granny_dir / ref
-            if not img_path.exists():
+            found = False
+            for ext in extensions:
+                img_path = granny_dir / f"{ref}{ext}"
+                if img_path.exists():
+                    found = True
+                    break
+            if not found:
                 self.warn(recipe_id, f"Referenced image not found: {ref}")
 
     def validate_nutrition(self, recipe_id, nutrition):

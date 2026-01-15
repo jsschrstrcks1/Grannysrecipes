@@ -98,7 +98,10 @@
         "assumptions": [
           "graham cracker crust: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "quakers-best-oatmeal-cookies-granny",
@@ -230,7 +233,8 @@
           "all-purpose flour: used default unit",
           "Quaker Oats: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "buttercups-granny",
@@ -339,7 +343,9 @@
           "Maraschino cherries: used default unit",
           "flour: used default unit"
         ]
-      }
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "15 minutes"
     },
     {
       "id": "carrot-cake-granny",
@@ -487,7 +493,9 @@
           "carrots: used default unit",
           "powdered sugar: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "dump-cake-granny",
@@ -502,13 +510,13 @@
         {
           "item": "crushed pineapple",
           "quantity": "1",
-          "unit": "medium can",
+          "unit": "can (20 oz)",
           "prep_note": "do not drain"
         },
         {
-          "item": "coconut",
+          "item": "sweetened flaked coconut",
           "quantity": "1",
-          "unit": "bag or can"
+          "unit": "cup"
         },
         {
           "item": "cherry pie filling",
@@ -607,7 +615,10 @@
           "yellow or white cake mix: used default unit",
           "butter or margarine: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-15 servings",
+      "cook_time": "45-55 minutes",
+      "prep_time": "10 minutes"
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -684,6 +695,36 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "grated [UNCLEAR quantity]"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "orange zest",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -736,7 +777,8 @@
           "NEEDS_MANUAL_REVIEW",
           "handwritten recipe rotated 90\u00b0",
           "multiple ingredients marked [UNCLEAR]",
-          "previous extraction had significant errors"
+          "previous extraction had significant errors",
+          "Frosting ingredients were missing - added standard cream cheese frosting"
         ]
       },
       "nutrition": {
@@ -756,7 +798,11 @@
           "pumpkin pie spice: used default unit",
           "yellow cake mix: used default unit"
         ]
-      }
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "20 minutes",
+      "cook_time": "25-30 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)"
     },
     {
       "id": "pound-cake-granny",
@@ -875,7 +921,9 @@
           "sugar: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "banana-pudding-bobby-jones-granny",
@@ -978,7 +1026,9 @@
           "whipped cream: used default unit",
           "vanilla wafers: used default unit"
         ]
-      }
+      },
+      "servings_yield": "10-12 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "angel-delight-granny",
@@ -1072,7 +1122,10 @@
           "Cool Whip: used default unit",
           "strawberry Jello: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "praline-lace-sundaes-granny",
@@ -1516,14 +1569,26 @@
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
       "prep_time": "20 minutes",
-      "cook_time": "1 hour 8 minutes",
-      "total_time": "1 hour 28 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "55 minutes",
       "ingredients": [
+        {
+          "item": "[CAKE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
         {
           "item": "shortening",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for cake"
         },
         {
           "item": "eggs",
@@ -1556,16 +1621,28 @@
           "prep_note": ""
         },
         {
-          "item": "each baking soda and salt",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "salt",
           "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "mashed, for cake"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
           "unit": "",
-          "prep_note": "mashed (2 medium)"
+          "prep_note": ""
         },
         {
           "item": "butter or margarine",
@@ -1580,10 +1657,16 @@
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "ripe banana",
           "quantity": "1",
           "unit": "",
-          "prep_note": "mashed"
+          "prep_note": "mashed, for frosting"
+        },
+        {
+          "item": "banana extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
         }
       ],
       "instructions": [
@@ -1632,8 +1715,12 @@
         "banana"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Sugar amount added (was missing)",
+          "Bananas clarified: 2 for cake, 1 for frosting",
+          "Cook time corrected to 35 min (was inconsistent)"
+        ]
       },
       "image_refs": [],
       "nutrition": {
@@ -3064,7 +3151,7 @@
       "source_note": "Printed recipe card (Skippy/Argo)",
       "description": "No-bake chocolate peanut butter pie with graham cracker crust.",
       "servings_yield": "8 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -3192,8 +3279,8 @@
       "attribution": "",
       "source_note": "Magazine clipping (Pillsbury)",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "12-15 servings",
+      "prep_time": "15 minutes",
       "cook_time": "45-50 minutes",
       "total_time": "",
       "ingredients": [
@@ -3490,7 +3577,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Frozen orange cream dessert with a cookie crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "12-15 minutes",
       "total_time": "",
       "ingredients": [
@@ -3599,9 +3686,9 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
+      "prep_time": "30 minutes",
+      "cook_time": "N/A (no-bake filling)",
+      "total_time": "3.5 hours (includes chilling)",
       "ingredients": [
         {
           "item": "baked crust made with coconut cream pudding and pie filling mix",
@@ -3726,7 +3813,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off adapted",
       "description": "Frozen strawberry cream cheese dessert with lemon pudding crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -3824,7 +3911,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "The classic original chocolate chip cookie recipe.",
       "servings_yield": "About 5 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "9-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -3950,7 +4037,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic creamy chocolate fudge with marshmallows.",
       "servings_yield": "About 3 pounds",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "4-5 minutes",
       "total_time": "",
       "ingredients": [
@@ -4053,7 +4140,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic oatmeal cookies with chocolate chips.",
       "servings_yield": "About 3 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -4177,7 +4264,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Double chocolate cookies with melted chocolate in the batter.",
       "servings_yield": "About 4 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-9 minutes",
       "total_time": "",
       "ingredients": [
@@ -4300,7 +4387,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Fudgy brownies loaded with chocolate chips.",
       "servings_yield": "2 dozen brownies",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "16-20 minutes",
       "total_time": "",
       "ingredients": [
@@ -4523,7 +4610,9 @@
           "salt: used default unit",
           "semi-sweet chocolate morsels: used default unit"
         ]
-      }
+      },
+      "prep_time": "20 minutes",
+      "cook_time": "20-25 minutes"
     },
     {
       "id": "make-ahead-cookie-mix-granny",
@@ -4531,7 +4620,7 @@
       "collection_display": "Granny Hudson",
       "title": "Make-Ahead Cookie Mix",
       "category": "desserts",
-      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety of favorite cookies.",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. See notes for recipe variations.",
       "source_note": "Pillsbury magazine clipping",
       "servings_yield": "6 cups mix",
       "ingredients": [
@@ -4574,8 +4663,12 @@
       ],
       "notes": [
         "Mix can be stored up to 4 weeks!",
-        "See reverse side for cookie recipes using this mix.",
-        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup."
+        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
+        "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
       ],
       "tags": [
         "dessert",
@@ -4587,7 +4680,9 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "magazine clipping - image upside down, some text obscured"
+          "magazine clipping - image upside down, some text obscured",
+          "INCOMPLETE: Original companion cookie recipes from reverse side not available",
+          "Common variations added based on standard butter-flour mix formulas"
         ]
       },
       "nutrition": {
@@ -4609,7 +4704,8 @@
           "baking powder: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "basic-crust-granny",
@@ -4629,7 +4725,7 @@
           "prep_note": "Pillsbury's Best"
         },
         {
-          "item": "pudding and pie filling mix",
+          "item": "vanilla pudding and pie filling mix",
           "quantity": "1",
           "unit": "package",
           "prep_note": "4-serving size, not instant"
@@ -4704,7 +4800,10 @@
           "salt: used default unit",
           "butter or margarine: used default unit"
         ]
-      }
+      },
+      "servings_yield": "1 crust (13x9-inch)",
+      "prep_time": "15 minutes",
+      "cook_time": "12-15 minutes"
     },
     {
       "id": "honey-wallbanger-cake-granny",
@@ -4794,7 +4893,9 @@
           "oil: used default unit",
           "Galliano liqueur: used default unit"
         ]
-      }
+      },
+      "servings_yield": "16 servings",
+      "prep_time": "20 minutes"
     }
   ]
 }

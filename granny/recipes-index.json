@@ -76,7 +76,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A quick and easy ground beef casserole.",
-      "servings_yield": "",
+      "servings_yield": "4-6 servings",
       "total_time": "30 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -93,8 +93,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A creamy cheesecake from Publix.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "12 servings",
+      "total_time": "N/A (no-bake)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -252,7 +252,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Individual pie crust cups filled with a sweet coconut filling.",
-      "servings_yield": "",
+      "servings_yield": "24 cookies",
       "total_time": "20 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -324,7 +324,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic carrot cake with cream cheese frosting.",
-      "servings_yield": "",
+      "servings_yield": "12-16 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -343,8 +343,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple layered dessert - just dump the ingredients in order and bake!",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "12-15 servings",
+      "total_time": "45-55 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -362,7 +362,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A cheesy broccoli casserole side dish.",
-      "servings_yield": "",
+      "servings_yield": "6-8 servings",
       "total_time": "15-25 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -381,7 +381,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A hearty macaroni casserole with ham and cheese.",
-      "servings_yield": "",
+      "servings_yield": "4-6 servings",
       "total_time": "30 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -400,8 +400,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Soft pumpkin cookies baked in a sheet pan with cream cheese frosting.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "24 cookies",
+      "total_time": "25-30 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -418,8 +418,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Homemade caramel corn - crunchy and sweet.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "6 quarts",
+      "total_time": "1 hour",
       "variant_of": null,
       "canonical_id": null
     },
@@ -436,7 +436,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic Southern pound cake with sour cream.",
-      "servings_yield": "",
+      "servings_yield": "12-16 servings",
       "total_time": "1-1/2 hours",
       "variant_of": null,
       "canonical_id": null
@@ -455,8 +455,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A refreshing lime gelatin salad with pineapple and coconut.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "8 servings",
+      "total_time": "4 hours (includes chilling)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -473,7 +473,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Pull-apart bread with herbs and cheese.",
-      "servings_yield": "",
+      "servings_yield": "8-10 servings",
       "total_time": "30 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -586,7 +586,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic Southern banana pudding with vanilla wafers and whipped cream.",
-      "servings_yield": "",
+      "servings_yield": "10-12 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -604,8 +604,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic stuffed bell peppers with ground beef and rice.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "4 servings",
+      "total_time": "45-60 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -640,7 +640,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Simple homemade pickled beets.",
-      "servings_yield": "",
+      "servings_yield": "6 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -658,7 +658,7 @@
       "collection_display": "Granny Hudson",
       "description": "Moist banana bread - a family favorite.",
       "servings_yield": "1 loaf",
-      "total_time": "",
+      "total_time": "55-65 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -676,7 +676,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Healthy muffins with wheat flour, blueberries and sunflower seeds.",
-      "servings_yield": "",
+      "servings_yield": "12 muffins",
       "total_time": "20-25 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -695,8 +695,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A layered dessert with angel food cake, strawberries, and Jello.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "12 servings",
+      "total_time": "N/A (no-bake)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -991,7 +991,7 @@
       "collection_display": "Granny Hudson",
       "description": "",
       "servings_yield": "4 servings",
-      "total_time": "",
+      "total_time": "N/A (no cooking)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1170,7 +1170,7 @@
       "collection_display": "Granny Hudson",
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
-      "total_time": "1 hour 28 minutes",
+      "total_time": "55 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1534,7 +1534,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
+      "servings_yield": "12-15 servings",
       "total_time": "45-50 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -1552,7 +1552,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
+      "servings_yield": "6-8 servings",
       "total_time": "1 hour",
       "variant_of": null,
       "canonical_id": null
@@ -1611,7 +1611,7 @@
       "collection_display": "Granny Hudson",
       "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
       "servings_yield": "15-18 servings",
-      "total_time": "",
+      "total_time": "3.5 hours (includes chilling)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1736,8 +1736,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple one-dish pork chop bake with potatoes and noodles.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "4 servings",
+      "total_time": "45-60 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1755,7 +1755,7 @@
       "collection_display": "Granny Hudson",
       "description": "Elegant hamburger patties with cognac, mushrooms, and Dijon mustard sauce.",
       "servings_yield": "Serves 4",
-      "total_time": "",
+      "total_time": "8-12 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1774,7 +1774,7 @@
       "collection_display": "Granny Hudson",
       "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
       "servings_yield": "About 6 dozen",
-      "total_time": "",
+      "total_time": "20-25 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1790,7 +1790,7 @@
       ],
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety o",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. ",
       "servings_yield": "6 cups mix",
       "total_time": "",
       "variant_of": null,
@@ -1808,8 +1808,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "1 crust (13x9-inch)",
+      "total_time": "12-15 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1882,7 +1882,7 @@
       "collection_display": "Granny Hudson",
       "description": "",
       "servings_yield": "4 servings",
-      "total_time": "",
+      "total_time": "10 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1899,7 +1899,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
-      "servings_yield": "",
+      "servings_yield": "16 servings",
       "total_time": "45 minutes",
       "variant_of": null,
       "canonical_id": null

@@ -117,7 +117,11 @@
           "crushed pineapple: used default unit",
           "pineapple juice: used default unit"
         ]
-      }
+      },
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "N/A (no cooking)",
+      "total_time": "4 hours (includes chilling)"
     },
     {
       "id": "vegetable-mix-salad-granny",
@@ -162,6 +166,36 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -194,7 +228,9 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Dressing ingredients were missing from original - added based on instructions"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -247,6 +283,42 @@
           "quantity": "",
           "unit": "",
           "prep_note": "optional"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
         }
       ],
       "instructions": [
@@ -274,8 +346,10 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Dressing ingredients were missing - added standard vinaigrette"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -294,7 +368,8 @@
           "Butterhead lettuce: used default unit",
           "radishes: used default unit"
         ]
-      }
+      },
+      "cook_time": "N/A (no cooking)"
     }
   ]
 }
