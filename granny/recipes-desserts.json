@@ -503,13 +503,13 @@
         {
           "item": "crushed pineapple",
           "quantity": "1",
-          "unit": "medium can",
+          "unit": "can (20 oz)",
           "prep_note": "do not drain"
         },
         {
-          "item": "coconut",
+          "item": "sweetened flaked coconut",
           "quantity": "1",
-          "unit": "bag or can"
+          "unit": "cup"
         },
         {
           "item": "cherry pie filling",
@@ -608,7 +608,10 @@
           "yellow or white cake mix: used default unit",
           "butter or margarine: used default unit"
         ]
-      }
+      },
+      "servings_yield": "12-15 servings",
+      "cook_time": "45-55 minutes",
+      "prep_time": "10 minutes"
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -3601,9 +3604,9 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
+      "prep_time": "30 minutes",
+      "cook_time": "N/A (no-bake filling)",
+      "total_time": "3.5 hours (includes chilling)",
       "ingredients": [
         {
           "item": "baked crust made with coconut cream pudding and pie filling mix",
@@ -4637,7 +4640,7 @@
           "prep_note": "Pillsbury's Best"
         },
         {
-          "item": "pudding and pie filling mix",
+          "item": "vanilla pudding and pie filling mix",
           "quantity": "1",
           "unit": "package",
           "prep_note": "4-serving size, not instant"
@@ -4712,7 +4715,10 @@
           "salt: used default unit",
           "butter or margarine: used default unit"
         ]
-      }
+      },
+      "servings_yield": "1 crust (13x9-inch)",
+      "prep_time": "15 minutes",
+      "cook_time": "12-15 minutes"
     },
     {
       "id": "honey-wallbanger-cake-granny",

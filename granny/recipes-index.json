@@ -343,8 +343,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple layered dessert - just dump the ingredients in order and bake!",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "12-15 servings",
+      "total_time": "45-55 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -473,7 +473,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Pull-apart bread with herbs and cheese.",
-      "servings_yield": "",
+      "servings_yield": "8-10 servings",
       "total_time": "30 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -1611,7 +1611,7 @@
       "collection_display": "Granny Hudson",
       "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
       "servings_yield": "15-18 servings",
-      "total_time": "",
+      "total_time": "3.5 hours (includes chilling)",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1808,8 +1808,8 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
-      "servings_yield": "",
-      "total_time": "",
+      "servings_yield": "1 crust (13x9-inch)",
+      "total_time": "12-15 minutes",
       "variant_of": null,
       "canonical_id": null
     },
@@ -1882,7 +1882,7 @@
       "collection_display": "Granny Hudson",
       "description": "",
       "servings_yield": "4 servings",
-      "total_time": "",
+      "total_time": "10 minutes",
       "variant_of": null,
       "canonical_id": null
     },

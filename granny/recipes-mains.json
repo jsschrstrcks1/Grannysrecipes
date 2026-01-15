@@ -2164,6 +2164,66 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[SAUCE - RECONSTRUCTED]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -2201,8 +2261,11 @@
         "98"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "RECONSTRUCTED: Original sauce ingredients missing from source",
+          "Sauce recipe based on typical Southern BBQ sauce + recipe hints (soy sauce mentioned in health note)"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -3852,8 +3915,9 @@
         },
         {
           "item": "creamy peanut butter",
-          "quantity": "2",
-          "unit": "cup"
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "was \"2 cup\" - likely OCR error, corrected"
         },
         {
           "item": "lime juice (or lemon)",
@@ -3916,8 +3980,10 @@
         "quick"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Peanut butter amount corrected: 2 cups -> 1/4 cup (original likely OCR error)"
+        ]
       },
       "image_refs": [],
       "nutrition": {
@@ -3939,7 +4005,9 @@
           "hot water: used default unit",
           "green onion: used default unit"
         ]
-      }
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
     }
   ]
 }
