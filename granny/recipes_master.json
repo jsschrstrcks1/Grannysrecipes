@@ -76,7 +76,27 @@
         "flags": [
           "handwritten card, some details unclear"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 327,
+          "fat_g": 21.4,
+          "carbs_g": 15.2,
+          "protein_g": 16.7,
+          "sodium_mg": 847,
+          "fiber_g": 2.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen mixed vegetables: used default unit",
+          "tater tots: used default unit"
+        ]
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "no-regrets-cheesecake-granny",
@@ -155,7 +175,27 @@
         "flags": [
           "partial view of recipe card"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 17.2,
+          "carbs_g": 23.3,
+          "protein_g": 4.3,
+          "sodium_mg": 174,
+          "fiber_g": 0.2,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "graham cracker crust: used default unit"
+        ]
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "quakers-best-oatmeal-cookies-granny",
@@ -269,7 +309,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 140,
+          "fat_g": 7.0,
+          "carbs_g": 18.0,
+          "protein_g": 1.9,
+          "sodium_mg": 129,
+          "fiber_g": 0.9,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "Quaker Oats: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "chicken-breasts-roma-granny",
@@ -364,6 +423,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 10.7,
+          "carbs_g": 6.4,
+          "protein_g": 14.2,
+          "sodium_mg": 251,
+          "fiber_g": 1.5,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "garlic: used default unit",
+          "diced tomatoes: used default unit",
+          "green pepper: used default unit"
+        ]
       }
     },
     {
@@ -447,6 +525,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 265,
+          "fat_g": 18.7,
+          "carbs_g": 1.8,
+          "protein_g": 22.5,
+          "sodium_mg": 708,
+          "fiber_g": 0.7,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cream cheese: used default unit",
+          "paprika: used default unit"
+        ]
       }
     },
     {
@@ -556,6 +652,26 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 7,
+        "per_serving": {
+          "calories": 412,
+          "fat_g": 30.5,
+          "carbs_g": 2.7,
+          "protein_g": 26.6,
+          "sodium_mg": 117,
+          "fiber_g": 0.7,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh basil leaves: used default unit",
+          "garlic: used default unit",
+          "hot pepper sauce: used default unit",
+          "white wine: used default unit"
+        ]
       }
     },
     {
@@ -630,7 +746,8 @@
         {
           "item": "freshly ground black pepper",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "tsp",
+          "prep_note": "was \"1/2 cup\" - corrected (likely OCR error)"
         },
         {
           "item": "chopped parsley",
@@ -666,8 +783,33 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 171,
+          "fat_g": 8.4,
+          "carbs_g": 9.4,
+          "protein_g": 11.3,
+          "sodium_mg": 276,
+          "fiber_g": 2.4,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chopped onion: used default unit",
+          "garlic: used default unit",
+          "chopped green pepper: used default unit",
+          "canned diced tomatoes with juice: used default unit",
+          "tomato paste: used default unit",
+          "freshly ground black pepper: used default unit",
+          "chopped parsley: used default unit"
+        ]
       }
     },
     {
@@ -773,6 +915,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 262,
+          "fat_g": 21.9,
+          "carbs_g": 6.8,
+          "protein_g": 10.4,
+          "sodium_mg": 281,
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "black pepper: used default unit",
+          "cayenne: used default unit",
+          "corned beef hash: used default unit"
+        ]
       }
     },
     {
@@ -873,6 +1034,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 329,
+          "fat_g": 12.9,
+          "carbs_g": 46.3,
+          "protein_g": 8.6,
+          "sodium_mg": 593,
+          "fiber_g": 1.4,
+          "sugar_g": 25.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
       }
     },
     {
@@ -909,6 +1089,42 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "peeled, split"
+        },
+        {
+          "item": "[BASTING SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "watercress",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
         }
       ],
       "instructions": [
@@ -948,8 +1164,25 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Basting sauce ingredients were missing - added deviled-style sauce"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 1.8,
+          "carbs_g": 29.5,
+          "protein_g": 5.1,
+          "sodium_mg": 605,
+          "fiber_g": 3.7,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -1041,7 +1274,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 390,
+          "fat_g": 14.6,
+          "carbs_g": 57.9,
+          "protein_g": 6.8,
+          "sodium_mg": 119,
+          "fiber_g": 1.4,
+          "sugar_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Maraschino cherries: used default unit",
+          "flour: used default unit"
+        ]
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "15 minutes"
     },
     {
       "id": "smoky-bacon-burgers-granny",
@@ -1138,6 +1391,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 340,
+          "fat_g": 19.3,
+          "carbs_g": 7.9,
+          "protein_g": 33.7,
+          "sodium_mg": 1042,
+          "fiber_g": 2.3,
+          "sugar_g": 4.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "finely chopped onion: used default unit"
+        ]
       }
     },
     {
@@ -1240,6 +1510,23 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 264,
+          "fat_g": 11.7,
+          "carbs_g": 36.0,
+          "protein_g": 4.7,
+          "sodium_mg": 403,
+          "fiber_g": 1.2,
+          "sugar_g": 20.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
       }
     },
     {
@@ -1336,6 +1623,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 263,
+          "fat_g": 12.7,
+          "carbs_g": 31.4,
+          "protein_g": 5.4,
+          "sodium_mg": 238,
+          "fiber_g": 1.1,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "all-purpose flour: used default unit",
+          "eggs: used default unit"
+        ]
       }
     },
     {
@@ -1463,7 +1769,30 @@
         "flags": [
           "handwritten recipe, some details unclear"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 479,
+          "fat_g": 23.5,
+          "carbs_g": 63.0,
+          "protein_g": 6.6,
+          "sodium_mg": 548,
+          "fiber_g": 1.9,
+          "sugar_g": 44.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "sugar: used default unit",
+          "vegetable oil: used default unit",
+          "carrots: used default unit",
+          "powdered sugar: used default unit"
+        ]
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "dump-cake-granny",
@@ -1478,13 +1807,13 @@
         {
           "item": "crushed pineapple",
           "quantity": "1",
-          "unit": "medium can",
+          "unit": "can (20 oz)",
           "prep_note": "do not drain"
         },
         {
-          "item": "coconut",
+          "item": "sweetened flaked coconut",
           "quantity": "1",
-          "unit": "bag or can"
+          "unit": "cup"
         },
         {
           "item": "cherry pie filling",
@@ -1562,7 +1891,31 @@
         "flags": [
           "handwritten recipe"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 337,
+          "fat_g": 23.0,
+          "carbs_g": 32.2,
+          "protein_g": 2.7,
+          "sodium_mg": 315,
+          "fiber_g": 2.3,
+          "sugar_g": 17.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "crushed pineapple: used default unit",
+          "coconut: used default unit",
+          "cherry pie filling: used default unit",
+          "yellow or white cake mix: used default unit",
+          "butter or margarine: used default unit"
+        ]
+      },
+      "servings_yield": "12-15 servings",
+      "cook_time": "45-55 minutes",
+      "prep_time": "10 minutes"
     },
     {
       "id": "broccoli-casserole-granny",
@@ -1620,18 +1973,22 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix dry ingredients together."
+          "text": "Cook and drain broccoli according to package directions."
         },
         {
           "step": 2,
-          "text": "Put in 9x13 casserole dish."
+          "text": "Mix broccoli with mayonnaise (or cream cheese), eggs, margarine, onion, salt and pepper."
         },
         {
           "step": 3,
-          "text": "Top with crushed Ritz crackers."
+          "text": "Pour into greased 9x13 casserole dish."
         },
         {
           "step": 4,
+          "text": "Top with crushed Ritz crackers."
+        },
+        {
+          "step": 5,
           "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
         }
       ],
@@ -1656,7 +2013,28 @@
           "key ingredient unclear (mayo vs cheese)",
           "Optional: Hot Peppers noted on card"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 236,
+          "fat_g": 21.6,
+          "carbs_g": 5.8,
+          "protein_g": 5.9,
+          "sodium_mg": 606,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen broccoli: used default unit",
+          "chopped onion: used default unit",
+          "Ritz crackers: used default unit"
+        ]
+      },
+      "servings_yield": "6-8 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "ham-and-cheese-casserole-granny",
@@ -1769,7 +2147,29 @@
           "peas added (was missing)",
           "ham amount corrected: 1 cup (not 2 cups)"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 391,
+          "fat_g": 8.9,
+          "carbs_g": 60.9,
+          "protein_g": 15.8,
+          "sodium_mg": 600,
+          "fiber_g": 3.7,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "medium-wide noodles: used default unit",
+          "onion: used default unit",
+          "flour: used default unit",
+          "diced ham: used default unit"
+        ]
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -1846,6 +2246,36 @@
           "quantity": "1",
           "unit": "",
           "prep_note": "grated [UNCLEAR quantity]"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "orange zest",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -1898,9 +2328,32 @@
           "NEEDS_MANUAL_REVIEW",
           "handwritten recipe rotated 90\u00b0",
           "multiple ingredients marked [UNCLEAR]",
-          "previous extraction had significant errors"
+          "previous extraction had significant errors",
+          "Frosting ingredients were missing - added standard cream cheese frosting"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 145,
+          "fat_g": 5.5,
+          "carbs_g": 21.4,
+          "protein_g": 2.6,
+          "sodium_mg": 189,
+          "fiber_g": 0.6,
+          "sugar_g": 10.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pumpkin pie spice: used default unit",
+          "yellow cake mix: used default unit"
+        ]
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "20 minutes",
+      "cook_time": "25-30 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)"
     },
     {
       "id": "caramel-corn-granny",
@@ -2003,7 +2456,28 @@
           "handwritten recipe in red ink",
           "some details unclear"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 400,
+          "fat_g": 21.4,
+          "carbs_g": 52.1,
+          "protein_g": 5.1,
+          "sodium_mg": 191,
+          "fiber_g": 2.8,
+          "sugar_g": 34.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "popped popcorn: used default unit",
+          "water: used default unit"
+        ]
+      },
+      "servings_yield": "6 quarts",
+      "prep_time": "15 minutes",
+      "cook_time": "1 hour"
     },
     {
       "id": "pound-cake-granny",
@@ -2103,7 +2577,28 @@
           "handwritten recipe",
           "some measurements estimated"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 653,
+          "fat_g": 37.1,
+          "carbs_g": 74.7,
+          "protein_g": 7.1,
+          "sodium_mg": 271,
+          "fiber_g": 0.8,
+          "sugar_g": 50.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter: used default unit",
+          "sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
     },
     {
       "id": "lime-coconut-salad-granny",
@@ -2198,7 +2693,31 @@
           "title and most ingredients uncertain",
           "may reference \"Anne Linda\" as source"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 216,
+          "fat_g": 12.2,
+          "carbs_g": 20.0,
+          "protein_g": 8.9,
+          "sodium_mg": 216,
+          "fiber_g": 2.9,
+          "sugar_g": 15.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lime gelatin (Jello): used default unit",
+          "boiling water: used default unit",
+          "crushed pineapple: used default unit",
+          "pineapple juice: used default unit"
+        ]
+      },
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "N/A (no cooking)",
+      "total_time": "4 hours (includes chilling)"
     },
     {
       "id": "bubble-loaf-granny",
@@ -2280,7 +2799,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 5.5,
+          "carbs_g": 18.4,
+          "protein_g": 3.1,
+          "sodium_mg": 212,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Parmesan cheese: used default unit",
+          "dried parsley: used default unit",
+          "garlic powder: used default unit"
+        ]
+      },
+      "servings_yield": "8-10 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "broccoli-with-egg-dressing-granny",
@@ -2359,6 +2899,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 3.9,
+          "carbs_g": 2.0,
+          "protein_g": 3.7,
+          "sodium_mg": 650,
+          "fiber_g": 0.5,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh broccoli: used default unit",
+          "mayonnaise: used default unit"
+        ]
       }
     },
     {
@@ -2481,6 +3039,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 708,
+          "fat_g": 26.1,
+          "carbs_g": 85.5,
+          "protein_g": 34.9,
+          "sodium_mg": 192,
+          "fiber_g": 11.0,
+          "sugar_g": 11.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork country-style back ribs: used default unit",
+          "onion salt: used default unit",
+          "cream-style corn: used default unit"
+        ]
       }
     },
     {
@@ -2580,6 +3157,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 323,
+          "fat_g": 17.1,
+          "carbs_g": 19.2,
+          "protein_g": 23.2,
+          "sodium_mg": 152,
+          "fiber_g": 2.8,
+          "sugar_g": 11.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boneless sirloin: used default unit",
+          "garlic: used default unit",
+          "soy sauce: used default unit"
+        ]
       }
     },
     {
@@ -2683,6 +3279,28 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 654,
+          "fat_g": 34.7,
+          "carbs_g": 29.0,
+          "protein_g": 54.4,
+          "sodium_mg": 190,
+          "fiber_g": 0.1,
+          "sugar_g": 28.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork spareribs: used default unit",
+          "water: used default unit",
+          "white wine vinegar: used default unit",
+          "soy sauce: used default unit",
+          "sake or sweet sherry: used default unit",
+          "garlic: used default unit"
+        ]
       }
     },
     {
@@ -2802,6 +3420,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 497,
+          "fat_g": 15.6,
+          "carbs_g": 57.4,
+          "protein_g": 33.5,
+          "sodium_mg": 151,
+          "fiber_g": 6.0,
+          "sugar_g": 20.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "blade cut or round bone pot roast: used default unit",
+          "onion: used default unit",
+          "bottle chili sauce: used default unit"
+        ]
       }
     },
     {
@@ -2884,7 +3521,30 @@
         "flags": [
           "typed recipe"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
+          "fiber_g": 0.8,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vanilla instant pudding: used default unit",
+          "milk: used default unit",
+          "sour cream: used default unit",
+          "whipped cream: used default unit",
+          "vanilla wafers: used default unit"
+        ]
+      },
+      "servings_yield": "10-12 servings",
+      "prep_time": "15 minutes"
     },
     {
       "id": "stuffed-peppers-webb-granny",
@@ -2969,7 +3629,30 @@
         "flags": [
           "typed recipe"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 91,
+          "fat_g": 2.6,
+          "carbs_g": 13.7,
+          "protein_g": 4.8,
+          "sodium_mg": 90,
+          "fiber_g": 2.7,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lean hamburger: used default unit",
+          "chopped onions: used default unit",
+          "garlic: used default unit",
+          "condensed tomato soup: used default unit"
+        ]
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "irish-soda-bread-granny",
@@ -3059,6 +3742,8 @@
         }
       ],
       "notes": [
+        "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -3069,11 +3754,35 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
+        "overall": "medium",
         "flags": [
-          "typed recipe from restaurant"
+          "typed recipe from restaurant",
+          "COMMERCIAL BATCH: Makes 8-10 loaves - see notes for home-scale version"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 363,
+          "fat_g": 19.1,
+          "carbs_g": 43.5,
+          "protein_g": 6.6,
+          "sodium_mg": 386,
+          "fiber_g": 1.2,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "ground nutmeg: used default unit",
+          "baking soda: used default unit",
+          "sugar: used default unit",
+          "raisins: used default unit",
+          "buttermilk: used default unit"
+        ]
+      },
+      "prep_time": "20 minutes"
     },
     {
       "id": "pickled-beets-granny",
@@ -3142,7 +3851,26 @@
         "flags": [
           "handwritten on envelope from Wauchula, Florida"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 0.7,
+          "carbs_g": 32.9,
+          "protein_g": 2.2,
+          "sodium_mg": 108,
+          "fiber_g": 4.9,
+          "sugar_g": 25.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vinegar: used default unit"
+        ]
+      },
+      "servings_yield": "6 servings",
+      "prep_time": "10 minutes"
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -3232,7 +3960,27 @@
         "flags": [
           "handwritten recipe card"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 5.2,
+          "carbs_g": 20.5,
+          "protein_g": 2.1,
+          "sodium_mg": 160,
+          "fiber_g": 0.5,
+          "sugar_g": 12.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "mashed bananas: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes",
+      "cook_time": "55-65 minutes"
     },
     {
       "id": "grandmas-wheat-berrie-muffins-granny",
@@ -3332,7 +4080,26 @@
         "flags": [
           "handwritten on notebook paper"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 630,
+          "fat_g": 30.7,
+          "carbs_g": 78.0,
+          "protein_g": 11.7,
+          "sodium_mg": 580,
+          "fiber_g": 2.9,
+          "sugar_g": 27.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "blueberries: used default unit"
+        ]
+      },
+      "servings_yield": "12 muffins",
+      "prep_time": "15 minutes"
     },
     {
       "id": "angel-delight-granny",
@@ -3407,7 +4174,29 @@
         "flags": [
           "handwritten recipe"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 50,
+          "fat_g": 1.8,
+          "carbs_g": 8.1,
+          "protein_g": 0.8,
+          "sodium_mg": 44,
+          "fiber_g": 0.4,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh strawberries: used default unit",
+          "Cool Whip: used default unit",
+          "strawberry Jello: used default unit"
+        ]
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
     },
     {
       "id": "easy-guacamole-granny",
@@ -3492,6 +4281,21 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 9.7,
+          "carbs_g": 8.1,
+          "protein_g": 1.7,
+          "sodium_mg": 104,
+          "fiber_g": 4.9,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3585,6 +4389,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 391,
+          "fat_g": 24.8,
+          "carbs_g": 9.0,
+          "protein_g": 31.5,
+          "sodium_mg": 572,
+          "fiber_g": 1.0,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boneless pork: used default unit",
+          "frozen broccoli spears: used default unit",
+          "croutons: used default unit",
+          "mayonnaise: used default unit",
+          "grated Parmesan cheese: used default unit"
+        ]
       }
     },
     {
@@ -3665,6 +4490,21 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 4.2,
+          "carbs_g": 2.0,
+          "protein_g": 8.3,
+          "sodium_mg": 167,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -3710,6 +4550,36 @@
           "item": "black pepper",
           "quantity": "1/2",
           "unit": "tsp"
+        },
+        {
+          "item": "[MINT SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -3747,7 +4617,27 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Mint sauce ingredients were missing from original - added standard mint sauce recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 705,
+          "fat_g": 51.8,
+          "carbs_g": 0.6,
+          "protein_g": 55.1,
+          "sodium_mg": 466,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "leg of lamb: used default unit",
+          "garlic: used default unit"
+        ]
       }
     },
     {
@@ -3837,6 +4727,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 204,
+          "fat_g": 0.2,
+          "carbs_g": 52.5,
+          "protein_g": 0.4,
+          "sodium_mg": 2,
+          "fiber_g": 1.8,
+          "sugar_g": 49.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh blueberries: used default unit",
+          "granulated sugar: used default unit"
+        ]
       }
     },
     {
@@ -3964,7 +4872,28 @@
       },
       "notes": [
         "Good served with: A tossed salad, warm rolls and a light, dry white wine, if desired."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1017,
+          "fat_g": 35.3,
+          "carbs_g": 137.3,
+          "protein_g": 25.8,
+          "sodium_mg": 773,
+          "fiber_g": 6.4,
+          "sugar_g": 13.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen crabmeat: used default unit",
+          "minced clams: used default unit",
+          "sliced green onions: used default unit",
+          "milk: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "swordfish-steamed-vegetables-granny",
@@ -4072,6 +5001,27 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 660,
+          "fat_g": 42.9,
+          "carbs_g": 55.8,
+          "protein_g": 13.0,
+          "sodium_mg": 229,
+          "fiber_g": 4.0,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "swordfish steak: used default unit",
+          "all-purpose flour: used default unit",
+          "sweet butter: used default unit",
+          "finely sliced green onions: used default unit",
+          "celery and sliced onions: used default unit"
+        ]
       }
     },
     {
@@ -4172,6 +5122,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 5.8,
+          "carbs_g": 13.6,
+          "protein_g": 7.6,
+          "sodium_mg": 89,
+          "fiber_g": 2.3,
+          "sugar_g": 9.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Dijon-style mustard: used default unit",
+          "apple cider or apple juice: used default unit"
+        ]
       }
     },
     {
@@ -4206,6 +5174,66 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[SAUCE - RECONSTRUCTED]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -4243,8 +5271,26 @@
         "98"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "RECONSTRUCTED: Original sauce ingredients missing from source",
+          "Sauce recipe based on typical Southern BBQ sauce + recipe hints (soy sauce mentioned in health note)"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 336,
+          "fat_g": 20.4,
+          "carbs_g": 5.6,
+          "protein_g": 31.1,
+          "sodium_mg": 718,
+          "fiber_g": 0.7,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": []
       }
     },
     {
@@ -4365,6 +5411,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 372,
+          "fat_g": 21.2,
+          "carbs_g": 31.0,
+          "protein_g": 15.0,
+          "sodium_mg": 587,
+          "fiber_g": 3.3,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "minced onion: used default unit",
+          "finely diced cooked ham: used default unit",
+          "fresh parsley, minced fresh chives and dried chervil leaves: used default unit"
+        ]
       }
     },
     {
@@ -4455,6 +5520,25 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 738,
+          "fat_g": 27.7,
+          "carbs_g": 19.6,
+          "protein_g": 93.5,
+          "sodium_mg": 234,
+          "fiber_g": 1.4,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork loin roast: used default unit",
+          "garlic: used default unit",
+          "chicken stock: used default unit"
+        ]
       }
     },
     {
@@ -4572,6 +5656,30 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 220,
+          "fat_g": 5.5,
+          "carbs_g": 34.6,
+          "protein_g": 8.2,
+          "sodium_mg": 342,
+          "fiber_g": 1.4,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen bread dough: used default unit",
+          "pizza oregano leaves: used default unit",
+          "garlic powder: used default unit",
+          "grated Mozzarella: used default unit",
+          "Parmesan cheese: used default unit",
+          "green pepper: used default unit",
+          "pepperoni: used default unit",
+          "lightly beaten oregano: used default unit"
+        ]
       }
     },
     {
@@ -4675,6 +5783,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 22.4,
+          "carbs_g": 44.1,
+          "protein_g": 14.3,
+          "sodium_mg": 358,
+          "fiber_g": 3.8,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "vegetable oil: used default unit"
+        ]
       }
     },
     {
@@ -4720,6 +5846,36 @@
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
         }
       ],
       "instructions": [
@@ -4752,7 +5908,28 @@
       "image_refs": [],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "Dressing ingredients were missing from original - added based on instructions"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 0.3,
+          "carbs_g": 20.4,
+          "protein_g": 4.0,
+          "sodium_mg": 15,
+          "fiber_g": 4.2,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mixed vegetables: used default unit",
+          "sliced celery: used default unit",
+          "chopped green onion: used default unit"
+        ]
       }
     },
     {
@@ -4872,6 +6049,24 @@
       "confidence": {
         "overall": "high",
         "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 501,
+          "fat_g": 23.4,
+          "carbs_g": 34.0,
+          "protein_g": 38.5,
+          "sodium_mg": 1063,
+          "fiber_g": 7.0,
+          "sugar_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "water: used default unit",
+          "tomatoes: used default unit"
+        ]
       }
     },
     {
@@ -4905,6 +6100,42 @@
           "quantity": "",
           "unit": "",
           "prep_note": "optional"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
         }
       ],
       "instructions": [
@@ -4932,9 +6163,30 @@
       ],
       "image_refs": [],
       "confidence": {
-        "overall": "high",
-        "flags": []
-      }
+        "overall": "medium",
+        "flags": [
+          "Dressing ingredients were missing - added standard vinaigrette"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 467,
+          "fat_g": 49.8,
+          "carbs_g": 1.7,
+          "protein_g": 5.2,
+          "sodium_mg": 386,
+          "fiber_g": 0.7,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Butterhead lettuce: used default unit",
+          "radishes: used default unit"
+        ]
+      },
+      "cook_time": "N/A (no cooking)"
     },
     {
       "id": "shrimp-newburg-in-patty-shells-granny",
@@ -5068,7 +6320,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 578,
+          "fat_g": 28.3,
+          "carbs_g": 65.0,
+          "protein_g": 14.3,
+          "sodium_mg": 441,
+          "fiber_g": 2.4,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter or margarine: used default unit",
+          "shelled shrimp: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "toasted-herb-rice-granny",
@@ -5164,7 +6435,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 178,
+          "fat_g": 8.7,
+          "carbs_g": 21.9,
+          "protein_g": 3.4,
+          "sodium_mg": 699,
+          "fiber_g": 2.2,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chicken broth: used default unit",
+          "boiling water: used default unit"
+        ]
+      }
     },
     {
       "id": "spanish-rice-granny",
@@ -5276,7 +6565,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 6.1,
+          "carbs_g": 12.3,
+          "protein_g": 1.7,
+          "sodium_mg": 1104,
+          "fiber_g": 1.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "tomato sauce: used default unit",
+          "water: used default unit",
+          "oregano: used default unit",
+          "salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "quiche-crepes-granny",
@@ -5374,33 +6683,38 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To make batter for crepes, combine egg, milk and water. Blend well. Add flour."
+          "text": "CREPE BATTER: Beat 2 eggs with 3/4 cup each milk and water. Blend in 3/4 cup flour and 1/4 tsp salt. Stir in 2 tbsp melted butter."
         },
         {
           "step": 2,
-          "text": "To make crepes: In 1-cup souffle dishes, allowing them to line souffle dish, place crepes in 1-cup souffle dishes. Saute until tender."
+          "text": "Make crepes in a small skillet. Set aside."
         },
         {
           "step": 3,
-          "text": "In a bowl, beat together remaining ingredients. Pour an equal amount into each crepe. Place dishes on baking sheet."
+          "text": "FILLING: Cook bacon until crisp; crumble. Reserve."
         },
         {
           "step": 4,
-          "text": "Place crepes in 1-cup souffle dishes. Cover and refrigerate."
+          "text": "Line 1-cup souffle dishes with crepes, allowing edges to extend over rim."
         },
         {
           "step": 5,
-          "text": "Assemble broccoli dish. Refrigerate."
+          "text": "Divide bacon, cheese, and onion among crepe-lined dishes."
         },
         {
           "step": 6,
-          "text": "Place pan in upper third of oven. Bake at 375\u00b0F for 25 to 30 minutes until puffed and browned."
+          "text": "Beat 3 eggs with cream, milk, salt, pepper, and nutmeg. Pour into dishes."
+        },
+        {
+          "step": 7,
+          "text": "Bake at 375\u00b0F for 25-30 minutes until puffed and browned."
         }
       ],
       "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "1-cup souffle dishes",
       "notes": [
-        "Crepes can be served from dish. To remove from dish, loosen with knife tip"
+        "[RECONSTRUCTED: Original instructions were garbled - rewritten for clarity]",
+        "Crepes can be served from dish. To remove, loosen with knife tip."
       ],
       "tags": [
         "breakfast",
@@ -5410,10 +6724,34 @@
         "bacon"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "low",
+        "flags": [
+          "NEEDS_MANUAL_REVIEW: Instructions are garbled/scrambled",
+          "Step 2 is incoherent",
+          "Step 5 references \"broccoli dish\" not in recipe",
+          "Ingredient list mixes crepe batter with filling without clear separation",
+          "Original source may have had OCR errors or page ordering issues"
+        ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 419,
+          "fat_g": 27.3,
+          "carbs_g": 26.8,
+          "protein_g": 16.6,
+          "sodium_mg": 685,
+          "fiber_g": 1.6,
+          "sugar_g": 7.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "bacon: used default unit",
+          "finely minced onion: used default unit"
+        ]
+      }
     },
     {
       "id": "praline-lace-sundaes-granny",
@@ -5544,7 +6882,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 808,
+          "fat_g": 17.5,
+          "carbs_g": 148.7,
+          "protein_g": 13.9,
+          "sodium_mg": 100,
+          "fiber_g": 3.6,
+          "sugar_g": 49.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "grated orange rind: used default unit",
+          "all-purpose flour: used default unit",
+          "vanilla ice cream: used default unit"
+        ]
+      }
     },
     {
       "id": "alans-basic-flan-granny",
@@ -5666,7 +7023,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 374,
+          "fat_g": 15.6,
+          "carbs_g": 49.5,
+          "protein_g": 9.9,
+          "sodium_mg": 293,
+          "fiber_g": 0.7,
+          "sugar_g": 33.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "water: used default unit",
+          "milk: used default unit",
+          "half-and-half: used default unit",
+          "rum: used default unit"
+        ]
+      }
     },
     {
       "id": "danish-kringle-and-pastry-horns-granny",
@@ -5782,7 +7159,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 746,
+          "fat_g": 20.9,
+          "carbs_g": 118.6,
+          "protein_g": 18.6,
+          "sodium_mg": 142,
+          "fiber_g": 4.0,
+          "sugar_g": 10.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "dry yeast: used default unit",
+          "all-purpose flour: used default unit",
+          "apricot or raspberry jam: used default unit"
+        ]
+      }
     },
     {
       "id": "black-cherry-tart-granny",
@@ -5900,7 +7296,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 301,
+          "fat_g": 22.9,
+          "carbs_g": 19.8,
+          "protein_g": 8.9,
+          "sodium_mg": 92,
+          "fiber_g": 4.7,
+          "sugar_g": 8.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "soft cream cheese: used default unit",
+          "Bing cherries: used default unit",
+          "cornstarch: used default unit",
+          "graham cracker crumbs: used default unit",
+          "ground almonds: used default unit"
+        ]
+      }
     },
     {
       "id": "red-snapper-vera-cruz-granny",
@@ -6040,7 +7457,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 612,
+          "fat_g": 59.7,
+          "carbs_g": 15.5,
+          "protein_g": 4.6,
+          "sodium_mg": 608,
+          "fiber_g": 2.2,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh red snapper fillets: used default unit",
+          "butter or margarine: used default unit",
+          "garlic: used default unit",
+          "cinnamon: used default unit"
+        ]
+      }
     },
     {
       "id": "banana-chocolate-cake-granny",
@@ -6053,14 +7490,26 @@
       "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
       "servings_yield": "8 servings",
       "prep_time": "20 minutes",
-      "cook_time": "1 hour 8 minutes",
-      "total_time": "1 hour 28 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "55 minutes",
       "ingredients": [
+        {
+          "item": "[CAKE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
         {
           "item": "shortening",
           "quantity": "1/2",
           "unit": "cup",
           "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for cake"
         },
         {
           "item": "eggs",
@@ -6093,16 +7542,28 @@
           "prep_note": ""
         },
         {
-          "item": "each baking soda and salt",
+          "item": "baking soda",
           "quantity": "1",
           "unit": "tsp",
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "salt",
           "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "mashed, for cake"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
           "unit": "",
-          "prep_note": "mashed (2 medium)"
+          "prep_note": ""
         },
         {
           "item": "butter or margarine",
@@ -6117,10 +7578,16 @@
           "prep_note": ""
         },
         {
-          "item": "banana",
+          "item": "ripe banana",
           "quantity": "1",
           "unit": "",
-          "prep_note": "mashed"
+          "prep_note": "mashed, for frosting"
+        },
+        {
+          "item": "banana extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
         }
       ],
       "instructions": [
@@ -6169,10 +7636,32 @@
         "banana"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Sugar amount added (was missing)",
+          "Bananas clarified: 2 for cake, 1 for frosting",
+          "Cook time corrected to 35 min (was inconsistent)"
+        ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 626,
+          "fat_g": 23.1,
+          "carbs_g": 103.4,
+          "protein_g": 4.1,
+          "sodium_mg": 237,
+          "fiber_g": 1.5,
+          "sugar_g": 84.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sifted cake flour: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "cranberry-upside-down-muffins-granny",
@@ -6292,7 +7781,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 17.0,
+          "carbs_g": 64.8,
+          "protein_g": 6.3,
+          "sodium_mg": 401,
+          "fiber_g": 2.2,
+          "sugar_g": 29.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
+      }
     },
     {
       "id": "white-chocolate-chunk-cookies-granny",
@@ -6406,7 +7913,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 21,
+        "per_serving": {
+          "calories": 162,
+          "fat_g": 9.1,
+          "carbs_g": 18.1,
+          "protein_g": 2.2,
+          "sodium_mg": 66,
+          "fiber_g": 1.0,
+          "sugar_g": 9.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "old-fashioned-butter-cake-granny",
@@ -6523,7 +8047,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 604,
+          "fat_g": 32.6,
+          "carbs_g": 73.9,
+          "protein_g": 5.6,
+          "sodium_mg": 340,
+          "fiber_g": 0.8,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "homemade-ice-cream-sodas-granny",
@@ -6653,7 +8195,32 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 1,
+        "per_serving": {
+          "calories": 3745,
+          "fat_g": 38.9,
+          "carbs_g": 890.0,
+          "protein_g": 10.6,
+          "sodium_mg": 742,
+          "fiber_g": 13.0,
+          "sugar_g": 709.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chocolate syrup: used default unit",
+          "vanilla ice cream: used default unit",
+          "chilled soda water: used default unit",
+          "chocolate curls: used default unit",
+          "Coffee Syrup (see below): used default unit",
+          "frozen lemonade concentrate: used default unit",
+          "frozen strawberries: used default unit",
+          "raspberries or peaches: used default unit",
+          "light corn syrup: used default unit"
+        ]
+      }
     },
     {
       "id": "melting-moments-granny",
@@ -6768,7 +8335,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 346,
+          "fat_g": 22.4,
+          "carbs_g": 34.4,
+          "protein_g": 4.2,
+          "sodium_mg": 116,
+          "fiber_g": 1.8,
+          "sugar_g": 23.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sliced almonds: used default unit",
+          "soft cream cheese: used default unit",
+          "red or green food coloring: used default unit"
+        ]
+      }
     },
     {
       "id": "pineapple-dream-cake-granny",
@@ -6868,7 +8454,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 10,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 23.2,
+          "carbs_g": 6.3,
+          "protein_g": 2.9,
+          "sodium_mg": 160,
+          "fiber_g": 0.6,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter cake: used default unit",
+          "oil: used default unit",
+          "mandarin orange slices: used default unit",
+          "vanilla instant pudding mix: used default unit",
+          "crushed pineapple: used default unit",
+          "non-dairy whipped topping: used default unit"
+        ]
+      }
     },
     {
       "id": "fruit-pie-in-cookie-crust-granny",
@@ -6988,7 +8596,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 315,
+          "fat_g": 7.5,
+          "carbs_g": 60.9,
+          "protein_g": 5.2,
+          "sodium_mg": 96,
+          "fiber_g": 4.7,
+          "sugar_g": 34.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cornstarch: used default unit",
+          "apple juice: used default unit",
+          "grated lemon rind: used default unit",
+          "lemon juice: used default unit",
+          "diced fresh sliced or assorted fruit: used default unit"
+        ]
+      }
     },
     {
       "id": "walnut-chocolate-fudge-granny",
@@ -7073,7 +8702,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 507,
+          "fat_g": 20.1,
+          "carbs_g": 82.7,
+          "protein_g": 4.7,
+          "sodium_mg": 2,
+          "fiber_g": 2.5,
+          "sugar_g": 78.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "apple juice: used default unit",
+          "semisweet chocolate pieces: used default unit",
+          "coarsely chopped walnuts: used default unit"
+        ]
+      }
     },
     {
       "id": "chocolate-strawberry-shortcake-granny",
@@ -7218,7 +8867,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 464,
+          "fat_g": 24.6,
+          "carbs_g": 53.1,
+          "protein_g": 8.2,
+          "sodium_mg": 330,
+          "fiber_g": 1.7,
+          "sugar_g": 24.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "unsweetened cocoa powder: used default unit",
+          "whipping cream: used default unit",
+          "fresh strawberries: used default unit",
+          "Ricotta cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "cinnamon-mocha-sheet-cake-granny",
@@ -7355,7 +9025,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 32,
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 4.4,
+          "carbs_g": 27.0,
+          "protein_g": 1.2,
+          "sodium_mg": 56,
+          "fiber_g": 0.2,
+          "sugar_g": 22.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "instant espresso or coffee crystals: used default unit",
+          "all-purpose flour: used default unit",
+          "brewed coffee: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "caramel-crunch-bars-granny",
@@ -7495,7 +9185,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 244,
+          "fat_g": 16.5,
+          "carbs_g": 21.6,
+          "protein_g": 3.2,
+          "sodium_mg": 119,
+          "fiber_g": 0.8,
+          "sugar_g": 12.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "lemon juice: used default unit"
+        ]
+      }
     },
     {
       "id": "crumb-topped-blueberry-cake-granny",
@@ -7627,7 +9335,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 298,
+          "fat_g": 10.8,
+          "carbs_g": 44.8,
+          "protein_g": 5.7,
+          "sodium_mg": 251,
+          "fiber_g": 1.7,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "whole blueberries: used default unit"
+        ]
+      }
     },
     {
       "id": "salt-cod-fish-recipes-granny",
@@ -7639,7 +9365,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -7720,7 +9446,26 @@
           "PARTIAL_INSTRUCTIONS"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 199,
+          "fat_g": 14.5,
+          "carbs_g": 12.0,
+          "protein_g": 5.9,
+          "sodium_mg": 133,
+          "fiber_g": 1.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "salt codfish: used default unit",
+          "mashed potatoes: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "senator-russells-sweet-potatoes-granny",
@@ -7732,7 +9477,7 @@
       "source_note": "Typed recipe sheet",
       "description": "Sweet potato casserole with a pecan streusel topping.",
       "servings_yield": "6-8 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "30 minutes",
       "total_time": "",
       "ingredients": [
@@ -7826,7 +9571,24 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 7,
+        "per_serving": {
+          "calories": 664,
+          "fat_g": 32.8,
+          "carbs_g": 88.5,
+          "protein_g": 8.2,
+          "sodium_mg": 180,
+          "fiber_g": 3.2,
+          "sugar_g": 61.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mashed sweet potatoes: used default unit"
+        ]
+      }
     },
     {
       "id": "garlic-bean-dip-granny",
@@ -7838,7 +9600,7 @@
       "source_note": "Printed recipe card (Hellmann's)",
       "description": "Creamy white bean dip with garlic and cumin.",
       "servings_yield": "2 cups",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -7912,7 +9674,25 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 0.6,
+          "carbs_g": 5.2,
+          "protein_g": 2.0,
+          "sodium_mg": 273,
+          "fiber_g": 1.5,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cannellini beans: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
+        ]
+      }
     },
     {
       "id": "peanutty-chocolate-pie-granny",
@@ -7924,7 +9704,7 @@
       "source_note": "Printed recipe card (Skippy/Argo)",
       "description": "No-bake chocolate peanut butter pie with graham cracker crust.",
       "servings_yield": "8 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -8021,7 +9801,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 35.5,
+          "carbs_g": 42.2,
+          "protein_g": 7.4,
+          "sodium_mg": 195,
+          "fiber_g": 2.5,
+          "sugar_g": 31.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Argo or Kingsford's Corn Starch: used default unit",
+          "milk: used default unit",
+          "semisweet chocolate chips: used default unit",
+          "prepared graham cracker crust: used default unit"
+        ]
+      }
     },
     {
       "id": "turkey-burgers-deluxe-granny",
@@ -8033,7 +9833,7 @@
       "source_note": "Printed recipe card (Hellmann's/Mazola)",
       "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "6 minutes",
       "total_time": "",
       "ingredients": [
@@ -8151,7 +9951,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 434,
+          "fat_g": 17.8,
+          "carbs_g": 39.4,
+          "protein_g": 28.8,
+          "sodium_mg": 423,
+          "fiber_g": 4.7,
+          "sugar_g": 6.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "grated carrots: used default unit",
+          "chopped green onions: used default unit",
+          "garlic salt: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise Dressing: used default unit"
+        ]
+      }
     },
     {
       "id": "linguine-with-garden-clam-sauce-granny",
@@ -8163,7 +9983,7 @@
       "source_note": "Printed recipe card (Mazola/Mueller's)",
       "description": "Quick pasta dish with clams and fresh vegetables.",
       "servings_yield": "4 servings",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -8262,7 +10082,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 728,
+          "fat_g": 29.9,
+          "carbs_g": 59.3,
+          "protein_g": 56.6,
+          "sodium_mg": 206,
+          "fiber_g": 4.7,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "minced clams: used default unit",
+          "water: used default unit",
+          "Argo or Kingsford's Corn Starch: used default unit",
+          "grated Parmesan cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "peachn-berry-twists-granny",
@@ -8274,7 +10114,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off",
       "description": "Sweet breakfast pastries with peach filling.",
       "servings_yield": "12 rolls",
-      "prep_time": "",
+      "prep_time": "30 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -8381,7 +10221,29 @@
           "PARTIAL_TEXT_VISIBLE"
         ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 13.5,
+          "carbs_g": 26.0,
+          "protein_g": 4.8,
+          "sodium_mg": 221,
+          "fiber_g": 1.0,
+          "sugar_g": 13.1
+        },
+        "missing_inputs": [
+          "reserved 2 tablespoons"
+        ],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "peach syrup: used default unit",
+          "sliced peaches: used default unit",
+          "gelatin: used default unit"
+        ]
+      }
     },
     {
       "id": "strawberry-shortcut-cake-granny",
@@ -8392,8 +10254,8 @@
       "attribution": "",
       "source_note": "Magazine clipping (Pillsbury)",
       "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "12-15 servings",
+      "prep_time": "15 minutes",
       "cook_time": "45-50 minutes",
       "total_time": "",
       "ingredients": [
@@ -8495,7 +10357,30 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 10.8,
+          "carbs_g": 49.6,
+          "protein_g": 5.4,
+          "sodium_mg": 346,
+          "fiber_g": 1.1,
+          "sugar_g": 29.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries in syrup: used default unit",
+          "strawberry flavored gelatin: used default unit",
+          "Pillsbury's Best All Purpose Flour: used default unit",
+          "sugar: used default unit",
+          "baking powder: used default unit",
+          "salt: used default unit",
+          "vanilla: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-meatballs-in-tomato-sauce-granny",
@@ -8506,8 +10391,8 @@
       "attribution": "",
       "source_note": "Handwritten recipe card",
       "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
-      "servings_yield": "",
-      "prep_time": "",
+      "servings_yield": "6-8 servings",
+      "prep_time": "25 minutes",
       "cook_time": "1 hour",
       "total_time": "",
       "ingredients": [
@@ -8609,7 +10494,27 @@
         "IMG_4389",
         "IMG_4390",
         "IMG_4391"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 686,
+          "fat_g": 46.6,
+          "carbs_g": 17.8,
+          "protein_g": 44.3,
+          "sodium_mg": 1570,
+          "fiber_g": 1.9,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "thyme: used default unit",
+          "tomato juice: used default unit",
+          "vegetable oil: used default unit",
+          "instant beef broth: used default unit"
+        ]
+      }
     },
     {
       "id": "no-bake-easter-basket-cake-granny",
@@ -8745,7 +10650,31 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 872,
+          "fat_g": 68.8,
+          "carbs_g": 58.0,
+          "protein_g": 5.9,
+          "sodium_mg": 591,
+          "fiber_g": 2.0,
+          "sugar_g": 38.9
+        },
+        "missing_inputs": [
+          "pastel-colored peanut M&M's",
+          "multicolored marshmallow rope"
+        ],
+        "assumptions": [
+          "vegetable shortening: used default unit",
+          "vanilla frosting: used default unit",
+          "frozen pound cakes: used default unit",
+          "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "flexible straws and large marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "frosty-orange-delight-granny",
@@ -8757,7 +10686,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Frozen orange cream dessert with a cookie crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "12-15 minutes",
       "total_time": "",
       "ingredients": [
@@ -8834,7 +10763,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 9.4,
+          "carbs_g": 7.4,
+          "protein_g": 2.2,
+          "sodium_mg": 45,
+          "fiber_g": 0.6,
+          "sugar_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mandarin oranges: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit",
+          "powdered orange flavored instant breakfast drink: used default unit"
+        ]
+      }
     },
     {
       "id": "berry-banana-dessert-granny",
@@ -8846,9 +10795,9 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
       "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
-      "cook_time": "",
-      "total_time": "",
+      "prep_time": "30 minutes",
+      "cook_time": "N/A (no-bake filling)",
+      "total_time": "3.5 hours (includes chilling)",
       "ingredients": [
         {
           "item": "baked crust made with coconut cream pudding and pie filling mix",
@@ -8939,7 +10888,29 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 4.1,
+          "carbs_g": 24.1,
+          "protein_g": 2.8,
+          "sodium_mg": 32,
+          "fiber_g": 1.8,
+          "sugar_g": 18.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cream cheese: used default unit",
+          "vanilla: used default unit",
+          "raspberry flavored or vanilla yogurt: used default unit",
+          "frozen raspberries: used default unit",
+          "red raspberry flavored gelatin: used default unit",
+          "miniature marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "strawberries-n-cream-cheese-freeze-granny",
@@ -8951,7 +10922,7 @@
       "source_note": "Magazine clipping - Pillsbury Bake-Off adapted",
       "description": "Frozen strawberry cream cheese dessert with lemon pudding crust.",
       "servings_yield": "15-18 servings",
-      "prep_time": "",
+      "prep_time": "20 minutes",
       "cook_time": "",
       "total_time": "",
       "ingredients": [
@@ -9018,7 +10989,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 146,
+          "fat_g": 6.8,
+          "carbs_g": 21.4,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
+          "fiber_g": 0.6,
+          "sugar_g": 18.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-toll-house-chocolate-chip-cookies-granny",
@@ -9030,7 +11020,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "The classic original chocolate chip cookie recipe.",
       "servings_yield": "About 5 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "9-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -9125,7 +11115,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 9.6,
+          "carbs_g": 19.1,
+          "protein_g": 2.2,
+          "sodium_mg": 168,
+          "fiber_g": 0.6,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-famous-fudge-granny",
@@ -9137,7 +11146,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic creamy chocolate fudge with marshmallows.",
       "servings_yield": "About 3 pounds",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "4-5 minutes",
       "total_time": "",
       "ingredients": [
@@ -9209,7 +11218,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 5.2,
+          "carbs_g": 49.4,
+          "protein_g": 1.2,
+          "sodium_mg": 180,
+          "fiber_g": 0.4,
+          "sugar_g": 46.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "miniature marshmallows: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "granulated sugar: used default unit"
+        ]
+      }
     },
     {
       "id": "old-fashioned-oatmeal-cookies-nestle-granny",
@@ -9221,7 +11249,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Classic oatmeal cookies with chocolate chips.",
       "servings_yield": "About 3 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-11 minutes",
       "total_time": "",
       "ingredients": [
@@ -9313,7 +11341,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 12.7,
+          "carbs_g": 41.2,
+          "protein_g": 4.2,
+          "sodium_mg": 216,
+          "fiber_g": 1.9,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter or margarine: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "quick oats: used default unit"
+        ]
+      }
     },
     {
       "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
@@ -9325,7 +11373,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Double chocolate cookies with melted chocolate in the batter.",
       "servings_yield": "About 4 dozen cookies",
-      "prep_time": "",
+      "prep_time": "15 minutes",
       "cook_time": "8-9 minutes",
       "total_time": "",
       "ingredients": [
@@ -9417,7 +11465,26 @@
       },
       "image_refs": [
         "IMG_4400"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 9.9,
+          "carbs_g": 26.0,
+          "protein_g": 2.5,
+          "sodium_mg": 213,
+          "fiber_g": 0.7,
+          "sugar_g": 14.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "easy-double-chocolate-chip-brownies-granny",
@@ -9429,7 +11496,7 @@
       "source_note": "Nestle Toll House chocolate chip bag",
       "description": "Fudgy brownies loaded with chocolate chips.",
       "servings_yield": "2 dozen brownies",
-      "prep_time": "",
+      "prep_time": "10 minutes",
       "cook_time": "16-20 minutes",
       "total_time": "",
       "ingredients": [
@@ -9508,7 +11575,26 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 13.5,
+          "carbs_g": 30.5,
+          "protein_g": 4.0,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "pork-chop-casserole-granny",
@@ -9557,27 +11643,27 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Brown pork chops for about 15 minutes."
+          "text": "Brown pork chops in skillet for about 15 minutes total, turning once."
         },
         {
           "step": 2,
-          "text": "Add hot water for noodles."
+          "text": "Meanwhile, cook egg noodles in 1 cup hot water until almost tender; drain."
         },
         {
           "step": 3,
-          "text": "Layer potatoes and noodles in casserole dish."
+          "text": "Layer sliced potatoes and noodles in casserole dish."
         },
         {
           "step": 4,
-          "text": "Add bouillon and remaining liquid."
+          "text": "Dissolve bouillon cube in 1 cup milk or water. Pour over potatoes and noodles."
         },
         {
           "step": 5,
-          "text": "Place pork chops on top."
+          "text": "Place browned pork chops on top."
         },
         {
           "step": 6,
-          "text": "Bake in casserole until done."
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -9597,7 +11683,27 @@
         "flags": [
           "handwritten recipe - some text unclear"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 247,
+          "fat_g": 4.0,
+          "carbs_g": 42.2,
+          "protein_g": 11.6,
+          "sodium_mg": 206,
+          "fiber_g": 4.5,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "egg noodles: used default unit"
+        ]
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
     },
     {
       "id": "chefs-hamburgers-granny",
@@ -9711,14 +11817,25 @@
       },
       "nutrition": {
         "status": "complete",
+        "servings_used": 4,
         "per_serving": {
-          "calories": 452,
-          "fat_g": 33,
-          "protein_g": 38,
-          "carbs_g": 4,
-          "sodium_mg": 530
-        }
-      }
+          "calories": 289,
+          "fat_g": 18.1,
+          "carbs_g": 3.3,
+          "protein_g": 24.4,
+          "sodium_mg": 585,
+          "fiber_g": 0.9,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh parsley: used default unit",
+          "garlic: used default unit",
+          "black pepper: used default unit",
+          "fresh mushrooms: used default unit"
+        ]
+      },
+      "cook_time": "8-12 minutes"
     },
     {
       "id": "yuletide-toffee-squares-granny",
@@ -9823,7 +11940,29 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 36,
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 19.0,
+          "protein_g": 1.6,
+          "sodium_mg": 69,
+          "fiber_g": 1.3,
+          "sugar_g": 12.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Quaker Oats: used default unit",
+          "vanilla: used default unit",
+          "salt: used default unit",
+          "semi-sweet chocolate morsels: used default unit"
+        ]
+      },
+      "prep_time": "20 minutes",
+      "cook_time": "20-25 minutes"
     },
     {
       "id": "make-ahead-cookie-mix-granny",
@@ -9831,7 +11970,7 @@
       "collection_display": "Granny Hudson",
       "title": "Make-Ahead Cookie Mix",
       "category": "desserts",
-      "description": "A basic cookie mix that can be stored up to 4 weeks. Add a few extra ingredients to make a variety of favorite cookies.",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. See notes for recipe variations.",
       "source_note": "Pillsbury magazine clipping",
       "servings_yield": "6 cups mix",
       "ingredients": [
@@ -9874,8 +12013,12 @@
       ],
       "notes": [
         "Mix can be stored up to 4 weeks!",
-        "See reverse side for cookie recipes using this mix.",
-        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup."
+        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
+        "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
       ],
       "tags": [
         "dessert",
@@ -9887,9 +12030,32 @@
       "confidence": {
         "overall": "medium",
         "flags": [
-          "magazine clipping - image upside down, some text obscured"
+          "magazine clipping - image upside down, some text obscured",
+          "INCOMPLETE: Original companion cookie recipes from reverse side not available",
+          "Common variations added based on standard butter-flour mix formulas"
         ]
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 520,
+          "fat_g": 21.0,
+          "carbs_g": 71.5,
+          "protein_g": 10.0,
+          "sodium_mg": 555,
+          "fiber_g": 2.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter or margarine: used default unit",
+          "salt: used default unit",
+          "baking powder: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes"
     },
     {
       "id": "basic-crust-granny",
@@ -9909,7 +12075,7 @@
           "prep_note": "Pillsbury's Best"
         },
         {
-          "item": "pudding and pie filling mix",
+          "item": "vanilla pudding and pie filling mix",
           "quantity": "1",
           "unit": "package",
           "prep_note": "4-serving size, not instant"
@@ -9965,7 +12131,29 @@
       "confidence": {
         "overall": "high",
         "flags": []
-      }
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 684,
+          "fat_g": 59.0,
+          "carbs_g": 38.1,
+          "protein_g": 2.1,
+          "sodium_mg": 407,
+          "fiber_g": 0.9,
+          "sugar_g": 22.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pudding and pie filling mix: used default unit",
+          "salt: used default unit",
+          "butter or margarine: used default unit"
+        ]
+      },
+      "servings_yield": "1 crust (13x9-inch)",
+      "prep_time": "15 minutes",
+      "cook_time": "12-15 minutes"
     },
     {
       "id": "beef-bean-and-noodle-skillet-granny",
@@ -10086,7 +12274,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 12.4,
+          "carbs_g": 36.5,
+          "protein_g": 18.8,
+          "sodium_mg": 714,
+          "fiber_g": 5.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "celery: used default unit",
+          "noodles: used default unit",
+          "red kidney beans: used default unit",
+          "stewed tomatoes: used default unit",
+          "beef bouillon cube: used default unit"
+        ]
+      }
     },
     {
       "id": "savory-beef-granny",
@@ -10208,7 +12417,27 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 881,
+          "fat_g": 29.1,
+          "carbs_g": 79.4,
+          "protein_g": 72.1,
+          "sodium_mg": 1050,
+          "fiber_g": 4.0,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "round steak: used default unit",
+          "all-purpose flour: used default unit",
+          "mushrooms: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "italian-meat-loaf-granny",
@@ -10328,7 +12557,28 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1216,
+          "fat_g": 49.8,
+          "carbs_g": 120.9,
+          "protein_g": 65.2,
+          "sodium_mg": 2173,
+          "fiber_g": 4.7,
+          "sugar_g": 9.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "ground beef: used default unit",
+          "tomato sauce or tomato puree: used default unit",
+          "soft bread crumbs: used default unit",
+          "garlic: used default unit",
+          "Mozzarella cheese: used default unit"
+        ]
+      }
     },
     {
       "id": "thai-chicken-with-peanut-sauce-granny",
@@ -10351,8 +12601,9 @@
         },
         {
           "item": "creamy peanut butter",
-          "quantity": "2",
-          "unit": "cup"
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "was \"2 cup\" - likely OCR error, corrected"
         },
         {
           "item": "lime juice (or lemon)",
@@ -10415,10 +12666,34 @@
         "quick"
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Peanut butter amount corrected: 2 cups -> 1/4 cup (original likely OCR error)"
+        ]
       },
-      "image_refs": []
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 951,
+          "fat_g": 100.0,
+          "carbs_g": 7.3,
+          "protein_g": 10.7,
+          "sodium_mg": 883,
+          "fiber_g": 0.5,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "oil or cooking spray: used default unit",
+          "lime juice (or lemon): used default unit",
+          "hot water: used default unit",
+          "green onion: used default unit"
+        ]
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
     },
     {
       "id": "honey-wallbanger-cake-granny",
@@ -10488,7 +12763,29 @@
       },
       "image_refs": [
         "199"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 4.9,
+          "carbs_g": 26.9,
+          "protein_g": 3.3,
+          "sodium_mg": 257,
+          "fiber_g": 0.3,
+          "sugar_g": 14.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange cake mix: used default unit",
+          "instant vanilla pudding: used default unit",
+          "oil: used default unit",
+          "Galliano liqueur: used default unit"
+        ]
+      },
+      "servings_yield": "16 servings",
+      "prep_time": "20 minutes"
     }
   ],
   "meta": {

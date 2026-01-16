@@ -1,0 +1,448 @@
+{
+  "meta": {
+    "category": "appetizers",
+    "count": 4
+  },
+  "recipes": [
+    {
+      "id": "easy-guacamole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Guacamole",
+      "category": "appetizers",
+      "source_note": "Publix Aprons recipe card",
+      "description": "Simple and delicious guacamole.",
+      "prep_time": "15 minutes",
+      "total_time": "45 minutes",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "ripe avocados",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "pitted and peeled"
+        },
+        {
+          "item": "small onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "fresh lime juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh cilantro leaves",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "medium tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "coarsely chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place avocados in bowl and sprinkle with lime juice, salt, and pepper; mash with fork until desired texture."
+        },
+        {
+          "step": 2,
+          "text": "Stir remaining ingredients into avocados. Chill 30 minutes for flavors to blend or until ready to serve."
+        }
+      ],
+      "notes": [
+        "Other preparation methods: Bake - Preheat oven to 400\u00b0F. Cut 1 ripe, peeled avocado into 8 wedges; place in baking dish. Coat with 1 tablespoon each: salt, oil and 1/4 teaspoon each: salt, pepper, and red pepper. Bake 20-25 minutes or until edges are golden. Sprinkle with 1 teaspoon fresh lime juice. Sauce: Place 2 ripe, peeled avocados into food processor bowl; add 1 tablespoon fresh lime juice, 1 1/2 cups fresh cilantro, 1/4 cup sour cream, and 1/2 teaspoon total seasoning. Process until smooth. Serve over chicken, beef, or pork."
+      ],
+      "tags": [
+        "appetizer",
+        "dip",
+        "avocado",
+        "guacamole",
+        "mexican"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 118,
+          "fat_g": 9.7,
+          "carbs_g": 8.1,
+          "protein_g": 1.7,
+          "sodium_mg": 104,
+          "fiber_g": 4.9,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "sausage-stuffed-mushrooms-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sausage-Stuffed Mushrooms",
+      "category": "appetizers",
+      "source_note": "My Great Recipes packet",
+      "description": "Large mushroom caps stuffed with seasoned pork sausage.",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "prep_time": "15 minutes",
+      "cook_time": "25-30 minutes",
+      "servings_yield": "16 mushrooms",
+      "ingredients": [
+        {
+          "item": "breakfast-style seasoned pork sausage",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "large white mushrooms",
+          "quantity": "16",
+          "unit": "",
+          "prep_note": "cleaned"
+        },
+        {
+          "item": "salt and black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "chopped parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium bowl, place sausage."
+        },
+        {
+          "step": 2,
+          "text": "Remove stems from mushrooms. Finely chop stems. Mix with sausage. Place mushroom caps on baking pan with top-sides down."
+        },
+        {
+          "step": 3,
+          "text": "Divide sausage mixture into 16 portions. Shape into balls. Place one ball into each mushroom cap."
+        },
+        {
+          "step": 4,
+          "text": "Sprinkle tops lightly with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 400\u00b0F for 15 to 20 minutes until sausage is browned and cooked through."
+        },
+        {
+          "step": 6,
+          "text": "Garnish with parsley. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with: Herbed rice pilaf and a tossed salad to make a light supper.",
+        "Tips: To clean mushrooms, gently rinse in cold water and pat dry.",
+        "Variations: You may substitute bulk Italian or Polish sausage for the breakfast-style sausage. For variety, serve mushrooms on buttered toast or tomato slices."
+      ],
+      "tags": [
+        "appetizer",
+        "mushrooms",
+        "sausage",
+        "stuffed"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 78,
+          "fat_g": 4.2,
+          "carbs_g": 2.0,
+          "protein_g": 8.3,
+          "sodium_mg": 167,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "pizza-horns-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pizza Horns",
+      "category": "appetizers",
+      "prep_time": "30-35 min",
+      "cook_time": "15 min",
+      "servings_yield": "16",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "ingredients": [
+        {
+          "item": "frozen bread dough",
+          "quantity": "2",
+          "unit": "loaves (1 lb each)"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "pizza oregano leaves",
+          "quantity": "1",
+          "unit": "jar (14 oz)",
+          "prep_note": "dried"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "grated Mozzarella",
+          "quantity": "1 1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "minced or chopped"
+        },
+        {
+          "item": "pepperoni",
+          "quantity": "2-3",
+          "unit": "oz",
+          "prep_note": "minced or chopped"
+        },
+        {
+          "item": "lightly beaten oregano",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "white, dried"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "additional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To thaw dough, refrigerate overnight or let stand at room temperature for 2 to 3 hours."
+        },
+        {
+          "step": 2,
+          "text": "On a lightly floured surface, roll each loaf into a 10-inch circle or pat and stretch with hands until 1/4-inch thick. Brush surface with oil."
+        },
+        {
+          "step": 3,
+          "text": "With a pizza cutter or sharp knife, cut each circle into 8 triangular wedges."
+        },
+        {
+          "step": 4,
+          "text": "Combine sauce, oregano and garlic powder. Spread on top of wedges, leaving about 1/4-inch margin on each side."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle with cheeses, green pepper and pepperoni. Roll up, each triangle beginning from wide end. Curve ends to form crescents."
+        },
+        {
+          "step": 6,
+          "text": "Place on lightly oiled baking sheets. Brush tops with egg white. Sprinkle with additional oregano and/or Parmesan cheese."
+        },
+        {
+          "step": 7,
+          "text": "Bake at 450\u00b0F for 15 minutes or until golden brown."
+        }
+      ],
+      "notes": [
+        "Health Note: Using frozen wheat bread dough adds extra nutrition to this recipe. Tips: You may vary the filling according to taste. Try toppings such as mushrooms or onions."
+      ],
+      "tags": [
+        "appetizer",
+        "pizza",
+        "bread",
+        "party food"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 220,
+          "fat_g": 5.5,
+          "carbs_g": 34.6,
+          "protein_g": 8.2,
+          "sodium_mg": 342,
+          "fiber_g": 1.4,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen bread dough: used default unit",
+          "pizza oregano leaves: used default unit",
+          "garlic powder: used default unit",
+          "grated Mozzarella: used default unit",
+          "Parmesan cheese: used default unit",
+          "green pepper: used default unit",
+          "pepperoni: used default unit",
+          "lightly beaten oregano: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "garlic-bean-dip-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Garlic Bean Dip",
+      "category": "appetizers",
+      "attribution": "",
+      "source_note": "Printed recipe card (Hellmann's)",
+      "description": "Creamy white bean dip with garlic and cumin.",
+      "servings_yield": "2 cups",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "cannellini beans",
+          "quantity": "1",
+          "unit": "can (19 oz)",
+          "prep_note": "drained"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4 to 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped fresh parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In food processor combine first 5 ingredients. Process 1 minute, scraping bowl once, or until almost smooth."
+        },
+        {
+          "step": 2,
+          "text": "Blend in mayonnaise and parsley."
+        },
+        {
+          "step": 3,
+          "text": "Serve with Pita Crisps (see recipe on next page), melba toasts or cut-up vegetables."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "appetizer",
+        "dip",
+        "beans",
+        "garlic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 34,
+          "fat_g": 0.6,
+          "carbs_g": 5.2,
+          "protein_g": 2.0,
+          "sodium_mg": 273,
+          "fiber_g": 1.5,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cannellini beans: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
+        ]
+      }
+    }
+  ]
+}

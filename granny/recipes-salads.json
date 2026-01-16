@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "category": "salads",
+    "count": 3
+  },
+  "recipes": [
+    {
+      "id": "lime-coconut-salad-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Lime Coconut in Pineapple",
+      "category": "salads",
+      "description": "A refreshing lime gelatin salad with pineapple and coconut.",
+      "ingredients": [
+        {
+          "item": "lime gelatin (Jello)",
+          "quantity": "1",
+          "unit": "3 oz package"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "drained, reserve juice"
+        },
+        {
+          "item": "pineapple juice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "from drained pineapple"
+        },
+        {
+          "item": "shredded coconut",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cottage cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "[UNCLEAR]"
+        },
+        {
+          "item": "Cool Whip or whipped cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "[UNCLEAR]"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve gelatin in boiling water. Stir until dissolved."
+        },
+        {
+          "step": 2,
+          "text": "Add pineapple juice. Chill until partially set."
+        },
+        {
+          "step": 3,
+          "text": "Fold in drained pineapple and coconut."
+        },
+        {
+          "step": 4,
+          "text": "Add remaining ingredients and mix well."
+        },
+        {
+          "step": 5,
+          "text": "Pour into mold or dish."
+        },
+        {
+          "step": 6,
+          "text": "Refrigerate until firm."
+        }
+      ],
+      "tags": [
+        "salad",
+        "gelatin",
+        "lime",
+        "pineapple",
+        "coconut"
+      ],
+      "image_refs": [
+        "1"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "NEEDS_MANUAL_REVIEW",
+          "handwritten recipe rotated 90\u00b0",
+          "very difficult to read",
+          "title and most ingredients uncertain",
+          "may reference \"Anne Linda\" as source"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 216,
+          "fat_g": 12.2,
+          "carbs_g": 20.0,
+          "protein_g": 8.9,
+          "sodium_mg": 216,
+          "fiber_g": 2.9,
+          "sugar_g": 15.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lime gelatin (Jello): used default unit",
+          "boiling water: used default unit",
+          "crushed pineapple: used default unit",
+          "pineapple juice: used default unit"
+        ]
+      },
+      "servings_yield": "8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "N/A (no cooking)",
+      "total_time": "4 hours (includes chilling)"
+    },
+    {
+      "id": "vegetable-mix-salad-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Vegetable Mix Salad",
+      "category": "salads",
+      "prep_time": "10 min",
+      "cook_time": "1 hr chilling",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "mixed vegetables",
+          "quantity": "1",
+          "unit": "can (16 oz)",
+          "prep_note": "drained"
+        },
+        {
+          "item": "boiled potato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "sliced celery",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped green onion",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "julienne-cut beets or shredded lettuce",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine canned vegetables, potato, celery and onion. Toss lightly."
+        },
+        {
+          "step": 2,
+          "text": "To prepare dressing, in separate bowl, combine mayonnaise, lemon juice, salt and pepper. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Add dressing to vegetables. Toss gently. Cover. Chill for at least 1 hour."
+        },
+        {
+          "step": 4,
+          "text": "On a serving platter or in a bowl, mound salad. Surround with beets. Garnish with parsley."
+        }
+      ],
+      "notes": [
+        "Recipe may be doubled. Tips: To make this dish into a satisfying brunch, add a small can of drained shrimp to salad.",
+        "Good served with: Roast lamb, rice pilaf, glazed carrots, and brownies for dessert."
+      ],
+      "tags": [
+        "salad",
+        "vegetables",
+        "side dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Dressing ingredients were missing from original - added based on instructions"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 97,
+          "fat_g": 0.3,
+          "carbs_g": 20.4,
+          "protein_g": 4.0,
+          "sodium_mg": 15,
+          "fiber_g": 4.2,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mixed vegetables: used default unit",
+          "sliced celery: used default unit",
+          "chopped green onion: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "garden-leaf-salad-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Garden Leaf Salad",
+      "category": "salads",
+      "prep_time": "10 min",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "Butterhead lettuce",
+          "quantity": "1",
+          "unit": "head"
+        },
+        {
+          "item": "radishes",
+          "quantity": "1",
+          "unit": "bunch",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "hard-boiled, chopped"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "[DRESSING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red wine vinegar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare dressing, in a small bowl, whisk together all ingredients. Blend well. Cover bowl with plastic wrap. Chill."
+        },
+        {
+          "step": 2,
+          "text": "Gently tear lettuce. Place in a large serving bowl. Add radishes and eggs."
+        },
+        {
+          "step": 3,
+          "text": "Pour dressing over salad. Toss. Season with pepper, if desired."
+        }
+      ],
+      "notes": [
+        "For best flavor, serve this salad slightly chilled. Any member of the Butterhead lettuce family is fine for this recipe. Varieties include Bibb, Boston and Buttercrunch. Recipe may be halved or doubled."
+      ],
+      "tags": [
+        "salad",
+        "lettuce",
+        "eggs",
+        "simple"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Dressing ingredients were missing - added standard vinaigrette"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 467,
+          "fat_g": 49.8,
+          "carbs_g": 1.7,
+          "protein_g": 5.2,
+          "sodium_mg": 386,
+          "fiber_g": 0.7,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Butterhead lettuce: used default unit",
+          "radishes: used default unit"
+        ]
+      },
+      "cook_time": "N/A (no cooking)"
+    }
+  ]
+}

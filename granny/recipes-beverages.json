@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "category": "beverages",
+    "count": 1
+  },
+  "recipes": [
+    {
+      "id": "homemade-ice-cream-sodas-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Homemade Ice Cream Sodas",
+      "category": "beverages",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Five classic ice cream soda variations including black and white, coffee, lemon, and fruity.",
+      "servings_yield": "1 serving each",
+      "prep_time": "10 minutes",
+      "cook_time": "",
+      "total_time": "10 minutes",
+      "ingredients": [
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chocolate syrup",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla ice cream",
+          "quantity": "1",
+          "unit": "scoop",
+          "prep_note": ""
+        },
+        {
+          "item": "chilled soda water",
+          "quantity": "",
+          "unit": "to fill",
+          "prep_note": ""
+        },
+        {
+          "item": "chocolate curls",
+          "quantity": "",
+          "unit": "for garnish",
+          "prep_note": ""
+        },
+        {
+          "item": "Coffee Syrup (see below)",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen lemonade concentrate",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen strawberries",
+          "quantity": "1",
+          "unit": "pkg (10 oz.)",
+          "prep_note": "sweetened, thawed, pureed"
+        },
+        {
+          "item": "raspberries or peaches",
+          "quantity": "",
+          "unit": "thawed, pureed",
+          "prep_note": ""
+        },
+        {
+          "item": "instant coffee",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "light corn syrup",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Black and White Ice Cream Soda: In tall glass, pour milk. Top with syrup and a scoop of ice cream. Fill with soda water. Garnish with chocolate curls."
+        },
+        {
+          "step": 2,
+          "text": "Coffee Ice Cream Soda: In tall glass, pour milk. Add syrup and a scoop of ice cream. Fill with soda water."
+        },
+        {
+          "step": 3,
+          "text": "Lemon Ice Cream Soda: In tall glass, pour milk and lemonade. Add a scoop of ice cream. Fill with soda water."
+        },
+        {
+          "step": 4,
+          "text": "Fruity Ice Cream Soda: In tall glass, place fruit puree, milk and a scoop of ice cream. Fill with soda water."
+        },
+        {
+          "step": 5,
+          "text": "Coffee Syrup: In sauce pan, mix 1 cup granulated sugar, 1 cup light corn syrup and 1 1/2 cups water. Bring to a boil, stirring constantly. Remove from heat. Stir in 1/4 cup instant coffee and 1 teaspoon vanilla extract. Keep refrigerated."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "tall glasses",
+      "notes": [],
+      "tags": [
+        "beverage",
+        "ice cream",
+        "soda",
+        "dessert"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 1,
+        "per_serving": {
+          "calories": 3745,
+          "fat_g": 38.9,
+          "carbs_g": 890.0,
+          "protein_g": 10.6,
+          "sodium_mg": 742,
+          "fiber_g": 13.0,
+          "sugar_g": 709.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chocolate syrup: used default unit",
+          "vanilla ice cream: used default unit",
+          "chilled soda water: used default unit",
+          "chocolate curls: used default unit",
+          "Coffee Syrup (see below): used default unit",
+          "frozen lemonade concentrate: used default unit",
+          "frozen strawberries: used default unit",
+          "raspberries or peaches: used default unit",
+          "light corn syrup: used default unit"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4901 @@
+{
+  "meta": {
+    "category": "desserts",
+    "count": 38
+  },
+  "recipes": [
+    {
+      "id": "no-regrets-cheesecake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "\"No Regrets\" Cheesecake",
+      "category": "desserts",
+      "source_note": "Publix recipe card",
+      "description": "A creamy cheesecake from Publix.",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "16",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "graham cracker crust",
+          "quantity": "1",
+          "unit": "9-inch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat cream cheese until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Add sugar and beat until fluffy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs one at a time, beating well after each."
+        },
+        {
+          "step": 4,
+          "text": "Stir in vanilla."
+        },
+        {
+          "step": 5,
+          "text": "Pour into graham cracker crust."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 40 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Cool and refrigerate before serving."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "cheesecake",
+        "cream cheese"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "partial view of recipe card"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 17.2,
+          "carbs_g": 23.3,
+          "protein_g": 4.3,
+          "sodium_mg": 174,
+          "fiber_g": 0.2,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "graham cracker crust: used default unit"
+        ]
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
+    },
+    {
+      "id": "quakers-best-oatmeal-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quaker's Best Oatmeal Cookies",
+      "category": "desserts",
+      "source_note": "Quaker Oats container lid",
+      "description": "Classic oatmeal cookies from the Quaker Oats recipe.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "8-9 minutes",
+      "servings_yield": "About 5 dozen cookies",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "firmly packed brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Quaker Oats",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "quick or old fashioned, uncooked"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oven to 350\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter and sugars until creamy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and vanilla; beat well."
+        },
+        {
+          "step": 4,
+          "text": "Add combined flour, baking soda, cinnamon and salt; mix well."
+        },
+        {
+          "step": 5,
+          "text": "Stir in oats; mix well."
+        },
+        {
+          "step": 6,
+          "text": "Drop by rounded tablespoonfuls onto ungreased cookie sheet."
+        },
+        {
+          "step": 7,
+          "text": "Bake 8 to 9 minutes for a chewy cookie or 10 to 11 minutes for a crisp cookie."
+        },
+        {
+          "step": 8,
+          "text": "Cool 1 minute on cookie sheet; remove to wire rack."
+        }
+      ],
+      "notes": [
+        "Add 1 cup raisins, chocolate chips, or chopped nuts if desired."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "oatmeal",
+        "classic"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 140,
+          "fat_g": 7.0,
+          "carbs_g": 18.0,
+          "protein_g": 1.9,
+          "sodium_mg": 129,
+          "fiber_g": 0.9,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "Quaker Oats: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "buttercups-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Buttercups",
+      "category": "desserts",
+      "description": "Individual pie crust cups filled with a sweet coconut filling.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "20 minutes",
+      "ingredients": [
+        {
+          "item": "egg yolks",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Maraschino cherries",
+          "quantity": "1",
+          "unit": "8 oz jar",
+          "prep_note": "cut into quarters"
+        },
+        {
+          "item": "almond extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "grated coconut",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "pie crust",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "ready made or homemade"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix sugar and margarine. Cream. Add rest of ingredients. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "For ready made pie crust, roll the crust out like you would a pie using 7 by 11 pan. Put crust in bottom, then spread filling over top of crust."
+        },
+        {
+          "step": 3,
+          "text": "Take next crust, repeat by rolling dough to fit over top of filling. Cut off all remaining pie crust on side just leaving crust to cover all the filling. With fork pierce top, brush with milk."
+        },
+        {
+          "step": 4,
+          "text": "Oven 350 for 20 minutes or until golden brown."
+        },
+        {
+          "step": 5,
+          "text": "Cool. Sprinkle with confectionary sugar. Cut into squares."
+        }
+      ],
+      "notes": [
+        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together."
+      ],
+      "tags": [
+        "dessert",
+        "pie",
+        "coconut",
+        "cherry"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 390,
+          "fat_g": 14.6,
+          "carbs_g": 57.9,
+          "protein_g": 6.8,
+          "sodium_mg": 119,
+          "fiber_g": 1.4,
+          "sugar_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Maraschino cherries: used default unit",
+          "flour: used default unit"
+        ]
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "carrot-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Carrot Cake",
+      "category": "desserts",
+      "description": "Classic carrot cake with cream cheese frosting.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "large"
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "grated"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "for frosting, softened"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "for frosting, softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "for frosting"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "for frosting"
+        },
+        {
+          "item": "chopped pecans",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix flour, sugar, baking soda, cinnamon and salt."
+        },
+        {
+          "step": 2,
+          "text": "Add oil and eggs. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Fold in grated carrots and pecans if using."
+        },
+        {
+          "step": 4,
+          "text": "Pour into greased 9x13 pan or two 9-inch round pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F until toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "For frosting: Beat cream cheese and butter until smooth. Add powdered sugar and vanilla. Beat until fluffy."
+        },
+        {
+          "step": 7,
+          "text": "Frost cooled cake."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "carrot",
+        "cream cheese frosting"
+      ],
+      "image_refs": [
+        "18"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten recipe, some details unclear"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 479,
+          "fat_g": 23.5,
+          "carbs_g": 63.0,
+          "protein_g": 6.6,
+          "sodium_mg": 548,
+          "fiber_g": 1.9,
+          "sugar_g": 44.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "sugar: used default unit",
+          "vegetable oil: used default unit",
+          "carrots: used default unit",
+          "powdered sugar: used default unit"
+        ]
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
+    },
+    {
+      "id": "dump-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Dump Cake",
+      "category": "desserts",
+      "description": "A simple layered dessert - just dump the ingredients in order and bake!",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "11 x 9 x 2 inch pan",
+      "ingredients": [
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "can (20 oz)",
+          "prep_note": "do not drain"
+        },
+        {
+          "item": "sweetened flaked coconut",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cherry pie filling",
+          "quantity": "1",
+          "unit": "20 oz can"
+        },
+        {
+          "item": "yellow or white cake mix",
+          "quantity": "1",
+          "unit": "box",
+          "prep_note": "dry, do not prepare"
+        },
+        {
+          "item": "pecans",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "halves or pieces"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1-1/2",
+          "unit": "sticks",
+          "prep_note": "sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Do NOT grease pan."
+        },
+        {
+          "step": 2,
+          "text": "Dump pineapple (with juice) into bottom of pan and spread."
+        },
+        {
+          "step": 3,
+          "text": "Spread coconut across the pineapple layer."
+        },
+        {
+          "step": 4,
+          "text": "Spread cherry pie filling over coconut."
+        },
+        {
+          "step": 5,
+          "text": "Sprinkle dry cake mix evenly over the top."
+        },
+        {
+          "step": 6,
+          "text": "Scatter pecans over cake mix."
+        },
+        {
+          "step": 7,
+          "text": "Slice butter into squares and place over top of mix."
+        },
+        {
+          "step": 8,
+          "text": "Bake at 350\u00b0F until golden brown on top."
+        }
+      ],
+      "notes": [
+        "Do not stir layers - just dump and spread each one."
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "easy",
+        "dump cake",
+        "no-mix"
+      ],
+      "image_refs": [
+        "33"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 337,
+          "fat_g": 23.0,
+          "carbs_g": 32.2,
+          "protein_g": 2.7,
+          "sodium_mg": 315,
+          "fiber_g": 2.3,
+          "sugar_g": 17.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "crushed pineapple: used default unit",
+          "coconut: used default unit",
+          "cherry pie filling: used default unit",
+          "yellow or white cake mix: used default unit",
+          "butter or margarine: used default unit"
+        ]
+      },
+      "servings_yield": "12-15 servings",
+      "cook_time": "45-55 minutes",
+      "prep_time": "10 minutes"
+    },
+    {
+      "id": "pumpkin-sheet-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin Sheet Cookies",
+      "category": "desserts",
+      "description": "Soft pumpkin cookies baked in a sheet pan with cream cheese frosting.",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "[UNCLEAR - could be 'plain flour']"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pumpkin pie spice",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "yellow cake mix",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "[UNCLEAR - possibly 'lg' or '#9' pkg]"
+        },
+        {
+          "item": "evaporated milk or Crisco",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "[UNCLEAR - 'evic']"
+        },
+        {
+          "item": "dark brown sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "egg white",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten, for brushing tops [UNCLEAR]"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "optional"
+        },
+        {
+          "item": "maple candy",
+          "quantity": "3/4",
+          "unit": "",
+          "prep_note": "grated [UNCLEAR]"
+        },
+        {
+          "item": "orange rind",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "grated [UNCLEAR quantity]"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "orange zest",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix pumpkin, sugar, salt, pumpkin pie spice, oil, and eggs."
+        },
+        {
+          "step": 2,
+          "text": "Add dry cake mix and vanilla. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Fold in nuts if using."
+        },
+        {
+          "step": 4,
+          "text": "Spread in greased sheet pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake until done."
+        },
+        {
+          "step": 6,
+          "text": "For frosting: Beat cream cheese and butter until smooth."
+        },
+        {
+          "step": 7,
+          "text": "Add powdered sugar and orange zest. Beat until fluffy."
+        },
+        {
+          "step": 8,
+          "text": "Frost cooled cookies. Cut into squares."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "pumpkin",
+        "sheet pan",
+        "cream cheese frosting"
+      ],
+      "image_refs": [
+        "2"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "NEEDS_MANUAL_REVIEW",
+          "handwritten recipe rotated 90\u00b0",
+          "multiple ingredients marked [UNCLEAR]",
+          "previous extraction had significant errors",
+          "Frosting ingredients were missing - added standard cream cheese frosting"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 145,
+          "fat_g": 5.5,
+          "carbs_g": 21.4,
+          "protein_g": 2.6,
+          "sodium_mg": 189,
+          "fiber_g": 0.6,
+          "sugar_g": 10.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pumpkin pie spice: used default unit",
+          "yellow cake mix: used default unit"
+        ]
+      },
+      "servings_yield": "24 cookies",
+      "prep_time": "20 minutes",
+      "cook_time": "25-30 minutes",
+      "temperature": "350\u00b0F (175\u00b0C)"
+    },
+    {
+      "id": "pound-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pound Cake",
+      "category": "desserts",
+      "description": "Classic Southern pound cake with sour cream.",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "cook_time": "1-1/2 hours",
+      "pan_size": "tube or bundt pan",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "sticks",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grease and flour tube pan."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugar until light and fluffy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs one at a time, beating well after each."
+        },
+        {
+          "step": 4,
+          "text": "Sift flour with baking powder."
+        },
+        {
+          "step": 5,
+          "text": "Add flour mixture alternately with sour cream, beginning and ending with flour."
+        },
+        {
+          "step": 6,
+          "text": "Stir in vanilla."
+        },
+        {
+          "step": 7,
+          "text": "Pour into prepared pan."
+        },
+        {
+          "step": 8,
+          "text": "Bake at 325\u00b0F for 1-1/2 hours or until toothpick comes out clean."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "pound cake",
+        "southern"
+      ],
+      "image_refs": [
+        "5"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten recipe",
+          "some measurements estimated"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 653,
+          "fat_g": 37.1,
+          "carbs_g": 74.7,
+          "protein_g": 7.1,
+          "sodium_mg": 271,
+          "fiber_g": 0.8,
+          "sugar_g": 50.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter: used default unit",
+          "sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      },
+      "servings_yield": "12-16 servings",
+      "prep_time": "20 minutes"
+    },
+    {
+      "id": "banana-pudding-bobby-jones-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Banana Pudding (Bobby Jones)",
+      "category": "desserts",
+      "description": "Classic Southern banana pudding with vanilla wafers and whipped cream.",
+      "ingredients": [
+        {
+          "item": "vanilla instant pudding",
+          "quantity": "2",
+          "unit": "boxes"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "16",
+          "unit": "oz"
+        },
+        {
+          "item": "whipped cream",
+          "quantity": "12",
+          "unit": "oz",
+          "prep_note": "fold in"
+        },
+        {
+          "item": "bananas",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced, fold in"
+        },
+        {
+          "item": "vanilla wafers",
+          "quantity": "1",
+          "unit": "box",
+          "prep_note": "fold in"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dump in bowl with 2 cups milk, beat to firm."
+        },
+        {
+          "step": 2,
+          "text": "Fold in sour cream."
+        },
+        {
+          "step": 3,
+          "text": "Fold in whipped cream."
+        },
+        {
+          "step": 4,
+          "text": "Fold in sliced bananas."
+        },
+        {
+          "step": 5,
+          "text": "Fold in vanilla wafers."
+        },
+        {
+          "step": 6,
+          "text": "Refrigerate until ready to serve."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "pudding",
+        "banana",
+        "southern"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
+          "fiber_g": 0.8,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vanilla instant pudding: used default unit",
+          "milk: used default unit",
+          "sour cream: used default unit",
+          "whipped cream: used default unit",
+          "vanilla wafers: used default unit"
+        ]
+      },
+      "servings_yield": "10-12 servings",
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "angel-delight-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Angel Delight",
+      "category": "desserts",
+      "description": "A layered dessert with angel food cake, strawberries, and Jello.",
+      "pan_size": "13x9 inch dish",
+      "ingredients": [
+        {
+          "item": "angel food cake",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into small squares"
+        },
+        {
+          "item": "fresh strawberries",
+          "quantity": "1",
+          "unit": "quart",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Cool Whip",
+          "quantity": "1",
+          "unit": "small container"
+        },
+        {
+          "item": "strawberry Jello",
+          "quantity": "1",
+          "unit": "large box"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix Jello as directed on box."
+        },
+        {
+          "step": 2,
+          "text": "Put angel food cake squares in bottom of 13x9 dish."
+        },
+        {
+          "step": 3,
+          "text": "Layer strawberries over cake."
+        },
+        {
+          "step": 4,
+          "text": "Pour Jello over entire cake and strawberries."
+        },
+        {
+          "step": 5,
+          "text": "Cover with foil, put in refrigerator until set."
+        },
+        {
+          "step": 6,
+          "text": "When ready to serve, put Cool Whip over dish. Cut into squares."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "angel food cake",
+        "strawberry",
+        "jello",
+        "no-bake"
+      ],
+      "image_refs": [
+        "74"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 50,
+          "fat_g": 1.8,
+          "carbs_g": 8.1,
+          "protein_g": 0.8,
+          "sodium_mg": 44,
+          "fiber_g": 0.4,
+          "sugar_g": 6.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh strawberries: used default unit",
+          "Cool Whip: used default unit",
+          "strawberry Jello: used default unit"
+        ]
+      },
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "N/A (no-bake)"
+    },
+    {
+      "id": "praline-lace-sundaes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Praline Lace Sundaes",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Crispy lace cookies shaped into cups and filled with ice cream and praline sauce.",
+      "servings_yield": "6 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "12 minutes",
+      "total_time": "27 minutes",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "molasses",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "grated orange rind",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla ice cream",
+          "quantity": "1/2",
+          "unit": "pint",
+          "prep_note": ""
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "half-and-half",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "white corn syrup",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pecans",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a saucepan, combine butter, sugar, molasses, cinnamon and orange rind. Bring to a boil."
+        },
+        {
+          "step": 2,
+          "text": "Remove from heat. Stir in flour. Mix until smooth."
+        },
+        {
+          "step": 3,
+          "text": "On a large ungreased cookie sheet, drop mixture by tablespoon, making only 2 at a time to allow for spacing."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 325\u00b0F for 12 minutes or until a rich brown. Let cool for 30 to 60 seconds until mixture holds together when moved with spatula. Loosen and place over custard cups. Press gently to mold. Repeat with remaining mixture."
+        },
+        {
+          "step": 5,
+          "text": "To make sauce, combine all ingredients in a saucepan. Bring to a boil. Cook 3 minutes or until thickened."
+        },
+        {
+          "step": 6,
+          "text": "Place one scoop ice cream into each cooled cup. Drizzle with hot sauce."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "",
+      "notes": [
+        "Cups may be made ahead of time. Store in an airtight tin until ready to serve. Sauce may also be made ahead and reheated",
+        "Variations: Use lemon sherbet, coffee-flavored or butter-pecan ice cream"
+      ],
+      "tags": [
+        "dessert",
+        "ice cream",
+        "cookies",
+        "praline"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 808,
+          "fat_g": 17.5,
+          "carbs_g": 148.7,
+          "protein_g": 13.9,
+          "sodium_mg": 100,
+          "fiber_g": 3.6,
+          "sugar_g": 49.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "grated orange rind: used default unit",
+          "all-purpose flour: used default unit",
+          "vanilla ice cream: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "alans-basic-flan-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Alan's Basic Flan",
+      "category": "desserts",
+      "attribution": "Alan",
+      "source_note": "My Great Recipes card",
+      "description": "Classic caramelized custard flan with vanilla.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "45-50 minutes",
+      "total_time": "2 hours (includes cooling)",
+      "ingredients": [
+        {
+          "item": "granulated sugar (caramelized)",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "half-and-half",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla bean",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "split"
+        },
+        {
+          "item": "rum",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare caramelized sugar, in a heavy saucepan, mix sugar and water. Cook over medium-high heat until dark golden in color, 10 to 12 minutes. Mixture should not exceed 340\u00b0F on candy thermometer. Remove from heat. Carefully swirl into a 9 1/2-by-2 1/2-inch 5-cup ring mold."
+        },
+        {
+          "step": 2,
+          "text": "In a 2 1/2-quart saucepan, add milk, half-and-half, cream and vanilla bean. Bring to a boil. Remove from heat. Cool 5 minutes, whisking frequently."
+        },
+        {
+          "step": 3,
+          "text": "In a large stainless steel or glass bowl, whisk eggs lightly. Gradually whisk in sugar."
+        },
+        {
+          "step": 4,
+          "text": "Very slowly add milk mixture to egg mixture, beating continuously."
+        },
+        {
+          "step": 5,
+          "text": "Add vanilla and rum. Mix. Remove beans. Pour into mold. Place in a roasting pan. Fill pan with water 1/2-inch deep."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 325\u00b0F for 45 to 50 minutes. To test for doneness, stick a knife in center. If it comes out clean, flan is done."
+        },
+        {
+          "step": 7,
+          "text": "Remove mold from pan. Spoon remaining caramelized sugar over top. Cool. Chill 1 1/2 to 2 hours."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "9 1/2-by-2 1/2-inch 5-cup ring mold",
+      "notes": [
+        "Use a candy thermometer when cooking the caramelized sugar. If it cooks too hot or too long it will turn brown and have a burnt flavor"
+      ],
+      "tags": [
+        "dessert",
+        "custard",
+        "flan",
+        "caramel"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 374,
+          "fat_g": 15.6,
+          "carbs_g": 49.5,
+          "protein_g": 9.9,
+          "sodium_mg": 293,
+          "fiber_g": 0.7,
+          "sugar_g": 33.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "water: used default unit",
+          "milk: used default unit",
+          "half-and-half: used default unit",
+          "rum: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "black-cherry-tart-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Black Cherry Tart",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Elegant cherry tart with cream cheese and graham cracker crust.",
+      "servings_yield": "9 servings",
+      "prep_time": "35 minutes",
+      "cook_time": "15 minutes",
+      "total_time": "4-5 hours (includes chilling)",
+      "ingredients": [
+        {
+          "item": "soft cream cheese",
+          "quantity": "1",
+          "unit": "pkg (8 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "1-2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Bing cherries",
+          "quantity": "1",
+          "unit": "can (15 oz.)",
+          "prep_note": "drained, liquid reserved"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red currant jelly",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "graham cracker crumbs",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ground almonds",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine cracker crumbs, almonds and cinnamon. Stir in butter. Evenly press mixture into the bottom of an 8-inch tart pan with removable bottom. Bake at 300\u00b0F for 15 minutes. Cool."
+        },
+        {
+          "step": 2,
+          "text": "Beat together cream cheese and honey. Spread evenly over crust."
+        },
+        {
+          "step": 3,
+          "text": "Cut cherries in half. Arrange, cut-side down, on cheese layer."
+        },
+        {
+          "step": 4,
+          "text": "In a saucepan, combine 8 tablespoons cherry liquid and cornstarch. Stir in jelly and lemon juice until well combined."
+        },
+        {
+          "step": 5,
+          "text": "Bring to a boil over low heat, stirring constantly. Reduce heat. Simmer 2 minutes longer or until thickened."
+        },
+        {
+          "step": 6,
+          "text": "Spoon hot glaze over cherries to cover completely. Chill 2 to 4 hours."
+        }
+      ],
+      "temperature": "300\u00b0F (150\u00b0C)",
+      "pan_size": "8-inch tart pan",
+      "notes": [
+        "If you need to save time, you may purchase a pre-made graham cracker crust and use canned cherry pie filling to cover the cream cheese layer. For a more spirited flavor, add 1 to 2 tablespoons Kirsch to the glaze"
+      ],
+      "tags": [
+        "dessert",
+        "tart",
+        "cherry",
+        "cream cheese"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 301,
+          "fat_g": 22.9,
+          "carbs_g": 19.8,
+          "protein_g": 8.9,
+          "sodium_mg": 92,
+          "fiber_g": 4.7,
+          "sugar_g": 8.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "soft cream cheese: used default unit",
+          "Bing cherries: used default unit",
+          "cornstarch: used default unit",
+          "graham cracker crumbs: used default unit",
+          "ground almonds: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "banana-chocolate-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Banana Chocolate Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
+      "servings_yield": "8 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "35 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {
+          "item": "[CAKE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for cake"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Dutch-process cocoa powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted cake flour",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe bananas",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "mashed, for cake"
+        },
+        {
+          "item": "[FROSTING]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "6",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "3-3 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "ripe banana",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "mashed, for frosting"
+        },
+        {
+          "item": "banana extract",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare frosting, cream butter until light. Blend in 1 cup powdered sugar mixture into mashed banana. Gradually add enough powdered sugar until of spreading consistency. Add banana extract. Blend well. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In bowl, cream shortening and sugar. Beat in eggs, one at a time."
+        },
+        {
+          "step": 3,
+          "text": "Mix cocoa with hot water. Blend into creamed mixture."
+        },
+        {
+          "step": 4,
+          "text": "Sift together flour, soda and salt. Alternately add dry ingredients and mashed bananas to creamed mixture."
+        },
+        {
+          "step": 5,
+          "text": "Turn batter into 2 greased 8-inch square pans lined with waxed paper."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 375\u00b0F for 35 minutes or until tester comes out clean and cake pulls from sides of pan. Cool completely. Layer."
+        },
+        {
+          "step": 7,
+          "text": "Frost tops of each layer."
+        },
+        {
+          "step": 8,
+          "text": "Cut into squares."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "8-inch square pans",
+      "notes": [
+        "For best results, use very soft, ripe bananas; gently mash them with a fork"
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "banana"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Sugar amount added (was missing)",
+          "Bananas clarified: 2 for cake, 1 for frosting",
+          "Cook time corrected to 35 min (was inconsistent)"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 626,
+          "fat_g": 23.1,
+          "carbs_g": 103.4,
+          "protein_g": 4.1,
+          "sodium_mg": 237,
+          "fiber_g": 1.5,
+          "sugar_g": 84.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sifted cake flour: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "white-chocolate-chunk-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "White Chocolate Chunk Cookies",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Buttery cookies studded with white chocolate chunks and walnuts.",
+      "servings_yield": "42 cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "8-10 minutes",
+      "total_time": "25 minutes",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 3/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "white chocolate",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "chopped (about 1 cup)"
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine flour, baking soda and salt."
+        },
+        {
+          "step": 2,
+          "text": "In a large mixing bowl, cream together butter and sugars until smooth. Add vanilla and egg. Beat until light."
+        },
+        {
+          "step": 3,
+          "text": "Add flour mixture, chopped chocolate and walnuts. Blend well."
+        },
+        {
+          "step": 4,
+          "text": "Shape cookies by rounded teaspoonfuls onto ungreased baking sheets."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 375\u00b0F for 8 to 10 minutes until golden."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "baking sheets",
+      "notes": [
+        "These cookies are also delicious made with semisweet or milk chocolate chips"
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "white chocolate",
+        "walnuts"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 21,
+        "per_serving": {
+          "calories": 162,
+          "fat_g": 9.1,
+          "carbs_g": 18.1,
+          "protein_g": 2.2,
+          "sodium_mg": 66,
+          "fiber_g": 1.0,
+          "sugar_g": 9.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "old-fashioned-butter-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Old-Fashioned Butter Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Classic dense, moist butter cake made with buttermilk.",
+      "servings_yield": "12 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "1.5 hours",
+      "total_time": "1 hour 40 minutes",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl, beat together butter and sugar until fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Beat in vanilla. One at a time, add eggs, beating well after each addition."
+        },
+        {
+          "step": 3,
+          "text": "In a separate bowl, combine flour, baking soda and salt. Alternately with buttermilk, add to batter, beginning and ending with flour mixture."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into a buttered, floured 8-cup fluted pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for about 1 1/2 hours until tester inserted in center comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Allow cake to stand 5 minutes. Remove from pan. Finish cooling on rack."
+        },
+        {
+          "step": 7,
+          "text": "Dust with powdered sugar."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "8-cup fluted pan (bundt)",
+      "notes": [
+        "To easily cream together butter and sugar, use a wooden spoon to press the beat or mixture until the sides of the bowl. Do not overbeat or mixture will curdle and cake will be tough",
+        "Good served with hot chocolate, coffee or tea and a scoop of butter-pecan ice cream"
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "butter",
+        "buttermilk"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 604,
+          "fat_g": 32.6,
+          "carbs_g": 73.9,
+          "protein_g": 5.6,
+          "sodium_mg": 340,
+          "fiber_g": 0.8,
+          "sugar_g": 50.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "melting-moments-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Melting Moments",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Delicate butter cookies that melt in your mouth, topped with cream cheese icing.",
+      "servings_yield": "24 cookies",
+      "prep_time": "20 minutes",
+      "cook_time": "10-12 minutes",
+      "total_time": "1 hour (includes chilling)",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "unsifted cornstarch",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unsifted powdered sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "",
+          "unit": "for garnish",
+          "prep_note": ""
+        },
+        {
+          "item": "soft cream cheese",
+          "quantity": "1",
+          "unit": "pkg (3 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "unsifted powdered sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "red or green food coloring",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a mixing bowl, beat butter at low speed until creamy. Slowly add cornstarch and powdered sugar. Turn speed to medium-high. Beat until fluffy."
+        },
+        {
+          "step": 2,
+          "text": "With wooden spoon, stir in flour. Dough should be quite soft."
+        },
+        {
+          "step": 3,
+          "text": "Cover. Chill for 45 minutes."
+        },
+        {
+          "step": 4,
+          "text": "To prepare frosting, blend cream cheese with powdered sugar until creamy and smooth. Mixture will be stiff. Mix in vanilla. Add a few drops of food coloring. Mix well."
+        },
+        {
+          "step": 5,
+          "text": "Roll dough into 24 1-inch balls. Place 1 1/2 inches apart on ungreased cookie sheets. With finger, press a slight indentation on the top of each cookie."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 10-12 minutes until cookies feel firm but are not browned."
+        },
+        {
+          "step": 7,
+          "text": "Cool. Top each cookie with a spoonful of icing. Garnish with sliced almonds."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "cookie sheets",
+      "notes": [
+        "Stir dry ingredients after measuring. In place of the vanilla extract, almond or peppermint may be used. The dough may be prepared one day in advance and refrigerated. Bring to room temperature before shaping cookies"
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "butter"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 346,
+          "fat_g": 22.4,
+          "carbs_g": 34.4,
+          "protein_g": 4.2,
+          "sodium_mg": 116,
+          "fiber_g": 1.8,
+          "sugar_g": 23.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sliced almonds: used default unit",
+          "soft cream cheese: used default unit",
+          "red or green food coloring: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pineapple-dream-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pineapple Dream Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Light and fluffy cake with pineapple and whipped cream frosting.",
+      "servings_yield": "10 servings",
+      "prep_time": "35 minutes",
+      "cook_time": "20-25 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "butter cake",
+          "quantity": "1",
+          "unit": "layer (18.5 oz.)",
+          "prep_note": "recipe golden cake mix"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "oil",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "mandarin orange slices",
+          "quantity": "1",
+          "unit": "can (11 oz.)",
+          "prep_note": "with juice"
+        },
+        {
+          "item": "vanilla instant pudding mix",
+          "quantity": "1",
+          "unit": "pkg (3 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "crushed pineapple",
+          "quantity": "1",
+          "unit": "can (17 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "non-dairy whipped topping",
+          "quantity": "1",
+          "unit": "carton (12 oz.)",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Line 9-inch cake pans with foil."
+        },
+        {
+          "step": 2,
+          "text": "In a large mixing bowl, beat all cake ingredients at medium speed for 4 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350\u00b0F for 20 to 25 minutes until cake tester comes out clean and cake pulls from sides of pan. Cool completely."
+        },
+        {
+          "step": 4,
+          "text": "Invert one layer on flat plate or cake platter. Peel off foil."
+        },
+        {
+          "step": 5,
+          "text": "To prepare icing, in small mixing bowl, beat pudding mix, pineapple until thick, in a large spoon whipped non-dairy topping. Fold in pineapple mixture."
+        },
+        {
+          "step": 6,
+          "text": "Ice top of each cake. Layer. Ice sides. Refrigerate cake until ready to serve."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "9-inch cake pans",
+      "notes": [
+        "Be sure to line cake pans with foil and grease well as the batter will be very greasy. This cake freezes well. For a special occasion, use another 11 oz. can mandarin oranges to decorate. Be sure cake is well drained and dried before using"
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "pineapple",
+        "mandarin"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 10,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 23.2,
+          "carbs_g": 6.3,
+          "protein_g": 2.9,
+          "sodium_mg": 160,
+          "fiber_g": 0.6,
+          "sugar_g": 4.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter cake: used default unit",
+          "oil: used default unit",
+          "mandarin orange slices: used default unit",
+          "vanilla instant pudding mix: used default unit",
+          "crushed pineapple: used default unit",
+          "non-dairy whipped topping: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "fruit-pie-in-cookie-crust-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fruit Pie in Cookie Crust",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Fresh fruit pie with a sweet cookie-style crust.",
+      "servings_yield": "8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "10 minutes",
+      "total_time": "5 hours (includes chilling)",
+      "ingredients": [
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cornstarch",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "apple juice",
+          "quantity": "1 1/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "grated lemon rind",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "diced fresh sliced or assorted fruit",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolk",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare crust, in a bowl, combine butter, sugar and egg yolk. Mix well. Add flour. With hands, work until blended. Press dough firmly on bottom and sides of a 9-inch pie pan. Bake at 400\u00b0F for 10 minutes or until edges brown. Cool."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy saucepan, combine sugar, cornstarch and salt."
+        },
+        {
+          "step": 3,
+          "text": "Gradually stir in apple juice. Bring to boil over medium heat. Cook, stirring, for 1 minute. Remove from heat."
+        },
+        {
+          "step": 4,
+          "text": "Stir in lemon rind and lemon juice."
+        },
+        {
+          "step": 5,
+          "text": "Gently fold in fruit. Turn into cookie crust. Chill for 4 to 5 hours until firm enough to cut."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "pan_size": "9-inch pie pan",
+      "notes": [
+        "Sliced or diced fresh apples, pears, strawberries, grapes, bananas and drained orange sections all work well in this recipe",
+        "Good served with a scoop of vanilla ice cream"
+      ],
+      "tags": [
+        "dessert",
+        "pie",
+        "fruit"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 315,
+          "fat_g": 7.5,
+          "carbs_g": 60.9,
+          "protein_g": 5.2,
+          "sodium_mg": 96,
+          "fiber_g": 4.7,
+          "sugar_g": 34.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cornstarch: used default unit",
+          "apple juice: used default unit",
+          "grated lemon rind: used default unit",
+          "lemon juice: used default unit",
+          "diced fresh sliced or assorted fruit: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "walnut-chocolate-fudge-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Walnut Chocolate Fudge",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Rich chocolate fudge made with apple juice and topped with walnuts.",
+      "servings_yield": "3 lbs",
+      "prep_time": "15-20 minutes",
+      "cook_time": "",
+      "total_time": "20 minutes plus chilling",
+      "ingredients": [
+        {
+          "item": "granulated sugar",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "apple juice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "semisweet chocolate pieces",
+          "quantity": "1",
+          "unit": "pkg (12 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "coarsely chopped walnuts",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 3-quart saucepan, combine sugar, water and apple juice. Over medium heat, cook, stirring until sugar is dissolved."
+        },
+        {
+          "step": 2,
+          "text": "Cook until syrup reaches soft-ball stage, 234\u00b0F."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Whisk in chocolate. Blend well. Stir in walnuts."
+        },
+        {
+          "step": 4,
+          "text": "Spread mixture in foil-lined baking pan. Chill until set."
+        },
+        {
+          "step": 5,
+          "text": "Turn fudge out of pan. Peel off foil. Cut into squares."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "baking pan",
+      "notes": [
+        "For best results, use an accurate candy thermometer. To store fudge, cover and place in a cool, dry place"
+      ],
+      "tags": [
+        "dessert",
+        "candy",
+        "fudge",
+        "chocolate",
+        "walnuts"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 507,
+          "fat_g": 20.1,
+          "carbs_g": 82.7,
+          "protein_g": 4.7,
+          "sodium_mg": 2,
+          "fiber_g": 2.5,
+          "sugar_g": 78.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "apple juice: used default unit",
+          "semisweet chocolate pieces: used default unit",
+          "coarsely chopped walnuts: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "chocolate-strawberry-shortcake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chocolate Strawberry Shortcake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Chocolate shortcake layered with ricotta cheese filling and fresh strawberries.",
+      "servings_yield": "8-10 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "10-12 minutes",
+      "total_time": "40 minutes",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "unsweetened cocoa powder",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "beaten egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh strawberries",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "sliced, for garnish"
+        },
+        {
+          "item": "Ricotta cheese",
+          "quantity": "1",
+          "unit": "carton (16 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "semisweet chocolate chips",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a medium bowl, stir together flour, sugar, cocoa powder, baking soda and salt."
+        },
+        {
+          "step": 2,
+          "text": "With a pastry blender, cut in the butter until mixture resembles cornmeal."
+        },
+        {
+          "step": 3,
+          "text": "In another bowl, combine cream, vanilla and egg. Add to flour mixture. Stir just until moistened. Mixture will be stiff."
+        },
+        {
+          "step": 4,
+          "text": "Spread mixture in two greased 8- or 9-inch round cake pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 425\u00b0F for 10 to 12 minutes until a wooden pick inserted in center comes out clean. Immediately turn out layers onto wire racks. Cool."
+        },
+        {
+          "step": 6,
+          "text": "For filling, stir together Ricotta cheese, sugar, vanilla and chocolate chips."
+        },
+        {
+          "step": 7,
+          "text": "Place one cake layer on a serving plate. Spread with half the filling. Layer cake with remaining filling. Garnish with sliced berries."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "pan_size": "8- or 9-inch round cake pans",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "strawberry",
+        "shortcake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 464,
+          "fat_g": 24.6,
+          "carbs_g": 53.1,
+          "protein_g": 8.2,
+          "sodium_mg": 330,
+          "fiber_g": 1.7,
+          "sugar_g": 24.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "unsweetened cocoa powder: used default unit",
+          "whipping cream: used default unit",
+          "fresh strawberries: used default unit",
+          "Ricotta cheese: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "cinnamon-mocha-sheet-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cinnamon Mocha Sheet Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Moist chocolate sheet cake flavored with cinnamon and espresso.",
+      "servings_yield": "32 slices",
+      "prep_time": "15 minutes",
+      "cook_time": "18 minutes",
+      "total_time": "33 minutes",
+      "ingredients": [
+        {
+          "item": "cocoa or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "instant espresso or coffee crystals",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "brewed coffee",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sifted powdered sugar",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In saucepan, melt butter. Stir in cocoa, water and coffee. Beat until smooth."
+        },
+        {
+          "step": 2,
+          "text": "In a large bowl, combine sugar, flour, eggs and milk. Add cocoa mixture. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "To cocoa mixture, combine sugar, flour, cinnamon and baking soda."
+        },
+        {
+          "step": 4,
+          "text": "Pour batter into a greased 10-by-15-inch jelly roll pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 18 minutes or until done."
+        },
+        {
+          "step": 6,
+          "text": "To prepare icing, in a saucepan, melt butter. Stir in coffee. Cook, stirring, until smooth. Slowly beat in powdered sugar. Mix until smooth. Spread over cake while warm. Cool. Cut into squares."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "10-by-15-inch jelly roll pan",
+      "notes": [
+        "Good served with a scoop of coffee or vanilla-flavored ice cream"
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "coffee",
+        "cinnamon"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 32,
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 4.4,
+          "carbs_g": 27.0,
+          "protein_g": 1.2,
+          "sodium_mg": 56,
+          "fiber_g": 0.2,
+          "sugar_g": 22.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "instant espresso or coffee crystals: used default unit",
+          "all-purpose flour: used default unit",
+          "brewed coffee: used default unit",
+          "sifted powdered sugar: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "caramel-crunch-bars-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Caramel Crunch Bars",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Buttery shortbread bars topped with caramel and almonds.",
+      "servings_yield": "4 dozen",
+      "prep_time": "30 minutes",
+      "cook_time": "25-30 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "slivered almonds",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "toasted"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large mixing bowl, cream butter and sugar. Add egg yolks and vanilla. Stir in flour and salt."
+        },
+        {
+          "step": 2,
+          "text": "Press dough into a greased and floured 15 3/4-by-10 1/2-inch jelly roll pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350\u00b0F for 25 to 30 minutes until golden."
+        },
+        {
+          "step": 4,
+          "text": "To prepare topping, in heavy saucepan, combine lemon juice, sugar and cream. Stir over high heat until sugar is dissolved."
+        },
+        {
+          "step": 5,
+          "text": "Add butter. With rubber scraper, clean down the sides of the pan."
+        },
+        {
+          "step": 6,
+          "text": "Continue cooking until mixture turns a light caramel color or until a few drops in cold water form a soft ball."
+        },
+        {
+          "step": 7,
+          "text": "Remove from heat. Add nuts and vanilla."
+        },
+        {
+          "step": 8,
+          "text": "Pour over baked crust. Return to oven for 2 to 5 minutes until topping bubbles."
+        },
+        {
+          "step": 9,
+          "text": "Cool. Cut into 1-by-2-inch bars."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "15 3/4-by-10 1/2-inch jelly roll pan",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "bars",
+        "caramel",
+        "almonds"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 244,
+          "fat_g": 16.5,
+          "carbs_g": 21.6,
+          "protein_g": 3.2,
+          "sodium_mg": 119,
+          "fiber_g": 0.8,
+          "sugar_g": 12.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "lemon juice: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "crumb-topped-blueberry-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Crumb-Topped Blueberry Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Moist coffee cake loaded with blueberries and topped with walnut streusel.",
+      "servings_yield": "12 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "40-45 minutes",
+      "total_time": "1 hour",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "3/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "whole blueberries",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "frozen or fresh"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        },
+        {
+          "item": "chopped walnuts",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large bowl, combine flour, sugar, baking powder, baking soda and salt. Blend well."
+        },
+        {
+          "step": 2,
+          "text": "In a large measuring cup, combine eggs, milk, butter and lemon juice. Add to dry ingredients. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "To prepare topping, in a bowl, combine flour, sugar, butter and walnuts. Blend until mixture is crumbly in appearance."
+        },
+        {
+          "step": 4,
+          "text": "Turn batter into a buttered 13-by-9-inch baking dish. Sprinkle with blueberries evenly over batter. Sprinkle with topping."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 375\u00b0F for 40 to 45 minutes. Serve warm."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "13-by-9-inch baking dish",
+      "notes": [
+        "If using frozen blueberries, do not thaw"
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "blueberry",
+        "coffee cake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 298,
+          "fat_g": 10.8,
+          "carbs_g": 44.8,
+          "protein_g": 5.7,
+          "sodium_mg": 251,
+          "fiber_g": 1.7,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "whole blueberries: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "peanutty-chocolate-pie-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Peanutty Chocolate Pie",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "Printed recipe card (Skippy/Argo)",
+      "description": "No-bake chocolate peanut butter pie with graham cracker crust.",
+      "servings_yield": "8 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Argo or Kingsford's Corn Starch",
+          "quantity": "3",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "Skippy Creamy Peanut Butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "semisweet chocolate chips",
+          "quantity": "2/3",
+          "unit": "cup (4 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared graham cracker crust",
+          "quantity": "1",
+          "unit": "(9-inch)",
+          "prep_note": ""
+        },
+        {
+          "item": "heavy or whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Skippy Creamy Peanut Butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped peanuts",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "For Filling: In 2-quart saucepan combine sugar and corn starch. Stirring constantly, bring to boil over medium heat and boil 1 minute. Remove from heat."
+        },
+        {
+          "step": 2,
+          "text": "Stir in chocolate until smooth. Pour into pie crust. Refrigerate 45 minutes or until cool."
+        },
+        {
+          "step": 3,
+          "text": "For Topping: In small bowl combine heavy cream and 1/4 cup sugar. With mixer at low speed, blend in 2 tbsp peanut butter until smooth. Beat at medium speed until cream stands in peaks; spread over chocolate layer. Sprinkle with chopped peanuts."
+        },
+        {
+          "step": 4,
+          "text": "Serve immediately or cover and refrigerate."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "9-inch graham cracker crust",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "pie",
+        "peanut butter",
+        "chocolate",
+        "no-bake"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 498,
+          "fat_g": 35.5,
+          "carbs_g": 42.2,
+          "protein_g": 7.4,
+          "sodium_mg": 195,
+          "fiber_g": 2.5,
+          "sugar_g": 31.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Argo or Kingsford's Corn Starch: used default unit",
+          "milk: used default unit",
+          "semisweet chocolate chips: used default unit",
+          "prepared graham cracker crust: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "strawberry-shortcut-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Strawberry Shortcut Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "Magazine clipping (Pillsbury)",
+      "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
+      "servings_yield": "12-15 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "45-50 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "miniature marshmallows",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen strawberries in syrup",
+          "quantity": "2",
+          "unit": "cups (two 10-oz. pkgs.)",
+          "prep_note": "sliced, completely thawed"
+        },
+        {
+          "item": "strawberry flavored gelatin",
+          "quantity": "1",
+          "unit": "package (3 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "3",
+          "unit": "teaspoons",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "teaspoon",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "teaspoon",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Generously grease bottom only of a 13x9-inch baking pan; sprinkle marshmallows evenly over bottom of pan. Thoroughly combine completely thawed strawberries and syrup. Thoroughly set aside. (No need to sift flour, measure by lightly spooning into cup and leveling off.) In large mixer bowl, combine remaining ingredients. Blend at low speed until moistened; beat 3 minutes at medium speed, scraping sides of bowl occasionally. Spoon batter evenly over marshmallows in prepared pan. Pour strawberry mixture evenly over batter."
+        },
+        {
+          "step": 2,
+          "text": "Bake at 350\u00b0 for 45 to 50 minutes until golden brown and toothpick inserted in center comes out clean."
+        },
+        {
+          "step": 3,
+          "text": "Serve warm or cool with ice cream or whipped cream."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9-inch cake pan",
+      "notes": [
+        "For use with Pillsbury's Best Self-Rising Flour, omit baking powder and salt.",
+        "HIGH ALTITUDE\u20145200 feet. Decrease baking powder to 2 1/2 teaspoons. Bake at 375\u00b0 for 40 to 45 minutes."
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "strawberry",
+        "marshmallow",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 314,
+          "fat_g": 10.8,
+          "carbs_g": 49.6,
+          "protein_g": 5.4,
+          "sodium_mg": 346,
+          "fiber_g": 1.1,
+          "sugar_g": 29.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries in syrup: used default unit",
+          "strawberry flavored gelatin: used default unit",
+          "Pillsbury's Best All Purpose Flour: used default unit",
+          "sugar: used default unit",
+          "baking powder: used default unit",
+          "salt: used default unit",
+          "vanilla: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "no-bake-easter-basket-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "No-Bake Easter Basket Cake",
+      "category": "desserts",
+      "attribution": "",
+      "source_note": "Magazine clipping - Woman's World",
+      "description": "Adorable Easter basket cake made with frozen pound cakes, decorated with bunny cookies and candy.",
+      "servings_yield": "30 servings",
+      "prep_time": "1 hour 30 minutes",
+      "cook_time": "",
+      "total_time": "1 hour 50 minutes",
+      "ingredients": [
+        {
+          "item": "white chocolate chips",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable shortening",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "peanut-shaped peanut butter sandwich cookies",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "such as Nutter Butter"
+        },
+        {
+          "item": "round pink cake decors",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "strawberry-flavored fruit chew candies",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "such as Starburst"
+        },
+        {
+          "item": "semisweet chocolate chips",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "vanilla frosting",
+          "quantity": "2",
+          "unit": "cans (16 oz. each)",
+          "prep_note": ""
+        },
+        {
+          "item": "red and green food coloring",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen pound cakes",
+          "quantity": "4",
+          "unit": "pkgs. (10.75 oz. each)",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "pastel-colored peanut M&M's",
+          "quantity": "80",
+          "unit": "",
+          "prep_note": "about 1 cup"
+        },
+        {
+          "item": "peanut butter-flavored Keebler Cookie Stix",
+          "quantity": "1",
+          "unit": "pkg. (10 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "sweetened flaked coconut",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "multicolored marshmallow rope",
+          "quantity": "1",
+          "unit": "pkg. (2 oz.)",
+          "prep_note": "such as Marshmallow Bunny Ropes"
+        },
+        {
+          "item": "flexible straws and large marshmallows",
+          "quantity": "",
+          "unit": "optional",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In bowl set over hot, not simmering water, melt white chocolate with shortening until smooth. Dip 1 side of 1 peanut-shaped cookie in mixture; place dipped side up on wire rack. Press 1 cake decor into icing for nose. Repeat with remaining cookies. Let stand until dry, 15-20 minutes. Roll out each Starburst to a 1/4-inch thick. With clean scissors cut two 1 1/2-inch-long bunny ears. Cut 2 small slits on 1 short side of cookie through to cookie filling. Dip tip of 2 ears into remaining chocolate mixture; insert dipped tips into slits. Transfer semisweet chocolate to plastic food storage bag with corner snipped; pipe eyes and whiskers."
+        },
+        {
+          "step": 2,
+          "text": "Tint frosting pink with red food coloring. Transfer 1 1/2 cups frosting to plastic food storage bag; set aside. With small amount of frosting attach bottom of 1 pound-cake to serving platter. Attach another cake to first cake with frosting on bottom and 1 vertical side. From vertical side. Attach remaining cakes with frosting as shown. Frost top and sides with remaining frosting."
+        },
+        {
+          "step": 3,
+          "text": "In bowl toss coconut with green food coloring and a few drops of water; set aside. Press some of M&M's along bottom edge of cake in alternating colors. Press Cookie Stix vertically onto sides of cakes, fitting bottom tip of cookies in crevice formed where 2 M&M's meet. Leave 1 1/2-inch vertical gap on each long side of cake for handle. Press remaining M&M's along top edge of cake in alternating colors. Snip corner of bag of reserved pink frosting; pipe alternating horizontal lines over cookies for basket weave, as shown. Press Bunny Rope onto sides of cake for handle; insert toothpicks through rope into cake to secure. For extra stability prop handle up with toothpicks or long wooden skewer until cake is served. Insert bunny cookies into top of cake (cookies can also help hold up handle). Arrange coconut over candy around cookies."
+        },
+        {
+          "step": 4,
+          "text": "Basket handle alternative: If you are unable to find Marshmallow Bunny Ropes, flexible straws cut to fit, then threaded with marshmallows and inserted into each other can be used instead, as shown."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Quick Tip: If you're allergic to peanuts, substitute pastel-colored plain M&M's for the peanut variety, plain Cookie Stix for the peanut-flavored and chocolate candy bunnies for the peanut bunny cookies."
+      ],
+      "tags": [
+        "dessert",
+        "cake",
+        "Easter",
+        "no-bake",
+        "holiday",
+        "decorated"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 872,
+          "fat_g": 68.8,
+          "carbs_g": 58.0,
+          "protein_g": 5.9,
+          "sodium_mg": 591,
+          "fiber_g": 2.0,
+          "sugar_g": 38.9
+        },
+        "missing_inputs": [
+          "pastel-colored peanut M&M's",
+          "multicolored marshmallow rope"
+        ],
+        "assumptions": [
+          "vegetable shortening: used default unit",
+          "vanilla frosting: used default unit",
+          "frozen pound cakes: used default unit",
+          "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "flexible straws and large marshmallows: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "frosty-orange-delight-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Frosty Orange Delight",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
+      "description": "Frozen orange cream dessert with a cookie crust.",
+      "servings_yield": "15-18 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "12-15 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "baked crust made with coconut cream pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mandarin oranges",
+          "quantity": "1",
+          "unit": "can (11 oz.)",
+          "prep_note": "well drained"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup (1/2 pt.)",
+          "prep_note": "whipped and sweetened with 1/4 cup sugar"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "packages (8 oz. each)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered orange flavored instant breakfast drink",
+          "quantity": "1",
+          "unit": "can (4 3/4 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large mixer bowl, combine cream cheese, powdered instant breakfast drink, and sugar at low speed; beat 3 minutes at high speed until smooth and creamy."
+        },
+        {
+          "step": 2,
+          "text": "Add eggs, one at a time, beating well after each addition. Fold in whipped cream and drained mandarin oranges; pour over baked and cooled crust."
+        },
+        {
+          "step": 3,
+          "text": "Freeze covered with foil, overnight. Remove from freezer 10 minutes before serving."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9-inch baking pan",
+      "notes": [
+        "Basic Crust: 1 cup flour, 1 package (4-serving size) pudding and pie filling mix (not instant), 1/4 tsp salt, 1/3 cup solid shortening, 2 tbsp butter softened, 1 egg. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread in ungreased 13x9-inch pan. Bake at 350\u00b0 for 12-15 minutes. Cool completely."
+      ],
+      "tags": [
+        "dessert",
+        "frozen",
+        "orange",
+        "cream cheese",
+        "contest"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 9.4,
+          "carbs_g": 7.4,
+          "protein_g": 2.2,
+          "sodium_mg": 45,
+          "fiber_g": 0.6,
+          "sugar_g": 6.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mandarin oranges: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit",
+          "powdered orange flavored instant breakfast drink: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "berry-banana-dessert-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Berry Banana Dessert",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Magazine clipping - Pillsbury Bake-Off inspired",
+      "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
+      "servings_yield": "15-18 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "N/A (no-bake filling)",
+      "total_time": "3.5 hours (includes chilling)",
+      "ingredients": [
+        {
+          "item": "baked crust made with coconut cream pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "packages (8 oz. each)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "teaspoons",
+          "prep_note": ""
+        },
+        {
+          "item": "raspberry flavored or vanilla yogurt",
+          "quantity": "2",
+          "unit": "cartons (8 oz. each)",
+          "prep_note": ""
+        },
+        {
+          "item": "medium bananas",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "frozen raspberries",
+          "quantity": "2",
+          "unit": "packages (10 oz. each)",
+          "prep_note": "drain and reserve 1 cup syrup"
+        },
+        {
+          "item": "red raspberry flavored gelatin",
+          "quantity": "2",
+          "unit": "packages (3 oz. each)",
+          "prep_note": ""
+        },
+        {
+          "item": "miniature marshmallows",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large saucepan, combine miniature marshmallows, gelatin, and reserved raspberry syrup. Cook over medium heat, stirring occasionally, until marshmallows are melted."
+        },
+        {
+          "step": 2,
+          "text": "Chill while preparing cream cheese mixture. In large mixer bowl, combine honey, cream cheese and vanilla at low speed; beat 3 minutes at high speed until smooth and creamy."
+        },
+        {
+          "step": 3,
+          "text": "Add yogurt and reserved marshmallow mixture; beat at medium speed 1 minute. Slice bananas and spoon drained raspberries over baked and cooled crust."
+        },
+        {
+          "step": 4,
+          "text": "Pour filling over fruit. Refrigerate 3 hours or until set."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "13x9-inch baking pan",
+      "notes": [
+        "Tip: If desired, 1 cup fresh raspberries sweetened with 1/4 cup sugar can be used for the frozen raspberries, using 1 cup water for raspberry syrup."
+      ],
+      "tags": [
+        "dessert",
+        "raspberry",
+        "banana",
+        "cream cheese",
+        "contest"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 4.1,
+          "carbs_g": 24.1,
+          "protein_g": 2.8,
+          "sodium_mg": 32,
+          "fiber_g": 1.8,
+          "sugar_g": 18.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cream cheese: used default unit",
+          "vanilla: used default unit",
+          "raspberry flavored or vanilla yogurt: used default unit",
+          "frozen raspberries: used default unit",
+          "red raspberry flavored gelatin: used default unit",
+          "miniature marshmallows: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "strawberries-n-cream-cheese-freeze-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Strawberries 'n Cream Cheese Freeze",
+      "category": "desserts",
+      "attribution": "Pillsbury's 21st Bake-Off",
+      "source_note": "Magazine clipping - Pillsbury Bake-Off adapted",
+      "description": "Frozen strawberry cream cheese dessert with lemon pudding crust.",
+      "servings_yield": "15-18 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "baked crust made with lemon pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "frozen strawberries",
+          "quantity": "2",
+          "unit": "packages (10 oz. each)",
+          "prep_note": "drain and reserve 1/2 cup syrup"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup (1/2 pt.)",
+          "prep_note": "whipped and sweetened with 1/4 cup sugar"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "packages (8 oz. each)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large mixer bowl, combine cream cheese and sugar at low speed; beat at high speed for 3 minutes until smooth and creamy. Add reserved syrup; beat 1 minute at medium speed."
+        },
+        {
+          "step": 2,
+          "text": "Fold in strawberries and whipped cream; pour over baked and cooled crust."
+        },
+        {
+          "step": 3,
+          "text": "Freeze covered with foil overnight. Remove from freezer 10 minutes before serving."
+        },
+        {
+          "step": 4,
+          "text": "Tip: If desired, 1 pint fresh strawberries, mashed and sweetened with 1/3 cup sugar can be used for the frozen strawberries. Use juice from mashed fresh strawberries for strawberry syrup."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "13x9-inch baking pan",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "frozen",
+        "strawberry",
+        "cream cheese",
+        "contest"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 146,
+          "fat_g": 6.8,
+          "carbs_g": 21.4,
+          "protein_g": 0.7,
+          "sodium_mg": 22,
+          "fiber_g": 0.6,
+          "sugar_g": 18.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries: used default unit",
+          "whipping cream: used default unit",
+          "cream cheese: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "nestle-toll-house-chocolate-chip-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Original Nestle Toll House Chocolate Chip Cookies",
+      "category": "desserts",
+      "attribution": "Nestle",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "description": "The classic original chocolate chip cookie recipe.",
+      "servings_yield": "About 5 dozen cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "9-11 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup (2 sticks)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Nestle Toll House Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups (12 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flour, baking soda and salt in small bowl. Beat butter, granulated sugar, brown sugar and vanilla in large mixer bowl. Add eggs one at a time, beating well after each addition."
+        },
+        {
+          "step": 2,
+          "text": "Gradually beat in flour mixture. Stir in morsels and nuts. Drop by rounded tablespoon onto ungreased baking sheets."
+        },
+        {
+          "step": 3,
+          "text": "Bake in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "baking sheets",
+      "notes": [
+        "Pan Cookie Variation: Prepare dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
+        "For High Altitude Baking (5,200 feet): Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375\u00b0F, drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate chip",
+        "classic"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 169,
+          "fat_g": 9.6,
+          "carbs_g": 19.1,
+          "protein_g": 2.2,
+          "sodium_mg": 168,
+          "fiber_g": 0.6,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "nestle-famous-fudge-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Famous Fudge",
+      "category": "desserts",
+      "attribution": "Nestle/Carnation",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "description": "Classic creamy chocolate fudge with marshmallows.",
+      "servings_yield": "About 3 pounds",
+      "prep_time": "10 minutes",
+      "cook_time": "4-5 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Carnation Evaporated Milk",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "undiluted"
+        },
+        {
+          "item": "miniature marshmallows",
+          "quantity": "1 1/2",
+          "unit": "cups (4 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "Nestle Toll House Semi-Sweet Chocolate Morsels",
+          "quantity": "1 1/2",
+          "unit": "cups (9 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine butter, evaporated milk, sugar and salt in medium, heavy saucepan. Bring to a boil over medium heat, stirring constantly."
+        },
+        {
+          "step": 2,
+          "text": "Boil for 4 to 5 minutes, stirring constantly. Remove from heat."
+        },
+        {
+          "step": 3,
+          "text": "Stir in morsels, nuts and vanilla. Stir vigorously for 1 minute or until marshmallows are melted."
+        },
+        {
+          "step": 4,
+          "text": "Pour into foil-lined 8-inch square baking pan; chill until firm."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "8-inch square baking pan",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "candy",
+        "fudge",
+        "chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 5.2,
+          "carbs_g": 49.4,
+          "protein_g": 1.2,
+          "sodium_mg": 180,
+          "fiber_g": 0.4,
+          "sugar_g": 46.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "miniature marshmallows: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "granulated sugar: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "old-fashioned-oatmeal-cookies-nestle-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Old Fashioned Oatmeal Cookies",
+      "category": "desserts",
+      "attribution": "Nestle",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "description": "Classic oatmeal cookies with chocolate chips.",
+      "servings_yield": "About 3 dozen cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "8-11 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "cup (2 sticks)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "packed light brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Nestle Toll House Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups (12 oz)",
+          "prep_note": ""
+        },
+        {
+          "item": "quick oats",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flour, baking soda and salt in small bowl. Beat butter, granulated sugar, brown sugar and vanilla in large mixer bowl until creamy."
+        },
+        {
+          "step": 2,
+          "text": "Add eggs one at a time, beating well after each addition. Gradually beat in flour mixture. Stir in morsels and oats."
+        },
+        {
+          "step": 3,
+          "text": "Drop by rounded tablespoon onto ungreased baking sheets. Bake in preheated 350\u00b0F oven for 8 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "baking sheets",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "cookies",
+        "oatmeal",
+        "chocolate chip"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 294,
+          "fat_g": 12.7,
+          "carbs_g": 41.2,
+          "protein_g": 4.2,
+          "sodium_mg": 216,
+          "fiber_g": 1.9,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "butter or margarine: used default unit",
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "quick oats: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Ultimate Chocolate Chocolate Chip Cookies",
+      "category": "desserts",
+      "attribution": "Nestle",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "description": "Double chocolate cookies with melted chocolate in the batter.",
+      "servings_yield": "About 4 dozen cookies",
+      "prep_time": "15 minutes",
+      "cook_time": "8-9 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Nestle Toll House Semi-Sweet Chocolate Morsels",
+          "quantity": "4",
+          "unit": "cups (24-oz package)",
+          "prep_note": "divided"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "cup (2 sticks)",
+          "prep_note": "softened"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 2/3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt 2 cups morsels in small, heavy saucepan over lowest possible heat. When morsels begin to melt, remove from heat; stir. Return to heat for a few seconds at a time, stirring until smooth. Combine flour, baking soda and salt in medium bowl."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter, brown sugar, granulated sugar and vanilla in large mixer bowl. Add eggs one at a time, beating well after each addition. Beat in melted chocolate. Gradually beat in flour mixture. Stir in remaining morsels."
+        },
+        {
+          "step": 3,
+          "text": "Drop by rounded tablespoon onto ungreased baking sheets."
+        },
+        {
+          "step": 4,
+          "text": "Bake in preheated 375\u00b0F oven for 8 to 9 minutes or until cookies are puffed. Cool for 2 minutes; remove to wire racks to cool completely."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "baking sheets",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "double chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "IMG_4400"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 9.9,
+          "carbs_g": 26.0,
+          "protein_g": 2.5,
+          "sodium_mg": 213,
+          "fiber_g": 0.7,
+          "sugar_g": 14.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "easy-double-chocolate-chip-brownies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Double Chocolate Chip Brownies",
+      "category": "desserts",
+      "attribution": "Nestle",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "description": "Fudgy brownies loaded with chocolate chips.",
+      "servings_yield": "2 dozen brownies",
+      "prep_time": "10 minutes",
+      "cook_time": "16-20 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Nestle Toll House Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups (12 oz)",
+          "prep_note": "divided"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup (1 stick)",
+          "prep_note": "cut into pieces"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/4",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt 1 cup morsels and butter in large, heavy saucepan over low heat; stir until smooth. Remove from heat. Add eggs; stir well. Add flour, sugar, baking soda and vanilla; stir well."
+        },
+        {
+          "step": 2,
+          "text": "Stir in remaining morsels and nuts. Spread to greased 13 x 9-inch baking pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake in preheated 350\u00b0F oven for 16 to 20 minutes or until wooden pick inserted in center comes out slightly sticky. Cool completely."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13 x 9-inch baking pan",
+      "notes": [],
+      "tags": [
+        "dessert",
+        "brownies",
+        "chocolate"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 258,
+          "fat_g": 13.5,
+          "carbs_g": 30.5,
+          "protein_g": 4.0,
+          "sodium_mg": 126,
+          "fiber_g": 1.0,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit",
+          "butter or margarine: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "yuletide-toffee-squares-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Yuletide Toffee Squares",
+      "category": "desserts",
+      "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
+      "source_note": "Nestle Toll House chocolate chip bag",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "About 6 dozen",
+      "pan_size": "15x10-inch jelly roll pan",
+      "ingredients": [
+        {
+          "item": "Quaker Oats",
+          "quantity": "4-1/2",
+          "unit": "cups",
+          "prep_note": "quick or old fashioned, uncooked"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "margarine or butter",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "melted (1-1/2 sticks)"
+        },
+        {
+          "item": "corn syrup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "teaspoon",
+          "prep_note": "optional"
+        },
+        {
+          "item": "semi-sweet chocolate morsels",
+          "quantity": "12",
+          "unit": "oz package",
+          "prep_note": "2 cups"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oven to 400\u00b0F. Grease 15x10-inch jelly roll pan."
+        },
+        {
+          "step": 2,
+          "text": "Combine oats, brown sugar, margarine, corn syrup, vanilla and salt; mix well."
+        },
+        {
+          "step": 3,
+          "text": "Firmly press mixture into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake about 18 minutes or until mixture is brown and bubbly."
+        },
+        {
+          "step": 5,
+          "text": "Remove from oven. Immediately sprinkle chocolate morsels evenly over toffee."
+        },
+        {
+          "step": 6,
+          "text": "Let stand 10 minutes. Spread chocolate evenly over toffee; sprinkle with nuts."
+        },
+        {
+          "step": 7,
+          "text": "Cool completely. Cut into squares."
+        }
+      ],
+      "notes": [
+        "Store tightly covered in cool, dry place."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "holiday",
+        "christmas"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 36,
+        "per_serving": {
+          "calories": 156,
+          "fat_g": 8.5,
+          "carbs_g": 19.0,
+          "protein_g": 1.6,
+          "sodium_mg": 69,
+          "fiber_g": 1.3,
+          "sugar_g": 12.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Quaker Oats: used default unit",
+          "vanilla: used default unit",
+          "salt: used default unit",
+          "semi-sweet chocolate morsels: used default unit"
+        ]
+      },
+      "prep_time": "20 minutes",
+      "cook_time": "20-25 minutes"
+    },
+    {
+      "id": "make-ahead-cookie-mix-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Make-Ahead Cookie Mix",
+      "category": "desserts",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. See notes for recipe variations.",
+      "source_note": "Pillsbury magazine clipping",
+      "servings_yield": "6 cups mix",
+      "ingredients": [
+        {
+          "item": "butter or margarine",
+          "quantity": "1-3/4",
+          "unit": "cups",
+          "prep_note": "softened"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tablespoon"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "teaspoons"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "6",
+          "unit": "cups",
+          "prep_note": "Pillsbury's Best Unbleached or All Purpose"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In very large bowl, combine butter, salt, and baking powder; using electric mixer, blend well."
+        },
+        {
+          "step": 2,
+          "text": "Lightly spoon flour into measuring cup; level off. Add flour to bowl, scraping bowl often."
+        },
+        {
+          "step": 3,
+          "text": "Store tightly covered in refrigerator up to 4 weeks (6 cups mix)."
+        }
+      ],
+      "notes": [
+        "Mix can be stored up to 4 weeks!",
+        "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
+        "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "make-ahead",
+        "basic mix"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "magazine clipping - image upside down, some text obscured",
+          "INCOMPLETE: Original companion cookie recipes from reverse side not available",
+          "Common variations added based on standard butter-flour mix formulas"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 520,
+          "fat_g": 21.0,
+          "carbs_g": 71.5,
+          "protein_g": 10.0,
+          "sodium_mg": 555,
+          "fiber_g": 2.2,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter or margarine: used default unit",
+          "salt: used default unit",
+          "baking powder: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "basic-crust-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Basic Crust",
+      "category": "desserts",
+      "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
+      "source_note": "Pillsbury Bake-Off magazine clipping",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "13x9-inch oblong pan",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "Pillsbury's Best"
+        },
+        {
+          "item": "vanilla pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "4-serving size, not instant"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "teaspoon"
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tablespoons",
+          "prep_note": "softened"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "No need to sift flour; measure by lightly spooning into cup and leveling off."
+        },
+        {
+          "step": 2,
+          "text": "In small mixer bowl, combine all ingredients. Blend at low speed; blend 1 minute at medium speed."
+        },
+        {
+          "step": 3,
+          "text": "Knead to form smooth ball."
+        },
+        {
+          "step": 4,
+          "text": "Roll and press into ungreased 13x9-inch oblong pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0 for 12 to 15 minutes. Cool completely."
+        }
+      ],
+      "notes": [
+        "For use with Pillsbury's Best Self-Rising Flour, omit salt and the 2 tablespoons butter."
+      ],
+      "tags": [
+        "dessert",
+        "crust",
+        "base recipe"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 684,
+          "fat_g": 59.0,
+          "carbs_g": 38.1,
+          "protein_g": 2.1,
+          "sodium_mg": 407,
+          "fiber_g": 0.9,
+          "sugar_g": 22.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pudding and pie filling mix: used default unit",
+          "salt: used default unit",
+          "butter or margarine: used default unit"
+        ]
+      },
+      "servings_yield": "1 crust (13x9-inch)",
+      "prep_time": "15 minutes",
+      "cook_time": "12-15 minutes"
+    },
+    {
+      "id": "honey-wallbanger-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Honey Wallbanger Cake",
+      "category": "desserts",
+      "source_note": "Newspaper clipping, saved by family",
+      "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "45 minutes",
+      "ingredients": [
+        {
+          "item": "orange cake mix",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "instant vanilla pudding",
+          "quantity": "1",
+          "unit": "pkg"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Galliano liqueur",
+          "quantity": "3/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix cake mix, pudding, eggs, oil, and Galliano."
+        },
+        {
+          "step": 2,
+          "text": "Pour into greased bundt pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350\u00b0F for 45 minutes."
+        }
+      ],
+      "notes": [
+        "Frosting: Mix 1 cup confectioners sugar with 1 Tbsp Galliano. Drizzle over cooled cake."
+      ],
+      "tags": [
+        "cake",
+        "dessert",
+        "liqueur",
+        "bundt"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Partial transcription from worn newspaper clipping"
+        ]
+      },
+      "image_refs": [
+        "199"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 4.9,
+          "carbs_g": 26.9,
+          "protein_g": 3.3,
+          "sodium_mg": 257,
+          "fiber_g": 0.3,
+          "sugar_g": 14.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange cake mix: used default unit",
+          "instant vanilla pudding: used default unit",
+          "oil: used default unit",
+          "Galliano liqueur: used default unit"
+        ]
+      },
+      "servings_yield": "16 servings",
+      "prep_time": "20 minutes"
+    }
+  ]
+}

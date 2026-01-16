@@ -1,0 +1,4096 @@
+{
+  "meta": {
+    "category": "mains",
+    "count": 32
+  },
+  "recipes": [
+    {
+      "id": "busy-day-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Busy Day Casserole",
+      "category": "mains",
+      "description": "A quick and easy ground beef casserole.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cream of mushroom soup",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "item": "cream of chicken soup",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "item": "frozen mixed vegetables",
+          "quantity": "1",
+          "unit": "package"
+        },
+        {
+          "item": "tater tots",
+          "quantity": "1",
+          "unit": "package"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown ground beef with onion; drain."
+        },
+        {
+          "step": 2,
+          "text": "Mix in soups and vegetables."
+        },
+        {
+          "step": 3,
+          "text": "Pour into casserole dish."
+        },
+        {
+          "step": 4,
+          "text": "Top with tater tots."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 30 minutes until bubbly and tots are golden."
+        }
+      ],
+      "tags": [
+        "casserole",
+        "ground beef",
+        "quick",
+        "family"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten card, some details unclear"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 327,
+          "fat_g": 21.4,
+          "carbs_g": 15.2,
+          "protein_g": 16.7,
+          "sodium_mg": 847,
+          "fiber_g": 2.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen mixed vegetables: used default unit",
+          "tater tots: used default unit"
+        ]
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "chicken-breasts-roma-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chicken Breasts Roma",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Italian-style chicken breasts with tomatoes and herbs.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "prep_time": "15 minutes",
+      "cook_time": "45 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "chicken breast halves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "skinned"
+        },
+        {
+          "item": "Italian seasoning",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "diced tomatoes",
+          "quantity": "1",
+          "unit": "can (14.5 oz)"
+        },
+        {
+          "item": "fresh mushrooms",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mozzarella cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "shredded"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Season chicken with Italian seasoning."
+        },
+        {
+          "step": 3,
+          "text": "In skillet, saut\u00e9 garlic in oil. Add chicken and brown on both sides."
+        },
+        {
+          "step": 4,
+          "text": "Transfer to baking dish. Top with tomatoes, mushrooms and green pepper."
+        },
+        {
+          "step": 5,
+          "text": "Bake 35 minutes. Top with cheese and bake 10 minutes more."
+        }
+      ],
+      "notes": [
+        "Serve with pasta or rice."
+      ],
+      "tags": [
+        "chicken",
+        "italian",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 10.7,
+          "carbs_g": 6.4,
+          "protein_g": 14.2,
+          "sodium_mg": 251,
+          "fiber_g": 1.5,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "garlic: used default unit",
+          "diced tomatoes: used default unit",
+          "green pepper: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "broiled-spring-chicken-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broiled Spring Chicken",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Simple broiled chicken with herb butter and cheese.",
+      "prep_time": "15 minutes",
+      "cook_time": "45 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fryer chicken",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "3 lbs, quartered"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "1/4",
+          "unit": "lb (4 oz)",
+          "prep_note": "plain, herbed, garlic or pepper flavored"
+        },
+        {
+          "item": "salt and black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "paprika",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "With finger, make a pocket about 1-inch long between skin and meat of each chicken piece."
+        },
+        {
+          "step": 2,
+          "text": "Divide cheese into 4 parts. Slide one piece of cheese into each pocket."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle chicken on both sides with salt, pepper and paprika."
+        },
+        {
+          "step": 4,
+          "text": "Place chicken on foil-lined baking pan. Brush with butter and lemon juice."
+        },
+        {
+          "step": 5,
+          "text": "Place pan on center rack of broiler. Broil about 20 minutes per side, brushing occasionally with pan juices, turning once, until chicken is done. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with buttered baby carrots, new potatoes and a tossed salad."
+      ],
+      "tags": [
+        "chicken",
+        "broiled",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 265,
+          "fat_g": 18.7,
+          "carbs_g": 1.8,
+          "protein_g": 22.5,
+          "sodium_mg": 708,
+          "fiber_g": 0.7,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cream cheese: used default unit",
+          "paprika: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "herb-grilled-chicken-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Herb-Grilled Chicken",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Grilled chicken with fresh herb butter, basil and walnuts.",
+      "prep_time": "10 minutes",
+      "cook_time": "25-30 minutes",
+      "servings_yield": "6-8 servings",
+      "ingredients": [
+        {
+          "item": "broiler-fryer chickens",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "2-1/2 lbs each"
+        },
+        {
+          "item": "fresh basil leaves",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "minced walnuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "4",
+          "unit": "tbsp",
+          "prep_note": "divided"
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1",
+          "unit": "dash"
+        },
+        {
+          "item": "fresh cracked black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "white wine",
+          "quantity": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Split chickens in half. Cut off excess fat from tail areas. Remove backbone, if desired."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl, combine basil, garlic, walnuts, butter, 2 tablespoons oil, hot pepper sauce and pepper. Set aside 1 to 2 tablespoons of the mixture."
+        },
+        {
+          "step": 3,
+          "text": "Loosen skin on chicken. Press remaining mixture evenly under skin, reaching as many areas of chicken as possible."
+        },
+        {
+          "step": 4,
+          "text": "Place chicken, bone-side up, onto preheated grill. Grill 12 to 15 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Turn chicken. Grill 12 to 15 minutes longer. Brush skin-side with some of remaining butter mixture several times during cooking. Season with salt and pepper, if desired."
+        },
+        {
+          "step": 6,
+          "text": "As chicken cooks, combine remaining herb butter, oil, lemon juice and wine. Brush some of the mixture onto bone-side of chicken."
+        }
+      ],
+      "notes": [
+        "Good served with grilled potato wedges brushed with herb butter and grilled corn-on-the-cob."
+      ],
+      "tags": [
+        "chicken",
+        "grilled",
+        "herbs",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 7,
+        "per_serving": {
+          "calories": 412,
+          "fat_g": 30.5,
+          "carbs_g": 2.7,
+          "protein_g": 26.6,
+          "sodium_mg": 117,
+          "fiber_g": 0.7,
+          "sugar_g": 0.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh basil leaves: used default unit",
+          "garlic: used default unit",
+          "hot pepper sauce: used default unit",
+          "white wine: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "joyces-chicken-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Joyce's Chicken",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Simmered chicken with tomatoes, mushrooms and white wine.",
+      "prep_time": "15 minutes",
+      "cook_time": "45 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "chicken breasts",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "skinned, divided"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "sliced fresh mushrooms",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "chopped green pepper",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "canned diced tomatoes with juice",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "tomato paste",
+          "quantity": "1",
+          "unit": "can (6 oz)"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dried basil leaves",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "was \"1/2 cup\" - corrected (likely OCR error)"
+        },
+        {
+          "item": "chopped parsley",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan with cover, heat 1 tablespoon oil. Add chicken. Brown. Remove from pan."
+        },
+        {
+          "step": 2,
+          "text": "To the pan, add remaining oil. Add onion and garlic. Saut\u00e9 for 5 minutes. Add mushrooms. Cook 4 minutes longer."
+        },
+        {
+          "step": 3,
+          "text": "Stir in green pepper, tomatoes, tomato paste, chicken broth, wine, basil and pepper. Cover. Simmer for 20 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add chicken. Cover. Simmer gently for 25 minutes. Sprinkle generously with parsley. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Health Note: To reduce sodium, use low-salt chicken broth. Good served with a tossed salad and garlic bread."
+      ],
+      "tags": [
+        "chicken",
+        "italian",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 171,
+          "fat_g": 8.4,
+          "carbs_g": 9.4,
+          "protein_g": 11.3,
+          "sodium_mg": 276,
+          "fiber_g": 2.4,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chopped onion: used default unit",
+          "garlic: used default unit",
+          "chopped green pepper: used default unit",
+          "canned diced tomatoes with juice: used default unit",
+          "tomato paste: used default unit",
+          "freshly ground black pepper: used default unit",
+          "chopped parsley: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "corned-beef-hash-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Corned Beef Hash Casserole",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "A hearty casserole topped with sliced eggs.",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "prep_time": "10 minutes",
+      "cook_time": "25 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "large green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "dash"
+        },
+        {
+          "item": "cayenne",
+          "quantity": "1",
+          "unit": "dash"
+        },
+        {
+          "item": "corned beef hash",
+          "quantity": "2",
+          "unit": "cans (1 lb each)"
+        },
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "minced parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a small skillet, melt butter. Add green pepper and onion. Cook until limp but not brown."
+        },
+        {
+          "step": 2,
+          "text": "In a small bowl, combine sour cream, mustard, cayenne and black pepper. Add onion and green pepper. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "In a medium bowl, combine hash and sour cream mixture. Blend thoroughly."
+        },
+        {
+          "step": 4,
+          "text": "Transfer mixture to large shallow casserole dish. Bake at 400\u00b0F until bubbly and lightly browned, about 25 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Arrange egg slices on top. Sprinkle with parsley."
+        }
+      ],
+      "notes": [
+        "Tips: Poached eggs may be used instead of hard-boiled. For 8 servings, increase baking time to about 30 minutes."
+      ],
+      "tags": [
+        "casserole",
+        "corned beef",
+        "eggs",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 262,
+          "fat_g": 21.9,
+          "carbs_g": 6.8,
+          "protein_g": 10.4,
+          "sodium_mg": 281,
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "black pepper: used default unit",
+          "cayenne: used default unit",
+          "corned beef hash: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "deviled-cornish-hens-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Deviled Cornish Hens",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Roasted Cornish hens with a tangy basting sauce.",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "prep_time": "20 minutes",
+      "cook_time": "50 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "Cornish game hens",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "1 lb each"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic cloves",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "peeled, split"
+        },
+        {
+          "item": "[BASTING SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "watercress",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash hens thoroughly. Pat dry."
+        },
+        {
+          "step": 2,
+          "text": "Rub hens inside and outside with salt, pepper and garlic."
+        },
+        {
+          "step": 3,
+          "text": "Place hens side-by-side in roasting pan."
+        },
+        {
+          "step": 4,
+          "text": "To prepare basting sauce, mix all ingredients together."
+        },
+        {
+          "step": 5,
+          "text": "Roast hens at 375\u00b0F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
+        },
+        {
+          "step": 6,
+          "text": "Garnish hens with watercress, if used."
+        }
+      ],
+      "notes": [
+        "Good served with brown or wild rice, a tossed salad and French bread."
+      ],
+      "tags": [
+        "poultry",
+        "cornish hens",
+        "roasted",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Basting sauce ingredients were missing - added deviled-style sauce"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 1.8,
+          "carbs_g": 29.5,
+          "protein_g": 5.1,
+          "sodium_mg": 605,
+          "fiber_g": 3.7,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "smoky-bacon-burgers-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Smoky Bacon Burgers",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Juicy burgers wrapped in bacon with smoky flavor.",
+      "prep_time": "10 minutes",
+      "cook_time": "10-15 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "extra-lean ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "finely chopped onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "liquid smoke seasoning",
+          "quantity": "1/2-1",
+          "unit": "tsp"
+        },
+        {
+          "item": "bacon slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "tomato slices",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "hamburger buns",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine beef, egg, onion, salt, pepper and liquid smoke. Blend well. Divide mixture into quarters."
+        },
+        {
+          "step": 2,
+          "text": "Shape each quarter into a thick patty. Wrap a strip of bacon around outside of each. Hold together with a toothpick."
+        },
+        {
+          "step": 3,
+          "text": "Place burgers on oiled broiler rack. Broil 5-6 inches from heat for 5-8 minutes per side until done to your liking."
+        },
+        {
+          "step": 4,
+          "text": "Place one lettuce leaf on each hamburger bun. Top each with a cooked patty. Add tomato. Remove toothpick."
+        }
+      ],
+      "notes": [
+        "Tips: You may prepare the meat patties ahead of time. Cover and refrigerate until ready to broil. If desired, patties may be cooked over a charcoal grill. Good served with quartered, deep-fried, unpeeled potatoes."
+      ],
+      "tags": [
+        "burgers",
+        "bacon",
+        "beef",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 340,
+          "fat_g": 19.3,
+          "carbs_g": 7.9,
+          "protein_g": 33.7,
+          "sodium_mg": 1042,
+          "fiber_g": 2.3,
+          "sugar_g": 4.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "finely chopped onion: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "ham-and-cheese-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Ham & Cheese Casserole",
+      "category": "mains",
+      "description": "A hearty macaroni casserole with ham and cheese.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "medium-wide noodles",
+          "quantity": "1-1/2",
+          "unit": "cups",
+          "prep_note": "cooked"
+        },
+        {
+          "item": "onion",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "[was incorrectly 1 cup]"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cubed or shredded cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "catsup",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "horseradish",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "diced ham",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "peas",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "cooked [was missing from extraction]"
+        },
+        {
+          "item": "bread crumbs or croutons",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for topping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook noodles, drain."
+        },
+        {
+          "step": 2,
+          "text": "Make white sauce with flour, milk, and butter."
+        },
+        {
+          "step": 3,
+          "text": "Add all other ingredients and combine."
+        },
+        {
+          "step": 4,
+          "text": "Top with crisp croutons or bread crumbs."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 30 minutes."
+        }
+      ],
+      "tags": [
+        "main dish",
+        "casserole",
+        "ham",
+        "cheese",
+        "macaroni"
+      ],
+      "image_refs": [
+        "9"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "NEEDS_MANUAL_REVIEW",
+          "handwritten recipe rotated 90\u00b0",
+          "flour amount corrected: 2 tbsp (not 1 cup)",
+          "peas added (was missing)",
+          "ham amount corrected: 1 cup (not 2 cups)"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 391,
+          "fat_g": 8.9,
+          "carbs_g": 60.9,
+          "protein_g": 15.8,
+          "sodium_mg": 600,
+          "fiber_g": 3.7,
+          "sugar_g": 7.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "medium-wide noodles: used default unit",
+          "onion: used default unit",
+          "flour: used default unit",
+          "diced ham: used default unit"
+        ]
+      },
+      "servings_yield": "4-6 servings",
+      "prep_time": "20 minutes"
+    },
+    {
+      "id": "country-style-ribs-and-corn-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Country-Style Ribs and Corn",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Country-style pork back ribs baked together with potatoes.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "prep_time": "10-15 minutes",
+      "cook_time": "1 hour",
+      "servings_yield": "4-6 servings",
+      "ingredients": [
+        {
+          "item": "pork country-style back ribs",
+          "quantity": "2-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "onion salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "medium potatoes",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "raw potatoes",
+          "quantity": "4-6",
+          "unit": "",
+          "prep_note": "peeled, quartered"
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut in diagonal slices"
+        },
+        {
+          "item": "cream-style corn",
+          "quantity": "1",
+          "unit": "can (16 oz)"
+        },
+        {
+          "item": "fresh tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced, thinly sliced"
+        },
+        {
+          "item": "green onions",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "finely sliced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dust ribs with flour. Sprinkle with garlic salt."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy skillet, heat butter. Add ribs. Brown."
+        },
+        {
+          "step": 3,
+          "text": "In a lightly oiled 13-by-9-inch baking dish, layer potatoes. Sprinkle with salt, black pepper, onion and green pepper. Pour milk over. Cover ribs in a single layer over vegetables."
+        },
+        {
+          "step": 4,
+          "text": "Arrange browned ribs in a single layer over vegetables."
+        },
+        {
+          "step": 5,
+          "text": "Cover. Bake at 350\u00b0F for 30 minutes. Remove cover. Bake 30 minutes longer or until ribs are tender and potatoes are cooked through."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle with tomato and green onions. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with a tossed green salad, rye bread, and red wine or beer, if desired."
+      ],
+      "tags": [
+        "main dish",
+        "pork",
+        "ribs",
+        "potatoes",
+        "corn"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 708,
+          "fat_g": 26.1,
+          "carbs_g": 85.5,
+          "protein_g": 34.9,
+          "sodium_mg": 192,
+          "fiber_g": 11.0,
+          "sugar_g": 11.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork country-style back ribs: used default unit",
+          "onion salt: used default unit",
+          "cream-style corn: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "sirloin-steak-in-marinade-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sirloin Steak in Marinade",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Tender sirloin steak marinated in an Asian-inspired sauce.",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "prep_time": "10 minutes",
+      "cook_time": "20-30 minutes",
+      "servings_yield": "4-6 servings",
+      "ingredients": [
+        {
+          "item": "boneless sirloin",
+          "quantity": "1",
+          "unit": "piece",
+          "prep_note": "3-4 inches thick"
+        },
+        {
+          "item": "green onions",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "5",
+          "unit": "cloves",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sesame seeds",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Trim fat from meat. Place meat in a deep bowl."
+        },
+        {
+          "step": 2,
+          "text": "In another bowl, combine marinade ingredients. Blend well."
+        },
+        {
+          "step": 3,
+          "text": "Pour marinade over meat. Turn meat to coat all sides. Cover. Refrigerate 4 to 8 hours or overnight."
+        },
+        {
+          "step": 4,
+          "text": "Place steak meat on a rack in a shallow roasting pan. Brush with marinade."
+        },
+        {
+          "step": 5,
+          "text": "Roast at 450\u00b0F for 20 to 30 minutes for rare to medium-rare. After 5 minutes, brush with marinade. Baste meat often."
+        },
+        {
+          "step": 6,
+          "text": "Remove meat from oven. Place on serving board. Let stand 10 minutes."
+        },
+        {
+          "step": 7,
+          "text": "Carve into thin slices. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with hot wild rice, stir-fried vegetables and rolls."
+      ],
+      "tags": [
+        "main dish",
+        "beef",
+        "steak",
+        "marinated",
+        "asian"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 323,
+          "fat_g": 17.1,
+          "carbs_g": 19.2,
+          "protein_g": 23.2,
+          "sodium_mg": 152,
+          "fiber_g": 2.8,
+          "sugar_g": 11.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boneless sirloin: used default unit",
+          "garlic: used default unit",
+          "soy sauce: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "barbecued-spareribs-orientale-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Barbecued Spareribs Orientale",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Asian-style barbecued pork spareribs with honey and sake.",
+      "temperature": "preheated grill",
+      "prep_time": "40 minutes",
+      "cook_time": "30 minutes",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "pork spareribs",
+          "quantity": "3 to 3-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "water",
+          "quantity": "2",
+          "unit": "quarts"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "freshly ground black pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "honey",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sake or sweet sherry",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "optional"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced or pressed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut ribs into 3 pieces. In large saucepan combine ribs, water, vinegar and sugar. Bring to a boil. Reduce heat. Simmer for 35 minutes. Drain."
+        },
+        {
+          "step": 2,
+          "text": "In a bowl, combine soy sauce, pepper, honey, sake and garlic. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Dip rib pieces into the mixture. Place on coals."
+        },
+        {
+          "step": 4,
+          "text": "Grill meat, brushing often with sauce, for 30 minutes or until ribs are glazed and tender."
+        },
+        {
+          "step": 5,
+          "text": "Brush cooked ribs with remaining sauce. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with barbecued vegetables or steamed fresh vegetables and a tossed salad.",
+        "Recipe may be halved or doubled.",
+        "For 8-12 servings, use only 1\u00bd times the sweet-and-sour broth.",
+        "You may precook spareribs ahead of time and simply heat and glaze over charcoal before serving."
+      ],
+      "tags": [
+        "main dish",
+        "pork",
+        "ribs",
+        "barbecue",
+        "asian",
+        "grilled"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 654,
+          "fat_g": 34.7,
+          "carbs_g": 29.0,
+          "protein_g": 54.4,
+          "sodium_mg": 190,
+          "fiber_g": 0.1,
+          "sugar_g": 28.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork spareribs: used default unit",
+          "water: used default unit",
+          "white wine vinegar: used default unit",
+          "soy sauce: used default unit",
+          "sake or sweet sherry: used default unit",
+          "garlic: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "sweet-and-spicy-pot-roast-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sweet and Spicy Pot Roast",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "A different and delicious pot roast with an unusual combination of sweet and spicy flavors.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "prep_time": "30 minutes",
+      "cook_time": "2-1/2 to 3 hours",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "blade cut or round bone pot roast",
+          "quantity": "3-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "bottle chili sauce",
+          "quantity": "1",
+          "unit": "12 oz"
+        },
+        {
+          "item": "water",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "raw potatoes",
+          "quantity": "4-6",
+          "unit": "",
+          "prep_note": "peeled, quartered"
+        },
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "cut in diagonal slices"
+        },
+        {
+          "item": "cooked prunes",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place meat in baking dish with a cover. Season meat with onion salt, pepper, paprika and garlic salt, if used."
+        },
+        {
+          "step": 2,
+          "text": "Cook, uncovered, at 350\u00b0F for 30 minutes. Turn. Bake 30 minutes longer."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, mix together chili sauce and water. Pour over meat."
+        },
+        {
+          "step": 4,
+          "text": "Pat brown sugar into top of meat. Stir some brown sugar into sauce."
+        },
+        {
+          "step": 5,
+          "text": "Cover. Roast for about 2 hours, basting frequently."
+        },
+        {
+          "step": 6,
+          "text": "Add vegetables and prunes. Continue cooking until meat and potatoes are tender. Baste meat often."
+        },
+        {
+          "step": 7,
+          "text": "Carve meat. Place on serving dish. Pour sauce over all."
+        }
+      ],
+      "notes": [
+        "This dish is just as delicious reheated the following day. To cook prunes, cover with water. Simmer about 30 minutes."
+      ],
+      "tags": [
+        "main dish",
+        "beef",
+        "pot roast",
+        "sweet",
+        "prunes"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 497,
+          "fat_g": 15.6,
+          "carbs_g": 57.4,
+          "protein_g": 33.5,
+          "sodium_mg": 151,
+          "fiber_g": 6.0,
+          "sugar_g": 20.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "blade cut or round bone pot roast: used default unit",
+          "onion: used default unit",
+          "bottle chili sauce: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "stuffed-peppers-webb-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Stuffed Peppers (Webb)",
+      "category": "mains",
+      "description": "Classic stuffed bell peppers with ground beef and rice.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "ingredients": [
+        {
+          "item": "big green peppers",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "lean hamburger",
+          "quantity": "1-1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "chopped onions",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "Minute Rice",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "boxed"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "condensed tomato soup",
+          "quantity": "1",
+          "unit": "large can",
+          "prep_note": "Campbell's family size"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Wash peppers and cut tops off."
+        },
+        {
+          "step": 2,
+          "text": "Put in pepper loosely: hamburger mixed with onions, garlic, egg, rice, and milk."
+        },
+        {
+          "step": 3,
+          "text": "Put on top: 1 large can tomato Campbell's sauce condensed family soup."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 350 degrees."
+        }
+      ],
+      "tags": [
+        "main dish",
+        "beef",
+        "peppers",
+        "stuffed"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 91,
+          "fat_g": 2.6,
+          "carbs_g": 13.7,
+          "protein_g": 4.8,
+          "sodium_mg": 90,
+          "fiber_g": 2.7,
+          "sugar_g": 5.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lean hamburger: used default unit",
+          "chopped onions: used default unit",
+          "garlic: used default unit",
+          "condensed tomato soup: used default unit"
+        ]
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
+    },
+    {
+      "id": "pork-broccoli-delight-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pork-Broccoli Delight",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "A creamy pork and broccoli casserole topped with croutons.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "prep_time": "15 minutes",
+      "cook_time": "20 minutes",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "boneless pork",
+          "quantity": "1-1/2 to 2",
+          "unit": "cups",
+          "prep_note": "cooked, diced"
+        },
+        {
+          "item": "frozen broccoli spears",
+          "quantity": "1",
+          "unit": "pkg (10 oz)",
+          "prep_note": "or chopped"
+        },
+        {
+          "item": "salted water",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "boiling"
+        },
+        {
+          "item": "croutons",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "seasoned toasted"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drop broccoli into boiling salted water. Cook 2 minutes. Drain thoroughly."
+        },
+        {
+          "step": 2,
+          "text": "Sprinkle croutons in bottom of shallow, buttered 1-1/2-quart casserole dish. Top with broccoli."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, combine pork, mayonnaise and sour cream. Mix well."
+        },
+        {
+          "step": 4,
+          "text": "Spread over broccoli. Sprinkle with Parmesan cheese."
+        },
+        {
+          "step": 5,
+          "text": "Bake, uncovered, at 350\u00b0F for 20 minutes or until lightly browned."
+        }
+      ],
+      "notes": [
+        "Health Note: To reduce fat, cholesterol and calories, use reduced-fat mayonnaise and light dairy sour cream.",
+        "Good served with: Tossed green or tomato salad.",
+        "Variations: You may substitute cooked asparagus for the broccoli and cooked cubed chicken for the pork.",
+        "Tips: To use fresh broccoli in place of frozen, break into flowerettes and parboil 2 minutes. Drain well. The casserole can be assembled ahead of time and refrigerated to be baked later."
+      ],
+      "tags": [
+        "main dish",
+        "pork",
+        "broccoli",
+        "casserole"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 391,
+          "fat_g": 24.8,
+          "carbs_g": 9.0,
+          "protein_g": 31.5,
+          "sodium_mg": 572,
+          "fiber_g": 1.0,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boneless pork: used default unit",
+          "frozen broccoli spears: used default unit",
+          "croutons: used default unit",
+          "mayonnaise: used default unit",
+          "grated Parmesan cheese: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "roast-leg-of-lamb-with-mint-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Roast Leg of Lamb with Mint Sauce",
+      "category": "mains",
+      "source_note": "My Great Recipes packet",
+      "description": "Classic roast leg of lamb with homemade mint sauce.",
+      "temperature": "450\u00b0F then 350\u00b0F",
+      "prep_time": "15 minutes",
+      "cook_time": "1-1/2 to 2 hours",
+      "servings_yield": "8 servings",
+      "ingredients": [
+        {
+          "item": "leg of lamb",
+          "quantity": "5",
+          "unit": "lbs",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3-4",
+          "unit": "slivers"
+        },
+        {
+          "item": "oil",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "dried rosemary",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "[MINT SAUCE]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "fresh mint leaves",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Trim loose fat from lamb. Do not remove outer skin. Wipe meat with damp cloth."
+        },
+        {
+          "step": 2,
+          "text": "Brush with oil. With small knife, make several slivers in meat. Insert garlic pieces into slivers. Sprinkle with rosemary."
+        },
+        {
+          "step": 3,
+          "text": "Place lamb on a rack in a roasting pan, fat-side up."
+        },
+        {
+          "step": 4,
+          "text": "Sear meat at 450\u00b0 for 15 minutes. Reduce temperature to 350\u00b0F. Roast 1-1/2 to 2 hours until meat thermometer reads 160\u00b0F for slightly rare or 170\u00b0F or well done."
+        },
+        {
+          "step": 5,
+          "text": "To prepare sauce, combine water and sugar in a saucepan. Heat until sugar is dissolved. Remove from heat. Stir in mint and vinegar. Set aside for 30 minutes. Strain. Cover. Chill."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle lamb with salt and pepper. Let rest 20-30 minutes before carving. Serve sliced meat with mint sauce."
+        }
+      ],
+      "tags": [
+        "main dish",
+        "lamb",
+        "roast",
+        "mint sauce"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Mint sauce ingredients were missing from original - added standard mint sauce recipe"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 705,
+          "fat_g": 51.8,
+          "carbs_g": 0.6,
+          "protein_g": 55.1,
+          "sodium_mg": 466,
+          "fiber_g": 0.1,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "leg of lamb: used default unit",
+          "garlic: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "swordfish-steamed-vegetables-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Swordfish with Steamed Vegetables",
+      "category": "mains",
+      "prep_time": "10 min",
+      "cook_time": "20-25 min",
+      "servings_yield": "4 servings",
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "ingredients": [
+        {
+          "item": "swordfish steak",
+          "quantity": "1 1/2",
+          "unit": "lbs",
+          "prep_note": "cut into 4 servings"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sweet butter",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "each salt and black pepper"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "zucchini",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "sliced (about 2 cups)"
+        },
+        {
+          "item": "finely sliced green onions",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "celery and sliced onions",
+          "quantity": "1/2",
+          "unit": "cup each"
+        },
+        {
+          "item": "dried tarragon leaves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "walnuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "toasted"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dust fish with flour, salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "In an ovenproof pan, melt butter in oil. Add fish. Saut\u00e9 over medium heat until golden."
+        },
+        {
+          "step": 3,
+          "text": "In a small bowl, combine zucchini, celery and onions. Top fish with vegetable mixture. Pour wine over all. Sprinkle with tarragon. Add salt to taste."
+        },
+        {
+          "step": 4,
+          "text": "Cover. Bake at 425\u00b0F for 20 to 25 minutes until fish flakes and vegetables are tender-crisp. Sprinkle with walnuts."
+        }
+      ],
+      "notes": [
+        "To simplify this recipe, place butter and oil in baking dish. Heat at 425\u00b0F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
+        "Good served with: Brown rice pilaf, crisp rolls with herbed butter, and lemon pie for dessert."
+      ],
+      "tags": [
+        "fish",
+        "swordfish",
+        "seafood",
+        "vegetables",
+        "healthy"
+      ],
+      "image_refs": [
+        "95"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 660,
+          "fat_g": 42.9,
+          "carbs_g": 55.8,
+          "protein_g": 13.0,
+          "sodium_mg": 229,
+          "fiber_g": 4.0,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "swordfish steak: used default unit",
+          "all-purpose flour: used default unit",
+          "sweet butter: used default unit",
+          "finely sliced green onions: used default unit",
+          "celery and sliced onions: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pork-chops-cider-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pork Chops in Cider Sauce",
+      "category": "mains",
+      "prep_time": "15 min",
+      "cook_time": "30 min",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "lean center-cut pork chops",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "about 3/4-inch thick"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "3 1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried sage leaves",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "apple cider or apple juice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Sherried Apples",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional, recipe follows"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Trim fat from pork."
+        },
+        {
+          "step": 2,
+          "text": "In a medium to large skillet, heat butter. Add garlic. Cook until golden brown. Add meat. Brown on both sides."
+        },
+        {
+          "step": 3,
+          "text": "Spread each chop generously with mustard. Sprinkle with sage and pepper. Repeat on other side of chops."
+        },
+        {
+          "step": 4,
+          "text": "Add 1/2 cup cider. Cover. Cook slowly for 15 to 20 minutes, turning occasionally."
+        },
+        {
+          "step": 5,
+          "text": "Remove cover. Add remaining cider. Cook rapidly until reduced to a sauce consistency."
+        },
+        {
+          "step": 6,
+          "text": "Stir 1 tablespoon mustard into sauce. Pour over chops. Serve with apples."
+        }
+      ],
+      "notes": [
+        "Sherried Apples: Cut 3 large red apples in sixths. Core but do not peel. Place in deep bowl. Mix 1 tbsp lemon juice and packed brown sugar, 1/4 cup each dry sherry. Pour over apples. Let stand for 30 minutes, stirring occasionally. Drain. Roll cut sides of apple wedges in flour. Melt 1/4 cup butter in medium skillet. Add apple. Cook slowly, adding more butter as needed, until browned on both sides and tender."
+      ],
+      "tags": [
+        "pork",
+        "chops",
+        "cider",
+        "apples",
+        "main dish"
+      ],
+      "image_refs": [
+        "96"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 131,
+          "fat_g": 5.8,
+          "carbs_g": 13.6,
+          "protein_g": 7.6,
+          "sodium_mg": 89,
+          "fiber_g": 2.3,
+          "sugar_g": 9.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Dijon-style mustard: used default unit",
+          "apple cider or apple juice: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pork-barbecue-sandwiches-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pork Barbecue Sandwiches",
+      "category": "mains",
+      "prep_time": "30 min",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "cooked pork",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "large hamburger buns",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "buttered"
+        },
+        {
+          "item": "dill pickles",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "coleslaw",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish"
+        },
+        {
+          "item": "[SAUCE - RECONSTRUCTED]",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "prepared mustard",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare barbecue sauce, in a heavy saucepan, heat butter. Add onion and garlic, saut\u00e9, stirring constantly, 3 to 4 minutes until onion is soft."
+        },
+        {
+          "step": 2,
+          "text": "Add remaining ingredients. Heat to boiling. Simmer 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Stir sliced pork into hot sauce. Cook over low heat until meat is hot."
+        },
+        {
+          "step": 4,
+          "text": "Spoon pork with sauce into hamburger buns."
+        },
+        {
+          "step": 5,
+          "text": "Garnish plate with dill pickles and coleslaw. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Recipe may be halved or doubled. Health Note: For healthier portions, trim fat from pork prior to adding to sauce. To lower sodium, use light soy sauce."
+      ],
+      "tags": [
+        "pork",
+        "sandwiches",
+        "barbecue",
+        "quick"
+      ],
+      "image_refs": [
+        "98"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "RECONSTRUCTED: Original sauce ingredients missing from source",
+          "Sauce recipe based on typical Southern BBQ sauce + recipe hints (soy sauce mentioned in health note)"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 336,
+          "fat_g": 20.4,
+          "carbs_g": 5.6,
+          "protein_g": 31.1,
+          "sodium_mg": 718,
+          "fiber_g": 0.7,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
+    },
+    {
+      "id": "fennel-glazed-pork-loin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fennel-Glazed Pork Loin",
+      "category": "mains",
+      "prep_time": "5 min",
+      "cook_time": "2 hrs",
+      "servings_yield": "4-6 servings",
+      "temperature": "450\u00b0F, then 350\u00b0F, then 325\u00b0F",
+      "ingredients": [
+        {
+          "item": "pork loin roast",
+          "quantity": "3-4",
+          "unit": "lbs"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "thinly sliced"
+        },
+        {
+          "item": "whole fennel seeds",
+          "quantity": "8",
+          "unit": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "4-6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "crushed fennel",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken stock",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "With a small knife, cut several slivers along top of roast. Insert garlic slices and fennel seeds into slivers."
+        },
+        {
+          "step": 2,
+          "text": "Place roast on a rack in roasting pan. Roast at 450\u00b0F for 30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Drizzle with 2-3 tablespoons honey. Reduce heat to 350\u00b0F. Roast 30 minutes longer."
+        },
+        {
+          "step": 4,
+          "text": "Drizzle with another 2 tablespoons honey. Sprinkle with crushed fennel. Pour in stock and wine. Reduce heat to 325\u00b0F. Continue roasting 1 hour longer or until meat reaches 160\u00b0-170\u00b0F."
+        },
+        {
+          "step": 5,
+          "text": "Place meat on a platter. Let sit before carving."
+        },
+        {
+          "step": 6,
+          "text": "Skim fat from pan liquid. Reheat if necessary. Serve alongside meat."
+        }
+      ],
+      "notes": [
+        "Small new potatoes can be parboiled and added to roasting pan for the last hour. Turn and coat with sauce so they turn a rich color. Sprinkle with extra crushed fennel and black pepper."
+      ],
+      "tags": [
+        "pork",
+        "roast",
+        "fennel",
+        "honey",
+        "main dish"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 738,
+          "fat_g": 27.7,
+          "carbs_g": 19.6,
+          "protein_g": 93.5,
+          "sodium_mg": 234,
+          "fiber_g": 1.4,
+          "sugar_g": 17.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "pork loin roast: used default unit",
+          "garlic: used default unit",
+          "chicken stock: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "shrimp-newburg-in-patty-shells-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Shrimp Newburg in Patty Shells",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Elegant shrimp in a creamy sauce served in puff pastry shells.",
+      "servings_yield": "4 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "frozen patty shells",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "baked according to package directions"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "shelled shrimp",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "cooked"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried rosemary",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried thyme leaves",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "half-and-half",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "peas",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "frozen, cooked, drained"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Bake frozen patty shells according to package directions."
+        },
+        {
+          "step": 2,
+          "text": "In a medium saucepan, melt butter. Over medium heat, blend in flour. Add seasonings."
+        },
+        {
+          "step": 3,
+          "text": "Cook, stirring, about 3 minutes."
+        },
+        {
+          "step": 4,
+          "text": "In a small bowl, combine egg yolks and ketchup, stirring in milk."
+        },
+        {
+          "step": 5,
+          "text": "Add 2 to 3 teaspoons of the heated sauce. Add to teaspoon at a time stirring over low heat until thickened."
+        },
+        {
+          "step": 6,
+          "text": "Remove from heat. Slowly stir in milk. Reduce heat."
+        },
+        {
+          "step": 7,
+          "text": "Cook until bubbling, stirring frequently to avoid lumps."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Recipe may be halved or doubled"
+      ],
+      "tags": [
+        "seafood",
+        "shrimp",
+        "elegant",
+        "pastry"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 578,
+          "fat_g": 28.3,
+          "carbs_g": 65.0,
+          "protein_g": 14.3,
+          "sodium_mg": 441,
+          "fiber_g": 2.4,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "butter or margarine: used default unit",
+          "shelled shrimp: used default unit",
+          "all-purpose flour: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "red-snapper-vera-cruz-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Red Snapper Vera Cruz",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Mexican-style baked red snapper with peppers, olives and tomatoes.",
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "10-15 minutes",
+      "total_time": "35 minutes",
+      "ingredients": [
+        {
+          "item": "fresh red snapper fillets",
+          "quantity": "1 1/2",
+          "unit": "lbs",
+          "prep_note": "skin, all bones removed"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter and green bell pepper",
+          "quantity": "1",
+          "unit": "each",
+          "prep_note": "cut julienne"
+        },
+        {
+          "item": "red bell pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut julienne"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1-2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "jalape\u00f1o peppers",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "seeded, chopped"
+        },
+        {
+          "item": "Florida tomatoes",
+          "quantity": "1 1/2",
+          "unit": "large",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "sliced black olives",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "drained"
+        },
+        {
+          "item": "dry white wine or water",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "pinch",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "To prepare sauce, in a large skillet, heat butter. Add onions and garlic. Cook until onions are clear but not brown."
+        },
+        {
+          "step": 2,
+          "text": "Add all peppers and the tomatoes. Cook about 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Add olives, capers, bay leaf and wine. Simmer for 3 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add sugar and cinnamon. Simmer for 2 minutes. Remove from heat. Set aside."
+        },
+        {
+          "step": 5,
+          "text": "To prepare fish, on a plate, mix flour, salt and pepper. Lightly coat fillets on both sides."
+        },
+        {
+          "step": 6,
+          "text": "In a large skillet, heat butter over medium-high heat. Cook fillets about 2 minutes per side."
+        },
+        {
+          "step": 7,
+          "text": "Place fillets in an ovenproof dish. Pour sauce over fish. Bake at 325\u00b0F for 10 to 15 minutes."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "ovenproof dish",
+      "notes": [
+        "Sauce may be prepared up to 1 1/2 hours in advance and kept in refrigerator. Cover"
+      ],
+      "tags": [
+        "seafood",
+        "fish",
+        "Mexican",
+        "red snapper"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 612,
+          "fat_g": 59.7,
+          "carbs_g": 15.5,
+          "protein_g": 4.6,
+          "sodium_mg": 608,
+          "fiber_g": 2.2,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh red snapper fillets: used default unit",
+          "butter or margarine: used default unit",
+          "garlic: used default unit",
+          "cinnamon: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "salt-cod-fish-recipes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Salt Cod Fish (Multiple Preparations)",
+      "category": "mains",
+      "attribution": "Other Oldtimer",
+      "source_note": "Typed recipe sheet",
+      "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
+      "servings_yield": "varies",
+      "prep_time": "30 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "salt codfish",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "as needed",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "mashed potatoes",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for fish cakes"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "SALT COD FISH: To freshen salt cod fish, put on in cold water and slowly bring to the boil. Keep over fish and brown in oven."
+        },
+        {
+          "step": 2,
+          "text": "CODFISH SOUFFLE: Mix with one cup mashed potatoes and season with pepper. Add one egg well beaten. Good. (Cooked codfish) Beat until light and fluffy."
+        },
+        {
+          "step": 3,
+          "text": "CREAMED SALT CODFISH: Freshen a pound of salt codfish, then let it simmer for about three minutes. Pour in buttered dish. Let stand in oven till set."
+        },
+        {
+          "step": 4,
+          "text": "SALT COD FISH CAKES: Salt cod fish and potatoes feel over should be minced fine, add one well boiled egg. Pour in seasoning to taste. Add an egg mix well, put into cakes and fry in butter."
+        },
+        {
+          "step": 5,
+          "text": "CODFISH & CHEESE: Freshen a pound of salt codfish, then let it simmer until tender. Add seasoning of pepper. In a white sauce mix with pepper. Add a luncheon dish. Can be served on toast or a luncheon dish."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [
+        "Traditional New England salt cod preparations"
+      ],
+      "tags": [
+        "seafood",
+        "fish",
+        "cod",
+        "traditional"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "HANDWRITTEN_DIFFICULT_TO_READ",
+          "PARTIAL_INSTRUCTIONS"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 199,
+          "fat_g": 14.5,
+          "carbs_g": 12.0,
+          "protein_g": 5.9,
+          "sodium_mg": 133,
+          "fiber_g": 1.1,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "salt codfish: used default unit",
+          "mashed potatoes: used default unit",
+          "pepper: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "turkey-burgers-deluxe-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Turkey Burgers Deluxe",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "Printed recipe card (Hellmann's/Mazola)",
+      "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "6 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground turkey or chicken",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "dry bread crumbs",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "grated carrots",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped green onions",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "Mazola No Stick Corn Oil Cooking Spray",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "small cucumber",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "seeded and finely chopped"
+        },
+        {
+          "item": "Hellmann's or Best Foods Real or Low Fat Mayonnaise Dressing",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "minced fresh tarragon",
+          "quantity": "1 1/2",
+          "unit": "tsp",
+          "prep_note": "or 1/4 tsp dried tarragon, crushed"
+        },
+        {
+          "item": "tomato slices",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "lettuce leaves",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Thomas' Original English Muffins",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "split and toasted"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine turkey, bread crumbs, carrots and onion; shape into four 3/4-inch thick patties."
+        },
+        {
+          "step": 2,
+          "text": "Before lighting onion, spray rack with cooking spray on each side; spray rack with cooking spray. Broil burgers 6 minutes on each side until thoroughly cooked."
+        },
+        {
+          "step": 3,
+          "text": "In small bowl combine mayonnaise, yogurt, tarragon, garlic salt and pepper."
+        },
+        {
+          "step": 4,
+          "text": "Arrange lettuce, tomato and burger on bottom half of muffin halves. Top with about half the cucumber mixture. Stir in cucumber."
+        },
+        {
+          "step": 5,
+          "text": "Arrange remaining mayonnaise, burgers, and muffin tops."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "",
+      "notes": [],
+      "tags": [
+        "main dish",
+        "burger",
+        "turkey",
+        "healthy"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 434,
+          "fat_g": 17.8,
+          "carbs_g": 39.4,
+          "protein_g": 28.8,
+          "sodium_mg": 423,
+          "fiber_g": 4.7,
+          "sugar_g": 6.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "grated carrots: used default unit",
+          "chopped green onions: used default unit",
+          "garlic salt: used default unit",
+          "Hellmann's or Best Foods Real or Low Fat Mayonnaise Dressing: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "linguine-with-garden-clam-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Linguine with Garden Clam Sauce",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "Printed recipe card (Mazola/Mueller's)",
+      "description": "Quick pasta dish with clams and fresh vegetables.",
+      "servings_yield": "4 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "Mazola Right Blend Canola & Corn Oil",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "medium zucchini",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into 1/2-inch pieces"
+        },
+        {
+          "item": "large cloves garlic",
+          "quantity": "2 to 3",
+          "unit": "",
+          "prep_note": "minced"
+        },
+        {
+          "item": "large tomato",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "diced"
+        },
+        {
+          "item": "dried oregano",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "minced clams",
+          "quantity": "2",
+          "unit": "cans (6 1/2 oz each)",
+          "prep_note": "drained, broth reserved"
+        },
+        {
+          "item": "water",
+          "quantity": "",
+          "unit": "as needed",
+          "prep_note": ""
+        },
+        {
+          "item": "Argo or Kingsford's Corn Starch",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken bouillon cubes",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "Mueller's Linguine",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "cooked and drained"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large skillet heat oil over medium-high heat. Add zucchini and garlic; stirring frequently, cook 2 minutes. Add tomato and oregano; cook, stirring, 2 minutes longer."
+        },
+        {
+          "step": 2,
+          "text": "Combine clam broth with enough water to make 1 3/4 cups. Stir in corn starch; add to skillet with bouillon cubes and clams. Stirring constantly, bring to boil over medium heat; boil 1 minute."
+        },
+        {
+          "step": 3,
+          "text": "Toss with linguine and Parmesan."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "large skillet",
+      "notes": [],
+      "tags": [
+        "main dish",
+        "pasta",
+        "seafood",
+        "clams",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 728,
+          "fat_g": 29.9,
+          "carbs_g": 59.3,
+          "protein_g": 56.6,
+          "sodium_mg": 206,
+          "fiber_g": 4.7,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "minced clams: used default unit",
+          "water: used default unit",
+          "Argo or Kingsford's Corn Starch: used default unit",
+          "grated Parmesan cheese: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "beef-meatballs-in-tomato-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef Meatballs in Tomato Sauce",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "Handwritten recipe card",
+      "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "25 minutes",
+      "cook_time": "1 hour",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "2",
+          "unit": "lb",
+          "prep_note": ""
+        },
+        {
+          "item": "uncooked rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "salt",
+          "quantity": "2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "thyme",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato juice",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "instant beef broth",
+          "quantity": "1",
+          "unit": "envelope or tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix ground beef with rice, onion, thyme, egg, salt & pepper and 1/2 cup of tomato juice. Shape by heaping tablespoon into balls."
+        },
+        {
+          "step": 2,
+          "text": "Brown in oil in frying pan. Pour off excess oil."
+        },
+        {
+          "step": 3,
+          "text": "Combine remaining tomato juice & beef broth in same pan. Put in meat balls. Bring to boil."
+        },
+        {
+          "step": 4,
+          "text": "Lower heat, simmer for 1 hour."
+        }
+      ],
+      "temperature": "",
+      "pan_size": "frying pan",
+      "notes": [],
+      "tags": [
+        "main dish",
+        "beef",
+        "meatballs",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "HANDWRITTEN"
+        ]
+      },
+      "image_refs": [
+        "IMG_4389",
+        "IMG_4390",
+        "IMG_4391"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 686,
+          "fat_g": 46.6,
+          "carbs_g": 17.8,
+          "protein_g": 44.3,
+          "sodium_mg": 1570,
+          "fiber_g": 1.9,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "thyme: used default unit",
+          "tomato juice: used default unit",
+          "vegetable oil: used default unit",
+          "instant beef broth: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pork-chop-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pork Chop Casserole",
+      "category": "mains",
+      "description": "A simple one-dish pork chop bake with potatoes and noodles.",
+      "source_note": "handwritten recipe card",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "casserole dish",
+      "ingredients": [
+        {
+          "item": "thick pork chops",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "egg noodles",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "bouillon cube",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "hot water",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "for noodles"
+        },
+        {
+          "item": "milk or water",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Brown pork chops in skillet for about 15 minutes total, turning once."
+        },
+        {
+          "step": 2,
+          "text": "Meanwhile, cook egg noodles in 1 cup hot water until almost tender; drain."
+        },
+        {
+          "step": 3,
+          "text": "Layer sliced potatoes and noodles in casserole dish."
+        },
+        {
+          "step": 4,
+          "text": "Dissolve bouillon cube in 1 cup milk or water. Pour over potatoes and noodles."
+        },
+        {
+          "step": 5,
+          "text": "Place browned pork chops on top."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
+        }
+      ],
+      "notes": [
+        "Handwritten card is difficult to read - some ingredients/steps may need verification"
+      ],
+      "tags": [
+        "pork",
+        "casserole",
+        "one-dish",
+        "comfort food"
+      ],
+      "image_refs": [
+        "66"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten recipe - some text unclear"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 247,
+          "fat_g": 4.0,
+          "carbs_g": 42.2,
+          "protein_g": 11.6,
+          "sodium_mg": 206,
+          "fiber_g": 4.5,
+          "sugar_g": 4.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "egg noodles: used default unit"
+        ]
+      },
+      "servings_yield": "4 servings",
+      "prep_time": "20 minutes",
+      "cook_time": "45-60 minutes"
+    },
+    {
+      "id": "chefs-hamburgers-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chef's Hamburgers",
+      "category": "mains",
+      "description": "Elegant hamburger patties with cognac, mushrooms, and Dijon mustard sauce.",
+      "source_note": "My Great Recipes card",
+      "prep_time": "15 min",
+      "servings_yield": "Serves 4",
+      "ingredients": [
+        {
+          "item": "extra-lean ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "fresh parsley",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "coarsely cracked"
+        },
+        {
+          "item": "coarse salt",
+          "quantity": "3/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "cognac",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "unsalted butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fresh mushrooms",
+          "quantity": "4",
+          "unit": "oz",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "Dijon-style mustard",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "parsley",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "finely chopped, for garnish"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine beef, parsley and garlic. Divide into 4 parts. Shape each into a 1-inch thick patty. Press black pepper onto both sides of each patty."
+        },
+        {
+          "step": 2,
+          "text": "In a heavy skillet, sprinkle salt. Place over medium-high heat until smoking hot."
+        },
+        {
+          "step": 3,
+          "text": "Add patties to skillet. Cook 1 minute on each side. Turn heat to low. Cook 2-4 minutes longer until done to your liking."
+        },
+        {
+          "step": 4,
+          "text": "If using cognac, spoon over meat. Touch with match to flame. Remove meat from pan. Keep warm. Turn heat to high."
+        },
+        {
+          "step": 5,
+          "text": "To the pan, add butter, mushrooms and mustard. Saut\u00e9 1 minute or until mushrooms are heated through."
+        },
+        {
+          "step": 6,
+          "text": "Spoon over the meat patties. Sprinkle with parsley. Serve immediately."
+        }
+      ],
+      "notes": [
+        "For best results, use a hot cast-iron skillet to cook hamburgers.",
+        "Hamburgers may be mixed and shaped ahead of time. Cover and refrigerate until about 1 hour before cooking.",
+        "Bring meat to room temperature prior to cooking."
+      ],
+      "tags": [
+        "beef",
+        "hamburger",
+        "main dish",
+        "quick"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 289,
+          "fat_g": 18.1,
+          "carbs_g": 3.3,
+          "protein_g": 24.4,
+          "sodium_mg": 585,
+          "fiber_g": 0.9,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh parsley: used default unit",
+          "garlic: used default unit",
+          "black pepper: used default unit",
+          "fresh mushrooms: used default unit"
+        ]
+      },
+      "cook_time": "8-12 minutes"
+    },
+    {
+      "id": "beef-bean-and-noodle-skillet-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef, Bean and Noodle Skillet",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "description": "A hearty one-skillet meal with ground beef, kidney beans, and noodles.",
+      "prep_time": "20 minutes",
+      "cook_time": "30 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1/2",
+          "unit": "lb"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1",
+          "unit": "medium",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "celery",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "diced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried basil leaves",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "crumbled"
+        },
+        {
+          "item": "noodles",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "uncooked medium-size"
+        },
+        {
+          "item": "red kidney beans",
+          "quantity": "1",
+          "unit": "can (16 oz)",
+          "prep_note": "undrained"
+        },
+        {
+          "item": "stewed tomatoes",
+          "quantity": "1",
+          "unit": "can (8 oz)"
+        },
+        {
+          "item": "beef bouillon cube",
+          "quantity": "1",
+          "unit": "cube"
+        },
+        {
+          "item": "water",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a 10-inch skillet with cover, saute beef for about 5 minutes, stirring until meat loses its red color."
+        },
+        {
+          "step": 2,
+          "text": "Add onion, green pepper and celery. Saute 5 minutes longer. Sprinkle with salt, pepper, Worcestershire sauce and basil."
+        },
+        {
+          "step": 3,
+          "text": "Stir in noodles, tomatoes, kidney beans and water. Add bouillon cube."
+        },
+        {
+          "step": 4,
+          "text": "Bring mixture to a boil. Reduce heat. Cover. Simmer, stirring occasionally, for 20 minutes or until liquid is absorbed."
+        }
+      ],
+      "notes": [
+        "Health Note: To reduce sodium, substitute low-salt beef broth for bouillon cube and water.",
+        "Good served with a tossed green salad or coleslaw.",
+        "Recipe may be halved or doubled.",
+        "For 8 servings, use 1 16-oz. can stewed tomatoes."
+      ],
+      "tags": [
+        "skillet",
+        "ground beef",
+        "beans",
+        "noodles",
+        "one-pot"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 12.4,
+          "carbs_g": 36.5,
+          "protein_g": 18.8,
+          "sodium_mg": 714,
+          "fiber_g": 5.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "celery: used default unit",
+          "noodles: used default unit",
+          "red kidney beans: used default unit",
+          "stewed tomatoes: used default unit",
+          "beef bouillon cube: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "savory-beef-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Savory Beef",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "description": "Tender beef cubes braised with mushrooms in a savory sauce.",
+      "prep_time": "20 minutes",
+      "cook_time": "1\u00bc to 1\u00bd hours",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "servings_yield": "4-5 servings",
+      "ingredients": [
+        {
+          "item": "round steak",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "cut into \u00bd-inch cubes"
+        },
+        {
+          "item": "oil",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "1",
+          "unit": "can (3 oz)",
+          "prep_note": "undrained"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1",
+          "unit": "can (8 oz)"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "to taste",
+          "unit": ""
+        },
+        {
+          "item": "celery",
+          "quantity": "for garnish",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "chives",
+          "quantity": "for garnish",
+          "unit": "",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a large saucepan, heat oil. Add beef. Brown. Add onion and garlic. Cook, stirring, until onions are transparent."
+        },
+        {
+          "step": 2,
+          "text": "Add flour, stirring until beef cubes are coated. Add mushrooms with juice and celery."
+        },
+        {
+          "step": 3,
+          "text": "In a small bowl, combine remaining ingredients. Mix well. Pour over meat."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat. Turn mixture into a greased 2-quart casserole dish."
+        },
+        {
+          "step": 5,
+          "text": "Cover. Bake at 325\u00b0F for 1\u00bc to 1\u00bd hours until meat is tender."
+        },
+        {
+          "step": 6,
+          "text": "Sprinkle with chopped celery and chives and garnish."
+        }
+      ],
+      "notes": [
+        "Recipe may be doubled. Cooking time will remain the same.",
+        "Good served with hot white rice and crusty rolls."
+      ],
+      "tags": [
+        "beef",
+        "casserole",
+        "mushrooms",
+        "comfort food"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 881,
+          "fat_g": 29.1,
+          "carbs_g": 79.4,
+          "protein_g": 72.1,
+          "sodium_mg": 1050,
+          "fiber_g": 4.0,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "round steak: used default unit",
+          "all-purpose flour: used default unit",
+          "mushrooms: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "italian-meat-loaf-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Italian Meat Loaf",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
+      "prep_time": "15 minutes",
+      "cook_time": "about 1 hour",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1\u00bc",
+          "unit": "lbs"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "tomato sauce or tomato puree",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "soft bread crumbs",
+          "quantity": "6",
+          "unit": "tbsp"
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dried oregano leaves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "small clove",
+          "prep_note": "crushed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "salami",
+          "quantity": "2\u00bd",
+          "unit": "oz",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "Mozzarella cheese",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In a bowl, combine egg, tomato sauce, bread crumbs, parsley, oregano, garlic, salt and pepper. Add ground beef. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "Place meat on foil. Shape into a 7-by-9-inch rectangle."
+        },
+        {
+          "step": 3,
+          "text": "Evenly sprinkle salami over top. Sprinkle cheese over salami, leaving a narrow margin around edges."
+        },
+        {
+          "step": 4,
+          "text": "Beginning from 7-inch end, roll meat jelly-roll fashion, using foil to help you roll. Press to seal edges."
+        },
+        {
+          "step": 5,
+          "text": "Place loaf seam-side down in a greased baking pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 1 hour or until done."
+        },
+        {
+          "step": 7,
+          "text": "Drain fat. Slice. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Health Note: To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk.",
+        "Good served with hot rice or noodles and French-cut green beans saut\u00e9ed in olive oil and garlic."
+      ],
+      "tags": [
+        "meatloaf",
+        "Italian",
+        "cheese",
+        "beef"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1216,
+          "fat_g": 49.8,
+          "carbs_g": 120.9,
+          "protein_g": 65.2,
+          "sodium_mg": 2173,
+          "fiber_g": 4.7,
+          "sugar_g": 9.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "ground beef: used default unit",
+          "tomato sauce or tomato puree: used default unit",
+          "soft bread crumbs: used default unit",
+          "garlic: used default unit",
+          "Mozzarella cheese: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "thai-chicken-with-peanut-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Thai Chicken with Peanut Sauce",
+      "category": "mains",
+      "source_note": "Publix Aprons card, 3/23/00",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "boneless, skinless chicken breasts",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "oil or cooking spray",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "creamy peanut butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "was \"2 cup\" - likely OCR error, corrected"
+        },
+        {
+          "item": "lime juice (or lemon)",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "hot water",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "green onion",
+          "quantity": "1",
+          "unit": "Tbsp",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove"
+        },
+        {
+          "item": "dried crushed red pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dry chicken with paper towel. Heat oil (or spray) in large skillet over medium heat. Cook chicken 3-4 minutes on each side, or until juices run clear."
+        },
+        {
+          "step": 2,
+          "text": "In blender, thoroughly combine peanut butter, lime juice, water, soy sauce, honey, onion, garlic and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Spoon peanut sauce over each cooked chicken breast."
+        }
+      ],
+      "notes": [
+        "Peanut sauce recipe makes 3/4 cup."
+      ],
+      "tags": [
+        "chicken",
+        "Thai",
+        "peanut sauce",
+        "quick"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Peanut butter amount corrected: 2 cups -> 1/4 cup (original likely OCR error)"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 951,
+          "fat_g": 100.0,
+          "carbs_g": 7.3,
+          "protein_g": 10.7,
+          "sodium_mg": 883,
+          "fiber_g": 0.5,
+          "sugar_g": 5.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "oil or cooking spray: used default unit",
+          "lime juice (or lemon): used default unit",
+          "hot water: used default unit",
+          "green onion: used default unit"
+        ]
+      },
+      "prep_time": "10 minutes",
+      "cook_time": "10 minutes"
+    }
+  ]
+}

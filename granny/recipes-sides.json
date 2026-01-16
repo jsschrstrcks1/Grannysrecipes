@@ -1,0 +1,939 @@
+{
+  "meta": {
+    "category": "sides",
+    "count": 8
+  },
+  "recipes": [
+    {
+      "id": "quick-corn-souffle-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quick Corn Souffl\u00e9",
+      "category": "sides",
+      "source_note": "My Great Recipes packet",
+      "description": "An easy corn souffl\u00e9 that puffs up golden brown.",
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "prep_time": "10 minutes",
+      "cook_time": "20 minutes",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "room temperature"
+        },
+        {
+          "item": "creamed-style corn",
+          "quantity": "1",
+          "unit": "can (1 lb)"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt and white pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash each"
+        },
+        {
+          "item": "red or green pepper slices",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for garnish, optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In stainless steel bowl, beat eggs lightly. Stir in corn, salt, pepper, butter, flour, sugar and milk. Beat until well mixed."
+        },
+        {
+          "step": 2,
+          "text": "Add baking powder. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
+        },
+        {
+          "step": 5,
+          "text": "Garnish with pepper slices, if used. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Health Note: To reduce sodium, use no-salt-added canned creamed corn. Good served with ham steaks and rye bread."
+      ],
+      "tags": [
+        "side dish",
+        "corn",
+        "souffle",
+        "vegetable"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 329,
+          "fat_g": 12.9,
+          "carbs_g": 46.3,
+          "protein_g": 8.6,
+          "sodium_mg": 593,
+          "fiber_g": 1.4,
+          "sugar_g": 25.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "broccoli-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broccoli Casserole",
+      "category": "sides",
+      "description": "A cheesy broccoli casserole side dish.",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "cook_time": "15-25 minutes",
+      "pan_size": "9 x 13 inch casserole",
+      "ingredients": [
+        {
+          "item": "frozen broccoli",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "chopped and drained"
+        },
+        {
+          "item": "mayonnaise or cream cheese",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "[UNCLEAR - could be cheese or mayo]"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "chopped onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "Ritz crackers",
+          "quantity": "1/2",
+          "unit": "box",
+          "prep_note": "crushed, for topping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook and drain broccoli according to package directions."
+        },
+        {
+          "step": 2,
+          "text": "Mix broccoli with mayonnaise (or cream cheese), eggs, margarine, onion, salt and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Pour into greased 9x13 casserole dish."
+        },
+        {
+          "step": 4,
+          "text": "Top with crushed Ritz crackers."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
+        }
+      ],
+      "notes": [
+        "Option: Add hot peppers for heat."
+      ],
+      "tags": [
+        "side dish",
+        "broccoli",
+        "casserole",
+        "cheese",
+        "vegetable"
+      ],
+      "image_refs": [
+        "7"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "NEEDS_MANUAL_REVIEW",
+          "handwritten recipe rotated 90\u00b0",
+          "key ingredient unclear (mayo vs cheese)",
+          "Optional: Hot Peppers noted on card"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 236,
+          "fat_g": 21.6,
+          "carbs_g": 5.8,
+          "protein_g": 5.9,
+          "sodium_mg": 606,
+          "fiber_g": 0.5,
+          "sugar_g": 2.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen broccoli: used default unit",
+          "chopped onion: used default unit",
+          "Ritz crackers: used default unit"
+        ]
+      },
+      "servings_yield": "6-8 servings",
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "broccoli-with-egg-dressing-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broccoli with Egg Dressing",
+      "category": "sides",
+      "source_note": "My Great Recipes packet",
+      "description": "Fresh broccoli topped with a creamy egg dressing.",
+      "prep_time": "15 minutes",
+      "cook_time": "10 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "fresh broccoli",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Steam broccoli until tender-crisp. Drain and keep warm."
+        },
+        {
+          "step": 2,
+          "text": "Mix mayonnaise, lemon juice, and mustard."
+        },
+        {
+          "step": 3,
+          "text": "Fold in chopped eggs."
+        },
+        {
+          "step": 4,
+          "text": "Season with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Spoon dressing over warm broccoli and serve."
+        }
+      ],
+      "tags": [
+        "side dish",
+        "broccoli",
+        "vegetable",
+        "eggs"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 3.9,
+          "carbs_g": 2.0,
+          "protein_g": 3.7,
+          "sodium_mg": 650,
+          "fiber_g": 0.5,
+          "sugar_g": 0.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "fresh broccoli: used default unit",
+          "mayonnaise: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pickled-beets-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pickled Beets",
+      "category": "sides",
+      "description": "Simple homemade pickled beets.",
+      "ingredients": [
+        {
+          "item": "beets",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "fresh or 1 can"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "whole allspice",
+          "quantity": "6 or 8",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drop beets in boiling salted water, cook until tender (if using fresh beets)."
+        },
+        {
+          "step": 2,
+          "text": "Boil sugar, water, vinegar, and allspice together for 5 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Slice beets and add to pickling solution."
+        },
+        {
+          "step": 4,
+          "text": "Refrigerate. Serve cold."
+        }
+      ],
+      "tags": [
+        "side dish",
+        "beets",
+        "pickled",
+        "vegetable"
+      ],
+      "image_refs": [
+        "68"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten on envelope from Wauchula, Florida"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 134,
+          "fat_g": 0.7,
+          "carbs_g": 32.9,
+          "protein_g": 2.2,
+          "sodium_mg": 108,
+          "fiber_g": 4.9,
+          "sugar_g": 25.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vinegar: used default unit"
+        ]
+      },
+      "servings_yield": "6 servings",
+      "prep_time": "10 minutes"
+    },
+    {
+      "id": "easy-potato-gratin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Potato Gratin",
+      "category": "sides",
+      "prep_time": "20 min",
+      "cook_time": "30-40 min",
+      "servings_yield": "4 servings",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "ingredients": [
+        {
+          "item": "medium potatoes",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": "pared, shredded"
+        },
+        {
+          "item": "minced onion",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "olive or salad oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "finely diced cooked ham",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "divided"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "fresh parsley, minced fresh chives and dried chervil leaves",
+          "quantity": "2",
+          "unit": "tbsp each"
+        },
+        {
+          "item": "shredded Jarlsberg or Swiss cheese",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "whipping cream or milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In saucepan, heat oil and 1 tablespoon butter. Add onion. Saut\u00e9 over low heat until limp but not brown, about 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add ham and garlic. Cook 2 minutes."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, combine eggs, herbs, cheese, cream, pepper and salt. Beat well."
+        },
+        {
+          "step": 4,
+          "text": "Rinse shredded potatoes in cold water. Drain well. Add potatoes to egg mixture. Stir in ham mixture. Blend well."
+        },
+        {
+          "step": 5,
+          "text": "Spread mixture into a buttered 9- or 10-inch round, shallow baking dish. Dot with remaining butter."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 375\u00b0F for 30 to 40 minutes until top is browned. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Recipe may be halved or doubled. For 2 servings, use an 8-inch round baking dish. For 8, use 2 10-inch round dishes.",
+        "Good served with: Spinach salad and hot crusty bread."
+      ],
+      "tags": [
+        "potatoes",
+        "gratin",
+        "side dish",
+        "eggs",
+        "cheese"
+      ],
+      "image_refs": [
+        "100"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 372,
+          "fat_g": 21.2,
+          "carbs_g": 31.0,
+          "protein_g": 15.0,
+          "sodium_mg": 587,
+          "fiber_g": 3.3,
+          "sugar_g": 2.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "minced onion: used default unit",
+          "finely diced cooked ham: used default unit",
+          "fresh parsley, minced fresh chives and dried chervil leaves: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "toasted-herb-rice-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Toasted Herb Rice",
+      "category": "sides",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Flavorful oven-baked rice with herbs and soy sauce.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "50 minutes",
+      "total_time": "60 minutes",
+      "ingredients": [
+        {
+          "item": "long-grain rice",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "1",
+          "unit": "can (10 oz.)",
+          "prep_note": ""
+        },
+        {
+          "item": "boiling water",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "green onions",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "finely chopped"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "dried tarragon or basil leaves",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an ovenproof casserole with lid, place rice. Roast at 325\u00b0F for 20 minutes or until rice is toasted and golden."
+        },
+        {
+          "step": 2,
+          "text": "Remove from oven."
+        },
+        {
+          "step": 3,
+          "text": "Add butter. Stir until melted. Pour boiling broth and water over rice. Stir."
+        },
+        {
+          "step": 4,
+          "text": "Cover. Return to oven. Bake 30 minutes or until rice is cooked through and has absorbed all liquid."
+        },
+        {
+          "step": 5,
+          "text": "Stir in onions, soy sauce and tarragon. Serve immediately."
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "ovenproof casserole with lid",
+      "notes": [
+        "Recipe may be halved or doubled",
+        "Good served with baked or roasted chicken, turkey or lamb, broccoli with Hollandaise sauce or tomato salad with Italian-style dressing"
+      ],
+      "tags": [
+        "rice",
+        "side dish",
+        "herbs"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 178,
+          "fat_g": 8.7,
+          "carbs_g": 21.9,
+          "protein_g": 3.4,
+          "sodium_mg": 699,
+          "fiber_g": 2.2,
+          "sugar_g": 5.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chicken broth: used default unit",
+          "boiling water: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "spanish-rice-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Spanish Rice",
+      "category": "sides",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Classic Spanish rice with tomato sauce and herbs.",
+      "servings_yield": "4 servings",
+      "prep_time": "10 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "40 minutes",
+      "ingredients": [
+        {
+          "item": "long-grain white rice",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "medium onion",
+          "quantity": "1/2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "corn oil or clarified butter",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "clove",
+          "prep_note": "peeled"
+        },
+        {
+          "item": "bay leaf",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1 1/2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "oregano",
+          "quantity": "1",
+          "unit": "pinch",
+          "prep_note": "fresh or dried"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "to taste",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In an ovenproof saucepan, heat oil."
+        },
+        {
+          "step": 2,
+          "text": "Add onion. Cook over medium-high heat until onion is amber, not brown, about 3 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Stir in rice. Cook until rice changes color, about 5 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Add peppers and the tomatoes. Cook about 5 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Add water, tomato sauce, garlic, bay leaf, oregano, salt and pepper. Bring to boil. Cover. Bake at 425\u00b0F for 20 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Remove bay leaf and garlic clove before serving. Serve immediately."
+        }
+      ],
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "pan_size": "ovenproof saucepan",
+      "notes": [
+        "Be sure to remove bay leaf and garlic cloves from this dish before serving",
+        "Good served with Mexican chimichangas or burritos and refried beans"
+      ],
+      "tags": [
+        "rice",
+        "Mexican",
+        "side dish"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 107,
+          "fat_g": 6.1,
+          "carbs_g": 12.3,
+          "protein_g": 1.7,
+          "sodium_mg": 1104,
+          "fiber_g": 1.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "tomato sauce: used default unit",
+          "water: used default unit",
+          "oregano: used default unit",
+          "salt and pepper: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "senator-russells-sweet-potatoes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Senator Russell's Sweet Potatoes",
+      "category": "sides",
+      "attribution": "Senator Russell",
+      "source_note": "Typed recipe sheet",
+      "description": "Sweet potato casserole with a pecan streusel topping.",
+      "servings_yield": "6-8 servings",
+      "prep_time": "15 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "mashed sweet potatoes",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "fresh or canned"
+        },
+        {
+          "item": "white sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "canned or whole milk"
+        },
+        {
+          "item": "melted butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "self-rising flour",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "chopped pecans or walnuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "melted butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix ingredients together; put into baking dish."
+        },
+        {
+          "step": 2,
+          "text": "TOPPING: Mix the above ingredients together with a fork. Mixture will be crumbly. Then spread around on top of potato mixture. Bake for 30 minutes. Time may vary depending on oven temperatures."
+        },
+        {
+          "step": 3,
+          "text": "Pre-heat oven at 350 degrees."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "pan_size": "baking dish",
+      "notes": [
+        "Note: I use canned sweet potatoes, canned milk & walnuts"
+      ],
+      "tags": [
+        "side dish",
+        "sweet potato",
+        "casserole",
+        "holiday"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 7,
+        "per_serving": {
+          "calories": 664,
+          "fat_g": 32.8,
+          "carbs_g": 88.5,
+          "protein_g": 8.2,
+          "sodium_mg": 180,
+          "fiber_g": 3.2,
+          "sugar_g": 61.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "mashed sweet potatoes: used default unit"
+        ]
+      }
+    }
+  ]
+}

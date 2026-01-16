@@ -1,0 +1,1908 @@
+{
+  "meta": {
+    "title": "Baker-Hudson Family Recipes",
+    "description": "A family collection of treasured recipes from Grandma Baker, MomMom Baker, and Granny Hudson - preserved with love",
+    "created": "2026-01-05",
+    "last_updated": "2026-01-08",
+    "version": "3.0.0",
+    "total_recipes": 101,
+    "sharded": true,
+    "shard_strategy": "by_category",
+    "shard_count": 10
+  },
+  "shards": [
+    {
+      "category": "appetizers",
+      "file": "recipes-appetizers.json",
+      "count": 4
+    },
+    {
+      "category": "beverages",
+      "file": "recipes-beverages.json",
+      "count": 1
+    },
+    {
+      "category": "breads",
+      "file": "recipes-breads.json",
+      "count": 7
+    },
+    {
+      "category": "breakfast",
+      "file": "recipes-breakfast.json",
+      "count": 5
+    },
+    {
+      "category": "desserts",
+      "file": "recipes-desserts.json",
+      "count": 38
+    },
+    {
+      "category": "mains",
+      "file": "recipes-mains.json",
+      "count": 32
+    },
+    {
+      "category": "salads",
+      "file": "recipes-salads.json",
+      "count": 3
+    },
+    {
+      "category": "sides",
+      "file": "recipes-sides.json",
+      "count": 8
+    },
+    {
+      "category": "snacks",
+      "file": "recipes-snacks.json",
+      "count": 1
+    },
+    {
+      "category": "soups",
+      "file": "recipes-soups.json",
+      "count": 2
+    }
+  ],
+  "recipes": [
+    {
+      "id": "busy-day-casserole-granny",
+      "title": "Busy Day Casserole",
+      "category": "mains",
+      "tags": [
+        "casserole",
+        "ground beef",
+        "quick",
+        "family"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A quick and easy ground beef casserole.",
+      "servings_yield": "4-6 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "no-regrets-cheesecake-granny",
+      "title": "\"No Regrets\" Cheesecake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cheesecake",
+        "cream cheese"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A creamy cheesecake from Publix.",
+      "servings_yield": "12 servings",
+      "total_time": "N/A (no-bake)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "quakers-best-oatmeal-cookies-granny",
+      "title": "Quaker's Best Oatmeal Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "oatmeal",
+        "classic"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic oatmeal cookies from the Quaker Oats recipe.",
+      "servings_yield": "About 5 dozen cookies",
+      "total_time": "8-9 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "chicken-breasts-roma-granny",
+      "title": "Chicken Breasts Roma",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "italian",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Italian-style chicken breasts with tomatoes and herbs.",
+      "servings_yield": "4 servings",
+      "total_time": "45 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "broiled-spring-chicken-granny",
+      "title": "Broiled Spring Chicken",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "broiled",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Simple broiled chicken with herb butter and cheese.",
+      "servings_yield": "4 servings",
+      "total_time": "45 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "herb-grilled-chicken-granny",
+      "title": "Herb-Grilled Chicken",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "grilled",
+        "herbs",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Grilled chicken with fresh herb butter, basil and walnuts.",
+      "servings_yield": "6-8 servings",
+      "total_time": "25-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "joyces-chicken-granny",
+      "title": "Joyce's Chicken",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "italian",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Simmered chicken with tomatoes, mushrooms and white wine.",
+      "servings_yield": "4 servings",
+      "total_time": "45 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "corned-beef-hash-casserole-granny",
+      "title": "Corned Beef Hash Casserole",
+      "category": "mains",
+      "tags": [
+        "casserole",
+        "corned beef",
+        "eggs",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A hearty casserole topped with sliced eggs.",
+      "servings_yield": "4 servings",
+      "total_time": "25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "quick-corn-souffle-granny",
+      "title": "Quick Corn Souffl\u00e9",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "corn",
+        "souffle",
+        "vegetable"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "An easy corn souffl\u00e9 that puffs up golden brown.",
+      "servings_yield": "6 servings",
+      "total_time": "20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "deviled-cornish-hens-granny",
+      "title": "Deviled Cornish Hens",
+      "category": "mains",
+      "tags": [
+        "poultry",
+        "cornish hens",
+        "roasted",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Roasted Cornish hens with a tangy basting sauce.",
+      "servings_yield": "4 servings",
+      "total_time": "50 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "buttercups-granny",
+      "title": "Buttercups",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "pie",
+        "coconut",
+        "cherry"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Individual pie crust cups filled with a sweet coconut filling.",
+      "servings_yield": "24 cookies",
+      "total_time": "20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "smoky-bacon-burgers-granny",
+      "title": "Smoky Bacon Burgers",
+      "category": "mains",
+      "tags": [
+        "burgers",
+        "bacon",
+        "beef",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Juicy burgers wrapped in bacon with smoky flavor.",
+      "servings_yield": "4 servings",
+      "total_time": "10-15 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "markys-blue-eyed-muffins-granny",
+      "title": "Marky's Blue-Eyed Muffins",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "muffins",
+        "blueberry",
+        "crumble topping"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Blueberry muffins with a cinnamon crumble topping.",
+      "servings_yield": "10 muffins",
+      "total_time": "20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "easy-croissants-granny",
+      "title": "Easy Croissants",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "croissants",
+        "yeast",
+        "pastry"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Buttery, flaky croissants with optional chocolate, apple-almond, or other fillings.",
+      "servings_yield": "32 croissants",
+      "total_time": "10-15 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "carrot-cake-granny",
+      "title": "Carrot Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "carrot",
+        "cream cheese frosting"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic carrot cake with cream cheese frosting.",
+      "servings_yield": "12-16 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "dump-cake-granny",
+      "title": "Dump Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "easy",
+        "dump cake",
+        "no-mix"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A simple layered dessert - just dump the ingredients in order and bake!",
+      "servings_yield": "12-15 servings",
+      "total_time": "45-55 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "broccoli-casserole-granny",
+      "title": "Broccoli Casserole",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "broccoli",
+        "casserole",
+        "cheese",
+        "vegetable"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A cheesy broccoli casserole side dish.",
+      "servings_yield": "6-8 servings",
+      "total_time": "15-25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "ham-and-cheese-casserole-granny",
+      "title": "Ham & Cheese Casserole",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "casserole",
+        "ham",
+        "cheese",
+        "macaroni"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A hearty macaroni casserole with ham and cheese.",
+      "servings_yield": "4-6 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pumpkin-sheet-cookies-granny",
+      "title": "Pumpkin Sheet Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "pumpkin",
+        "sheet pan",
+        "cream cheese frosting"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Soft pumpkin cookies baked in a sheet pan with cream cheese frosting.",
+      "servings_yield": "24 cookies",
+      "total_time": "25-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "caramel-corn-granny",
+      "title": "Caramel Corn",
+      "category": "snacks",
+      "tags": [
+        "snack",
+        "popcorn",
+        "caramel",
+        "candy"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Homemade caramel corn - crunchy and sweet.",
+      "servings_yield": "6 quarts",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pound-cake-granny",
+      "title": "Pound Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "pound cake",
+        "southern"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic Southern pound cake with sour cream.",
+      "servings_yield": "12-16 servings",
+      "total_time": "1-1/2 hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "lime-coconut-salad-granny",
+      "title": "Lime Coconut in Pineapple",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "gelatin",
+        "lime",
+        "pineapple",
+        "coconut"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A refreshing lime gelatin salad with pineapple and coconut.",
+      "servings_yield": "8 servings",
+      "total_time": "4 hours (includes chilling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "bubble-loaf-granny",
+      "title": "Bubble Loaf",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "pull-apart",
+        "cheese",
+        "garlic"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Pull-apart bread with herbs and cheese.",
+      "servings_yield": "8-10 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "broccoli-with-egg-dressing-granny",
+      "title": "Broccoli with Egg Dressing",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "broccoli",
+        "vegetable",
+        "eggs"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Fresh broccoli topped with a creamy egg dressing.",
+      "servings_yield": "4 servings",
+      "total_time": "10 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "country-style-ribs-and-corn-granny",
+      "title": "Country-Style Ribs and Corn",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "pork",
+        "ribs",
+        "potatoes",
+        "corn"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Country-style pork back ribs baked together with potatoes.",
+      "servings_yield": "4-6 servings",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "sirloin-steak-in-marinade-granny",
+      "title": "Sirloin Steak in Marinade",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "beef",
+        "steak",
+        "marinated",
+        "asian"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Tender sirloin steak marinated in an Asian-inspired sauce.",
+      "servings_yield": "4-6 servings",
+      "total_time": "20-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "barbecued-spareribs-orientale-granny",
+      "title": "Barbecued Spareribs Orientale",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "pork",
+        "ribs",
+        "barbecue",
+        "asian",
+        "grilled"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Asian-style barbecued pork spareribs with honey and sake.",
+      "servings_yield": "6 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "sweet-and-spicy-pot-roast-granny",
+      "title": "Sweet and Spicy Pot Roast",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "beef",
+        "pot roast",
+        "sweet",
+        "prunes"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A different and delicious pot roast with an unusual combination of sweet and spicy flavors.",
+      "servings_yield": "6 servings",
+      "total_time": "2-1/2 to 3 hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "banana-pudding-bobby-jones-granny",
+      "title": "Banana Pudding (Bobby Jones)",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "pudding",
+        "banana",
+        "southern"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic Southern banana pudding with vanilla wafers and whipped cream.",
+      "servings_yield": "10-12 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "stuffed-peppers-webb-granny",
+      "title": "Stuffed Peppers (Webb)",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "beef",
+        "peppers",
+        "stuffed"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic stuffed bell peppers with ground beef and rice.",
+      "servings_yield": "4 servings",
+      "total_time": "45-60 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "irish-soda-bread-granny",
+      "title": "Irish Soda Bread",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "irish",
+        "soda bread",
+        "raisins"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Traditional Irish soda bread from the famous Landmark Tavern in NYC.",
+      "servings_yield": "8-10 loaves",
+      "total_time": "25-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pickled-beets-granny",
+      "title": "Pickled Beets",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "beets",
+        "pickled",
+        "vegetable"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Simple homemade pickled beets.",
+      "servings_yield": "6 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "banana-bread-dewolf-granny",
+      "title": "Banana Bread",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "banana",
+        "quick bread"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Moist banana bread - a family favorite.",
+      "servings_yield": "1 loaf",
+      "total_time": "55-65 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "grandmas-wheat-berrie-muffins-granny",
+      "title": "Grandma's Wheat Berrie Muffins",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "muffins",
+        "whole wheat",
+        "blueberry",
+        "healthy"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Healthy muffins with wheat flour, blueberries and sunflower seeds.",
+      "servings_yield": "12 muffins",
+      "total_time": "20-25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "angel-delight-granny",
+      "title": "Angel Delight",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "angel food cake",
+        "strawberry",
+        "jello",
+        "no-bake"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A layered dessert with angel food cake, strawberries, and Jello.",
+      "servings_yield": "12 servings",
+      "total_time": "N/A (no-bake)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "easy-guacamole-granny",
+      "title": "Easy Guacamole",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "dip",
+        "avocado",
+        "guacamole",
+        "mexican"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Simple and delicious guacamole.",
+      "servings_yield": "6 servings",
+      "total_time": "45 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pork-broccoli-delight-granny",
+      "title": "Pork-Broccoli Delight",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "pork",
+        "broccoli",
+        "casserole"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A creamy pork and broccoli casserole topped with croutons.",
+      "servings_yield": "6 servings",
+      "total_time": "20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "sausage-stuffed-mushrooms-granny",
+      "title": "Sausage-Stuffed Mushrooms",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "mushrooms",
+        "sausage",
+        "stuffed"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Large mushroom caps stuffed with seasoned pork sausage.",
+      "servings_yield": "16 mushrooms",
+      "total_time": "25-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "roast-leg-of-lamb-with-mint-sauce-granny",
+      "title": "Roast Leg of Lamb with Mint Sauce",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "lamb",
+        "roast",
+        "mint sauce"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic roast leg of lamb with homemade mint sauce.",
+      "servings_yield": "8 servings",
+      "total_time": "1-1/2 to 2 hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "spiced-blueberry-jam-granny",
+      "title": "Spiced Blueberry Jam",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "jam",
+        "blueberry",
+        "preserves",
+        "canning"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Homemade blueberry jam with warm spices.",
+      "servings_yield": "4 cups",
+      "total_time": "1 minute",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "crabmeat-clam-chowder-granny",
+      "title": "Crabmeat Clam Chowder",
+      "category": "soups",
+      "tags": [
+        "soup",
+        "seafood",
+        "chowder",
+        "crab",
+        "clams"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "20 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "swordfish-steamed-vegetables-granny",
+      "title": "Swordfish with Steamed Vegetables",
+      "category": "mains",
+      "tags": [
+        "fish",
+        "swordfish",
+        "seafood",
+        "vegetables",
+        "healthy"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "20-25 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pork-chops-cider-sauce-granny",
+      "title": "Pork Chops in Cider Sauce",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "chops",
+        "cider",
+        "apples",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "30 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pork-barbecue-sandwiches-granny",
+      "title": "Pork Barbecue Sandwiches",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "sandwiches",
+        "barbecue",
+        "quick"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "easy-potato-gratin-granny",
+      "title": "Easy Potato Gratin",
+      "category": "sides",
+      "tags": [
+        "potatoes",
+        "gratin",
+        "side dish",
+        "eggs",
+        "cheese"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "30-40 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "fennel-glazed-pork-loin-granny",
+      "title": "Fennel-Glazed Pork Loin",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "roast",
+        "fennel",
+        "honey",
+        "main dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4-6 servings",
+      "total_time": "2 hrs",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pizza-horns-granny",
+      "title": "Pizza Horns",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "pizza",
+        "bread",
+        "party food"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "16",
+      "total_time": "15 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "maple-pecan-waffles-granny",
+      "title": "Maple Pecan Waffles",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "waffles",
+        "pecans",
+        "maple"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "1-2 min per waffle",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "vegetable-mix-salad-granny",
+      "title": "Vegetable Mix Salad",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "vegetables",
+        "side dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "1 hr chilling",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "beef-vegetable-soup-granny",
+      "title": "Beef Vegetable Soup",
+      "category": "soups",
+      "tags": [
+        "soup",
+        "beef",
+        "vegetables",
+        "barley",
+        "hearty"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "50-60 min",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "garden-leaf-salad-granny",
+      "title": "Garden Leaf Salad",
+      "category": "salads",
+      "tags": [
+        "salad",
+        "lettuce",
+        "eggs",
+        "simple"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "N/A (no cooking)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "shrimp-newburg-in-patty-shells-granny",
+      "title": "Shrimp Newburg in Patty Shells",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "shrimp",
+        "elegant",
+        "pastry"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Elegant shrimp in a creamy sauce served in puff pastry shells.",
+      "servings_yield": "4 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "toasted-herb-rice-granny",
+      "title": "Toasted Herb Rice",
+      "category": "sides",
+      "tags": [
+        "rice",
+        "side dish",
+        "herbs"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Flavorful oven-baked rice with herbs and soy sauce.",
+      "servings_yield": "4 servings",
+      "total_time": "60 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "spanish-rice-granny",
+      "title": "Spanish Rice",
+      "category": "sides",
+      "tags": [
+        "rice",
+        "Mexican",
+        "side dish"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic Spanish rice with tomato sauce and herbs.",
+      "servings_yield": "4 servings",
+      "total_time": "40 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "quiche-crepes-granny",
+      "title": "Quiche Crepes",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "brunch",
+        "quiche",
+        "crepes",
+        "bacon"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Individual quiches baked in delicate crepes with bacon and Swiss cheese.",
+      "servings_yield": "4-6 servings",
+      "total_time": "2 hours (includes standing time)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "praline-lace-sundaes-granny",
+      "title": "Praline Lace Sundaes",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "ice cream",
+        "cookies",
+        "praline"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Crispy lace cookies shaped into cups and filled with ice cream and praline sauce.",
+      "servings_yield": "6 servings",
+      "total_time": "27 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "alans-basic-flan-granny",
+      "title": "Alan's Basic Flan",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "custard",
+        "flan",
+        "caramel"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic caramelized custard flan with vanilla.",
+      "servings_yield": "8-10 servings",
+      "total_time": "2 hours (includes cooling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "danish-kringle-and-pastry-horns-granny",
+      "title": "Danish Kringle and Pastry Horns",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "Danish",
+        "pastry",
+        "breakfast"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Traditional Danish pastries with almond filling.",
+      "servings_yield": "24 pieces",
+      "total_time": "2.5 hours (includes rising)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "black-cherry-tart-granny",
+      "title": "Black Cherry Tart",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "tart",
+        "cherry",
+        "cream cheese"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Elegant cherry tart with cream cheese and graham cracker crust.",
+      "servings_yield": "9 servings",
+      "total_time": "4-5 hours (includes chilling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "red-snapper-vera-cruz-granny",
+      "title": "Red Snapper Vera Cruz",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "fish",
+        "Mexican",
+        "red snapper"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Mexican-style baked red snapper with peppers, olives and tomatoes.",
+      "servings_yield": "4 servings",
+      "total_time": "35 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "banana-chocolate-cake-granny",
+      "title": "Banana Chocolate Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "banana"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Moist chocolate cake with mashed bananas and cream cheese frosting.",
+      "servings_yield": "8 servings",
+      "total_time": "55 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "cranberry-upside-down-muffins-granny",
+      "title": "Cranberry Upside-Down Muffins",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "muffins",
+        "cranberry",
+        "breakfast"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Tender muffins with a caramelized cranberry topping.",
+      "servings_yield": "12 muffins",
+      "total_time": "55 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "white-chocolate-chunk-cookies-granny",
+      "title": "White Chocolate Chunk Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "white chocolate",
+        "walnuts"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Buttery cookies studded with white chocolate chunks and walnuts.",
+      "servings_yield": "42 cookies",
+      "total_time": "25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "old-fashioned-butter-cake-granny",
+      "title": "Old-Fashioned Butter Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "butter",
+        "buttermilk"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic dense, moist butter cake made with buttermilk.",
+      "servings_yield": "12 servings",
+      "total_time": "1 hour 40 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "homemade-ice-cream-sodas-granny",
+      "title": "Homemade Ice Cream Sodas",
+      "category": "beverages",
+      "tags": [
+        "beverage",
+        "ice cream",
+        "soda",
+        "dessert"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Five classic ice cream soda variations including black and white, coffee, lemon, and fruity.",
+      "servings_yield": "1 serving each",
+      "total_time": "10 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "melting-moments-granny",
+      "title": "Melting Moments",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "butter"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Delicate butter cookies that melt in your mouth, topped with cream cheese icing.",
+      "servings_yield": "24 cookies",
+      "total_time": "1 hour (includes chilling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pineapple-dream-cake-granny",
+      "title": "Pineapple Dream Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "pineapple",
+        "mandarin"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Light and fluffy cake with pineapple and whipped cream frosting.",
+      "servings_yield": "10 servings",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "fruit-pie-in-cookie-crust-granny",
+      "title": "Fruit Pie in Cookie Crust",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "pie",
+        "fruit"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Fresh fruit pie with a sweet cookie-style crust.",
+      "servings_yield": "8 servings",
+      "total_time": "5 hours (includes chilling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "walnut-chocolate-fudge-granny",
+      "title": "Walnut Chocolate Fudge",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "candy",
+        "fudge",
+        "chocolate",
+        "walnuts"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Rich chocolate fudge made with apple juice and topped with walnuts.",
+      "servings_yield": "3 lbs",
+      "total_time": "20 minutes plus chilling",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "chocolate-strawberry-shortcake-granny",
+      "title": "Chocolate Strawberry Shortcake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "strawberry",
+        "shortcake"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Chocolate shortcake layered with ricotta cheese filling and fresh strawberries.",
+      "servings_yield": "8-10 servings",
+      "total_time": "40 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "cinnamon-mocha-sheet-cake-granny",
+      "title": "Cinnamon Mocha Sheet Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "chocolate",
+        "coffee",
+        "cinnamon"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Moist chocolate sheet cake flavored with cinnamon and espresso.",
+      "servings_yield": "32 slices",
+      "total_time": "33 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "caramel-crunch-bars-granny",
+      "title": "Caramel Crunch Bars",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "bars",
+        "caramel",
+        "almonds"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Buttery shortbread bars topped with caramel and almonds.",
+      "servings_yield": "4 dozen",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "crumb-topped-blueberry-cake-granny",
+      "title": "Crumb-Topped Blueberry Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "blueberry",
+        "coffee cake"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Moist coffee cake loaded with blueberries and topped with walnut streusel.",
+      "servings_yield": "12 servings",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "salt-cod-fish-recipes-granny",
+      "title": "Salt Cod Fish (Multiple Preparations)",
+      "category": "mains",
+      "tags": [
+        "seafood",
+        "fish",
+        "cod",
+        "traditional"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and w",
+      "servings_yield": "varies",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "senator-russells-sweet-potatoes-granny",
+      "title": "Senator Russell's Sweet Potatoes",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "sweet potato",
+        "casserole",
+        "holiday"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Sweet potato casserole with a pecan streusel topping.",
+      "servings_yield": "6-8 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "garlic-bean-dip-granny",
+      "title": "Garlic Bean Dip",
+      "category": "appetizers",
+      "tags": [
+        "appetizer",
+        "dip",
+        "beans",
+        "garlic"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Creamy white bean dip with garlic and cumin.",
+      "servings_yield": "2 cups",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "peanutty-chocolate-pie-granny",
+      "title": "Peanutty Chocolate Pie",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "pie",
+        "peanut butter",
+        "chocolate",
+        "no-bake"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "No-bake chocolate peanut butter pie with graham cracker crust.",
+      "servings_yield": "8 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "turkey-burgers-deluxe-granny",
+      "title": "Turkey Burgers Deluxe",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "burger",
+        "turkey",
+        "healthy"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Flavorful turkey burgers with tarragon, served with cucumber mayo topping.",
+      "servings_yield": "4 servings",
+      "total_time": "6 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "linguine-with-garden-clam-sauce-granny",
+      "title": "Linguine with Garden Clam Sauce",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "pasta",
+        "seafood",
+        "clams",
+        "quick"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Quick pasta dish with clams and fresh vegetables.",
+      "servings_yield": "4 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "peachn-berry-twists-granny",
+      "title": "Peach'n Berry Twists",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "pastry",
+        "breakfast",
+        "peach",
+        "contest winner"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Sweet breakfast pastries with peach filling.",
+      "servings_yield": "12 rolls",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "strawberry-shortcut-cake-granny",
+      "title": "Strawberry Shortcut Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "strawberry",
+        "marshmallow",
+        "quick"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Quick strawberry cake with marshmallow and whipped cream topping.",
+      "servings_yield": "12-15 servings",
+      "total_time": "45-50 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "beef-meatballs-in-tomato-sauce-granny",
+      "title": "Beef Meatballs in Tomato Sauce",
+      "category": "mains",
+      "tags": [
+        "main dish",
+        "beef",
+        "meatballs",
+        "comfort food"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic homemade meatballs with rice, simmered in tomato sauce with beef broth.",
+      "servings_yield": "6-8 servings",
+      "total_time": "1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "no-bake-easter-basket-cake-granny",
+      "title": "No-Bake Easter Basket Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "Easter",
+        "no-bake",
+        "holiday",
+        "decorated"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Adorable Easter basket cake made with frozen pound cakes, decorated with bunny cookies and candy.",
+      "servings_yield": "30 servings",
+      "total_time": "1 hour 50 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "frosty-orange-delight-granny",
+      "title": "Frosty Orange Delight",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "frozen",
+        "orange",
+        "cream cheese",
+        "contest"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Frozen orange cream dessert with a cookie crust.",
+      "servings_yield": "15-18 servings",
+      "total_time": "12-15 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "berry-banana-dessert-granny",
+      "title": "Berry Banana Dessert",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "raspberry",
+        "banana",
+        "cream cheese",
+        "contest"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Layered frozen dessert with raspberries, bananas, and cream cheese.",
+      "servings_yield": "15-18 servings",
+      "total_time": "3.5 hours (includes chilling)",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "strawberries-n-cream-cheese-freeze-granny",
+      "title": "Strawberries 'n Cream Cheese Freeze",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "frozen",
+        "strawberry",
+        "cream cheese",
+        "contest"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Frozen strawberry cream cheese dessert with lemon pudding crust.",
+      "servings_yield": "15-18 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "nestle-toll-house-chocolate-chip-cookies-granny",
+      "title": "Original Nestle Toll House Chocolate Chip Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate chip",
+        "classic"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "The classic original chocolate chip cookie recipe.",
+      "servings_yield": "About 5 dozen cookies",
+      "total_time": "9-11 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "nestle-famous-fudge-granny",
+      "title": "Famous Fudge",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "candy",
+        "fudge",
+        "chocolate"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic creamy chocolate fudge with marshmallows.",
+      "servings_yield": "About 3 pounds",
+      "total_time": "4-5 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "old-fashioned-oatmeal-cookies-nestle-granny",
+      "title": "Old Fashioned Oatmeal Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "oatmeal",
+        "chocolate chip"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Classic oatmeal cookies with chocolate chips.",
+      "servings_yield": "About 3 dozen cookies",
+      "total_time": "8-11 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
+      "title": "Ultimate Chocolate Chocolate Chip Cookies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "double chocolate"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Double chocolate cookies with melted chocolate in the batter.",
+      "servings_yield": "About 4 dozen cookies",
+      "total_time": "8-9 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "easy-double-chocolate-chip-brownies-granny",
+      "title": "Easy Double Chocolate Chip Brownies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "brownies",
+        "chocolate"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Fudgy brownies loaded with chocolate chips.",
+      "servings_yield": "2 dozen brownies",
+      "total_time": "16-20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pork-chop-casserole-granny",
+      "title": "Pork Chop Casserole",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "casserole",
+        "one-dish",
+        "comfort food"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A simple one-dish pork chop bake with potatoes and noodles.",
+      "servings_yield": "4 servings",
+      "total_time": "45-60 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "chefs-hamburgers-granny",
+      "title": "Chef's Hamburgers",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "hamburger",
+        "main dish",
+        "quick"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Elegant hamburger patties with cognac, mushrooms, and Dijon mustard sauce.",
+      "servings_yield": "Serves 4",
+      "total_time": "8-12 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "yuletide-toffee-squares-granny",
+      "title": "Yuletide Toffee Squares",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "holiday",
+        "christmas"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
+      "servings_yield": "About 6 dozen",
+      "total_time": "20-25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "make-ahead-cookie-mix-granny",
+      "title": "Make-Ahead Cookie Mix",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "make-ahead",
+        "basic mix"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A make-ahead refrigerator cookie mix base. Add eggs, sugar, and flavorings to make various cookies. ",
+      "servings_yield": "6 cups mix",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "basic-crust-granny",
+      "title": "Basic Crust",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "crust",
+        "base recipe"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
+      "servings_yield": "1 crust (13x9-inch)",
+      "total_time": "12-15 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "beef-bean-and-noodle-skillet-granny",
+      "title": "Beef, Bean and Noodle Skillet",
+      "category": "mains",
+      "tags": [
+        "skillet",
+        "ground beef",
+        "beans",
+        "noodles",
+        "one-pot"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A hearty one-skillet meal with ground beef, kidney beans, and noodles.",
+      "servings_yield": "4 servings",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "savory-beef-granny",
+      "title": "Savory Beef",
+      "category": "mains",
+      "tags": [
+        "beef",
+        "casserole",
+        "mushrooms",
+        "comfort food"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Tender beef cubes braised with mushrooms in a savory sauce.",
+      "servings_yield": "4-5 servings",
+      "total_time": "1\u00bc to 1\u00bd hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "italian-meat-loaf-granny",
+      "title": "Italian Meat Loaf",
+      "category": "mains",
+      "tags": [
+        "meatloaf",
+        "Italian",
+        "cheese",
+        "beef"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
+      "servings_yield": "4 servings",
+      "total_time": "about 1 hour",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "thai-chicken-with-peanut-sauce-granny",
+      "title": "Thai Chicken with Peanut Sauce",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "Thai",
+        "peanut sauce",
+        "quick"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "",
+      "servings_yield": "4 servings",
+      "total_time": "10 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "honey-wallbanger-cake-granny",
+      "title": "Honey Wallbanger Cake",
+      "category": "desserts",
+      "tags": [
+        "cake",
+        "dessert",
+        "liqueur",
+        "bundt"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
+      "servings_yield": "16 servings",
+      "total_time": "45 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    }
+  ]
+}

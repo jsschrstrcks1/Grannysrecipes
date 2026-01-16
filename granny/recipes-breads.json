@@ -1,0 +1,880 @@
+{
+  "meta": {
+    "category": "breads",
+    "count": 7
+  },
+  "recipes": [
+    {
+      "id": "easy-croissants-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Croissants",
+      "category": "breads",
+      "source_note": "My Great Recipes packet",
+      "description": "Buttery, flaky croissants with optional chocolate, apple-almond, or other fillings.",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "prep_time": "15 minutes",
+      "cook_time": "10-15 minutes",
+      "servings_yield": "32 croissants",
+      "ingredients": [
+        {
+          "item": "active dry yeast",
+          "quantity": "2",
+          "unit": "packages"
+        },
+        {
+          "item": "warm water",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "105-115\u00b0F"
+        },
+        {
+          "item": "nonfat dry milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1-1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "firm butter or margarine",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In bowl, dissolve yeast in water. Add milk, salt, eggs and 1 cup flour. Beat until smooth. Blend in melted butter."
+        },
+        {
+          "step": 2,
+          "text": "In large bowl with food processor, place remaining flour. Cut in butter slices until butter is size of kidney beans."
+        },
+        {
+          "step": 3,
+          "text": "Pour yeast mixture. Blend just until flour is moistened. Cover. Chill 2 to 48 hours."
+        },
+        {
+          "step": 4,
+          "text": "Cut dough into quarters. Dust one quarter at a time. Roll into a circle 16-inches in diameter. Cut into 8 wedges. Repeat with remaining dough."
+        },
+        {
+          "step": 5,
+          "text": "Place filling, if used, on wide ends. Roll up each toward point. Shape into crescents. Place on ungreased baking sheet. Let rise 2 hours. Brush with egg."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 375\u00b0F 10 to 15 minutes until golden."
+        }
+      ],
+      "notes": [
+        "Chocolate filling: Place 2 tablespoons of chocolate chips on wide end of wedge. Apple-Almond filling: Combine 1/2 cup almond paste and 3/4 cup applesauce. Spoon 2 tablespoons on wide end of wedge."
+      ],
+      "tags": [
+        "bread",
+        "croissants",
+        "yeast",
+        "pastry"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 16,
+        "per_serving": {
+          "calories": 263,
+          "fat_g": 12.7,
+          "carbs_g": 31.4,
+          "protein_g": 5.4,
+          "sodium_mg": 238,
+          "fiber_g": 1.1,
+          "sugar_g": 1.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "all-purpose flour: used default unit",
+          "eggs: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "bubble-loaf-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Bubble Loaf",
+      "category": "breads",
+      "source_note": "My Great Recipes packet",
+      "description": "Pull-apart bread with herbs and cheese.",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "cook_time": "30 minutes",
+      "ingredients": [
+        {
+          "item": "frozen bread dough",
+          "quantity": "1",
+          "unit": "loaf",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "dried parsley",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cut thawed dough into small pieces."
+        },
+        {
+          "step": 2,
+          "text": "Dip each piece in melted butter."
+        },
+        {
+          "step": 3,
+          "text": "Mix cheese with parsley and garlic powder."
+        },
+        {
+          "step": 4,
+          "text": "Roll buttered pieces in cheese mixture."
+        },
+        {
+          "step": 5,
+          "text": "Layer pieces in greased loaf pan."
+        },
+        {
+          "step": 6,
+          "text": "Let rise until doubled, about 1 hour."
+        },
+        {
+          "step": 7,
+          "text": "Bake at 375\u00b0F for about 30 minutes until golden."
+        }
+      ],
+      "tags": [
+        "bread",
+        "pull-apart",
+        "cheese",
+        "garlic"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 5.5,
+          "carbs_g": 18.4,
+          "protein_g": 3.1,
+          "sodium_mg": 212,
+          "fiber_g": 0.7,
+          "sugar_g": 1.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Parmesan cheese: used default unit",
+          "dried parsley: used default unit",
+          "garlic powder: used default unit"
+        ]
+      },
+      "servings_yield": "8-10 servings",
+      "prep_time": "15 minutes"
+    },
+    {
+      "id": "irish-soda-bread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Irish Soda Bread",
+      "category": "breads",
+      "source_note": "Landmark Tavern, Ltd. - 626 Eleventh Avenue, New York, N.Y. 10036",
+      "description": "Traditional Irish soda bread from the famous Landmark Tavern in NYC.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "25-30 minutes",
+      "servings_yield": "8-10 loaves",
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "ground nutmeg",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "2-1/2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "lb"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "soaked in hot water, drained"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1-1/2",
+          "unit": "quarts"
+        },
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sift together flour, nutmeg, cinnamon, baking soda (and baking powder if used)."
+        },
+        {
+          "step": 2,
+          "text": "Beat together eggs and sugar until blended."
+        },
+        {
+          "step": 3,
+          "text": "When blended add buttermilk, mix until blended, then add to dry ingredients until it forms dough."
+        },
+        {
+          "step": 4,
+          "text": "Add drained raisins and mix into dough."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0 for 25 to 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Serve warm."
+        }
+      ],
+      "notes": [
+        "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
+        "Good luck and thank you for your interest."
+      ],
+      "tags": [
+        "bread",
+        "irish",
+        "soda bread",
+        "raisins"
+      ],
+      "image_refs": [],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "typed recipe from restaurant",
+          "COMMERCIAL BATCH: Makes 8-10 loaves - see notes for home-scale version"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 363,
+          "fat_g": 19.1,
+          "carbs_g": 43.5,
+          "protein_g": 6.6,
+          "sodium_mg": 386,
+          "fiber_g": 1.2,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "ground nutmeg: used default unit",
+          "baking soda: used default unit",
+          "sugar: used default unit",
+          "raisins: used default unit",
+          "buttermilk: used default unit"
+        ]
+      },
+      "prep_time": "20 minutes"
+    },
+    {
+      "id": "banana-bread-dewolf-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Banana Bread",
+      "category": "breads",
+      "attribution": "Recipe from the kitchen of Dewolf",
+      "description": "Moist banana bread - a family favorite.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "1 loaf",
+      "ingredients": [
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "mashed bananas",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "2 to 3 ripe bananas"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt shortening in a glass measuring cup in microwave oven (1 min. at Normal). Cool."
+        },
+        {
+          "step": 2,
+          "text": "Sift flour, baking powder, salt and sugar together in a bowl."
+        },
+        {
+          "step": 3,
+          "text": "Beat eggs and mashed bananas until blended. Add cooled shortening, mix well."
+        },
+        {
+          "step": 4,
+          "text": "Mix flour and egg-banana mixture together, stirring until just combined."
+        },
+        {
+          "step": 5,
+          "text": "Pour into greased loaf pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0 for 25 to 30 minutes or until done."
+        }
+      ],
+      "tags": [
+        "bread",
+        "banana",
+        "quick bread"
+      ],
+      "image_refs": [
+        "70",
+        "71"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten recipe card"
+        ]
+      },
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 136,
+          "fat_g": 5.2,
+          "carbs_g": 20.5,
+          "protein_g": 2.1,
+          "sodium_mg": 160,
+          "fiber_g": 0.5,
+          "sugar_g": 12.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "mashed bananas: used default unit"
+        ]
+      },
+      "prep_time": "15 minutes",
+      "cook_time": "55-65 minutes"
+    },
+    {
+      "id": "danish-kringle-and-pastry-horns-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Danish Kringle and Pastry Horns",
+      "category": "breads",
+      "attribution": "",
+      "source_note": "My Great Recipes card - Your Bountiful Home Bakery Card 47",
+      "description": "Traditional Danish pastries with almond filling.",
+      "servings_yield": "24 pieces",
+      "prep_time": "1 hour",
+      "cook_time": "15-25 minutes",
+      "total_time": "2.5 hours (includes rising)",
+      "ingredients": [
+        {
+          "item": "dry yeast",
+          "quantity": "2",
+          "unit": "pkg",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "6 1/2 to 7",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "ground cardamom",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "egg beaten",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "apricot or raspberry jam",
+          "quantity": "",
+          "unit": "for topping",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In large bowl, combine sugar, yeast, salt and 2 cups flour."
+        },
+        {
+          "step": 2,
+          "text": "Beat 2 minutes. Add eggs, flavoring. Gradually add enough flour to make a stiff dough. Stir until just mixed."
+        },
+        {
+          "step": 3,
+          "text": "On floured surface, knead dough until smooth and elastic. Place in a greased bowl. Turn to grease top. Cover. Let rise in warm place, about 1 hour."
+        },
+        {
+          "step": 4,
+          "text": "Turn dough out. Divide into 4 pieces. Roll each into 10-by-11-inch circles. Cut into 8 wedges. Place jam at wide ends. Roll. Place seam-side down on greased baking sheet. Bake at 375\u00b0F for 15 minutes until golden. Sprinkle with powdered sugar."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "baking sheet",
+      "notes": [
+        "For Kringle filling: Combine pastry paste, butter and cup granulated sugar. Add egg. Mix well."
+      ],
+      "tags": [
+        "bread",
+        "Danish",
+        "pastry",
+        "breakfast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 746,
+          "fat_g": 20.9,
+          "carbs_g": 118.6,
+          "protein_g": 18.6,
+          "sodium_mg": 142,
+          "fiber_g": 4.0,
+          "sugar_g": 10.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "dry yeast: used default unit",
+          "all-purpose flour: used default unit",
+          "apricot or raspberry jam: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "cranberry-upside-down-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cranberry Upside-Down Muffins",
+      "category": "breads",
+      "attribution": "",
+      "source_note": "My Great Recipes card",
+      "description": "Tender muffins with a caramelized cranberry topping.",
+      "servings_yield": "12 muffins",
+      "prep_time": "25 minutes",
+      "cook_time": "30 minutes",
+      "total_time": "55 minutes",
+      "ingredients": [
+        {
+          "item": "cranberries",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "stems removed, halved"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": ""
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Divide cranberries evenly between 12 greased 3-inch muffin pans. Spoon about 1 teaspoon butter into each. Sprinkle evenly with brown sugar."
+        },
+        {
+          "step": 2,
+          "text": "In a mixing bowl, stir together flour, baking powder, sugar, salt and raisins."
+        },
+        {
+          "step": 3,
+          "text": "In a small bowl, beat egg. Mix in milk and remaining melted butter. Add to flour mixture. Stir until dry ingredients are just moistened."
+        },
+        {
+          "step": 4,
+          "text": "Evenly divide batter between cranberries in muffin pans."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 400\u00b0F for 30 minutes or until golden brown. Let muffins stand on wire rack until bubbling stops."
+        },
+        {
+          "step": 6,
+          "text": "Turn out carefully onto serving plate. Serve upside-down."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "pan_size": "12 muffin cups",
+      "notes": [
+        "These muffins freeze very well. Reheat (without thawing) at 350\u00b0F for about 30 minutes",
+        "Variations: Try this recipe using blueberries or raspberries",
+        "Good served with fluffy scrambled eggs and well browned sausage links"
+      ],
+      "tags": [
+        "bread",
+        "muffins",
+        "cranberry",
+        "breakfast"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 430,
+          "fat_g": 17.0,
+          "carbs_g": 64.8,
+          "protein_g": 6.3,
+          "sodium_mg": 401,
+          "fiber_g": 2.2,
+          "sugar_g": 29.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "baking powder: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "peachn-berry-twists-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Peach'n Berry Twists",
+      "category": "breads",
+      "attribution": "Winner in Pillsbury's 21st Bake Off",
+      "source_note": "Magazine clipping - Pillsbury Bake-Off",
+      "description": "Sweet breakfast pastries with peach filling.",
+      "servings_yield": "12 rolls",
+      "prep_time": "30 minutes",
+      "cook_time": "",
+      "total_time": "",
+      "ingredients": [
+        {
+          "item": "active dry yeast",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": ""
+        },
+        {
+          "item": "warm Pillsbury's Best All Purpose Flour",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "warm milk",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "reserved 2 tablespoons",
+          "quantity": "",
+          "unit": "",
+          "prep_note": ""
+        },
+        {
+          "item": "dairy sour cream",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": ""
+        },
+        {
+          "item": "peach syrup",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "reserved, strawberry flavored"
+        },
+        {
+          "item": "sliced peaches",
+          "quantity": "1",
+          "unit": "pkg (8 oz.)",
+          "prep_note": "reserve syrup, drained, chopped"
+        },
+        {
+          "item": "gelatin",
+          "quantity": "1",
+          "unit": "pkg (3 oz.)",
+          "prep_note": "strawberry flavored"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spoon into cup and level off; stir together flour and salt and 2 cups flour. Cover; let rise in warm place until light, 45 to 60 minutes."
+        },
+        {
+          "step": 2,
+          "text": "To make the filling, combine reserved peach syrup with 1/4 cup of each, split, roll into 1 piece, fold in thirds, seal edges, stretch 10 to 11 inches long."
+        },
+        {
+          "step": 3,
+          "text": "Twist each strip; form into circle and tuck under. Place on lightly greased baking sheet. Brush with egg. Let rise about 15 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 375\u00b0F for 12 to 15 minutes until golden brown. Sprinkle with powdered sugar."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "pan_size": "baking sheet",
+      "notes": [
+        "HIGH ALTITUDE ADJUSTMENT - 5200 feet: Not necessary"
+      ],
+      "tags": [
+        "bread",
+        "pastry",
+        "breakfast",
+        "peach",
+        "contest winner"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "PARTIAL_TEXT_VISIBLE"
+        ]
+      },
+      "image_refs": [],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 242,
+          "fat_g": 13.5,
+          "carbs_g": 26.0,
+          "protein_g": 4.8,
+          "sodium_mg": 221,
+          "fiber_g": 1.0,
+          "sugar_g": 13.1
+        },
+        "missing_inputs": [
+          "reserved 2 tablespoons"
+        ],
+        "assumptions": [
+          "active dry yeast: used default unit",
+          "peach syrup: used default unit",
+          "sliced peaches: used default unit",
+          "gelatin: used default unit"
+        ]
+      }
+    }
+  ]
+}
