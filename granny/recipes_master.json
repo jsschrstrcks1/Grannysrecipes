@@ -13036,6 +13036,1158 @@
       },
       "servings_yield": "16 servings",
       "prep_time": "20 minutes"
+    },
+    {
+      "id": "carrot-raisin-salad-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Carrot Raisin Salad",
+      "category": "salads",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "medium"
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "slivered almonds",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients. Chill 8 hours."
+        }
+      ],
+      "notes": [
+        "Chill for 8 hours before serving"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-247"
+      ]
+    },
+    {
+      "id": "quaker-chewy-choc-oat-chip-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quaker Chewy Choc-Oat-Chip Cookies",
+      "category": "desserts",
+      "source_note": "Quaker Oats lid",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-249",
+        "gr-250"
+      ]
+    },
+    {
+      "id": "chewy-oatmeal-cookies-crisco-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chewy Oatmeal Cookies (Crisco)",
+      "category": "desserts",
+      "source_note": "Crisco lid",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-255",
+        "gr-256"
+      ]
+    },
+    {
+      "id": "seafood-lasagna-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Seafood Lasagna",
+      "category": "mains",
+      "source_note": "Florida seafood recipe card",
+      "ingredients": [
+        {
+          "item": "Florida sea trout fillets",
+          "quantity": "1",
+          "unit": "pound"
+        },
+        {
+          "item": "lasagna noodles",
+          "quantity": "8",
+          "unit": "ounces"
+        },
+        {
+          "item": "Italian sauce",
+          "quantity": "1 1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "low fat ricotta cheese",
+          "quantity": "15",
+          "unit": "ounces"
+        },
+        {
+          "item": "grated Parmesan cheese",
+          "quantity": "2",
+          "unit": "tablespoons"
+        },
+        {
+          "item": "cooked medium shrimp",
+          "quantity": "1/4",
+          "unit": "pound",
+          "prep_note": "frozen, peeled & deveined"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-265",
+        "gr-266"
+      ]
+    },
+    {
+      "id": "pumpkin-spice-bread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin Spice Bread",
+      "category": "breads",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pumpkin (plain)",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "2 3/4",
+          "unit": "cups"
+        }
+      ],
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-269",
+        "gr-270"
+      ]
+    },
+    {
+      "id": "bbq-bacon-cheeseburgers-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "BBQ Bacon Cheeseburgers",
+      "category": "mains",
+      "source_note": "Kraft recipe card #15",
+      "prep_time": "15 minutes",
+      "cook_time": "18 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "KRAFT Original Barbecue Sauce",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "KRAFT Singles",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "Kaiser or hamburger rolls",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "split, toasted"
+        },
+        {
+          "item": "OSCAR MAYER Bacon",
+          "quantity": "5",
+          "unit": "slices",
+          "prep_note": "crispy cooked"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-271",
+        "gr-272"
+      ]
+    },
+    {
+      "id": "grilled-chicken-monterey-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grilled Chicken Monterey",
+      "category": "mains",
+      "source_note": "Publix recipe card #23",
+      "prep_time": "25 minutes",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX Boneless, Skinless Chicken Breasts",
+          "quantity": "4",
+          "unit": "slices"
+        },
+        {
+          "item": "Jalape\u00f1o Monterey Jack cheese",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/8",
+          "unit": "cup"
+        },
+        {
+          "item": "diced onion",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "plum tomatoes",
+          "quantity": "2",
+          "unit": "Tbsp",
+          "prep_note": "seeded and diced"
+        },
+        {
+          "item": "chopped cilantro, salt and pepper",
+          "quantity": "1/4",
+          "unit": "tsp each"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-273",
+        "gr-274"
+      ]
+    },
+    {
+      "id": "chicken-portobello-tarragon-cream-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chicken and Portobello Mushrooms in Tarragon Cream Sauce",
+      "category": "mains",
+      "source_note": "Publix recipe card #19",
+      "prep_time": "25 minutes",
+      "servings_yield": "4-6 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX boneless, skinless chicken breasts",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "PUBLIX Sweet Cream Butter",
+          "quantity": "2",
+          "unit": "Tbsp",
+          "prep_note": "divided"
+        },
+        {
+          "item": "finely minced onion",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "beef broth",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "PUBLIX Whipping Cream",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "dried tarragon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sliced Baby Portobello Mushrooms",
+          "quantity": "8",
+          "unit": "oz pkg"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-277",
+        "gr-278"
+      ]
+    },
+    {
+      "id": "cranberry-glazed-ham-kabobs-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cranberry-Glazed Ham Kabobs",
+      "category": "mains",
+      "source_note": "Publix recipe card #47",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX jellied cranberry sauce",
+          "quantity": "1/2",
+          "unit": "can"
+        },
+        {
+          "item": "ground cloves",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "boneless ham",
+          "quantity": "12",
+          "unit": "ozs",
+          "prep_note": "cut into 16 half-inch cubes"
+        },
+        {
+          "item": "red pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into 1\" squares"
+        },
+        {
+          "item": "green pepper",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "cut into 1\" squares"
+        },
+        {
+          "item": "juice-packed pineapple chunks",
+          "quantity": "20",
+          "unit": "oz can",
+          "prep_note": "drained"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-279",
+        "gr-280"
+      ]
+    },
+    {
+      "id": "curry-coconut-chicken-honey-mustard-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Curry-Coconut Chicken with Honey Mustard",
+      "category": "mains",
+      "source_note": "Publix recipe card #13",
+      "servings_yield": "6 servings",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-281",
+        "gr-282"
+      ]
+    },
+    {
+      "id": "peaches-and-cream-ice-cream-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Peaches-and-Cream Ice Cream",
+      "category": "desserts",
+      "source_note": "Publix recipe card #21",
+      "prep_time": "15 minutes",
+      "total_time": "12+ hours (chill time)",
+      "servings_yield": "24 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX 1% low-fat milk",
+          "quantity": "5",
+          "unit": "cups",
+          "prep_note": "divided"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "peeled, mashed ripe peaches",
+          "quantity": "4",
+          "unit": "cups",
+          "prep_note": "about 8 medium peaches"
+        },
+        {
+          "item": "fresh lemon juice",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "ground ginger",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "almond extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "fat-free sweetened condensed skim milk",
+          "quantity": "2",
+          "unit": "14-oz cans"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-283",
+        "gr-284"
+      ]
+    },
+    {
+      "id": "fabulous-french-toast-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fabulous French Toast",
+      "category": "breakfast",
+      "source_note": "Publix recipe card #15",
+      "servings_yield": "4 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX White Mountain Bread",
+          "quantity": "4",
+          "unit": "slices"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "PUBLIX Whipping Cream",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "PUBLIX Sweet Cream Butter",
+          "quantity": "2",
+          "unit": "tsp"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-285",
+        "gr-286"
+      ]
+    },
+    {
+      "id": "homemade-mac-cheese-bacon-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Homemade Macaroni & Cheese with Buttered Breadcrumbs and Crisp Bacon",
+      "category": "mains",
+      "source_note": "Publix recipe card #14",
+      "servings_yield": "8 cups",
+      "ingredients": [
+        {
+          "item": "PUBLIX Elbow Macaroni",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "PUBLIX Sweet Cream Butter",
+          "quantity": "1/4",
+          "unit": "cup (1/2 stick)"
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "1",
+          "unit": "small clove",
+          "prep_note": "minced"
+        },
+        {
+          "item": "chicken broth",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "PUBLIX Shredded Sharp Cheddar Cheese",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "bacon",
+          "quantity": "4",
+          "unit": "slices"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-287",
+        "gr-288",
+        "gr-289",
+        "gr-290"
+      ]
+    },
+    {
+      "id": "sweet-surprise-souffle-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sweet Surprise Souffl\u00e9",
+      "category": "desserts",
+      "source_note": "Kraft Miniature Marshmallows recipe",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-313",
+        "gr-314"
+      ]
+    },
+    {
+      "id": "orange-sparkle-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Orange Sparkle",
+      "category": "desserts",
+      "source_note": "Kraft gelatin recipe card",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "orange flavored gelatin",
+          "quantity": "3",
+          "unit": "oz pkg"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "orange sherbet",
+          "quantity": "1",
+          "unit": "pint"
+        },
+        {
+          "item": "orange sections",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "Kraft Miniature Marshmallows",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Dissolve orange gelatin in boiling water."
+        },
+        {
+          "step": 2,
+          "text": "Add sherbet; stir until dissolved. Chill until almost firm."
+        },
+        {
+          "step": 3,
+          "text": "Fold in fruit and marshmallows."
+        },
+        {
+          "step": 4,
+          "text": "Fill 6 dessert dishes; chill until firm."
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-315",
+        "gr-316"
+      ]
+    },
+    {
+      "id": "health-tonic-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Health Tonic (Apple Cider Vinegar Mix)",
+      "category": "beverages",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "apple vinegar",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "molasses",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "wheat germ oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brewer's yeast",
+          "quantity": "1 1/2",
+          "unit": "cup"
+        }
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-297",
+        "gr-298"
+      ]
+    },
+    {
+      "id": "pillsbury-chocolate-chip-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pillsbury Chocolate Chip Cookies",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "almond-butter-sticks-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Almond Butter Sticks",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "oatmeal-carmelitas-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Oatmeal Carmelitas",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "pillsbury-oatmeal-raisin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Oatmeal-Raisin Cookies (Pillsbury)",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "toffee-bars-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Toffee Bars",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "butterballs-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Butterballs",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "cherry-winks-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cherry Winks",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "peanut-blossoms-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Peanut Blossoms",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-291"
+      ]
+    },
+    {
+      "id": "easy-cornbread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Cornbread",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ]
+    },
+    {
+      "id": "southern-cornbread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Southern Cornbread",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ]
+    },
+    {
+      "id": "crunchy-cornmeal-pancakes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Crunchy Cornmeal Pancakes",
+      "category": "breakfast",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ]
+    },
+    {
+      "id": "tender-cornmeal-pancakes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Tender Cornmeal Pancakes",
+      "category": "breakfast",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ]
+    },
+    {
+      "id": "corn-muffins-sticks-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Corn Muffins / Corn Sticks",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ]
+    },
+    {
+      "id": "grandmas-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Biscuits",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "9 biscuits",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "12 minutes",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
+    },
+    {
+      "id": "tender-drop-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Tender Drop Biscuits",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "10 biscuits",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "10 minutes",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
+    },
+    {
+      "id": "sweet-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sweet Muffins",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "8 muffins",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "10 minutes",
+      "notes": [
+        "HINT: You can add blueberries, raisins, jelly, cinnamon, etc."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
+    },
+    {
+      "id": "lemon-poppy-seed-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Lemon Poppy Seed Muffins",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "cook_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "3 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "grated lemon peel",
+          "quantity": "2",
+          "unit": "Tbs"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Nora Mill Poppy Seeds",
+          "quantity": "1",
+          "unit": "Tbs"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
+    },
+    {
+      "id": "easiest-pineapple-upside-down-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "The Easiest Pineapple Upside-Down Cake Ever",
+      "category": "desserts",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "35-40 minutes",
+      "ingredients": [
+        {
+          "item": "Pineapple (sliced, chunks or tidbits)",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "the no-sugar variety works great"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
+    },
+    {
+      "id": "garlic-cheese-drop-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Garlic Cheese Drop Biscuits (like Red Lobster's)",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "8-10 minutes",
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Italian seasoning",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "notes": [
+        "These are yummy - just like Red Lobster's!"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ]
     }
   ],
   "meta": {
