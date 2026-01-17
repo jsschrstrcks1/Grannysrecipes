@@ -425,7 +425,10 @@
         "italian",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-85",
+        "gr-86"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -527,7 +530,10 @@
         "broiled",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-87",
+        "gr-88"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -654,7 +660,10 @@
         "herbs",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-89",
+        "gr-90"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -787,7 +796,10 @@
         "italian",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-91",
+        "gr-92"
+      ],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -917,7 +929,10 @@
         "eggs",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-93",
+        "gr-94"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -1036,7 +1051,10 @@
         "souffle",
         "vegetable"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-95",
+        "gr-96"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -1168,7 +1186,10 @@
         "roasted",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-97",
+        "gr-98"
+      ],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -1395,7 +1416,10 @@
         "beef",
         "main dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-99",
+        "gr-118"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -1514,7 +1538,10 @@
         "blueberry",
         "crumble topping"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-109",
+        "gr-110"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -1627,7 +1654,10 @@
         "yeast",
         "pastry"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-111",
+        "gr-112"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -2803,7 +2833,10 @@
         "cheese",
         "garlic"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-113",
+        "gr-114"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -2903,7 +2936,10 @@
         "vegetable",
         "eggs"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-128",
+        "gr-129"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -3043,7 +3079,10 @@
         "potatoes",
         "corn"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-210",
+        "gr-211"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -3161,7 +3200,10 @@
         "marinated",
         "asian"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-212",
+        "gr-213"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -3283,7 +3325,10 @@
         "asian",
         "grilled"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-214",
+        "gr-215"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -3424,7 +3469,10 @@
         "sweet",
         "prunes"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-216",
+        "gr-217"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -3523,7 +3571,10 @@
         "banana",
         "southern"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-218",
+        "gr-219"
+      ],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -3631,7 +3682,10 @@
         "peppers",
         "stuffed"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-221",
+        "gr-222"
+      ],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -3760,7 +3814,10 @@
         "soda bread",
         "raisins"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-223",
+        "gr-224"
+      ],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -4398,7 +4455,10 @@
         "broccoli",
         "casserole"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-225",
+        "gr-226"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4499,7 +4559,10 @@
         "sausage",
         "stuffed"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-227",
+        "gr-228"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4627,7 +4690,10 @@
         "roast",
         "mint sauce"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-229",
+        "gr-230"
+      ],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -4736,7 +4802,10 @@
         "preserves",
         "canning"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-231",
+        "gr-232"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4877,7 +4946,9 @@
         "clams"
       ],
       "image_refs": [
-        "93"
+        "93",
+        "gr-233",
+        "gr-234"
       ],
       "confidence": {
         "overall": "high",
@@ -5281,7 +5352,9 @@
         "quick"
       ],
       "image_refs": [
-        "98"
+        "98",
+        "gr-103",
+        "gr-104"
       ],
       "confidence": {
         "overall": "medium",
@@ -9545,7 +9618,10 @@
           "PARTIAL_INSTRUCTIONS"
         ]
       },
-      "image_refs": [],
+      "image_refs": [
+        "170",
+        "gr-170"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -11249,7 +11325,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-239",
+        "gr-240"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 30,
@@ -11352,7 +11431,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-241",
+        "gr-242"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 8,
@@ -11475,7 +11557,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-243",
+        "gr-244"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 18,
