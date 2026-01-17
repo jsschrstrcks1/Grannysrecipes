@@ -14188,6 +14188,625 @@
       "image_refs": [
         "gr-295"
       ]
+    },
+    {
+      "id": "handwritten-baking-recipe-gr1-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Handwritten Baking Recipe (gr-1)",
+      "category": "desserts",
+      "source_note": "handwritten on aged paper",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten",
+          "needs-transcription"
+        ]
+      },
+      "image_refs": [
+        "gr-1",
+        "gr-2"
+      ]
+    },
+    {
+      "id": "handwritten-recipe-gr5-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Handwritten Recipe (gr-5)",
+      "category": "uncategorized",
+      "source_note": "handwritten on ring-binder paper",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten",
+          "needs-transcription"
+        ]
+      },
+      "image_refs": [
+        "gr-5",
+        "gr-6"
+      ]
+    },
+    {
+      "id": "chocolate-chip-recipe-gr7-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chocolate Chip Recipe (gr-7)",
+      "category": "desserts",
+      "source_note": "handwritten",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-7",
+        "gr-8"
+      ]
+    },
+    {
+      "id": "broccoli-cornbread-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broccoli Cornbread (Handwritten)",
+      "category": "breads",
+      "source_note": "handwritten card",
+      "notes": [
+        "Option: Hot Peppers"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-9",
+        "gr-10"
+      ]
+    },
+    {
+      "id": "handwritten-recipe-red-ink-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Handwritten Recipe (Red Ink)",
+      "category": "uncategorized",
+      "source_note": "handwritten in red/pink ink on notebook paper",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten",
+          "needs-transcription"
+        ]
+      },
+      "image_refs": [
+        "gr-19",
+        "gr-20"
+      ]
+    },
+    {
+      "id": "dump-cake-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Dump Cake (Handwritten)",
+      "category": "desserts",
+      "source_note": "handwritten on spiral notebook",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "ingredients": [
+        {
+          "item": "pineapple",
+          "quantity": "1",
+          "unit": "can"
+        },
+        {
+          "item": "cherries",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "yellow or white cake mix",
+          "quantity": "1",
+          "unit": "box"
+        }
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-33",
+        "gr-34"
+      ]
+    },
+    {
+      "id": "sirloin-steak-marinade-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sirloin Steak in Marinade",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "prep_time": "10 min",
+      "cook_time": "20-30 min",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "servings_yield": "4-6 servings",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-47",
+        "gr-48"
+      ]
+    },
+    {
+      "id": "country-style-ribs-corn-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Country-Style Ribs and Corn",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "prep_time": "10-15 min",
+      "cook_time": "1 hr",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "4-6 servings",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-49",
+        "gr-50"
+      ]
+    },
+    {
+      "id": "sweet-spicy-pot-roast-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sweet and Spicy Pot Roast",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "prep_time": "30 min",
+      "cook_time": "2.5-3 hrs",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "servings_yield": "6 servings",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-53",
+        "gr-54"
+      ]
+    },
+    {
+      "id": "beef-rice-meatballs-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef Rice Meatballs",
+      "category": "mains",
+      "source_note": "handwritten on aged paper",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-67",
+        "gr-68",
+        "gr-75",
+        "gr-76"
+      ]
+    },
+    {
+      "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
+      "category": "breads",
+      "source_note": "handwritten on lined paper",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "20-25 min",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-71",
+        "gr-72"
+      ]
+    },
+    {
+      "id": "marshmallow-snowman-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Marshmallow Snowman",
+      "category": "desserts",
+      "source_note": "Kraft Marshmallows package craft",
+      "notes": [
+        "Holiday craft using Kraft Miniature Marshmallows"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "holiday",
+          "craft"
+        ]
+      },
+      "image_refs": [
+        "gr-317"
+      ]
+    },
+    {
+      "id": "santas-boot-marshmallow-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Santa's Boot (Marshmallow Craft)",
+      "category": "desserts",
+      "source_note": "Kraft Marshmallows package craft",
+      "notes": [
+        "Holiday craft using cookies and marshmallows"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "holiday",
+          "craft"
+        ]
+      },
+      "image_refs": [
+        "gr-317"
+      ]
+    },
+    {
+      "id": "low-fat-marble-brownies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Low Fat Marble Brownies",
+      "category": "desserts",
+      "source_note": "Publix recipe card",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-327"
+      ]
+    },
+    {
+      "id": "healthy-crab-dip-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Healthy Crab Dip",
+      "category": "appetizers",
+      "source_note": "Publix recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-327"
+      ]
+    },
+    {
+      "id": "spicy-dijon-grilled-chicken-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Spicy Dijon Grilled Chicken",
+      "category": "mains",
+      "source_note": "Hellmann's/Best Foods recipe",
+      "servings_yield": "6 servings",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-333",
+        "gr-334"
+      ]
+    },
+    {
+      "id": "nestle-toll-house-original-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Original Nestle Toll House Chocolate Chip Cookies",
+      "category": "desserts",
+      "source_note": "Nestle chocolate chip bag",
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "cook_time": "9-11 minutes",
+      "servings_yield": "about 5 dozen cookies",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-337",
+        "gr-343"
+      ]
+    },
+    {
+      "id": "nestle-famous-fudge-2-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Famous Fudge (Nestle)",
+      "category": "desserts",
+      "source_note": "Nestle chocolate chip bag",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-337",
+        "gr-343"
+      ]
+    },
+    {
+      "id": "nestle-old-fashioned-oatmeal-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Old Fashioned Oatmeal Cookies (Nestle)",
+      "category": "desserts",
+      "source_note": "Nestle chocolate chip bag",
+      "servings_yield": "about 4 dozen cookies",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-337",
+        "gr-343"
+      ]
+    },
+    {
+      "id": "frosty-orange-delight-pillsbury-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Frosty Orange Delight",
+      "category": "desserts",
+      "source_note": "Pillsbury's 21st Bake-Off winner",
+      "servings_yield": "15-18 servings",
+      "notes": [
+        "Inspired from winner in Pillsbury's 21st Bake-Off"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-339"
+      ]
+    },
+    {
+      "id": "basic-crust-pillsbury-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Basic Crust",
+      "category": "desserts",
+      "source_note": "Pillsbury recipe",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "12-15 minutes",
+      "pan_size": "13x9-inch baking pan",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-339"
+      ]
+    },
+    {
+      "id": "ultimate-chocolate-chip-cookies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Ultimate Chocolate Chip Cookies",
+      "category": "desserts",
+      "source_note": "Nestle Toll House recipe",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-343"
+      ]
+    },
+    {
+      "id": "quaker-oatmeal-cookies-gr11-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quaker's Best Oatmeal Cookies",
+      "category": "desserts",
+      "source_note": "Quaker Oats container lid",
+      "servings_yield": "about 5 dozen cookies",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-11",
+        "gr-12"
+      ]
+    },
+    {
+      "id": "banana-bread-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Banana Bread (Handwritten with Stove Drawing)",
+      "category": "breads",
+      "source_note": "Handwritten card with hand-drawn vintage stove from kitchen of Dewolf",
+      "servings_yield": "1 loaf",
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten",
+          "family-heirloom"
+        ]
+      },
+      "image_refs": [
+        "gr-73",
+        "gr-74"
+      ]
+    },
+    {
+      "id": "salt-cod-fish-main-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Salt Cod Fish",
+      "category": "mains",
+      "source_note": "typed recipe sheet",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "161",
+        "162"
+      ]
+    },
+    {
+      "id": "codfish-souffle-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Codfish Souffl\u00e9",
+      "category": "mains",
+      "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "161"
+      ]
+    },
+    {
+      "id": "creamed-salt-codfish-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Creamed Salt Codfish",
+      "category": "mains",
+      "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "161"
+      ]
+    },
+    {
+      "id": "salt-cod-fish-cakes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Salt Cod Fish Cakes",
+      "category": "mains",
+      "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "161"
+      ]
+    },
+    {
+      "id": "codfish-cheese-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Codfish & Cheese",
+      "category": "mains",
+      "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "161"
+      ]
+    },
+    {
+      "id": "shrimp-newburg-patty-shells-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Shrimp Newburg in Patty Shells",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-127",
+        "gr-128"
+      ]
+    },
+    {
+      "id": "linguine-garden-clam-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Linguine with Garden Clam Sauce",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-178",
+        "gr-179"
+      ]
+    },
+    {
+      "id": "beef-meatballs-tomato-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Beef Meatballs in Tomato Sauce",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-184",
+        "gr-185"
+      ]
+    },
+    {
+      "id": "strawberries-cream-cheese-freeze-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Strawberries 'n Cream Cheese Freeze",
+      "category": "desserts",
+      "source_note": "My Great Recipes card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-192",
+        "gr-193"
+      ]
+    },
+    {
+      "id": "roast-leg-lamb-mint-sauce-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Roast Leg of Lamb with Mint Sauce",
+      "category": "mains",
+      "source_note": "My Great Recipes card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-229",
+        "gr-230"
+      ]
     }
   ],
   "meta": {
