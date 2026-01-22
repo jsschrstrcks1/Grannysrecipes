@@ -1,0 +1,41 @@
+name: Rebuild Indexes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'granny/recipes_master.json'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate recipes
+        run: python scripts/validate-recipes.py
+
+      - name: Rebuild shards
+        run: python scripts/shard_recipes.py
+
+      - name: Rebuild ingredient index
+        run: python scripts/build-ingredient-index.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Rebuild indexes [skip ci]"
+          git push
