@@ -208,15 +208,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 9,
         "per_serving": {
-          "calories": 135,
-          "fat_g": 5.5,
-          "carbs_g": 18.4,
-          "protein_g": 3.1,
-          "sodium_mg": 212,
-          "fiber_g": 0.7,
-          "sugar_g": 1.0
+          "calories": 180,
+          "fat_g": 7.4,
+          "carbs_g": 24.5,
+          "protein_g": 4.1,
+          "sodium_mg": 282,
+          "fiber_g": 0.9,
+          "sugar_g": 1.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -966,7 +966,25 @@
           "step": 4,
           "text": "Cool before slicing. Wrap in foil. Store in refrigerator."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 1.7,
+          "carbs_g": 40.2,
+          "protein_g": 4.2,
+          "sodium_mg": 119,
+          "fiber_g": 1.0,
+          "sugar_g": 17.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "oil: used default unit",
+          "flour: used default unit"
+        ]
+      }
     },
     {
       "id": "easy-cornbread-granny",
@@ -1039,7 +1057,24 @@
         }
       ],
       "temperature": "400\u00b0F (200\u00b0C)",
-      "servings_yield": "12 muffins or sticks"
+      "servings_yield": "12 muffins or sticks",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 32.5,
+          "carbs_g": 16.2,
+          "protein_g": 3.2,
+          "sodium_mg": 591,
+          "fiber_g": 1.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "southern-cornbread-granny",
@@ -1108,7 +1143,25 @@
       "temperature": "450\u00b0F (230\u00b0C)",
       "notes": [
         "Evenly spread mixture or continue for skillet or muffin cups."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 16.3,
+          "carbs_g": 5.9,
+          "protein_g": 1.3,
+          "sodium_mg": 359,
+          "fiber_g": 0.6,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "NORA Mill Plain Cornmeal: used default unit",
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "corn-muffins-sticks-granny",
@@ -1166,7 +1219,26 @@
         }
       ],
       "temperature": "400\u00b0F (200\u00b0C)",
-      "servings_yield": "12 muffins or sticks"
+      "servings_yield": "12 muffins or sticks",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 487,
+          "fat_g": 37.8,
+          "carbs_g": 32.6,
+          "protein_g": 5.2,
+          "sodium_mg": 24,
+          "fiber_g": 3.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Self-Rising Cornmeal mix: used default unit",
+          "milk: used default unit",
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "grandmas-biscuits-granny",
@@ -1214,7 +1286,24 @@
           "step": 4,
           "text": "For perfect biscuits, use a sharp cutter, cut with a straight up and down motion, and place in baking pan close together."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 356,
+          "fat_g": 7.1,
+          "carbs_g": 69.3,
+          "protein_g": 3.6,
+          "sodium_mg": 622,
+          "fiber_g": 0.9,
+          "sugar_g": 37.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "tender-drop-biscuits-granny",
@@ -1258,7 +1347,24 @@
           "step": 3,
           "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 10,
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 2.4,
+          "carbs_g": 23.4,
+          "protein_g": 1.2,
+          "sodium_mg": 210,
+          "fiber_g": 0.3,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-muffins-granny",
@@ -1323,7 +1429,24 @@
           "step": 5,
           "text": "HINT: You can add blueberries, raisins, jelly, cinnamon, etc. to this basic recipe."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 342,
+          "fat_g": 7.2,
+          "carbs_g": 64.8,
+          "protein_g": 4.5,
+          "sodium_mg": 543,
+          "fiber_g": 0.8,
+          "sugar_g": 37.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "lemon-poppy-seed-muffins-granny",
@@ -1386,7 +1509,26 @@
           "step": 3,
           "text": "Bake in greased muffin tins for 15 minutes or until done."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 763,
+          "fat_g": 16.3,
+          "carbs_g": 145.2,
+          "protein_g": 9.2,
+          "sodium_mg": 1251,
+          "fiber_g": 2.0,
+          "sugar_g": 81.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit",
+          "grated lemon peel: used default unit",
+          "Nora Mill Poppy Seeds: used default unit"
+        ]
+      }
     },
     {
       "id": "garlic-cheese-drop-biscuits-granny",
@@ -1465,7 +1607,25 @@
           "step": 6,
           "text": "Wonderful with soups, stews and pasta dishes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 492,
+          "fat_g": 16.7,
+          "carbs_g": 79.2,
+          "protein_g": 6.5,
+          "sodium_mg": 793,
+          "fiber_g": 1.0,
+          "sugar_g": 43.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit",
+          "garlic powder: used default unit"
+        ]
+      }
     },
     {
       "id": "broccoli-cornbread-handwritten-granny",
@@ -1542,7 +1702,25 @@
           "text": "Bake for 25-30 minutes or until golden brown and set."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 10.6,
+          "carbs_g": 8.9,
+          "protein_g": 6.9,
+          "sodium_mg": 270,
+          "fiber_g": 2.1,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "broccoli, thawed and drained: used default unit",
+          "cornbread mix: used default unit"
+        ]
+      }
     },
     {
       "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
@@ -1630,7 +1808,24 @@
           "step": 6,
           "text": "Bake at 400\u00b0F for 20-25 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 2.5,
+          "carbs_g": 24.5,
+          "protein_g": 4.5,
+          "sodium_mg": 244,
+          "fiber_g": 3.5,
+          "sugar_g": 7.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "banana-bread-handwritten-granny",
@@ -1718,7 +1913,24 @@
       "temperature": "350\u00b0F (175\u00b0C)",
       "notes": [
         "Recipe card has beautiful stove illustration, from kitchen of Dewolf"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 4.4,
+          "carbs_g": 29.4,
+          "protein_g": 1.7,
+          "sodium_mg": 187,
+          "fiber_g": 0.9,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "irish-soda-bread-landmark-tavern-granny",
@@ -1797,7 +2009,29 @@
       },
       "image_refs": [
         "gr-62"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 240,
+          "fat_g": 0.9,
+          "carbs_g": 56.9,
+          "protein_g": 2.6,
+          "sodium_mg": 119,
+          "fiber_g": 0.8,
+          "sugar_g": 42.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "flour: used default unit",
+          "ground cinnamon: used default unit",
+          "baking powder: used default unit",
+          "sugar: used default unit",
+          "raisins: used default unit",
+          "milk: used default unit"
+        ]
+      }
     }
   ]
 }

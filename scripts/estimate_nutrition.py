@@ -395,6 +395,79 @@ NUTRITION_DB = {
     'cake decors': {'tbsp': {'cal': 70, 'fat': 0, 'carb': 18, 'protein': 0, 'sodium': 5, 'fiber': 0, 'sugar': 14}},
     'm&ms': {'cup': {'cal': 1024, 'fat': 44, 'carb': 148, 'protein': 10, 'sodium': 88, 'fiber': 4, 'sugar': 128}},
     'peanut m&ms': {'cup': {'cal': 1024, 'fat': 48, 'carb': 132, 'protein': 16, 'sodium': 80, 'fiber': 6, 'sugar': 108}},
+
+    # ADDITIONAL MISSING INGREDIENTS
+    # Spices
+    'curry powder': {'tsp': {'cal': 7, 'fat': 0.3, 'carb': 1.2, 'protein': 0.3, 'sodium': 1, 'fiber': 0.7, 'sugar': 0.1}},
+    'ground ginger': {'tsp': {'cal': 6, 'fat': 0.1, 'carb': 1.3, 'protein': 0.2, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'fresh ginger': {'tbsp': {'cal': 5, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 1, 'fiber': 0.1, 'sugar': 0.1}},
+    'ginger': {'tsp': {'cal': 6, 'fat': 0.1, 'carb': 1.3, 'protein': 0.2, 'sodium': 1, 'fiber': 0.2, 'sugar': 0}},
+    'poppy seeds': {'tbsp': {'cal': 46, 'fat': 3.7, 'carb': 2.5, 'protein': 1.6, 'sodium': 2, 'fiber': 0.9, 'sugar': 0.3}},
+    'lemon peel': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.4}},
+    'lemon zest': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.4}},
+    'grated lemon peel': {'tbsp': {'cal': 3, 'fat': 0, 'carb': 1, 'protein': 0.1, 'sodium': 0, 'fiber': 0.4, 'sugar': 0.4}},
+    'mint': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+    'fresh mint': {'tbsp': {'cal': 1, 'fat': 0, 'carb': 0.1, 'protein': 0, 'sodium': 0, 'fiber': 0.1, 'sugar': 0}},
+
+    # Sauces and condiments
+    'barbecue sauce': {'tbsp': {'cal': 29, 'fat': 0.1, 'carb': 7, 'protein': 0.2, 'sodium': 175, 'fiber': 0.2, 'sugar': 5}},
+    'italian sauce': {'cup': {'cal': 90, 'fat': 3, 'carb': 13, 'protein': 2, 'sodium': 577, 'fiber': 3, 'sugar': 8}},
+    'marinara sauce': {'cup': {'cal': 90, 'fat': 3, 'carb': 13, 'protein': 2, 'sodium': 577, 'fiber': 3, 'sugar': 8}},
+    'cranberry sauce': {'cup': {'cal': 418, 'fat': 0.4, 'carb': 108, 'protein': 0.6, 'sodium': 80, 'fiber': 2.8, 'sugar': 86}},
+    'caramel sauce': {'cup': {'cal': 400, 'fat': 10, 'carb': 76, 'protein': 3, 'sodium': 220, 'fiber': 0, 'sugar': 60}},
+    'caramel topping': {'cup': {'cal': 400, 'fat': 10, 'carb': 76, 'protein': 3, 'sodium': 220, 'fiber': 0, 'sugar': 60}},
+    'marshmallow creme': {'cup': {'cal': 320, 'fat': 0, 'carb': 80, 'protein': 2, 'sodium': 80, 'fiber': 0, 'sugar': 56}},
+    'marshmallow fluff': {'cup': {'cal': 320, 'fat': 0, 'carb': 80, 'protein': 2, 'sodium': 80, 'fiber': 0, 'sugar': 56}},
+    'frosting': {'cup': {'cal': 400, 'fat': 16, 'carb': 64, 'protein': 0, 'sodium': 160, 'fiber': 0, 'sugar': 56}},
+    'white frosting': {'cup': {'cal': 400, 'fat': 16, 'carb': 64, 'protein': 0, 'sodium': 160, 'fiber': 0, 'sugar': 56}},
+
+    # Dairy and cream
+    'light cream': {'cup': {'cal': 468, 'fat': 46, 'carb': 9, 'protein': 6, 'sodium': 95, 'fiber': 0, 'sugar': 9}},
+    'sherbet': {'cup': {'cal': 266, 'fat': 4, 'carb': 58, 'protein': 2, 'sodium': 92, 'fiber': 0, 'sugar': 50}},
+    'orange sherbet': {'cup': {'cal': 266, 'fat': 4, 'carb': 58, 'protein': 2, 'sodium': 92, 'fiber': 0, 'sugar': 50}},
+
+    # Meats
+    'chuck roast': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'beef chuck roast': {'lb': {'cal': 880, 'fat': 52, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'sea trout': {'lb': {'cal': 464, 'fat': 8, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'trout': {'lb': {'cal': 464, 'fat': 8, 'carb': 0, 'protein': 100, 'sodium': 280, 'fiber': 0, 'sugar': 0}},
+    'lobster': {'lb': {'cal': 408, 'fat': 2.4, 'carb': 2, 'protein': 85, 'sodium': 1360, 'fiber': 0, 'sugar': 0}},
+    'imitation crab': {'oz': {'cal': 25, 'fat': 0.3, 'carb': 3, 'protein': 2.5, 'sodium': 200, 'fiber': 0, 'sugar': 1.5}},
+
+    # Fruits
+    'orange sections': {'cup': {'cal': 85, 'fat': 0.2, 'carb': 21, 'protein': 1.7, 'sodium': 0, 'fiber': 4.3, 'sugar': 17}},
+    'dates': {'cup': {'cal': 415, 'fat': 0.6, 'carb': 110, 'protein': 3.6, 'sodium': 3, 'fiber': 12, 'sugar': 93}},
+
+    # Baked goods and mixes
+    'brownie mix': {'package': {'cal': 1440, 'fat': 32, 'carb': 280, 'protein': 16, 'sodium': 1360, 'fiber': 8, 'sugar': 184}},
+    'reduced calorie brownie mix': {'package': {'cal': 1200, 'fat': 24, 'carb': 240, 'protein': 16, 'sodium': 1200, 'fiber': 8, 'sugar': 160}},
+    'wheat bran': {'cup': {'cal': 125, 'fat': 2.5, 'carb': 37, 'protein': 9, 'sodium': 1, 'fiber': 25, 'sugar': 0.3}},
+    'bran cereal': {'cup': {'cal': 125, 'fat': 0.8, 'carb': 37, 'protein': 4, 'sodium': 1, 'fiber': 13, 'sugar': 0.3}},
+
+    # Candy and chocolate
+    'hersheys kisses': {'each': {'cal': 22, 'fat': 1.3, 'carb': 2.6, 'protein': 0.3, 'sodium': 3, 'fiber': 0.1, 'sugar': 2.4}},
+    'chocolate kisses': {'each': {'cal': 22, 'fat': 1.3, 'carb': 2.6, 'protein': 0.3, 'sodium': 3, 'fiber': 0.1, 'sugar': 2.4}},
+    'candy kisses': {'each': {'cal': 22, 'fat': 1.3, 'carb': 2.6, 'protein': 0.3, 'sodium': 3, 'fiber': 0.1, 'sugar': 2.4}},
+
+    # Cheese
+    'american cheese slices': {'slice': {'cal': 60, 'fat': 4.5, 'carb': 2, 'protein': 3.5, 'sodium': 220, 'fiber': 0, 'sugar': 1}},
+    'cheese slices': {'slice': {'cal': 60, 'fat': 4.5, 'carb': 2, 'protein': 3.5, 'sodium': 220, 'fiber': 0, 'sugar': 1}},
+    'kraft singles': {'slice': {'cal': 60, 'fat': 4.5, 'carb': 2, 'protein': 3.5, 'sodium': 220, 'fiber': 0, 'sugar': 1}},
+
+    # Extracts and flavorings
+    'almond flavoring': {'tsp': {'cal': 10, 'fat': 0, 'carb': 0.3, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0.3}},
+
+    # Breads
+    'white bread': {'slice': {'cal': 79, 'fat': 1, 'carb': 15, 'protein': 2.7, 'sodium': 147, 'fiber': 0.6, 'sugar': 1.5}},
+    'elbow macaroni': {'cup': {'cal': 220, 'fat': 1.3, 'carb': 43, 'protein': 8, 'sodium': 1, 'fiber': 2.5, 'sugar': 0.8}},
+    'macaroni': {'cup': {'cal': 220, 'fat': 1.3, 'carb': 43, 'protein': 8, 'sodium': 1, 'fiber': 2.5, 'sugar': 0.8}},
+
+    # Marshmallow rope (candy)
+    'marshmallow rope': {'oz': {'cal': 90, 'fat': 0, 'carb': 23, 'protein': 1, 'sodium': 15, 'fiber': 0, 'sugar': 16}},
+
+    # Non-food items (zero calories - for crafts)
+    'toothpicks': {'each': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
+    'decorations': {'each': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
 }
 
 # Unit conversions to standard measures
@@ -538,6 +611,60 @@ def find_ingredient_match(item_name):
         'green onion': 'onion',
         'yellow onion': 'onion',
         'red onion': 'onion',
+        # Brand name mappings
+        'kraft original barbecue': 'barbecue sauce',
+        'kraft barbecue': 'barbecue sauce',
+        'kraft singles': 'kraft singles',
+        'publix jellied cranberry': 'cranberry sauce',
+        'publix cranberry': 'cranberry sauce',
+        'publix white mountain bread': 'white bread',
+        'publix elbow macaroni': 'elbow macaroni',
+        'publix sweet cream butter': 'butter',
+        'publix whipping cream': 'whipping cream',
+        'publix shredded': 'cheddar cheese',
+        'publix fat free cream cheese': 'cream cheese',
+        "hershey's kisses": 'hersheys kisses',
+        'hershey kisses': 'hersheys kisses',
+        'milk chocolate candy kiss': 'hersheys kisses',
+        'jet-puffed': 'marshmallows',
+        'kraft jet-puffed': 'marshmallows',
+        'nora mill': 'cornmeal',
+        'nora mill poppy seeds': 'poppy seeds',
+        'quaker oats': 'oats',
+        'pillsbury best': 'flour',
+        'pillsbury': 'flour',
+        # Ingredient variations
+        'florida sea trout': 'sea trout',
+        'sea trout fillets': 'sea trout',
+        'fresh ginger, grated': 'fresh ginger',
+        'grated ginger': 'fresh ginger',
+        'beef chuck roast': 'chuck roast',
+        'chopped dates': 'dates',
+        'wheat bran cereal': 'bran cereal',
+        'wheat berrie': 'bran cereal',
+        'imitation crab, flaked': 'imitation crab',
+        'sliced lobster': 'lobster',
+        'light cream': 'light cream',
+        'orange sections': 'orange sections',
+        'orange sherbet': 'sherbet',
+        'reduced calorie brownie': 'reduced calorie brownie mix',
+        'caramel topping': 'caramel topping',
+        'marshmallow creme': 'marshmallow creme',
+        'almond flavoring': 'almond flavoring',
+        'fresh mint, chopped': 'fresh mint',
+        'chopped fresh mint': 'fresh mint',
+        'grated lemon peel': 'lemon peel',
+        'grated lemon': 'lemon peel',
+        'multicolored marshmallow rope': 'marshmallow rope',
+        "pastel-colored peanut m&m's": 'peanut m&ms',
+        "peanut m&m's": 'peanut m&ms',
+        'boot-shaped cookies': 'graham cracker crust',  # Approximate
+        'castle crumbs': 'bread crumbs',  # Approximate
+        'decorations (for face)': 'decorations',
+        'jet-puffed miniatures': 'marshmallows',
+        # Additional fixes
+        'breadcrumbs': 'bread crumbs',
+        'orange zest': 'orange rind',
     }
 
     for var, match in variations.items():

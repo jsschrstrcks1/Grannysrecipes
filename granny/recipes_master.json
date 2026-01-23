@@ -7,7 +7,7 @@
       "title": "Busy Day Casserole",
       "category": "mains",
       "description": "A quick and easy ground beef casserole.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -61,7 +61,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F for 30 minutes until bubbly and tots are golden."
+          "text": "Bake at 350\u00b0F for 30 minutes until bubbly and tots are golden."
         }
       ],
       "tags": [
@@ -81,15 +81,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 5,
         "per_serving": {
-          "calories": 327,
-          "fat_g": 21.4,
-          "carbs_g": 15.2,
-          "protein_g": 16.7,
-          "sodium_mg": 847,
-          "fiber_g": 2.2,
-          "sugar_g": 2.8
+          "calories": 393,
+          "fat_g": 25.7,
+          "carbs_g": 18.2,
+          "protein_g": 20.0,
+          "sodium_mg": 1016,
+          "fiber_g": 2.6,
+          "sugar_g": 3.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -159,7 +159,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350°F for 40 minutes."
+          "text": "Bake at 350\u00b0F for 40 minutes."
         },
         {
           "step": 7,
@@ -209,7 +209,7 @@
       "category": "desserts",
       "source_note": "Quaker Oats container lid",
       "description": "Classic oatmeal cookies from the Quaker Oats recipe.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "8-9 minutes",
       "servings_yield": "About 5 dozen cookies",
       "ingredients": [
@@ -269,7 +269,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 350°F."
+          "text": "Heat oven to 350\u00b0F."
         },
         {
           "step": 2,
@@ -344,7 +344,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Italian-style chicken breasts with tomatoes and herbs.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "prep_time": "15 minutes",
       "cook_time": "45 minutes",
       "servings_yield": "4 servings",
@@ -398,7 +398,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350°F."
+          "text": "Preheat oven to 350\u00b0F."
         },
         {
           "step": 2,
@@ -406,7 +406,7 @@
         },
         {
           "step": 3,
-          "text": "In skillet, sauté garlic in oil. Add chicken and brown on both sides."
+          "text": "In skillet, saut\u00e9 garlic in oil. Add chicken and brown on both sides."
         },
         {
           "step": 4,
@@ -777,7 +777,7 @@
         },
         {
           "step": 2,
-          "text": "To the pan, add remaining oil. Add onion and garlic. Sauté for 5 minutes. Add mushrooms. Cook 4 minutes longer."
+          "text": "To the pan, add remaining oil. Add onion and garlic. Saut\u00e9 for 5 minutes. Add mushrooms. Cook 4 minutes longer."
         },
         {
           "step": 3,
@@ -825,7 +825,6 @@
           "chopped green pepper: used default unit",
           "canned diced tomatoes with juice: used default unit",
           "tomato paste: used default unit",
-          "freshly ground black pepper: used default unit",
           "chopped parsley: used default unit"
         ]
       }
@@ -838,7 +837,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A hearty casserole topped with sliced eggs.",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "prep_time": "10 minutes",
       "cook_time": "25 minutes",
       "servings_yield": "4 servings",
@@ -913,7 +912,7 @@
         },
         {
           "step": 4,
-          "text": "Transfer mixture to large shallow casserole dish. Bake at 400°F until bubbly and lightly browned, about 25 minutes."
+          "text": "Transfer mixture to large shallow casserole dish. Bake at 400\u00b0F until bubbly and lightly browned, about 25 minutes."
         },
         {
           "step": 5,
@@ -961,11 +960,11 @@
       "id": "quick-corn-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Quick Corn Soufflé",
+      "title": "Quick Corn Souffl\u00e9",
       "category": "sides",
       "source_note": "My Great Recipes packet",
-      "description": "An easy corn soufflé that puffs up golden brown.",
-      "temperature": "425°F (220°C)",
+      "description": "An easy corn souffl\u00e9 that puffs up golden brown.",
+      "temperature": "425\u00b0F (220\u00b0C)",
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "6 servings",
@@ -1031,11 +1030,11 @@
         },
         {
           "step": 3,
-          "text": "Spoon into buttered 1-cup soufflé dishes. Place on cookie sheet."
+          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
         },
         {
           "step": 4,
-          "text": "Bake at 425°F for 20 minutes or until puffed and golden brown."
+          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
         },
         {
           "step": 5,
@@ -1087,7 +1086,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Roasted Cornish hens with a tangy basting sauce.",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "prep_time": "20 minutes",
       "cook_time": "50 minutes",
       "servings_yield": "4 servings",
@@ -1170,7 +1169,7 @@
         },
         {
           "step": 5,
-          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
+          "text": "Roast hens at 375\u00b0F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
         },
         {
           "step": 6,
@@ -1197,19 +1196,23 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 134,
-          "fat_g": 1.8,
-          "carbs_g": 29.5,
-          "protein_g": 5.1,
-          "sodium_mg": 605,
-          "fiber_g": 3.7,
-          "sugar_g": 5.0
+          "calories": 241,
+          "fat_g": 13.4,
+          "carbs_g": 30.6,
+          "protein_g": 5.3,
+          "sodium_mg": 755,
+          "fiber_g": 3.8,
+          "sugar_g": 5.5
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "[BASTING SAUCE]"
+        ],
+        "assumptions": [
+          "Dijon mustard: used default unit"
+        ]
       }
     },
     {
@@ -1219,7 +1222,7 @@
       "title": "Buttercups",
       "category": "desserts",
       "description": "Individual pie crust cups filled with a sweet coconut filling.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "20 minutes",
       "ingredients": [
         {
@@ -1306,15 +1309,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 390,
-          "fat_g": 14.6,
-          "carbs_g": 57.9,
-          "protein_g": 6.8,
-          "sodium_mg": 119,
-          "fiber_g": 1.4,
-          "sugar_g": 25.9
+          "calories": 260,
+          "fat_g": 9.7,
+          "carbs_g": 38.6,
+          "protein_g": 4.5,
+          "sodium_mg": 79,
+          "fiber_g": 1.0,
+          "sugar_g": 17.2
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1450,7 +1453,7 @@
       "category": "breakfast",
       "source_note": "My Great Recipes packet",
       "description": "Blueberry muffins with a cinnamon crumble topping.",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "10 muffins",
@@ -1526,7 +1529,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 400°F for 20 minutes. Cool for 1 minute. Remove from pans."
+          "text": "Bake at 400\u00b0F for 20 minutes. Cool for 1 minute. Remove from pans."
         }
       ],
       "notes": [
@@ -1572,7 +1575,7 @@
       "category": "breads",
       "source_note": "My Great Recipes packet",
       "description": "Buttery, flaky croissants with optional chocolate, apple-almond, or other fillings.",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "prep_time": "15 minutes",
       "cook_time": "10-15 minutes",
       "servings_yield": "32 croissants",
@@ -1586,7 +1589,7 @@
           "item": "warm water",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "105-115°F"
+          "prep_note": "105-115\u00b0F"
         },
         {
           "item": "nonfat dry milk",
@@ -1642,7 +1645,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375°F 10 to 15 minutes until golden."
+          "text": "Bake at 375\u00b0F 10 to 15 minutes until golden."
         }
       ],
       "notes": [
@@ -1689,7 +1692,7 @@
       "title": "Carrot Cake",
       "category": "desserts",
       "description": "Classic carrot cake with cream cheese frosting.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "ingredients": [
         {
           "item": "all-purpose flour",
@@ -1782,7 +1785,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F until toothpick comes out clean."
+          "text": "Bake at 350\u00b0F until toothpick comes out clean."
         },
         {
           "step": 6,
@@ -1810,15 +1813,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 14,
         "per_serving": {
-          "calories": 479,
-          "fat_g": 23.5,
-          "carbs_g": 63.0,
-          "protein_g": 6.6,
-          "sodium_mg": 548,
-          "fiber_g": 1.9,
-          "sugar_g": 44.9
+          "calories": 410,
+          "fat_g": 20.1,
+          "carbs_g": 54.0,
+          "protein_g": 5.6,
+          "sodium_mg": 470,
+          "fiber_g": 1.7,
+          "sugar_g": 38.5
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1839,7 +1842,7 @@
       "title": "Dump Cake",
       "category": "desserts",
       "description": "A simple layered dessert - just dump the ingredients in order and bake!",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "11 x 9 x 2 inch pan",
       "ingredients": [
         {
@@ -1908,7 +1911,7 @@
         },
         {
           "step": 8,
-          "text": "Bake at 350°F until golden brown on top."
+          "text": "Bake at 350\u00b0F until golden brown on top."
         }
       ],
       "notes": [
@@ -1932,20 +1935,19 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 13,
         "per_serving": {
-          "calories": 337,
-          "fat_g": 23.0,
-          "carbs_g": 32.2,
-          "protein_g": 2.7,
-          "sodium_mg": 315,
-          "fiber_g": 2.3,
-          "sugar_g": 17.8
+          "calories": 311,
+          "fat_g": 21.2,
+          "carbs_g": 29.7,
+          "protein_g": 2.5,
+          "sodium_mg": 291,
+          "fiber_g": 2.2,
+          "sugar_g": 16.5
         },
         "missing_inputs": [],
         "assumptions": [
           "crushed pineapple: used default unit",
-          "coconut: used default unit",
           "cherry pie filling: used default unit",
           "yellow or white cake mix: used default unit",
           "butter or margarine: used default unit"
@@ -1962,7 +1964,7 @@
       "title": "Broccoli Casserole",
       "category": "sides",
       "description": "A cheesy broccoli casserole side dish.",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "cook_time": "15-25 minutes",
       "pan_size": "9 x 13 inch casserole",
       "ingredients": [
@@ -2027,7 +2029,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400°F for 15-25 minutes or until golden."
+          "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
         }
       ],
       "notes": [
@@ -2047,22 +2049,22 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90°",
+          "handwritten recipe rotated 90\u00b0",
           "key ingredient unclear (mayo vs cheese)",
           "Optional: Hot Peppers noted on card"
         ]
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 236,
-          "fat_g": 21.6,
-          "carbs_g": 5.8,
-          "protein_g": 5.9,
-          "sodium_mg": 606,
-          "fiber_g": 0.5,
-          "sugar_g": 2.0
+          "calories": 202,
+          "fat_g": 18.5,
+          "carbs_g": 5.0,
+          "protein_g": 5.0,
+          "sodium_mg": 519,
+          "fiber_g": 0.4,
+          "sugar_g": 1.7
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2081,7 +2083,7 @@
       "title": "Ham & Cheese Casserole",
       "category": "mains",
       "description": "A hearty macaroni casserole with ham and cheese.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -2163,7 +2165,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F for 30 minutes."
+          "text": "Bake at 350\u00b0F for 30 minutes."
         }
       ],
       "tags": [
@@ -2180,7 +2182,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90°",
+          "handwritten recipe rotated 90\u00b0",
           "flour amount corrected: 2 tbsp (not 1 cup)",
           "peas added (was missing)",
           "ham amount corrected: 1 cup (not 2 cups)"
@@ -2188,15 +2190,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 5,
         "per_serving": {
-          "calories": 391,
-          "fat_g": 8.9,
-          "carbs_g": 60.9,
-          "protein_g": 15.8,
-          "sodium_mg": 600,
-          "fiber_g": 3.7,
-          "sugar_g": 7.5
+          "calories": 469,
+          "fat_g": 10.6,
+          "carbs_g": 73.1,
+          "protein_g": 18.9,
+          "sodium_mg": 720,
+          "fiber_g": 4.4,
+          "sugar_g": 9.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2364,7 +2366,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90°",
+          "handwritten recipe rotated 90\u00b0",
           "multiple ingredients marked [UNCLEAR]",
           "previous extraction had significant errors",
           "Frosting ingredients were missing - added standard cream cheese frosting"
@@ -2372,26 +2374,28 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 24,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 145,
-          "fat_g": 5.5,
-          "carbs_g": 21.4,
-          "protein_g": 2.6,
-          "sodium_mg": 189,
-          "fiber_g": 0.6,
-          "sugar_g": 10.4
+          "calories": 501,
+          "fat_g": 22.9,
+          "carbs_g": 68.8,
+          "protein_g": 6.6,
+          "sodium_mg": 475,
+          "fiber_g": 1.3,
+          "sugar_g": 45.8
         },
         "missing_inputs": [],
         "assumptions": [
           "pumpkin pie spice: used default unit",
-          "yellow cake mix: used default unit"
+          "yellow cake mix: used default unit",
+          "powdered sugar: used default unit",
+          "orange zest: used default unit"
         ]
       },
       "servings_yield": "24 cookies",
       "prep_time": "20 minutes",
       "cook_time": "25-30 minutes",
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)"
     },
     {
       "id": "caramel-corn-granny",
@@ -2400,7 +2404,7 @@
       "title": "Caramel Corn",
       "category": "snacks",
       "description": "Homemade caramel corn - crunchy and sweet.",
-      "temperature": "250°F (120°C)",
+      "temperature": "250\u00b0F (120\u00b0C)",
       "ingredients": [
         {
           "item": "popped popcorn",
@@ -2469,7 +2473,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 250°F, stirring every 15 minutes, for about 1 hour."
+          "text": "Bake at 250\u00b0F, stirring every 15 minutes, for about 1 hour."
         },
         {
           "step": 7,
@@ -2524,7 +2528,7 @@
       "title": "Pound Cake",
       "category": "desserts",
       "description": "Classic Southern pound cake with sour cream.",
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "cook_time": "1-1/2 hours",
       "pan_size": "tube or bundt pan",
       "ingredients": [
@@ -2597,7 +2601,7 @@
         },
         {
           "step": 8,
-          "text": "Bake at 325°F for 1-1/2 hours or until toothpick comes out clean."
+          "text": "Bake at 325\u00b0F for 1-1/2 hours or until toothpick comes out clean."
         }
       ],
       "tags": [
@@ -2618,15 +2622,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 14,
         "per_serving": {
-          "calories": 653,
-          "fat_g": 37.1,
-          "carbs_g": 74.7,
-          "protein_g": 7.1,
-          "sodium_mg": 271,
-          "fiber_g": 0.8,
-          "sugar_g": 50.5
+          "calories": 559,
+          "fat_g": 31.8,
+          "carbs_g": 64.0,
+          "protein_g": 6.1,
+          "sodium_mg": 232,
+          "fiber_g": 0.6,
+          "sugar_g": 43.2
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2726,7 +2730,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90°",
+          "handwritten recipe rotated 90\u00b0",
           "very difficult to read",
           "title and most ingredients uncertain",
           "may reference \"Anne Linda\" as source"
@@ -2734,15 +2738,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 8,
         "per_serving": {
-          "calories": 216,
-          "fat_g": 12.2,
-          "carbs_g": 20.0,
-          "protein_g": 8.9,
-          "sodium_mg": 216,
-          "fiber_g": 2.9,
-          "sugar_g": 15.1
+          "calories": 108,
+          "fat_g": 6.1,
+          "carbs_g": 10.0,
+          "protein_g": 4.4,
+          "sodium_mg": 108,
+          "fiber_g": 1.4,
+          "sugar_g": 7.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2765,7 +2769,7 @@
       "category": "breads",
       "source_note": "My Great Recipes packet",
       "description": "Pull-apart bread with herbs and cheese.",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -2824,7 +2828,7 @@
         },
         {
           "step": 7,
-          "text": "Bake at 375°F for about 30 minutes until golden."
+          "text": "Bake at 375\u00b0F for about 30 minutes until golden."
         }
       ],
       "tags": [
@@ -2843,15 +2847,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 9,
         "per_serving": {
-          "calories": 135,
-          "fat_g": 5.5,
-          "carbs_g": 18.4,
-          "protein_g": 3.1,
-          "sodium_mg": 212,
-          "fiber_g": 0.7,
-          "sugar_g": 1.0
+          "calories": 180,
+          "fat_g": 7.4,
+          "carbs_g": 24.5,
+          "protein_g": 4.1,
+          "sodium_mg": 282,
+          "fiber_g": 0.9,
+          "sugar_g": 1.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -2971,7 +2975,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Country-style pork back ribs baked together with potatoes.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "prep_time": "10-15 minutes",
       "cook_time": "1 hour",
       "servings_yield": "4-6 servings",
@@ -3062,7 +3066,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 350°F for 30 minutes. Remove cover. Bake 30 minutes longer or until ribs are tender and potatoes are cooked through."
+          "text": "Cover. Bake at 350\u00b0F for 30 minutes. Remove cover. Bake 30 minutes longer or until ribs are tender and potatoes are cooked through."
         },
         {
           "step": 6,
@@ -3115,7 +3119,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Tender sirloin steak marinated in an Asian-inspired sauce.",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "prep_time": "10 minutes",
       "cook_time": "20-30 minutes",
       "servings_yield": "4-6 servings",
@@ -3179,7 +3183,7 @@
         },
         {
           "step": 5,
-          "text": "Roast at 450°F for 20 to 30 minutes for rare to medium-rare. After 5 minutes, brush with marinade. Baste meat often."
+          "text": "Roast at 450\u00b0F for 20 to 30 minutes for rare to medium-rare. After 5 minutes, brush with marinade. Baste meat often."
         },
         {
           "step": 6,
@@ -3314,7 +3318,7 @@
       "notes": [
         "Good served with barbecued vegetables or steamed fresh vegetables and a tossed salad.",
         "Recipe may be halved or doubled.",
-        "For 8-12 servings, use only 1½ times the sweet-and-sour broth.",
+        "For 8-12 servings, use only 1\u00bd times the sweet-and-sour broth.",
         "You may precook spareribs ahead of time and simply heat and glaze over charcoal before serving."
       ],
       "tags": [
@@ -3364,7 +3368,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A different and delicious pot roast with an unusual combination of sweet and spicy flavors.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "prep_time": "30 minutes",
       "cook_time": "2-1/2 to 3 hours",
       "servings_yield": "6 servings",
@@ -3436,7 +3440,7 @@
         },
         {
           "step": 2,
-          "text": "Cook, uncovered, at 350°F for 30 minutes. Turn. Bake 30 minutes longer."
+          "text": "Cook, uncovered, at 350\u00b0F for 30 minutes. Turn. Bake 30 minutes longer."
         },
         {
           "step": 3,
@@ -3583,15 +3587,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 11,
         "per_serving": {
-          "calories": 1558,
-          "fat_g": 154.6,
-          "carbs_g": 30.4,
-          "protein_g": 17.3,
-          "sodium_mg": 339,
-          "fiber_g": 0.8,
-          "sugar_g": 21.2
+          "calories": 1133,
+          "fat_g": 112.4,
+          "carbs_g": 22.1,
+          "protein_g": 12.6,
+          "sodium_mg": 247,
+          "fiber_g": 0.5,
+          "sugar_g": 15.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -3612,7 +3616,7 @@
       "title": "Stuffed Peppers (Webb)",
       "category": "mains",
       "description": "Classic stuffed bell peppers with ground beef and rice.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "ingredients": [
         {
           "item": "big green peppers",
@@ -3724,7 +3728,7 @@
       "category": "breads",
       "source_note": "Landmark Tavern, Ltd. - 626 Eleventh Avenue, New York, N.Y. 10036",
       "description": "Traditional Irish soda bread from the famous Landmark Tavern in NYC.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "25-30 minutes",
       "servings_yield": "8-10 loaves",
       "ingredients": [
@@ -3796,7 +3800,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350° for 25 to 30 minutes."
+          "text": "Bake at 350\u00b0 for 25 to 30 minutes."
         },
         {
           "step": 6,
@@ -3805,7 +3809,7 @@
       ],
       "notes": [
         "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
-        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350°F.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -3945,7 +3949,7 @@
       "category": "breads",
       "attribution": "Recipe from the kitchen of Dewolf",
       "description": "Moist banana bread - a family favorite.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "servings_yield": "1 loaf",
       "ingredients": [
         {
@@ -4008,7 +4012,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350° for 25 to 30 minutes or until done."
+          "text": "Bake at 350\u00b0 for 25 to 30 minutes or until done."
         }
       ],
       "tags": [
@@ -4054,7 +4058,7 @@
       "title": "Grandma's Wheat Berrie Muffins",
       "category": "breakfast",
       "description": "Healthy muffins with wheat flour, blueberries and sunflower seeds.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "20-25 minutes",
       "ingredients": [
         {
@@ -4148,15 +4152,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 6,
         "per_serving": {
-          "calories": 630,
-          "fat_g": 30.7,
-          "carbs_g": 78.0,
-          "protein_g": 11.7,
-          "sodium_mg": 580,
-          "fiber_g": 2.9,
-          "sugar_g": 27.6
+          "calories": 420,
+          "fat_g": 20.5,
+          "carbs_g": 52.0,
+          "protein_g": 7.8,
+          "sodium_mg": 387,
+          "fiber_g": 1.9,
+          "sugar_g": 18.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -4242,15 +4246,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 50,
-          "fat_g": 1.8,
-          "carbs_g": 8.1,
-          "protein_g": 0.8,
-          "sodium_mg": 44,
-          "fiber_g": 0.4,
-          "sugar_g": 6.5
+          "calories": 33,
+          "fat_g": 1.2,
+          "carbs_g": 5.4,
+          "protein_g": 0.5,
+          "sodium_mg": 29,
+          "fiber_g": 0.2,
+          "sugar_g": 4.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -4333,7 +4337,7 @@
         }
       ],
       "notes": [
-        "Other preparation methods: Bake - Preheat oven to 400°F. Cut 1 ripe, peeled avocado into 8 wedges; place in baking dish. Coat with 1 tablespoon each: salt, oil and 1/4 teaspoon each: salt, pepper, and red pepper. Bake 20-25 minutes or until edges are golden. Sprinkle with 1 teaspoon fresh lime juice. Sauce: Place 2 ripe, peeled avocados into food processor bowl; add 1 tablespoon fresh lime juice, 1 1/2 cups fresh cilantro, 1/4 cup sour cream, and 1/2 teaspoon total seasoning. Process until smooth. Serve over chicken, beef, or pork."
+        "Other preparation methods: Bake - Preheat oven to 400\u00b0F. Cut 1 ripe, peeled avocado into 8 wedges; place in baking dish. Coat with 1 tablespoon each: salt, oil and 1/4 teaspoon each: salt, pepper, and red pepper. Bake 20-25 minutes or until edges are golden. Sprinkle with 1 teaspoon fresh lime juice. Sauce: Place 2 ripe, peeled avocados into food processor bowl; add 1 tablespoon fresh lime juice, 1 1/2 cups fresh cilantro, 1/4 cup sour cream, and 1/2 teaspoon total seasoning. Process until smooth. Serve over chicken, beef, or pork."
       ],
       "tags": [
         "appetizer",
@@ -4376,7 +4380,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A creamy pork and broccoli casserole topped with croutons.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "6 servings",
@@ -4440,7 +4444,7 @@
         },
         {
           "step": 5,
-          "text": "Bake, uncovered, at 350°F for 20 minutes or until lightly browned."
+          "text": "Bake, uncovered, at 350\u00b0F for 20 minutes or until lightly browned."
         }
       ],
       "notes": [
@@ -4493,7 +4497,7 @@
       "category": "appetizers",
       "source_note": "My Great Recipes packet",
       "description": "Large mushroom caps stuffed with seasoned pork sausage.",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "prep_time": "15 minutes",
       "cook_time": "25-30 minutes",
       "servings_yield": "16 mushrooms",
@@ -4541,7 +4545,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400°F for 15 to 20 minutes until sausage is browned and cooked through."
+          "text": "Bake at 400\u00b0F for 15 to 20 minutes until sausage is browned and cooked through."
         },
         {
           "step": 6,
@@ -4591,7 +4595,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Classic roast leg of lamb with homemade mint sauce.",
-      "temperature": "450°F then 350°F",
+      "temperature": "450\u00b0F then 350\u00b0F",
       "prep_time": "15 minutes",
       "cook_time": "1-1/2 to 2 hours",
       "servings_yield": "8 servings",
@@ -4673,7 +4677,7 @@
         },
         {
           "step": 4,
-          "text": "Sear meat at 450° for 15 minutes. Reduce temperature to 350°F. Roast 1-1/2 to 2 hours until meat thermometer reads 160°F for slightly rare or 170°F or well done."
+          "text": "Sear meat at 450\u00b0 for 15 minutes. Reduce temperature to 350\u00b0F. Roast 1-1/2 to 2 hours until meat thermometer reads 160\u00b0F for slightly rare or 170\u00b0F or well done."
         },
         {
           "step": 5,
@@ -4704,18 +4708,20 @@
         "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 705,
+          "calories": 717,
           "fat_g": 51.8,
-          "carbs_g": 0.6,
+          "carbs_g": 3.7,
           "protein_g": 55.1,
           "sodium_mg": 466,
           "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "sugar_g": 3.1
         },
         "missing_inputs": [],
         "assumptions": [
           "leg of lamb: used default unit",
-          "garlic: used default unit"
+          "garlic: used default unit",
+          "fresh mint leaves: used default unit",
+          "white wine vinegar: used default unit"
         ]
       }
     },
@@ -4919,7 +4925,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In a heavy saucepan, melt butter. Add garlic, if used. Sauté 30 seconds. Add onions and potatoes. Sauté 2 minutes or until onions are heated through."
+          "text": "In a heavy saucepan, melt butter. Add garlic, if used. Saut\u00e9 30 seconds. Add onions and potatoes. Saut\u00e9 2 minutes or until onions are heated through."
         },
         {
           "step": 2,
@@ -4988,7 +4994,7 @@
       "prep_time": "10 min",
       "cook_time": "20-25 min",
       "servings_yield": "4 servings",
-      "temperature": "425°F (220°C)",
+      "temperature": "425\u00b0F (220\u00b0C)",
       "ingredients": [
         {
           "item": "swordfish steak",
@@ -5057,7 +5063,7 @@
         },
         {
           "step": 2,
-          "text": "In an ovenproof pan, melt butter in oil. Add fish. Sauté over medium heat until golden."
+          "text": "In an ovenproof pan, melt butter in oil. Add fish. Saut\u00e9 over medium heat until golden."
         },
         {
           "step": 3,
@@ -5065,11 +5071,11 @@
         },
         {
           "step": 4,
-          "text": "Cover. Bake at 425°F for 20 to 25 minutes until fish flakes and vegetables are tender-crisp. Sprinkle with walnuts."
+          "text": "Cover. Bake at 425\u00b0F for 20 to 25 minutes until fish flakes and vegetables are tender-crisp. Sprinkle with walnuts."
         }
       ],
       "notes": [
-        "To simplify this recipe, place butter and oil in baking dish. Heat at 425°F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
+        "To simplify this recipe, place butter and oil in baking dish. Heat at 425\u00b0F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
         "Good served with: Brown rice pilaf, crisp rolls with herbed butter, and lemon pie for dessert."
       ],
       "tags": [
@@ -5323,7 +5329,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare barbecue sauce, in a heavy saucepan, heat butter. Add onion and garlic, sauté, stirring constantly, 3 to 4 minutes until onion is soft."
+          "text": "To prepare barbecue sauce, in a heavy saucepan, heat butter. Add onion and garlic, saut\u00e9, stirring constantly, 3 to 4 minutes until onion is soft."
         },
         {
           "step": 2,
@@ -5364,19 +5370,26 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 336,
-          "fat_g": 20.4,
-          "carbs_g": 5.6,
-          "protein_g": 31.1,
-          "sodium_mg": 718,
-          "fiber_g": 0.7,
-          "sugar_g": 2.8
+          "calories": 434,
+          "fat_g": 26.2,
+          "carbs_g": 16.3,
+          "protein_g": 31.8,
+          "sodium_mg": 1075,
+          "fiber_g": 0.9,
+          "sugar_g": 11.5
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "[SAUCE - RECONSTRUCTED]"
+        ],
+        "assumptions": [
+          "onion: used default unit",
+          "garlic: used default unit",
+          "ketchup: used default unit",
+          "Worcestershire sauce: used default unit"
+        ]
       }
     },
     {
@@ -5388,7 +5401,7 @@
       "prep_time": "20 min",
       "cook_time": "30-40 min",
       "servings_yield": "4 servings",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "ingredients": [
         {
           "item": "medium potatoes",
@@ -5457,7 +5470,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In saucepan, heat oil and 1 tablespoon butter. Add onion. Sauté over low heat until limp but not brown, about 5 minutes."
+          "text": "In saucepan, heat oil and 1 tablespoon butter. Add onion. Saut\u00e9 over low heat until limp but not brown, about 5 minutes."
         },
         {
           "step": 2,
@@ -5477,7 +5490,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375°F for 30 to 40 minutes until top is browned. Serve immediately."
+          "text": "Bake at 375\u00b0F for 30 to 40 minutes until top is browned. Serve immediately."
         }
       ],
       "notes": [
@@ -5528,7 +5541,7 @@
       "prep_time": "5 min",
       "cook_time": "2 hrs",
       "servings_yield": "4-6 servings",
-      "temperature": "450°F, then 350°F, then 325°F",
+      "temperature": "450\u00b0F, then 350\u00b0F, then 325\u00b0F",
       "ingredients": [
         {
           "item": "pork loin roast",
@@ -5574,15 +5587,15 @@
         },
         {
           "step": 2,
-          "text": "Place roast on a rack in roasting pan. Roast at 450°F for 30 minutes."
+          "text": "Place roast on a rack in roasting pan. Roast at 450\u00b0F for 30 minutes."
         },
         {
           "step": 3,
-          "text": "Drizzle with 2-3 tablespoons honey. Reduce heat to 350°F. Roast 30 minutes longer."
+          "text": "Drizzle with 2-3 tablespoons honey. Reduce heat to 350\u00b0F. Roast 30 minutes longer."
         },
         {
           "step": 4,
-          "text": "Drizzle with another 2 tablespoons honey. Sprinkle with crushed fennel. Pour in stock and wine. Reduce heat to 325°F. Continue roasting 1 hour longer or until meat reaches 160°-170°F."
+          "text": "Drizzle with another 2 tablespoons honey. Sprinkle with crushed fennel. Pour in stock and wine. Reduce heat to 325\u00b0F. Continue roasting 1 hour longer or until meat reaches 160\u00b0-170\u00b0F."
         },
         {
           "step": 5,
@@ -5640,7 +5653,7 @@
       "prep_time": "30-35 min",
       "cook_time": "15 min",
       "servings_yield": "16",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "ingredients": [
         {
           "item": "frozen bread dough",
@@ -5730,7 +5743,7 @@
         },
         {
           "step": 7,
-          "text": "Bake at 450°F for 15 minutes or until golden brown."
+          "text": "Bake at 450\u00b0F for 15 minutes or until golden brown."
         }
       ],
       "notes": [
@@ -6011,22 +6024,25 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 97,
-          "fat_g": 0.3,
-          "carbs_g": 20.4,
-          "protein_g": 4.0,
-          "sodium_mg": 15,
+          "calories": 109,
+          "fat_g": 1.6,
+          "carbs_g": 20.7,
+          "protein_g": 4.1,
+          "sodium_mg": 172,
           "fiber_g": 4.2,
-          "sugar_g": 5.4
+          "sugar_g": 5.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[DRESSING]"
+        ],
         "assumptions": [
           "mixed vegetables: used default unit",
           "sliced celery: used default unit",
-          "chopped green onion: used default unit"
+          "chopped green onion: used default unit",
+          "mayonnaise: used default unit"
         ]
       }
     },
@@ -6113,7 +6129,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut beef into small 1/2-inch wide strips. In a heavy 3-quart saucepan, heat oil. Add meat. Lightly brown onion. Sauté 3-4 minutes."
+          "text": "Cut beef into small 1/2-inch wide strips. In a heavy 3-quart saucepan, heat oil. Add meat. Lightly brown onion. Saut\u00e9 3-4 minutes."
         },
         {
           "step": 2,
@@ -6134,7 +6150,7 @@
       ],
       "notes": [
         "Tips: For added flavor, other vegetables such as potatoes, green beans, peas, celery or parsnips may be added to soup.",
-        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, ¼ cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
+        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, \u00bc cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
       ],
       "tags": [
         "soup",
@@ -6276,18 +6292,20 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 467,
-          "fat_g": 49.8,
-          "carbs_g": 1.7,
-          "protein_g": 5.2,
-          "sodium_mg": 386,
-          "fiber_g": 0.7,
+          "calories": 559,
+          "fat_g": 60.3,
+          "carbs_g": 2.1,
+          "protein_g": 5.3,
+          "sodium_mg": 538,
+          "fiber_g": 0.8,
           "sugar_g": 0.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[DRESSING]"
+        ],
         "assumptions": [
           "Butterhead lettuce: used default unit",
           "radishes: used default unit"
@@ -6511,7 +6529,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In an ovenproof casserole with lid, place rice. Roast at 325°F for 20 minutes or until rice is toasted and golden."
+          "text": "In an ovenproof casserole with lid, place rice. Roast at 325\u00b0F for 20 minutes or until rice is toasted and golden."
         },
         {
           "step": 2,
@@ -6530,7 +6548,7 @@
           "text": "Stir in onions, soy sauce and tarragon. Serve immediately."
         }
       ],
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "pan_size": "ovenproof casserole with lid",
       "notes": [
         "Recipe may be halved or doubled",
@@ -6656,14 +6674,14 @@
         },
         {
           "step": 5,
-          "text": "Add water, tomato sauce, garlic, bay leaf, oregano, salt and pepper. Bring to boil. Cover. Bake at 425°F for 20 minutes."
+          "text": "Add water, tomato sauce, garlic, bay leaf, oregano, salt and pepper. Bring to boil. Cover. Bake at 425\u00b0F for 20 minutes."
         },
         {
           "step": 6,
           "text": "Remove bay leaf and garlic clove before serving. Serve immediately."
         }
       ],
-      "temperature": "425°F (220°C)",
+      "temperature": "425\u00b0F (220\u00b0C)",
       "pan_size": "ovenproof saucepan",
       "notes": [
         "Be sure to remove bay leaf and garlic cloves from this dish before serving",
@@ -6825,10 +6843,10 @@
         },
         {
           "step": 7,
-          "text": "Bake at 375°F for 25-30 minutes until puffed and browned."
+          "text": "Bake at 375\u00b0F for 25-30 minutes until puffed and browned."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "1-cup souffle dishes",
       "notes": [
         "[RECONSTRUCTED: Original instructions were garbled - rewritten for clarity]",
@@ -6975,7 +6993,7 @@
         },
         {
           "step": 4,
-          "text": "Bake at 325°F for 12 minutes or until a rich brown. Let cool for 30 to 60 seconds until mixture holds together when moved with spatula. Loosen and place over custard cups. Press gently to mold. Repeat with remaining mixture."
+          "text": "Bake at 325\u00b0F for 12 minutes or until a rich brown. Let cool for 30 to 60 seconds until mixture holds together when moved with spatula. Loosen and place over custard cups. Press gently to mold. Repeat with remaining mixture."
         },
         {
           "step": 5,
@@ -6986,7 +7004,7 @@
           "text": "Place one scoop ice cream into each cooled cup. Drizzle with hot sauce."
         }
       ],
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "pan_size": "",
       "notes": [
         "Cups may be made ahead of time. Store in an airtight tin until ready to serve. Sauce may also be made ahead and reheated",
@@ -7103,7 +7121,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare caramelized sugar, in a heavy saucepan, mix sugar and water. Cook over medium-high heat until dark golden in color, 10 to 12 minutes. Mixture should not exceed 340°F on candy thermometer. Remove from heat. Carefully swirl into a 9 1/2-by-2 1/2-inch 5-cup ring mold."
+          "text": "To prepare caramelized sugar, in a heavy saucepan, mix sugar and water. Cook over medium-high heat until dark golden in color, 10 to 12 minutes. Mixture should not exceed 340\u00b0F on candy thermometer. Remove from heat. Carefully swirl into a 9 1/2-by-2 1/2-inch 5-cup ring mold."
         },
         {
           "step": 2,
@@ -7123,14 +7141,14 @@
         },
         {
           "step": 6,
-          "text": "Bake at 325°F for 45 to 50 minutes. To test for doneness, stick a knife in center. If it comes out clean, flan is done."
+          "text": "Bake at 325\u00b0F for 45 to 50 minutes. To test for doneness, stick a knife in center. If it comes out clean, flan is done."
         },
         {
           "step": 7,
           "text": "Remove mold from pan. Spoon remaining caramelized sugar over top. Cool. Chill 1 1/2 to 2 hours."
         }
       ],
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "pan_size": "9 1/2-by-2 1/2-inch 5-cup ring mold",
       "notes": [
         "Use a candy thermometer when cooking the caramelized sugar. If it cooks too hot or too long it will turn brown and have a burnt flavor"
@@ -7266,10 +7284,10 @@
         },
         {
           "step": 4,
-          "text": "Turn dough out. Divide into 4 pieces. Roll each into 10-by-11-inch circles. Cut into 8 wedges. Place jam at wide ends. Roll. Place seam-side down on greased baking sheet. Bake at 375°F for 15 minutes until golden. Sprinkle with powdered sugar."
+          "text": "Turn dough out. Divide into 4 pieces. Roll each into 10-by-11-inch circles. Cut into 8 wedges. Place jam at wide ends. Roll. Place seam-side down on greased baking sheet. Bake at 375\u00b0F for 15 minutes until golden. Sprinkle with powdered sugar."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "baking sheet",
       "notes": [
         "For Kringle filling: Combine pastry paste, butter and cup granulated sugar. Add egg. Mix well."
@@ -7386,7 +7404,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine cracker crumbs, almonds and cinnamon. Stir in butter. Evenly press mixture into the bottom of an 8-inch tart pan with removable bottom. Bake at 300°F for 15 minutes. Cool."
+          "text": "Combine cracker crumbs, almonds and cinnamon. Stir in butter. Evenly press mixture into the bottom of an 8-inch tart pan with removable bottom. Bake at 300\u00b0F for 15 minutes. Cool."
         },
         {
           "step": 2,
@@ -7409,7 +7427,7 @@
           "text": "Spoon hot glaze over cherries to cover completely. Chill 2 to 4 hours."
         }
       ],
-      "temperature": "300°F (150°C)",
+      "temperature": "300\u00b0F (150\u00b0C)",
       "pan_size": "8-inch tart pan",
       "notes": [
         "If you need to save time, you may purchase a pre-made graham cracker crust and use canned cherry pie filling to cover the cream cheese layer. For a more spirited flavor, add 1 to 2 tablespoons Kirsch to the glaze"
@@ -7501,7 +7519,7 @@
           "prep_note": "minced"
         },
         {
-          "item": "jalapeño peppers",
+          "item": "jalape\u00f1o peppers",
           "quantity": "2",
           "unit": "",
           "prep_note": "seeded, chopped"
@@ -7570,10 +7588,10 @@
         },
         {
           "step": 7,
-          "text": "Place fillets in an ovenproof dish. Pour sauce over fish. Bake at 325°F for 10 to 15 minutes."
+          "text": "Place fillets in an ovenproof dish. Pour sauce over fish. Bake at 325\u00b0F for 10 to 15 minutes."
         }
       ],
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "pan_size": "ovenproof dish",
       "notes": [
         "Sauce may be prepared up to 1 1/2 hours in advance and kept in refrigerator. Cover"
@@ -7747,7 +7765,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375°F for 35 minutes or until tester comes out clean and cake pulls from sides of pan. Cool completely. Layer."
+          "text": "Bake at 375\u00b0F for 35 minutes or until tester comes out clean and cake pulls from sides of pan. Cool completely. Layer."
         },
         {
           "step": 7,
@@ -7758,7 +7776,7 @@
           "text": "Cut into squares."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "8-inch square pans",
       "notes": [
         "For best results, use very soft, ripe bananas; gently mash them with a fork"
@@ -7781,21 +7799,24 @@
         "gr-136"
       ],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 8,
         "per_serving": {
-          "calories": 626,
-          "fat_g": 23.1,
-          "carbs_g": 103.4,
-          "protein_g": 4.1,
-          "sodium_mg": 237,
-          "fiber_g": 1.5,
-          "sugar_g": 84.9
+          "calories": 793,
+          "fat_g": 25.1,
+          "carbs_g": 141.5,
+          "protein_g": 4.3,
+          "sodium_mg": 548,
+          "fiber_g": 2.0,
+          "sugar_g": 119.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[CAKE]"
+        ],
         "assumptions": [
           "sifted cake flour: used default unit",
-          "sifted powdered sugar: used default unit"
+          "sifted powdered sugar: used default unit",
+          "banana extract: used default unit"
         ]
       }
     },
@@ -7893,17 +7914,17 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400°F for 30 minutes or until golden brown. Let muffins stand on wire rack until bubbling stops."
+          "text": "Bake at 400\u00b0F for 30 minutes or until golden brown. Let muffins stand on wire rack until bubbling stops."
         },
         {
           "step": 6,
           "text": "Turn out carefully onto serving plate. Serve upside-down."
         }
       ],
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "pan_size": "12 muffin cups",
       "notes": [
-        "These muffins freeze very well. Reheat (without thawing) at 350°F for about 30 minutes",
+        "These muffins freeze very well. Reheat (without thawing) at 350\u00b0F for about 30 minutes",
         "Variations: Try this recipe using blueberries or raspberries",
         "Good served with fluffy scrambled eggs and well browned sausage links"
       ],
@@ -8034,10 +8055,10 @@
         },
         {
           "step": 5,
-          "text": "Bake at 375°F for 8 to 10 minutes until golden."
+          "text": "Bake at 375\u00b0F for 8 to 10 minutes until golden."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "baking sheets",
       "notes": [
         "These cookies are also delicious made with semisweet or milk chocolate chips"
@@ -8162,7 +8183,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F for about 1 1/2 hours until tester inserted in center comes out clean."
+          "text": "Bake at 350\u00b0F for about 1 1/2 hours until tester inserted in center comes out clean."
         },
         {
           "step": 6,
@@ -8173,7 +8194,7 @@
           "text": "Dust with powdered sugar."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "8-cup fluted pan (bundt)",
       "notes": [
         "To easily cream together butter and sugar, use a wooden spoon to press the beat or mixture until the sides of the bowl. Do not overbeat or mixture will curdle and cake will be tough",
@@ -8462,14 +8483,14 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350°F for 10-12 minutes until cookies feel firm but are not browned."
+          "text": "Bake at 350\u00b0F for 10-12 minutes until cookies feel firm but are not browned."
         },
         {
           "step": 7,
           "text": "Cool. Top each cookie with a spoonful of icing. Garnish with sliced almonds."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "cookie sheets",
       "notes": [
         "Stir dry ingredients after measuring. In place of the vanilla extract, almond or peppermint may be used. The dough may be prepared one day in advance and refrigerated. Bring to room temperature before shaping cookies"
@@ -8575,7 +8596,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350°F for 20 to 25 minutes until cake tester comes out clean and cake pulls from sides of pan. Cool completely."
+          "text": "Bake at 350\u00b0F for 20 to 25 minutes until cake tester comes out clean and cake pulls from sides of pan. Cool completely."
         },
         {
           "step": 4,
@@ -8590,7 +8611,7 @@
           "text": "Ice top of each cake. Layer. Ice sides. Refrigerate cake until ready to serve."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "9-inch cake pans",
       "notes": [
         "Be sure to line cake pans with foil and grease well as the batter will be very greasy. This cake freezes well. For a special occasion, use another 11 oz. can mandarin oranges to decorate. Be sure cake is well drained and dried before using"
@@ -8716,7 +8737,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare crust, in a bowl, combine butter, sugar and egg yolk. Mix well. Add flour. With hands, work until blended. Press dough firmly on bottom and sides of a 9-inch pie pan. Bake at 400°F for 10 minutes or until edges brown. Cool."
+          "text": "To prepare crust, in a bowl, combine butter, sugar and egg yolk. Mix well. Add flour. With hands, work until blended. Press dough firmly on bottom and sides of a 9-inch pie pan. Bake at 400\u00b0F for 10 minutes or until edges brown. Cool."
         },
         {
           "step": 2,
@@ -8735,7 +8756,7 @@
           "text": "Gently fold in fruit. Turn into cookie crust. Chill for 4 to 5 hours until firm enough to cut."
         }
       ],
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "pan_size": "9-inch pie pan",
       "notes": [
         "Sliced or diced fresh apples, pears, strawberries, grapes, bananas and drained orange sections all work well in this recipe",
@@ -8828,7 +8849,7 @@
         },
         {
           "step": 2,
-          "text": "Cook until syrup reaches soft-ball stage, 234°F."
+          "text": "Cook until syrup reaches soft-ball stage, 234\u00b0F."
         },
         {
           "step": 3,
@@ -9002,7 +9023,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 425°F for 10 to 12 minutes until a wooden pick inserted in center comes out clean. Immediately turn out layers onto wire racks. Cool."
+          "text": "Bake at 425\u00b0F for 10 to 12 minutes until a wooden pick inserted in center comes out clean. Immediately turn out layers onto wire racks. Cool."
         },
         {
           "step": 6,
@@ -9013,7 +9034,7 @@
           "text": "Place one cake layer on a serving plate. Spread with half the filling. Layer cake with remaining filling. Garnish with sliced berries."
         }
       ],
-      "temperature": "425°F (220°C)",
+      "temperature": "425\u00b0F (220\u00b0C)",
       "pan_size": "8- or 9-inch round cake pans",
       "notes": [],
       "tags": [
@@ -9165,14 +9186,14 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F for 18 minutes or until done."
+          "text": "Bake at 350\u00b0F for 18 minutes or until done."
         },
         {
           "step": 6,
           "text": "To prepare icing, in a saucepan, melt butter. Stir in coffee. Cook, stirring, until smooth. Slowly beat in powdered sugar. Mix until smooth. Spread over cake while warm. Cool. Cut into squares."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "10-by-15-inch jelly roll pan",
       "notes": [
         "Good served with a scoop of coffee or vanilla-flavored ice cream"
@@ -9311,7 +9332,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350°F for 25 to 30 minutes until golden."
+          "text": "Bake at 350\u00b0F for 25 to 30 minutes until golden."
         },
         {
           "step": 4,
@@ -9338,7 +9359,7 @@
           "text": "Cool. Cut into 1-by-2-inch bars."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "15 3/4-by-10 1/2-inch jelly roll pan",
       "notes": [],
       "tags": [
@@ -9486,10 +9507,10 @@
         },
         {
           "step": 5,
-          "text": "Bake at 375°F for 40 to 45 minutes. Serve warm."
+          "text": "Bake at 375\u00b0F for 40 to 45 minutes. Serve warm."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "13-by-9-inch baking dish",
       "notes": [
         "If using frozen blueberries, do not thaw"
@@ -9535,7 +9556,7 @@
       "category": "mains",
       "attribution": "Other Oldtimer",
       "source_note": "Typed recipe sheet",
-      "description": "Collection of traditional salt cod preparations including basic, soufflé, creamed, fish cakes, and with cheese.",
+      "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
       "prep_time": "30 minutes",
       "cook_time": "",
@@ -9731,7 +9752,7 @@
           "text": "Pre-heat oven at 350 degrees."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "baking dish",
       "notes": [
         "Note: I use canned sweet potatoes, canned milk & walnuts"
@@ -10390,10 +10411,10 @@
         },
         {
           "step": 4,
-          "text": "Bake at 375°F for 12 to 15 minutes until golden brown. Sprinkle with powdered sugar."
+          "text": "Bake at 375\u00b0F for 12 to 15 minutes until golden brown. Sprinkle with powdered sugar."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "baking sheet",
       "notes": [
         "HIGH ALTITUDE ADJUSTMENT - 5200 feet: Not necessary"
@@ -10526,18 +10547,18 @@
         },
         {
           "step": 2,
-          "text": "Bake at 350° for 45 to 50 minutes until golden brown and toothpick inserted in center comes out clean."
+          "text": "Bake at 350\u00b0 for 45 to 50 minutes until golden brown and toothpick inserted in center comes out clean."
         },
         {
           "step": 3,
           "text": "Serve warm or cool with ice cream or whipped cream."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "13x9-inch cake pan",
       "notes": [
         "For use with Pillsbury's Best Self-Rising Flour, omit baking powder and salt.",
-        "HIGH ALTITUDE—5200 feet. Decrease baking powder to 2 1/2 teaspoons. Bake at 375° for 40 to 45 minutes."
+        "HIGH ALTITUDE\u20145200 feet. Decrease baking powder to 2 1/2 teaspoons. Bake at 375\u00b0 for 40 to 45 minutes."
       ],
       "tags": [
         "dessert",
@@ -10556,15 +10577,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 13,
         "per_serving": {
-          "calories": 314,
-          "fat_g": 10.8,
-          "carbs_g": 49.6,
-          "protein_g": 5.4,
-          "sodium_mg": 346,
-          "fiber_g": 1.1,
-          "sugar_g": 29.6
+          "calories": 290,
+          "fat_g": 9.9,
+          "carbs_g": 45.8,
+          "protein_g": 5.0,
+          "sodium_mg": 320,
+          "fiber_g": 1.0,
+          "sugar_g": 27.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -10695,15 +10716,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 686,
-          "fat_g": 46.6,
-          "carbs_g": 17.8,
-          "protein_g": 44.3,
-          "sodium_mg": 1570,
-          "fiber_g": 1.9,
-          "sugar_g": 3.5
+          "calories": 392,
+          "fat_g": 26.6,
+          "carbs_g": 10.2,
+          "protein_g": 25.3,
+          "sodium_mg": 897,
+          "fiber_g": 1.1,
+          "sugar_g": 2.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -10853,26 +10874,24 @@
         "gr-187"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 30,
         "per_serving": {
-          "calories": 872,
-          "fat_g": 68.8,
-          "carbs_g": 58.0,
-          "protein_g": 5.9,
-          "sodium_mg": 591,
-          "fiber_g": 2.0,
-          "sugar_g": 38.9
+          "calories": 3606,
+          "fat_g": 196.8,
+          "carbs_g": 410.8,
+          "protein_g": 48.6,
+          "sodium_mg": 805,
+          "fiber_g": 18.0,
+          "sugar_g": 327.4
         },
-        "missing_inputs": [
-          "pastel-colored peanut M&M's",
-          "multicolored marshmallow rope"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vegetable shortening: used default unit",
           "vanilla frosting: used default unit",
           "frozen pound cakes: used default unit",
           "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "multicolored marshmallow rope: used default unit",
           "flexible straws and large marshmallows: used default unit"
         ]
       }
@@ -10948,10 +10967,10 @@
           "text": "Freeze covered with foil, overnight. Remove from freezer 10 minutes before serving."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "13x9-inch baking pan",
       "notes": [
-        "Basic Crust: 1 cup flour, 1 package (4-serving size) pudding and pie filling mix (not instant), 1/4 tsp salt, 1/3 cup solid shortening, 2 tbsp butter softened, 1 egg. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread in ungreased 13x9-inch pan. Bake at 350° for 12-15 minutes. Cool completely."
+        "Basic Crust: 1 cup flour, 1 package (4-serving size) pudding and pie filling mix (not instant), 1/4 tsp salt, 1/3 cup solid shortening, 2 tbsp butter softened, 1 egg. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread in ungreased 13x9-inch pan. Bake at 350\u00b0 for 12-15 minutes. Cool completely."
       ],
       "tags": [
         "dessert",
@@ -11306,14 +11325,14 @@
         },
         {
           "step": 3,
-          "text": "Bake in preheated 375°F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+          "text": "Bake in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "baking sheets",
       "notes": [
-        "Pan Cookie Variation: Prepare dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375°F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
-        "For High Altitude Baking (5,200 feet): Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375°F, drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
+        "Pan Cookie Variation: Prepare dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
+        "For High Altitude Baking (5,200 feet): Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375\u00b0F, drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
       ],
       "tags": [
         "dessert",
@@ -11541,10 +11560,10 @@
         },
         {
           "step": 3,
-          "text": "Drop by rounded tablespoon onto ungreased baking sheets. Bake in preheated 350°F oven for 8 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+          "text": "Drop by rounded tablespoon onto ungreased baking sheets. Bake in preheated 350\u00b0F oven for 8 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "baking sheets",
       "notes": [],
       "tags": [
@@ -11666,10 +11685,10 @@
         },
         {
           "step": 4,
-          "text": "Bake in preheated 375°F oven for 8 to 9 minutes or until cookies are puffed. Cool for 2 minutes; remove to wire racks to cool completely."
+          "text": "Bake in preheated 375\u00b0F oven for 8 to 9 minutes or until cookies are puffed. Cool for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "pan_size": "baking sheets",
       "notes": [],
       "tags": [
@@ -11781,10 +11800,10 @@
         },
         {
           "step": 3,
-          "text": "Bake in preheated 350°F oven for 16 to 20 minutes or until wooden pick inserted in center comes out slightly sticky. Cool completely."
+          "text": "Bake in preheated 350\u00b0F oven for 16 to 20 minutes or until wooden pick inserted in center comes out slightly sticky. Cool completely."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "13 x 9-inch baking pan",
       "notes": [],
       "tags": [
@@ -11828,7 +11847,7 @@
       "category": "mains",
       "description": "A simple one-dish pork chop bake with potatoes and noodles.",
       "source_note": "handwritten recipe card",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "casserole dish",
       "ingredients": [
         {
@@ -11887,7 +11906,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350°F for 45-60 minutes until potatoes are tender and chops are cooked through."
+          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -11912,15 +11931,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 4,
         "per_serving": {
-          "calories": 247,
-          "fat_g": 4.0,
-          "carbs_g": 42.2,
-          "protein_g": 11.6,
-          "sodium_mg": 206,
-          "fiber_g": 4.5,
-          "sugar_g": 4.0
+          "calories": 371,
+          "fat_g": 6.1,
+          "carbs_g": 63.2,
+          "protein_g": 17.4,
+          "sodium_mg": 308,
+          "fiber_g": 6.8,
+          "sugar_g": 6.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -12018,7 +12037,7 @@
         },
         {
           "step": 5,
-          "text": "To the pan, add butter, mushrooms and mustard. Sauté 1 minute or until mushrooms are heated through."
+          "text": "To the pan, add butter, mushrooms and mustard. Saut\u00e9 1 minute or until mushrooms are heated through."
         },
         {
           "step": 6,
@@ -12074,7 +12093,7 @@
       "category": "desserts",
       "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
       "source_note": "Nestle Toll House chocolate chip bag",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "servings_yield": "About 6 dozen",
       "pan_size": "15x10-inch jelly roll pan",
       "ingredients": [
@@ -12128,7 +12147,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 400°F. Grease 15x10-inch jelly roll pan."
+          "text": "Heat oven to 400\u00b0F. Grease 15x10-inch jelly roll pan."
         },
         {
           "step": 2,
@@ -12247,10 +12266,10 @@
         "Mix can be stored up to 4 weeks!",
         "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
         "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
-        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375°F for 8-10 minutes.",
-        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375°F for 10-12 minutes.",
-        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350°F for 12-15 minutes.",
-        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325°F for 15-18 minutes. Roll in powdered sugar while warm."
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
       ],
       "tags": [
         "dessert",
@@ -12300,7 +12319,7 @@
       "category": "desserts",
       "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
       "source_note": "Pillsbury Bake-Off magazine clipping",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "pan_size": "13x9-inch oblong pan",
       "ingredients": [
         {
@@ -12351,7 +12370,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350° for 12 to 15 minutes. Cool completely."
+          "text": "Bake at 350\u00b0 for 12 to 15 minutes. Cool completely."
         }
       ],
       "notes": [
@@ -12371,19 +12390,19 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 684,
-          "fat_g": 59.0,
-          "carbs_g": 38.1,
-          "protein_g": 2.1,
-          "sodium_mg": 407,
-          "fiber_g": 0.9,
-          "sugar_g": 22.5
+          "calories": 664,
+          "fat_g": 67.4,
+          "carbs_g": 13.6,
+          "protein_g": 2.4,
+          "sodium_mg": 450,
+          "fiber_g": 0.4,
+          "sugar_g": 0.1
         },
         "missing_inputs": [],
         "assumptions": [
-          "pudding and pie filling mix: used default unit",
+          "vanilla pudding and pie filling mix: used default unit",
           "salt: used default unit",
           "butter or margarine: used default unit"
         ]
@@ -12546,15 +12565,15 @@
       "source_note": "My Great Recipes card",
       "description": "Tender beef cubes braised with mushrooms in a savory sauce.",
       "prep_time": "20 minutes",
-      "cook_time": "1¼ to 1½ hours",
-      "temperature": "325°F (165°C)",
+      "cook_time": "1\u00bc to 1\u00bd hours",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "servings_yield": "4-5 servings",
       "ingredients": [
         {
           "item": "round steak",
           "quantity": "2",
           "unit": "lbs",
-          "prep_note": "cut into ½-inch cubes"
+          "prep_note": "cut into \u00bd-inch cubes"
         },
         {
           "item": "oil",
@@ -12636,7 +12655,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 325°F for 1¼ to 1½ hours until meat is tender."
+          "text": "Cover. Bake at 325\u00b0F for 1\u00bc to 1\u00bd hours until meat is tender."
         },
         {
           "step": 6,
@@ -12692,12 +12711,12 @@
       "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
       "prep_time": "15 minutes",
       "cook_time": "about 1 hour",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
           "item": "ground beef",
-          "quantity": "1¼",
+          "quantity": "1\u00bc",
           "unit": "lbs"
         },
         {
@@ -12745,7 +12764,7 @@
         },
         {
           "item": "salami",
-          "quantity": "2½",
+          "quantity": "2\u00bd",
           "unit": "oz",
           "prep_note": "chopped"
         },
@@ -12779,7 +12798,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350°F for 1 hour or until done."
+          "text": "Bake at 350\u00b0F for 1 hour or until done."
         },
         {
           "step": 7,
@@ -12788,7 +12807,7 @@
       ],
       "notes": [
         "Health Note: To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk.",
-        "Good served with hot rice or noodles and French-cut green beans sautéed in olive oil and garlic."
+        "Good served with hot rice or noodles and French-cut green beans saut\u00e9ed in olive oil and garlic."
       ],
       "tags": [
         "meatloaf",
@@ -12925,11 +12944,11 @@
         "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 951,
-          "fat_g": 100.0,
+          "calories": 238,
+          "fat_g": 19.5,
           "carbs_g": 7.3,
-          "protein_g": 10.7,
-          "sodium_mg": 883,
+          "protein_g": 9.8,
+          "sodium_mg": 322,
           "fiber_g": 0.5,
           "sugar_g": 5.5
         },
@@ -12952,7 +12971,7 @@
       "category": "desserts",
       "source_note": "Newspaper clipping, saved by family",
       "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "45 minutes",
       "ingredients": [
         {
@@ -12992,7 +13011,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350°F for 45 minutes."
+          "text": "Bake at 350\u00b0F for 45 minutes."
         }
       ],
       "notes": [
@@ -13016,15 +13035,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 16,
         "per_serving": {
-          "calories": 170,
-          "fat_g": 4.9,
-          "carbs_g": 26.9,
-          "protein_g": 3.3,
-          "sodium_mg": 257,
-          "fiber_g": 0.3,
-          "sugar_g": 14.7
+          "calories": 127,
+          "fat_g": 3.7,
+          "carbs_g": 20.1,
+          "protein_g": 2.5,
+          "sodium_mg": 193,
+          "fiber_g": 0.2,
+          "sugar_g": 11.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -13099,7 +13118,26 @@
       },
       "image_refs": [
         "gr-247"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 144,
+          "fat_g": 5.8,
+          "carbs_g": 22.7,
+          "protein_g": 3.1,
+          "sodium_mg": 44,
+          "fiber_g": 3.7,
+          "sugar_g": 15.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lemon juice: used default unit",
+          "mayonnaise: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "quaker-chewy-choc-oat-chip-cookies-granny",
@@ -13181,7 +13219,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 375°F. Beat together margarine and sugars until creamy. Add eggs, milk and vanilla; beat well."
+          "text": "Heat oven to 375\u00b0F. Beat together margarine and sugars until creamy. Add eggs, milk and vanilla; beat well."
         },
         {
           "step": 2,
@@ -13201,11 +13239,32 @@
         }
       ],
       "servings_yield": "About 4-1/2 dozen cookies",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "notes": [
         "For Easy Bar Cookies: Press dough onto bottom of 13 x 9-inch baking sheet. Bake 30 to 35 minutes or until light golden brown. Cool completely; cut into bars. Makes 32 bars.",
         "High Altitude Adjustments: Increase flour to 2 cups and bake as directed."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 12.8,
+          "carbs_g": 19.2,
+          "protein_g": 3.2,
+          "sodium_mg": 171,
+          "fiber_g": 1.0,
+          "sugar_g": 11.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "firmly packed brown sugar: used default unit",
+          "milk: used default unit",
+          "all-purpose flour: used default unit",
+          "QUAKER Oats (quick or old fashioned), uncooked: used default unit",
+          "semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "chewy-oatmeal-cookies-crisco-granny",
@@ -13287,7 +13346,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 375°F. Lightly grease baking sheet with Butter Flavor Crisco."
+          "text": "Heat oven to 375\u00b0F. Lightly grease baking sheet with Butter Flavor Crisco."
         },
         {
           "step": 2,
@@ -13311,7 +13370,25 @@
         }
       ],
       "servings_yield": "About 2-1/2 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 368,
+          "fat_g": 19.9,
+          "carbs_g": 43.6,
+          "protein_g": 6.6,
+          "sodium_mg": 242,
+          "fiber_g": 3.4,
+          "sugar_g": 18.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "firmly packed light brown sugar: used default unit",
+          "QUAKER Oats (quick or old fashioned), uncooked: used default unit"
+        ]
+      }
     },
     {
       "id": "seafood-lasagna-granny",
@@ -13380,14 +13457,36 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400°F for 10 to 15 minutes or until heated thoroughly. Makes 8 servings."
+          "text": "Bake at 400\u00b0F for 10 to 15 minutes or until heated thoroughly. Makes 8 servings."
         }
       ],
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "servings_yield": "8 servings",
       "notes": [
         "Red Snapper fillets may be substituted for sea trout."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1048,
+          "fat_g": 63.8,
+          "carbs_g": 45.8,
+          "protein_g": 66.5,
+          "sodium_mg": 1375,
+          "fiber_g": 2.5,
+          "sugar_g": 1.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Florida sea trout fillets: used default unit",
+          "lasagna noodles: used default unit",
+          "Italian sauce: used default unit",
+          "low fat ricotta cheese: used default unit",
+          "grated Parmesan cheese: used default unit",
+          "cooked medium shrimp: used default unit"
+        ]
+      }
     },
     {
       "id": "pumpkin-spice-bread-granny",
@@ -13433,7 +13532,7 @@
           "unit": "cups"
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -13447,7 +13546,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350°F (175°C). Grease and flour loaf pans."
+          "text": "Preheat oven to 350\u00b0F (175\u00b0C). Grease and flour loaf pans."
         },
         {
           "step": 2,
@@ -13455,13 +13554,31 @@
         },
         {
           "step": 3,
-          "text": "Divide batter in 3 pans. Bake in 350° preheated oven until toothpick inserted in center comes out clean."
+          "text": "Divide batter in 3 pans. Bake in 350\u00b0 preheated oven until toothpick inserted in center comes out clean."
         },
         {
           "step": 4,
           "text": "Cool before slicing. Wrap in foil. Store in refrigerator."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 193,
+          "fat_g": 1.7,
+          "carbs_g": 40.2,
+          "protein_g": 4.2,
+          "sodium_mg": 119,
+          "fiber_g": 1.0,
+          "sugar_g": 17.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "oil: used default unit",
+          "flour: used default unit"
+        ]
+      }
     },
     {
       "id": "bbq-bacon-cheeseburgers-granny",
@@ -13517,7 +13634,7 @@
         },
         {
           "step": 2,
-          "text": "Place patties on grill over medium coals. Grill seven to nine minutes on each side or until cooked through (160°F), turning and brushing occasionally with additional barbecue sauce."
+          "text": "Place patties on grill over medium coals. Grill seven to nine minutes on each side or until cooked through (160\u00b0F), turning and brushing occasionally with additional barbecue sauce."
         },
         {
           "step": 3,
@@ -13528,7 +13645,24 @@
           "text": "Fill rolls with lettuce, cheeseburgers and bacon."
         }
       ],
-      "temperature": "Medium grill heat"
+      "temperature": "Medium grill heat",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 447,
+          "fat_g": 31.9,
+          "carbs_g": 5.5,
+          "protein_g": 32.0,
+          "sodium_mg": 869,
+          "fiber_g": 0.1,
+          "sugar_g": 3.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "OSCAR MAYER Bacon: used default unit"
+        ]
+      }
     },
     {
       "id": "grilled-chicken-monterey-granny",
@@ -13546,7 +13680,7 @@
           "unit": "slices"
         },
         {
-          "item": "Jalapeño Monterey Jack cheese",
+          "item": "Jalape\u00f1o Monterey Jack cheese",
           "quantity": "2",
           "unit": "Tbsp"
         },
@@ -13601,7 +13735,29 @@
           "step": 5,
           "text": "Place chicken on serving plate; spoon tomato mixture over chicken and cheese. Serve with rice."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 17.6,
+          "carbs_g": 6.0,
+          "protein_g": 21.8,
+          "sodium_mg": 494,
+          "fiber_g": 1.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Boneless, Skinless Chicken Breasts: used default unit",
+          "Jalape\u00f1o Monterey Jack cheese: used default unit",
+          "olive oil: used default unit",
+          "diced onion: used default unit",
+          "plum tomatoes: used default unit",
+          "chopped cilantro, salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "chicken-portobello-tarragon-cream-granny",
@@ -13689,7 +13845,26 @@
           "step": 5,
           "text": "Return chicken to skillet and spoon sauce over. Serve immediately."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 354,
+          "fat_g": 13.5,
+          "carbs_g": 42.1,
+          "protein_g": 16.6,
+          "sodium_mg": 239,
+          "fiber_g": 2.4,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "finely minced onion: used default unit",
+          "flour: used default unit",
+          "sliced Baby Portobello Mushrooms: used default unit"
+        ]
+      }
     },
     {
       "id": "cranberry-glazed-ham-kabobs-granny",
@@ -13764,10 +13939,29 @@
         },
         {
           "step": 3,
-          "text": "Bake in 400°F oven 15-20 minutes, basting often. Serve immediately."
+          "text": "Bake in 400\u00b0F oven 15-20 minutes, basting often. Serve immediately."
         }
       ],
-      "temperature": "400°F (200°C)"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 674,
+          "fat_g": 8.9,
+          "carbs_g": 141.7,
+          "protein_g": 19.4,
+          "sodium_mg": 1131,
+          "fiber_g": 21.0,
+          "sugar_g": 106.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX jellied cranberry sauce: used default unit",
+          "boneless ham: used default unit",
+          "juice-packed pineapple chunks: used default unit"
+        ]
+      }
     },
     {
       "id": "curry-coconut-chicken-honey-mustard-granny",
@@ -13825,7 +14019,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 400°F. Line baking sheet with foil and spray with cooking spray."
+          "text": "Preheat oven to 400\u00b0F. Line baking sheet with foil and spray with cooking spray."
         },
         {
           "step": 2,
@@ -13844,7 +14038,26 @@
           "text": "Meanwhile, mix honey and Dijon mustard for dipping sauce. Serve chicken with sauce."
         }
       ],
-      "temperature": "400°F (200°C)"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 233,
+          "fat_g": 7.1,
+          "carbs_g": 40.6,
+          "protein_g": 5.4,
+          "sodium_mg": 61,
+          "fiber_g": 1.0,
+          "sugar_g": 39.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "milk: used default unit",
+          "PUBLIX Premium chicken breast tenders: used default unit",
+          "Dijon mustard: used default unit"
+        ]
+      }
     },
     {
       "id": "peaches-and-cream-ice-cream-granny",
@@ -13940,7 +14153,27 @@
       ],
       "notes": [
         "Chill Time: 12+ hours"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 3.2,
+          "carbs_g": 6.1,
+          "protein_g": 3.5,
+          "sodium_mg": 43,
+          "fiber_g": 0.3,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX 1% low-fat milk: used default unit",
+          "peeled, mashed ripe peaches: used default unit",
+          "vanilla extract: used default unit",
+          "fat-free sweetened condensed skim milk: used default unit"
+        ]
+      }
     },
     {
       "id": "fabulous-french-toast-granny",
@@ -14025,7 +14258,26 @@
       "notes": [
         "Crispy on the outside, creamy on the inside. To prepare this breakfast treat ahead, just cover and refrigerate overnight - all set to cook in the morning.",
         "Recipe can be doubled or tripled. Keep cooked toast warm in 250-degree oven."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1374,
+          "fat_g": 140.0,
+          "carbs_g": 25.7,
+          "protein_g": 9.7,
+          "sodium_mg": 948,
+          "fiber_g": 0.6,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX White Mountain Bread: used default unit",
+          "PUBLIX Whipping Cream: used default unit",
+          "PUBLIX Sweet Cream Butter: used default unit"
+        ]
+      }
     },
     {
       "id": "homemade-mac-cheese-bacon-granny",
@@ -14122,13 +14374,35 @@
           "step": 7,
           "text": "*Cut bacon crosswise into 1/4-inch strips. In skillet over medium heat, cook until drippings are rendered and bacon is crisp, 7 minutes. Drain on paper towel."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 265,
+          "fat_g": 15.8,
+          "carbs_g": 19.5,
+          "protein_g": 11.0,
+          "sodium_mg": 472,
+          "fiber_g": 0.7,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Elbow Macaroni: used default unit",
+          "PUBLIX Sweet Cream Butter: used default unit",
+          "garlic: used default unit",
+          "chicken broth: used default unit",
+          "PUBLIX Shredded Sharp Cheddar Cheese: used default unit",
+          "bacon: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-surprise-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Sweet Surprise Soufflé",
+      "title": "Sweet Surprise Souffl\u00e9",
       "category": "desserts",
       "source_note": "Kraft Miniature Marshmallows recipe",
       "confidence": {
@@ -14174,7 +14448,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F. Butter and sugar a 1-1/2 quart souffle dish."
+          "text": "Preheat oven to 375\u00b0F. Butter and sugar a 1-1/2 quart souffle dish."
         },
         {
           "step": 2,
@@ -14193,8 +14467,23 @@
           "text": "Pour into prepared dish. Bake 25-30 minutes until puffed and golden. Serve immediately."
         }
       ],
-      "temperature": "375°F (190°C)",
-      "servings_yield": "4-6 servings"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 185,
+          "fat_g": 10.0,
+          "carbs_g": 10.9,
+          "protein_g": 12.0,
+          "sodium_mg": 200,
+          "fiber_g": 0.0,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     },
     {
       "id": "orange-sparkle-granny",
@@ -14256,7 +14545,27 @@
       "image_refs": [
         "gr-315",
         "gr-316"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 143,
+          "fat_g": 3.1,
+          "carbs_g": 26.8,
+          "protein_g": 4.1,
+          "sodium_mg": 30,
+          "fiber_g": 0.7,
+          "sugar_g": 20.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange flavored gelatin: used default unit",
+          "boiling water: used default unit",
+          "orange sherbet: used default unit",
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "health-tonic-granny",
@@ -14322,7 +14631,27 @@
       ],
       "notes": [
         "Apple cider vinegar health tonic - traditional remedy."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 1.9,
+          "carbs_g": 10.0,
+          "protein_g": 1.3,
+          "sodium_mg": 3,
+          "fiber_g": 1.4,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "garlic: used default unit",
+          "molasses: used default unit",
+          "wheat germ oil: used default unit",
+          "brewer's yeast: used default unit"
+        ]
+      }
     },
     {
       "id": "pillsbury-chocolate-chip-cookies-granny",
@@ -14393,7 +14722,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 375°F."
+          "text": "Heat oven to 375\u00b0F."
         },
         {
           "step": 2,
@@ -14413,7 +14742,25 @@
         }
       ],
       "servings_yield": "About 5 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 9.5,
+          "carbs_g": 15.5,
+          "protein_g": 1.7,
+          "sodium_mg": 168,
+          "fiber_g": 0.5,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "almond-butter-sticks-granny",
@@ -14469,7 +14816,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F. Grease a cookie sheet."
+          "text": "Preheat oven to 375\u00b0F. Grease a cookie sheet."
         },
         {
           "step": 2,
@@ -14485,11 +14832,28 @@
         },
         {
           "step": 5,
-          "text": "Bake in 350°F oven for about 20 to 30 minutes until golden brown. Cool completely."
+          "text": "Bake in 350\u00b0F oven for about 20 to 30 minutes until golden brown. Cool completely."
         }
       ],
       "servings_yield": "48 cookies",
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 7.6,
+          "carbs_g": 10.0,
+          "protein_g": 2.6,
+          "sodium_mg": 40,
+          "fiber_g": 0.8,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit"
+        ]
+      }
     },
     {
       "id": "oatmeal-carmelitas-granny",
@@ -14560,7 +14924,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F. Grease bottom and sides of 13x9 or 15x10-inch pan."
+          "text": "Preheat oven to 375\u00b0F. Grease bottom and sides of 13x9 or 15x10-inch pan."
         },
         {
           "step": 2,
@@ -14580,7 +14944,29 @@
         }
       ],
       "servings_yield": "About 3 dozen bars",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 344,
+          "fat_g": 14.1,
+          "carbs_g": 48.3,
+          "protein_g": 6.3,
+          "sodium_mg": 203,
+          "fiber_g": 2.4,
+          "sugar_g": 13.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "cooking oats: used default unit",
+          "firmly packed brown sugar: used default unit",
+          "butter, melted: used default unit",
+          "semi-sweet chocolate pieces: used default unit",
+          "flour for caramel: used default unit"
+        ]
+      }
     },
     {
       "id": "pillsbury-oatmeal-raisin-granny",
@@ -14646,7 +15032,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Recipe may be cut in half. Preheat oven to 375°F."
+          "text": "Recipe may be cut in half. Preheat oven to 375\u00b0F."
         },
         {
           "step": 2,
@@ -14662,7 +15048,25 @@
         }
       ],
       "servings_yield": "About 4 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 8.4,
+          "carbs_g": 23.4,
+          "protein_g": 2.2,
+          "sodium_mg": 164,
+          "fiber_g": 0.7,
+          "sugar_g": 12.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "quick or old-fashioned oats: used default unit"
+        ]
+      }
     },
     {
       "id": "toffee-bars-granny",
@@ -14713,7 +15117,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350°F."
+          "text": "Preheat oven to 350\u00b0F."
         },
         {
           "step": 2,
@@ -14737,7 +15141,25 @@
         }
       ],
       "servings_yield": "About 36 bars",
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 15.0,
+          "carbs_g": 27.1,
+          "protein_g": 4.8,
+          "sodium_mg": 111,
+          "fiber_g": 0.6,
+          "sugar_g": 15.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "milk chocolate or semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "butterballs-granny",
@@ -14793,7 +15215,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F."
+          "text": "Preheat oven to 375\u00b0F."
         },
         {
           "step": 2,
@@ -14817,7 +15239,24 @@
         }
       ],
       "servings_yield": "About 3 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 8.2,
+          "carbs_g": 18.7,
+          "protein_g": 1.3,
+          "sodium_mg": 68,
+          "fiber_g": 0.4,
+          "sugar_g": 14.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit"
+        ]
+      }
     },
     {
       "id": "cherry-winks-granny",
@@ -14914,11 +15353,29 @@
         },
         {
           "step": 5,
-          "text": "Bake at 375°F for 10 to 15 minutes until golden brown."
+          "text": "Bake at 375\u00b0F for 10 to 15 minutes until golden brown."
         }
       ],
       "servings_yield": "About 5 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 139,
+          "fat_g": 7.5,
+          "carbs_g": 17.0,
+          "protein_g": 1.9,
+          "sodium_mg": 114,
+          "fiber_g": 0.9,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "crushed corn flakes: used default unit"
+        ]
+      }
     },
     {
       "id": "peanut-blossoms-granny",
@@ -14994,7 +15451,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F."
+          "text": "Preheat oven to 375\u00b0F."
         },
         {
           "step": 2,
@@ -15014,7 +15471,26 @@
         }
       ],
       "servings_yield": "About 4 dozen cookies",
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 150,
+          "fat_g": 8.0,
+          "carbs_g": 18.4,
+          "protein_g": 2.1,
+          "sodium_mg": 122,
+          "fiber_g": 0.3,
+          "sugar_g": 14.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "peanut butter: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "easy-cornbread-granny",
@@ -15079,15 +15555,32 @@
         },
         {
           "step": 2,
-          "text": "Add liquid ingredients. Sack in hot greased skillet or muffin pans at 400°F, oven for 25-30 minutes."
+          "text": "Add liquid ingredients. Sack in hot greased skillet or muffin pans at 400\u00b0F, oven for 25-30 minutes."
         },
         {
           "step": 3,
           "text": "When baking soda, salt and baking powder to using Self-Rising Cornmeal."
         }
       ],
-      "temperature": "400°F (200°C)",
-      "servings_yield": "12 muffins or sticks"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "12 muffins or sticks",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 364,
+          "fat_g": 32.5,
+          "carbs_g": 16.2,
+          "protein_g": 3.2,
+          "sodium_mg": 591,
+          "fiber_g": 1.0,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "southern-cornbread-granny",
@@ -15146,17 +15639,35 @@
         },
         {
           "step": 3,
-          "text": "Place in hot, preheated skillet. Bake in 450°F oven while you prepare the cornbread."
+          "text": "Place in hot, preheated skillet. Bake in 450\u00b0F oven while you prepare the cornbread."
         },
         {
           "step": 4,
           "text": "If using Self-Rising Cornmeal, omit baking soda and salt."
         }
       ],
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "notes": [
         "Evenly spread mixture or continue for skillet or muffin cups."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 172,
+          "fat_g": 16.3,
+          "carbs_g": 5.9,
+          "protein_g": 1.3,
+          "sodium_mg": 359,
+          "fiber_g": 0.6,
+          "sugar_g": 0.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "NORA Mill Plain Cornmeal: used default unit",
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "crunchy-cornmeal-pancakes-granny",
@@ -15223,7 +15734,24 @@
           "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
         }
       ],
-      "servings_yield": "Makes 20-25 pancakes"
+      "servings_yield": "Makes 20-25 pancakes",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 22,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 17.8,
+          "carbs_g": 5.4,
+          "protein_g": 1.1,
+          "sodium_mg": 202,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "buttermilk: used default unit"
+        ]
+      }
     },
     {
       "id": "tender-cornmeal-pancakes-granny",
@@ -15293,7 +15821,24 @@
           "step": 4,
           "text": "Omit baking powder if using Self-Rising Cornmeal."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 408,
+          "fat_g": 32.2,
+          "carbs_g": 27.9,
+          "protein_g": 4.3,
+          "sodium_mg": 180,
+          "fiber_g": 2.2,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boiling water: used default unit"
+        ]
+      }
     },
     {
       "id": "corn-muffins-sticks-granny",
@@ -15343,15 +15888,34 @@
         },
         {
           "step": 2,
-          "text": "Mix all ingredients. Bake in well-greased iron skillet or muffin tins at 400°F oven for 20-25 minutes."
+          "text": "Mix all ingredients. Bake in well-greased iron skillet or muffin tins at 400\u00b0F oven for 20-25 minutes."
         },
         {
           "step": 3,
           "text": "Bake for 12 minutes, Makes 12 muffins or sticks."
         }
       ],
-      "temperature": "400°F (200°C)",
-      "servings_yield": "12 muffins or sticks"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "12 muffins or sticks",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 487,
+          "fat_g": 37.8,
+          "carbs_g": 32.6,
+          "protein_g": 5.2,
+          "sodium_mg": 24,
+          "fiber_g": 3.0,
+          "sugar_g": 1.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Self-Rising Cornmeal mix: used default unit",
+          "milk: used default unit",
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "grandmas-biscuits-granny",
@@ -15361,7 +15925,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "9 biscuits",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "cook_time": "12 minutes",
       "confidence": {
         "overall": "high",
@@ -15393,13 +15957,30 @@
         },
         {
           "step": 3,
-          "text": "BAKE on a shiny cookie sheet in a preheated 450°F oven for 12 minutes."
+          "text": "BAKE on a shiny cookie sheet in a preheated 450\u00b0F oven for 12 minutes."
         },
         {
           "step": 4,
           "text": "For perfect biscuits, use a sharp cutter, cut with a straight up and down motion, and place in baking pan close together."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 356,
+          "fat_g": 7.1,
+          "carbs_g": 69.3,
+          "protein_g": 3.6,
+          "sodium_mg": 622,
+          "fiber_g": 0.9,
+          "sugar_g": 37.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "tender-drop-biscuits-granny",
@@ -15409,7 +15990,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "10 biscuits",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "cook_time": "10 minutes",
       "confidence": {
         "overall": "high",
@@ -15441,9 +16022,26 @@
         },
         {
           "step": 3,
-          "text": "BAKE in a preheated 450°F oven for 10 minutes."
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 10,
+        "per_serving": {
+          "calories": 120,
+          "fat_g": 2.4,
+          "carbs_g": 23.4,
+          "protein_g": 1.2,
+          "sodium_mg": 210,
+          "fiber_g": 0.3,
+          "sugar_g": 12.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-muffins-granny",
@@ -15453,7 +16051,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "8 muffins",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "cook_time": "10 minutes",
       "notes": [
         "HINT: You can add blueberries, raisins, jelly, cinnamon, etc."
@@ -15502,13 +16100,30 @@
         },
         {
           "step": 4,
-          "text": "BAKE in a preheated 450°F oven for 10 minutes."
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
         },
         {
           "step": 5,
           "text": "HINT: You can add blueberries, raisins, jelly, cinnamon, etc. to this basic recipe."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 342,
+          "fat_g": 7.2,
+          "carbs_g": 64.8,
+          "protein_g": 4.5,
+          "sodium_mg": 543,
+          "fiber_g": 0.8,
+          "sugar_g": 37.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "lemon-poppy-seed-muffins-granny",
@@ -15517,7 +16132,7 @@
       "title": "Lemon Poppy Seed Muffins",
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "cook_time": "15 minutes",
       "ingredients": [
         {
@@ -15561,7 +16176,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 400°F."
+          "text": "Preheat oven to 400\u00b0F."
         },
         {
           "step": 2,
@@ -15571,7 +16186,26 @@
           "step": 3,
           "text": "Bake in greased muffin tins for 15 minutes or until done."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 763,
+          "fat_g": 16.3,
+          "carbs_g": 145.2,
+          "protein_g": 9.2,
+          "sodium_mg": 1251,
+          "fiber_g": 2.0,
+          "sugar_g": 81.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit",
+          "grated lemon peel: used default unit",
+          "Nora Mill Poppy Seeds: used default unit"
+        ]
+      }
     },
     {
       "id": "easiest-pineapple-upside-down-cake-granny",
@@ -15580,7 +16214,7 @@
       "title": "The Easiest Pineapple Upside-Down Cake Ever",
       "category": "desserts",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "35-40 minutes",
       "ingredients": [
         {
@@ -15627,13 +16261,31 @@
         },
         {
           "step": 4,
-          "text": "Bake at 350°F for 35 to 40 minutes or until golden and bubbly."
+          "text": "Bake at 350\u00b0F for 35 to 40 minutes or until golden and bubbly."
         },
         {
           "step": 5,
           "text": "Let stand for 5 minutes. Serve individual pieces turned upside down on plate."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 208,
+          "fat_g": 2.7,
+          "carbs_g": 45.3,
+          "protein_g": 1.4,
+          "sodium_mg": 236,
+          "fiber_g": 0.7,
+          "sugar_g": 32.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pineapple (sliced, chunks or tidbits): used default unit",
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "garlic-cheese-drop-biscuits-granny",
@@ -15642,7 +16294,7 @@
       "title": "Garlic Cheese Drop Biscuits (like Red Lobster's)",
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "cook_time": "8-10 minutes",
       "ingredients": [
         {
@@ -15690,7 +16342,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 450°F."
+          "text": "Preheat oven to 450\u00b0F."
         },
         {
           "step": 2,
@@ -15712,7 +16364,25 @@
           "step": 6,
           "text": "Wonderful with soups, stews and pasta dishes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 492,
+          "fat_g": 16.7,
+          "carbs_g": 79.2,
+          "protein_g": 6.5,
+          "sodium_mg": 793,
+          "fiber_g": 1.0,
+          "sugar_g": 43.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Grandma's Biscuit & Pancake Mix: used default unit",
+          "garlic powder: used default unit"
+        ]
+      }
     },
     {
       "id": "handwritten-baking-recipe-gr1-granny",
@@ -15784,10 +16454,27 @@
         },
         {
           "step": 3,
-          "text": "Bake in 350°F preheated oven until done."
+          "text": "Bake in 350\u00b0F preheated oven until done."
         }
       ],
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 13.4,
+          "carbs_g": 28.7,
+          "protein_g": 3.3,
+          "sodium_mg": 239,
+          "fiber_g": 0.3,
+          "sugar_g": 19.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "flour: used default unit"
+        ]
+      }
     },
     {
       "id": "handwritten-recipe-gr5-granny",
@@ -15818,7 +16505,24 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe, difficult to fully transcribe]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "[UNCLEAR - handwritten recipe]"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "chocolate-chip-recipe-gr7-granny",
@@ -15849,7 +16553,22 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe, needs manual verification]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 1.1,
+          "carbs_g": 2.1,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.2,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     },
     {
       "id": "broccoli-cornbread-handwritten-granny",
@@ -15911,7 +16630,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F. Grease a 9x13 inch baking pan."
+          "text": "Preheat oven to 375\u00b0F. Grease a 9x13 inch baking pan."
         },
         {
           "step": 2,
@@ -15926,7 +16645,25 @@
           "text": "Bake for 25-30 minutes or until golden brown and set."
         }
       ],
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 10.6,
+          "carbs_g": 8.9,
+          "protein_g": 6.9,
+          "sodium_mg": 270,
+          "fiber_g": 2.1,
+          "sugar_g": 2.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "broccoli, thawed and drained: used default unit",
+          "cornbread mix: used default unit"
+        ]
+      }
     },
     {
       "id": "handwritten-recipe-red-ink-granny",
@@ -15957,7 +16694,24 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe in red ink, difficult to fully transcribe]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "[UNCLEAR - handwritten recipe in red ink]"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "dump-cake-handwritten-granny",
@@ -15966,7 +16720,7 @@
       "title": "Dump Cake (Handwritten)",
       "category": "desserts",
       "source_note": "handwritten on spiral notebook",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "ingredients": [
         {
           "item": "pineapple",
@@ -16021,9 +16775,26 @@
         },
         {
           "step": 7,
-          "text": "Bake at 350°F until golden brown, about 45-50 minutes."
+          "text": "Bake at 350\u00b0F until golden brown, about 45-50 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 157,
+          "fat_g": 2.7,
+          "carbs_g": 31.8,
+          "protein_g": 1.5,
+          "sodium_mg": 234,
+          "fiber_g": 0.7,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "yellow or white cake mix: used default unit"
+        ]
+      }
     },
     {
       "id": "sirloin-steak-marinade-granny",
@@ -16034,7 +16805,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "10 min",
       "cook_time": "20-30 min",
-      "temperature": "450°F (230°C)",
+      "temperature": "450\u00b0F (230\u00b0C)",
       "servings_yield": "4-6 servings",
       "confidence": {
         "overall": "high",
@@ -16093,7 +16864,27 @@
           "step": 4,
           "text": "Grill or broil steak to desired doneness."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 424,
+          "fat_g": 24.8,
+          "carbs_g": 6.0,
+          "protein_g": 41.8,
+          "sodium_mg": 158,
+          "fiber_g": 0.0,
+          "sugar_g": 5.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sirloin steak: used default unit",
+          "soy sauce: used default unit",
+          "garlic, minced: used default unit",
+          "fresh ginger, grated: used default unit"
+        ]
+      }
     },
     {
       "id": "country-style-ribs-corn-granny",
@@ -16104,7 +16895,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "10-15 min",
       "cook_time": "1 hr",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "servings_yield": "4-6 servings",
       "confidence": {
         "overall": "high",
@@ -16144,7 +16935,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350°F or prepare grill for indirect cooking."
+          "text": "Preheat oven to 350\u00b0F or prepare grill for indirect cooking."
         },
         {
           "step": 2,
@@ -16162,7 +16953,27 @@
           "step": 5,
           "text": "Serve with buttered corn on the cob."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 846,
+          "fat_g": 49.8,
+          "carbs_g": 36.2,
+          "protein_g": 66.1,
+          "sodium_mg": 760,
+          "fiber_g": 4.4,
+          "sugar_g": 7.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "country-style pork ribs: used default unit",
+          "barbecue sauce: used default unit",
+          "corn on the cob: used default unit",
+          "salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-spicy-pot-roast-granny",
@@ -16173,7 +16984,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "30 min",
       "cook_time": "2.5-3 hrs",
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "servings_yield": "6 servings",
       "confidence": {
         "overall": "high",
@@ -16240,9 +17051,29 @@
         },
         {
           "step": 4,
-          "text": "Cover and cook in 325°F oven for 3-4 hours until tender."
+          "text": "Cover and cook in 325\u00b0F oven for 3-4 hours until tender."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 593,
+          "fat_g": 30.5,
+          "carbs_g": 20.5,
+          "protein_g": 58.8,
+          "sodium_mg": 208,
+          "fiber_g": 1.7,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "beef chuck roast: used default unit",
+          "ketchup: used default unit",
+          "apple cider vinegar: used default unit",
+          "garlic, minced: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-rice-meatballs-granny",
@@ -16317,7 +17148,25 @@
           "step": 4,
           "text": "Simmer for 20-30 minutes until cooked through."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 375,
+          "fat_g": 23.5,
+          "carbs_g": 15.3,
+          "protein_g": 23.2,
+          "sodium_mg": 1001,
+          "fiber_g": 1.1,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "onion, minced: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
@@ -16326,7 +17175,7 @@
       "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
       "category": "breads",
       "source_note": "handwritten on lined paper",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "cook_time": "20-25 min",
       "confidence": {
         "overall": "medium",
@@ -16403,9 +17252,26 @@
         },
         {
           "step": 6,
-          "text": "Bake at 400°F for 20-25 minutes."
+          "text": "Bake at 400\u00b0F for 20-25 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 128,
+          "fat_g": 2.5,
+          "carbs_g": 24.5,
+          "protein_g": 4.5,
+          "sodium_mg": 244,
+          "fiber_g": 3.5,
+          "sugar_g": 7.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "vegetable oil: used default unit"
+        ]
+      }
     },
     {
       "id": "marshmallow-snowman-granny",
@@ -16471,7 +17337,24 @@
           "step": 4,
           "text": "Make a cone-shaped hat from paper; press miniature marshmallow onto tip for tassel."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 0.1,
+          "carbs_g": 20.5,
+          "protein_g": 0.7,
+          "sodium_mg": 11,
+          "fiber_g": 0.0,
+          "sugar_g": 14.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "santas-boot-marshmallow-granny",
@@ -16528,7 +17411,24 @@
           "step": 3,
           "text": "Sprinkle rest of boot with red colored sugar."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 170,
+          "fat_g": 6.5,
+          "carbs_g": 27.1,
+          "protein_g": 1.2,
+          "sodium_mg": 98,
+          "fiber_g": 0.2,
+          "sugar_g": 15.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "low-fat-marble-brownies-granny",
@@ -16537,7 +17437,7 @@
       "title": "Low Fat Marble Brownies",
       "category": "desserts",
       "source_note": "Publix recipe card",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "confidence": {
         "overall": "high",
         "flags": []
@@ -16580,7 +17480,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 350°F. Prepare brownie mix as directed on package with 13 x 9 inch baking pan in mind."
+          "text": "Heat oven to 350\u00b0F. Prepare brownie mix as directed on package with 13 x 9 inch baking pan in mind."
         },
         {
           "step": 2,
@@ -16594,7 +17494,25 @@
           "step": 4,
           "text": "Cool; cut into squares. Store in refrigerator."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 102,
+          "fat_g": 3.7,
+          "carbs_g": 16.7,
+          "protein_g": 1.3,
+          "sodium_mg": 57,
+          "fiber_g": 0.7,
+          "sugar_g": 12.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "reduced calorie brownie mix: used default unit"
+        ]
+      }
     },
     {
       "id": "healthy-crab-dip-granny",
@@ -16675,7 +17593,27 @@
           "step": 3,
           "text": "Sprinkle with paprika. Serve with crackers, breadsticks or vegetables."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 9.1,
+          "carbs_g": 3.6,
+          "protein_g": 4.6,
+          "sodium_mg": 248,
+          "fiber_g": 0.1,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "fat free mayonnaise: used default unit",
+          "prepared horseradish: used default unit",
+          "Worcestershire sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "spicy-dijon-grilled-chicken-granny",
@@ -16738,7 +17676,25 @@
           "step": 3,
           "text": "Grill over medium heat for 6-8 minutes per side, or until cooked through."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 3.0,
+          "carbs_g": 6.1,
+          "protein_g": 6.1,
+          "sodium_mg": 16,
+          "fiber_g": 0.0,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Dijon mustard: used default unit",
+          "garlic, minced: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-toll-house-original-granny",
@@ -16747,7 +17703,7 @@
       "title": "Original Nestle Toll House Chocolate Chip Cookies",
       "category": "desserts",
       "source_note": "Nestle chocolate chip bag",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "cook_time": "9-11 minutes",
       "servings_yield": "Makes about 5 dozen cookies",
       "confidence": {
@@ -16829,13 +17785,31 @@
         },
         {
           "step": 5,
-          "text": "BAKE in preheated 375°F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+          "text": "BAKE in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
         }
       ],
       "notes": [
-        "PAN COOKIE VARIATION: PREPARE dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375°F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
-        "FOR HIGH ALTITUDE BAKING (5,200 feet): INCREASE flour to 2-1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 1/2 cup each. Bake at 375°F; drop cookies for 8 to 10 minutes and pan cookies for 17 to 19 minutes."
-      ]
+        "PAN COOKIE VARIATION: PREPARE dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
+        "FOR HIGH ALTITUDE BAKING (5,200 feet): INCREASE flour to 2-1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 1/2 cup each. Bake at 375\u00b0F; drop cookies for 8 to 10 minutes and pan cookies for 17 to 19 minutes."
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 9.5,
+          "carbs_g": 15.5,
+          "protein_g": 1.7,
+          "sodium_mg": 168,
+          "fiber_g": 0.5,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-famous-fudge-2-granny",
@@ -16910,7 +17884,26 @@
       ],
       "notes": [
         "Makes about 2 pounds"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 123,
+          "fat_g": 8.2,
+          "carbs_g": 11.9,
+          "protein_g": 0.9,
+          "sodium_mg": 71,
+          "fiber_g": 0.3,
+          "sugar_g": 10.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
+          "marshmallow creme: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -16995,10 +17988,29 @@
         },
         {
           "step": 4,
-          "text": "BAKE in preheated 375°F oven for 9 to 11 minutes or until golden brown. Let stand 2 minutes; remove to wire rack."
+          "text": "BAKE in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand 2 minutes; remove to wire rack."
         }
       ],
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 9.1,
+          "carbs_g": 23.1,
+          "protein_g": 2.4,
+          "sodium_mg": 161,
+          "fiber_g": 1.2,
+          "sugar_g": 13.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
+          "quick oats: used default unit"
+        ]
+      }
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",
@@ -17053,7 +18065,25 @@
           "step": 3,
           "text": "Serve immediately."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 2.8,
+          "carbs_g": 48.5,
+          "protein_g": 5.0,
+          "sodium_mg": 30,
+          "fiber_g": 0.8,
+          "sugar_g": 41.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange juice concentrate: used default unit",
+          "vanilla ice cream: used default unit"
+        ]
+      }
     },
     {
       "id": "basic-crust-pillsbury-granny",
@@ -17062,7 +18092,7 @@
       "title": "Basic Crust",
       "category": "desserts",
       "source_note": "Pillsbury recipe",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "12-15 minutes",
       "pan_size": "13x9-inch baking pan",
       "confidence": {
@@ -17112,7 +18142,25 @@
           "text": "Fit into pie plate; trim and flute edges."
         }
       ],
-      "servings_yield": "2 pie crusts"
+      "servings_yield": "2 pie crusts",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 2,
+        "per_serving": {
+          "calories": 1070,
+          "fat_g": 69.5,
+          "carbs_g": 95.0,
+          "protein_g": 13.0,
+          "sodium_mg": 1166,
+          "fiber_g": 3.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "cold water: used default unit"
+        ]
+      }
     },
     {
       "id": "ultimate-chocolate-chip-cookies-granny",
@@ -17183,7 +18231,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 375°F."
+          "text": "Preheat oven to 375\u00b0F."
         },
         {
           "step": 2,
@@ -17206,8 +18254,26 @@
           "text": "Bake 9 to 11 minutes or until golden brown."
         }
       ],
-      "temperature": "375°F (190°C)",
-      "servings_yield": "About 5 dozen cookies"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "servings_yield": "About 5 dozen cookies",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 197,
+          "fat_g": 12.2,
+          "carbs_g": 20.9,
+          "protein_g": 2.1,
+          "sodium_mg": 170,
+          "fiber_g": 0.9,
+          "sugar_g": 15.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "chocolate chips: used default unit"
+        ]
+      }
     },
     {
       "id": "quaker-oatmeal-cookies-gr11-granny",
@@ -17285,7 +18351,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 350°F."
+          "text": "Heat oven to 350\u00b0F."
         },
         {
           "step": 2,
@@ -17308,7 +18374,25 @@
           "text": "Bake 10 to 12 minutes or until golden brown. Cool 1 minute on cookie sheet; remove to wire rack."
         }
       ],
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 155,
+          "fat_g": 7.0,
+          "carbs_g": 21.8,
+          "protein_g": 2.1,
+          "sodium_mg": 130,
+          "fiber_g": 1.1,
+          "sugar_g": 13.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "QUAKER Oats (quick or old fashioned): used default unit"
+        ]
+      }
     },
     {
       "id": "banana-bread-handwritten-granny",
@@ -17374,7 +18458,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350°F. Grease a loaf pan."
+          "text": "Preheat oven to 350\u00b0F. Grease a loaf pan."
         },
         {
           "step": 2,
@@ -17393,10 +18477,27 @@
           "text": "Bake 55-60 minutes or until toothpick comes out clean."
         }
       ],
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "notes": [
         "Recipe card has beautiful stove illustration, from kitchen of Dewolf"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 160,
+          "fat_g": 4.4,
+          "carbs_g": 29.4,
+          "protein_g": 1.7,
+          "sodium_mg": 187,
+          "fiber_g": 0.9,
+          "sugar_g": 20.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit"
+        ]
+      }
     },
     {
       "id": "salt-cod-fish-main-granny",
@@ -17461,13 +18562,31 @@
           "step": 5,
           "text": "Combine fish with potatoes; season with pepper. Serve hot."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 7.2,
+          "carbs_g": 38.9,
+          "protein_g": 6.8,
+          "sodium_mg": 78,
+          "fiber_g": 4.2,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "salt cod fish: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "codfish-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Codfish Soufflé",
+      "title": "Codfish Souffl\u00e9",
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
@@ -17528,10 +18647,29 @@
         },
         {
           "step": 5,
-          "text": "Pour into greased baking dish; bake at 375°F for 30-35 minutes."
+          "text": "Pour into greased baking dish; bake at 375\u00b0F for 30-35 minutes."
         }
       ],
-      "temperature": "375°F (190°C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 377,
+          "fat_g": 12.2,
+          "carbs_g": 51.2,
+          "protein_g": 14.4,
+          "sodium_mg": 126,
+          "fiber_g": 1.6,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod (see main recipe): used default unit",
+          "flour: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "creamed-salt-codfish-granny",
@@ -17596,7 +18734,27 @@
           "step": 4,
           "text": "Serve over toast or boiled potatoes. Top with sliced eggs if desired."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 16.1,
+          "carbs_g": 77.8,
+          "protein_g": 18.1,
+          "sodium_mg": 156,
+          "fiber_g": 2.4,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "flour: used default unit",
+          "milk: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "salt-cod-fish-cakes-granny",
@@ -17661,7 +18819,27 @@
           "step": 4,
           "text": "Serve hot."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 47.5,
+          "carbs_g": 24.0,
+          "protein_g": 5.9,
+          "sodium_mg": 352,
+          "fiber_g": 3.1,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "mashed potatoes: used default unit",
+          "onion, minced: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "codfish-cheese-granny",
@@ -17724,10 +18902,29 @@
         },
         {
           "step": 4,
-          "text": "Bake at 350°F for 25-30 minutes until bubbly."
+          "text": "Bake at 350\u00b0F for 25-30 minutes until bubbly."
         }
       ],
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 466,
+          "fat_g": 16.6,
+          "carbs_g": 60.0,
+          "protein_g": 17.1,
+          "sodium_mg": 345,
+          "fiber_g": 1.9,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "flour: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "shrimp-newburg-patty-shells-granny",
@@ -17813,7 +19010,27 @@
           "text": "Serve in warm patty shells."
         }
       ],
-      "servings_yield": "6 servings"
+      "servings_yield": "6 servings",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 1281,
+          "fat_g": 73.9,
+          "carbs_g": 121.5,
+          "protein_g": 22.3,
+          "sodium_mg": 641,
+          "fiber_g": 3.5,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cooked shrimp: used default unit",
+          "flour: used default unit",
+          "light cream: used default unit",
+          "sherry: used default unit"
+        ]
+      }
     },
     {
       "id": "linguine-garden-clam-sauce-granny",
@@ -17883,7 +19100,7 @@
         },
         {
           "step": 3,
-          "text": "Heat oil in large skillet; sauté garlic 1 minute."
+          "text": "Heat oil in large skillet; saut\u00e9 garlic 1 minute."
         },
         {
           "step": 4,
@@ -17897,7 +19114,28 @@
           "step": 6,
           "text": "Toss with linguine and serve."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 73,
+          "fat_g": 1.2,
+          "carbs_g": 7.4,
+          "protein_g": 3.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.4,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "linguine: used default unit",
+          "canned clams with juice: used default unit",
+          "olive oil: used default unit",
+          "garlic, minced: used default unit",
+          "fresh parsley, chopped: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-meatballs-tomato-sauce-granny",
@@ -17982,7 +19220,27 @@
           "step": 5,
           "text": "Serve over pasta or with crusty bread."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 323,
+          "fat_g": 18.8,
+          "carbs_g": 17.7,
+          "protein_g": 19.7,
+          "sodium_mg": 1418,
+          "fiber_g": 2.1,
+          "sugar_g": 5.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "ground beef: used default unit",
+          "onion, minced: used default unit",
+          "garlic, minced: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "strawberries-cream-cheese-freeze-granny",
@@ -18052,7 +19310,26 @@
           "step": 5,
           "text": "Let stand 10-15 minutes before serving."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 492,
+          "fat_g": 29.5,
+          "carbs_g": 56.8,
+          "protein_g": 4.9,
+          "sodium_mg": 106,
+          "fiber_g": 4.9,
+          "sugar_g": 45.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries, thawed: used default unit",
+          "crushed pineapple, drained: used default unit",
+          "whipped topping: used default unit"
+        ]
+      }
     },
     {
       "id": "roast-leg-lamb-mint-sauce-granny",
@@ -18122,7 +19399,7 @@
         },
         {
           "step": 3,
-          "text": "Roast at 325°F for about 20 minutes per pound for medium."
+          "text": "Roast at 325\u00b0F for about 20 minutes per pound for medium."
         },
         {
           "step": 4,
@@ -18133,18 +19410,38 @@
           "text": "Serve sliced lamb with mint sauce on the side."
         }
       ],
-      "temperature": "325°F (165°C)"
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1542,
+          "fat_g": 110.0,
+          "carbs_g": 7.5,
+          "protein_g": 121.2,
+          "sodium_mg": 968,
+          "fiber_g": 0.1,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "leg of lamb: used default unit",
+          "rosemary: used default unit",
+          "fresh mint, chopped: used default unit",
+          "white vinegar: used default unit"
+        ]
+      }
     },
     {
       "id": "quick-corn-souffle-full-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Quick Corn Soufflé",
+      "title": "Quick Corn Souffl\u00e9",
       "category": "sides",
       "source_note": "My Great Recipes card back",
       "prep_time": "10 min",
       "cook_time": "20 min",
-      "temperature": "425°F (220°C)",
+      "temperature": "425\u00b0F (220\u00b0C)",
       "servings_yield": "6 servings",
       "ingredients": [
         {
@@ -18203,11 +19500,11 @@
         },
         {
           "step": 4,
-          "text": "Spoon into buttered 1-cup soufflé dishes. Place on cookie sheet."
+          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
         },
         {
           "step": 5,
-          "text": "Bake at 425°F for 20 minutes or until puffed and golden brown."
+          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
         },
         {
           "step": 6,
@@ -18225,7 +19522,25 @@
       "image_refs": [
         "gr-26",
         "gr-27"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 252,
+          "fat_g": 12.8,
+          "carbs_g": 27.5,
+          "protein_g": 7.9,
+          "sodium_mg": 592,
+          "fiber_g": 1.0,
+          "sugar_g": 11.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "corned-beef-hash-casserole-full-granny",
@@ -18236,7 +19551,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "10 min",
       "cook_time": "25 min",
-      "temperature": "400°F (200°C)",
+      "temperature": "400\u00b0F (200\u00b0C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
@@ -18309,7 +19624,7 @@
         },
         {
           "step": 5,
-          "text": "Arrange egg slices on top. Sprinkle with parsley. Bake at 400°F until bubbly and lightly browned, about 25 minutes."
+          "text": "Arrange egg slices on top. Sprinkle with parsley. Bake at 400\u00b0F until bubbly and lightly browned, about 25 minutes."
         }
       ],
       "notes": [
@@ -18324,7 +19639,24 @@
       "image_refs": [
         "gr-28",
         "gr-29"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 237,
+          "fat_g": 19.1,
+          "carbs_g": 6.9,
+          "protein_g": 10.4,
+          "sodium_mg": 274,
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "corned beef hash: used default unit"
+        ]
+      }
     },
     {
       "id": "joyces-chicken-full-granny",
@@ -18421,7 +19753,27 @@
       "image_refs": [
         "gr-30",
         "gr-29"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 8.2,
+          "carbs_g": 6.5,
+          "protein_g": 10.4,
+          "sodium_mg": 27,
+          "fiber_g": 1.7,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chopped onion: used default unit",
+          "tomatoes, with juice: used default unit",
+          "chopped green pepper: used default unit",
+          "cup chopped parsley: used default unit"
+        ]
+      }
     },
     {
       "id": "buttercups-full-granny",
@@ -18430,7 +19782,7 @@
       "title": "Buttercups",
       "category": "desserts",
       "source_note": "typed recipe card",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "cook_time": "20 min",
       "ingredients": [
         {
@@ -18497,7 +19849,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350°F for 20 minutes or until golden brown."
+          "text": "Bake at 350\u00b0F for 20 minutes or until golden brown."
         },
         {
           "step": 7,
@@ -18514,7 +19866,24 @@
       "image_refs": [
         "gr-32",
         "34"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 290,
+          "fat_g": 14.3,
+          "carbs_g": 37.2,
+          "protein_g": 3.9,
+          "sodium_mg": 118,
+          "fiber_g": 0.8,
+          "sugar_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Maraschino cherries, cut into quarters: used default unit"
+        ]
+      }
     },
     {
       "id": "deviled-cornish-hens-full-granny",
@@ -18525,7 +19894,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "20 min",
       "cook_time": "50 min",
-      "temperature": "375°F (190°C)",
+      "temperature": "375\u00b0F (190\u00b0C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
@@ -18597,7 +19966,7 @@
         },
         {
           "step": 6,
-          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
+          "text": "Roast hens at 375\u00b0F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
         },
         {
           "step": 7,
@@ -18615,7 +19984,25 @@
       "image_refs": [
         "gr-34",
         "gr-35"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 205,
+          "fat_g": 1.8,
+          "carbs_g": 48.6,
+          "protein_g": 5.5,
+          "sodium_mg": 1220,
+          "fiber_g": 3.9,
+          "sugar_g": 22.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lemon juice: used default unit",
+          "watercress or lemon slices, for garnish: used default unit"
+        ]
+      }
     },
     {
       "id": "creamy-mild-seafood-granny",
@@ -18704,7 +20091,26 @@
           "step": 4,
           "text": "Season to taste and serve over rice or pasta."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 431,
+          "fat_g": 24.1,
+          "carbs_g": 16.0,
+          "protein_g": 35.6,
+          "sodium_mg": 1000,
+          "fiber_g": 0.7,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "sliced lobster: used default unit",
+          "cooked shrimp: used default unit",
+          "chopped onion: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-bean-noodle-skillet-full-granny",
@@ -18803,7 +20209,28 @@
       "image_refs": [
         "gr-56",
         "gr-65"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 12.4,
+          "carbs_g": 36.5,
+          "protein_g": 18.8,
+          "sodium_mg": 714,
+          "fiber_g": 5.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "diced green pepper: used default unit",
+          "diced celery: used default unit",
+          "uncooked medium-size noodles: used default unit",
+          "red kidney beans, undrained: used default unit",
+          "stewed tomatoes: used default unit"
+        ]
+      }
     },
     {
       "id": "savory-beef-full-granny",
@@ -18814,7 +20241,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "20 min",
       "cook_time": "1 1/4 - 1 1/2 hrs",
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "servings_yield": "4-5 servings",
       "ingredients": [
         {
@@ -18892,7 +20319,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 325°F for 1 1/4 to 1 1/2 hours until meat is tender."
+          "text": "Cover. Bake at 325\u00b0F for 1 1/4 to 1 1/2 hours until meat is tender."
         },
         {
           "step": 6,
@@ -18909,7 +20336,27 @@
       },
       "image_refs": [
         "gr-58"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 879,
+          "fat_g": 29.1,
+          "carbs_g": 79.0,
+          "protein_g": 72.1,
+          "sodium_mg": 1050,
+          "fiber_g": 3.8,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "round steak, cut into 1/2-inch cubes: used default unit",
+          "all-purpose flour: used default unit",
+          "mushrooms, undrained: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "irish-soda-bread-landmark-tavern-granny",
@@ -18918,7 +20365,7 @@
       "title": "Irish Soda Bread (Landmark Tavern, NYC)",
       "category": "breads",
       "source_note": "typed recipe from Landmark Tavern, Ltd., New York, N.Y.",
-      "temperature": "325°F (165°C)",
+      "temperature": "325\u00b0F (165\u00b0C)",
       "cook_time": "25-30 min",
       "servings_yield": "8-10 loaves",
       "ingredients": [
@@ -18968,7 +20415,7 @@
         },
         {
           "step": 4,
-          "text": "Bake at 325°F for 25 to 30 minutes."
+          "text": "Bake at 325\u00b0F for 25 to 30 minutes."
         },
         {
           "step": 5,
@@ -18988,7 +20435,29 @@
       },
       "image_refs": [
         "gr-62"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 9,
+        "per_serving": {
+          "calories": 240,
+          "fat_g": 0.9,
+          "carbs_g": 56.9,
+          "protein_g": 2.6,
+          "sodium_mg": 119,
+          "fiber_g": 0.8,
+          "sugar_g": 42.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "flour: used default unit",
+          "ground cinnamon: used default unit",
+          "baking powder: used default unit",
+          "sugar: used default unit",
+          "raisins: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "banana-pudding-bobby-jones-full-granny",
@@ -19061,7 +20530,28 @@
       },
       "image_refs": [
         "gr-64"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
+          "fiber_g": 0.8,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Vanilla Instant Pudding: used default unit",
+          "milk: used default unit",
+          "sour cream: used default unit",
+          "whipped cream: used default unit",
+          "vanilla wafers: used default unit"
+        ]
+      }
     },
     {
       "id": "stuffed-peppers-webb-full-granny",
@@ -19070,7 +20560,7 @@
       "title": "Stuffed Peppers (Webb)",
       "category": "mains",
       "source_note": "typed recipe card",
-      "temperature": "350°F (175°C)",
+      "temperature": "350\u00b0F (175\u00b0C)",
       "ingredients": [
         {
           "item": "big green peppers",
@@ -19137,7 +20627,27 @@
       },
       "image_refs": [
         "gr-64"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 3.1,
+          "carbs_g": 21.7,
+          "protein_g": 6.0,
+          "sodium_mg": 106,
+          "fiber_g": 2.8,
+          "sugar_g": 5.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lean hamburger: used default unit",
+          "chopped onions: used default unit",
+          "garlic, minced: used default unit",
+          "Campbell's condensed tomato soup, family size: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-rice-meatballs-handwritten-granny",
@@ -19223,7 +20733,26 @@
       "image_refs": [
         "gr-66",
         "gr-67"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 686,
+          "fat_g": 46.6,
+          "carbs_g": 17.9,
+          "protein_g": 44.3,
+          "sodium_mg": 989,
+          "fiber_g": 1.9,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "tomato juice: used default unit",
+          "vegetable oil: used default unit",
+          "instant beef broth: used default unit"
+        ]
+      }
     },
     {
       "id": "pickled-beets-shag-taylor-granny",
@@ -19290,7 +20819,26 @@
       ],
       "notes": [
         "Recipe from Shag Taylor, written on envelope back"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 0.6,
+          "carbs_g": 31.1,
+          "protein_g": 2.1,
+          "sodium_mg": 112,
+          "fiber_g": 4.8,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "beets: used default unit",
+          "water: used default unit",
+          "vinegar: used default unit"
+        ]
+      }
     },
     {
       "id": "dumps-basic-brownies-handwritten-granny",
@@ -19358,10 +20906,25 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350°F for 25-30 minutes."
+          "text": "Bake at 350\u00b0F for 25-30 minutes."
         }
       ],
-      "temperature": "350°F (175°C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 12.7,
+          "carbs_g": 7.1,
+          "protein_g": 2.6,
+          "sodium_mg": 67,
+          "fiber_g": 0.7,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     }
   ],
   "meta": {

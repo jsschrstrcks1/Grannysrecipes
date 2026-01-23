@@ -227,15 +227,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 6,
         "per_serving": {
-          "calories": 630,
-          "fat_g": 30.7,
-          "carbs_g": 78.0,
-          "protein_g": 11.7,
-          "sodium_mg": 580,
-          "fiber_g": 2.9,
-          "sugar_g": 27.6
+          "calories": 420,
+          "fat_g": 20.5,
+          "carbs_g": 52.0,
+          "protein_g": 7.8,
+          "sodium_mg": 387,
+          "fiber_g": 1.9,
+          "sugar_g": 18.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -729,7 +729,26 @@
       "notes": [
         "Crispy on the outside, creamy on the inside. To prepare this breakfast treat ahead, just cover and refrigerate overnight - all set to cook in the morning.",
         "Recipe can be doubled or tripled. Keep cooked toast warm in 250-degree oven."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1374,
+          "fat_g": 140.0,
+          "carbs_g": 25.7,
+          "protein_g": 9.7,
+          "sodium_mg": 948,
+          "fiber_g": 0.6,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX White Mountain Bread: used default unit",
+          "PUBLIX Whipping Cream: used default unit",
+          "PUBLIX Sweet Cream Butter: used default unit"
+        ]
+      }
     },
     {
       "id": "crunchy-cornmeal-pancakes-granny",
@@ -796,7 +815,24 @@
           "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
         }
       ],
-      "servings_yield": "Makes 20-25 pancakes"
+      "servings_yield": "Makes 20-25 pancakes",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 22,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 17.8,
+          "carbs_g": 5.4,
+          "protein_g": 1.1,
+          "sodium_mg": 202,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "buttermilk: used default unit"
+        ]
+      }
     },
     {
       "id": "tender-cornmeal-pancakes-granny",
@@ -866,7 +902,24 @@
           "step": 4,
           "text": "Omit baking powder if using Self-Rising Cornmeal."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 408,
+          "fat_g": 32.2,
+          "carbs_g": 27.9,
+          "protein_g": 4.3,
+          "sodium_mg": 180,
+          "fiber_g": 2.2,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boiling water: used default unit"
+        ]
+      }
     }
   ]
 }

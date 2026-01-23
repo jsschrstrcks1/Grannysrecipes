@@ -538,7 +538,27 @@
           "step": 3,
           "text": "Sprinkle with paprika. Serve with crackers, breadsticks or vegetables."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 9.1,
+          "carbs_g": 3.6,
+          "protein_g": 4.6,
+          "sodium_mg": 248,
+          "fiber_g": 0.1,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "fat free mayonnaise: used default unit",
+          "prepared horseradish: used default unit",
+          "Worcestershire sauce: used default unit"
+        ]
+      }
     }
   ]
 }
