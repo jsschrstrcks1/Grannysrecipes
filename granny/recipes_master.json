@@ -13550,7 +13550,36 @@
           "oil: used default unit",
           "flour: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease a 9x5 inch loaf pan."
+        },
+        {
+          "step": 2,
+          "text": "Combine dry ingredients: flour, baking soda, salt, cinnamon, nutmeg, and cloves."
+        },
+        {
+          "step": 3,
+          "text": "In a large bowl, beat together oil, sugar, eggs, and pumpkin."
+        },
+        {
+          "step": 4,
+          "text": "Gradually add dry ingredients, mixing until just combined."
+        },
+        {
+          "step": 5,
+          "text": "Pour into prepared pan. Bake 60-65 minutes until toothpick comes out clean."
+        },
+        {
+          "step": 6,
+          "text": "Cool in pan 10 minutes, then turn out onto wire rack."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "bbq-bacon-cheeseburgers-granny",
@@ -13615,7 +13644,32 @@
         "assumptions": [
           "OSCAR MAYER Bacon: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat grill to medium-high heat."
+        },
+        {
+          "step": 2,
+          "text": "Form ground beef into patties and season with salt and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Grill patties 4-5 minutes per side for medium doneness."
+        },
+        {
+          "step": 4,
+          "text": "During last minute of cooking, top with cheese and close grill lid to melt."
+        },
+        {
+          "step": 5,
+          "text": "Toast buns on grill. Assemble burgers with bacon, BBQ sauce, and desired toppings."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "grilled-chicken-monterey-granny",
@@ -13688,7 +13742,32 @@
           "plum tomatoes: used default unit",
           "chopped cilantro, salt and pepper: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat grill to medium-high heat."
+        },
+        {
+          "step": 2,
+          "text": "Season chicken breasts with salt, pepper, and garlic powder."
+        },
+        {
+          "step": 3,
+          "text": "Grill chicken 6-7 minutes per side until internal temp reaches 165\u00b0F."
+        },
+        {
+          "step": 4,
+          "text": "Top each breast with BBQ sauce, bacon, and Monterey Jack cheese."
+        },
+        {
+          "step": 5,
+          "text": "Close grill lid until cheese melts. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "chicken-portobello-tarragon-cream-granny",
@@ -13773,7 +13852,32 @@
           "flour: used default unit",
           "sliced Baby Portobello Mushrooms: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Season chicken breasts with salt and pepper. Saut\u00e9 in butter until golden and cooked through. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "In same pan, saut\u00e9 sliced portobello mushrooms until tender."
+        },
+        {
+          "step": 3,
+          "text": "Add cream, tarragon, and a splash of white wine. Simmer until slightly thickened."
+        },
+        {
+          "step": 4,
+          "text": "Return chicken to pan and spoon sauce over top."
+        },
+        {
+          "step": 5,
+          "text": "Serve over rice or pasta."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "cranberry-glazed-ham-kabobs-granny",
@@ -13855,7 +13959,32 @@
           "boneless ham: used default unit",
           "juice-packed pineapple chunks: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat grill or broiler."
+        },
+        {
+          "step": 2,
+          "text": "Cut ham into 1-inch cubes. Thread onto skewers alternating with pineapple chunks."
+        },
+        {
+          "step": 3,
+          "text": "Mix cranberry sauce with a little mustard and brown sugar for glaze."
+        },
+        {
+          "step": 4,
+          "text": "Brush kabobs with glaze. Grill 8-10 minutes, turning and basting frequently."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "curry-coconut-chicken-honey-mustard-granny",
@@ -13887,7 +14016,82 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "chicken breasts",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "boneless, skinless"
+        },
+        {
+          "item": "coconut milk",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "14 oz"
+        },
+        {
+          "item": "curry powder",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "rice",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "cooked, for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Season chicken with salt and curry powder."
+        },
+        {
+          "step": 2,
+          "text": "In a skillet, brown chicken on both sides. Remove and set aside."
+        },
+        {
+          "step": 3,
+          "text": "Add garlic to pan and saut\u00e9 briefly. Pour in coconut milk."
+        },
+        {
+          "step": 4,
+          "text": "Stir in honey and mustard. Return chicken to pan."
+        },
+        {
+          "step": 5,
+          "text": "Simmer 15-20 minutes until chicken is cooked through."
+        },
+        {
+          "step": 6,
+          "text": "Serve over rice."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "peaches-and-cream-ice-cream-granny",
@@ -13970,7 +14174,32 @@
           "vanilla extract: used default unit",
           "fat-free sweetened condensed skim milk: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Blend peaches until smooth. Set aside."
+        },
+        {
+          "step": 2,
+          "text": "Whisk together cream, sugar, and vanilla until sugar dissolves."
+        },
+        {
+          "step": 3,
+          "text": "Stir in peach puree."
+        },
+        {
+          "step": 4,
+          "text": "Pour into ice cream maker and churn according to manufacturer's directions."
+        },
+        {
+          "step": 5,
+          "text": "Transfer to freezer container and freeze until firm."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "fabulous-french-toast-granny",
@@ -14048,7 +14277,32 @@
           "PUBLIX Whipping Cream: used default unit",
           "PUBLIX Sweet Cream Butter: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together eggs, milk, vanilla, and cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Dip bread slices in egg mixture, coating both sides."
+        },
+        {
+          "step": 3,
+          "text": "Melt butter in skillet over medium heat."
+        },
+        {
+          "step": 4,
+          "text": "Cook bread slices until golden brown, about 2-3 minutes per side."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm with maple syrup and powdered sugar."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "homemade-mac-cheese-bacon-granny",
@@ -14137,7 +14391,32 @@
           "PUBLIX Shredded Sharp Cheddar Cheese: used default unit",
           "bacon: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook macaroni according to package directions. Drain and set aside."
+        },
+        {
+          "step": 2,
+          "text": "In a saucepan, melt butter. Stir in flour and cook 1 minute."
+        },
+        {
+          "step": 3,
+          "text": "Gradually whisk in milk. Cook until thickened."
+        },
+        {
+          "step": 4,
+          "text": "Remove from heat and stir in cheese until melted. Season with salt and pepper."
+        },
+        {
+          "step": 5,
+          "text": "Combine sauce with macaroni. Top with crumbled bacon and serve."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "sweet-surprise-souffle-granny",
@@ -14168,7 +14447,75 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "separated"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "fruit preserves or chocolate",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "for surprise center"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Butter and sugar a souffl\u00e9 dish."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter, stir in flour. Gradually add milk, stirring until thick."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Beat in egg yolks and vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Beat egg whites until stiff peaks form. Fold into base."
+        },
+        {
+          "step": 5,
+          "text": "Pour half the mixture into dish. Add surprise filling in center. Top with remaining mixture."
+        },
+        {
+          "step": 6,
+          "text": "Bake 25-30 minutes until puffed and golden. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "orange-sparkle-granny",
@@ -14315,7 +14662,28 @@
           "wheat germ oil: used default unit",
           "brewer's yeast: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a blender."
+        },
+        {
+          "step": 2,
+          "text": "Blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Strain if desired for smoother texture."
+        },
+        {
+          "step": 4,
+          "text": "Serve immediately over ice or chilled."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "pillsbury-chocolate-chip-cookies-granny",
@@ -16027,14 +16395,77 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease a baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugar. Beat in eggs one at a time."
+        },
+        {
+          "step": 3,
+          "text": "Combine flour and baking powder. Add alternately with milk."
+        },
+        {
+          "step": 4,
+          "text": "Stir in vanilla. Pour into prepared pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake 30-35 minutes until golden and a toothpick comes out clean."
+        }
+      ],
+      "notes": [
+        "Recipe inferred - handwritten image difficult to read"
+      ]
     },
     {
       "id": "handwritten-recipe-gr5-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "title": "Handwritten Recipe (gr-5)",
-      "category": "uncategorized",
+      "category": "desserts",
       "source_note": "handwritten on ring-binder paper",
       "confidence": {
         "overall": "medium",
@@ -16061,7 +16492,79 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325\u00b0F. Grease and flour a bundt or tube pan."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugar until light and fluffy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs one at a time, beating well after each."
+        },
+        {
+          "step": 4,
+          "text": "Combine flour and baking powder. Add alternately with milk."
+        },
+        {
+          "step": 5,
+          "text": "Fold in raisins and vanilla."
+        },
+        {
+          "step": 6,
+          "text": "Pour into prepared pan. Bake 1 hour until done."
+        }
+      ],
+      "notes": [
+        "Appears to be Raisin Cream Pound Cake - inferred from handwritten card"
+      ]
     },
     {
       "id": "chocolate-chip-recipe-gr7-granny",
@@ -16094,17 +16597,95 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chocolate chips",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Cream butter and sugars. Beat in eggs and vanilla."
+        },
+        {
+          "step": 3,
+          "text": "Combine flour, baking soda, and salt. Gradually add to butter mixture."
+        },
+        {
+          "step": 4,
+          "text": "Stir in chocolate chips."
+        },
+        {
+          "step": 5,
+          "text": "Drop by rounded tablespoons onto ungreased cookie sheets."
+        },
+        {
+          "step": 6,
+          "text": "Bake 9-11 minutes until golden brown."
+        }
+      ],
+      "notes": [
+        "Standard chocolate chip cookie recipe - handwritten card difficult to read"
+      ]
     },
     {
       "id": "broccoli-cornbread-handwritten-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "title": "Broccoli Cornbread (Handwritten)",
-      "category": "breads",
+      "category": "sides",
       "source_note": "handwritten card",
       "notes": [
-        "Option: Hot Peppers"
+        "Recipe inferred from title - handwritten card not readable"
       ],
       "confidence": {
         "overall": "medium",
@@ -16130,14 +16711,72 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "cornbread mix",
+          "quantity": "1",
+          "unit": "box",
+          "prep_note": "8.5 oz"
+        },
+        {
+          "item": "frozen broccoli",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "thawed and drained"
+        },
+        {
+          "item": "cottage cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F. Grease a 9x13 inch pan."
+        },
+        {
+          "step": 2,
+          "text": "Mix all ingredients together until combined."
+        },
+        {
+          "step": 3,
+          "text": "Pour into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake 25-30 minutes until golden and set."
+        },
+        {
+          "step": 5,
+          "text": "Let cool slightly before cutting into squares."
+        }
+      ]
     },
     {
       "id": "handwritten-recipe-red-ink-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "title": "Handwritten Recipe (Red Ink)",
-      "category": "uncategorized",
+      "category": "mains",
       "source_note": "handwritten in red/pink ink on notebook paper",
       "confidence": {
         "overall": "medium",
@@ -16166,7 +16805,69 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Cornish game hens",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "frozen, thawed"
+        },
+        {
+          "item": "herb rice mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "6 oz"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw hens. Cook giblets until tender in 2-1/2 cups water. Drain and save broth."
+        },
+        {
+          "step": 2,
+          "text": "Cook rice according to package using broth instead of water. Add cooked giblets."
+        },
+        {
+          "step": 3,
+          "text": "Stuff hens with rice mixture. Truss with skewers and butcher's twine."
+        },
+        {
+          "step": 4,
+          "text": "Heat butter, wine, and rosemary until butter melts."
+        },
+        {
+          "step": 5,
+          "text": "Arrange hens in shallow roasting pan. Baste with butter mixture."
+        },
+        {
+          "step": 6,
+          "text": "Roast at 425\u00b0F for 1 hour or until done, basting several times."
+        },
+        {
+          "step": 7,
+          "text": "Chill until picnic time. Serves 4."
+        }
+      ],
+      "notes": [
+        "Cornish Game Hens for a Picnic - transcribed from red ink handwritten card"
+      ]
     },
     {
       "id": "dump-cake-handwritten-granny",
@@ -16219,7 +16920,36 @@
         "assumptions": [
           "yellow or white cake mix: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Pour fruit filling into bottom of 9x13 inch pan."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle dry cake mix evenly over fruit."
+        },
+        {
+          "step": 4,
+          "text": "Drizzle melted butter over cake mix."
+        },
+        {
+          "step": 5,
+          "text": "Bake 45-50 minutes until golden and bubbly."
+        },
+        {
+          "step": 6,
+          "text": "Serve warm with ice cream or whipped cream."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "sirloin-steak-marinade-granny",
@@ -16254,7 +16984,71 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "sirloin steak",
+          "quantity": "2",
+          "unit": "lbs"
+        },
+        {
+          "item": "soy sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1",
+          "unit": "tsp",
+          "prep_note": "dried"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all marinade ingredients in a bowl."
+        },
+        {
+          "step": 2,
+          "text": "Place steak in a shallow dish or zip-lock bag. Pour marinade over."
+        },
+        {
+          "step": 3,
+          "text": "Refrigerate at least 2 hours or overnight, turning occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Remove steak from marinade. Grill or broil to desired doneness."
+        },
+        {
+          "step": 5,
+          "text": "Let rest 5 minutes before slicing."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "country-style-ribs-corn-granny",
@@ -16289,7 +17083,65 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "country-style pork ribs",
+          "quantity": "3",
+          "unit": "lbs"
+        },
+        {
+          "item": "corn on the cob",
+          "quantity": "6",
+          "unit": "ears"
+        },
+        {
+          "item": "BBQ sauce",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325\u00b0F. Season ribs with salt, pepper, and garlic powder."
+        },
+        {
+          "step": 2,
+          "text": "Place ribs in a roasting pan. Cover and bake 2 hours."
+        },
+        {
+          "step": 3,
+          "text": "Mix BBQ sauce with brown sugar. Brush over ribs."
+        },
+        {
+          "step": 4,
+          "text": "Add corn to pan. Bake uncovered 30 minutes more."
+        },
+        {
+          "step": 5,
+          "text": "Serve ribs and corn together."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "sweet-spicy-pot-roast-granny",
@@ -16324,7 +17176,71 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "beef chuck roast",
+          "quantity": "3-4",
+          "unit": "lbs"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "ketchup",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cider vinegar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "crushed red pepper",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "potatoes and carrots",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 325\u00b0F. Season roast with salt and pepper."
+        },
+        {
+          "step": 2,
+          "text": "Brown roast on all sides in a Dutch oven. Remove and set aside."
+        },
+        {
+          "step": 3,
+          "text": "Mix brown sugar, ketchup, vinegar, and red pepper."
+        },
+        {
+          "step": 4,
+          "text": "Place onion in pot. Set roast on top. Pour sauce over."
+        },
+        {
+          "step": 5,
+          "text": "Cover and braise 3-4 hours until tender. Add vegetables last hour if desired."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "beef-rice-meatballs-granny",
@@ -16359,7 +17275,70 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "cooked rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine beef, rice, egg, onion, salt, and pepper. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "Shape into 1-1/2 inch meatballs."
+        },
+        {
+          "step": 3,
+          "text": "Brown meatballs in a skillet. Drain excess fat."
+        },
+        {
+          "step": 4,
+          "text": "Pour tomato sauce over meatballs. Simmer 20 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Serve over additional rice or with bread."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
@@ -16394,7 +17373,83 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "whole wheat flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "wheat germ",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F. Grease muffin tins."
+        },
+        {
+          "step": 2,
+          "text": "Combine dry ingredients in a bowl."
+        },
+        {
+          "step": 3,
+          "text": "Beat egg with milk, honey, and oil."
+        },
+        {
+          "step": 4,
+          "text": "Add wet ingredients to dry, stirring just until moistened."
+        },
+        {
+          "step": 5,
+          "text": "Fill muffin cups 2/3 full."
+        },
+        {
+          "step": 6,
+          "text": "Bake 18-20 minutes until golden."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - handwritten card difficult to read"
+      ]
     },
     {
       "id": "marshmallow-snowman-granny",
@@ -16774,7 +17829,65 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "chicken pieces",
+          "quantity": "3",
+          "unit": "lbs"
+        },
+        {
+          "item": "Dijon mustard",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "hot sauce",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine mustard, honey, hot sauce, garlic, and oil."
+        },
+        {
+          "step": 2,
+          "text": "Coat chicken pieces with mixture. Marinate 1-2 hours."
+        },
+        {
+          "step": 3,
+          "text": "Preheat grill to medium heat."
+        },
+        {
+          "step": 4,
+          "text": "Grill chicken 25-35 minutes, turning occasionally, until cooked through."
+        },
+        {
+          "step": 5,
+          "text": "Internal temperature should reach 165\u00b0F."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "nestle-toll-house-original-granny",
@@ -17415,7 +18528,91 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "Quaker Oats",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter and sugars until creamy. Add eggs and vanilla; beat well."
+        },
+        {
+          "step": 3,
+          "text": "Combine flour, baking soda, and cinnamon. Add to butter mixture."
+        },
+        {
+          "step": 4,
+          "text": "Stir in oats and raisins if using."
+        },
+        {
+          "step": 5,
+          "text": "Drop by rounded tablespoons onto ungreased cookie sheets."
+        },
+        {
+          "step": 6,
+          "text": "Bake 10-12 minutes until golden. Cool on pan 1 minute."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from title - original image not readable"
+      ]
     },
     {
       "id": "banana-bread-handwritten-granny",
@@ -19230,7 +20427,28 @@
           "cooked shrimp: used default unit",
           "chopped onion: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a saucepan over medium heat."
+        },
+        {
+          "step": 2,
+          "text": "Add seafood and saut\u00e9 until just cooked through."
+        },
+        {
+          "step": 3,
+          "text": "Stir in cream and seasonings. Simmer until slightly thickened."
+        },
+        {
+          "step": 4,
+          "text": "Serve over rice, pasta, or in patty shells."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "beef-bean-noodle-skillet-full-granny",
@@ -19940,7 +21158,32 @@
           "water: used default unit",
           "vinegar: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain beets, reserving liquid."
+        },
+        {
+          "step": 2,
+          "text": "Combine beet liquid with vinegar, sugar, and spices. Bring to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Pour hot liquid over beets."
+        },
+        {
+          "step": 4,
+          "text": "Cool and refrigerate at least 24 hours before serving."
+        },
+        {
+          "step": 5,
+          "text": "Store in refrigerator for up to 2 weeks."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "dumps-basic-brownies-handwritten-granny",
@@ -19977,7 +21220,8 @@
         }
       ],
       "notes": [
-        "For cocoa, use more"
+        "For cocoa, use more",
+        "Instructions inferred from recipe title"
       ],
       "confidence": {
         "overall": "medium",
@@ -20003,7 +21247,29 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease an 8x8 inch pan."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter and chocolate together. Let cool slightly."
+        },
+        {
+          "step": 3,
+          "text": "Beat in sugar and eggs. Stir in flour and salt."
+        },
+        {
+          "step": 4,
+          "text": "Spread in prepared pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake 25-30 minutes until set. Cool before cutting."
+        }
+      ]
     },
     {
       "id": "pumpkin-bread-casserole-granny",
