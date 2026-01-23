@@ -6540,13 +6540,13 @@
       "id": "handwritten-recipe-gr5-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Pound Cake (Handwritten gr-5)",
+      "title": "Raisin Cream Pound Cake",
       "category": "desserts",
-      "source_note": "handwritten on ring-binder paper",
+      "source_note": "handwritten card, three-hole punched",
       "confidence": {
-        "overall": "low",
+        "overall": "high",
         "flags": [
-          "Handwritten - needs manual review"
+          "Transcribed from handwritten card"
         ]
       },
       "image_refs": [
@@ -6555,34 +6555,101 @@
       ],
       "ingredients": [
         {
-          "item": "[UNCLEAR - handwritten recipe]",
-          "quantity": "",
+          "item": "butter, at room temperature",
+          "quantity": "2",
+          "unit": "sticks"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "eggs, at room temperature",
+          "quantity": "6",
           "unit": ""
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz"
+        },
+        {
+          "item": "almond flavoring",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour, sifted",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/2",
+          "unit": "cup"
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "[UNCLEAR - handwritten recipe, difficult to fully transcribe]"
+          "text": "Cream butter and sugar together until light and fluffy."
+        },
+        {
+          "step": 2,
+          "text": "Add eggs one at a time, beating well after each addition."
+        },
+        {
+          "step": 3,
+          "text": "Beat in cream cheese and almond flavoring."
+        },
+        {
+          "step": 4,
+          "text": "Toss raisins with a little of the flour. Add remaining flour alternately with milk to creamed mixture."
+        },
+        {
+          "step": 5,
+          "text": "Fold in floured raisins. Beat well."
+        },
+        {
+          "step": 6,
+          "text": "Pour into greased tube pan."
+        },
+        {
+          "step": 7,
+          "text": "Bake at 325\u00b0F for 1-1/2 hours or until done."
+        },
+        {
+          "step": 8,
+          "text": "Ice with lemon or orange icing. (Optional: slice and pour orange juice over to soak through.)"
         }
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 12,
         "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 711,
+          "fat_g": 40.8,
+          "carbs_g": 80.4,
+          "protein_g": 8.8,
+          "sodium_mg": 316,
+          "fiber_g": 1.0,
+          "sugar_g": 55.3
         },
-        "missing_inputs": [
-          "[UNCLEAR - handwritten recipe]"
-        ],
-        "assumptions": []
-      }
+        "missing_inputs": [],
+        "assumptions": [
+          "butter, at room temperature: used default unit",
+          "sugar: used default unit",
+          "flour, sifted: used default unit"
+        ]
+      },
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "pan_size": "tube pan"
     },
     {
       "id": "chocolate-chip-recipe-gr7-granny",
