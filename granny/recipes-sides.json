@@ -225,15 +225,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 236,
-          "fat_g": 21.6,
-          "carbs_g": 5.8,
-          "protein_g": 5.9,
-          "sodium_mg": 606,
-          "fiber_g": 0.5,
-          "sugar_g": 2.0
+          "calories": 202,
+          "fat_g": 18.5,
+          "carbs_g": 5.0,
+          "protein_g": 5.0,
+          "sodium_mg": 519,
+          "fiber_g": 0.4,
+          "sugar_g": 1.7
         },
         "missing_inputs": [],
         "assumptions": [

@@ -334,15 +334,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 390,
-          "fat_g": 14.6,
-          "carbs_g": 57.9,
-          "protein_g": 6.8,
-          "sodium_mg": 119,
-          "fiber_g": 1.4,
-          "sugar_g": 25.9
+          "calories": 260,
+          "fat_g": 9.7,
+          "carbs_g": 38.6,
+          "protein_g": 4.5,
+          "sodium_mg": 79,
+          "fiber_g": 1.0,
+          "sugar_g": 17.2
         },
         "missing_inputs": [],
         "assumptions": [
@@ -481,15 +481,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 14,
         "per_serving": {
-          "calories": 479,
-          "fat_g": 23.5,
-          "carbs_g": 63.0,
-          "protein_g": 6.6,
-          "sodium_mg": 548,
-          "fiber_g": 1.9,
-          "sugar_g": 44.9
+          "calories": 410,
+          "fat_g": 20.1,
+          "carbs_g": 54.0,
+          "protein_g": 5.6,
+          "sodium_mg": 470,
+          "fiber_g": 1.7,
+          "sugar_g": 38.5
         },
         "missing_inputs": [],
         "assumptions": [
@@ -603,20 +603,19 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 13,
         "per_serving": {
-          "calories": 337,
-          "fat_g": 23.0,
-          "carbs_g": 32.2,
-          "protein_g": 2.7,
-          "sodium_mg": 315,
-          "fiber_g": 2.3,
-          "sugar_g": 17.8
+          "calories": 311,
+          "fat_g": 21.2,
+          "carbs_g": 29.7,
+          "protein_g": 2.5,
+          "sodium_mg": 291,
+          "fiber_g": 2.2,
+          "sugar_g": 16.5
         },
         "missing_inputs": [],
         "assumptions": [
           "crushed pineapple: used default unit",
-          "coconut: used default unit",
           "cherry pie filling: used default unit",
           "yellow or white cake mix: used default unit",
           "butter or margarine: used default unit"
@@ -789,20 +788,22 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 24,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 145,
-          "fat_g": 5.5,
-          "carbs_g": 21.4,
-          "protein_g": 2.6,
-          "sodium_mg": 189,
-          "fiber_g": 0.6,
-          "sugar_g": 10.4
+          "calories": 501,
+          "fat_g": 22.9,
+          "carbs_g": 68.8,
+          "protein_g": 6.6,
+          "sodium_mg": 475,
+          "fiber_g": 1.3,
+          "sugar_g": 45.8
         },
         "missing_inputs": [],
         "assumptions": [
           "pumpkin pie spice: used default unit",
-          "yellow cake mix: used default unit"
+          "yellow cake mix: used default unit",
+          "powdered sugar: used default unit",
+          "orange zest: used default unit"
         ]
       },
       "servings_yield": "24 cookies",
@@ -911,15 +912,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 14,
         "per_serving": {
-          "calories": 653,
-          "fat_g": 37.1,
-          "carbs_g": 74.7,
-          "protein_g": 7.1,
-          "sodium_mg": 271,
-          "fiber_g": 0.8,
-          "sugar_g": 50.5
+          "calories": 559,
+          "fat_g": 31.8,
+          "carbs_g": 64.0,
+          "protein_g": 6.1,
+          "sodium_mg": 232,
+          "fiber_g": 0.6,
+          "sugar_g": 43.2
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1017,15 +1018,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 11,
         "per_serving": {
-          "calories": 1558,
-          "fat_g": 154.6,
-          "carbs_g": 30.4,
-          "protein_g": 17.3,
-          "sodium_mg": 339,
-          "fiber_g": 0.8,
-          "sugar_g": 21.2
+          "calories": 1133,
+          "fat_g": 112.4,
+          "carbs_g": 22.1,
+          "protein_g": 12.6,
+          "sodium_mg": 247,
+          "fiber_g": 0.5,
+          "sugar_g": 15.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1115,15 +1116,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 12,
         "per_serving": {
-          "calories": 50,
-          "fat_g": 1.8,
-          "carbs_g": 8.1,
-          "protein_g": 0.8,
-          "sodium_mg": 44,
-          "fiber_g": 0.4,
-          "sugar_g": 6.5
+          "calories": 33,
+          "fat_g": 1.2,
+          "carbs_g": 5.4,
+          "protein_g": 0.5,
+          "sodium_mg": 29,
+          "fiber_g": 0.2,
+          "sugar_g": 4.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1743,21 +1744,24 @@
         "gr-136"
       ],
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 8,
         "per_serving": {
-          "calories": 626,
-          "fat_g": 23.1,
-          "carbs_g": 103.4,
-          "protein_g": 4.1,
-          "sodium_mg": 237,
-          "fiber_g": 1.5,
-          "sugar_g": 84.9
+          "calories": 793,
+          "fat_g": 25.1,
+          "carbs_g": 141.5,
+          "protein_g": 4.3,
+          "sodium_mg": 548,
+          "fiber_g": 2.0,
+          "sugar_g": 119.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[CAKE]"
+        ],
         "assumptions": [
           "sifted cake flour: used default unit",
-          "sifted powdered sugar: used default unit"
+          "sifted powdered sugar: used default unit",
+          "banana extract: used default unit"
         ]
       }
     },
@@ -3440,15 +3444,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 13,
         "per_serving": {
-          "calories": 314,
-          "fat_g": 10.8,
-          "carbs_g": 49.6,
-          "protein_g": 5.4,
-          "sodium_mg": 346,
-          "fiber_g": 1.1,
-          "sugar_g": 29.6
+          "calories": 290,
+          "fat_g": 9.9,
+          "carbs_g": 45.8,
+          "protein_g": 5.0,
+          "sodium_mg": 320,
+          "fiber_g": 1.0,
+          "sugar_g": 27.3
         },
         "missing_inputs": [],
         "assumptions": [
@@ -3601,26 +3605,24 @@
         "gr-187"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 30,
         "per_serving": {
-          "calories": 872,
-          "fat_g": 68.8,
-          "carbs_g": 58.0,
-          "protein_g": 5.9,
-          "sodium_mg": 591,
-          "fiber_g": 2.0,
-          "sugar_g": 38.9
+          "calories": 3606,
+          "fat_g": 196.8,
+          "carbs_g": 410.8,
+          "protein_g": 48.6,
+          "sodium_mg": 805,
+          "fiber_g": 18.0,
+          "sugar_g": 327.4
         },
-        "missing_inputs": [
-          "pastel-colored peanut M&M's",
-          "multicolored marshmallow rope"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "vegetable shortening: used default unit",
           "vanilla frosting: used default unit",
           "frozen pound cakes: used default unit",
           "peanut butter-flavored Keebler Cookie Stix: used default unit",
+          "multicolored marshmallow rope: used default unit",
           "flexible straws and large marshmallows: used default unit"
         ]
       }
@@ -4873,19 +4875,19 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 8,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 684,
-          "fat_g": 59.0,
-          "carbs_g": 38.1,
-          "protein_g": 2.1,
-          "sodium_mg": 407,
-          "fiber_g": 0.9,
-          "sugar_g": 22.5
+          "calories": 664,
+          "fat_g": 67.4,
+          "carbs_g": 13.6,
+          "protein_g": 2.4,
+          "sodium_mg": 450,
+          "fiber_g": 0.4,
+          "sugar_g": 0.1
         },
         "missing_inputs": [],
         "assumptions": [
-          "pudding and pie filling mix: used default unit",
+          "vanilla pudding and pie filling mix: used default unit",
           "salt: used default unit",
           "butter or margarine: used default unit"
         ]
@@ -4966,15 +4968,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 12,
+        "servings_used": 16,
         "per_serving": {
-          "calories": 170,
-          "fat_g": 4.9,
-          "carbs_g": 26.9,
-          "protein_g": 3.3,
-          "sodium_mg": 257,
-          "fiber_g": 0.3,
-          "sugar_g": 14.7
+          "calories": 127,
+          "fat_g": 3.7,
+          "carbs_g": 20.1,
+          "protein_g": 2.5,
+          "sodium_mg": 193,
+          "fiber_g": 0.2,
+          "sugar_g": 11.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -5334,20 +5336,18 @@
         "Chill Time: 12+ hours"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
           "calories": 67,
           "fat_g": 3.2,
-          "carbs_g": 6.0,
+          "carbs_g": 6.1,
           "protein_g": 3.5,
           "sodium_mg": 43,
           "fiber_g": 0.3,
           "sugar_g": 5.7
         },
-        "missing_inputs": [
-          "ground ginger"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "PUBLIX 1% low-fat milk: used default unit",
           "peeled, mashed ripe peaches: used default unit",
@@ -5505,24 +5505,22 @@
         "gr-316"
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 84,
-          "fat_g": 2.4,
-          "carbs_g": 13.7,
-          "protein_g": 3.5,
-          "sodium_mg": 14,
-          "fiber_g": 0.0,
-          "sugar_g": 9.7
+          "calories": 143,
+          "fat_g": 3.1,
+          "carbs_g": 26.8,
+          "protein_g": 4.1,
+          "sodium_mg": 30,
+          "fiber_g": 0.7,
+          "sugar_g": 20.8
         },
-        "missing_inputs": [
-          "orange sherbet",
-          "orange sections"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "orange flavored gelatin: used default unit",
           "boiling water: used default unit",
+          "orange sherbet: used default unit",
           "Kraft Miniature Marshmallows: used default unit"
         ]
       }
@@ -5712,7 +5710,7 @@
       "servings_yield": "48 cookies",
       "temperature": "350\u00b0F (175\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
           "calories": 117,
@@ -5723,9 +5721,7 @@
           "fiber_g": 0.8,
           "sugar_g": 1.4
         },
-        "missing_inputs": [
-          "almond flavoring"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Pillsbury BEST All Purpose Flour: used default unit"
         ]
@@ -5822,20 +5818,18 @@
       "servings_yield": "About 3 dozen bars",
       "temperature": "375\u00b0F (190\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 18,
         "per_serving": {
-          "calories": 322,
-          "fat_g": 13.6,
-          "carbs_g": 44.1,
-          "protein_g": 6.2,
-          "sodium_mg": 191,
+          "calories": 344,
+          "fat_g": 14.1,
+          "carbs_g": 48.3,
+          "protein_g": 6.3,
+          "sodium_mg": 203,
           "fiber_g": 2.4,
-          "sugar_g": 10.2
+          "sugar_g": 13.6
         },
-        "missing_inputs": [
-          "caramel topping"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Pillsbury BEST All Purpose Flour: used default unit",
           "cooking oats: used default unit",
@@ -6237,20 +6231,18 @@
       "servings_yield": "About 5 dozen cookies",
       "temperature": "375\u00b0F (190\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 30,
         "per_serving": {
-          "calories": 125,
+          "calories": 139,
           "fat_g": 7.5,
-          "carbs_g": 13.3,
-          "protein_g": 1.8,
+          "carbs_g": 17.0,
+          "protein_g": 1.9,
           "sodium_mg": 114,
-          "fiber_g": 0.5,
-          "sugar_g": 8.0
+          "fiber_g": 0.9,
+          "sugar_g": 11.1
         },
-        "missing_inputs": [
-          "chopped dates"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Pillsbury BEST All Purpose Flour: used default unit",
           "crushed corn flakes: used default unit"
@@ -6353,20 +6345,18 @@
       "servings_yield": "About 4 dozen cookies",
       "temperature": "375\u00b0F (190\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 106,
-          "fat_g": 5.4,
-          "carbs_g": 13.2,
-          "protein_g": 1.5,
-          "sodium_mg": 116,
-          "fiber_g": 0.1,
-          "sugar_g": 9.6
+          "calories": 150,
+          "fat_g": 8.0,
+          "carbs_g": 18.4,
+          "protein_g": 2.1,
+          "sodium_mg": 122,
+          "fiber_g": 0.3,
+          "sugar_g": 14.4
         },
-        "missing_inputs": [
-          "Hershey's Kisses"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Pillsbury BEST All Purpose Flour: used default unit",
           "peanut butter: used default unit",
@@ -6837,22 +6827,18 @@
         }
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 60,
-          "fat_g": 0.0,
-          "carbs_g": 15.4,
-          "protein_g": 0.5,
-          "sodium_mg": 8,
+          "calories": 80,
+          "fat_g": 0.1,
+          "carbs_g": 20.5,
+          "protein_g": 0.7,
+          "sodium_mg": 11,
           "fiber_g": 0.0,
-          "sugar_g": 10.9
+          "sugar_g": 14.5
         },
-        "missing_inputs": [
-          "Jet-Puffed Miniatures for body",
-          "toothpicks",
-          "decorations (for face)"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Kraft Miniature Marshmallows: used default unit"
         ]
@@ -6915,21 +6901,18 @@
         }
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 20,
-          "fat_g": 0.0,
-          "carbs_g": 5.1,
-          "protein_g": 0.2,
-          "sodium_mg": 3,
-          "fiber_g": 0.0,
-          "sugar_g": 3.6
+          "calories": 170,
+          "fat_g": 6.5,
+          "carbs_g": 27.1,
+          "protein_g": 1.2,
+          "sodium_mg": 98,
+          "fiber_g": 0.2,
+          "sugar_g": 15.6
         },
-        "missing_inputs": [
-          "boot-shaped cookies",
-          "white frosting"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "Kraft Miniature Marshmallows: used default unit"
         ]
@@ -7001,22 +6984,21 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 52,
-          "fat_g": 2.7,
-          "carbs_g": 6.7,
-          "protein_g": 0.6,
-          "sodium_mg": 7,
-          "fiber_g": 0.3,
-          "sugar_g": 6.2
+          "calories": 102,
+          "fat_g": 3.7,
+          "carbs_g": 16.7,
+          "protein_g": 1.3,
+          "sodium_mg": 57,
+          "fiber_g": 0.7,
+          "sugar_g": 12.8
         },
-        "missing_inputs": [
-          "reduced calorie brownie mix"
-        ],
+        "missing_inputs": [],
         "assumptions": [
-          "PUBLIX Fat Free Cream Cheese, softened: used default unit"
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "reduced calorie brownie mix: used default unit"
         ]
       }
     },
@@ -7210,23 +7192,22 @@
         "Makes about 2 pounds"
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 24,
         "per_serving": {
-          "calories": 109,
+          "calories": 123,
           "fat_g": 8.2,
-          "carbs_g": 8.5,
-          "protein_g": 0.8,
-          "sodium_mg": 68,
+          "carbs_g": 11.9,
+          "protein_g": 0.9,
+          "sodium_mg": 71,
           "fiber_g": 0.3,
-          "sugar_g": 7.9
+          "sugar_g": 10.2
         },
-        "missing_inputs": [
-          "marshmallow creme"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "granulated sugar: used default unit",
-          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit"
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
+          "marshmallow creme: used default unit"
         ]
       }
     },

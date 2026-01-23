@@ -85,15 +85,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 5,
         "per_serving": {
-          "calories": 327,
-          "fat_g": 21.4,
-          "carbs_g": 15.2,
-          "protein_g": 16.7,
-          "sodium_mg": 847,
-          "fiber_g": 2.2,
-          "sugar_g": 2.8
+          "calories": 393,
+          "fat_g": 25.7,
+          "carbs_g": 18.2,
+          "protein_g": 20.0,
+          "sodium_mg": 1016,
+          "fiber_g": 2.6,
+          "sugar_g": 3.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -593,7 +593,6 @@
           "chopped green pepper: used default unit",
           "canned diced tomatoes with juice: used default unit",
           "tomato paste: used default unit",
-          "freshly ground black pepper: used default unit",
           "chopped parsley: used default unit"
         ]
       }
@@ -843,19 +842,23 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 134,
-          "fat_g": 1.8,
-          "carbs_g": 29.5,
-          "protein_g": 5.1,
-          "sodium_mg": 605,
-          "fiber_g": 3.7,
-          "sugar_g": 5.0
+          "calories": 241,
+          "fat_g": 13.4,
+          "carbs_g": 30.6,
+          "protein_g": 5.3,
+          "sodium_mg": 755,
+          "fiber_g": 3.8,
+          "sugar_g": 5.5
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "[BASTING SAUCE]"
+        ],
+        "assumptions": [
+          "Dijon mustard: used default unit"
+        ]
       }
     },
     {
@@ -1089,15 +1092,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 5,
         "per_serving": {
-          "calories": 391,
-          "fat_g": 8.9,
-          "carbs_g": 60.9,
-          "protein_g": 15.8,
-          "sodium_mg": 600,
-          "fiber_g": 3.7,
-          "sugar_g": 7.5
+          "calories": 469,
+          "fat_g": 10.6,
+          "carbs_g": 73.1,
+          "protein_g": 18.9,
+          "sodium_mg": 720,
+          "fiber_g": 4.4,
+          "sugar_g": 9.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -1993,18 +1996,20 @@
         "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 705,
+          "calories": 717,
           "fat_g": 51.8,
-          "carbs_g": 0.6,
+          "carbs_g": 3.7,
           "protein_g": 55.1,
           "sodium_mg": 466,
           "fiber_g": 0.1,
-          "sugar_g": 0.0
+          "sugar_g": 3.1
         },
         "missing_inputs": [],
         "assumptions": [
           "leg of lamb: used default unit",
-          "garlic: used default unit"
+          "garlic: used default unit",
+          "fresh mint leaves: used default unit",
+          "white wine vinegar: used default unit"
         ]
       }
     },
@@ -2393,19 +2398,26 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 336,
-          "fat_g": 20.4,
-          "carbs_g": 5.6,
-          "protein_g": 31.1,
-          "sodium_mg": 718,
-          "fiber_g": 0.7,
-          "sugar_g": 2.8
+          "calories": 434,
+          "fat_g": 26.2,
+          "carbs_g": 16.3,
+          "protein_g": 31.8,
+          "sodium_mg": 1075,
+          "fiber_g": 0.9,
+          "sugar_g": 11.5
         },
-        "missing_inputs": [],
-        "assumptions": []
+        "missing_inputs": [
+          "[SAUCE - RECONSTRUCTED]"
+        ],
+        "assumptions": [
+          "onion: used default unit",
+          "garlic: used default unit",
+          "ketchup: used default unit",
+          "Worcestershire sauce: used default unit"
+        ]
       }
     },
     {
@@ -3358,15 +3370,15 @@
       ],
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 686,
-          "fat_g": 46.6,
-          "carbs_g": 17.8,
-          "protein_g": 44.3,
-          "sodium_mg": 1570,
-          "fiber_g": 1.9,
-          "sugar_g": 3.5
+          "calories": 392,
+          "fat_g": 26.6,
+          "carbs_g": 10.2,
+          "protein_g": 25.3,
+          "sodium_mg": 897,
+          "fiber_g": 1.1,
+          "sugar_g": 2.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -3469,15 +3481,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 4,
         "per_serving": {
-          "calories": 247,
-          "fat_g": 4.0,
-          "carbs_g": 42.2,
-          "protein_g": 11.6,
-          "sodium_mg": 206,
-          "fiber_g": 4.5,
-          "sugar_g": 4.0
+          "calories": 371,
+          "fat_g": 6.1,
+          "carbs_g": 63.2,
+          "protein_g": 17.4,
+          "sodium_mg": 308,
+          "fiber_g": 6.8,
+          "sugar_g": 6.0
         },
         "missing_inputs": [],
         "assumptions": [
@@ -4156,11 +4168,11 @@
         "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 951,
-          "fat_g": 100.0,
+          "calories": 238,
+          "fat_g": 19.5,
           "carbs_g": 7.3,
-          "protein_g": 10.7,
-          "sodium_mg": 883,
+          "protein_g": 9.8,
+          "sodium_mg": 322,
           "fiber_g": 0.5,
           "sugar_g": 5.5
         },
@@ -4251,23 +4263,22 @@
         "Red Snapper fillets may be substituted for sea trout."
       ],
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 976,
-          "fat_g": 62.4,
-          "carbs_g": 43.8,
-          "protein_g": 53.7,
-          "sodium_mg": 1249,
-          "fiber_g": 2.0,
-          "sugar_g": 0.0
+          "calories": 1048,
+          "fat_g": 63.8,
+          "carbs_g": 45.8,
+          "protein_g": 66.5,
+          "sodium_mg": 1375,
+          "fiber_g": 2.5,
+          "sugar_g": 1.2
         },
-        "missing_inputs": [
-          "Florida sea trout fillets",
-          "Italian sauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "Florida sea trout fillets: used default unit",
           "lasagna noodles: used default unit",
+          "Italian sauce: used default unit",
           "low fat ricotta cheese: used default unit",
           "grated Parmesan cheese: used default unit",
           "cooked medium shrimp: used default unit"
@@ -4341,21 +4352,18 @@
       ],
       "temperature": "Medium grill heat",
       "nutrition": {
-        "status": "insufficient_data",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 388,
-          "fat_g": 28.5,
-          "carbs_g": 0.5,
-          "protein_g": 29.2,
-          "sodium_mg": 616,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
+          "calories": 447,
+          "fat_g": 31.9,
+          "carbs_g": 5.5,
+          "protein_g": 32.0,
+          "sodium_mg": 869,
+          "fiber_g": 0.1,
+          "sugar_g": 3.2
         },
-        "missing_inputs": [
-          "KRAFT Original Barbecue Sauce",
-          "KRAFT Singles"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "OSCAR MAYER Bacon: used default unit"
         ]
@@ -4641,21 +4649,20 @@
       ],
       "temperature": "400\u00b0F (200\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 622,
-          "fat_g": 8.8,
-          "carbs_g": 128.2,
+          "calories": 674,
+          "fat_g": 8.9,
+          "carbs_g": 141.7,
           "protein_g": 19.4,
-          "sodium_mg": 1121,
-          "fiber_g": 20.7,
-          "sugar_g": 95.8
+          "sodium_mg": 1131,
+          "fiber_g": 21.0,
+          "sugar_g": 106.5
         },
-        "missing_inputs": [
-          "PUBLIX jellied cranberry sauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "PUBLIX jellied cranberry sauce: used default unit",
           "boneless ham: used default unit",
           "juice-packed pineapple chunks: used default unit"
         ]
@@ -4738,20 +4745,18 @@
       ],
       "temperature": "400\u00b0F (200\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 232,
-          "fat_g": 7.0,
-          "carbs_g": 40.5,
-          "protein_g": 5.3,
+          "calories": 233,
+          "fat_g": 7.1,
+          "carbs_g": 40.6,
+          "protein_g": 5.4,
           "sodium_mg": 61,
-          "fiber_g": 0.9,
+          "fiber_g": 1.0,
           "sugar_g": 39.4
         },
-        "missing_inputs": [
-          "curry powder"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "milk: used default unit",
           "PUBLIX Premium chicken breast tenders: used default unit",
@@ -4856,21 +4861,20 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 238,
-          "fat_g": 15.6,
-          "carbs_g": 14.1,
-          "protein_g": 10.0,
+          "calories": 265,
+          "fat_g": 15.8,
+          "carbs_g": 19.5,
+          "protein_g": 11.0,
           "sodium_mg": 472,
-          "fiber_g": 0.4,
-          "sugar_g": 1.5
+          "fiber_g": 0.7,
+          "sugar_g": 1.6
         },
-        "missing_inputs": [
-          "PUBLIX Elbow Macaroni"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "PUBLIX Elbow Macaroni: used default unit",
           "PUBLIX Sweet Cream Butter: used default unit",
           "garlic: used default unit",
           "chicken broth: used default unit",
@@ -4949,24 +4953,23 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 423,
+          "calories": 424,
           "fat_g": 24.8,
-          "carbs_g": 5.8,
-          "protein_g": 41.7,
+          "carbs_g": 6.0,
+          "protein_g": 41.8,
           "sodium_mg": 158,
           "fiber_g": 0.0,
           "sugar_g": 5.3
         },
-        "missing_inputs": [
-          "fresh ginger, grated"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "sirloin steak: used default unit",
           "soy sauce: used default unit",
-          "garlic, minced: used default unit"
+          "garlic, minced: used default unit",
+          "fresh ginger, grated: used default unit"
         ]
       }
     },
@@ -5039,22 +5042,21 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 5,
         "per_serving": {
-          "calories": 840,
+          "calories": 846,
           "fat_g": 49.8,
-          "carbs_g": 34.8,
+          "carbs_g": 36.2,
           "protein_g": 66.1,
-          "sodium_mg": 725,
-          "fiber_g": 4.3,
-          "sugar_g": 6.0
+          "sodium_mg": 760,
+          "fiber_g": 4.4,
+          "sugar_g": 7.0
         },
-        "missing_inputs": [
-          "barbecue sauce"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "country-style pork ribs: used default unit",
+          "barbecue sauce: used default unit",
           "corn on the cob: used default unit",
           "salt and pepper: used default unit"
         ]
@@ -5140,21 +5142,20 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 80,
-          "fat_g": 0.1,
+          "calories": 593,
+          "fat_g": 30.5,
           "carbs_g": 20.5,
-          "protein_g": 0.5,
-          "sodium_mg": 45,
+          "protein_g": 58.8,
+          "sodium_mg": 208,
           "fiber_g": 1.7,
           "sugar_g": 16.7
         },
-        "missing_inputs": [
-          "beef chuck roast"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "beef chuck roast: used default unit",
           "ketchup: used default unit",
           "apple cider vinegar: used default unit",
           "garlic, minced: used default unit"
@@ -5743,20 +5744,18 @@
       ],
       "temperature": "350\u00b0F (175\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 412,
-          "fat_g": 15.9,
-          "carbs_g": 50.2,
-          "protein_g": 15.3,
-          "sodium_mg": 229,
-          "fiber_g": 1.5,
-          "sugar_g": 2.2
+          "calories": 466,
+          "fat_g": 16.6,
+          "carbs_g": 60.0,
+          "protein_g": 17.1,
+          "sodium_mg": 345,
+          "fiber_g": 1.9,
+          "sugar_g": 3.0
         },
-        "missing_inputs": [
-          "breadcrumbs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "prepared salt cod: used default unit",
           "flour: used default unit",
@@ -5850,23 +5849,22 @@
       ],
       "servings_yield": "6 servings",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 6,
         "per_serving": {
-          "calories": 1223,
-          "fat_g": 68.1,
-          "carbs_g": 120.4,
-          "protein_g": 21.6,
-          "sodium_mg": 629,
+          "calories": 1281,
+          "fat_g": 73.9,
+          "carbs_g": 121.5,
+          "protein_g": 22.3,
+          "sodium_mg": 641,
           "fiber_g": 3.5,
-          "sugar_g": 2.3
+          "sugar_g": 3.5
         },
-        "missing_inputs": [
-          "light cream"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "cooked shrimp: used default unit",
           "flour: used default unit",
+          "light cream: used default unit",
           "sherry: used default unit"
         ]
       }
@@ -6061,20 +6059,18 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 269,
-          "fat_g": 18.0,
-          "carbs_g": 8.0,
-          "protein_g": 18.0,
-          "sodium_mg": 1302,
-          "fiber_g": 1.7,
-          "sugar_g": 4.3
+          "calories": 323,
+          "fat_g": 18.8,
+          "carbs_g": 17.7,
+          "protein_g": 19.7,
+          "sodium_mg": 1418,
+          "fiber_g": 2.1,
+          "sugar_g": 5.1
         },
-        "missing_inputs": [
-          "breadcrumbs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "ground beef: used default unit",
           "onion, minced: used default unit",
@@ -6164,7 +6160,7 @@
       ],
       "temperature": "325\u00b0F (165\u00b0C)",
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
           "calories": 1542,
@@ -6175,12 +6171,11 @@
           "fiber_g": 0.1,
           "sugar_g": 6.2
         },
-        "missing_inputs": [
-          "fresh mint, chopped"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "leg of lamb: used default unit",
           "rosemary: used default unit",
+          "fresh mint, chopped: used default unit",
           "white vinegar: used default unit"
         ]
       }
@@ -6626,22 +6621,20 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 4,
         "per_serving": {
-          "calories": 303,
-          "fat_g": 23.1,
-          "carbs_g": 10.6,
-          "protein_g": 13.5,
-          "sodium_mg": 602,
-          "fiber_g": 0.5,
-          "sugar_g": 3.6
+          "calories": 431,
+          "fat_g": 24.1,
+          "carbs_g": 16.0,
+          "protein_g": 35.6,
+          "sodium_mg": 1000,
+          "fiber_g": 0.7,
+          "sugar_g": 3.9
         },
-        "missing_inputs": [
-          "sliced lobster",
-          "castle crumbs"
-        ],
+        "missing_inputs": [],
         "assumptions": [
+          "sliced lobster: used default unit",
           "cooked shrimp: used default unit",
           "chopped onion: used default unit"
         ]

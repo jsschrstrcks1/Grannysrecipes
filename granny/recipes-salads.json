@@ -100,15 +100,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 8,
         "per_serving": {
-          "calories": 216,
-          "fat_g": 12.2,
-          "carbs_g": 20.0,
-          "protein_g": 8.9,
-          "sodium_mg": 216,
-          "fiber_g": 2.9,
-          "sugar_g": 15.1
+          "calories": 108,
+          "fat_g": 6.1,
+          "carbs_g": 10.0,
+          "protein_g": 4.4,
+          "sodium_mg": 108,
+          "fiber_g": 1.4,
+          "sugar_g": 7.6
         },
         "missing_inputs": [],
         "assumptions": [
@@ -236,22 +236,25 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 97,
-          "fat_g": 0.3,
-          "carbs_g": 20.4,
-          "protein_g": 4.0,
-          "sodium_mg": 15,
+          "calories": 109,
+          "fat_g": 1.6,
+          "carbs_g": 20.7,
+          "protein_g": 4.1,
+          "sodium_mg": 172,
           "fiber_g": 4.2,
-          "sugar_g": 5.4
+          "sugar_g": 5.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[DRESSING]"
+        ],
         "assumptions": [
           "mixed vegetables: used default unit",
           "sliced celery: used default unit",
-          "chopped green onion: used default unit"
+          "chopped green onion: used default unit",
+          "mayonnaise: used default unit"
         ]
       }
     },
@@ -359,18 +362,20 @@
         ]
       },
       "nutrition": {
-        "status": "complete",
+        "status": "partial",
         "servings_used": 4,
         "per_serving": {
-          "calories": 467,
-          "fat_g": 49.8,
-          "carbs_g": 1.7,
-          "protein_g": 5.2,
-          "sodium_mg": 386,
-          "fiber_g": 0.7,
+          "calories": 559,
+          "fat_g": 60.3,
+          "carbs_g": 2.1,
+          "protein_g": 5.3,
+          "sodium_mg": 538,
+          "fiber_g": 0.8,
           "sugar_g": 0.5
         },
-        "missing_inputs": [],
+        "missing_inputs": [
+          "[DRESSING]"
+        ],
         "assumptions": [
           "Butterhead lettuce: used default unit",
           "radishes: used default unit"

@@ -540,20 +540,18 @@
         }
       ],
       "nutrition": {
-        "status": "partial",
+        "status": "complete",
         "servings_used": 8,
         "per_serving": {
-          "calories": 95,
-          "fat_g": 8.8,
-          "carbs_g": 1.3,
-          "protein_g": 2.7,
-          "sodium_mg": 98,
+          "calories": 113,
+          "fat_g": 9.1,
+          "carbs_g": 3.6,
+          "protein_g": 4.6,
+          "sodium_mg": 248,
           "fiber_g": 0.1,
-          "sugar_g": 0.8
+          "sugar_g": 1.9
         },
-        "missing_inputs": [
-          "imitation crab, flaked"
-        ],
+        "missing_inputs": [],
         "assumptions": [
           "PUBLIX Fat Free Cream Cheese, softened: used default unit",
           "fat free mayonnaise: used default unit",
