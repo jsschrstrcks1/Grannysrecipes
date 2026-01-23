@@ -17523,8 +17523,10 @@
       "category": "mains",
       "source_note": "typed recipe sheet",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "161",
@@ -17544,7 +17546,79 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "soaked overnight and drained"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "2",
+          "unit": "lbs",
+          "prep_note": "peeled and quartered"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "onion",
+          "quantity": "1",
+          "unit": "large",
+          "prep_note": "sliced"
+        },
+        {
+          "item": "black pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "parsley",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak salt cod in cold water for 24 hours, changing water several times to remove excess salt."
+        },
+        {
+          "step": 2,
+          "text": "Place cod in a pot, cover with fresh water, and simmer for 15-20 minutes until fish flakes easily."
+        },
+        {
+          "step": 3,
+          "text": "Meanwhile, boil potatoes until tender. Drain and keep warm."
+        },
+        {
+          "step": 4,
+          "text": "In a large skillet, heat olive oil. Saut\u00e9 garlic and onion until softened."
+        },
+        {
+          "step": 5,
+          "text": "Flake the cod and add to the skillet. Add potatoes and toss gently."
+        },
+        {
+          "step": 6,
+          "text": "Season with pepper and garnish with parsley. Serve warm."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional salt cod preparation - original image not available"
+      ]
     },
     {
       "id": "codfish-souffle-granny",
@@ -17554,8 +17628,10 @@
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "161"
@@ -17574,7 +17650,81 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "soaked, cooked and flaked"
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "separated"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "parsley",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Butter a 1-1/2 quart souffl\u00e9 dish."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in saucepan, stir in flour. Gradually add milk, stirring until thick."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat. Beat in egg yolks one at a time. Stir in flaked codfish, salt, pepper, and parsley."
+        },
+        {
+          "step": 4,
+          "text": "Beat egg whites until stiff peaks form. Fold gently into codfish mixture."
+        },
+        {
+          "step": 5,
+          "text": "Pour into prepared dish. Bake 35-40 minutes until puffed and golden."
+        },
+        {
+          "step": 6,
+          "text": "Serve immediately."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional codfish souffl\u00e9 - original image not available"
+      ]
     },
     {
       "id": "creamed-salt-codfish-granny",
@@ -17584,8 +17734,10 @@
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "161"
@@ -17604,7 +17756,77 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "soaked and flaked"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "hard-boiled eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "toast points or boiled potatoes",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soak salt cod overnight, drain and shred into small pieces."
+        },
+        {
+          "step": 2,
+          "text": "Melt butter in saucepan, stir in flour to make a roux."
+        },
+        {
+          "step": 3,
+          "text": "Gradually add milk, stirring constantly until sauce thickens."
+        },
+        {
+          "step": 4,
+          "text": "Add flaked codfish and heat through."
+        },
+        {
+          "step": 5,
+          "text": "Stir in chopped eggs and season with pepper."
+        },
+        {
+          "step": 6,
+          "text": "Serve over toast points or boiled potatoes."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional creamed codfish - original image not available"
+      ]
     },
     {
       "id": "salt-cod-fish-cakes-granny",
@@ -17614,8 +17836,10 @@
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "161"
@@ -17634,7 +17858,72 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "soaked, cooked and flaked"
+        },
+        {
+          "item": "mashed potatoes",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "onion",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "minced"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter or oil",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for frying"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine flaked codfish with mashed potatoes in a bowl."
+        },
+        {
+          "step": 2,
+          "text": "Add beaten egg, minced onion, and pepper. Mix well."
+        },
+        {
+          "step": 3,
+          "text": "Shape mixture into patties about 3 inches in diameter."
+        },
+        {
+          "step": 4,
+          "text": "Heat butter or oil in a skillet over medium heat."
+        },
+        {
+          "step": 5,
+          "text": "Fry fish cakes until golden brown on both sides, about 3-4 minutes per side."
+        },
+        {
+          "step": 6,
+          "text": "Drain on paper towels and serve hot."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional salt cod fish cakes - original image not available"
+      ]
     },
     {
       "id": "codfish-cheese-granny",
@@ -17644,8 +17933,10 @@
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "161"
@@ -17664,7 +17955,82 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "salt cod",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "soaked, cooked and flaked"
+        },
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "shredded"
+        },
+        {
+          "item": "pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "to taste"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "melted, for topping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease a casserole dish."
+        },
+        {
+          "step": 2,
+          "text": "Make a white sauce: melt butter, stir in flour, gradually add milk. Cook until thickened."
+        },
+        {
+          "step": 3,
+          "text": "Stir in cheese until melted. Season with pepper."
+        },
+        {
+          "step": 4,
+          "text": "Fold in flaked codfish. Pour into prepared dish."
+        },
+        {
+          "step": 5,
+          "text": "Top with bread crumbs mixed with melted butter."
+        },
+        {
+          "step": 6,
+          "text": "Bake 25-30 minutes until bubbly and golden."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional codfish au gratin - original image not available"
+      ]
     },
     {
       "id": "shrimp-newburg-patty-shells-granny",
@@ -17674,8 +18040,10 @@
       "category": "mains",
       "source_note": "My Great Recipes card",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "gr-127",
@@ -17695,7 +18063,86 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "cooked shrimp",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "peeled and deveined"
+        },
+        {
+          "item": "butter",
+          "quantity": "3",
+          "unit": "tbsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "heavy cream",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg yolks",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "sherry",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "frozen patty shells",
+          "quantity": "6",
+          "unit": "",
+          "prep_note": "baked according to package"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt butter in a saucepan over medium heat. Stir in flour and cook 1 minute."
+        },
+        {
+          "step": 2,
+          "text": "Gradually add cream, stirring constantly until sauce thickens."
+        },
+        {
+          "step": 3,
+          "text": "Temper egg yolks by adding a small amount of hot sauce, then stir back into pan."
+        },
+        {
+          "step": 4,
+          "text": "Add shrimp, sherry, salt, and paprika. Heat through but do not boil."
+        },
+        {
+          "step": 5,
+          "text": "Spoon shrimp mixture into warm baked patty shells."
+        },
+        {
+          "step": 6,
+          "text": "Serve immediately."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional Shrimp Newburg - original image not readable"
+      ]
     },
     {
       "id": "linguine-garden-clam-sauce-granny",
@@ -17816,8 +18263,10 @@
       "category": "mains",
       "source_note": "My Great Recipes card",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "gr-184",
@@ -17837,7 +18286,88 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "ground beef",
+          "quantity": "1",
+          "unit": "lb"
+        },
+        {
+          "item": "bread crumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "minced"
+        },
+        {
+          "item": "garlic",
+          "quantity": "2",
+          "unit": "cloves",
+          "prep_note": "minced"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "Italian seasoning",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato sauce",
+          "quantity": "2",
+          "unit": "cans",
+          "prep_note": "15 oz each"
+        },
+        {
+          "item": "Parmesan cheese",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "grated, for serving"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine ground beef, bread crumbs, egg, onion, garlic, salt, pepper, and Italian seasoning. Mix well."
+        },
+        {
+          "step": 2,
+          "text": "Shape mixture into 1-1/2 inch meatballs."
+        },
+        {
+          "step": 3,
+          "text": "In a large skillet, brown meatballs on all sides over medium-high heat."
+        },
+        {
+          "step": 4,
+          "text": "Pour tomato sauce over meatballs. Reduce heat and simmer 20-25 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Serve over pasta or with crusty bread. Sprinkle with Parmesan cheese."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional Italian-American meatballs"
+      ]
     },
     {
       "id": "strawberries-cream-cheese-freeze-granny",
@@ -17847,8 +18377,10 @@
       "category": "desserts",
       "source_note": "My Great Recipes card",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "gr-192",
@@ -17868,7 +18400,63 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "strawberries",
+          "quantity": "1",
+          "unit": "pint",
+          "prep_note": "hulled and sliced"
+        },
+        {
+          "item": "Cool Whip",
+          "quantity": "8",
+          "unit": "oz",
+          "prep_note": "thawed"
+        },
+        {
+          "item": "graham cracker crust",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "9-inch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat cream cheese and sugar until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Fold in strawberries and Cool Whip."
+        },
+        {
+          "step": 3,
+          "text": "Spread into graham cracker crust."
+        },
+        {
+          "step": 4,
+          "text": "Freeze for at least 4 hours or until firm."
+        },
+        {
+          "step": 5,
+          "text": "Let stand at room temperature for 10 minutes before serving."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional frozen strawberry pie"
+      ]
     },
     {
       "id": "roast-leg-lamb-mint-sauce-granny",
@@ -17878,8 +18466,10 @@
       "category": "mains",
       "source_note": "My Great Recipes card",
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "medium",
+        "flags": [
+          "Inferred from traditional recipe"
+        ]
       },
       "image_refs": [
         "gr-229",
@@ -17899,7 +18489,86 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "leg of lamb",
+          "quantity": "5-6",
+          "unit": "lbs"
+        },
+        {
+          "item": "garlic",
+          "quantity": "4",
+          "unit": "cloves",
+          "prep_note": "slivered"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "fresh, chopped"
+        },
+        {
+          "item": "olive oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "fresh mint",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "white wine vinegar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 450\u00b0F. Make small slits in lamb and insert garlic slivers."
+        },
+        {
+          "step": 2,
+          "text": "Rub lamb with olive oil, rosemary, salt, and pepper."
+        },
+        {
+          "step": 3,
+          "text": "Place in roasting pan. Roast 20 minutes, then reduce heat to 325\u00b0F."
+        },
+        {
+          "step": 4,
+          "text": "Continue roasting about 20 minutes per pound for medium-rare (145\u00b0F internal)."
+        },
+        {
+          "step": 5,
+          "text": "For mint sauce: Combine mint, vinegar, and sugar. Let stand 30 minutes."
+        },
+        {
+          "step": 6,
+          "text": "Let lamb rest 15 minutes before carving. Serve with mint sauce."
+        }
+      ],
+      "notes": [
+        "Recipe inferred from traditional British roast lamb"
+      ]
     },
     {
       "id": "quick-corn-souffle-full-granny",
