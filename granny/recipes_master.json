@@ -17006,6 +17006,108 @@
         ]
       },
       "source_note": "handwritten card"
+    },
+    {
+      "id": "grandmas-wheat-bran-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Wheat Bran Muffins",
+      "category": "breads",
+      "description": "Wholesome wheat bran muffins with sunflower seeds.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "20-25 minutes",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "almond extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "wheat flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "white flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "wheat bran",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sunflower seeds",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix butter, sugar, and eggs together."
+        },
+        {
+          "step": 2,
+          "text": "In another bowl, mix flour, baking powder, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Add dry ingredients to egg mixture."
+        },
+        {
+          "step": 4,
+          "text": "Stir in wheat bran and sunflower seeds."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 20-25 minutes."
+        }
+      ],
+      "tags": [
+        "muffins",
+        "breakfast",
+        "wheat bran",
+        "sunflower seeds",
+        "healthy"
+      ],
+      "image_refs": [
+        "gr-71"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "some words hard to read"
+        ]
+      },
+      "source_note": "handwritten card - Grandma's recipe"
     }
   ],
   "meta": {
