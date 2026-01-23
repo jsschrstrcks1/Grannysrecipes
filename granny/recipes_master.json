@@ -71,7 +71,6 @@
         "family"
       ],
       "image_refs": [
-        "4",
         "gr-3"
       ],
       "confidence": {
@@ -172,9 +171,7 @@
         "cheesecake",
         "cream cheese"
       ],
-      "image_refs": [
-        "13"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -310,10 +307,7 @@
         "oatmeal",
         "classic"
       ],
-      "image_refs": [
-        "15",
-        "gr-16"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -428,7 +422,6 @@
         "main dish"
       ],
       "image_refs": [
-        "gr-85",
         "gr-86"
       ],
       "confidence": {
@@ -663,8 +656,7 @@
         "main dish"
       ],
       "image_refs": [
-        "gr-89",
-        "gr-90"
+        "gr-89"
       ],
       "confidence": {
         "overall": "high",
@@ -1299,9 +1291,7 @@
         "coconut",
         "cherry"
       ],
-      "image_refs": [
-        "34"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -4345,8 +4335,6 @@
         "mexican"
       ],
       "image_refs": [
-        "76",
-        "77",
         "84",
         "85"
       ],
@@ -4948,7 +4936,6 @@
         "clams"
       ],
       "image_refs": [
-        "93",
         "gr-233",
         "gr-234"
       ],
@@ -5081,9 +5068,7 @@
         "vegetables",
         "healthy"
       ],
-      "image_refs": [
-        "95"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -5202,9 +5187,7 @@
         "apples",
         "main dish"
       ],
-      "image_refs": [
-        "96"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -5354,7 +5337,6 @@
         "quick"
       ],
       "image_refs": [
-        "98",
         "gr-103",
         "gr-104"
       ],
@@ -5494,7 +5476,6 @@
         "cheese"
       ],
       "image_refs": [
-        "100",
         "101"
       ],
       "confidence": {
@@ -5606,7 +5587,6 @@
         "main dish"
       ],
       "image_refs": [
-        "104",
         "105"
       ],
       "confidence": {
@@ -5745,7 +5725,6 @@
         "party food"
       ],
       "image_refs": [
-        "106",
         "107"
       ],
       "confidence": {
@@ -5874,9 +5853,7 @@
         "pecans",
         "maple"
       ],
-      "image_refs": [
-        "108"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -6003,7 +5980,6 @@
         "side dish"
       ],
       "image_refs": [
-        "110",
         "111"
       ],
       "confidence": {
@@ -6146,7 +6122,6 @@
         "hearty"
       ],
       "image_refs": [
-        "112",
         "113",
         "gr-119",
         "gr-120"
@@ -6267,7 +6242,6 @@
         "simple"
       ],
       "image_refs": [
-        "114",
         "gr-117",
         "gr-118"
       ],
@@ -9621,7 +9595,6 @@
         ]
       },
       "image_refs": [
-        "170",
         "gr-170"
       ],
       "nutrition": {
@@ -9854,7 +9827,6 @@
         "flags": []
       },
       "image_refs": [
-        "166",
         "167",
         "gr-175"
       ],
@@ -9984,10 +9956,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [
-        "168",
-        "169"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 8,
@@ -16475,8 +16444,7 @@
         ]
       },
       "image_refs": [
-        "gr-5",
-        "gr-6"
+        "gr-5"
       ],
       "nutrition": {
         "status": "complete",
@@ -16580,8 +16548,7 @@
         ]
       },
       "image_refs": [
-        "gr-7",
-        "gr-8"
+        "gr-7"
       ],
       "nutrition": {
         "status": "complete",
@@ -16694,8 +16661,7 @@
         ]
       },
       "image_refs": [
-        "gr-9",
-        "gr-10"
+        "gr-9"
       ],
       "nutrition": {
         "status": "complete",
@@ -16787,7 +16753,6 @@
       },
       "image_refs": [
         "gr-19",
-        "gr-20",
         "gr-21",
         "gr-23"
       ],
@@ -18510,10 +18475,7 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [
-        "gr-11",
-        "gr-12"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 30,
@@ -18725,10 +18687,7 @@
           "Inferred from traditional recipe"
         ]
       },
-      "image_refs": [
-        "161",
-        "162"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -18830,9 +18789,7 @@
           "Inferred from traditional recipe"
         ]
       },
-      "image_refs": [
-        "161"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -18936,9 +18893,7 @@
           "Inferred from traditional recipe"
         ]
       },
-      "image_refs": [
-        "161"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -19038,9 +18993,7 @@
           "Inferred from traditional recipe"
         ]
       },
-      "image_refs": [
-        "161"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -19135,9 +19088,7 @@
           "Inferred from traditional recipe"
         ]
       },
-      "image_refs": [
-        "161"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -20086,7 +20037,6 @@
         "flags": []
       },
       "image_refs": [
-        "gr-30",
         "gr-29"
       ],
       "nutrition": {
@@ -20199,8 +20149,7 @@
         "flags": []
       },
       "image_refs": [
-        "gr-32",
-        "34"
+        "gr-32"
       ],
       "nutrition": {
         "status": "complete",
@@ -21503,8 +21452,7 @@
         "red snapper"
       ],
       "image_refs": [
-        "80",
-        "81"
+        "80"
       ],
       "confidence": {
         "overall": "medium",
@@ -21615,8 +21563,7 @@
         "fennel"
       ],
       "image_refs": [
-        "101",
-        "102"
+        "101"
       ],
       "confidence": {
         "overall": "medium",
@@ -21723,8 +21670,7 @@
         "quiche"
       ],
       "image_refs": [
-        "121",
-        "122"
+        "121"
       ],
       "confidence": {
         "overall": "medium",
@@ -21816,9 +21762,7 @@
         "peach",
         "frozen dessert"
       ],
-      "image_refs": [
-        "187"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": [
