@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "appetizers",
-    "count": 4
+    "count": 5
   },
   "recipes": [
     {
@@ -83,7 +83,12 @@
         "guacamole",
         "mexican"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "76",
+        "77",
+        "84",
+        "85"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -178,7 +183,10 @@
         "sausage",
         "stuffed"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-227",
+        "gr-228"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -310,7 +318,10 @@
         "bread",
         "party food"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "106",
+        "107"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -424,7 +435,11 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "166",
+        "167",
+        "gr-175"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 8,
@@ -441,6 +456,107 @@
         "assumptions": [
           "cannellini beans: used default unit",
           "Hellmann's or Best Foods Real or Low Fat Mayonnaise or Dressing: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "healthy-crab-dip-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Healthy Crab Dip",
+      "category": "appetizers",
+      "source_note": "Publix recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-327"
+      ],
+      "ingredients": [
+        {
+          "item": "nonfat plain yogurt or sour cream",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "PUBLIX Fat Free Cream Cheese, softened",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "fat free mayonnaise",
+          "quantity": "1",
+          "unit": "8 oz bar"
+        },
+        {
+          "item": "prepared horseradish",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "dry mustard",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Worcestershire sauce",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "hot pepper sauce",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "fat free shredded cheddar cheese, flaked",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "imitation crab, flaked",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "paprika",
+          "quantity": "1/4",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine yogurt, mayonnaise, cream cheese and seasonings."
+        },
+        {
+          "step": 2,
+          "text": "Mix well. Stir in shredded cheese and crab. Cover and chill 2 hours."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle with paprika. Serve with crackers, breadsticks or vegetables."
+        }
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 113,
+          "fat_g": 9.1,
+          "carbs_g": 3.6,
+          "protein_g": 4.6,
+          "sodium_mg": 248,
+          "fiber_g": 0.1,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "fat free mayonnaise: used default unit",
+          "prepared horseradish: used default unit",
+          "Worcestershire sauce: used default unit"
         ]
       }
     }

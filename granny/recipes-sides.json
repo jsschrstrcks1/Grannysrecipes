@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "sides",
-    "count": 8
+    "count": 10
   },
   "recipes": [
     {
@@ -98,7 +98,10 @@
         "souffle",
         "vegetable"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-95",
+        "gr-96"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -222,15 +225,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 6,
+        "servings_used": 7,
         "per_serving": {
-          "calories": 236,
-          "fat_g": 21.6,
-          "carbs_g": 5.8,
-          "protein_g": 5.9,
-          "sodium_mg": 606,
-          "fiber_g": 0.5,
-          "sugar_g": 2.0
+          "calories": 202,
+          "fat_g": 18.5,
+          "carbs_g": 5.0,
+          "protein_g": 5.0,
+          "sodium_mg": 519,
+          "fiber_g": 0.4,
+          "sugar_g": 1.7
         },
         "missing_inputs": [],
         "assumptions": [
@@ -315,7 +318,10 @@
         "vegetable",
         "eggs"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-128",
+        "gr-129"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -540,7 +546,8 @@
         "cheese"
       ],
       "image_refs": [
-        "100"
+        "100",
+        "101"
       ],
       "confidence": {
         "overall": "high",
@@ -660,7 +667,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-123",
+        "gr-124"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -790,7 +800,12 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "220",
+        "gr-121",
+        "gr-122",
+        "gr-220"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -916,7 +931,9 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-171"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 7,
@@ -932,6 +949,202 @@
         "missing_inputs": [],
         "assumptions": [
           "mashed sweet potatoes: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "quick-corn-souffle-full-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Quick Corn Souffl\u00e9",
+      "category": "sides",
+      "source_note": "My Great Recipes card back",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "eggs, room temperature",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "creamed-style corn",
+          "quantity": "1",
+          "unit": "can (1 lb.)"
+        },
+        {
+          "item": "salt and white pepper",
+          "quantity": "dash",
+          "unit": ""
+        },
+        {
+          "item": "butter or margarine, melted",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "In stainless steel bowl, beat eggs lightly."
+        },
+        {
+          "step": 2,
+          "text": "Stir in corn, salt, pepper, butter, flour, sugar and milk. Beat until well mixed."
+        },
+        {
+          "step": 3,
+          "text": "Add baking powder. Mix well."
+        },
+        {
+          "step": 4,
+          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
+        },
+        {
+          "step": 6,
+          "text": "Garnish with pepper slices, if used. Serve immediately."
+        }
+      ],
+      "notes": [
+        "Good served with: Ham steaks and rye bread",
+        "Health Note: To reduce sodium, use no-salt-added canned creamed corn."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-26",
+        "gr-27"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 252,
+          "fat_g": 12.8,
+          "carbs_g": 27.5,
+          "protein_g": 7.9,
+          "sodium_mg": 592,
+          "fiber_g": 1.0,
+          "sugar_g": 11.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "milk: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "pickled-beets-shag-taylor-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pickled Beets",
+      "category": "sides",
+      "source_note": "handwritten on Shag Taylor Pump Company envelope, Wauchula, Florida",
+      "ingredients": [
+        {
+          "item": "beets",
+          "quantity": "6",
+          "unit": "qt or 1 can"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "2-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "vinegar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves",
+          "quantity": "6-7",
+          "unit": "small"
+        }
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten",
+          "family-heirloom",
+          "florida-history"
+        ]
+      },
+      "image_refs": [
+        "gr-68"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cook fresh beets until tender; cool, peel, and slice."
+        },
+        {
+          "step": 2,
+          "text": "Combine vinegar, sugar, and spices in saucepan; bring to boil."
+        },
+        {
+          "step": 3,
+          "text": "Pour hot liquid over beets in jars."
+        },
+        {
+          "step": 4,
+          "text": "Seal and refrigerate. Best after 24 hours."
+        }
+      ],
+      "notes": [
+        "Recipe from Shag Taylor, written on envelope back"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 0.6,
+          "carbs_g": 31.1,
+          "protein_g": 2.1,
+          "sodium_mg": 112,
+          "fiber_g": 4.8,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "beets: used default unit",
+          "water: used default unit",
+          "vinegar: used default unit"
         ]
       }
     }

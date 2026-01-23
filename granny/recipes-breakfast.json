@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breakfast",
-    "count": 5
+    "count": 8
   },
   "recipes": [
     {
@@ -100,7 +100,10 @@
         "blueberry",
         "crumble topping"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-109",
+        "gr-110"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -224,15 +227,15 @@
       },
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 6,
         "per_serving": {
-          "calories": 630,
-          "fat_g": 30.7,
-          "carbs_g": 78.0,
-          "protein_g": 11.7,
-          "sodium_mg": 580,
-          "fiber_g": 2.9,
-          "sugar_g": 27.6
+          "calories": 420,
+          "fat_g": 20.5,
+          "carbs_g": 52.0,
+          "protein_g": 7.8,
+          "sodium_mg": 387,
+          "fiber_g": 1.9,
+          "sugar_g": 18.4
         },
         "missing_inputs": [],
         "assumptions": [
@@ -325,7 +328,10 @@
         "preserves",
         "canning"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-231",
+        "gr-232"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -446,7 +452,9 @@
         "pecans",
         "maple"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "108"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -616,7 +624,9 @@
           "Original source may have had OCR errors or page ordering issues"
         ]
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-125"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 5,
@@ -633,6 +643,281 @@
         "assumptions": [
           "bacon: used default unit",
           "finely minced onion: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "fabulous-french-toast-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fabulous French Toast",
+      "category": "breakfast",
+      "source_note": "Publix recipe card #15",
+      "servings_yield": "Makes 4 servings",
+      "ingredients": [
+        {
+          "item": "PUBLIX White Mountain Bread",
+          "quantity": "4",
+          "unit": "slices"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "PUBLIX Whipping Cream",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "PUBLIX Sweet Cream Butter",
+          "quantity": "2",
+          "unit": "tsp"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-285",
+        "gr-286"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Arrange bread in single layer in a shallow baking pan."
+        },
+        {
+          "step": 2,
+          "text": "In medium bowl, beat eggs. Beat in sugar, cream, milk, vanilla and salt. Pour egg mixture over bread slices evenly on both sides. Set aside for 10 minutes (or cover and refrigerate overnight) to allow bread to absorb all liquid."
+        },
+        {
+          "step": 3,
+          "text": "Heat butter in large skillet (or griddle) over medium heat. When butter sizzles, add bread slices. Do not crowd pan. Cook slowly so bread exterior doesn't burn before inside is cooked, 5-10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Turn over to cook other side. When underside is golden brown, transfer to plates."
+        },
+        {
+          "step": 5,
+          "text": "Sift confectioners sugar over toast. Serve with hot syrup or sliced and sugared berries."
+        }
+      ],
+      "notes": [
+        "Crispy on the outside, creamy on the inside. To prepare this breakfast treat ahead, just cover and refrigerate overnight - all set to cook in the morning.",
+        "Recipe can be doubled or tripled. Keep cooked toast warm in 250-degree oven."
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1374,
+          "fat_g": 140.0,
+          "carbs_g": 25.7,
+          "protein_g": 9.7,
+          "sodium_mg": 948,
+          "fiber_g": 0.6,
+          "sugar_g": 12.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX White Mountain Bread: used default unit",
+          "PUBLIX Whipping Cream: used default unit",
+          "PUBLIX Sweet Cream Butter: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "crunchy-cornmeal-pancakes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Crunchy Cornmeal Pancakes",
+      "category": "breakfast",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ],
+      "ingredients": [
+        {
+          "item": "NORA Mill Plain Cornmeal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine 1 cup NORA Mill Plain Cornmeal, 1/4 cup flour, 1/2 tsp salt, 1/2 tsp baking soda."
+        },
+        {
+          "step": 2,
+          "text": "Add 1/2 cup instant nonfat dry milk, 1/2 C water and 2 tsp baking powder to batter. Fry on a nonstick or lightly greased griddle."
+        },
+        {
+          "step": 3,
+          "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
+        }
+      ],
+      "servings_yield": "Makes 20-25 pancakes",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 22,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 17.8,
+          "carbs_g": 5.4,
+          "protein_g": 1.1,
+          "sodium_mg": 202,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "buttermilk: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "tender-cornmeal-pancakes-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Tender Cornmeal Pancakes",
+      "category": "breakfast",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ],
+      "ingredients": [
+        {
+          "item": "NORA Mill Plain Cornmeal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine 1 cup NORA Mill Plain Cornmeal, 1 Tbs honey and 1 cup boiling water. Cool slightly."
+        },
+        {
+          "step": 2,
+          "text": "Add 1 Tbs oil. Combine these two mixtures. Add 1/2 cup instant nonfat dry milk, 1/2 cup water and 2 tsp baking powder to batter."
+        },
+        {
+          "step": 3,
+          "text": "Fry on a nonstick or lightly greased griddle."
+        },
+        {
+          "step": 4,
+          "text": "Omit baking powder if using Self-Rising Cornmeal."
+        }
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 408,
+          "fat_g": 32.2,
+          "carbs_g": 27.9,
+          "protein_g": 4.3,
+          "sodium_mg": 180,
+          "fiber_g": 2.2,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boiling water: used default unit"
         ]
       }
     }

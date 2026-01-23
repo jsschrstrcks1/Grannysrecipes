@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "beverages",
-    "count": 1
+    "count": 2
   },
   "recipes": [
     {
@@ -132,7 +132,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-147",
+        "gr-148"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 1,
@@ -156,6 +159,92 @@
           "frozen strawberries: used default unit",
           "raspberries or peaches: used default unit",
           "light corn syrup: used default unit"
+        ]
+      }
+    },
+    {
+      "id": "health-tonic-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Health Tonic (Apple Cider Vinegar Mix)",
+      "category": "beverages",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "apple vinegar",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "garlic",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "molasses",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "wheat germ oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brewer's yeast",
+          "quantity": "1 1/2",
+          "unit": "cup"
+        }
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-297",
+        "gr-298"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a glass jar with a tight-fitting lid."
+        },
+        {
+          "step": 2,
+          "text": "Shake well before each use."
+        },
+        {
+          "step": 3,
+          "text": "Take 1-2 tablespoons daily, diluted in water or juice if desired."
+        },
+        {
+          "step": 4,
+          "text": "Store in refrigerator."
+        }
+      ],
+      "notes": [
+        "Apple cider vinegar health tonic - traditional remedy."
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 57,
+          "fat_g": 1.9,
+          "carbs_g": 10.0,
+          "protein_g": 1.3,
+          "sodium_mg": 3,
+          "fiber_g": 1.4,
+          "sugar_g": 6.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "garlic: used default unit",
+          "molasses: used default unit",
+          "wheat germ oil: used default unit",
+          "brewer's yeast: used default unit"
         ]
       }
     }
