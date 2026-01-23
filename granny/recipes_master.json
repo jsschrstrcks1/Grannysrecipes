@@ -16926,6 +16926,86 @@
         ]
       },
       "source_note": "typed coupon card - Lactaid"
+    },
+    {
+      "id": "creamy-mild-au-gratin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Creamy Mild Au Gratin",
+      "category": "sides",
+      "description": "Creamy au gratin dish with mushrooms and cheese.",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cooking sherry",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "mild cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cracker crumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "[UNCLEAR: handwriting difficult to read - needs review]"
+        }
+      ],
+      "tags": [
+        "side dish",
+        "au gratin",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "gr-305"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "faded writing - needs careful review"
+        ]
+      },
+      "source_note": "handwritten card"
     }
   ],
   "meta": {
