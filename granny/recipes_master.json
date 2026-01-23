@@ -15973,6 +15973,583 @@
       "image_refs": [
         "gr-70"
       ]
+    },
+    {
+      "id": "pumpkin-bread-casserole-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin Bread Casserole",
+      "category": "breads",
+      "description": "A festive yeast bread with pumpkin, coconut, and ginger snap topping.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "30 minutes",
+      "prep_time": "30 minutes plus rising time",
+      "ingredients": [
+        {
+          "item": "flaked coconut",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "2 2/3",
+          "unit": "cups",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pumpkin pie spice",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "active dry yeast",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "1/4 oz"
+        },
+        {
+          "item": "dark brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "water",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "lightly beaten"
+        },
+        {
+          "item": "solid pack pumpkin",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "ginger snaps",
+          "quantity": "34",
+          "unit": "",
+          "prep_note": "finely rolled"
+        },
+        {
+          "item": "orange rind",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "grated"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Toast coconut in preheated oven (350\u00b0F) for 10 minutes or till golden."
+        },
+        {
+          "step": 2,
+          "text": "Mix 1 1/3 cups flour with next 4 ingredients in large bowl."
+        },
+        {
+          "step": 3,
+          "text": "Mix next 3 ingredients (milk, water, butter) in sauce pan over low heat till warm."
+        },
+        {
+          "step": 4,
+          "text": "Gradually add to dry ingredients and beat 2 minutes at medium speed."
+        },
+        {
+          "step": 5,
+          "text": "Add remaining ingredients and about 3/4 cup flour. Beat at high speed."
+        },
+        {
+          "step": 6,
+          "text": "Add rest of flour and coconut. Stir well."
+        },
+        {
+          "step": 7,
+          "text": "Cover and let rise in 5-quart casseroles till double in size."
+        },
+        {
+          "step": 8,
+          "text": "Bake in 350\u00b0F preheated oven for about 1/2 hour."
+        },
+        {
+          "step": 9,
+          "text": "Wrap in foil 1 day before slicing. Serve with cheese."
+        }
+      ],
+      "tags": [
+        "bread",
+        "pumpkin",
+        "holiday",
+        "yeast bread",
+        "coconut"
+      ],
+      "image_refs": [
+        "2",
+        "1"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten card - priceless family treasure"
+        ]
+      },
+      "source_note": "handwritten card"
+    },
+    {
+      "id": "fish-fiesta-dinner-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fish Fiesta Dinner",
+      "category": "mains",
+      "description": "A tangy and beautiful Latin-flavored fish meal with Spanish rice and flan.",
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "cook_time": "20 minutes",
+      "prep_time": "60 minutes (including day before)",
+      "ingredients": [
+        {
+          "item": "Basic Flan",
+          "quantity": "1",
+          "unit": "recipe",
+          "prep_note": "prepared day before"
+        },
+        {
+          "item": "Spanish rice",
+          "quantity": "1",
+          "unit": "recipe"
+        },
+        {
+          "item": "fish fillets",
+          "quantity": "1",
+          "unit": "lb",
+          "prep_note": "red snapper"
+        },
+        {
+          "item": "colorful vegetables",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for platter"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "60 Minutes Before: Prepare Basic Flan in mold. Keep refrigerated."
+        },
+        {
+          "step": 2,
+          "text": "35 Minutes Before: Preheat oven to 425\u00b0F. Assemble ingredients for Spanish rice. Bring to a boil. Cover and bake for 20 minutes."
+        },
+        {
+          "step": 3,
+          "text": "25 Minutes Before: Prepare sauce for fish. Set aside. Season fish fillets in a large skillet, heat butter. Cook fillets about 3 minutes per side."
+        },
+        {
+          "step": 4,
+          "text": "20 Minutes Before: Arrange fillets in ovenproof dish. Pour reserved sauces over top."
+        },
+        {
+          "step": 5,
+          "text": "10 Minutes Before: Remove rice from oven. Cover and set aside. Reduce heat to 325\u00b0F. Bake fish."
+        },
+        {
+          "step": 6,
+          "text": "5 Minutes Before: Unmold Flan. Garnish rice. Wrap tortillas with berries or fruit and heat in oven."
+        },
+        {
+          "step": 7,
+          "text": "Garnish fish with cilantro. Serve with warm tortillas. This light meal would be most appropriate with Alan's Basic Flan flavored with cinnamon as accompaniment for dessert."
+        }
+      ],
+      "tags": [
+        "fish",
+        "latin",
+        "dinner party",
+        "mexican",
+        "red snapper"
+      ],
+      "image_refs": [
+        "80",
+        "81"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "typed recipe card - timing/menu format"
+        ]
+      },
+      "source_note": "typed recipe card"
+    },
+    {
+      "id": "welcome-spring-dinner-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Welcome Spring Dinner",
+      "category": "mains",
+      "description": "A Spring or holiday meal featuring pork roast with fennel and Pineapple Dream Cake.",
+      "temperature": "325-350\u00b0F (165-175\u00b0C)",
+      "total_time": "2+ hours",
+      "ingredients": [
+        {
+          "item": "pork roast",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "fennel",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "honey",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for drizzling"
+        },
+        {
+          "item": "potatoes",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "broccoli",
+          "quantity": "1",
+          "unit": "dish"
+        },
+        {
+          "item": "Pineapple Dream Cake",
+          "quantity": "1",
+          "unit": "recipe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "The Day Before: Prepare Pineapple Dream Cake. Refrigerate."
+        },
+        {
+          "step": 2,
+          "text": "2 Hours Before: Season meat and roast for Cake."
+        },
+        {
+          "step": 3,
+          "text": "90 Minutes Before: Turn oven down to 350\u00b0F. Drizzle meat with honey. Roast another 30 minutes or until done."
+        },
+        {
+          "step": 4,
+          "text": "60 Minutes Before: Reduce heat to 325\u00b0F. Drizzle meat with more honey. Season with fennel stock and wine. Add potatoes. Roast 1 hour or until done."
+        },
+        {
+          "step": 5,
+          "text": "45 Minutes Before: Prepare broccoli dish. Hold at room temperature until ready to serve."
+        },
+        {
+          "step": 6,
+          "text": "10 Minutes Before: Check doneness of meat with thermometer. Remove roasted meat from oven and let it 5 minutes before carving."
+        },
+        {
+          "step": 7,
+          "text": "5 Minutes Before: Bring cake to room temperature."
+        }
+      ],
+      "tags": [
+        "pork",
+        "spring",
+        "holiday",
+        "dinner party",
+        "fennel"
+      ],
+      "image_refs": [
+        "101",
+        "102"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "typed menu/timing card"
+        ]
+      },
+      "source_note": "typed recipe card"
+    },
+    {
+      "id": "lets-have-lunch-menu-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Let's Have Lunch (Weekend Menu)",
+      "category": "mains",
+      "description": "A leisurely weekend lunch menu featuring quiche crepes, broccoli side dish, and custard souffle.",
+      "temperature": "300-375\u00b0F",
+      "total_time": "4+ hours",
+      "ingredients": [
+        {
+          "item": "Quiche Crepes filling",
+          "quantity": "1",
+          "unit": "recipe"
+        },
+        {
+          "item": "crepes",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "broccoli dish",
+          "quantity": "1",
+          "unit": "recipe"
+        },
+        {
+          "item": "green salad",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "Overnight Crepes custard",
+          "quantity": "1",
+          "unit": "recipe"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "4 Hours Before: Preheat oven to 300\u00b0F. Prepare crust for tart. Bake for 15 minutes. Cool."
+        },
+        {
+          "step": 2,
+          "text": "3 Hours 45 Minutes Before: Prepare filling for tart. Assemble filling ingredients into cooked crust. Chill until ready to serve."
+        },
+        {
+          "step": 3,
+          "text": "3 Hours Before: Prepare batter for Quiche Crepes. Cover and refrigerate. Assemble broccoli dish. Refrigerate."
+        },
+        {
+          "step": 4,
+          "text": "60 Minutes Before: Preheat oven to 375\u00b0F. Make crepes. Assemble quiche ingredients into baking dishes."
+        },
+        {
+          "step": 5,
+          "text": "35 Minutes Before: Bake crepes. Make a green salad, if desired."
+        },
+        {
+          "step": 6,
+          "text": "20 Minutes Before: Bake broccoli dish until heated through and top browns slightly."
+        },
+        {
+          "step": 7,
+          "text": "5 Minutes Before: Let crepes cool slightly before serving."
+        }
+      ],
+      "notes": [
+        "The delicate Overnight Crepes are filled with a hearty bacon-cheese custard and baked in individual souffle dishes.",
+        "A simple green salad with ranch-style dressing completes the menu."
+      ],
+      "tags": [
+        "lunch",
+        "brunch",
+        "weekend",
+        "menu",
+        "crepes",
+        "quiche"
+      ],
+      "image_refs": [
+        "121",
+        "122"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "typed menu/timing card"
+        ]
+      },
+      "source_note": "typed recipe card"
+    },
+    {
+      "id": "peach-mousse-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Peach Mousse",
+      "category": "desserts",
+      "description": "Light and creamy peach mousse with Dixie Crystals sugar.",
+      "servings_yield": "10 servings",
+      "ingredients": [
+        {
+          "item": "peaches",
+          "quantity": "1",
+          "unit": "quart"
+        },
+        {
+          "item": "Dixie Crystals sugar",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "Dixie Crystals 4X sugar",
+          "quantity": "4",
+          "unit": "tbsp"
+        },
+        {
+          "item": "cold water",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "gelatin",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "2 envelopes"
+        },
+        {
+          "item": "cream",
+          "quantity": "1 1/2",
+          "unit": "pints"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Chop peaches, add Dixie Crystals 4X sugar. Soften gelatin in cold water, dissolve over heat. Add to peaches and let set until mixture begins to thicken (mixture will thicken quicker if set in ice water or in refrigerator)."
+        },
+        {
+          "step": 2,
+          "text": "Whip cream and fold into the peaches. Put into a mold, cover and freeze."
+        },
+        {
+          "step": 3,
+          "text": "When ready, unmold and garnish with whipped cream, peach slices, and cherries. (Canned peaches may be used.)"
+        }
+      ],
+      "tags": [
+        "dessert",
+        "mousse",
+        "peach",
+        "frozen dessert"
+      ],
+      "image_refs": [
+        "187"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe card"
+        ]
+      },
+      "source_note": "typed recipe card - Dixie Crystals"
+    },
+    {
+      "id": "raisin-cream-pound-cake-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Raisin Cream Pound Cake",
+      "category": "desserts",
+      "description": "Rich pound cake with sour cream and raisins.",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "cook_time": "1 hour 15-30 minutes",
+      "ingredients": [
+        {
+          "item": "butter",
+          "quantity": "2",
+          "unit": "sticks",
+          "prep_note": "at room temperature"
+        },
+        {
+          "item": "sour cream or yogurt",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "8 oz"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "vanilla or almond extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "6",
+          "unit": ""
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Cream butter with sugar until fluffy. Add eggs one at a time."
+        },
+        {
+          "step": 2,
+          "text": "Mix sour cream with baking soda."
+        },
+        {
+          "step": 3,
+          "text": "Add flour to mixture alternating with sour cream mixture. Add vanilla."
+        },
+        {
+          "step": 4,
+          "text": "Fold in raisins if using."
+        },
+        {
+          "step": 5,
+          "text": "Pour into greased tube pan or bundt pan."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 325\u00b0F for 1 hour 15-30 minutes until done."
+        }
+      ],
+      "pan_size": "tube or bundt pan",
+      "tags": [
+        "dessert",
+        "cake",
+        "pound cake",
+        "sour cream"
+      ],
+      "image_refs": [
+        "gr-5"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "some text hard to read"
+        ]
+      },
+      "source_note": "handwritten card"
     }
   ],
   "meta": {
