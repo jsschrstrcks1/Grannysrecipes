@@ -4249,7 +4249,30 @@
       "servings_yield": "8 servings",
       "notes": [
         "Red Snapper fillets may be substituted for sea trout."
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 976,
+          "fat_g": 62.4,
+          "carbs_g": 43.8,
+          "protein_g": 53.7,
+          "sodium_mg": 1249,
+          "fiber_g": 2.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "Florida sea trout fillets",
+          "Italian sauce"
+        ],
+        "assumptions": [
+          "lasagna noodles: used default unit",
+          "low fat ricotta cheese: used default unit",
+          "grated Parmesan cheese: used default unit",
+          "cooked medium shrimp: used default unit"
+        ]
+      }
     },
     {
       "id": "bbq-bacon-cheeseburgers-granny",
@@ -4316,7 +4339,27 @@
           "text": "Fill rolls with lettuce, cheeseburgers and bacon."
         }
       ],
-      "temperature": "Medium grill heat"
+      "temperature": "Medium grill heat",
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 388,
+          "fat_g": 28.5,
+          "carbs_g": 0.5,
+          "protein_g": 29.2,
+          "sodium_mg": 616,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "KRAFT Original Barbecue Sauce",
+          "KRAFT Singles"
+        ],
+        "assumptions": [
+          "OSCAR MAYER Bacon: used default unit"
+        ]
+      }
     },
     {
       "id": "grilled-chicken-monterey-granny",
@@ -4389,7 +4432,29 @@
           "step": 5,
           "text": "Place chicken on serving plate; spoon tomato mixture over chicken and cheese. Serve with rice."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 272,
+          "fat_g": 17.6,
+          "carbs_g": 6.0,
+          "protein_g": 21.8,
+          "sodium_mg": 494,
+          "fiber_g": 1.2,
+          "sugar_g": 2.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "PUBLIX Boneless, Skinless Chicken Breasts: used default unit",
+          "Jalape\u00f1o Monterey Jack cheese: used default unit",
+          "olive oil: used default unit",
+          "diced onion: used default unit",
+          "plum tomatoes: used default unit",
+          "chopped cilantro, salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "chicken-portobello-tarragon-cream-granny",
@@ -4477,7 +4542,26 @@
           "step": 5,
           "text": "Return chicken to skillet and spoon sauce over. Serve immediately."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 354,
+          "fat_g": 13.5,
+          "carbs_g": 42.1,
+          "protein_g": 16.6,
+          "sodium_mg": 239,
+          "fiber_g": 2.4,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "finely minced onion: used default unit",
+          "flour: used default unit",
+          "sliced Baby Portobello Mushrooms: used default unit"
+        ]
+      }
     },
     {
       "id": "cranberry-glazed-ham-kabobs-granny",
@@ -4555,7 +4639,27 @@
           "text": "Bake in 400\u00b0F oven 15-20 minutes, basting often. Serve immediately."
         }
       ],
-      "temperature": "400\u00b0F (200\u00b0C)"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 622,
+          "fat_g": 8.8,
+          "carbs_g": 128.2,
+          "protein_g": 19.4,
+          "sodium_mg": 1121,
+          "fiber_g": 20.7,
+          "sugar_g": 95.8
+        },
+        "missing_inputs": [
+          "PUBLIX jellied cranberry sauce"
+        ],
+        "assumptions": [
+          "boneless ham: used default unit",
+          "juice-packed pineapple chunks: used default unit"
+        ]
+      }
     },
     {
       "id": "curry-coconut-chicken-honey-mustard-granny",
@@ -4632,7 +4736,28 @@
           "text": "Meanwhile, mix honey and Dijon mustard for dipping sauce. Serve chicken with sauce."
         }
       ],
-      "temperature": "400\u00b0F (200\u00b0C)"
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 232,
+          "fat_g": 7.0,
+          "carbs_g": 40.5,
+          "protein_g": 5.3,
+          "sodium_mg": 61,
+          "fiber_g": 0.9,
+          "sugar_g": 39.4
+        },
+        "missing_inputs": [
+          "curry powder"
+        ],
+        "assumptions": [
+          "milk: used default unit",
+          "PUBLIX Premium chicken breast tenders: used default unit",
+          "Dijon mustard: used default unit"
+        ]
+      }
     },
     {
       "id": "homemade-mac-cheese-bacon-granny",
@@ -4729,7 +4854,30 @@
           "step": 7,
           "text": "*Cut bacon crosswise into 1/4-inch strips. In skillet over medium heat, cook until drippings are rendered and bacon is crisp, 7 minutes. Drain on paper towel."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 238,
+          "fat_g": 15.6,
+          "carbs_g": 14.1,
+          "protein_g": 10.0,
+          "sodium_mg": 472,
+          "fiber_g": 0.4,
+          "sugar_g": 1.5
+        },
+        "missing_inputs": [
+          "PUBLIX Elbow Macaroni"
+        ],
+        "assumptions": [
+          "PUBLIX Sweet Cream Butter: used default unit",
+          "garlic: used default unit",
+          "chicken broth: used default unit",
+          "PUBLIX Shredded Sharp Cheddar Cheese: used default unit",
+          "bacon: used default unit"
+        ]
+      }
     },
     {
       "id": "sirloin-steak-marinade-granny",
@@ -4799,7 +4947,28 @@
           "step": 4,
           "text": "Grill or broil steak to desired doneness."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 423,
+          "fat_g": 24.8,
+          "carbs_g": 5.8,
+          "protein_g": 41.7,
+          "sodium_mg": 158,
+          "fiber_g": 0.0,
+          "sugar_g": 5.3
+        },
+        "missing_inputs": [
+          "fresh ginger, grated"
+        ],
+        "assumptions": [
+          "sirloin steak: used default unit",
+          "soy sauce: used default unit",
+          "garlic, minced: used default unit"
+        ]
+      }
     },
     {
       "id": "country-style-ribs-corn-granny",
@@ -4868,7 +5037,28 @@
           "step": 5,
           "text": "Serve with buttered corn on the cob."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 840,
+          "fat_g": 49.8,
+          "carbs_g": 34.8,
+          "protein_g": 66.1,
+          "sodium_mg": 725,
+          "fiber_g": 4.3,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [
+          "barbecue sauce"
+        ],
+        "assumptions": [
+          "country-style pork ribs: used default unit",
+          "corn on the cob: used default unit",
+          "salt and pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-spicy-pot-roast-granny",
@@ -4948,7 +5138,28 @@
           "step": 4,
           "text": "Cover and cook in 325\u00b0F oven for 3-4 hours until tender."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 80,
+          "fat_g": 0.1,
+          "carbs_g": 20.5,
+          "protein_g": 0.5,
+          "sodium_mg": 45,
+          "fiber_g": 1.7,
+          "sugar_g": 16.7
+        },
+        "missing_inputs": [
+          "beef chuck roast"
+        ],
+        "assumptions": [
+          "ketchup: used default unit",
+          "apple cider vinegar: used default unit",
+          "garlic, minced: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-rice-meatballs-granny",
@@ -5023,7 +5234,25 @@
           "step": 4,
           "text": "Simmer for 20-30 minutes until cooked through."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 375,
+          "fat_g": 23.5,
+          "carbs_g": 15.3,
+          "protein_g": 23.2,
+          "sodium_mg": 1001,
+          "fiber_g": 1.1,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "onion, minced: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "spicy-dijon-grilled-chicken-granny",
@@ -5086,7 +5315,25 @@
           "step": 3,
           "text": "Grill over medium heat for 6-8 minutes per side, or until cooked through."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 74,
+          "fat_g": 3.0,
+          "carbs_g": 6.1,
+          "protein_g": 6.1,
+          "sodium_mg": 16,
+          "fiber_g": 0.0,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Dijon mustard: used default unit",
+          "garlic, minced: used default unit"
+        ]
+      }
     },
     {
       "id": "salt-cod-fish-main-granny",
@@ -5151,7 +5398,25 @@
           "step": 5,
           "text": "Combine fish with potatoes; season with pepper. Serve hot."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 243,
+          "fat_g": 7.2,
+          "carbs_g": 38.9,
+          "protein_g": 6.8,
+          "sodium_mg": 78,
+          "fiber_g": 4.2,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "salt cod fish: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "codfish-souffle-granny",
@@ -5221,7 +5486,26 @@
           "text": "Pour into greased baking dish; bake at 375\u00b0F for 30-35 minutes."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 377,
+          "fat_g": 12.2,
+          "carbs_g": 51.2,
+          "protein_g": 14.4,
+          "sodium_mg": 126,
+          "fiber_g": 1.6,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod (see main recipe): used default unit",
+          "flour: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "creamed-salt-codfish-granny",
@@ -5286,7 +5570,27 @@
           "step": 4,
           "text": "Serve over toast or boiled potatoes. Top with sliced eggs if desired."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 16.1,
+          "carbs_g": 77.8,
+          "protein_g": 18.1,
+          "sodium_mg": 156,
+          "fiber_g": 2.4,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "flour: used default unit",
+          "milk: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "salt-cod-fish-cakes-granny",
@@ -5351,7 +5655,27 @@
           "step": 4,
           "text": "Serve hot."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 536,
+          "fat_g": 47.5,
+          "carbs_g": 24.0,
+          "protein_g": 5.9,
+          "sodium_mg": 352,
+          "fiber_g": 3.1,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "mashed potatoes: used default unit",
+          "onion, minced: used default unit",
+          "pepper: used default unit"
+        ]
+      }
     },
     {
       "id": "codfish-cheese-granny",
@@ -5417,7 +5741,28 @@
           "text": "Bake at 350\u00b0F for 25-30 minutes until bubbly."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 412,
+          "fat_g": 15.9,
+          "carbs_g": 50.2,
+          "protein_g": 15.3,
+          "sodium_mg": 229,
+          "fiber_g": 1.5,
+          "sugar_g": 2.2
+        },
+        "missing_inputs": [
+          "breadcrumbs"
+        ],
+        "assumptions": [
+          "prepared salt cod: used default unit",
+          "flour: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "shrimp-newburg-patty-shells-granny",
@@ -5503,7 +5848,28 @@
           "text": "Serve in warm patty shells."
         }
       ],
-      "servings_yield": "6 servings"
+      "servings_yield": "6 servings",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 1223,
+          "fat_g": 68.1,
+          "carbs_g": 120.4,
+          "protein_g": 21.6,
+          "sodium_mg": 629,
+          "fiber_g": 3.5,
+          "sugar_g": 2.3
+        },
+        "missing_inputs": [
+          "light cream"
+        ],
+        "assumptions": [
+          "cooked shrimp: used default unit",
+          "flour: used default unit",
+          "sherry: used default unit"
+        ]
+      }
     },
     {
       "id": "linguine-garden-clam-sauce-granny",
@@ -5587,7 +5953,28 @@
           "step": 6,
           "text": "Toss with linguine and serve."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 73,
+          "fat_g": 1.2,
+          "carbs_g": 7.4,
+          "protein_g": 3.0,
+          "sodium_mg": 19,
+          "fiber_g": 0.4,
+          "sugar_g": 0.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "linguine: used default unit",
+          "canned clams with juice: used default unit",
+          "olive oil: used default unit",
+          "garlic, minced: used default unit",
+          "fresh parsley, chopped: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-meatballs-tomato-sauce-granny",
@@ -5672,7 +6059,29 @@
           "step": 5,
           "text": "Serve over pasta or with crusty bread."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 269,
+          "fat_g": 18.0,
+          "carbs_g": 8.0,
+          "protein_g": 18.0,
+          "sodium_mg": 1302,
+          "fiber_g": 1.7,
+          "sugar_g": 4.3
+        },
+        "missing_inputs": [
+          "breadcrumbs"
+        ],
+        "assumptions": [
+          "ground beef: used default unit",
+          "onion, minced: used default unit",
+          "garlic, minced: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "roast-leg-lamb-mint-sauce-granny",
@@ -5753,7 +6162,28 @@
           "text": "Serve sliced lamb with mint sauce on the side."
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)"
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1542,
+          "fat_g": 110.0,
+          "carbs_g": 7.5,
+          "protein_g": 121.2,
+          "sodium_mg": 968,
+          "fiber_g": 0.1,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "fresh mint, chopped"
+        ],
+        "assumptions": [
+          "leg of lamb: used default unit",
+          "rosemary: used default unit",
+          "white vinegar: used default unit"
+        ]
+      }
     },
     {
       "id": "corned-beef-hash-casserole-full-granny",
@@ -5852,7 +6282,24 @@
       "image_refs": [
         "gr-28",
         "gr-29"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 237,
+          "fat_g": 19.1,
+          "carbs_g": 6.9,
+          "protein_g": 10.4,
+          "sodium_mg": 274,
+          "fiber_g": 1.3,
+          "sugar_g": 3.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "corned beef hash: used default unit"
+        ]
+      }
     },
     {
       "id": "joyces-chicken-full-granny",
@@ -5949,7 +6396,27 @@
       "image_refs": [
         "gr-30",
         "gr-29"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 135,
+          "fat_g": 8.2,
+          "carbs_g": 6.5,
+          "protein_g": 10.4,
+          "sodium_mg": 27,
+          "fiber_g": 1.7,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "chopped onion: used default unit",
+          "tomatoes, with juice: used default unit",
+          "chopped green pepper: used default unit",
+          "cup chopped parsley: used default unit"
+        ]
+      }
     },
     {
       "id": "deviled-cornish-hens-full-granny",
@@ -6050,7 +6517,25 @@
       "image_refs": [
         "gr-34",
         "gr-35"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 205,
+          "fat_g": 1.8,
+          "carbs_g": 48.6,
+          "protein_g": 5.5,
+          "sodium_mg": 1220,
+          "fiber_g": 3.9,
+          "sugar_g": 22.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lemon juice: used default unit",
+          "watercress or lemon slices, for garnish: used default unit"
+        ]
+      }
     },
     {
       "id": "creamy-mild-seafood-granny",
@@ -6139,7 +6624,28 @@
           "step": 4,
           "text": "Season to taste and serve over rice or pasta."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 303,
+          "fat_g": 23.1,
+          "carbs_g": 10.6,
+          "protein_g": 13.5,
+          "sodium_mg": 602,
+          "fiber_g": 0.5,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "sliced lobster",
+          "castle crumbs"
+        ],
+        "assumptions": [
+          "cooked shrimp: used default unit",
+          "chopped onion: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-bean-noodle-skillet-full-granny",
@@ -6238,7 +6744,28 @@
       "image_refs": [
         "gr-56",
         "gr-65"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 339,
+          "fat_g": 12.4,
+          "carbs_g": 36.5,
+          "protein_g": 18.8,
+          "sodium_mg": 714,
+          "fiber_g": 5.6,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "diced green pepper: used default unit",
+          "diced celery: used default unit",
+          "uncooked medium-size noodles: used default unit",
+          "red kidney beans, undrained: used default unit",
+          "stewed tomatoes: used default unit"
+        ]
+      }
     },
     {
       "id": "savory-beef-full-granny",
@@ -6344,7 +6871,27 @@
       },
       "image_refs": [
         "gr-58"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 879,
+          "fat_g": 29.1,
+          "carbs_g": 79.0,
+          "protein_g": 72.1,
+          "sodium_mg": 1050,
+          "fiber_g": 3.8,
+          "sugar_g": 4.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "round steak, cut into 1/2-inch cubes: used default unit",
+          "all-purpose flour: used default unit",
+          "mushrooms, undrained: used default unit",
+          "tomato sauce: used default unit"
+        ]
+      }
     },
     {
       "id": "stuffed-peppers-webb-full-granny",
@@ -6420,7 +6967,27 @@
       },
       "image_refs": [
         "gr-64"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 133,
+          "fat_g": 3.1,
+          "carbs_g": 21.7,
+          "protein_g": 6.0,
+          "sodium_mg": 106,
+          "fiber_g": 2.8,
+          "sugar_g": 5.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lean hamburger: used default unit",
+          "chopped onions: used default unit",
+          "garlic, minced: used default unit",
+          "Campbell's condensed tomato soup, family size: used default unit"
+        ]
+      }
     },
     {
       "id": "beef-rice-meatballs-handwritten-granny",
@@ -6506,7 +7073,26 @@
       "image_refs": [
         "gr-66",
         "gr-67"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 686,
+          "fat_g": 46.6,
+          "carbs_g": 17.9,
+          "protein_g": 44.3,
+          "sodium_mg": 989,
+          "fiber_g": 1.9,
+          "sugar_g": 3.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "tomato juice: used default unit",
+          "vegetable oil: used default unit",
+          "instant beef broth: used default unit"
+        ]
+      }
     }
   ]
 }

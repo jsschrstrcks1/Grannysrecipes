@@ -729,7 +729,27 @@
       "notes": [
         "Crispy on the outside, creamy on the inside. To prepare this breakfast treat ahead, just cover and refrigerate overnight - all set to cook in the morning.",
         "Recipe can be doubled or tripled. Keep cooked toast warm in 250-degree oven."
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 1295,
+          "fat_g": 139.0,
+          "carbs_g": 10.7,
+          "protein_g": 7.0,
+          "sodium_mg": 801,
+          "fiber_g": 0.0,
+          "sugar_g": 10.5
+        },
+        "missing_inputs": [
+          "PUBLIX White Mountain Bread"
+        ],
+        "assumptions": [
+          "PUBLIX Whipping Cream: used default unit",
+          "PUBLIX Sweet Cream Butter: used default unit"
+        ]
+      }
     },
     {
       "id": "crunchy-cornmeal-pancakes-granny",
@@ -796,7 +816,24 @@
           "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
         }
       ],
-      "servings_yield": "Makes 20-25 pancakes"
+      "servings_yield": "Makes 20-25 pancakes",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 22,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 17.8,
+          "carbs_g": 5.4,
+          "protein_g": 1.1,
+          "sodium_mg": 202,
+          "fiber_g": 0.4,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "buttermilk: used default unit"
+        ]
+      }
     },
     {
       "id": "tender-cornmeal-pancakes-granny",
@@ -866,7 +903,24 @@
           "step": 4,
           "text": "Omit baking powder if using Self-Rising Cornmeal."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 408,
+          "fat_g": 32.2,
+          "carbs_g": 27.9,
+          "protein_g": 4.3,
+          "sodium_mg": 180,
+          "fiber_g": 2.2,
+          "sugar_g": 4.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boiling water: used default unit"
+        ]
+      }
     }
   ]
 }

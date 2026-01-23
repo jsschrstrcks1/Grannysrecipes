@@ -538,7 +538,29 @@
           "step": 3,
           "text": "Sprinkle with paprika. Serve with crackers, breadsticks or vegetables."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 95,
+          "fat_g": 8.8,
+          "carbs_g": 1.3,
+          "protein_g": 2.7,
+          "sodium_mg": 98,
+          "fiber_g": 0.1,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [
+          "imitation crab, flaked"
+        ],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
+          "fat free mayonnaise: used default unit",
+          "prepared horseradish: used default unit",
+          "Worcestershire sauce: used default unit"
+        ]
+      }
     }
   ]
 }

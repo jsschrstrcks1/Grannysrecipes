@@ -1042,7 +1042,25 @@
       "image_refs": [
         "gr-26",
         "gr-27"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 252,
+          "fat_g": 12.8,
+          "carbs_g": 27.5,
+          "protein_g": 7.9,
+          "sodium_mg": 592,
+          "fiber_g": 1.0,
+          "sugar_g": 11.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "creamed-style corn: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "pickled-beets-shag-taylor-granny",
@@ -1109,7 +1127,26 @@
       ],
       "notes": [
         "Recipe from Shag Taylor, written on envelope back"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 130,
+          "fat_g": 0.6,
+          "carbs_g": 31.1,
+          "protein_g": 2.1,
+          "sodium_mg": 112,
+          "fiber_g": 4.8,
+          "sugar_g": 26.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "beets: used default unit",
+          "water: used default unit",
+          "vinegar: used default unit"
+        ]
+      }
     }
   ]
 }

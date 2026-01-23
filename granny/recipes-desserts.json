@@ -5091,7 +5091,28 @@
       "notes": [
         "For Easy Bar Cookies: Press dough onto bottom of 13 x 9-inch baking sheet. Bake 30 to 35 minutes or until light golden brown. Cool completely; cut into bars. Makes 32 bars.",
         "High Altitude Adjustments: Increase flour to 2 cups and bake as directed."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 202,
+          "fat_g": 12.8,
+          "carbs_g": 19.2,
+          "protein_g": 3.2,
+          "sodium_mg": 171,
+          "fiber_g": 1.0,
+          "sugar_g": 11.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "firmly packed brown sugar: used default unit",
+          "milk: used default unit",
+          "all-purpose flour: used default unit",
+          "QUAKER Oats (quick or old fashioned), uncooked: used default unit",
+          "semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "chewy-oatmeal-cookies-crisco-granny",
@@ -5197,7 +5218,25 @@
         }
       ],
       "servings_yield": "About 2-1/2 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 368,
+          "fat_g": 19.9,
+          "carbs_g": 43.6,
+          "protein_g": 6.6,
+          "sodium_mg": 242,
+          "fiber_g": 3.4,
+          "sugar_g": 18.4
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "firmly packed light brown sugar: used default unit",
+          "QUAKER Oats (quick or old fashioned), uncooked: used default unit"
+        ]
+      }
     },
     {
       "id": "peaches-and-cream-ice-cream-granny",
@@ -5293,7 +5332,29 @@
       ],
       "notes": [
         "Chill Time: 12+ hours"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 67,
+          "fat_g": 3.2,
+          "carbs_g": 6.0,
+          "protein_g": 3.5,
+          "sodium_mg": 43,
+          "fiber_g": 0.3,
+          "sugar_g": 5.7
+        },
+        "missing_inputs": [
+          "ground ginger"
+        ],
+        "assumptions": [
+          "PUBLIX 1% low-fat milk: used default unit",
+          "peeled, mashed ripe peaches: used default unit",
+          "vanilla extract: used default unit",
+          "fat-free sweetened condensed skim milk: used default unit"
+        ]
+      }
     },
     {
       "id": "sweet-surprise-souffle-granny",
@@ -5365,7 +5426,22 @@
         }
       ],
       "temperature": "375\u00b0F (190\u00b0C)",
-      "servings_yield": "4-6 servings"
+      "servings_yield": "4-6 servings",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 5,
+        "per_serving": {
+          "calories": 185,
+          "fat_g": 10.0,
+          "carbs_g": 10.9,
+          "protein_g": 12.0,
+          "sodium_mg": 200,
+          "fiber_g": 0.0,
+          "sugar_g": 10.1
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     },
     {
       "id": "orange-sparkle-granny",
@@ -5427,7 +5503,29 @@
       "image_refs": [
         "gr-315",
         "gr-316"
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 84,
+          "fat_g": 2.4,
+          "carbs_g": 13.7,
+          "protein_g": 3.5,
+          "sodium_mg": 14,
+          "fiber_g": 0.0,
+          "sugar_g": 9.7
+        },
+        "missing_inputs": [
+          "orange sherbet",
+          "orange sections"
+        ],
+        "assumptions": [
+          "orange flavored gelatin: used default unit",
+          "boiling water: used default unit",
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "pillsbury-chocolate-chip-cookies-granny",
@@ -5518,7 +5616,25 @@
         }
       ],
       "servings_yield": "About 5 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 9.5,
+          "carbs_g": 15.5,
+          "protein_g": 1.7,
+          "sodium_mg": 168,
+          "fiber_g": 0.5,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "almond-butter-sticks-granny",
@@ -5594,7 +5710,26 @@
         }
       ],
       "servings_yield": "48 cookies",
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 117,
+          "fat_g": 7.6,
+          "carbs_g": 10.0,
+          "protein_g": 2.6,
+          "sodium_mg": 40,
+          "fiber_g": 0.8,
+          "sugar_g": 1.4
+        },
+        "missing_inputs": [
+          "almond flavoring"
+        ],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit"
+        ]
+      }
     },
     {
       "id": "oatmeal-carmelitas-granny",
@@ -5685,7 +5820,31 @@
         }
       ],
       "servings_yield": "About 3 dozen bars",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 322,
+          "fat_g": 13.6,
+          "carbs_g": 44.1,
+          "protein_g": 6.2,
+          "sodium_mg": 191,
+          "fiber_g": 2.4,
+          "sugar_g": 10.2
+        },
+        "missing_inputs": [
+          "caramel topping"
+        ],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "cooking oats: used default unit",
+          "firmly packed brown sugar: used default unit",
+          "butter, melted: used default unit",
+          "semi-sweet chocolate pieces: used default unit",
+          "flour for caramel: used default unit"
+        ]
+      }
     },
     {
       "id": "pillsbury-oatmeal-raisin-granny",
@@ -5767,7 +5926,25 @@
         }
       ],
       "servings_yield": "About 4 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 174,
+          "fat_g": 8.4,
+          "carbs_g": 23.4,
+          "protein_g": 2.2,
+          "sodium_mg": 164,
+          "fiber_g": 0.7,
+          "sugar_g": 12.5
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "quick or old-fashioned oats: used default unit"
+        ]
+      }
     },
     {
       "id": "toffee-bars-granny",
@@ -5842,7 +6019,25 @@
         }
       ],
       "servings_yield": "About 36 bars",
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 260,
+          "fat_g": 15.0,
+          "carbs_g": 27.1,
+          "protein_g": 4.8,
+          "sodium_mg": 111,
+          "fiber_g": 0.6,
+          "sugar_g": 15.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "milk chocolate or semi-sweet chocolate pieces: used default unit"
+        ]
+      }
     },
     {
       "id": "butterballs-granny",
@@ -5922,7 +6117,24 @@
         }
       ],
       "servings_yield": "About 3 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 18,
+        "per_serving": {
+          "calories": 151,
+          "fat_g": 8.2,
+          "carbs_g": 18.7,
+          "protein_g": 1.3,
+          "sodium_mg": 68,
+          "fiber_g": 0.4,
+          "sugar_g": 14.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit"
+        ]
+      }
     },
     {
       "id": "cherry-winks-granny",
@@ -6023,7 +6235,27 @@
         }
       ],
       "servings_yield": "About 5 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 125,
+          "fat_g": 7.5,
+          "carbs_g": 13.3,
+          "protein_g": 1.8,
+          "sodium_mg": 114,
+          "fiber_g": 0.5,
+          "sugar_g": 8.0
+        },
+        "missing_inputs": [
+          "chopped dates"
+        ],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "crushed corn flakes: used default unit"
+        ]
+      }
     },
     {
       "id": "peanut-blossoms-granny",
@@ -6119,7 +6351,28 @@
         }
       ],
       "servings_yield": "About 4 dozen cookies",
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 106,
+          "fat_g": 5.4,
+          "carbs_g": 13.2,
+          "protein_g": 1.5,
+          "sodium_mg": 116,
+          "fiber_g": 0.1,
+          "sugar_g": 9.6
+        },
+        "missing_inputs": [
+          "Hershey's Kisses"
+        ],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "peanut butter: used default unit",
+          "milk: used default unit"
+        ]
+      }
     },
     {
       "id": "easiest-pineapple-upside-down-cake-granny",
@@ -6181,7 +6434,25 @@
           "step": 5,
           "text": "Let stand for 5 minutes. Serve individual pieces turned upside down on plate."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 208,
+          "fat_g": 2.7,
+          "carbs_g": 45.3,
+          "protein_g": 1.4,
+          "sodium_mg": 236,
+          "fiber_g": 0.7,
+          "sugar_g": 32.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pineapple (sliced, chunks or tidbits): used default unit",
+          "Grandma's Biscuit & Pancake Mix: used default unit"
+        ]
+      }
     },
     {
       "id": "handwritten-baking-recipe-gr1-granny",
@@ -6256,7 +6527,24 @@
           "text": "Bake in 350\u00b0F preheated oven until done."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 246,
+          "fat_g": 13.4,
+          "carbs_g": 28.7,
+          "protein_g": 3.3,
+          "sodium_mg": 239,
+          "fiber_g": 0.3,
+          "sugar_g": 19.6
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "flour: used default unit"
+        ]
+      }
     },
     {
       "id": "handwritten-recipe-gr5-granny",
@@ -6287,7 +6575,24 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe, difficult to fully transcribe]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "[UNCLEAR - handwritten recipe]"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "chocolate-chip-recipe-gr7-granny",
@@ -6318,7 +6623,22 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe, needs manual verification]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 19,
+          "fat_g": 1.1,
+          "carbs_g": 2.1,
+          "protein_g": 0.2,
+          "sodium_mg": 1,
+          "fiber_g": 0.2,
+          "sugar_g": 1.8
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     },
     {
       "id": "handwritten-recipe-red-ink-granny",
@@ -6349,7 +6669,24 @@
           "step": 1,
           "text": "[UNCLEAR - handwritten recipe in red ink, difficult to fully transcribe]"
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 0,
+          "fat_g": 0.0,
+          "carbs_g": 0.0,
+          "protein_g": 0.0,
+          "sodium_mg": 0,
+          "fiber_g": 0.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [
+          "[UNCLEAR - handwritten recipe in red ink]"
+        ],
+        "assumptions": []
+      }
     },
     {
       "id": "dump-cake-handwritten-granny",
@@ -6415,7 +6752,24 @@
           "step": 7,
           "text": "Bake at 350\u00b0F until golden brown, about 45-50 minutes."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 12,
+        "per_serving": {
+          "calories": 157,
+          "fat_g": 2.7,
+          "carbs_g": 31.8,
+          "protein_g": 1.5,
+          "sodium_mg": 234,
+          "fiber_g": 0.7,
+          "sugar_g": 19.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "yellow or white cake mix: used default unit"
+        ]
+      }
     },
     {
       "id": "marshmallow-snowman-granny",
@@ -6481,7 +6835,28 @@
           "step": 4,
           "text": "Make a cone-shaped hat from paper; press miniature marshmallow onto tip for tassel."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 0.0,
+          "carbs_g": 15.4,
+          "protein_g": 0.5,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 10.9
+        },
+        "missing_inputs": [
+          "Jet-Puffed Miniatures for body",
+          "toothpicks",
+          "decorations (for face)"
+        ],
+        "assumptions": [
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "santas-boot-marshmallow-granny",
@@ -6538,7 +6913,27 @@
           "step": 3,
           "text": "Sprinkle rest of boot with red colored sugar."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 20,
+          "fat_g": 0.0,
+          "carbs_g": 5.1,
+          "protein_g": 0.2,
+          "sodium_mg": 3,
+          "fiber_g": 0.0,
+          "sugar_g": 3.6
+        },
+        "missing_inputs": [
+          "boot-shaped cookies",
+          "white frosting"
+        ],
+        "assumptions": [
+          "Kraft Miniature Marshmallows: used default unit"
+        ]
+      }
     },
     {
       "id": "low-fat-marble-brownies-granny",
@@ -6604,7 +6999,26 @@
           "step": 4,
           "text": "Cool; cut into squares. Store in refrigerator."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 52,
+          "fat_g": 2.7,
+          "carbs_g": 6.7,
+          "protein_g": 0.6,
+          "sodium_mg": 7,
+          "fiber_g": 0.3,
+          "sugar_g": 6.2
+        },
+        "missing_inputs": [
+          "reduced calorie brownie mix"
+        ],
+        "assumptions": [
+          "PUBLIX Fat Free Cream Cheese, softened: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-toll-house-original-granny",
@@ -6701,7 +7115,25 @@
       "notes": [
         "PAN COOKIE VARIATION: PREPARE dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
         "FOR HIGH ALTITUDE BAKING (5,200 feet): INCREASE flour to 2-1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 1/2 cup each. Bake at 375\u00b0F; drop cookies for 8 to 10 minutes and pan cookies for 17 to 19 minutes."
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 9.5,
+          "carbs_g": 15.5,
+          "protein_g": 1.7,
+          "sodium_mg": 168,
+          "fiber_g": 0.5,
+          "sugar_g": 11.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-famous-fudge-2-granny",
@@ -6776,7 +7208,27 @@
       ],
       "notes": [
         "Makes about 2 pounds"
-      ]
+      ],
+      "nutrition": {
+        "status": "partial",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 109,
+          "fat_g": 8.2,
+          "carbs_g": 8.5,
+          "protein_g": 0.8,
+          "sodium_mg": 68,
+          "fiber_g": 0.3,
+          "sugar_g": 7.9
+        },
+        "missing_inputs": [
+          "marshmallow creme"
+        ],
+        "assumptions": [
+          "granulated sugar: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit"
+        ]
+      }
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -6864,7 +7316,26 @@
           "text": "BAKE in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand 2 minutes; remove to wire rack."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)"
+      "temperature": "375\u00b0F (190\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 182,
+          "fat_g": 9.1,
+          "carbs_g": 23.1,
+          "protein_g": 2.4,
+          "sodium_mg": 161,
+          "fiber_g": 1.2,
+          "sugar_g": 13.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels: used default unit",
+          "quick oats: used default unit"
+        ]
+      }
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",
@@ -6919,7 +7390,25 @@
           "step": 3,
           "text": "Serve immediately."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 235,
+          "fat_g": 2.8,
+          "carbs_g": 48.5,
+          "protein_g": 5.0,
+          "sodium_mg": 30,
+          "fiber_g": 0.8,
+          "sugar_g": 41.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "orange juice concentrate: used default unit",
+          "vanilla ice cream: used default unit"
+        ]
+      }
     },
     {
       "id": "basic-crust-pillsbury-granny",
@@ -6978,7 +7467,25 @@
           "text": "Fit into pie plate; trim and flute edges."
         }
       ],
-      "servings_yield": "2 pie crusts"
+      "servings_yield": "2 pie crusts",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 2,
+        "per_serving": {
+          "calories": 1070,
+          "fat_g": 69.5,
+          "carbs_g": 95.0,
+          "protein_g": 13.0,
+          "sodium_mg": 1166,
+          "fiber_g": 3.0,
+          "sugar_g": 0.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Pillsbury BEST All Purpose Flour: used default unit",
+          "cold water: used default unit"
+        ]
+      }
     },
     {
       "id": "ultimate-chocolate-chip-cookies-granny",
@@ -7073,7 +7580,25 @@
         }
       ],
       "temperature": "375\u00b0F (190\u00b0C)",
-      "servings_yield": "About 5 dozen cookies"
+      "servings_yield": "About 5 dozen cookies",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 197,
+          "fat_g": 12.2,
+          "carbs_g": 20.9,
+          "protein_g": 2.1,
+          "sodium_mg": 170,
+          "fiber_g": 0.9,
+          "sugar_g": 15.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "chocolate chips: used default unit"
+        ]
+      }
     },
     {
       "id": "quaker-oatmeal-cookies-gr11-granny",
@@ -7174,7 +7699,25 @@
           "text": "Bake 10 to 12 minutes or until golden brown. Cool 1 minute on cookie sheet; remove to wire rack."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 30,
+        "per_serving": {
+          "calories": 155,
+          "fat_g": 7.0,
+          "carbs_g": 21.8,
+          "protein_g": 2.1,
+          "sodium_mg": 130,
+          "fiber_g": 1.1,
+          "sugar_g": 13.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "all-purpose flour: used default unit",
+          "QUAKER Oats (quick or old fashioned): used default unit"
+        ]
+      }
     },
     {
       "id": "strawberries-cream-cheese-freeze-granny",
@@ -7244,7 +7787,26 @@
           "step": 5,
           "text": "Let stand 10-15 minutes before serving."
         }
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 492,
+          "fat_g": 29.5,
+          "carbs_g": 56.8,
+          "protein_g": 4.9,
+          "sodium_mg": 106,
+          "fiber_g": 4.9,
+          "sugar_g": 45.1
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "frozen strawberries, thawed: used default unit",
+          "crushed pineapple, drained: used default unit",
+          "whipped topping: used default unit"
+        ]
+      }
     },
     {
       "id": "buttercups-full-granny",
@@ -7337,7 +7899,24 @@
       "image_refs": [
         "gr-32",
         "34"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 290,
+          "fat_g": 14.3,
+          "carbs_g": 37.2,
+          "protein_g": 3.9,
+          "sodium_mg": 118,
+          "fiber_g": 0.8,
+          "sugar_g": 25.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Maraschino cherries, cut into quarters: used default unit"
+        ]
+      }
     },
     {
       "id": "banana-pudding-bobby-jones-full-granny",
@@ -7410,7 +7989,28 @@
       },
       "image_refs": [
         "gr-64"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 1558,
+          "fat_g": 154.6,
+          "carbs_g": 30.4,
+          "protein_g": 17.3,
+          "sodium_mg": 339,
+          "fiber_g": 0.8,
+          "sugar_g": 21.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Vanilla Instant Pudding: used default unit",
+          "milk: used default unit",
+          "sour cream: used default unit",
+          "whipped cream: used default unit",
+          "vanilla wafers: used default unit"
+        ]
+      }
     },
     {
       "id": "dumps-basic-brownies-handwritten-granny",
@@ -7481,7 +8081,22 @@
           "text": "Bake at 350\u00b0F for 25-30 minutes."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 24,
+        "per_serving": {
+          "calories": 152,
+          "fat_g": 12.7,
+          "carbs_g": 7.1,
+          "protein_g": 2.6,
+          "sodium_mg": 67,
+          "fiber_g": 0.7,
+          "sugar_g": 1.9
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      }
     }
   ]
 }

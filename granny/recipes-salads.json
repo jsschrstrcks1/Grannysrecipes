@@ -440,7 +440,26 @@
       },
       "image_refs": [
         "gr-247"
-      ]
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 144,
+          "fat_g": 5.8,
+          "carbs_g": 22.7,
+          "protein_g": 3.1,
+          "sodium_mg": 44,
+          "fiber_g": 3.7,
+          "sugar_g": 15.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "lemon juice: used default unit",
+          "mayonnaise: used default unit",
+          "milk: used default unit"
+        ]
+      }
     }
   ]
 }
