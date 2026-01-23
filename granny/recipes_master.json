@@ -13454,7 +13454,29 @@
           "grated Parmesan cheese: used default unit",
           "cooked medium shrimp: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat seafood in frozen. Cook lasagna noodles according to package directions. Line bottom of a well-greased 2-quart oblong well greased baking dish with 1/3 of noodles. Carefully place sea trout over noodles, cover with 1/3 of sauce and half of ricotta cheese. Add another layer of lasagna noodles."
+        },
+        {
+          "step": 2,
+          "text": "Place shrimp over noodles and spread an additional 1/3 of sauce. Top with remaining ricotta cheese. Add another layer of noodles. Spread remaining sauce over noodles. Sprinkle with Parmesan cheese."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 400\u00b0F for 10 to 15 minutes or until heated thoroughly. Makes 8 servings."
+        },
+        {
+          "step": 4,
+          "text": "To poach: Bring small amount of water in frypan to boiling point. Reduce heat and place fillets in single layer in frypan. Simmer until fish flakes easily when tested with a fork, taking care to retain shape of fillets."
+        },
+        {
+          "step": 5,
+          "text": "NOTE: Red Snapper fillets may be substituted for sea trout."
+        }
+      ]
     },
     {
       "id": "pumpkin-spice-bread-granny",
@@ -16669,7 +16691,91 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "2 sticks, softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "12 ounces"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE flour, baking soda and salt in small bowl."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter, granulated sugar, brown sugar and vanilla in large mixer bowl. Add eggs one at a time, beating well after each addition; gradually beat in flour mixture."
+        },
+        {
+          "step": 3,
+          "text": "Stir in morsels and nuts. Drop by rounded tablespoon onto ungreased baking sheets."
+        },
+        {
+          "step": 4,
+          "text": "BAKE in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+        },
+        {
+          "step": 5,
+          "text": "Makes about 5 dozen cookies."
+        },
+        {
+          "step": 6,
+          "text": "PAN COOKIE VARIATION: PREPARE dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars."
+        },
+        {
+          "step": 7,
+          "text": "FOR HIGH ALTITUDE BAKING (5,200 feet): INCREASE flour to 2-1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375\u00b0F; drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
+        }
+      ]
     },
     {
       "id": "nestle-famous-fudge-2-granny",
@@ -16700,7 +16806,54 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "12 oz"
+        },
+        {
+          "item": "sweetened condensed milk",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "14 oz"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE morsels and sweetened condensed milk in medium, heavy-duty saucepan."
+        },
+        {
+          "step": 2,
+          "text": "Warm over lowest possible heat, stirring until smooth. Remove from heat."
+        },
+        {
+          "step": 3,
+          "text": "Stir in nuts and vanilla extract."
+        },
+        {
+          "step": 4,
+          "text": "Spread evenly into foil-lined 8-inch square baking pan."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate for 2 hours or until firm. Lift from pan; remove foil. Cut into pieces."
+        }
+      ]
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -16732,7 +16885,91 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "quick or old-fashioned oats",
+          "quantity": "3",
+          "unit": "cups"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE flour, baking soda, salt and cinnamon in small bowl."
+        },
+        {
+          "step": 2,
+          "text": "Beat butter, granulated sugar, brown sugar and vanilla in large mixer bowl. Add eggs one at a time, beating well after each addition."
+        },
+        {
+          "step": 3,
+          "text": "Gradually beat in flour mixture. Stir in oats and raisins."
+        },
+        {
+          "step": 4,
+          "text": "Drop by rounded tablespoon onto ungreased baking sheets."
+        },
+        {
+          "step": 5,
+          "text": "BAKE in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown."
+        },
+        {
+          "step": 6,
+          "text": "Cool on baking sheets for 2 minutes; remove to wire racks."
+        }
+      ]
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",
@@ -16766,7 +17003,71 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "baked crust",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "made with coconut cream pudding and pie filling mix"
+        },
+        {
+          "item": "Mandarin oranges",
+          "quantity": "1",
+          "unit": "can",
+          "prep_note": "11 oz, well drained"
+        },
+        {
+          "item": "whipping cream",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "whipped and sweetened with 1/4 cup sugar"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "2",
+          "unit": "packages",
+          "prep_note": "8 oz each, softened"
+        },
+        {
+          "item": "powdered orange instant breakfast drink",
+          "quantity": "1",
+          "unit": "envelope",
+          "prep_note": "4-1/2 oz"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "3",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Inspired from winner in Pillsbury's 21st Bake-Off."
+        },
+        {
+          "step": 2,
+          "text": "In large bowl, blend cream cheese, instant breakfast drink, and sugar at low speed 4 to 5 minutes with mixer; blend until smooth and creamy."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs, one at a time, beating well after each. Fold in whipped cream and drained Mandarin oranges; pour over baked, cooled crust."
+        },
+        {
+          "step": 4,
+          "text": "Freeze covered, not overnight. Remove from freezer 10 minutes before serving."
+        },
+        {
+          "step": 5,
+          "text": "Makes 15 TO 18 SERVINGS."
+        }
+      ]
     },
     {
       "id": "basic-crust-pillsbury-granny",
@@ -16799,7 +17100,59 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "pudding and pie filling mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "4-serving size, not instant"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "solid shortening",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "OVEN 350\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "(No need to sift flour; measure by lightly spooning into cup and leveling off.) In small mixer bowl, combine all ingredients. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread dough in ungreased 13x9-inch baking pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake at 350\u00b0F for 12 to 15 minutes. Cool completely."
+        },
+        {
+          "step": 4,
+          "text": "*For use with Pillsbury's Best Self-Rising Flour, omit salt and the 2 tablespoons butter."
+        }
+      ]
     },
     {
       "id": "ultimate-chocolate-chip-cookies-granny",
@@ -16829,7 +17182,91 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "2-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "packed brown sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": "large"
+        },
+        {
+          "item": "NESTLE TOLL HOUSE Semi-Sweet Chocolate Morsels",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine flour, baking soda and salt in small bowl."
+        },
+        {
+          "step": 3,
+          "text": "Beat butter, granulated sugar, brown sugar and vanilla extract in large mixer bowl until creamy."
+        },
+        {
+          "step": 4,
+          "text": "Add eggs, one at a time, beating well after each addition. Gradually beat in flour mixture."
+        },
+        {
+          "step": 5,
+          "text": "Stir in morsels and nuts."
+        },
+        {
+          "step": 6,
+          "text": "Drop rounded tablespoon of dough onto ungreased baking sheets."
+        },
+        {
+          "step": 7,
+          "text": "Bake for 9 to 11 minutes or until golden brown. Cool on baking sheets for 2 minutes; remove to wire racks to cool completely."
+        }
+      ]
     },
     {
       "id": "quaker-oatmeal-cookies-gr11-granny",
@@ -16872,10 +17309,9 @@
       "source_note": "Handwritten card with hand-drawn vintage stove from kitchen of Dewolf",
       "servings_yield": "1 loaf",
       "confidence": {
-        "overall": "high",
+        "overall": "medium",
         "flags": [
-          "handwritten",
-          "family-heirloom"
+          "Partial transcription - continuation image corrupted"
         ]
       },
       "image_refs": [
@@ -16896,7 +17332,71 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-3/4",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "mashed banana",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "2-3 bananas"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Melt shortening in a glass measuring cup in microwave oven (1 min. at Normal)."
+        },
+        {
+          "step": 2,
+          "text": "Sift flour, baking powder, salt and sugar together in a bowl."
+        },
+        {
+          "step": 3,
+          "text": "Add eggs and mashed banana to dry ingredients. Mix until just combined."
+        },
+        {
+          "step": 4,
+          "text": "Pour into greased loaf pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 50-60 minutes until toothpick comes out clean."
+        }
+      ],
+      "notes": [
+        "Recipe from the kitchen of Dewolf",
+        "Second page (gr-74) was corrupted - final steps inferred"
+      ]
     },
     {
       "id": "salt-cod-fish-main-granny",
