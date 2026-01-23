@@ -2,7 +2,7 @@
   "meta": {
     "version": "1.0.0",
     "description": "Pre-compiled ingredient search index for Granny Hudson's Kitchen",
-    "total_ingredients": 546,
+    "total_ingredients": 548,
     "total_recipes_indexed": 184
   },
   "ingredients": {
@@ -65,7 +65,8 @@
       "peaches-and-cream-ice-cream-granny"
     ],
     "almond-flavoring": [
-      "almond-butter-sticks-granny"
+      "almond-butter-sticks-granny",
+      "handwritten-recipe-gr5-granny"
     ],
     "almonds": [
       "almond-butter-sticks-granny",
@@ -350,6 +351,7 @@
       "crumb-topped-blueberry-cake-granny",
       "deviled-cornish-hens-granny",
       "dumps-basic-brownies-handwritten-granny",
+      "handwritten-recipe-red-ink-granny",
       "nestle-old-fashioned-oatmeal-granny",
       "nestle-toll-house-chocolate-chip-cookies-granny",
       "nestle-toll-house-original-granny",
@@ -369,6 +371,9 @@
     ],
     "butter-and-green-bell-pepper": [
       "red-snapper-vera-cruz-granny"
+    ],
+    "butter-at": [
+      "handwritten-recipe-gr5-granny"
     ],
     "butter-cake": [
       "pineapple-dream-cake-granny"
@@ -632,7 +637,8 @@
       "corned-beef-hash-casserole-granny"
     ],
     "cornish-game-hens": [
-      "deviled-cornish-hens-granny"
+      "deviled-cornish-hens-granny",
+      "handwritten-recipe-red-ink-granny"
     ],
     "cornish-game-hens-1-lb-each": [
       "deviled-cornish-hens-full-granny"
@@ -663,6 +669,7 @@
       "broiled-spring-chicken-granny",
       "carrot-cake-granny",
       "frosty-orange-delight-granny",
+      "handwritten-recipe-gr5-granny",
       "no-regrets-cheesecake-granny",
       "pumpkin-sheet-cookies-granny",
       "strawberries-cream-cheese-freeze-granny",
@@ -764,6 +771,7 @@
       "healthy-crab-dip-granny"
     ],
     "dry-white-wine": [
+      "handwritten-recipe-red-ink-granny",
       "joyces-chicken-granny",
       "swordfish-steamed-vegetables-granny"
     ],
@@ -880,6 +888,9 @@
       "ultimate-chocolate-chip-cookies-granny",
       "ultimate-chocolate-chocolate-chip-cookies-granny"
     ],
+    "eggs-at": [
+      "handwritten-recipe-gr5-granny"
+    ],
     "eggs-beaten": [
       "broccoli-cornbread-handwritten-granny"
     ],
@@ -943,6 +954,9 @@
     ],
     "flour-for-caramel": [
       "oatmeal-carmelitas-granny"
+    ],
+    "flour-sifted": [
+      "handwritten-recipe-gr5-granny"
     ],
     "freshly-ground-black-pepper": [
       "barbecued-spareribs-orientale-granny",
@@ -1145,6 +1159,9 @@
     ],
     "hellmanns-or-best-foods-real-or-low-fat-mayonnaise-or-dressing": [
       "garlic-bean-dip-granny"
+    ],
+    "herb-rice-mix": [
+      "handwritten-recipe-red-ink-granny"
     ],
     "hersheys-kisses": [
       "peanut-blossoms-granny"
@@ -1391,6 +1408,7 @@
       "grandmas-wheat-berrie-muffins-handwritten-granny",
       "ham-and-cheese-casserole-granny",
       "handwritten-baking-recipe-gr1-granny",
+      "handwritten-recipe-gr5-granny",
       "homemade-ice-cream-sodas-granny",
       "homemade-mac-cheese-bacon-granny",
       "irish-soda-bread-landmark-tavern-granny",
@@ -1903,6 +1921,7 @@
       "carrot-raisin-salad-granny",
       "chewy-oatmeal-cookies-crisco-granny",
       "cranberry-upside-down-muffins-granny",
+      "handwritten-recipe-gr5-granny",
       "irish-soda-bread-granny",
       "irish-soda-bread-landmark-tavern-granny",
       "pillsbury-oatmeal-raisin-granny",
@@ -1990,6 +2009,7 @@
       "broccoli-casserole-granny"
     ],
     "rosemary": [
+      "handwritten-recipe-red-ink-granny",
       "roast-leg-lamb-mint-sauce-granny",
       "roast-leg-of-lamb-with-mint-sauce-granny",
       "shrimp-newburg-in-patty-shells-granny"
@@ -2264,6 +2284,7 @@
       "grandmas-wheat-berrie-muffins-granny",
       "grandmas-wheat-berrie-muffins-handwritten-granny",
       "handwritten-baking-recipe-gr1-granny",
+      "handwritten-recipe-gr5-granny",
       "irish-soda-bread-granny",
       "irish-soda-bread-landmark-tavern-granny",
       "lemon-poppy-seed-muffins-granny",
@@ -2364,12 +2385,6 @@
     ],
     "unclear-handwritten-chocolate-chip-recipe": [
       "chocolate-chip-recipe-gr7-granny"
-    ],
-    "unclear-handwritten-recipe": [
-      "handwritten-recipe-gr5-granny"
-    ],
-    "unclear-handwritten-recipe-in-red-ink": [
-      "handwritten-recipe-red-ink-granny"
     ],
     "undiluted-carnation-evaporated-milk": [
       "nestle-famous-fudge-2-granny"
@@ -2495,6 +2510,7 @@
       "crabmeat-clam-chowder-granny",
       "easy-croissants-granny",
       "grandmas-biscuits-granny",
+      "handwritten-recipe-red-ink-granny",
       "homemade-ice-cream-sodas-granny",
       "linguine-with-garden-clam-sauce-granny",
       "pickled-beets-granny",
