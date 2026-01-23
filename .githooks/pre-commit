@@ -1,0 +1,28 @@
+#!/bin/bash
+# Pre-commit hook for Granny's Recipe Archive
+# Ensures anti-indexing measures are always in place
+#
+# To install: git config core.hooksPath .githooks
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+
+# Run anti-indexing check
+if [ -f "$REPO_ROOT/scripts/check-noindex.sh" ]; then
+    bash "$REPO_ROOT/scripts/check-noindex.sh"
+    if [ $? -ne 0 ]; then
+        echo ""
+        echo "Commit blocked: Anti-indexing requirements not met."
+        echo "This is a private family archive - we must prevent search engine indexing."
+        exit 1
+    fi
+fi
+
+# Run recipe validation if available
+if [ -f "$REPO_ROOT/scripts/validate-recipes.py" ]; then
+    echo ""
+    echo "Running recipe validation..."
+    python3 "$REPO_ROOT/scripts/validate-recipes.py" 2>/dev/null
+    # Don't block on validation warnings, only errors
+fi
+
+exit 0

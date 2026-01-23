@@ -89,6 +89,42 @@ Grannysrecipes/
 
 ---
 
+## Privacy & Anti-Indexing
+
+This is a **private family recipe archive**. We take active measures to prevent search engine indexing:
+
+### Protection Measures
+
+- **robots.txt** - Blocks all search engines and AI crawlers
+- **Meta tags** - All HTML files include `noindex, nofollow` directives
+- **No sitemap** - We intentionally don't provide a sitemap
+- **Authentication** - Simple family-name gate protects the content
+
+### Developer Setup (Required)
+
+After cloning, configure git hooks to enforce privacy rules:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+This enables a pre-commit hook that verifies:
+1. `robots.txt` blocks all crawlers
+2. No `sitemap.xml` exists
+3. All HTML files have `noindex` meta tags
+
+You can also run the check manually:
+
+```bash
+bash scripts/check-noindex.sh
+```
+
+### If You Fork This Repository
+
+Please maintain these privacy protections. These are real family recipes shared among relatives - not intended for public discovery.
+
+---
+
 ## Generate PDF E-Book
 
 ### Method 1: Browser Print (Easiest)
