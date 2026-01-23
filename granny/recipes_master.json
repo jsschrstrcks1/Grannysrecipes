@@ -16854,6 +16854,78 @@
         ]
       },
       "source_note": "typed recipe card - Nestle/Quaker"
+    },
+    {
+      "id": "pumpkin-apple-spice-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin and Apple Spice Muffins",
+      "category": "breads",
+      "description": "Moist pumpkin muffins with apple and spices.",
+      "tags": [
+        "muffins",
+        "pumpkin",
+        "apple",
+        "breakfast"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe",
+          "details hard to read"
+        ]
+      },
+      "source_note": "typed coupon card - Enova"
+    },
+    {
+      "id": "yucatan-grilled-pork-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Yucatan Grilled Pork",
+      "category": "mains",
+      "description": "Grilled pork with Kikkoman marinade, Yucatan style.",
+      "tags": [
+        "pork",
+        "grilled",
+        "mexican"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe"
+        ]
+      },
+      "source_note": "typed coupon card - Kikkoman"
+    },
+    {
+      "id": "rice-pudding-lactaid-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Rice Pudding (Lactaid)",
+      "category": "desserts",
+      "description": "Creamy rice pudding made with lactose-free milk.",
+      "tags": [
+        "dessert",
+        "pudding",
+        "rice",
+        "lactose-free"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe"
+        ]
+      },
+      "source_note": "typed coupon card - Lactaid"
     }
   ],
   "meta": {
