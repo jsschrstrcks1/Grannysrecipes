@@ -16550,6 +16550,71 @@
         ]
       },
       "source_note": "handwritten card"
+    },
+    {
+      "id": "nancys-bran-brownies-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Nancy's Bran Brownies",
+      "category": "desserts",
+      "attribution": "Nancy",
+      "description": "Wholesome brownies with bran and nuts.",
+      "ingredients": [
+        {
+          "item": "bran",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "eggs",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "beaten"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "nuts",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "[UNCLEAR ingredients]",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat well for 12 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Bake for 1 hour. [UNCLEAR: full instructions hard to read]"
+        }
+      ],
+      "tags": [
+        "dessert",
+        "brownies",
+        "bran",
+        "nuts"
+      ],
+      "image_refs": [
+        "gr-70"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "image upside down",
+          "many details unclear - needs review"
+        ]
+      },
+      "source_note": "handwritten card - Nancy's recipe"
     }
   ],
   "meta": {
