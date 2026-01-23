@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breads",
-    "count": 7
+    "count": 20
   },
   "recipes": [
     {
@@ -94,7 +94,10 @@
         "yeast",
         "pastry"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-111",
+        "gr-112"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -195,7 +198,10 @@
         "cheese",
         "garlic"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-113",
+        "gr-114"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -320,7 +326,10 @@
         "soda bread",
         "raisins"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-223",
+        "gr-224"
+      ],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -576,7 +585,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-131",
+        "gr-132"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 12,
@@ -715,7 +727,10 @@
         "overall": "high",
         "flags": []
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-141",
+        "gr-142"
+      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 6,
@@ -852,7 +867,10 @@
           "PARTIAL_TEXT_VISIBLE"
         ]
       },
-      "image_refs": [],
+      "image_refs": [
+        "gr-180",
+        "gr-181"
+      ],
       "nutrition": {
         "status": "partial",
         "servings_used": 6,
@@ -875,6 +893,911 @@
           "gelatin: used default unit"
         ]
       }
+    },
+    {
+      "id": "pumpkin-spice-bread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin Spice Bread",
+      "category": "breads",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "oil",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cloves",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "pumpkin (plain)",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "2 3/4",
+          "unit": "cups"
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-269",
+        "gr-270"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F (175\u00b0C). Grease and flour loaf pans."
+        },
+        {
+          "step": 2,
+          "text": "In a large bowl, mix together dry ingredients. Add wet ingredients and mix until combined."
+        },
+        {
+          "step": 3,
+          "text": "Divide batter in 3 pans. Bake in 350\u00b0 preheated oven until toothpick inserted in center comes out clean."
+        },
+        {
+          "step": 4,
+          "text": "Cool before slicing. Wrap in foil. Store in refrigerator."
+        }
+      ]
+    },
+    {
+      "id": "easy-cornbread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Cornbread",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ],
+      "ingredients": [
+        {
+          "item": "NORA Mill Plain Cornmeal",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Pillsbury BEST All Purpose Flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together 1-1/2 cups NORA Mill Plain Cornmeal, 1/2 tsp baking soda, salt, and 1 C buttermilk."
+        },
+        {
+          "step": 2,
+          "text": "Add liquid ingredients. Sack in hot greased skillet or muffin pans at 400\u00b0F, oven for 25-30 minutes."
+        },
+        {
+          "step": 3,
+          "text": "When baking soda, salt and baking powder to using Self-Rising Cornmeal."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "12 muffins or sticks"
+    },
+    {
+      "id": "southern-cornbread-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Southern Cornbread",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ],
+      "ingredients": [
+        {
+          "item": "NORA Mill Plain Cornmeal",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together 1-1/2 cups NORA Mill Plain Cornmeal, 1/2 tsp baking soda, and 1 tsp salt."
+        },
+        {
+          "step": 2,
+          "text": "Mix dry ingredients and combine 1 cup buttermilk, 1/4 C vegetable oil, and 1 egg. Mix dry and liquid ingredients."
+        },
+        {
+          "step": 3,
+          "text": "Place in hot, preheated skillet. Bake in 450\u00b0F oven while you prepare the cornbread."
+        },
+        {
+          "step": 4,
+          "text": "If using Self-Rising Cornmeal, omit baking soda and salt."
+        }
+      ],
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "notes": [
+        "Evenly spread mixture or continue for skillet or muffin cups."
+      ]
+    },
+    {
+      "id": "corn-muffins-sticks-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Corn Muffins / Corn Sticks",
+      "category": "breads",
+      "source_note": "NORA MILL cornmeal recipe card",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-293"
+      ],
+      "ingredients": [
+        {
+          "item": "Self-Rising Cornmeal mix",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening (well beaten)",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "If using Self-Rising Cornmeal mix add 1-1/4 cups milk, omit baking soda and salt."
+        },
+        {
+          "step": 2,
+          "text": "Mix all ingredients. Bake in well-greased iron skillet or muffin tins at 400\u00b0F oven for 20-25 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Bake for 12 minutes, Makes 12 muffins or sticks."
+        }
+      ],
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "servings_yield": "12 muffins or sticks"
+    },
+    {
+      "id": "grandmas-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Biscuits",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "9 biscuits",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "12 minutes",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ],
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 2 Cups mix with 1/2 Cup water. MIX with fork until blended."
+        },
+        {
+          "step": 2,
+          "text": "TURN OUT on floured board and knead 5 times. ROLL to desired thickness and cut with floured cutter."
+        },
+        {
+          "step": 3,
+          "text": "BAKE on a shiny cookie sheet in a preheated 450\u00b0F oven for 12 minutes."
+        },
+        {
+          "step": 4,
+          "text": "For perfect biscuits, use a sharp cutter, cut with a straight up and down motion, and place in baking pan close together."
+        }
+      ]
+    },
+    {
+      "id": "tender-drop-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Tender Drop Biscuits",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "10 biscuits",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "10 minutes",
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ],
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 1-1/2 Cups mix with 1/2 Cup water."
+        },
+        {
+          "step": 2,
+          "text": "STIR until blended. DROP by spoonfuls onto a shiny cookie sheet."
+        },
+        {
+          "step": 3,
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
+        }
+      ]
+    },
+    {
+      "id": "sweet-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Sweet Muffins",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "servings_yield": "8 muffins",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "10 minutes",
+      "notes": [
+        "HINT: You can add blueberries, raisins, jelly, cinnamon, etc."
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ],
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 1 egg with 1/2 Cup water and blend well."
+        },
+        {
+          "step": 2,
+          "text": "POUR into 1-1/2 Cup mix, add 2 Tbs. sugar and stir only until moistened."
+        },
+        {
+          "step": 3,
+          "text": "SPOON into well greased or paper lined muffin tins."
+        },
+        {
+          "step": 4,
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "HINT: You can add blueberries, raisins, jelly, cinnamon, etc. to this basic recipe."
+        }
+      ]
+    },
+    {
+      "id": "lemon-poppy-seed-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Lemon Poppy Seed Muffins",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "cook_time": "15 minutes",
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "3 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "grated lemon peel",
+          "quantity": "2",
+          "unit": "Tbs"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1 1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "Nora Mill Poppy Seeds",
+          "quantity": "1",
+          "unit": "Tbs"
+        }
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine dry ingredients. Mix liquid ingredients well. Add to dry ingredients. Stir just until blended."
+        },
+        {
+          "step": 3,
+          "text": "Bake in greased muffin tins for 15 minutes or until done."
+        }
+      ]
+    },
+    {
+      "id": "garlic-cheese-drop-biscuits-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Garlic Cheese Drop Biscuits (like Red Lobster's)",
+      "category": "breads",
+      "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
+      "temperature": "450\u00b0F (230\u00b0C)",
+      "cook_time": "8-10 minutes",
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "2/3",
+          "unit": "cup"
+        },
+        {
+          "item": "shredded cheddar cheese",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "garlic powder",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "Italian seasoning",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "notes": [
+        "These are yummy - just like Red Lobster's!"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "gr-295"
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 450\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine Grandma's Biscuit & Pancake Mix, milk and cheddar cheese, and mix well."
+        },
+        {
+          "step": 3,
+          "text": "Drop dough by heaping tablespoonfuls onto an ungreased cookie sheet."
+        },
+        {
+          "step": 4,
+          "text": "Bake 8-10 minutes or until golden brown."
+        },
+        {
+          "step": 5,
+          "text": "Combine butter, Italian seasoning and garlic powder. Brush over warm biscuits before removing them from cookie sheet. Serve warm."
+        },
+        {
+          "step": 6,
+          "text": "Wonderful with soups, stews and pasta dishes."
+        }
+      ]
+    },
+    {
+      "id": "broccoli-cornbread-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broccoli Cornbread (Handwritten)",
+      "category": "breads",
+      "source_note": "handwritten card",
+      "notes": [
+        "Option: Hot Peppers"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-9",
+        "gr-10"
+      ],
+      "ingredients": [
+        {
+          "item": "broccoli, thawed and drained",
+          "quantity": "10",
+          "unit": "oz"
+        },
+        {
+          "item": "cottage cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs, beaten",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "butter, melted",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "cornbread mix",
+          "quantity": "1",
+          "unit": "box"
+        },
+        {
+          "item": "onion, chopped",
+          "quantity": "1",
+          "unit": "medium"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Grease a 9x13 inch baking pan."
+        },
+        {
+          "step": 2,
+          "text": "Mix all ingredients together until well combined."
+        },
+        {
+          "step": 3,
+          "text": "Pour into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake for 25-30 minutes or until golden brown and set."
+        }
+      ],
+      "temperature": "375\u00b0F (190\u00b0C)"
+    },
+    {
+      "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
+      "category": "breads",
+      "source_note": "handwritten on lined paper",
+      "temperature": "400\u00b0F (200\u00b0C)",
+      "cook_time": "20-25 min",
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-71",
+        "gr-72"
+      ],
+      "ingredients": [
+        {
+          "item": "wheat bran cereal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine bran cereal and milk; let stand 5 minutes."
+        },
+        {
+          "step": 2,
+          "text": "Add egg and oil; beat well."
+        },
+        {
+          "step": 3,
+          "text": "Combine flour, sugar, baking powder, and salt."
+        },
+        {
+          "step": 4,
+          "text": "Add to bran mixture; stir just until moistened."
+        },
+        {
+          "step": 5,
+          "text": "Fill greased muffin cups 2/3 full."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 400\u00b0F for 20-25 minutes."
+        }
+      ]
+    },
+    {
+      "id": "banana-bread-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Banana Bread (Handwritten with Stove Drawing)",
+      "category": "breads",
+      "source_note": "Handwritten card with hand-drawn vintage stove from kitchen of Dewolf",
+      "servings_yield": "1 loaf",
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "handwritten",
+          "family-heirloom"
+        ]
+      },
+      "image_refs": [
+        "gr-73",
+        "gr-74"
+      ],
+      "ingredients": [
+        {
+          "item": "ripe bananas, mashed",
+          "quantity": "3",
+          "unit": ""
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "butter, melted",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease a loaf pan."
+        },
+        {
+          "step": 2,
+          "text": "Mix mashed bananas, sugar, egg, and melted butter."
+        },
+        {
+          "step": 3,
+          "text": "Add flour, baking soda, salt, and vanilla. Mix until just combined."
+        },
+        {
+          "step": 4,
+          "text": "Pour into prepared pan."
+        },
+        {
+          "step": 5,
+          "text": "Bake 55-60 minutes or until toothpick comes out clean."
+        }
+      ],
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "notes": [
+        "Recipe card has beautiful stove illustration, from kitchen of Dewolf"
+      ]
+    },
+    {
+      "id": "irish-soda-bread-landmark-tavern-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Irish Soda Bread (Landmark Tavern, NYC)",
+      "category": "breads",
+      "source_note": "typed recipe from Landmark Tavern, Ltd., New York, N.Y.",
+      "temperature": "325\u00b0F (165\u00b0C)",
+      "cook_time": "25-30 min",
+      "servings_yield": "8-10 loaves",
+      "ingredients": [
+        {
+          "item": "flour",
+          "quantity": "2-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3-1/2",
+          "unit": "lbs"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/4",
+          "unit": "lb"
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Sift together the flour, nutmeg, cinnamon, baking powder and sugar."
+        },
+        {
+          "step": 2,
+          "text": "Beat the eggs and add until blended, then add to above into dough."
+        },
+        {
+          "step": 3,
+          "text": "Mix well."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 325\u00b0F for 25 to 30 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm."
+        }
+      ],
+      "notes": [
+        "Historic recipe from Landmark Tavern, New York City",
+        "Good luck and thank you for your interest."
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "aged-document",
+          "partial-transcription"
+        ]
+      },
+      "image_refs": [
+        "gr-62"
+      ]
     }
   ]
 }

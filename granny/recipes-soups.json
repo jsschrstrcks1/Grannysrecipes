@@ -121,7 +121,9 @@
         "clams"
       ],
       "image_refs": [
-        "93"
+        "93",
+        "gr-233",
+        "gr-234"
       ],
       "confidence": {
         "overall": "high",
@@ -265,7 +267,12 @@
         "barley",
         "hearty"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "112",
+        "113",
+        "gr-119",
+        "gr-120"
+      ],
       "confidence": {
         "overall": "high",
         "flags": []

@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "salads",
-    "count": 3
+    "count": 4
   },
   "recipes": [
     {
@@ -225,7 +225,10 @@
         "vegetables",
         "side dish"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "110",
+        "111"
+      ],
       "confidence": {
         "overall": "high",
         "flags": [
@@ -344,7 +347,11 @@
         "eggs",
         "simple"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "114",
+        "gr-117",
+        "gr-118"
+      ],
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -370,6 +377,70 @@
         ]
       },
       "cook_time": "N/A (no cooking)"
+    },
+    {
+      "id": "carrot-raisin-salad-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Carrot Raisin Salad",
+      "category": "salads",
+      "source_note": "handwritten card",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "3",
+          "unit": "medium"
+        },
+        {
+          "item": "apple",
+          "quantity": "1",
+          "unit": "small",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "lemon juice",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "mayonnaise",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
+          "item": "slivered almonds",
+          "quantity": "1/4",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients. Chill 8 hours."
+        }
+      ],
+      "notes": [
+        "Chill for 8 hours before serving"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-247"
+      ]
     }
   ]
 }
