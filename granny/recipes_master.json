@@ -13151,7 +13151,117 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": "2 sticks, softened"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1-3/4",
+          "unit": "cups",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "granulated sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "QUAKER Oats",
+          "quantity": "2-1/2",
+          "unit": "cups",
+          "prep_note": "Quick or Old Fashioned, uncooked"
+        },
+        {
+          "item": "semi-sweet chocolate pieces",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "12-ounce (2 cups)"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "optional"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Beat together margarine and sugars until creamy. Add eggs, milk and vanilla; beat well."
+        },
+        {
+          "step": 3,
+          "text": "Add combined flour and baking soda; mix well. Stir in chocolate pieces and oats (optional) uncooked nuts."
+        },
+        {
+          "step": 4,
+          "text": "Drop by rounded tablespoonfuls onto ungreased cookie sheet."
+        },
+        {
+          "step": 5,
+          "text": "Bake 9 to 10 minutes for a chewy cookie or 12 to 13 minutes for a crisp cookie."
+        },
+        {
+          "step": 6,
+          "text": "Cool 1 minute on cookie sheet; remove to wire rack. Cool completely."
+        },
+        {
+          "step": 7,
+          "text": "Makes ABOUT 4-1/2 DOZEN."
+        },
+        {
+          "step": 8,
+          "text": "For Easy Bar Cookies: Press dough onto bottom of ungreased 13 x 9-inch baking pan. Bake 30 to 35 minutes or until light golden brown. Cool completely; cut into bars. Store tightly covered."
+        },
+        {
+          "step": 9,
+          "text": "Makes 32 BARS."
+        },
+        {
+          "step": 10,
+          "text": "High Altitude Adjustment: Increase flour to 2 cups and bake as directed."
+        }
+      ]
     },
     {
       "id": "chewy-oatmeal-cookies-crisco-granny",
@@ -13182,7 +13292,98 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Butter Flavor Crisco Shortening",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "light brown sugar",
+          "quantity": "1-1/4",
+          "unit": "cups",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "milk",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "QUAKER Oats",
+          "quantity": "3",
+          "unit": "cups",
+          "prep_note": "quick or old fashioned, uncooked"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "coarsely chopped walnuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Heat oven to 375\u00b0F. Lightly grease baking sheet with Butter Flavor Crisco."
+        },
+        {
+          "step": 2,
+          "text": "Combine Butter Flavor Crisco, brown sugar, egg, milk and vanilla in large bowl. Beat at medium speed of electric mixer until well blended."
+        },
+        {
+          "step": 3,
+          "text": "Combine oats, flour, baking soda, salt and cinnamon. Mix into creamed mixture at low speed just until blended. Stir in raisins and nuts."
+        },
+        {
+          "step": 4,
+          "text": "Drop rounded tablespoonfuls of dough 2 inches apart onto baking sheet."
+        },
+        {
+          "step": 5,
+          "text": "Bake for 10 to 12 minutes, or until lightly browned. Cool 2 minutes on cookie rack."
+        },
+        {
+          "step": 6,
+          "text": "ABOUT 2-1/2 DZ. COOKIES."
+        }
+      ]
     },
     {
       "id": "seafood-lasagna-granny",
@@ -14122,7 +14323,74 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "packed"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1",
+          "unit": "tbsp",
+          "prep_note": "softened"
+        },
+        {
+          "item": "chocolate pieces",
+          "quantity": "6",
+          "unit": "oz",
+          "prep_note": "package (1 cup)"
+        },
+        {
+          "item": "semi-sweet nuts",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Recipe may be cut in half. Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, combine all ingredients except chocolate pieces and nuts; blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Stir in chocolate pieces and nuts."
+        },
+        {
+          "step": 4,
+          "text": "Drop by teaspoonfuls two inches apart on lightly greased cookie sheets."
+        },
+        {
+          "step": 5,
+          "text": "Bake 7 to 8 minutes until light golden brown. Cool 1 minute; remove from cookie sheet."
+        },
+        {
+          "step": 6,
+          "text": "Makes about 3 dozen cookies."
+        }
+      ]
     },
     {
       "id": "almond-butter-sticks-granny",
@@ -14152,7 +14420,78 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "almond flavoring",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "cream cheese",
+          "quantity": "3",
+          "unit": "oz",
+          "prep_note": "softened"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": "",
+          "prep_note": "separated (reserve white for glazing)"
+        },
+        {
+          "item": "sliced almonds",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "diced"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Grease a cookie sheet."
+        },
+        {
+          "step": 2,
+          "text": "In small bowl, stir together sugar and almond flavoring; cover and set aside."
+        },
+        {
+          "step": 3,
+          "text": "In medium bowl, combine cup butter, cream cheese and egg yolk; blend until smooth."
+        },
+        {
+          "step": 4,
+          "text": "Dip measuring cup into cookie mix; level off. Stir in mix. Knead on floured surface about 24 strokes until pliable."
+        },
+        {
+          "step": 5,
+          "text": "Roll or press out to a 12x12-inch square. Spread with 1 tablespoon butter. Cut dough in half; place one half on greased cookie sheet, spoon sugar mixture to within 1/4 inch of dough edges. Press remaining dough half, buttered side down, over sugar. Press edges lightly to seal."
+        },
+        {
+          "step": 6,
+          "text": "Brush with slightly beaten egg white; sprinkle with almonds. Bake 22 to 30 minutes until golden brown. Cool slightly; cut in 1-inch strips; remove from cookie sheet. Cut pastry in half lengthwise and in 3/4-inch strips crosswise."
+        },
+        {
+          "step": 7,
+          "text": "Makes 48 cookies."
+        }
+      ]
     },
     {
       "id": "oatmeal-carmelitas-granny",
@@ -14182,7 +14521,77 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "cooking oats",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "firmly packed"
+        },
+        {
+          "item": "semi-sweet or milk chocolate pieces",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "caramel topping",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F. Grease bottom and sides of 13x9 or 9-inch square pan."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, combine first six (6) ingredients; blend until crumbly."
+        },
+        {
+          "step": 3,
+          "text": "Press 2 cups of mixture on bottom of pan. Bake 10 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Blend caramel topping and flour. Remove crust from oven; sprinkle with chocolate pieces and nuts; drizzle with caramel mixture. Sprinkle remaining crumb mixture over caramel."
+        },
+        {
+          "step": 5,
+          "text": "Bake 20 to 30 minutes until golden brown. Chill when cold. May be refrigerated or frozen."
+        }
+      ]
     },
     {
       "id": "pillsbury-oatmeal-raisin-granny",
@@ -14212,7 +14621,70 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "quick or old-fashioned oats",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Recipe may be cut in half. Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, combine all ingredients except oats and raisins; blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Stir in oats and raisins."
+        },
+        {
+          "step": 4,
+          "text": "Drop by teaspoonfuls two inches apart on greased cookie sheets."
+        },
+        {
+          "step": 5,
+          "text": "Bake 9 to 13 minutes until light golden brown. Immediately remove from cookie sheet."
+        },
+        {
+          "step": 6,
+          "text": "Makes about 3 dozen cookies."
+        }
+      ]
     },
     {
       "id": "toffee-bars-granny",
@@ -14242,7 +14714,53 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "milk chocolate or semi-sweet chocolate pieces",
+          "quantity": "6",
+          "unit": "oz"
+        },
+        {
+          "item": "chopped nuts",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 350\u00b0F. Grease bottom and sides of 15x10-inch pan."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, blend until smooth. Spread dough evenly in greased pan."
+        },
+        {
+          "step": 3,
+          "text": "Bake 15x1 pan 12 to 18 minutes and 13x9 pan 17 to 24 minutes until top springs back when lightly touched. Immediately sprinkle with chocolate; cover and stand 2-3 minutes to melt. Spread chocolate over bars; sprinkle with nuts."
+        },
+        {
+          "step": 4,
+          "text": "Cool; cut into bars."
+        }
+      ]
     },
     {
       "id": "butterballs-granny",
@@ -14272,7 +14790,68 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "3/4",
+          "unit": "cup",
+          "prep_note": "softened"
+        },
+        {
+          "item": "powdered sugar",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for coating"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "almond flavoring",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "finely chopped nuts",
+          "quantity": "1",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, combine all ingredients except nuts and powdered sugar; blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Stir in nuts. Blend in nuts. Shape dough into 1-inch balls."
+        },
+        {
+          "step": 4,
+          "text": "Bake on ungreased cookie sheets 8 to 11 to 16 minutes until edges are light golden brown. Cool slightly; roll in powdered sugar."
+        },
+        {
+          "step": 5,
+          "text": "Makes about 5 dozen cookies. About 5 cookies per serving."
+        }
+      ]
     },
     {
       "id": "cherry-winks-granny",
@@ -14302,7 +14881,73 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "maraschino cherries",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "dates",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "pecans",
+          "quantity": "1/3",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "crushed corn flakes",
+          "quantity": "2-1/2",
+          "unit": "cups",
+          "prep_note": "plus maraschino cherry halves for topping"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir up RAISINS or Chopped DATES and up CHOPPED MARASCHINO cherries in dough. Shape dough into 1-inch balls, coat with finely crushed CORNFLAKES. Press MARASCHINO CHERRY half into center of each cookie."
+        },
+        {
+          "step": 2,
+          "text": "Bake at 375\u00b0F for 10-12 minutes."
+        }
+      ]
     },
     {
       "id": "peanut-blossoms-granny",
@@ -14332,7 +14977,77 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Pillsbury's Best All Purpose Flour",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "peanut butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "brown sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "milk",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "Hershey's Kisses",
+          "quantity": "48",
+          "unit": "",
+          "prep_note": "unwrapped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 375\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Dip measuring cup into cookie mix; level off. In large bowl, combine all ingredients; blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Shape dough into 1 inch balls. Dip top in egg white; coat with finely chopped PEANUTS. Place on cookie sheet."
+        },
+        {
+          "step": 4,
+          "text": "Bake 10-12 minutes. Immediately top each with a MILK CHOCOLATE CANDY KISS; press down firmly so cookie cracks around edge."
+        },
+        {
+          "step": 5,
+          "text": "Makes about 4 dozen cookies."
+        }
+      ]
     },
     {
       "id": "easy-cornbread-granny",
@@ -14362,7 +15077,68 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "NORA MILL Plain Cornmeal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1-1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "cornmeal",
+          "quantity": "1/2",
+          "unit": "cup",
+          "prep_note": "mix dry"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine 1 cup NORA MILL Plain Cornmeal, 1/2 tsp baking powder, 1/2 tsp baking soda, 1/2 tsp salt, and 1 egg. Mix dry and liquid ingredients."
+        },
+        {
+          "step": 3,
+          "text": "Bake in well-greased 8-inch skillet or muffin tins at 400\u00b0F oven for 20-25 minutes."
+        },
+        {
+          "step": 4,
+          "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
+        }
+      ]
     },
     {
       "id": "southern-cornbread-granny",
@@ -14392,7 +15168,53 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "NORA MILL Plain Cornmeal",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Stir together 1-1/2 cups NORA MILL Plain Cornmeal, 1/2 tsp baking soda, and 1 tsp salt. Combine 1 cup buttermilk, 1/4 cup vegetable oil, and 1 egg. Mix dry and liquid ingredients."
+        },
+        {
+          "step": 2,
+          "text": "Bake in well-greased iron skillet or muffin tins at 400\u00b0F oven for 20-25 minutes."
+        },
+        {
+          "step": 3,
+          "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
+        }
+      ]
     },
     {
       "id": "crunchy-cornmeal-pancakes-granny",
@@ -14422,7 +15244,71 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "NORA MILL Plain Cornmeal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "baking soda",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "buttermilk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "oil",
+          "quantity": "2",
+          "unit": "tbsp"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine 1 cup NORA MILL Plain Cornmeal, 1/4 cup flour, 1/2 tsp salt, 1 tsp baking soda, 1 tbsp sugar."
+        },
+        {
+          "step": 2,
+          "text": "Stir just until flour is moistened."
+        },
+        {
+          "step": 3,
+          "text": "Add liquids to dry ingredients and 1 egg. Mix. Combine 1 cup buttermilk, 2 tbsp oil."
+        },
+        {
+          "step": 4,
+          "text": "Fry on nonstick or lightly greased griddle."
+        },
+        {
+          "step": 5,
+          "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
+        }
+      ]
     },
     {
       "id": "tender-cornmeal-pancakes-granny",
@@ -14452,7 +15338,76 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "NORA MILL Plain Cornmeal",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "honey",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "boiling water",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "instant nonfat dry milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine 1 cup NORA MILL Plain Cornmeal, 1 tbsp honey and 1 cup boiling water. Cool slightly."
+        },
+        {
+          "step": 2,
+          "text": "Mix together 1 egg, 1/2 cup water and 1 tbsp oil. Combine these two mixtures."
+        },
+        {
+          "step": 3,
+          "text": "Add 1/2 cup instant nonfat dry milk, 1/2 cup flour and 2 tsp baking powder to batter."
+        },
+        {
+          "step": 4,
+          "text": "Fry on a nonstick or lightly greased griddle."
+        },
+        {
+          "step": 5,
+          "text": "Omit baking powder if using Self-Rising Cornmeal."
+        }
+      ]
     },
     {
       "id": "corn-muffins-sticks-granny",
@@ -14482,7 +15437,52 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Self-Rising Cornmeal",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "milk",
+          "quantity": "1-1/4",
+          "unit": "cups"
+        },
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "shortening",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "well beaten"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Grease and add 1/4 cup milk to a bowl and mix."
+        },
+        {
+          "step": 2,
+          "text": "Generously add 1 cup muffin or corn stick pans and heat in 450\u00b0F oven while mixer prepares batter."
+        },
+        {
+          "step": 3,
+          "text": "Mixture 2 cups NORA MILK Self-Rising Cornmeal into a bowl and add shortening."
+        },
+        {
+          "step": 4,
+          "text": "Bake for 12 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Makes 12 muffins or sticks."
+        }
+      ]
     },
     {
       "id": "grandmas-biscuits-granny",
@@ -14515,7 +15515,45 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 2 cups mix with 1/2 cup water. MIX with fork until blended."
+        },
+        {
+          "step": 2,
+          "text": "TURN OUT on floured board and knead 5 times."
+        },
+        {
+          "step": 3,
+          "text": "ROLL to desired thickness and cut with floured cutter."
+        },
+        {
+          "step": 4,
+          "text": "BAKE on a shiny cookie sheet in a preheated 450\u00b0F oven for 12 minutes."
+        },
+        {
+          "step": 5,
+          "text": "For perfect biscuits, use a sharp cutter, cut with a straight up and down motion, and place in baking pan close together."
+        },
+        {
+          "step": 6,
+          "text": "Makes 9 biscuits."
+        }
+      ]
     },
     {
       "id": "tender-drop-biscuits-granny",
@@ -14548,7 +15586,41 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 1-1/2 cups mix with 1/2 cup water."
+        },
+        {
+          "step": 2,
+          "text": "STIR until blended."
+        },
+        {
+          "step": 3,
+          "text": "DROP by spoonfuls onto a shiny cookie sheet."
+        },
+        {
+          "step": 4,
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "Makes 10 Tender Drop Biscuits."
+        }
+      ]
     },
     {
       "id": "sweet-muffins-granny",
@@ -14584,7 +15656,55 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": "1",
+          "unit": ""
+        },
+        {
+          "item": "water",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "Grandma's Biscuit & Pancake Mix",
+          "quantity": "1-1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "sugar",
+          "quantity": "2",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "COMBINE 1 egg with 1/2 cup water and blend well."
+        },
+        {
+          "step": 2,
+          "text": "POUR into 1-1/2 cup mix, add 2 Tbs. sugar and stir only until moistened."
+        },
+        {
+          "step": 3,
+          "text": "SPOON into well greased or paper lined muffin tins."
+        },
+        {
+          "step": 4,
+          "text": "BAKE in a preheated 450\u00b0F oven for 10 minutes."
+        },
+        {
+          "step": 5,
+          "text": "HINT: You can add blueberries, raisins, jelly, cinnamon, etc. to this basic recipe."
+        },
+        {
+          "step": 6,
+          "text": "Makes 8 muffins."
+        }
+      ]
     },
     {
       "id": "lemon-poppy-seed-muffins-granny",
@@ -14598,13 +15718,13 @@
       "ingredients": [
         {
           "item": "Grandma's Biscuit & Pancake Mix",
-          "quantity": "3 1/2",
+          "quantity": "3-1/2",
           "unit": "cups"
         },
         {
           "item": "grated lemon peel",
           "quantity": "2",
-          "unit": "Tbs"
+          "unit": "tbs"
         },
         {
           "item": "egg",
@@ -14618,13 +15738,13 @@
         },
         {
           "item": "milk",
-          "quantity": "1 1/4",
+          "quantity": "1-1/4",
           "unit": "cup"
         },
         {
           "item": "Nora Mill Poppy Seeds",
           "quantity": "1",
-          "unit": "Tbs"
+          "unit": "tbs"
         }
       ],
       "confidence": {
@@ -14652,7 +15772,25 @@
           "grated lemon peel: used default unit",
           "Nora Mill Poppy Seeds: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine dry ingredients. Mix liquid ingredients well. Add to dry ingredients."
+        },
+        {
+          "step": 3,
+          "text": "Stir just until blended."
+        },
+        {
+          "step": 4,
+          "text": "Bake in greased muffin tins for 15 minutes or until done."
+        }
+      ]
     },
     {
       "id": "easiest-pineapple-upside-down-cake-granny",
@@ -14665,10 +15803,10 @@
       "cook_time": "35-40 minutes",
       "ingredients": [
         {
-          "item": "Pineapple (sliced, chunks or tidbits)",
+          "item": "pineapple",
           "quantity": "1",
           "unit": "can",
-          "prep_note": "the no-sugar variety works great"
+          "prep_note": "sliced, chunks or tidbits (the no-sugar variety works great)"
         },
         {
           "item": "brown sugar",
@@ -14710,7 +15848,29 @@
           "Pineapple (sliced, chunks or tidbits): used default unit",
           "Grandma's Biscuit & Pancake Mix: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Open pineapple and drain the juice into a medium sized bowl."
+        },
+        {
+          "step": 2,
+          "text": "Spread the pineapple evenly in a lightly greased pie plate. Sprinkle the brown sugar directly on the pineapple."
+        },
+        {
+          "step": 3,
+          "text": "Combine the Grandma's Biscuit & Pancake Mix and the sugar. Add mixture into pie plate evenly."
+        },
+        {
+          "step": 4,
+          "text": "Bake at 350\u00b0F for 35 to 40 minutes or until golden and bubbly."
+        },
+        {
+          "step": 5,
+          "text": "Let stand for 5 minutes. Serve individual pieces turned upside down on plate."
+        }
+      ]
     },
     {
       "id": "garlic-cheese-drop-biscuits-granny",
@@ -14781,7 +15941,37 @@
           "Grandma's Biscuit & Pancake Mix: used default unit",
           "garlic powder: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 450\u00b0F."
+        },
+        {
+          "step": 2,
+          "text": "Combine Grandma's Biscuit & Pancake Mix, milk and cheddar cheese, and mix well."
+        },
+        {
+          "step": 3,
+          "text": "Drop dough by heaping tablespoons onto an ungreased cookie sheet."
+        },
+        {
+          "step": 4,
+          "text": "Bake 8-10 minutes or until golden brown."
+        },
+        {
+          "step": 5,
+          "text": "Combine butter, Italian seasoning and garlic powder. Brush over warm biscuits before removing them from cookie sheet."
+        },
+        {
+          "step": 6,
+          "text": "Serve warm. Wonderful with soups, stews and pasta dishes."
+        },
+        {
+          "step": 7,
+          "text": "(These are yummy \u2013 just like Red Lobster's)"
+        }
+      ]
     },
     {
       "id": "handwritten-baking-recipe-gr1-granny",
@@ -15189,7 +16379,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "title": "Marshmallow Snowman",
-      "category": "desserts",
+      "category": "snacks",
       "source_note": "Kraft Marshmallows package craft",
       "notes": [
         "Holiday craft using Kraft Miniature Marshmallows"
@@ -15218,14 +16408,69 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Kraft Jet-Puffed Miniature Marshmallows",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "Kraft Jet-Puffed Marshmallows",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "large, for body and head"
+        },
+        {
+          "item": "toothpicks",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for arms and legs"
+        },
+        {
+          "item": "red velour paper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for hat"
+        },
+        {
+          "item": "tiny candies",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for face"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Skewer 2 Kraft Jet-Puffed Marshmallows for body and head."
+        },
+        {
+          "step": 2,
+          "text": "For arms and legs, skewer Kraft Miniature Marshmallows on toothpicks; attach to body."
+        },
+        {
+          "step": 3,
+          "text": "Make face with tiny candies."
+        },
+        {
+          "step": 4,
+          "text": "Top with cone-shaped hat made of red velour paper; press miniature marshmallow on tip for tassel."
+        }
+      ],
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow"
+      ]
     },
     {
       "id": "santas-boot-marshmallow-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "title": "Santa's Boot (Marshmallow Craft)",
-      "category": "desserts",
+      "category": "snacks",
       "source_note": "Kraft Marshmallows package craft",
       "notes": [
         "Holiday craft using cookies and marshmallows"
@@ -15254,7 +16499,50 @@
         },
         "missing_inputs": [],
         "assumptions": []
-      }
+      },
+      "ingredients": [
+        {
+          "item": "Kraft Jet-Puffed Miniature Marshmallows",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "boot-shaped cookies",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "frosting",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "red colored sugar",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Frost boot-shaped cookies."
+        },
+        {
+          "step": 2,
+          "text": "Press Kraft Miniatures cut in half crosswise, into frosting on top of boot."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle rest of boot with red colored sugar."
+        }
+      ],
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow",
+        "cookies"
+      ]
     },
     {
       "id": "low-fat-marble-brownies-granny",
