@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "desserts",
-    "count": 71
+    "count": 70
   },
   "recipes": [
     {
@@ -6694,54 +6694,6 @@
           "sugar_g": 1.8
         },
         "missing_inputs": [],
-        "assumptions": []
-      }
-    },
-    {
-      "id": "handwritten-recipe-red-ink-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Handwritten Recipe (Red Ink)",
-      "category": "desserts",
-      "source_note": "handwritten in red/pink ink on notebook paper",
-      "confidence": {
-        "overall": "low",
-        "flags": [
-          "Handwritten in red ink - needs manual review"
-        ]
-      },
-      "image_refs": [
-        "gr-19",
-        "gr-20"
-      ],
-      "ingredients": [
-        {
-          "item": "[UNCLEAR - handwritten recipe in red ink]",
-          "quantity": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "[UNCLEAR - handwritten recipe in red ink, difficult to fully transcribe]"
-        }
-      ],
-      "nutrition": {
-        "status": "insufficient_data",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 0,
-          "fat_g": 0.0,
-          "carbs_g": 0.0,
-          "protein_g": 0.0,
-          "sodium_mg": 0,
-          "fiber_g": 0.0,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [
-          "[UNCLEAR - handwritten recipe in red ink]"
-        ],
         "assumptions": []
       }
     },

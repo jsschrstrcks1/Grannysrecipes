@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "mains",
-    "count": 61
+    "count": 62
   },
   "recipes": [
     {
@@ -4882,6 +4882,116 @@
           "bacon: used default unit"
         ]
       }
+    },
+    {
+      "id": "handwritten-recipe-red-ink-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cornish Game Hens for a Picnic",
+      "category": "mains",
+      "source_note": "handwritten in red ink on notebook paper",
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "Transcribed from handwritten card with user assistance"
+        ]
+      },
+      "image_refs": [
+        "gr-19",
+        "gr-20"
+      ],
+      "ingredients": [
+        {
+          "item": "frozen Cornish game hens",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "1 per person"
+        },
+        {
+          "item": "herb rice mix",
+          "quantity": "1",
+          "unit": "package",
+          "prep_note": "6 oz"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "water",
+          "quantity": "2-1/2",
+          "unit": "cups",
+          "prep_note": "for cooking giblets"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw hens. Remove giblets and cook in 2-1/2 cups water until tender. Drain and save broth."
+        },
+        {
+          "step": 2,
+          "text": "Cook rice according to package directions, using reserved broth instead of water."
+        },
+        {
+          "step": 3,
+          "text": "Chop cooked giblets and add to rice."
+        },
+        {
+          "step": 4,
+          "text": "Stuff hens with rice mixture. Truss with skewers and butcher's twine."
+        },
+        {
+          "step": 5,
+          "text": "Heat butter, wine, and rosemary in a small pan until butter is melted."
+        },
+        {
+          "step": 6,
+          "text": "Arrange hens in shallow roasting pan. Baste with butter mixture."
+        },
+        {
+          "step": 7,
+          "text": "Roast at 425\u00b0F for 1 hour or until done, basting with butter mixture several times."
+        },
+        {
+          "step": 8,
+          "text": "Chill until it's time for the picnic."
+        }
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 412,
+          "fat_g": 24.9,
+          "carbs_g": 41.0,
+          "protein_g": 6.3,
+          "sodium_mg": 186,
+          "fiber_g": 3.8,
+          "sugar_g": 5.2
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "herb rice mix: used default unit",
+          "water: used default unit"
+        ]
+      },
+      "temperature": "425\u00b0F (220\u00b0C)",
+      "servings_yield": "4 servings",
+      "notes": [
+        "This is a cold dish - roast ahead and chill for picnics"
+      ]
     },
     {
       "id": "sirloin-steak-marinade-granny",
