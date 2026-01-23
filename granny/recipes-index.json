@@ -34,12 +34,12 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 71
+      "count": 70
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 61
+      "count": 62
     },
     {
       "category": "salads",
@@ -2374,7 +2374,7 @@
     },
     {
       "id": "handwritten-recipe-gr5-granny",
-      "title": "Pound Cake (Handwritten gr-5)",
+      "title": "Raisin Cream Pound Cake",
       "category": "desserts",
       "tags": [],
       "collection": "granny",
@@ -2413,13 +2413,13 @@
     },
     {
       "id": "handwritten-recipe-red-ink-granny",
-      "title": "Handwritten Recipe (Red Ink)",
-      "category": "desserts",
+      "title": "Cornish Game Hens for a Picnic",
+      "category": "mains",
       "tags": [],
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "",
+      "servings_yield": "4 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
