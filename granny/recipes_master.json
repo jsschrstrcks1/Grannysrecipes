@@ -16615,6 +16615,113 @@
         ]
       },
       "source_note": "handwritten card - Nancy's recipe"
+    },
+    {
+      "id": "fish-is-good-food-collection-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fish Is Good Food (Recipe Collection)",
+      "category": "mains",
+      "description": "Collection of fish recipes including Parmesan Fillets, Almond Fillets, Fish and Vegetable Salad, and Fillets in Foil.",
+      "notes": [
+        "Parmesan Fillets: Coat fish with Parmesan, bake until flaky.",
+        "Almond Fillets on Curried Rice: Bake fish with almonds, serve on curried rice.",
+        "Fish and Vegetable Salad: Combine flaked fish with vegetables.",
+        "Fillets in Foil: Wrap seasoned fish in foil, bake until done."
+      ],
+      "tags": [
+        "fish",
+        "seafood",
+        "healthy"
+      ],
+      "image_refs": [
+        "gr-190"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial pamphlet",
+          "multiple recipes on one sheet",
+          "details hard to read"
+        ]
+      },
+      "source_note": "typed pamphlet - Fish Is Good Food"
+    },
+    {
+      "id": "cream-cheese-gems-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cream Cheese Gems",
+      "category": "desserts",
+      "description": "Delicate cream cheese walnut confections.",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "3 ounces"
+        },
+        {
+          "item": "Dixie Crystals 4X sugar",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "walnut halves",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place cream cheese in bowl; cream until soft and smooth."
+        },
+        {
+          "step": 2,
+          "text": "Slowly blend in sugar. Add vanilla and salt and blend well."
+        },
+        {
+          "step": 3,
+          "text": "Form into nuggets, using 1 heaping teaspoon of mixture for each."
+        },
+        {
+          "step": 4,
+          "text": "Place 2 walnut halves on opposite sides of each."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate until firm."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "candy",
+        "cream cheese",
+        "walnuts",
+        "no-bake"
+      ],
+      "image_refs": [
+        "gr-195"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe card"
+        ]
+      },
+      "source_note": "typed recipe card - Dixie Crystals"
     }
   ],
   "meta": {
