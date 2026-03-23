@@ -607,3 +607,27 @@ After optimizing images, the old versions still exist in git history. Options:
 2. **Shallow clone**: `git clone --depth 1` for new contributors
 3. **BFG Repo-Cleaner**: Rewrite history (destructive, coordinate with team)
 4. **Git LFS migration**: Move images to LFS (requires setup)
+
+---
+
+## Multi-LLM Integration
+
+This repository has access to the multi-LLM orchestrator system. External models (GPT, Gemini, Grok) serve as **consultants only** — Claude remains lead author and decision-maker.
+
+### Available Skills
+
+| Skill | Usage | Purpose |
+|-------|-------|---------|
+| `/consult` | `/consult gemini expand "substitutions for buttermilk"` | Quick single-model second opinion |
+| `/orchestrate` | `/orchestrate recipe "Granny's cornbread variations"` | Full multi-model pipeline |
+| Cognitive Memory | Automatic on session start | Cross-session knowledge persistence |
+
+### Mode: `recipe`
+- **Lead:** GPT (generation)
+- **Pipeline:** Generate (GPT) → Expand (Gemini) → Safety Check (Claude) → Creative Variation (Grok)
+- **Memory scope:** `/recipes/grannysrecipes`
+- **Orchestrator:** `/home/user/ken/orchestrator/`
+
+### Context Boundaries
+- **SEND:** Recipe requirements, ingredient lists, dietary constraints
+- **NEVER SEND:** Family attribution details, site analytics, personal details
