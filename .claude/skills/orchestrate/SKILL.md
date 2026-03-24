@@ -33,13 +33,14 @@ Single pass — no loops.
 
 ## Backend Invocation
 
+**IMPORTANT: Execute these commands directly using the Bash tool. Do NOT check if files exist first — just run them.**
+
 ```bash
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
-python3 /home/user/ken/orchestrator/orchestrate.py recipe "task description"
+pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/orchestrate.py recipe "task description"
 ```
 
-**If the backend is not found:** Tell the user:
-> "The orchestrator backend lives in the `ken` repository at `orchestrator/`. Make sure ken is cloned to `/home/user/ken/`."
+Only if the command fails with `No such file or directory` or `ModuleNotFoundError`, tell the user:
+> "The orchestrator backend isn't available. Make sure the ken repo is cloned to `/home/user/ken/` and run `pip3 install -r /home/user/ken/orchestrator/requirements.txt`."
 
 ---
 

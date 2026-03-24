@@ -41,13 +41,17 @@ description: "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemi
 
 ## Backend Invocation
 
+**IMPORTANT: Execute these commands directly using the Bash tool. Do NOT check if files exist first — just run them.**
+
 ```bash
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
-python3 /home/user/ken/orchestrator/consult.py <model> <role> "prompt text"
+pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/consult.py <model> <role> "prompt text"
 ```
 
 **Output:** JSON response to stdout with keys: `analysis`, `proposed_update`, `risks`, `confidence`
 **Usage stats:** Printed to stderr (model, tokens, cost)
+
+Only if the command fails with `No such file or directory` or `ModuleNotFoundError`, tell the user:
+> "The orchestrator backend isn't available. Make sure the ken repo is cloned to `/home/user/ken/` and run `pip3 install -r /home/user/ken/orchestrator/requirements.txt`."
 
 ---
 
