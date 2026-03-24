@@ -44,7 +44,7 @@ description: "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemi
 **IMPORTANT: Execute these commands directly using the Bash tool. Do NOT check if files exist first — just run them.**
 
 ```bash
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/consult.py <model> <role> "prompt text"
+bash /home/user/ken/orchestrator/bootstrap-env.sh 2>/dev/null; pip3 install -q -r /home/user/ken/orchestrator/requirements.txt 2>/dev/null && python3 /home/user/ken/orchestrator/consult.py <model> <role> "prompt text"
 ```
 
 **Output:** JSON response to stdout with keys: `analysis`, `proposed_update`, `risks`, `confidence`
