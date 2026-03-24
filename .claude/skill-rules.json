@@ -2,6 +2,40 @@
   "version": "1.0.0",
   "description": "Auto-activation rules for Claude Code skills - Granny Hudson's Recipe Archive",
   "skills": {
+    "orchestrate": {
+      "enabled": true,
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Full multi-LLM pipeline orchestration. Runs the recipe pipeline (Generate → Expand → Safety → Creative) coordinating GPT, Gemini, Grok, and Claude.",
+      "promptTriggers": {
+        "keywords": ["orchestrate", "pipeline", "multi-model", "multi-llm", "full pipeline", "run pipeline", "recipe pipeline"],
+        "intentPatterns": ["(orchestrate|run pipeline|full pipeline).*?(recipe|generate)", "(coordinate|consult).*?(multiple|all).*?model"]
+      },
+      "autoLoad": {
+        "mainFile": ".claude/skills/orchestrate/SKILL.md",
+        "maxLines": 200,
+        "loadOnFirstFileEdit": false
+      },
+      "activationMessage": "Orchestrator active. GPT leads recipe generation — Claude validates safety."
+    },
+    "consult": {
+      "enabled": true,
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "description": "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemini, or Grok with a role-based system prompt and returns structured feedback.",
+      "promptTriggers": {
+        "keywords": ["consult", "second opinion", "ask gpt", "ask gemini", "ask grok", "challenge this", "expand this", "get feedback"],
+        "intentPatterns": ["(consult|ask|query).*?(gpt|gemini|grok)", "(second opinion|outside perspective|another model)"]
+      },
+      "autoLoad": {
+        "mainFile": ".claude/skills/consult/SKILL.md",
+        "maxLines": 100,
+        "loadOnFirstFileEdit": false
+      },
+      "activationMessage": "Consultation ready. One model, one question, structured feedback."
+    },
     "recipe-transcription": {
       "enabled": true,
       "type": "domain",
