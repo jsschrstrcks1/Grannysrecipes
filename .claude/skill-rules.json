@@ -7,17 +7,28 @@
       "type": "domain",
       "enforcement": "suggest",
       "priority": "high",
-      "description": "Full multi-LLM pipeline orchestration. Runs the recipe pipeline (Generate → Expand → Safety → Creative) coordinating GPT, Gemini, Grok, and Claude.",
+      "description": "Full multi-LLM pipeline orchestration. Runs the recipe pipeline (Generate \u2192 Expand \u2192 Safety \u2192 Creative) coordinating GPT, Gemini, Grok, and Claude.",
       "promptTriggers": {
-        "keywords": ["orchestrate", "pipeline", "multi-model", "multi-llm", "full pipeline", "run pipeline", "recipe pipeline"],
-        "intentPatterns": ["(orchestrate|run pipeline|full pipeline).*?(recipe|generate)", "(coordinate|consult).*?(multiple|all).*?model"]
+        "keywords": [
+          "orchestrate",
+          "pipeline",
+          "multi-model",
+          "multi-llm",
+          "full pipeline",
+          "run pipeline",
+          "recipe pipeline"
+        ],
+        "intentPatterns": [
+          "(orchestrate|run pipeline|full pipeline).*?(recipe|generate)",
+          "(coordinate|consult).*?(multiple|all).*?model"
+        ]
       },
       "autoLoad": {
         "mainFile": ".claude/skills/orchestrate/SKILL.md",
         "maxLines": 200,
         "loadOnFirstFileEdit": false
       },
-      "activationMessage": "Orchestrator active. GPT leads recipe generation — Claude validates safety."
+      "activationMessage": "Orchestrator active. GPT leads recipe generation \u2014 Claude validates safety."
     },
     "consult": {
       "enabled": true,
@@ -26,8 +37,20 @@
       "priority": "high",
       "description": "Quick multi-LLM second opinion. Sends a single prompt to GPT, Gemini, or Grok with a role-based system prompt and returns structured feedback.",
       "promptTriggers": {
-        "keywords": ["consult", "second opinion", "ask gpt", "ask gemini", "ask grok", "challenge this", "expand this", "get feedback"],
-        "intentPatterns": ["(consult|ask|query).*?(gpt|gemini|grok)", "(second opinion|outside perspective|another model)"]
+        "keywords": [
+          "consult",
+          "second opinion",
+          "ask gpt",
+          "ask gemini",
+          "ask grok",
+          "challenge this",
+          "expand this",
+          "get feedback"
+        ],
+        "intentPatterns": [
+          "(consult|ask|query).*?(gpt|gemini|grok)",
+          "(second opinion|outside perspective|another model)"
+        ]
       },
       "autoLoad": {
         "mainFile": ".claude/skills/consult/SKILL.md",
@@ -196,6 +219,31 @@
         ]
       },
       "activationMessage": "Image Safety: Check dimensions first. Run: python scripts/image_safeguards.py status"
+    },
+    "icp-2": {
+      "enabled": true,
+      "type": "guardrail",
+      "enforcement": "block",
+      "priority": "critical",
+      "description": "ICP-2 \u2014 Human-First SEO & AEO standard for 2026. Supersedes ICP-Lite v1.4 and seo-optimizer. Blocks HTML edits that don't meet ICP-2 compliance.",
+      "fileTriggers": {
+        "pathPatterns": [
+          "*.html",
+          "**/*.html"
+        ],
+        "exclude": [
+          "node_modules/**",
+          ".git/**",
+          "dist/**",
+          "build/**"
+        ]
+      },
+      "autoLoad": {
+        "mainFile": ".claude/skills/icp-2/SKILL.md",
+        "maxLines": 500,
+        "loadOnFirstFileEdit": true
+      },
+      "activationMessage": "ICP-2 guardrail active. HTML edits will be validated for SEO/AEO compliance. Non-compliance is a blocking error."
     }
   },
   "globalSettings": {
