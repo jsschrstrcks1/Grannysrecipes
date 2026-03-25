@@ -1,6 +1,6 @@
 ---
 name: icp-2
-version: "2.0.0"
+version: "2.1.0"
 description: "ICP-2 — Human-First SEO & Answer Engine Optimization (AEO) standard for 2026"
 type: guardrail
 enforcement: block
@@ -9,29 +9,31 @@ triggers:
   - file_pattern: "*.html"
 ---
 
-# ICP-2: Intelligent Content Protocol v2.0
+# ICP-2: Intelligent Content Protocol v2.1
 
 **Successor to**: ICP-Lite v1.4
 **Status**: Active standard (blocking enforcement)
 **Purpose**: Every page must be findable by humans, citable by AI, and honest about what it knows.
-**Principle**: Human first. No SEO theater.
+**Principle**: Human first. No SEO theater. No AEO theater.
 
 **Soli Deo Gloria**
 
 ---
 
-## What Changed from ICP-Lite v1.4
+## What Changed from v2.0
 
-ICP-2 keeps everything good from v1.4 and adds the 2026 reality:
+v2.1 incorporates findings from multi-LLM research (GPT + Gemini consensus audit).
+Both models were asked: "What do you actually use vs. ignore?" Results:
 
-1. **Answer Engine Optimization (AEO)** — pages must be structured for AI citation, not just Google ranking
-2. **Content-type schema** — `Article`, `HowTo`, `TouristDestination` required where applicable (not just `WebPage`)
-3. **Freshness honesty** — per-page `lastmod` in sitemap, no uniform timestamps
-4. **llms.txt expansion** — citation guidelines, content pillars, author authority
-5. **Zero-click readiness** — `ai-summary` optimized as the ideal AI-cited answer
-6. **AI crawler access** — robots.txt must not block GPTBot, ClaudeBot, PerplexityBot, Google-Extended
-7. **Blocking enforcement** — non-compliance is a hard stop, not a suggestion
-8. **No speculative standards** — we don't implement ai-plugin.json, .well-known/ai, or other standards that don't exist yet. When a real standard emerges, we'll adopt it.
+1. **Relaxed exact-match parity** — JSON-LD description must be *consistent with* ai-summary, not character-identical. Exact-match enforcement was brittle process overhead, not AI value.
+2. **Demoted content-protocol tag** — no crawler reads it. Kept for internal tooling only, removed from blocking validation.
+3. **Demoted llms.txt** — not an established standard yet. Recommended, not required.
+4. **Removed ai-breadcrumbs HTML comments** — both models confirmed: no crawler reads HTML comments. Remove them from pages.
+5. **Removed meta keywords** — dead since 2009. Added to anti-theater forbidden list.
+6. **Removed geo.region/geo.placename** — irrelevant for these sites.
+7. **Added static HTML requirement** — key content must not be behind JS rendering.
+8. **Added volatile data discipline** — prices, menus, policies must have as-of dates.
+9. **Added multi-surface framing** — pages serve Google, AI assistants, and social previews simultaneously.
 
 ---
 
@@ -39,43 +41,44 @@ ICP-2 keeps everything good from v1.4 and adds the 2026 reality:
 
 When any `.html` file is edited, **all of the following must be true or the edit is blocked**.
 
-### A. Required Head Meta Tags (4)
+### A. Required Head Meta Tags (3 blocking + 1 internal)
 
 ```html
-<!-- ICP-2 -->
 <meta name="ai-summary" content="..."/>
 <meta name="last-reviewed" content="YYYY-MM-DD"/>
-<meta name="content-protocol" content="ICP-2"/>
 <meta name="description" content="..."/>
+
+<!-- Internal tooling only — not read by any crawler -->
+<meta name="content-protocol" content="ICP-2"/>
 ```
 
 **Rules**:
 - `ai-summary`: max 250 chars, first 155 chars must be a complete standalone answer
 - `ai-summary` must be factual, specific, no hype, no CTAs
 - `last-reviewed`: must be a real date when a human last verified the content
-- `content-protocol`: internal tooling tag, must say `ICP-2` (or `ICP-Lite v1.4` during migration). No crawler reads this — it exists so our own validation knows which standard to check against.
 - `description`: traditional meta description, can differ from ai-summary but must be honest
+- `content-protocol`: internal only — tells our validation which standard to check against. Not blocking if missing, but should be present for tooling.
 
 ### B. Required JSON-LD Structured Data
 
-Every page must have at minimum:
+Every page must have at minimum a JSON-LD block. Prefer specific types (`Article`, `HowTo`, `TouristDestination`) over generic `WebPage` — specific types give AI models much more to work with.
 
 ```html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
+  "@type": "Article",
   "name": "PAGE TITLE",
-  "description": "MUST MATCH ai-summary EXACTLY",
+  "description": "Consistent with ai-summary (not necessarily identical)",
   "dateModified": "MUST MATCH last-reviewed EXACTLY",
   "datePublished": "YYYY-MM-DD"
 }
 </script>
 ```
 
-**Parity rules** (blocking):
-- JSON-LD `description` must exactly match `ai-summary` meta tag
-- JSON-LD `dateModified` must exactly match `last-reviewed` meta tag
+**Parity rules**:
+- JSON-LD `description` must be **consistent with** `ai-summary` — same facts, same meaning, but doesn't need to be character-identical. (Both models confirmed: exact-match adds maintenance burden without AI benefit.)
+- JSON-LD `dateModified` must **exactly match** `last-reviewed` — conflicting dates actively confuse both humans and AI about content freshness. This is data integrity.
 
 ### C. Content-Type Schema (Required for Entity Pages)
 
@@ -95,16 +98,21 @@ Pages about a specific thing must declare `mainEntity` with the appropriate type
 ### D. Answer-First Body Structure
 
 1. **First paragraph must answer**: What is this? Why does it matter? What can I do here?
+   - For complex topics that need context before the answer, lead with a brief orienting sentence, then answer.
 2. **Semantic headings**: H2/H3 mapped to real user questions (naturally, not stuffed)
 3. **Internal linking**: Every page links to 2+ related pages (ships link ports, ports link ships)
 
-### E. Canonical URL (Required)
+### E. Static HTML Content (New in v2.1)
+
+Key content — the text a human reads, the facts an AI cites — must be in the static HTML. Do not hide content behind JavaScript rendering, client-side fetch, or dynamic injection. If a search engine or AI crawler can't see it without executing JS, it doesn't exist.
+
+### F. Canonical URL (Required)
 
 ```html
 <link rel="canonical" href="https://DOMAIN/exact-path.html"/>
 ```
 
-### F. OpenGraph + Social (Required for public-facing sites)
+### G. OpenGraph + Social (Required for public-facing sites)
 
 Only applies to repos with public websites (InTheWake, flickersofmajesty). Recipe repos, sheep repo, and sermon repo are exempt unless they have public pages.
 
@@ -118,13 +126,15 @@ Only applies to repos with public websites (InTheWake, flickersofmajesty). Recip
 
 ---
 
-## AEO-Specific Requirements (New in ICP-2)
+## AEO-Specific Requirements
 
 ### 1. Zero-Click Optimization
 
 The `ai-summary` is the page's "answer" for AI citation. Write it as if an AI assistant will read it aloud as the complete answer to someone's question.
 
 **Test**: "If an AI reads only this summary to a user, would they get an accurate, useful answer?"
+
+**Multi-surface reality**: This summary serves Google snippets, AI Overviews, ChatGPT citations, Perplexity answers, and social share previews simultaneously. Write it for all of them — which means write it for humans.
 
 ### 2. AI Crawler Access
 
@@ -146,15 +156,17 @@ Allow: /
 
 Do NOT block AI crawlers unless there is a specific, documented reason.
 
-### 3. llms.txt Requirements
+### 3. llms.txt (Recommended, Not Required)
 
-The site root must have `/llms.txt` containing:
+If the site has a public presence, a `/llms.txt` at site root is recommended containing:
 - Site overview (what it is, who it's for)
 - Content scope and limitations
 - Author credentials (E-E-A-T)
 - Citation preference (how to attribute)
 - Key content sections with entry points
 - What the site does NOT do (no booking, no affiliate sales)
+
+**Note**: Both GPT and Gemini confirmed llms.txt is not an established standard. It may be ignored. Include it as a low-cost bet, not a requirement.
 
 ### 4. Freshness Honesty
 
@@ -163,7 +175,17 @@ The site root must have `/llms.txt` containing:
 - `last-reviewed` in HTML must match reality
 - Stale content (>6 months without review) should be flagged for update
 
-### 5. E-E-A-T Author Authority
+### 5. Volatile Data Discipline (New in v2.1)
+
+When content includes prices, menus, operating hours, policies, or any fact that changes:
+
+- **As-of date** must be visible (YYYY-MM-DD)
+- **Verification posture** stated: "Verified in Cruise Planner" / "Observed onboard" / "Community-reported"
+- **Disclaimer**: "Subject to change without notice"
+
+This is not SEO theater — both AI models and humans need to know when time-sensitive data was last checked.
+
+### 6. E-E-A-T Author Authority
 
 - Author pages must exist with `Person` schema
 - `knowsAbout` must list specific, real expertise areas (not aspirational)
@@ -174,16 +196,25 @@ The site root must have `/llms.txt` containing:
 
 ## What NOT To Do (Anti-Patterns)
 
-These are SEO theater. ICP-2 explicitly forbids them:
+These are theater. ICP-2 explicitly forbids them:
 
+### SEO Theater
 1. **Keyword stuffing** — writing for algorithms instead of humans
 2. **Fake freshness** — updating `lastmod` without actually reviewing content
 3. **Schema spam** — adding structured data that doesn't match visible content
-4. **Meta-tag gymnastics** — stuffing meta keywords or invisible text
+4. **Meta keywords** — dead since 2009, no engine reads them. Remove if present.
 5. **Link farming** — artificial internal linking that doesn't help navigation
 6. **Forced FAQs** — adding FAQPage schema to pages without genuine Q&A content
-7. **AI-blocking** — blocking AI crawlers out of fear rather than policy
-8. **Generic summaries** — ai-summary that could apply to any page on the internet
+7. **Geo meta tags** — `geo.region`, `geo.placename` on non-local sites
+
+### AEO Theater
+8. **ai-breadcrumbs HTML comments** — no AI crawler reads HTML comments. Both GPT and Gemini confirmed. Remove them.
+9. **AI-blocking** — blocking AI crawlers out of fear rather than policy
+10. **Generic summaries** — ai-summary that could apply to any page on the internet
+11. **Speculative standards** — ai-plugin.json, .well-known/ai, or other standards that don't exist yet
+12. **Exact-match meta gymnastics** — forcing character-identical text across multiple tags adds maintenance burden, not AI value. Be consistent, not identical.
+13. **Social profile farming** — creating social accounts just to populate `sameAs` links
+14. **JS-hidden content** — putting key content behind JavaScript rendering where crawlers can't reach it
 
 ---
 
@@ -220,14 +251,15 @@ When this skill fires on an HTML file edit, check in order:
 
 1. **`ai-summary` exists** and is <= 250 chars
 2. **`last-reviewed` exists** and is valid YYYY-MM-DD
-3. **`content-protocol` exists** and says `ICP-2` or `ICP-Lite v1.4`
-4. **`description` meta tag exists**
-5. **JSON-LD block exists** with `@type`
-6. **JSON-LD `description` matches `ai-summary`** exactly
-7. **JSON-LD `dateModified` matches `last-reviewed`** exactly
-8. **Canonical URL exists**
-9. **OpenGraph tags exist** (og:title, og:description, og:url)
+3. **`description` meta tag exists**
+4. **JSON-LD block exists** with `@type`
+5. **JSON-LD `description` is consistent with `ai-summary`** (same facts/meaning)
+6. **JSON-LD `dateModified` matches `last-reviewed`** exactly
+7. **Canonical URL exists**
+8. **Key content is in static HTML** (not behind JS rendering)
+9. **OpenGraph tags exist** (og:title, og:description, og:url) — public sites only
 10. **First paragraph** is answer-first (not "Welcome to..." or "This page...")
+11. **No forbidden anti-patterns** present (meta keywords, ai-breadcrumbs comments)
 
 If ANY check fails:
 - **Report the specific failure(s)**
@@ -236,7 +268,7 @@ If ANY check fails:
 
 If all checks pass:
 - **Confirm ICP-2 compliance**
-- **Note any optional enhancements available** (mainEntity, BreadcrumbList, FAQPage)
+- **Note any optional enhancements available** (mainEntity, BreadcrumbList, FAQPage, llms.txt)
 
 ---
 
@@ -247,6 +279,9 @@ Pages with `content-protocol="ICP-Lite v1.4"` are allowed during migration. When
 2. Change protocol tag to `ICP-2`
 3. Add any missing content-type schema
 4. Verify freshness dates are accurate
+5. Remove `ai-breadcrumbs` HTML comments if present
+6. Remove `meta name="keywords"` if present
+7. Remove `meta name="geo.region"` / `geo.placename` if present
 
 ---
 
@@ -256,8 +291,8 @@ Pages with `content-protocol="ICP-Lite v1.4"` are allowed during migration. When
 - **Monthly**: Review hub pages for accuracy
 - **Quarterly**: Review entity pages (ships, ports)
 - **On creation**: New pages must be ICP-2 compliant from the start
-- **Annually**: Review and update llms.txt
+- **Annually**: Review llms.txt and reassess emerging standards
 
 ---
 
-**End of ICP-2 Protocol**
+**End of ICP-2 v2.1 Protocol**
