@@ -6,10 +6,10 @@ trigger:
   - intent: ["recalling past context", "storing new knowledge", "resolving contradictions", "session continuity"]
   - event: session_start
 priority: high
-version: 2.0.0
+version: 3.0.0
 ---
 
-# Cognitive Memory System v2
+# Cognitive Memory System v3
 
 > Memory as stewardship: what we remember shapes how we serve.
 
@@ -154,3 +154,78 @@ python3 /home/user/ken/orchestrator/memory_ops.py link <grandma_cornbread_id> <g
 
 ### Careful-Not-Clever Integration
 Before encoding any recipe memory, verify against the source image. If you resolved an [UNCLEAR], note which image confirmed it.
+
+
+## v3 Upgrades (Research-Driven)
+
+### Protected Memories
+Foundational knowledge that should NEVER decay, regardless of recall frequency.
+
+```bash
+# Encode as protected from the start
+python3 /home/user/ken/orchestrator/memory_ops.py encode recipes fact "content" --protected
+
+# Protect an existing memory
+python3 /home/user/ken/orchestrator/memory_ops.py protect <id> --domain recipes
+```
+
+**When to protect:**
+- Vocabulary conventions ("oleo means margarine")
+- Core identity facts ("Kelsier is the gold standard sire")
+- Architectural decisions that downstream work assumes
+- Definitions that other memories reference implicitly
+
+**Auto-protection:** Memories with 3+ graph edges are automatically protected during consolidation — if many things reference it, it is foundational by definition.
+
+### Cross-Domain Recall
+Recall now searches ALL domains by default. Each result includes `_domain` so you know where it came from. This enables cross-pollination — a breeding pattern in sheep might inform resource organization in recipes.
+
+```bash
+# Search everywhere (default)
+python3 /home/user/ken/orchestrator/memory_ops.py recall "optimization strategy"
+
+# Restrict to one domain when you know what you want
+python3 /home/user/ken/orchestrator/memory_ops.py recall "optimization strategy" --domain recipes
+```
+
+### Graph Centrality Scoring
+Well-connected memories score higher in recall. A memory linked to 5 other memories ranks above an isolated memory with the same text similarity. This rewards knowledge that has been woven into the graph.
+
+**Score formula:** `similarity * confidence * (0.70 + 0.15*recency + 0.15*centrality)`
+
+### Graph Traversal
+Explore the knowledge graph from any memory:
+
+```bash
+# Direct neighbors
+python3 /home/user/ken/orchestrator/memory_ops.py neighbors <id> --depth 1
+
+# Neighbors of neighbors
+python3 /home/user/ken/orchestrator/memory_ops.py neighbors <id> --depth 2
+```
+
+### Tiered Storage (Active + Archive)
+Old, low-confidence, unprotected memories are automatically archived during consolidation (>180 days, <0.3 confidence). Archived memories:
+- Are preserved in `~/.memory/_archive/`
+- Are excluded from default recall (use `--include-archive` to search them)
+- Can be promoted back: `python3 memory_ops.py promote <id>`
+- Maintain graph edges for integrity
+
+```bash
+# Manually archive
+python3 /home/user/ken/orchestrator/memory_ops.py archive <id> --domain recipes
+
+# Search including archive
+python3 /home/user/ken/orchestrator/memory_ops.py recall "old topic" --include-archive
+
+# Bring something back
+python3 /home/user/ken/orchestrator/memory_ops.py promote <id>
+```
+
+### Enhanced Consolidation
+Consolidate is now smarter:
+1. **Decay** — only unrecalled, unprotected, >7-day-old memories (protected are immune)
+2. **Auto-protect** — memories with 3+ edges get protected automatically
+3. **Auto-merge** — memories with >85% similarity are merged (tags combined, lower one archived)
+4. **Auto-archive** — old (>180d), low-confidence (<0.3), unprotected memories move to archive
+5. **Near-duplicate flagging** — 70-85% similarity reported for manual review
