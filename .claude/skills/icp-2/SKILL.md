@@ -101,6 +101,8 @@ Pages about a specific thing must declare `mainEntity` with the appropriate type
    - For complex topics that need context before the answer, lead with a brief orienting sentence, then answer.
 2. **Semantic headings**: H2/H3 mapped to real user questions (naturally, not stuffed)
 3. **Internal linking**: Every page links to 2+ related pages (ships link ports, ports link ships)
+4. **AI-extractable formatting**: Use HTML tables for comparisons and data, ordered lists for steps/rankings, unordered lists for features/options. AI models extract structured HTML (tables, lists, heading hierarchies) more reliably than prose paragraphs. This isn't about formatting for crawlers — it's about making content scannable for humans AND parseable for AI simultaneously.
+5. **Semantic HTML5 elements**: Use `<article>`, `<section>`, `<nav>`, `<aside>` to segment content. These help AI identify which part of the page contains the primary content vs. navigation vs. supplementary material.
 
 ### E. Static HTML Content (New in v2.1)
 
@@ -135,6 +137,8 @@ The `ai-summary` is the page's "answer" for AI citation. Write it as if an AI as
 **Test**: "If an AI reads only this summary to a user, would they get an accurate, useful answer?"
 
 **Multi-surface reality**: This summary serves Google snippets, AI Overviews, ChatGPT citations, Perplexity answers, and social share previews simultaneously. Write it for all of them — which means write it for humans.
+
+**How AI actually uses your content (March 2026)**: AI models increasingly *synthesize* from multiple sources rather than *extracting* verbatim snippets. This means your page may inform an AI answer without being quoted directly. The best strategy is the same one that works for humans: be the most accurate, specific, and well-structured source on the topic. Original data, unique statistics, and firsthand experience are what make your content indispensable — AI can't synthesize what doesn't exist elsewhere.
 
 ### 2. AI Crawler Access
 
@@ -185,7 +189,16 @@ When content includes prices, menus, operating hours, policies, or any fact that
 
 This is not SEO theater — both AI models and humans need to know when time-sensitive data was last checked.
 
-### 6. E-E-A-T Author Authority
+### 6. Multimedia Metadata (New in v2.1)
+
+Images, video, and audio are increasingly processed by AI. Help them:
+- **Images**: Descriptive `alt` text that states what's in the image factually (not "beautiful sunset photo" — instead "Ship wake at sunrise departing Port Canaveral"). Use WebP format, lazy loading for below-fold.
+- **Video**: If embedded, include transcript text in static HTML. AI can't watch videos.
+- **Captions**: Table/chart captions should state what the data shows, not just label it.
+
+This isn't about stuffing keywords into alt text — it's about making visual content accessible to both screen readers and AI simultaneously.
+
+### 7. E-E-A-T Author Authority
 
 - Author pages must exist with `Person` schema
 - `knowsAbout` must list specific, real expertise areas (not aspirational)
