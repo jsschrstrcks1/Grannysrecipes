@@ -1,200 +1,221 @@
 # Granny Hudson's Recipe Archive
 
-A treasured collection of family recipes, preserved with love.
+A treasured collection of family recipes from Granny Hudson — preserved
+with love, kept private to family, and packaged as both a static website
+and a printable e-book.
 
-> *Soli Deo Gloria*
-
----
-
-## About This Project
-
-This archive preserves Granny Hudson's recipes—collected from handwritten cards, newspaper clippings, magazine cuttings, and other family treasures.
-
-This repository is part of a family recipe preservation project, split from the main Grandmasrecipes repository for better organization.
-
-**Related repositories:**
-- **Grandmasrecipes** - Main repository (Grandma Baker's collection)
-- **Grannysrecipes** - This repository (Granny Hudson's collection)
+> *Soli Deo Gloria.*
 
 ---
 
-## Project Structure
+## Table of Contents
+
+- [About this project](#about-this-project)
+- [Family Recipe Archive (multi-repo)](#family-recipe-archive-multi-repo)
+- [Project structure](#project-structure)
+- [Quick start](#quick-start)
+- [Privacy & anti-indexing](#privacy--anti-indexing)
+- [Memorial section](#memorial-section)
+- [Generate the e-book / PDF](#generate-the-e-book--pdf)
+- [Adding new recipes](#adding-new-recipes)
+- [Recipe JSON schema](#recipe-json-schema)
+- [Validation](#validation)
+- [Recommended tools](#recommended-tools-for-future-processing)
+- [Multi-LLM integration](#multi-llm-integration)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## About this project
+
+This archive preserves Granny Hudson's recipes — collected from
+handwritten cards, newspaper clippings, magazine cuttings, and other
+family treasures. Granny's life ran from Florida to Boston and back, and
+her recipes carry the marks of both.
+
+This is a **private family archive**. Unlike the other recipe repos in
+the family, this site is intentionally hidden from search engines and
+AI crawlers. See [Privacy & anti-indexing](#privacy--anti-indexing).
+
+This repository is part of a family recipe preservation project, split
+from the main Grandmasrecipes repository for better organization.
+
+---
+
+## Family Recipe Archive (multi-repo)
+
+| Repo | Collection |
+|---|---|
+| [MomsRecipes](https://github.com/jsschrstrcks1/MomsRecipes) | MomMom Baker (heirloom recipes) |
+| [Grandmasrecipes](https://github.com/jsschrstrcks1/Grandmasrecipes) | Grandma Baker (Michigan → Florida) |
+| **Grannysrecipes** | **Granny Hudson (Florida → Boston → back)** *(this repo)* |
+| [Allrecipes](https://github.com/jsschrstrcks1/Allrecipes) | Reference cookbooks & magazines |
+
+---
+
+## Project structure
 
 ```
 Grannysrecipes/
-├── CLAUDE.md                  # AI assistant context & guidelines
+├── CLAUDE.md                  # AI assistant context
+├── OVERLOOKED_TIPS_REPORT.md  # Audit of "tips that should have been captured"
 ├── README.md                  # This file
 ├── index.html                 # Home page with search & filters
 ├── recipe.html                # Recipe detail page
 ├── styles.css                 # Stylesheet
 ├── script.js                  # Client-side JavaScript
-├── robots.txt                 # Search engine directives
+├── robots.txt                 # Search-engine directives (BLOCKS ALL)
 ├── granny/                    # Granny Hudson's recipe collection
 │   ├── *.jpeg                 # Original scanned recipe images
 │   ├── processed/             # AI-friendly resized versions (if needed)
-│   ├── recipes_master.json    # All recipes in structured format
+│   ├── recipes_master.json    # All recipes
 │   └── processed_images.json  # Scan processing log & metadata
-├── scripts/                   # Utility scripts
-│   ├── validate-recipes.py    # Recipe validation
-│   ├── process_images.py      # Image resizing
-│   ├── image_safeguards.py    # Image validation
-│   └── optimize_images.py     # JPEG optimization
+├── Memorial/                  # Tribute pages (see "Memorial section")
+├── scripts/                   # Validation, image processing, privacy checks
+│   ├── validate-recipes.py
+│   ├── process_images.py
+│   ├── image_safeguards.py
+│   ├── optimize_images.py
+│   └── check-noindex.sh       # Privacy enforcement
+├── .githooks/
+│   └── pre-commit             # Enforces noindex / no-sitemap rules
 └── ebook/
-    ├── book.html              # Print-optimized e-book HTML
+    ├── book.html              # Print-optimized e-book
     └── print.css              # Print stylesheet
 ```
 
 ---
 
-## Quick Start
+## Quick start
 
-### View the Website Locally
+### View the site locally
 
-1. **Using Python (recommended):**
-   ```bash
-   cd Grannysrecipes
-   python -m http.server 8000
-   ```
-   Then open http://localhost:8000/ in your browser.
+```bash
+# Python (recommended)
+cd Grannysrecipes
+python -m http.server 8000
 
-2. **Using Node.js:**
-   ```bash
-   npx serve .
-   ```
+# or Node.js
+npx serve .
 
-3. **Using PHP:**
-   ```bash
-   php -S localhost:8000
-   ```
+# or PHP
+php -S localhost:8000
+```
 
-### Host on GitHub Pages
+Open <http://localhost:8000>.
 
-1. Push this repository to GitHub
-2. Go to **Settings → Pages**
-3. Set source to your main branch and root folder
-4. Your site will be live at `https://yourusername.github.io/Grannysrecipes/`
+### Host on GitHub Pages / Netlify / Vercel
 
-### Host on Netlify
-
-1. Push to GitHub/GitLab
-2. Connect to Netlify
-3. Set publish directory to root
-4. Deploy!
-
-### Host on Vercel
-
-1. Push to GitHub
-2. Import project in Vercel
-3. Deploy!
+Pure static. **Before publishing, double-check the privacy controls
+below — this archive is family-only.**
 
 ---
 
-## Privacy & Anti-Indexing
+## Privacy & anti-indexing
 
-This is a **private family recipe archive**. We take active measures to prevent search engine indexing:
+This is a **private family recipe archive**. Several controls work
+together to keep it out of search engines and AI crawlers:
 
-### Protection Measures
+- **`robots.txt`** — blocks all search engines and AI crawlers.
+- **Meta tags** — every HTML file includes `noindex, nofollow`.
+- **No `sitemap.xml`** — intentionally absent.
+- **Family-name gate** — a simple authentication step on the front end.
 
-- **robots.txt** - Blocks all search engines and AI crawlers
-- **Meta tags** - All HTML files include `noindex, nofollow` directives
-- **No sitemap** - We intentionally don't provide a sitemap
-- **Authentication** - Simple family-name gate protects the content
+### Required developer setup
 
-### Developer Setup (Required)
-
-After cloning, configure git hooks to enforce privacy rules:
+After cloning, enable the privacy-enforcing git hooks **once**:
 
 ```bash
 git config core.hooksPath .githooks
 ```
 
-This enables a pre-commit hook that verifies:
-1. `robots.txt` blocks all crawlers
-2. No `sitemap.xml` exists
-3. All HTML files have `noindex` meta tags
+The pre-commit hook verifies before every commit that:
 
-You can also run the check manually:
+1. `robots.txt` blocks all crawlers.
+2. No `sitemap.xml` exists.
+3. Every HTML file has the `noindex` meta tag.
+
+Run the check manually any time:
 
 ```bash
 bash scripts/check-noindex.sh
 ```
 
-### If You Fork This Repository
+### If you fork this repository
 
-Please maintain these privacy protections. These are real family recipes shared among relatives - not intended for public discovery.
+Please maintain the privacy protections. These are real family recipes
+shared among relatives — not intended for public discovery.
 
 ---
 
-## Generate PDF E-Book
+## Memorial section
 
-### Method 1: Browser Print (Easiest)
+The `Memorial/` directory holds tribute pages: photos, stories, and the
+memories tied to specific recipes. Treat memorial content with the same
+care as the recipes themselves — preserve voice, never embellish, and
+never publish a memorial page without the family's explicit consent.
 
-1. Open `ebook/book.html` in your browser
-2. Press `Ctrl+P` (or `Cmd+P` on Mac)
-3. Select "Save as PDF" as the destination
-4. Adjust margins to "None" or "Minimum"
-5. Enable "Background graphics" for colors
-6. Save
+The `OVERLOOKED_TIPS_REPORT.md` audit captures small notes ("Granny
+always added a pinch of nutmeg") that originally lived only in family
+memory. New tips go through the same validation as recipes.
 
-### Method 2: Using wkhtmltopdf
+---
+
+## Generate the e-book / PDF
+
+#### Browser print (easiest)
+
+1. Open `ebook/book.html` in a browser.
+2. `Ctrl+P` (or `Cmd+P`) → "Save as PDF".
+3. Set margins to "None" or "Minimum"; enable "Background graphics".
+
+#### `wkhtmltopdf`
 
 ```bash
 wkhtmltopdf \
   --enable-local-file-access \
   --page-size Letter \
-  --margin-top 0.75in \
-  --margin-bottom 0.75in \
-  --margin-left 1in \
-  --margin-right 1in \
-  ebook/book.html grandmas-recipes.pdf
+  --margin-top 0.75in --margin-bottom 0.75in \
+  --margin-left 1in --margin-right 1in \
+  ebook/book.html grannys-recipes.pdf
 ```
 
-### Method 3: Using Pandoc
+#### Pandoc
 
 ```bash
 pandoc ebook/book.html \
-  -o grandmas-recipes.pdf \
+  -o grannys-recipes.pdf \
   --pdf-engine=wkhtmltopdf \
   --css=ebook/print.css
 ```
 
-### Method 4: Using Calibre (for EPUB/MOBI)
+#### Calibre (EPUB / MOBI)
 
-1. Open Calibre
-2. Add book → Select `ebook/book.html`
-3. Convert book → Select output format (EPUB, MOBI, etc.)
-4. Adjust settings as needed
-5. Convert
+Add `ebook/book.html` to Calibre, "Convert book", choose your format.
 
 ---
 
-## Adding New Recipes
+## Adding new recipes
 
-### 1. Scan Your Recipe
-
-- Scan at 300 DPI or higher
-- Save as JPEG in `granny/` folder
-- Recommended naming: descriptive or numbered (e.g., `recipe-name.jpeg` or `101 Medium.jpeg`)
-
-### 2. Extract the Recipe
-
-Follow the workflow in `CLAUDE.md`:
-1. Analyze the scan for orientation and content
-2. Extract all recipe data following the JSON schema
-3. Check for duplicates against existing recipes
-4. Add to `granny/recipes_master.json`
-5. Update `granny/processed_images.json`
-
-### 3. Update the E-Book
-
-Add the new recipe to `ebook/book.html`:
-- Add to Table of Contents
-- Add recipe in appropriate section
-- Update the Index
+1. **Scan** at 300 DPI or higher; save as JPEG in `granny/`.
+2. **Extract** following [`CLAUDE.md`](CLAUDE.md):
+   - Analyze the scan for orientation and content.
+   - Extract recipe data per the JSON schema.
+   - Check for duplicates against existing recipes.
+   - Append to `granny/recipes_master.json`.
+   - Update `granny/processed_images.json`.
+3. **Update the e-book** (`ebook/book.html`):
+   - Add to Table of Contents.
+   - Insert the recipe in the appropriate section.
+   - Update the Index.
+4. **Validate** (see below) and commit. The pre-commit hook re-runs the
+   privacy check; if it fails, **fix the underlying file** rather than
+   bypassing the hook.
 
 ---
 
-## Recipe JSON Schema
+## Recipe JSON schema
 
 ```json
 {
@@ -218,71 +239,90 @@ Add the new recipe to `ebook/book.html`:
   "pan_size": "9x13 inch pan",
   "notes": ["Any additional notes"],
   "tags": ["dessert", "holiday", "vintage"],
-  "confidence": {
-    "overall": "high|medium|low",
-    "flags": []
-  },
+  "confidence": {"overall": "high|medium|low", "flags": []},
   "image_refs": ["filename.jpeg"]
 }
 ```
 
 ---
 
-## Current Status
-
-Recipe extraction from Granny Hudson's collection is in progress. Check `granny/recipes_master.json` for the current list of extracted recipes.
-
----
-
-## Recommended Tools for Future Processing
-
-### OCR & Text Extraction
-- **EasyOCR** - Good for messy scans
-- **PaddleOCR** - Excellent for mixed layouts
-- **Tesseract** - Gold standard open-source OCR
-
-### Image Preprocessing
-- **OpenCV** - Deskewing, denoising, contrast
-- **unpaper** - Post-processing scanned pages
-- **ScanTailor** - Batch processing with GUI
-
-### E-Book Generation
-- **Calibre** - Full-featured e-book management
-- **Pandoc** - Universal document converter
-- **ebooklib** - Python library for EPUB creation
-
----
-
-## File Integrity
-
-After modifying recipes, validate:
+## Validation
 
 ```bash
-# Check JSON syntax
+# JSON syntax
 python -m json.tool granny/recipes_master.json > /dev/null && echo "JSON valid"
 
-# Use the validation script
+# Full validation
 python scripts/validate-recipes.py
+
+# Privacy check (also runs from pre-commit hook)
+bash scripts/check-noindex.sh
 ```
+
+The validator enforces required fields, slug uniqueness, image
+references, and category vocabulary. The privacy check enforces the
+anti-indexing rules.
+
+---
+
+## Recommended tools for future processing
+
+- **OCR:** EasyOCR, PaddleOCR, Tesseract.
+- **Image preprocessing:** OpenCV, unpaper, ScanTailor.
+- **E-book generation:** Calibre, Pandoc, ebooklib.
+
+---
+
+## Multi-LLM integration
+
+Defaults to **`recipe` mode** in the multi-LLM orchestrator hosted in
+[ken](https://github.com/jsschrstrcks1/ken).
+
+| Skill | Usage |
+|---|---|
+| `/consult gpt structure "..."` | Quick second opinion |
+| `/orchestrate recipe "<task>"` | Full pipeline: transcribe → validate → integrate |
+| Cognitive memory | Scope `/Grannysrecipes` |
+
+The `recipe-transcription` and `recipe-validation` skills are designed
+for messy handwriting and partial text. They never invent steps —
+anything inferred is flagged.
+
+#### Setup (per session)
+
+```bash
+pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
+```
+
+#### Privacy posture for AI assistants
+
+- Recipe content **may** be shared with AI models for transcription
+  help.
+- Memorial content (people's names, photos, stories) **must not** be
+  sent to external models. Process it locally.
 
 ---
 
 ## Contributing
 
 This is a family project. If you're family and have:
+
 - Additional scans of Granny Hudson's recipes
 - Corrections to existing recipes
 - Memories or context about specific recipes
 
-Please reach out!
+Please reach out. If you fork, **keep the privacy protections.**
 
 ---
 
 ## License
 
 This recipe collection is a family treasure. Please use respectfully.
+The site source is published under [`LICENSE`](LICENSE) (GNU AGPL v3);
+recipe text, photos, and memorial content are family-private and not
+licensed for commercial reuse or republication.
 
 ---
 
-*"She looketh well to the ways of her household, and eateth not the bread of idleness."*
-— Proverbs 31:27
+*"She looketh well to the ways of her household, and eateth not the
+bread of idleness." — Proverbs 31:27*
