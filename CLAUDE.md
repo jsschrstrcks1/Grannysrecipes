@@ -183,3 +183,31 @@ bash scripts/check-noindex.sh
 ---
 
 *"She looketh well to the ways of her household, and eateth not the bread of idleness."* — Proverbs 31:27
+
+---
+
+## Cognitive Memory — Slice 6 Observation Capture
+
+To enable always-on cognitive memory observation capture in this repo, register the canonical hook (lives in `ken`) in `.claude/settings.json`:
+
+```json
+"env": {
+  "MEMORY_OBSERVATIONS_ENABLED": "true",
+  "MEMORY_AUTO_OBSERVE_ENABLED": "true"
+},
+"hooks": {
+  "PostToolUse": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {"type": "command",
+         "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"}
+      ]
+    }
+  ]
+}
+```
+
+Hook is **fail-closed**: any error → exit 0, never blocks the tool call. Args SHA256-hashed via `_compute_args_hash` before disk; raw values never persisted. Errors → `/tmp/observe-hook.err`. Surface candidates: call `memory_ops.extract_candidates_from_observations(session_id)` after a session.
+
+Setup memory: id `5a9c8ae1` (recall via `python3 /home/user/ken/orchestrator/memory_ops.py recall "Slice 6 always-on cognitive memory observation capture"`). Currently active in `ken/.claude/settings.json` (commit `ca78cad`); per-repo activation is opt-in via the absolute-path reference above.
