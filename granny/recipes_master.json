@@ -16615,6 +16615,499 @@
         ]
       },
       "source_note": "handwritten card - Nancy's recipe"
+    },
+    {
+      "id": "fish-is-good-food-collection-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Fish Is Good Food (Recipe Collection)",
+      "category": "mains",
+      "description": "Collection of fish recipes including Parmesan Fillets, Almond Fillets, Fish and Vegetable Salad, and Fillets in Foil.",
+      "notes": [
+        "Parmesan Fillets: Coat fish with Parmesan, bake until flaky.",
+        "Almond Fillets on Curried Rice: Bake fish with almonds, serve on curried rice.",
+        "Fish and Vegetable Salad: Combine flaked fish with vegetables.",
+        "Fillets in Foil: Wrap seasoned fish in foil, bake until done."
+      ],
+      "tags": [
+        "fish",
+        "seafood",
+        "healthy"
+      ],
+      "image_refs": [
+        "gr-190"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial pamphlet",
+          "multiple recipes on one sheet",
+          "details hard to read"
+        ]
+      },
+      "source_note": "typed pamphlet - Fish Is Good Food"
+    },
+    {
+      "id": "cream-cheese-gems-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cream Cheese Gems",
+      "category": "desserts",
+      "description": "Delicate cream cheese walnut confections.",
+      "ingredients": [
+        {
+          "item": "cream cheese",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "3 ounces"
+        },
+        {
+          "item": "Dixie Crystals 4X sugar",
+          "quantity": "2 1/2",
+          "unit": "cups",
+          "prep_note": "sifted"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "",
+          "unit": "dash"
+        },
+        {
+          "item": "walnut halves",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Place cream cheese in bowl; cream until soft and smooth."
+        },
+        {
+          "step": 2,
+          "text": "Slowly blend in sugar. Add vanilla and salt and blend well."
+        },
+        {
+          "step": 3,
+          "text": "Form into nuggets, using 1 heaping teaspoon of mixture for each."
+        },
+        {
+          "step": 4,
+          "text": "Place 2 walnut halves on opposite sides of each."
+        },
+        {
+          "step": 5,
+          "text": "Refrigerate until firm."
+        }
+      ],
+      "tags": [
+        "dessert",
+        "candy",
+        "cream cheese",
+        "walnuts",
+        "no-bake"
+      ],
+      "image_refs": [
+        "gr-195"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe card"
+        ]
+      },
+      "source_note": "typed recipe card - Dixie Crystals"
+    },
+    {
+      "id": "chocolate-cherry-thumbprints-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Chocolate-Cherry Thumbprints",
+      "category": "desserts",
+      "description": "Oatmeal cookies with chocolate morsels and maraschino cherry centers.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "10-12 minutes",
+      "servings_yield": "About 4 dozen",
+      "ingredients": [
+        {
+          "item": "sugar",
+          "quantity": "3/4",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "2/3",
+          "unit": "cup",
+          "prep_note": "1 stick + 3 tbsp, softened"
+        },
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "Nestle Semi-Sweet Chocolate Morsels",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "12-ounce, divided"
+        },
+        {
+          "item": "Quaker Oats",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "quick or old fashioned, uncooked"
+        },
+        {
+          "item": "all-purpose flour",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/4",
+          "unit": "tsp",
+          "prep_note": "optional"
+        },
+        {
+          "item": "raisins",
+          "quantity": "2",
+          "unit": "cups",
+          "prep_note": "optional"
+        },
+        {
+          "item": "maraschino cherries",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "drained, patted dry"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Beat sugar, margarine, eggs and vanilla until smooth."
+        },
+        {
+          "step": 2,
+          "text": "Add 1 cup morsels, mix well. Cover, chill dough 1 hour."
+        },
+        {
+          "step": 3,
+          "text": "Stir in oats, flour, baking powder and salt; mix well."
+        },
+        {
+          "step": 4,
+          "text": "Heat oven to 350\u00b0F. Shape dough into 1-inch balls."
+        },
+        {
+          "step": 5,
+          "text": "Place 2 inches apart on ungreased cookie sheet."
+        },
+        {
+          "step": 6,
+          "text": "Press deep centers with thumb. Place one cherry into each center."
+        },
+        {
+          "step": 7,
+          "text": "Bake 10 to 12 minutes or until set."
+        },
+        {
+          "step": 8,
+          "text": "Remove to wire rack; cool completely."
+        },
+        {
+          "step": 9,
+          "text": "Drizzle cookies with remaining 1 cup chocolate morsels, melted."
+        }
+      ],
+      "notes": [
+        "To melt chocolate morsels: Microwave at HIGH 1 to 2 minutes, stirring every 30 seconds until smooth. Or, heat in heavy saucepan over low heat, stirring until smooth."
+      ],
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "cherry",
+        "oatmeal"
+      ],
+      "image_refs": [
+        "gr-205"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "typed recipe card"
+        ]
+      },
+      "source_note": "typed recipe card - Nestle/Quaker"
+    },
+    {
+      "id": "pumpkin-apple-spice-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Pumpkin and Apple Spice Muffins",
+      "category": "breads",
+      "description": "Moist pumpkin muffins with apple and spices.",
+      "tags": [
+        "muffins",
+        "pumpkin",
+        "apple",
+        "breakfast"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe",
+          "details hard to read"
+        ]
+      },
+      "source_note": "typed coupon card - Enova"
+    },
+    {
+      "id": "yucatan-grilled-pork-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Yucatan Grilled Pork",
+      "category": "mains",
+      "description": "Grilled pork with Kikkoman marinade, Yucatan style.",
+      "tags": [
+        "pork",
+        "grilled",
+        "mexican"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe"
+        ]
+      },
+      "source_note": "typed coupon card - Kikkoman"
+    },
+    {
+      "id": "rice-pudding-lactaid-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Rice Pudding (Lactaid)",
+      "category": "desserts",
+      "description": "Creamy rice pudding made with lactose-free milk.",
+      "tags": [
+        "dessert",
+        "pudding",
+        "rice",
+        "lactose-free"
+      ],
+      "image_refs": [
+        "gr-240"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "typed commercial recipe"
+        ]
+      },
+      "source_note": "typed coupon card - Lactaid"
+    },
+    {
+      "id": "creamy-mild-au-gratin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Creamy Mild Au Gratin",
+      "category": "sides",
+      "description": "Creamy au gratin dish with mushrooms and cheese.",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cooking sherry",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "mild cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cracker crumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "[UNCLEAR: handwriting difficult to read - needs review]"
+        }
+      ],
+      "tags": [
+        "side dish",
+        "au gratin",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "gr-305"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "faded writing - needs careful review"
+        ]
+      },
+      "source_note": "handwritten card"
+    },
+    {
+      "id": "grandmas-wheat-bran-muffins-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Grandma's Wheat Bran Muffins",
+      "category": "breads",
+      "description": "Wholesome wheat bran muffins with sunflower seeds.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "cook_time": "20-25 minutes",
+      "ingredients": [
+        {
+          "item": "eggs",
+          "quantity": "2",
+          "unit": ""
+        },
+        {
+          "item": "butter or margarine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "almond extract",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "wheat flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "white flour",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "1 1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "wheat bran",
+          "quantity": "2",
+          "unit": "cups"
+        },
+        {
+          "item": "sunflower seeds",
+          "quantity": "1 1/2",
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Mix butter, sugar, and eggs together."
+        },
+        {
+          "step": 2,
+          "text": "In another bowl, mix flour, baking powder, and salt."
+        },
+        {
+          "step": 3,
+          "text": "Add dry ingredients to egg mixture."
+        },
+        {
+          "step": 4,
+          "text": "Stir in wheat bran and sunflower seeds."
+        },
+        {
+          "step": 5,
+          "text": "Bake at 350\u00b0F for 20-25 minutes."
+        }
+      ],
+      "tags": [
+        "muffins",
+        "breakfast",
+        "wheat bran",
+        "sunflower seeds",
+        "healthy"
+      ],
+      "image_refs": [
+        "gr-71"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "some words hard to read"
+        ]
+      },
+      "source_note": "handwritten card - Grandma's recipe"
     }
   ],
   "meta": {

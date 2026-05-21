@@ -1,22 +1,107 @@
-# Granny Hudson's Recipe Archive - AI Assistant Context
+# Granny Hudson's Recipe Archive — AI Assistant Context
 
-## Project Mission & Values
+**Version:** 2.0 (lean hub)
+**Last updated:** 2026-05-01
 
-This is a labor of love being performed by a Reformed Baptist family. Our ethos is **Soli Deo Gloria** (Glory to God Alone).
+> **Soli Deo Gloria.** A labor of love by a Reformed Baptist family.
+> Hundreds of real people will use these recipes. **Accuracy beats speed.**
 
-This repository contains **Granny Hudson's** recipe collection - one of several family recipe archives that have been split from the original Grandmasrecipes repository for better organization.
-
-**Related repositories:**
-- **Grandmasrecipes** - Main repository (Grandma Baker's collection)
-- **Grannysrecipes** - This repository (Granny Hudson's collection)
-
-**Accuracy is more important than speed.** There are hundreds of real people that will be impacted by these recipes. They matter deeply to this family.
+This repo contains **Granny Hudson's** recipe collection, split out from the
+original Grandmasrecipes monorepo. Related repos: Grandmasrecipes, MomsRecipes,
+Allrecipes.
 
 ---
 
-## Recipe Collection
+## Quick Start (read first)
 
-### Collection Configuration
+1. **Run `python scripts/image_safeguards.py status`** before reading ANY image.
+2. **2000 px API limit.** Use `granny/processed/*.jpeg` for oversized originals.
+3. **Every recipe MUST have `"collection": "granny"`.**
+4. **Never invent** ingredients, steps, temperatures, times, or yields.
+5. **Mark unclear text `[UNCLEAR]`** — add `[GUESS]` candidates with confidence levels.
+6. **Run `python scripts/validate-recipes.py`** before committing.
+7. **Privacy: this is family-only.** Never weaken `noindex` / `robots.txt`.
+
+Decision priority: **accuracy → preservation → fidelity → readability**.
+
+---
+
+## Essential Reading
+
+### Standards (extracted)
+
+| File | What it covers |
+|---|---|
+| [`.claude/standards/OCR_STANDARDS.md`](.claude/standards/OCR_STANDARDS.md) | Character confusion, measurement standardization, dual-temperature format |
+| [`.claude/standards/IMAGE_WORKFLOW.md`](.claude/standards/IMAGE_WORKFLOW.md) | 2000 px pre-flight, manifest, status values, recovery from dimension error |
+| [`.claude/standards/FRAGMENT_HANDLING.md`](.claude/standards/FRAGMENT_HANDLING.md) | Source classification, completeness check, fragment / multi-page rules, screenshot handling |
+| [`.claude/standards/RECIPE_SCHEMA.md`](.claude/standards/RECIPE_SCHEMA.md) | Full recipe JSON schema (conversions + nutrition + variants) |
+| [`.claude/standards/CONVERSIONS.md`](.claude/standards/CONVERSIONS.md) | US ↔ metric tables, temperature conversions, JSON structure |
+| [`.claude/standards/NUTRITION_QUESTIONS.md`](.claude/standards/NUTRITION_QUESTIONS.md) | Nutrition-blocker question format, default confidence levels |
+| [`.claude/standards/DUPLICATE_HANDLING.md`](.claude/standards/DUPLICATE_HANDLING.md) | Exact / near / same-title rules, variant display |
+| [`.claude/standards/BLOAT_MANAGEMENT.md`](.claude/standards/BLOAT_MANAGEMENT.md) | Image optimization (Q85), git history options |
+
+---
+
+## Repository Structure
+
+```
+Grannysrecipes/
+├── CLAUDE.md                # This hub
+├── README.md                # Public-facing overview
+├── index.html / recipe.html # Static site
+├── styles.css / script.js   # Site bundle
+├── robots.txt               # BLOCKS ALL crawlers
+├── .githooks/pre-commit     # Enforces noindex / no-sitemap rules
+├── .claude/
+│   └── standards/           # Extracted reference files (see above)
+├── granny/                  # Granny Hudson's collection
+│   ├── *.jpeg               # Original scans
+│   ├── processed/           # AI-friendly resized copies (≤ 2000 px)
+│   ├── recipes_master.json  # All recipes
+│   ├── collections.json     # Collection metadata
+│   ├── processed_images.json # Scan processing log
+│   └── image_manifest.json  # Validation status & dimensions
+├── Memorial/                # Tribute pages — do NOT publish without consent
+├── scripts/
+│   ├── validate-recipes.py
+│   ├── process_images.py
+│   ├── image_safeguards.py
+│   ├── optimize_images.py
+│   └── check-noindex.sh     # Privacy enforcement
+└── ebook/                   # Print generation
+```
+
+---
+
+## Privacy Posture
+
+This is a **private family archive**:
+
+- `robots.txt` blocks all search engines and AI crawlers.
+- Every HTML file ships `noindex, nofollow`.
+- No `sitemap.xml` is published.
+- Family-name gate on the front end.
+
+Enable the privacy enforcement hooks once after cloning:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The pre-commit hook verifies `robots.txt`, the absence of `sitemap.xml`, and
+`noindex` on every HTML file.
+
+For AI:
+
+- Recipe content **may** be shared with external models for transcription help.
+- Memorial content (people's names, photos, stories) **must not** be sent to
+  external models. Process locally.
+
+---
+
+## Collection Configuration
+
 ```json
 {
   "collections": {
@@ -30,615 +115,52 @@ This repository contains **Granny Hudson's** recipe collection - one of several 
 }
 ```
 
-### Collection Rules
-1. **Every recipe MUST have a `collection` field** set to `"granny"`
-2. **Website displays `collection_display`** for user-friendly names
-3. All images are stored in the `granny/` folder
+Rules:
 
----
-
-## OCR Correction Guidelines
-
-### Common OCR Errors to Watch For
-- `l` ↔ `1` (lowercase L vs number one)
-- `O` ↔ `0` (letter O vs zero)
-- `rn` ↔ `m` (r-n combination vs letter m)
-- `cl` ↔ `d` (c-l combination vs letter d)
-- `tsp` vs `tbsp` (critical for measurements!)
-
-### Measurement Standardization
-| Original | Standardized |
-|----------|-------------|
-| teaspoon, t, t. | tsp |
-| tablespoon, T, Tbsp, Tbs | tbsp |
-| cup, c, C | cup |
-| ounce, oz | oz |
-| pound, lb, # | lb |
-| pint, pt | pint |
-| quart, qt | quart |
-
-### Temperature Format
-Prefer dual format for accessibility: `350°F (175°C)`
-
----
-
-## OCR Pre-Processing Safeguards
-
-### CRITICAL: Before Processing ANY New Image Batch
-
-#### Step 0: MANDATORY Dimension Pre-Flight Check (RUN FIRST!)
-
-**API LIMIT**: Claude's API rejects images >2000px in any dimension with error:
-```
-API Error: 400 {"type":"error","error":{"type":"invalid_request_error",
-"message":"messages.X.content.X.image.source.base64.data: At least one of
-the image dimensions exceed max allowed size for many-image requests: 2000 pixels"}}
-```
-
-**BEFORE reading ANY recipe images, run:**
-```bash
-# Check manifest status - shows oversized/broken images
-python scripts/image_safeguards.py status
-
-# If no manifest exists or status shows oversized images:
-python scripts/process_images.py --collection granny
-python scripts/image_safeguards.py validate
-```
-
-**Collection-Specific Rules:**
-
-| Collection | Source | Max Dimension | Path to Use |
-|------------|--------|---------------|-------------|
-| Granny | Scanned cards | Check dimensions | `granny/*.jpeg` or `granny/processed/*.jpeg` if oversized |
-
-**Always check image dimensions first** using:
-```bash
-python scripts/image_safeguards.py status
-```
-
-If images are oversized (>2000px), use the processed versions at `granny/processed/*.jpeg`.
-
-#### Step 1: Source Classification
-Identify the image type BEFORE attempting extraction:
-
-| Source Type | Indicators | Action |
-|-------------|------------|--------|
-| **Handwritten cards** | Cursive/print handwriting, index cards, aged paper | Process normally |
-| **Magazine clippings** | Printed text, newspaper/magazine layout, ads nearby | Process normally |
-| **Digital screenshots** | "Location X of Y", percentage indicators, e-reader UI | **STOP - requires special handling** |
-| **Typed cards** | Typewriter font, consistent spacing | Process normally |
-| **Cookbook pages** | Professional layout, copyright notices | **Verify family ownership** |
-
-#### Step 2: Completeness Check (MANDATORY)
-**DO NOT extract a recipe unless ALL THREE elements are present:**
-
-1. ✅ **Title** - Recipe name clearly visible
-2. ✅ **Ingredients** - At least partial ingredient list
-3. ✅ **Instructions** - At least partial directions
-
-If any element is missing, classify the image as:
-- `FRAGMENT_START` - Has title + ingredients, instructions cut off
-- `FRAGMENT_MIDDLE` - Instructions only, no title
-- `FRAGMENT_END` - Only "Serving suggestion" or final steps
-- `MULTI_RECIPE` - Contains end of one recipe + start of another
-
-#### Step 3: Fragment Handling Protocol
-
-```
-IF image is FRAGMENT_START or FRAGMENT_MIDDLE or FRAGMENT_END:
-    1. DO NOT create recipe entry yet
-    2. Log in processed_images.json as:
-       {
-         "image": "IMG_XXXX.PNG",
-         "status": "fragment",
-         "fragment_type": "FRAGMENT_END",
-         "visible_content": "Serving suggestion for [recipe name if known]",
-         "needs_pairing": true
-       }
-    3. Search adjacent images for matching fragments
-    4. Only extract AFTER all fragments are assembled
-```
-
-#### Step 4: Digital Screenshot Special Handling
-
-For e-reader/Kindle screenshots (identified by "Location X of Y" footer):
-
-1. **Sort by Kindle location number** before processing (NOT by filename)
-2. **Check for commercial copyright** - Do not process copyrighted cookbooks without explicit permission
-3. **Identify the source cookbook** - Record in `source_note`
-4. **Map page boundaries** - Note which recipes span multiple screenshots
-5. **Flag collection mismatch** - These are NOT family recipes; clarify with user before adding
-
-#### Step 5: Batch Validation Checklist
-
-Before processing a new folder of images:
-
-- [ ] All images are from the same source/collection?
-- [ ] Image filenames follow expected pattern?
-- [ ] No obvious duplicates of already-processed images?
-- [ ] Source type identified (handwritten/digital/printed)?
-- [ ] Copyright status verified for non-family sources?
-- [ ] Fragment images identified and grouped?
-
-### Failure Recovery
-
-If a previous processing attempt failed or produced bad data:
-
-1. **Check `processed_images.json`** for partial entries
-2. **Review fragments** - Were multi-page recipes incorrectly split?
-3. **Verify collection assignment** - Did recipes get wrong `collection` field?
-4. **Look for hallucinated content** - Did AI invent missing instructions?
-5. **Check for duplicate IDs** - Recipe ID collisions cause data loss
-
-### Recovering from 2000px Dimension Error
-
-If you encounter this error:
-```
-API Error: 400 ... image dimensions exceed max allowed size ... 2000 pixels
-```
-
-**STOP immediately.** Do NOT retry the same request. Follow these steps:
-
-1. **Run the image processing script:**
-   ```bash
-   python scripts/process_images.py --collection granny
-   ```
-
-2. **Update the manifest:**
-   ```bash
-   python scripts/image_safeguards.py validate
-   ```
-
-3. **Resume with processed images:**
-   - Use `granny/processed/*.jpeg` for oversized images
-   - NEVER use oversized original images directly
-
-4. **If the error persists:** The image may be corrupted or in an unexpected format. Mark it as broken:
-   ```bash
-   python scripts/image_safeguards.py mark "filename.jpeg" broken "Dimension error"
-   ```
-
-**Why the loop happens:** When Claude encounters this error, it cannot process the response and may repeatedly attempt the same failing request. The only recovery is to ensure ALL images are ≤2000px BEFORE starting any OCR batch.
-
-### Red Flags - STOP and Ask User
-
-- Image shows only 1-2 lines of text (likely fragment)
-- "Location X of Y" footer visible (digital source)
-- Copyright notice visible
-- Recipe title doesn't match family naming patterns
-- Instructions reference "see page X" (multi-page recipe)
-- Image quality too poor to read measurements reliably
-
----
-
-## Recipe Schema
-
-```json
-{
-  "id": "stable-slug-like-aunt-lindas-pound-cake",
-  "collection": "grandma",
-  "collection_display": "Grandma Baker",
-  "title": "",
-  "category": "desserts",
-  "attribution": "",
-  "source_note": "e.g., handwritten card, magazine clipping, church cookbook",
-  "description": "1–2 sentences, only if supported by text",
-  "servings_yield": "",
-  "prep_time": "",
-  "cook_time": "",
-  "total_time": "",
-  "ingredients": [
-    {"item": "", "quantity": "", "unit": "", "prep_note": ""}
-  ],
-  "instructions": [
-    {"step": 1, "text": ""}
-  ],
-  "temperature": "",
-  "pan_size": "",
-  "notes": [""],
-  "tags": ["dessert", "holiday", "bread", "casserole"],
-  "confidence": {
-    "overall": "high|medium|low",
-    "flags": []
-  },
-  "image_refs": ["IMG_001"],
-  "page_continuation": {"continues_from": "", "continues_to": ""},
-
-  "conversions": {
-    "has_conversions": true,
-    "conversion_assumptions": [
-      "All-purpose flour: 1 cup = 120g",
-      "Granulated sugar: 1 cup = 200g",
-      "Brown sugar (packed): 1 cup = 220g",
-      "Butter: 1 tbsp = 14g, 1 cup = 227g",
-      "Milk/liquids: 1 cup = 240ml"
-    ],
-    "ingredients_metric": [
-      {"item": "", "quantity": "", "unit": "g|ml", "prep_note": ""}
-    ],
-    "temperature_c": ""
-  },
-
-  "nutrition": {
-    "status": "complete|partial|insufficient_data",
-    "per_serving": {
-      "calories": null,
-      "fat_g": null,
-      "carbs_g": null,
-      "protein_g": null,
-      "sodium_mg": null,
-      "fiber_g": null,
-      "sugar_g": null
-    },
-    "missing_inputs": [],
-    "assumptions": []
-  },
-
-  "variant_of": "",
-  "variant_notes": "",
-  "canonical_id": ""
-}
-```
-
----
-
-## Quality Checklist
-
-- [ ] Cross-check ingredient quantities against instructions
-- [ ] Flag implausible amounts (e.g., "4 cups salt" is probably an OCR error)
-- [ ] Preserve original voice where possible—don't over-modernize Grandma's wording
-- [ ] Verify temperatures are reasonable (most baking: 300-425°F)
-- [ ] Check that liquid-to-dry ratios make sense
-- [ ] Ensure baking times align with temperatures and pan sizes
-
----
-
-## File Naming & Organization
-
-### Convention
-`category/recipe-name.md`
-
-Examples:
-- `desserts/grandmas-apple-pie.md`
-- `mains/sunday-pot-roast.md`
-- `breads/buttermilk-biscuits.md`
-
-### Categories
-- appetizers
-- beverages
-- breads
-- breakfast
-- desserts
-- mains
-- salads
-- sides
-- soups
-- snacks
-
-### Front Matter Requirements
-```yaml
----
-title: "Recipe Title"
-category: desserts
-yield: "24 cookies"
-prep_time: "15 minutes"
-cook_time: "10 minutes"
-source: "handwritten card"
-tags: [cookies, nuts, holiday]
-confidence: high
----
-```
+1. Every recipe **must** have `"collection": "granny"`.
+2. The website displays `collection_display` for user-friendly names.
+3. All images live under `granny/`.
 
 ---
 
 ## Non-Negotiable Rules
 
-1. **Do NOT invent** ingredients, steps, temperatures, times, or yields
-2. If anything is **unreadable or ambiguous**, mark it as `[UNCLEAR]` and provide 2–3 best guesses labeled as `[GUESS]` with confidence levels
-3. **Preserve original intent**, but normalize spelling and formatting for readability
-4. **Keep family names/attributions** if present (e.g., "Aunt Linda's Pound Cake")
-5. **Never discard a scan reference** - even merged duplicates must keep all image_refs
+1. Do NOT invent ingredients, steps, temperatures, times, or yields.
+2. Mark unreadable / ambiguous text as `[UNCLEAR]`; provide 2–3 `[GUESS]` candidates.
+3. Preserve original intent; normalize only spelling and formatting.
+4. Keep family names and attributions (e.g., "Aunt Linda's Pound Cake").
+5. Never discard a `image_refs` reference — even merged duplicates keep all refs.
+6. Never read images >2000 px directly — use `granny/processed/`.
+7. Never weaken privacy controls (`robots.txt`, `noindex`, no-sitemap).
+8. Never publish memorial content without explicit family consent.
 
 ---
 
-## Duplicate Handling
+## Categories
 
-### Definitions
-- **Exact duplicate:** Same title + essentially identical ingredients + identical instructions
-- **Near duplicate:** Same recipe but small differences (e.g., 1 tsp vs 1/2 tsp, extra note, different bake time)
-
-### Rules
-1. Compare new recipes against `recipes_master.json` using title similarity, ingredient overlap, and instruction similarity
-2. **Exact duplicates:** Append image_refs to existing recipe, do not create new entry
-3. **Near duplicates:** Create variant group, ask for decision (keep both / merge / archive one)
-4. **Same title, different recipe:** Treat as separate recipes with distinct IDs, flag: `[SAME TITLE, DIFFERENT RECIPE]`
-
-### Variants Display Rule (Website/E-Book)
-- Show ONE canonical recipe by default
-- Include a "Variants" dropdown/section listing other versions
-- Each variant shows: source, date (if known), and key differences
-- Never hide variant existence—always surface that alternatives exist
+`appetizers, beverages, breads, breakfast, desserts, mains, salads, sides, soups, snacks`
 
 ---
 
-## Nutrition Coverage Questions
-
-When extracting a recipe, generate TWO separate question lists:
-
-### 1. Standard Questions (as before)
-- Missing steps, unclear ingredients, continuation pages, etc.
-
-### 2. Nutrition Blockers (NEW - separate mini-list)
-Title this section: **"Nutrition blockers (answering these increases nutrition coverage)"**
-
-Ask ONLY the minimum questions required to compute estimated nutrition:
-
-| Question Type | When to Ask | Example |
-|--------------|-------------|---------|
-| **servings_yield** | Not specified or ambiguous | "Makes how many? [GUESS 0.6] 24 cookies / [GUESS 0.3] 36 cookies / other" |
-| **Can/jar sizes** | Generic "1 can" listed | "1 can evaporated milk — what size? [GUESS 0.55] 12 oz / [GUESS 0.30] 14 oz / other" |
-| **Package sizes** | "1 box" or "1 package" | "1 box pudding mix — [GUESS 0.7] 3.4 oz instant / [GUESS 0.2] 5.1 oz cook & serve / other" |
-| **Ingredient types** | Macros vary significantly | "Ground beef — [GUESS 0.5] 80/20 / [GUESS 0.3] 85/15 / [GUESS 0.2] 90/10" |
-| **Milk type** | Just says "milk" | "[GUESS 0.5] whole / [GUESS 0.3] 2% / [GUESS 0.2] skim" |
-
-### Format for Nutrition Questions
-```
-Q: "1 can tomatoes" — what size?
-   [GUESS 0.50] 14.5 oz / [GUESS 0.35] 28 oz / [GUESS 0.15] other: ___
-```
-
-### Rules
-1. Provide sensible defaults as suggestions with confidence levels
-2. **DO NOT assume without user approval** — always ask
-3. If user skips these questions:
-   - Set `nutrition.status = "insufficient_data"`
-   - List what's missing in `nutrition.missing_inputs`
-4. If user approves defaults:
-   - Set `nutrition.status = "complete"` or `"partial"`
-   - Document assumptions in `nutrition.assumptions`
-
----
-
-## Measurement Conversions
-
-### Rules
-1. **Always preserve original units** — never replace what was written
-2. Provide metric conversions as a **separate, optional view**
-3. Label conversions clearly: "Converted (approx.)"
-4. **Never convert [UNCLEAR] amounts** — only convert confirmed values
-5. Include both °F and °C for all oven temperatures
-
-### Standard Conversion Table
-| US Measure | Metric Equivalent | Notes |
-|------------|-------------------|-------|
-| 1 cup all-purpose flour | 120g | Spooned & leveled |
-| 1 cup bread flour | 130g | |
-| 1 cup cake flour | 115g | |
-| 1 cup granulated sugar | 200g | |
-| 1 cup brown sugar (packed) | 220g | |
-| 1 cup powdered sugar | 120g | Sifted |
-| 1 cup butter | 227g (2 sticks) | |
-| 1 tbsp butter | 14g | |
-| 1 cup milk/water/liquid | 240ml | |
-| 1 cup sour cream/yogurt | 240g | |
-| 1 cup honey/syrup | 340g | |
-| 1 oz | 28g | |
-| 1 lb | 454g | |
-
-### Temperature Conversions
-| Fahrenheit | Celsius | Description |
-|------------|---------|-------------|
-| 250°F | 120°C | Very low |
-| 300°F | 150°C | Low |
-| 325°F | 165°C | Low-moderate |
-| 350°F | 175°C | Moderate |
-| 375°F | 190°C | Moderate-high |
-| 400°F | 200°C | Hot |
-| 425°F | 220°C | Hot |
-| 450°F | 230°C | Very hot |
-| 475°F | 245°C | Very hot |
-| 500°F | 260°C | Extremely hot |
-
-### Conversion JSON Structure
-```json
-"conversions": {
-  "has_conversions": true,
-  "conversion_assumptions": [
-    "All-purpose flour: 1 cup = 120g (spooned & leveled)"
-  ],
-  "ingredients_metric": [
-    {"item": "flour", "quantity": "330", "unit": "g", "prep_note": "sifted"}
-  ],
-  "temperature_c": "190°C"
-}
-```
-
----
-
-## Project Structure
-
-```
-Grannysrecipes/
-├── CLAUDE.md                 # This file
-├── README.md                 # Setup and hosting instructions
-├── index.html                # Home page (root for GitHub Pages)
-├── recipe.html               # Recipe detail page
-├── styles.css                # Stylesheet
-├── script.js                 # Client-side rendering
-├── robots.txt                # Search engine directives
-├── granny/                   # Granny Hudson's recipe collection
-│   ├── *.jpeg               # Original scanned recipe images
-│   ├── processed/           # AI-friendly resized versions (if needed)
-│   │   └── *.jpeg
-│   ├── recipes_master.json  # All recipes for this collection
-│   ├── collections.json     # Collection metadata
-│   ├── processed_images.json # Scan processing log
-│   └── image_manifest.json  # Image validation status & dimensions
-├── scripts/
-│   ├── validate-recipes.py  # Recipe validation script
-│   ├── process_images.py    # Image resizing for AI processing
-│   ├── image_safeguards.py  # Broken image detection & session resilience
-│   └── optimize_images.py   # JPEG optimization for repo size
-└── ebook/
-    ├── book.html            # Print-optimized HTML
-    └── print.css            # Print stylesheet
-```
-
----
-
-## Image Processing Safeguards
-
-### The Problem
-- **Oversized images**: Images larger than 2000px in any dimension cannot be processed by Claude's API
-- **Broken images**: Corrupted or truncated files can crash AI sessions
-
-### Solution: Two-Layer Protection
-
-#### 1. Image Resizing (`scripts/process_images.py`)
-
-Resizes oversized images to max 2000px while preserving quality for OCR.
+## Validation
 
 ```bash
-# Preview what will be processed (no changes)
-python scripts/process_images.py --dry-run
+# Recipes
+python scripts/validate-recipes.py
 
-# Process granny collection
-python scripts/process_images.py --collection granny
+# Privacy (also runs from pre-commit)
+bash scripts/check-noindex.sh
 ```
-
-**Output**: Creates `granny/processed/` folder with AI-friendly versions.
-
-#### 2. Image Safeguards (`scripts/image_safeguards.py`)
-
-Creates a manifest tracking image status to prevent broken images from crashing sessions.
-
-```bash
-# Validate all images and create manifest
-python scripts/image_safeguards.py validate
-
-# Check current status
-python scripts/image_safeguards.py status
-
-# Get next unprocessed image
-python scripts/image_safeguards.py next granny
-
-# Mark an image as processed/skipped
-python scripts/image_safeguards.py mark "1 Medium.jpeg" processed
-python scripts/image_safeguards.py mark "2 Medium.jpeg" skipped "Not a recipe"
-
-# List broken images
-python scripts/image_safeguards.py broken
-```
-
-### Image Status Values
-| Status | Meaning |
-|--------|---------|
-| `valid` | Ready to process |
-| `oversized` | Valid but >2000px (use processed version) |
-| `resized` | Processed version available |
-| `broken` | Cannot read (skip) |
-| `recoverable` | Partially corrupted (may work) |
-| `processed` | Recipe extraction complete |
-| `skipped` | Not a recipe |
-
-### Workflow for Processing Granny Images
-
-1. **Before starting a new session**:
-   ```bash
-   python scripts/image_safeguards.py status
-   ```
-
-2. **Use processed images** from `granny/processed/` if originals are oversized
-
-3. **If an image fails**, mark it:
-   ```bash
-   python scripts/image_safeguards.py mark "filename.jpeg" broken "Error description"
-   ```
-
-4. **Resume where you left off** — the manifest tracks session state
-
-### Recovering from Crashes
-
-If a session crashes mid-processing:
-1. The manifest (`granny/image_manifest.json`) preserves state
-2. Run `python scripts/image_safeguards.py status` to see progress
-3. Run `python scripts/image_safeguards.py next granny` to get the next image
-4. Continue processing without losing work
 
 ---
 
-## Repository Bloat Management
+## Version History
 
-### The Problem
-- **Large repo size**: Image files can be large
-- **Git history**: Old versions remain in .git directory
-- **Root cause**: Scanner software may save at 100% JPEG quality
-
-### Solution: Image Optimization (`scripts/optimize_images.py`)
-
-Re-compresses JPEGs at Q85 (visually identical, human-readable) for size reduction.
-
-```bash
-# Preview savings (no changes)
-python scripts/optimize_images.py --dry-run
-
-# Optimize granny collection
-python scripts/optimize_images.py --collection granny
-
-# Optimize with backups (keeps .original.jpeg files)
-python scripts/optimize_images.py --backup
-
-# Custom quality (default: 85)
-python scripts/optimize_images.py --quality 80
-```
-
-### Important Notes
-
-1. **Run once**: The script tracks optimized images in `optimization_manifest.json`
-2. **Human-readable**: Q85 is visually identical to originals for recipe reading
-3. **Git history**: Old versions remain in .git — consider `git gc` or fresh clone
-4. **Backups optional**: Use `--backup` to keep originals as `.original.jpeg`
-
-### Reducing Git History Size
-
-After optimizing images, the old versions still exist in git history. Options:
-
-1. **Accept it**: Clone size stays large but working directory is smaller
-2. **Shallow clone**: `git clone --depth 1` for new contributors
-3. **BFG Repo-Cleaner**: Rewrite history (destructive, coordinate with team)
-4. **Git LFS migration**: Move images to LFS (requires setup)
+| Version | Date | Changes |
+|---|---|---|
+| 2.0 | 2026-05-01 | Lean hub restructure. Extracted OCR / image / fragment / schema / conversions / nutrition / duplicate / bloat subfiles into `.claude/standards/`. CLAUDE.md cut from ~609 lines to ~145. |
+| 1.x | 2026-01..03 | Original monolithic context file |
 
 ---
 
-## Multi-LLM Integration
-
-This repository has access to the multi-LLM orchestrator system. External models (GPT, Gemini, Grok) serve as **consultants only** — Claude remains lead author and decision-maker.
-
-### Available Skills
-
-| Skill | Usage | Purpose |
-|-------|-------|---------|
-| `/consult` | `/consult gemini expand "substitutions for buttermilk"` | Quick single-model second opinion |
-| `/orchestrate` | `/orchestrate recipe "Granny's cornbread variations"` | Full multi-model pipeline |
-| Cognitive Memory | Automatic on session start | Cross-session knowledge persistence |
-
-### Mode: `recipe`
-- **Lead:** GPT (generation)
-- **Pipeline:** Generate (GPT) → Expand (Gemini) → Safety Check (Claude) → Creative Variation (Grok)
-- **Memory scope:** `/recipes/grannysrecipes`
-- **Orchestrator:** `/home/user/ken/orchestrator/`
-
-### First-Time Setup (Per Session)
-
-Before first use of `/consult` or `/orchestrate` in a session, install dependencies:
-
-```bash
-bash /home/user/ken/orchestrator/bootstrap-env.sh 2>/dev/null
-pip3 install -q -r /home/user/ken/orchestrator/requirements.txt
-```
-
-This is silent when already installed. If `/consult` or `/orchestrate` fails with `ModuleNotFoundError`, run this command first.
-
-### Context Boundaries
-- **SEND:** Recipe requirements, ingredient lists, dietary constraints
-- **NEVER SEND:** Family attribution details, site analytics, personal details
+*"She looketh well to the ways of her household, and eateth not the bread of idleness."* — Proverbs 31:27
