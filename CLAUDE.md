@@ -1,7 +1,7 @@
 # Granny Hudson's Recipe Archive — AI Assistant Context
 
-**Version:** 2.0 (lean hub)
-**Last updated:** 2026-05-01
+**Version:** 2.1 (lean hub + skills index)
+**Last updated:** 2026-05-10
 
 > **Soli Deo Gloria.** A labor of love by a Reformed Baptist family.
 > Hundreds of real people will use these recipes. **Accuracy beats speed.**
@@ -9,6 +9,14 @@
 This repo contains **Granny Hudson's** recipe collection, split out from the
 original Grandmasrecipes monorepo. Related repos: Grandmasrecipes, MomsRecipes,
 Allrecipes.
+
+---
+
+## Skills
+
+Full skill catalog (18 skills) is documented in [`SKILLS.md`](SKILLS.md) — human-facing index with activation modes, trigger keywords, and the **two-tier privacy posture for AI consultation** (recipe content may go to AI; memorial content must not).
+
+**Read SKILLS.md at session start.** It documents both the recipe-domain skills (`recipe-transcription`, `recipe-validation`) and the standard household kit (16 skills).
 
 ---
 
@@ -21,12 +29,19 @@ Allrecipes.
 5. **Mark unclear text `[UNCLEAR]`** — add `[GUESS]` candidates with confidence levels.
 6. **Run `python scripts/validate-recipes.py`** before committing.
 7. **Privacy: this is family-only.** Never weaken `noindex` / `robots.txt`.
+8. **Memorial content never leaves local.** Do not send `Memorial/` paths to external AI models.
 
 Decision priority: **accuracy → preservation → fidelity → readability**.
 
 ---
 
 ## Essential Reading
+
+### Skills index
+
+| File | What it covers |
+|---|---|
+| [`SKILLS.md`](SKILLS.md) | **Skills index — read at session start** |
 
 ### Standards (extracted)
 
@@ -47,14 +62,16 @@ Decision priority: **accuracy → preservation → fidelity → readability**.
 
 ```
 Grannysrecipes/
-├── CLAUDE.md                # This hub
-├── README.md                # Public-facing overview
+├── SKILLS.md                 # Skills index (NEW)
+├── CLAUDE.md                 # This hub
+├── README.md                 # Public-facing overview
 ├── index.html / recipe.html # Static site
 ├── styles.css / script.js   # Site bundle
 ├── robots.txt               # BLOCKS ALL crawlers
 ├── .githooks/pre-commit     # Enforces noindex / no-sitemap rules
 ├── .claude/
-│   └── standards/           # Extracted reference files (see above)
+│   ├── standards/           # Extracted reference files (see above)
+│   └── skills/              # 18 skills (see SKILLS.md)
 ├── granny/                  # Granny Hudson's collection
 │   ├── *.jpeg               # Original scans
 │   ├── processed/           # AI-friendly resized copies (≤ 2000 px)
@@ -133,6 +150,7 @@ Rules:
 6. Never read images >2000 px directly — use `granny/processed/`.
 7. Never weaken privacy controls (`robots.txt`, `noindex`, no-sitemap).
 8. Never publish memorial content without explicit family consent.
+9. Never send memorial content to external AI models.
 
 ---
 
@@ -158,9 +176,38 @@ bash scripts/check-noindex.sh
 
 | Version | Date | Changes |
 |---|---|---|
+| 2.1 | 2026-05-10 | Added `SKILLS.md` skill index. CLAUDE.md references it. |
 | 2.0 | 2026-05-01 | Lean hub restructure. Extracted OCR / image / fragment / schema / conversions / nutrition / duplicate / bloat subfiles into `.claude/standards/`. CLAUDE.md cut from ~609 lines to ~145. |
 | 1.x | 2026-01..03 | Original monolithic context file |
 
 ---
 
 *"She looketh well to the ways of her household, and eateth not the bread of idleness."* — Proverbs 31:27
+
+---
+
+## Cognitive Memory — Slice 6 Observation Capture
+
+To enable always-on cognitive memory observation capture in this repo, register the canonical hook (lives in `ken`) in `.claude/settings.json`:
+
+```json
+"env": {
+  "MEMORY_OBSERVATIONS_ENABLED": "true",
+  "MEMORY_AUTO_OBSERVE_ENABLED": "true"
+},
+"hooks": {
+  "PostToolUse": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {"type": "command",
+         "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"}
+      ]
+    }
+  ]
+}
+```
+
+Hook is **fail-closed**: any error → exit 0, never blocks the tool call. Args SHA256-hashed via `_compute_args_hash` before disk; raw values never persisted. Errors → `/tmp/observe-hook.err`. Surface candidates: call `memory_ops.extract_candidates_from_observations(session_id)` after a session.
+
+Setup memory: id `5a9c8ae1` (recall via `python3 /home/user/ken/orchestrator/memory_ops.py recall "Slice 6 always-on cognitive memory observation capture"`). Currently active in `ken/.claude/settings.json` (commit `ca78cad`); per-repo activation is opt-in via the absolute-path reference above.
