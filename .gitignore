@@ -1,0 +1,4 @@
+# API keys
+.env
+.env.*
+!.env.example
