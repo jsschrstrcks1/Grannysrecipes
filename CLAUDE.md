@@ -62,3 +62,24 @@ node /Users/kenbaker/atlas-serve/admin/library.mjs preflight --query "<task>" --
 | Open work | `admin/UNFINISHED_TASKS.md` or `admin/PENDING_TASKS.md` |
 
 *Household catalog SSOT:* `/Users/kenbaker/atlas-serve/.household-library/catalog.jsonl`
+
+
+## ⚡ Sophos required — enforced, belt and suspenders (operator directive 2026-07-24)
+
+**Anyone — human, Claude, Grok, Skynet, any runtime — working in ANY household
+repo operates under Sophos, the full posture loaded from the single word.**
+Front door: `open-claw-stuff/skills/sophos/SKILL.md` (synced copy:
+`Project-Sophos/.claude/skills/sophos/`). One invocation loads Soli Deo Gloria,
+careful-not-clever, the Sophos OS hierarchy + publish gate, and cognitive-memory
+recall through the evidence envelope (directives honored, evidence weighed).
+
+Enforcement:
+- **Belt:** in `open-claw-stuff` the bootstrap guard DENIES repo mutations until
+  `skills/sophos/SKILL.md` and the other Layer 0/1 files are read this session.
+- **Suspenders:** this section, plus REQUIRED session hooks in `.claude/`:
+  `memory-directives-inject.sh` (SessionStart — operator law auto-loads,
+  read-only) and `memory-autopersist.sh` (Stop — encoded memories are
+  committed+pushed; nothing dies with an ephemeral container). Do not remove or
+  bypass; kill-switches are for operator debugging only.
+
+**Soli Deo Gloria.**
