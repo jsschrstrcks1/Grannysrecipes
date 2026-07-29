@@ -22725,7 +22725,8 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-08",
     "version": "3.0.0",
-    "total_recipes": 1338
+    "total_recipes": 1338,
+    "recipe_count": 201
   },
   "version": "2.79.0"
 }
