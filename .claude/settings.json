@@ -18,6 +18,15 @@
             "command": "$CLAUDE_PROJECT_DIR/.claude/hooks/post-write-validate.sh"
           }
         ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -70,5 +79,9 @@
         ]
       }
     ]
+  },
+  "env": {
+    "MEMORY_OBSERVATIONS_ENABLED": "true",
+    "MEMORY_AUTO_OBSERVE_ENABLED": "true"
   }
 }
