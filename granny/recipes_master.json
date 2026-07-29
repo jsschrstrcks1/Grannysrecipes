@@ -7,7 +7,7 @@
       "title": "Busy Day Casserole",
       "category": "mains",
       "description": "A quick and easy ground beef casserole.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -61,7 +61,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F for 30 minutes until bubbly and tots are golden."
+          "text": "Bake at 350°F for 30 minutes until bubbly and tots are golden."
         }
       ],
       "tags": [
@@ -159,7 +159,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0F for 40 minutes."
+          "text": "Bake at 350°F for 40 minutes."
         },
         {
           "step": 7,
@@ -209,7 +209,7 @@
       "category": "desserts",
       "source_note": "Quaker Oats container lid",
       "description": "Classic oatmeal cookies from the Quaker Oats recipe.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "8-9 minutes",
       "servings_yield": "About 5 dozen cookies",
       "ingredients": [
@@ -269,7 +269,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 350\u00b0F."
+          "text": "Heat oven to 350°F."
         },
         {
           "step": 2,
@@ -344,7 +344,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Italian-style chicken breasts with tomatoes and herbs.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "prep_time": "15 minutes",
       "cook_time": "45 minutes",
       "servings_yield": "4 servings",
@@ -398,7 +398,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Preheat oven to 350\u00b0F."
+          "text": "Preheat oven to 350°F."
         },
         {
           "step": 2,
@@ -406,7 +406,7 @@
         },
         {
           "step": 3,
-          "text": "In skillet, saut\u00e9 garlic in oil. Add chicken and brown on both sides."
+          "text": "In skillet, sauté garlic in oil. Add chicken and brown on both sides."
         },
         {
           "step": 4,
@@ -777,7 +777,7 @@
         },
         {
           "step": 2,
-          "text": "To the pan, add remaining oil. Add onion and garlic. Saut\u00e9 for 5 minutes. Add mushrooms. Cook 4 minutes longer."
+          "text": "To the pan, add remaining oil. Add onion and garlic. Sauté for 5 minutes. Add mushrooms. Cook 4 minutes longer."
         },
         {
           "step": 3,
@@ -838,7 +838,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A hearty casserole topped with sliced eggs.",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "prep_time": "10 minutes",
       "cook_time": "25 minutes",
       "servings_yield": "4 servings",
@@ -913,7 +913,7 @@
         },
         {
           "step": 4,
-          "text": "Transfer mixture to large shallow casserole dish. Bake at 400\u00b0F until bubbly and lightly browned, about 25 minutes."
+          "text": "Transfer mixture to large shallow casserole dish. Bake at 400°F until bubbly and lightly browned, about 25 minutes."
         },
         {
           "step": 5,
@@ -961,11 +961,11 @@
       "id": "quick-corn-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Quick Corn Souffl\u00e9",
+      "title": "Quick Corn Soufflé",
       "category": "sides",
       "source_note": "My Great Recipes packet",
-      "description": "An easy corn souffl\u00e9 that puffs up golden brown.",
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "description": "An easy corn soufflé that puffs up golden brown.",
+      "temperature": "425°F (220°C)",
       "prep_time": "10 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "6 servings",
@@ -1031,11 +1031,11 @@
         },
         {
           "step": 3,
-          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
+          "text": "Spoon into buttered 1-cup soufflé dishes. Place on cookie sheet."
         },
         {
           "step": 4,
-          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
+          "text": "Bake at 425°F for 20 minutes or until puffed and golden brown."
         },
         {
           "step": 5,
@@ -1087,7 +1087,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Roasted Cornish hens with a tangy basting sauce.",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "prep_time": "20 minutes",
       "cook_time": "50 minutes",
       "servings_yield": "4 servings",
@@ -1170,7 +1170,7 @@
         },
         {
           "step": 5,
-          "text": "Roast hens at 375\u00b0F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
+          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
         },
         {
           "step": 6,
@@ -1219,7 +1219,7 @@
       "title": "Buttercups",
       "category": "desserts",
       "description": "Individual pie crust cups filled with a sweet coconut filling.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "20 minutes",
       "ingredients": [
         {
@@ -1450,7 +1450,7 @@
       "category": "breakfast",
       "source_note": "My Great Recipes packet",
       "description": "Blueberry muffins with a cinnamon crumble topping.",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "10 muffins",
@@ -1526,7 +1526,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 400\u00b0F for 20 minutes. Cool for 1 minute. Remove from pans."
+          "text": "Bake at 400°F for 20 minutes. Cool for 1 minute. Remove from pans."
         }
       ],
       "notes": [
@@ -1572,7 +1572,7 @@
       "category": "breads",
       "source_note": "My Great Recipes packet",
       "description": "Buttery, flaky croissants with optional chocolate, apple-almond, or other fillings.",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "prep_time": "15 minutes",
       "cook_time": "10-15 minutes",
       "servings_yield": "32 croissants",
@@ -1586,7 +1586,7 @@
           "item": "warm water",
           "quantity": "1/2",
           "unit": "cup",
-          "prep_note": "105-115\u00b0F"
+          "prep_note": "105-115°F"
         },
         {
           "item": "nonfat dry milk",
@@ -1642,7 +1642,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375\u00b0F 10 to 15 minutes until golden."
+          "text": "Bake at 375°F 10 to 15 minutes until golden."
         }
       ],
       "notes": [
@@ -1689,7 +1689,7 @@
       "title": "Carrot Cake",
       "category": "desserts",
       "description": "Classic carrot cake with cream cheese frosting.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "ingredients": [
         {
           "item": "all-purpose flour",
@@ -1782,7 +1782,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F until toothpick comes out clean."
+          "text": "Bake at 350°F until toothpick comes out clean."
         },
         {
           "step": 6,
@@ -1839,7 +1839,7 @@
       "title": "Dump Cake",
       "category": "desserts",
       "description": "A simple layered dessert - just dump the ingredients in order and bake!",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "11 x 9 x 2 inch pan",
       "ingredients": [
         {
@@ -1908,7 +1908,7 @@
         },
         {
           "step": 8,
-          "text": "Bake at 350\u00b0F until golden brown on top."
+          "text": "Bake at 350°F until golden brown on top."
         }
       ],
       "notes": [
@@ -1962,7 +1962,7 @@
       "title": "Broccoli Casserole",
       "category": "sides",
       "description": "A cheesy broccoli casserole side dish.",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "cook_time": "15-25 minutes",
       "pan_size": "9 x 13 inch casserole",
       "ingredients": [
@@ -2027,7 +2027,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400\u00b0F for 15-25 minutes or until golden."
+          "text": "Bake at 400°F for 15-25 minutes or until golden."
         }
       ],
       "notes": [
@@ -2047,7 +2047,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90\u00b0",
+          "handwritten recipe rotated 90°",
           "key ingredient unclear (mayo vs cheese)",
           "Optional: Hot Peppers noted on card"
         ]
@@ -2081,7 +2081,7 @@
       "title": "Ham & Cheese Casserole",
       "category": "mains",
       "description": "A hearty macaroni casserole with ham and cheese.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -2163,7 +2163,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F for 30 minutes."
+          "text": "Bake at 350°F for 30 minutes."
         }
       ],
       "tags": [
@@ -2180,7 +2180,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90\u00b0",
+          "handwritten recipe rotated 90°",
           "flour amount corrected: 2 tbsp (not 1 cup)",
           "peas added (was missing)",
           "ham amount corrected: 1 cup (not 2 cups)"
@@ -2364,7 +2364,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90\u00b0",
+          "handwritten recipe rotated 90°",
           "multiple ingredients marked [UNCLEAR]",
           "previous extraction had significant errors",
           "Frosting ingredients were missing - added standard cream cheese frosting"
@@ -2391,7 +2391,7 @@
       "servings_yield": "24 cookies",
       "prep_time": "20 minutes",
       "cook_time": "25-30 minutes",
-      "temperature": "350\u00b0F (175\u00b0C)"
+      "temperature": "350°F (175°C)"
     },
     {
       "id": "caramel-corn-granny",
@@ -2400,7 +2400,7 @@
       "title": "Caramel Corn",
       "category": "snacks",
       "description": "Homemade caramel corn - crunchy and sweet.",
-      "temperature": "250\u00b0F (120\u00b0C)",
+      "temperature": "250°F (120°C)",
       "ingredients": [
         {
           "item": "popped popcorn",
@@ -2469,7 +2469,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 250\u00b0F, stirring every 15 minutes, for about 1 hour."
+          "text": "Bake at 250°F, stirring every 15 minutes, for about 1 hour."
         },
         {
           "step": 7,
@@ -2524,7 +2524,7 @@
       "title": "Pound Cake",
       "category": "desserts",
       "description": "Classic Southern pound cake with sour cream.",
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "cook_time": "1-1/2 hours",
       "pan_size": "tube or bundt pan",
       "ingredients": [
@@ -2597,7 +2597,7 @@
         },
         {
           "step": 8,
-          "text": "Bake at 325\u00b0F for 1-1/2 hours or until toothpick comes out clean."
+          "text": "Bake at 325°F for 1-1/2 hours or until toothpick comes out clean."
         }
       ],
       "tags": [
@@ -2726,7 +2726,7 @@
         "overall": "low",
         "flags": [
           "NEEDS_MANUAL_REVIEW",
-          "handwritten recipe rotated 90\u00b0",
+          "handwritten recipe rotated 90°",
           "very difficult to read",
           "title and most ingredients uncertain",
           "may reference \"Anne Linda\" as source"
@@ -2765,7 +2765,7 @@
       "category": "breads",
       "source_note": "My Great Recipes packet",
       "description": "Pull-apart bread with herbs and cheese.",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "cook_time": "30 minutes",
       "ingredients": [
         {
@@ -2824,7 +2824,7 @@
         },
         {
           "step": 7,
-          "text": "Bake at 375\u00b0F for about 30 minutes until golden."
+          "text": "Bake at 375°F for about 30 minutes until golden."
         }
       ],
       "tags": [
@@ -2971,7 +2971,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Country-style pork back ribs baked together with potatoes.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "prep_time": "10-15 minutes",
       "cook_time": "1 hour",
       "servings_yield": "4-6 servings",
@@ -3062,7 +3062,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 350\u00b0F for 30 minutes. Remove cover. Bake 30 minutes longer or until ribs are tender and potatoes are cooked through."
+          "text": "Cover. Bake at 350°F for 30 minutes. Remove cover. Bake 30 minutes longer or until ribs are tender and potatoes are cooked through."
         },
         {
           "step": 6,
@@ -3115,7 +3115,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Tender sirloin steak marinated in an Asian-inspired sauce.",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "prep_time": "10 minutes",
       "cook_time": "20-30 minutes",
       "servings_yield": "4-6 servings",
@@ -3179,7 +3179,7 @@
         },
         {
           "step": 5,
-          "text": "Roast at 450\u00b0F for 20 to 30 minutes for rare to medium-rare. After 5 minutes, brush with marinade. Baste meat often."
+          "text": "Roast at 450°F for 20 to 30 minutes for rare to medium-rare. After 5 minutes, brush with marinade. Baste meat often."
         },
         {
           "step": 6,
@@ -3314,7 +3314,7 @@
       "notes": [
         "Good served with barbecued vegetables or steamed fresh vegetables and a tossed salad.",
         "Recipe may be halved or doubled.",
-        "For 8-12 servings, use only 1\u00bd times the sweet-and-sour broth.",
+        "For 8-12 servings, use only 1½ times the sweet-and-sour broth.",
         "You may precook spareribs ahead of time and simply heat and glaze over charcoal before serving."
       ],
       "tags": [
@@ -3364,7 +3364,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A different and delicious pot roast with an unusual combination of sweet and spicy flavors.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "prep_time": "30 minutes",
       "cook_time": "2-1/2 to 3 hours",
       "servings_yield": "6 servings",
@@ -3436,7 +3436,7 @@
         },
         {
           "step": 2,
-          "text": "Cook, uncovered, at 350\u00b0F for 30 minutes. Turn. Bake 30 minutes longer."
+          "text": "Cook, uncovered, at 350°F for 30 minutes. Turn. Bake 30 minutes longer."
         },
         {
           "step": 3,
@@ -3612,7 +3612,7 @@
       "title": "Stuffed Peppers (Webb)",
       "category": "mains",
       "description": "Classic stuffed bell peppers with ground beef and rice.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "ingredients": [
         {
           "item": "big green peppers",
@@ -3724,7 +3724,7 @@
       "category": "breads",
       "source_note": "Landmark Tavern, Ltd. - 626 Eleventh Avenue, New York, N.Y. 10036",
       "description": "Traditional Irish soda bread from the famous Landmark Tavern in NYC.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "25-30 minutes",
       "servings_yield": "8-10 loaves",
       "ingredients": [
@@ -3796,7 +3796,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0 for 25 to 30 minutes."
+          "text": "Bake at 350° for 25 to 30 minutes."
         },
         {
           "step": 6,
@@ -3805,7 +3805,7 @@
       ],
       "notes": [
         "This is a COMMERCIAL/RESTAURANT batch recipe making 8-10 loaves.",
-        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350\u00b0F.",
+        "FOR HOME USE (1 loaf): 2 cups flour, 1/2 tsp nutmeg, 1/2 tsp baking soda, 1/4 cup sugar, 1/2 cup raisins, 3/4 cup buttermilk, 1 egg. Bake 25-30 min at 350°F.",
         "Good luck and thank you for your interest."
       ],
       "tags": [
@@ -3945,7 +3945,7 @@
       "category": "breads",
       "attribution": "Recipe from the kitchen of Dewolf",
       "description": "Moist banana bread - a family favorite.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "servings_yield": "1 loaf",
       "ingredients": [
         {
@@ -4008,7 +4008,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0 for 25 to 30 minutes or until done."
+          "text": "Bake at 350° for 25 to 30 minutes or until done."
         }
       ],
       "tags": [
@@ -4054,7 +4054,7 @@
       "title": "Grandma's Wheat Berrie Muffins",
       "category": "breakfast",
       "description": "Healthy muffins with wheat flour, blueberries and sunflower seeds.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "20-25 minutes",
       "ingredients": [
         {
@@ -4333,7 +4333,7 @@
         }
       ],
       "notes": [
-        "Other preparation methods: Bake - Preheat oven to 400\u00b0F. Cut 1 ripe, peeled avocado into 8 wedges; place in baking dish. Coat with 1 tablespoon each: salt, oil and 1/4 teaspoon each: salt, pepper, and red pepper. Bake 20-25 minutes or until edges are golden. Sprinkle with 1 teaspoon fresh lime juice. Sauce: Place 2 ripe, peeled avocados into food processor bowl; add 1 tablespoon fresh lime juice, 1 1/2 cups fresh cilantro, 1/4 cup sour cream, and 1/2 teaspoon total seasoning. Process until smooth. Serve over chicken, beef, or pork."
+        "Other preparation methods: Bake - Preheat oven to 400°F. Cut 1 ripe, peeled avocado into 8 wedges; place in baking dish. Coat with 1 tablespoon each: salt, oil and 1/4 teaspoon each: salt, pepper, and red pepper. Bake 20-25 minutes or until edges are golden. Sprinkle with 1 teaspoon fresh lime juice. Sauce: Place 2 ripe, peeled avocados into food processor bowl; add 1 tablespoon fresh lime juice, 1 1/2 cups fresh cilantro, 1/4 cup sour cream, and 1/2 teaspoon total seasoning. Process until smooth. Serve over chicken, beef, or pork."
       ],
       "tags": [
         "appetizer",
@@ -4376,7 +4376,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "A creamy pork and broccoli casserole topped with croutons.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "prep_time": "15 minutes",
       "cook_time": "20 minutes",
       "servings_yield": "6 servings",
@@ -4440,7 +4440,7 @@
         },
         {
           "step": 5,
-          "text": "Bake, uncovered, at 350\u00b0F for 20 minutes or until lightly browned."
+          "text": "Bake, uncovered, at 350°F for 20 minutes or until lightly browned."
         }
       ],
       "notes": [
@@ -4493,7 +4493,7 @@
       "category": "appetizers",
       "source_note": "My Great Recipes packet",
       "description": "Large mushroom caps stuffed with seasoned pork sausage.",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "prep_time": "15 minutes",
       "cook_time": "25-30 minutes",
       "servings_yield": "16 mushrooms",
@@ -4541,7 +4541,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400\u00b0F for 15 to 20 minutes until sausage is browned and cooked through."
+          "text": "Bake at 400°F for 15 to 20 minutes until sausage is browned and cooked through."
         },
         {
           "step": 6,
@@ -4591,7 +4591,7 @@
       "category": "mains",
       "source_note": "My Great Recipes packet",
       "description": "Classic roast leg of lamb with homemade mint sauce.",
-      "temperature": "450\u00b0F then 350\u00b0F",
+      "temperature": "450°F then 350°F",
       "prep_time": "15 minutes",
       "cook_time": "1-1/2 to 2 hours",
       "servings_yield": "8 servings",
@@ -4673,7 +4673,7 @@
         },
         {
           "step": 4,
-          "text": "Sear meat at 450\u00b0 for 15 minutes. Reduce temperature to 350\u00b0F. Roast 1-1/2 to 2 hours until meat thermometer reads 160\u00b0F for slightly rare or 170\u00b0F or well done."
+          "text": "Sear meat at 450° for 15 minutes. Reduce temperature to 350°F. Roast 1-1/2 to 2 hours until meat thermometer reads 160°F for slightly rare or 170°F or well done."
         },
         {
           "step": 5,
@@ -4919,7 +4919,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In a heavy saucepan, melt butter. Add garlic, if used. Saut\u00e9 30 seconds. Add onions and potatoes. Saut\u00e9 2 minutes or until onions are heated through."
+          "text": "In a heavy saucepan, melt butter. Add garlic, if used. Sauté 30 seconds. Add onions and potatoes. Sauté 2 minutes or until onions are heated through."
         },
         {
           "step": 2,
@@ -4988,7 +4988,7 @@
       "prep_time": "10 min",
       "cook_time": "20-25 min",
       "servings_yield": "4 servings",
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "temperature": "425°F (220°C)",
       "ingredients": [
         {
           "item": "swordfish steak",
@@ -5057,7 +5057,7 @@
         },
         {
           "step": 2,
-          "text": "In an ovenproof pan, melt butter in oil. Add fish. Saut\u00e9 over medium heat until golden."
+          "text": "In an ovenproof pan, melt butter in oil. Add fish. Sauté over medium heat until golden."
         },
         {
           "step": 3,
@@ -5065,11 +5065,11 @@
         },
         {
           "step": 4,
-          "text": "Cover. Bake at 425\u00b0F for 20 to 25 minutes until fish flakes and vegetables are tender-crisp. Sprinkle with walnuts."
+          "text": "Cover. Bake at 425°F for 20 to 25 minutes until fish flakes and vegetables are tender-crisp. Sprinkle with walnuts."
         }
       ],
       "notes": [
-        "To simplify this recipe, place butter and oil in baking dish. Heat at 425\u00b0F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
+        "To simplify this recipe, place butter and oil in baking dish. Heat at 425°F until melted. Coat fish with mixture. Top with vegetables and bake. To toast walnuts, melt butter in skillet. Cook walnuts in butter about 5 minutes, stirring occasionally.",
         "Good served with: Brown rice pilaf, crisp rolls with herbed butter, and lemon pie for dessert."
       ],
       "tags": [
@@ -5323,7 +5323,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare barbecue sauce, in a heavy saucepan, heat butter. Add onion and garlic, saut\u00e9, stirring constantly, 3 to 4 minutes until onion is soft."
+          "text": "To prepare barbecue sauce, in a heavy saucepan, heat butter. Add onion and garlic, sauté, stirring constantly, 3 to 4 minutes until onion is soft."
         },
         {
           "step": 2,
@@ -5388,7 +5388,7 @@
       "prep_time": "20 min",
       "cook_time": "30-40 min",
       "servings_yield": "4 servings",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "ingredients": [
         {
           "item": "medium potatoes",
@@ -5457,7 +5457,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In saucepan, heat oil and 1 tablespoon butter. Add onion. Saut\u00e9 over low heat until limp but not brown, about 5 minutes."
+          "text": "In saucepan, heat oil and 1 tablespoon butter. Add onion. Sauté over low heat until limp but not brown, about 5 minutes."
         },
         {
           "step": 2,
@@ -5477,7 +5477,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375\u00b0F for 30 to 40 minutes until top is browned. Serve immediately."
+          "text": "Bake at 375°F for 30 to 40 minutes until top is browned. Serve immediately."
         }
       ],
       "notes": [
@@ -5528,7 +5528,7 @@
       "prep_time": "5 min",
       "cook_time": "2 hrs",
       "servings_yield": "4-6 servings",
-      "temperature": "450\u00b0F, then 350\u00b0F, then 325\u00b0F",
+      "temperature": "450°F, then 350°F, then 325°F",
       "ingredients": [
         {
           "item": "pork loin roast",
@@ -5574,15 +5574,15 @@
         },
         {
           "step": 2,
-          "text": "Place roast on a rack in roasting pan. Roast at 450\u00b0F for 30 minutes."
+          "text": "Place roast on a rack in roasting pan. Roast at 450°F for 30 minutes."
         },
         {
           "step": 3,
-          "text": "Drizzle with 2-3 tablespoons honey. Reduce heat to 350\u00b0F. Roast 30 minutes longer."
+          "text": "Drizzle with 2-3 tablespoons honey. Reduce heat to 350°F. Roast 30 minutes longer."
         },
         {
           "step": 4,
-          "text": "Drizzle with another 2 tablespoons honey. Sprinkle with crushed fennel. Pour in stock and wine. Reduce heat to 325\u00b0F. Continue roasting 1 hour longer or until meat reaches 160\u00b0-170\u00b0F."
+          "text": "Drizzle with another 2 tablespoons honey. Sprinkle with crushed fennel. Pour in stock and wine. Reduce heat to 325°F. Continue roasting 1 hour longer or until meat reaches 160°-170°F."
         },
         {
           "step": 5,
@@ -5640,7 +5640,7 @@
       "prep_time": "30-35 min",
       "cook_time": "15 min",
       "servings_yield": "16",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "ingredients": [
         {
           "item": "frozen bread dough",
@@ -5730,7 +5730,7 @@
         },
         {
           "step": 7,
-          "text": "Bake at 450\u00b0F for 15 minutes or until golden brown."
+          "text": "Bake at 450°F for 15 minutes or until golden brown."
         }
       ],
       "notes": [
@@ -6113,7 +6113,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Cut beef into small 1/2-inch wide strips. In a heavy 3-quart saucepan, heat oil. Add meat. Lightly brown onion. Saut\u00e9 3-4 minutes."
+          "text": "Cut beef into small 1/2-inch wide strips. In a heavy 3-quart saucepan, heat oil. Add meat. Lightly brown onion. Sauté 3-4 minutes."
         },
         {
           "step": 2,
@@ -6134,7 +6134,7 @@
       ],
       "notes": [
         "Tips: For added flavor, other vegetables such as potatoes, green beans, peas, celery or parsnips may be added to soup.",
-        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, \u00bc cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
+        "Cheese Croutons: 1 cup fresh bread cubes, 1 Tbsp butter or margarine, ¼ cup shredded Edam cheese. Melt butter in skillet. Add bread cubes. Cook 15 to 20 minutes until golden, stirring occasionally. Sprinkle with cheese."
       ],
       "tags": [
         "soup",
@@ -6511,7 +6511,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "In an ovenproof casserole with lid, place rice. Roast at 325\u00b0F for 20 minutes or until rice is toasted and golden."
+          "text": "In an ovenproof casserole with lid, place rice. Roast at 325°F for 20 minutes or until rice is toasted and golden."
         },
         {
           "step": 2,
@@ -6530,7 +6530,7 @@
           "text": "Stir in onions, soy sauce and tarragon. Serve immediately."
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "pan_size": "ovenproof casserole with lid",
       "notes": [
         "Recipe may be halved or doubled",
@@ -6656,14 +6656,14 @@
         },
         {
           "step": 5,
-          "text": "Add water, tomato sauce, garlic, bay leaf, oregano, salt and pepper. Bring to boil. Cover. Bake at 425\u00b0F for 20 minutes."
+          "text": "Add water, tomato sauce, garlic, bay leaf, oregano, salt and pepper. Bring to boil. Cover. Bake at 425°F for 20 minutes."
         },
         {
           "step": 6,
           "text": "Remove bay leaf and garlic clove before serving. Serve immediately."
         }
       ],
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "temperature": "425°F (220°C)",
       "pan_size": "ovenproof saucepan",
       "notes": [
         "Be sure to remove bay leaf and garlic cloves from this dish before serving",
@@ -6825,10 +6825,10 @@
         },
         {
           "step": 7,
-          "text": "Bake at 375\u00b0F for 25-30 minutes until puffed and browned."
+          "text": "Bake at 375°F for 25-30 minutes until puffed and browned."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "1-cup souffle dishes",
       "notes": [
         "[RECONSTRUCTED: Original instructions were garbled - rewritten for clarity]",
@@ -6975,7 +6975,7 @@
         },
         {
           "step": 4,
-          "text": "Bake at 325\u00b0F for 12 minutes or until a rich brown. Let cool for 30 to 60 seconds until mixture holds together when moved with spatula. Loosen and place over custard cups. Press gently to mold. Repeat with remaining mixture."
+          "text": "Bake at 325°F for 12 minutes or until a rich brown. Let cool for 30 to 60 seconds until mixture holds together when moved with spatula. Loosen and place over custard cups. Press gently to mold. Repeat with remaining mixture."
         },
         {
           "step": 5,
@@ -6986,7 +6986,7 @@
           "text": "Place one scoop ice cream into each cooled cup. Drizzle with hot sauce."
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "pan_size": "",
       "notes": [
         "Cups may be made ahead of time. Store in an airtight tin until ready to serve. Sauce may also be made ahead and reheated",
@@ -7103,7 +7103,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare caramelized sugar, in a heavy saucepan, mix sugar and water. Cook over medium-high heat until dark golden in color, 10 to 12 minutes. Mixture should not exceed 340\u00b0F on candy thermometer. Remove from heat. Carefully swirl into a 9 1/2-by-2 1/2-inch 5-cup ring mold."
+          "text": "To prepare caramelized sugar, in a heavy saucepan, mix sugar and water. Cook over medium-high heat until dark golden in color, 10 to 12 minutes. Mixture should not exceed 340°F on candy thermometer. Remove from heat. Carefully swirl into a 9 1/2-by-2 1/2-inch 5-cup ring mold."
         },
         {
           "step": 2,
@@ -7123,14 +7123,14 @@
         },
         {
           "step": 6,
-          "text": "Bake at 325\u00b0F for 45 to 50 minutes. To test for doneness, stick a knife in center. If it comes out clean, flan is done."
+          "text": "Bake at 325°F for 45 to 50 minutes. To test for doneness, stick a knife in center. If it comes out clean, flan is done."
         },
         {
           "step": 7,
           "text": "Remove mold from pan. Spoon remaining caramelized sugar over top. Cool. Chill 1 1/2 to 2 hours."
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "pan_size": "9 1/2-by-2 1/2-inch 5-cup ring mold",
       "notes": [
         "Use a candy thermometer when cooking the caramelized sugar. If it cooks too hot or too long it will turn brown and have a burnt flavor"
@@ -7266,10 +7266,10 @@
         },
         {
           "step": 4,
-          "text": "Turn dough out. Divide into 4 pieces. Roll each into 10-by-11-inch circles. Cut into 8 wedges. Place jam at wide ends. Roll. Place seam-side down on greased baking sheet. Bake at 375\u00b0F for 15 minutes until golden. Sprinkle with powdered sugar."
+          "text": "Turn dough out. Divide into 4 pieces. Roll each into 10-by-11-inch circles. Cut into 8 wedges. Place jam at wide ends. Roll. Place seam-side down on greased baking sheet. Bake at 375°F for 15 minutes until golden. Sprinkle with powdered sugar."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "baking sheet",
       "notes": [
         "For Kringle filling: Combine pastry paste, butter and cup granulated sugar. Add egg. Mix well."
@@ -7386,7 +7386,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine cracker crumbs, almonds and cinnamon. Stir in butter. Evenly press mixture into the bottom of an 8-inch tart pan with removable bottom. Bake at 300\u00b0F for 15 minutes. Cool."
+          "text": "Combine cracker crumbs, almonds and cinnamon. Stir in butter. Evenly press mixture into the bottom of an 8-inch tart pan with removable bottom. Bake at 300°F for 15 minutes. Cool."
         },
         {
           "step": 2,
@@ -7409,7 +7409,7 @@
           "text": "Spoon hot glaze over cherries to cover completely. Chill 2 to 4 hours."
         }
       ],
-      "temperature": "300\u00b0F (150\u00b0C)",
+      "temperature": "300°F (150°C)",
       "pan_size": "8-inch tart pan",
       "notes": [
         "If you need to save time, you may purchase a pre-made graham cracker crust and use canned cherry pie filling to cover the cream cheese layer. For a more spirited flavor, add 1 to 2 tablespoons Kirsch to the glaze"
@@ -7501,7 +7501,7 @@
           "prep_note": "minced"
         },
         {
-          "item": "jalape\u00f1o peppers",
+          "item": "jalapeño peppers",
           "quantity": "2",
           "unit": "",
           "prep_note": "seeded, chopped"
@@ -7570,10 +7570,10 @@
         },
         {
           "step": 7,
-          "text": "Place fillets in an ovenproof dish. Pour sauce over fish. Bake at 325\u00b0F for 10 to 15 minutes."
+          "text": "Place fillets in an ovenproof dish. Pour sauce over fish. Bake at 325°F for 10 to 15 minutes."
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "pan_size": "ovenproof dish",
       "notes": [
         "Sauce may be prepared up to 1 1/2 hours in advance and kept in refrigerator. Cover"
@@ -7747,7 +7747,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 375\u00b0F for 35 minutes or until tester comes out clean and cake pulls from sides of pan. Cool completely. Layer."
+          "text": "Bake at 375°F for 35 minutes or until tester comes out clean and cake pulls from sides of pan. Cool completely. Layer."
         },
         {
           "step": 7,
@@ -7758,7 +7758,7 @@
           "text": "Cut into squares."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "8-inch square pans",
       "notes": [
         "For best results, use very soft, ripe bananas; gently mash them with a fork"
@@ -7893,17 +7893,17 @@
         },
         {
           "step": 5,
-          "text": "Bake at 400\u00b0F for 30 minutes or until golden brown. Let muffins stand on wire rack until bubbling stops."
+          "text": "Bake at 400°F for 30 minutes or until golden brown. Let muffins stand on wire rack until bubbling stops."
         },
         {
           "step": 6,
           "text": "Turn out carefully onto serving plate. Serve upside-down."
         }
       ],
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "pan_size": "12 muffin cups",
       "notes": [
-        "These muffins freeze very well. Reheat (without thawing) at 350\u00b0F for about 30 minutes",
+        "These muffins freeze very well. Reheat (without thawing) at 350°F for about 30 minutes",
         "Variations: Try this recipe using blueberries or raspberries",
         "Good served with fluffy scrambled eggs and well browned sausage links"
       ],
@@ -8034,10 +8034,10 @@
         },
         {
           "step": 5,
-          "text": "Bake at 375\u00b0F for 8 to 10 minutes until golden."
+          "text": "Bake at 375°F for 8 to 10 minutes until golden."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "baking sheets",
       "notes": [
         "These cookies are also delicious made with semisweet or milk chocolate chips"
@@ -8162,7 +8162,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F for about 1 1/2 hours until tester inserted in center comes out clean."
+          "text": "Bake at 350°F for about 1 1/2 hours until tester inserted in center comes out clean."
         },
         {
           "step": 6,
@@ -8173,7 +8173,7 @@
           "text": "Dust with powdered sugar."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "8-cup fluted pan (bundt)",
       "notes": [
         "To easily cream together butter and sugar, use a wooden spoon to press the beat or mixture until the sides of the bowl. Do not overbeat or mixture will curdle and cake will be tough",
@@ -8462,14 +8462,14 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0F for 10-12 minutes until cookies feel firm but are not browned."
+          "text": "Bake at 350°F for 10-12 minutes until cookies feel firm but are not browned."
         },
         {
           "step": 7,
           "text": "Cool. Top each cookie with a spoonful of icing. Garnish with sliced almonds."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "cookie sheets",
       "notes": [
         "Stir dry ingredients after measuring. In place of the vanilla extract, almond or peppermint may be used. The dough may be prepared one day in advance and refrigerated. Bring to room temperature before shaping cookies"
@@ -8575,7 +8575,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350\u00b0F for 20 to 25 minutes until cake tester comes out clean and cake pulls from sides of pan. Cool completely."
+          "text": "Bake at 350°F for 20 to 25 minutes until cake tester comes out clean and cake pulls from sides of pan. Cool completely."
         },
         {
           "step": 4,
@@ -8590,7 +8590,7 @@
           "text": "Ice top of each cake. Layer. Ice sides. Refrigerate cake until ready to serve."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "9-inch cake pans",
       "notes": [
         "Be sure to line cake pans with foil and grease well as the batter will be very greasy. This cake freezes well. For a special occasion, use another 11 oz. can mandarin oranges to decorate. Be sure cake is well drained and dried before using"
@@ -8716,7 +8716,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "To prepare crust, in a bowl, combine butter, sugar and egg yolk. Mix well. Add flour. With hands, work until blended. Press dough firmly on bottom and sides of a 9-inch pie pan. Bake at 400\u00b0F for 10 minutes or until edges brown. Cool."
+          "text": "To prepare crust, in a bowl, combine butter, sugar and egg yolk. Mix well. Add flour. With hands, work until blended. Press dough firmly on bottom and sides of a 9-inch pie pan. Bake at 400°F for 10 minutes or until edges brown. Cool."
         },
         {
           "step": 2,
@@ -8735,7 +8735,7 @@
           "text": "Gently fold in fruit. Turn into cookie crust. Chill for 4 to 5 hours until firm enough to cut."
         }
       ],
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "pan_size": "9-inch pie pan",
       "notes": [
         "Sliced or diced fresh apples, pears, strawberries, grapes, bananas and drained orange sections all work well in this recipe",
@@ -8828,7 +8828,7 @@
         },
         {
           "step": 2,
-          "text": "Cook until syrup reaches soft-ball stage, 234\u00b0F."
+          "text": "Cook until syrup reaches soft-ball stage, 234°F."
         },
         {
           "step": 3,
@@ -9002,7 +9002,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 425\u00b0F for 10 to 12 minutes until a wooden pick inserted in center comes out clean. Immediately turn out layers onto wire racks. Cool."
+          "text": "Bake at 425°F for 10 to 12 minutes until a wooden pick inserted in center comes out clean. Immediately turn out layers onto wire racks. Cool."
         },
         {
           "step": 6,
@@ -9013,7 +9013,7 @@
           "text": "Place one cake layer on a serving plate. Spread with half the filling. Layer cake with remaining filling. Garnish with sliced berries."
         }
       ],
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "temperature": "425°F (220°C)",
       "pan_size": "8- or 9-inch round cake pans",
       "notes": [],
       "tags": [
@@ -9165,14 +9165,14 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F for 18 minutes or until done."
+          "text": "Bake at 350°F for 18 minutes or until done."
         },
         {
           "step": 6,
           "text": "To prepare icing, in a saucepan, melt butter. Stir in coffee. Cook, stirring, until smooth. Slowly beat in powdered sugar. Mix until smooth. Spread over cake while warm. Cool. Cut into squares."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "10-by-15-inch jelly roll pan",
       "notes": [
         "Good served with a scoop of coffee or vanilla-flavored ice cream"
@@ -9311,7 +9311,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350\u00b0F for 25 to 30 minutes until golden."
+          "text": "Bake at 350°F for 25 to 30 minutes until golden."
         },
         {
           "step": 4,
@@ -9338,7 +9338,7 @@
           "text": "Cool. Cut into 1-by-2-inch bars."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "15 3/4-by-10 1/2-inch jelly roll pan",
       "notes": [],
       "tags": [
@@ -9486,10 +9486,10 @@
         },
         {
           "step": 5,
-          "text": "Bake at 375\u00b0F for 40 to 45 minutes. Serve warm."
+          "text": "Bake at 375°F for 40 to 45 minutes. Serve warm."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "13-by-9-inch baking dish",
       "notes": [
         "If using frozen blueberries, do not thaw"
@@ -9535,7 +9535,7 @@
       "category": "mains",
       "attribution": "Other Oldtimer",
       "source_note": "Typed recipe sheet",
-      "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and with cheese.",
+      "description": "Collection of traditional salt cod preparations including basic, soufflé, creamed, fish cakes, and with cheese.",
       "servings_yield": "varies",
       "prep_time": "30 minutes",
       "cook_time": "",
@@ -9731,7 +9731,7 @@
           "text": "Pre-heat oven at 350 degrees."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "baking dish",
       "notes": [
         "Note: I use canned sweet potatoes, canned milk & walnuts"
@@ -10390,10 +10390,10 @@
         },
         {
           "step": 4,
-          "text": "Bake at 375\u00b0F for 12 to 15 minutes until golden brown. Sprinkle with powdered sugar."
+          "text": "Bake at 375°F for 12 to 15 minutes until golden brown. Sprinkle with powdered sugar."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "baking sheet",
       "notes": [
         "HIGH ALTITUDE ADJUSTMENT - 5200 feet: Not necessary"
@@ -10526,18 +10526,18 @@
         },
         {
           "step": 2,
-          "text": "Bake at 350\u00b0 for 45 to 50 minutes until golden brown and toothpick inserted in center comes out clean."
+          "text": "Bake at 350° for 45 to 50 minutes until golden brown and toothpick inserted in center comes out clean."
         },
         {
           "step": 3,
           "text": "Serve warm or cool with ice cream or whipped cream."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "13x9-inch cake pan",
       "notes": [
         "For use with Pillsbury's Best Self-Rising Flour, omit baking powder and salt.",
-        "HIGH ALTITUDE\u20145200 feet. Decrease baking powder to 2 1/2 teaspoons. Bake at 375\u00b0 for 40 to 45 minutes."
+        "HIGH ALTITUDE—5200 feet. Decrease baking powder to 2 1/2 teaspoons. Bake at 375° for 40 to 45 minutes."
       ],
       "tags": [
         "dessert",
@@ -10948,10 +10948,10 @@
           "text": "Freeze covered with foil, overnight. Remove from freezer 10 minutes before serving."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "13x9-inch baking pan",
       "notes": [
-        "Basic Crust: 1 cup flour, 1 package (4-serving size) pudding and pie filling mix (not instant), 1/4 tsp salt, 1/3 cup solid shortening, 2 tbsp butter softened, 1 egg. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread in ungreased 13x9-inch pan. Bake at 350\u00b0 for 12-15 minutes. Cool completely."
+        "Basic Crust: 1 cup flour, 1 package (4-serving size) pudding and pie filling mix (not instant), 1/4 tsp salt, 1/3 cup solid shortening, 2 tbsp butter softened, 1 egg. Blend 30 seconds at low speed; blend 1 minute at medium speed. Spread in ungreased 13x9-inch pan. Bake at 350° for 12-15 minutes. Cool completely."
       ],
       "tags": [
         "dessert",
@@ -11306,14 +11306,14 @@
         },
         {
           "step": 3,
-          "text": "Bake in preheated 375\u00b0F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+          "text": "Bake in preheated 375°F oven for 9 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "baking sheets",
       "notes": [
-        "Pan Cookie Variation: Prepare dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375\u00b0F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
-        "For High Altitude Baking (5,200 feet): Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375\u00b0F, drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
+        "Pan Cookie Variation: Prepare dough as above. Spread into greased 15 x 10-inch jelly-roll pan. Bake in preheated 375°F oven for 20 to 25 minutes or until golden brown. Cool in pan on wire rack. Makes about 4 dozen bars.",
+        "For High Altitude Baking (5,200 feet): Increase flour to 2 1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375°F, drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
       ],
       "tags": [
         "dessert",
@@ -11541,10 +11541,10 @@
         },
         {
           "step": 3,
-          "text": "Drop by rounded tablespoon onto ungreased baking sheets. Bake in preheated 350\u00b0F oven for 8 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
+          "text": "Drop by rounded tablespoon onto ungreased baking sheets. Bake in preheated 350°F oven for 8 to 11 minutes or until golden brown. Let stand for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "baking sheets",
       "notes": [],
       "tags": [
@@ -11666,10 +11666,10 @@
         },
         {
           "step": 4,
-          "text": "Bake in preheated 375\u00b0F oven for 8 to 9 minutes or until cookies are puffed. Cool for 2 minutes; remove to wire racks to cool completely."
+          "text": "Bake in preheated 375°F oven for 8 to 9 minutes or until cookies are puffed. Cool for 2 minutes; remove to wire racks to cool completely."
         }
       ],
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "pan_size": "baking sheets",
       "notes": [],
       "tags": [
@@ -11781,10 +11781,10 @@
         },
         {
           "step": 3,
-          "text": "Bake in preheated 350\u00b0F oven for 16 to 20 minutes or until wooden pick inserted in center comes out slightly sticky. Cool completely."
+          "text": "Bake in preheated 350°F oven for 16 to 20 minutes or until wooden pick inserted in center comes out slightly sticky. Cool completely."
         }
       ],
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "13 x 9-inch baking pan",
       "notes": [],
       "tags": [
@@ -11828,7 +11828,7 @@
       "category": "mains",
       "description": "A simple one-dish pork chop bake with potatoes and noodles.",
       "source_note": "handwritten recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "casserole dish",
       "ingredients": [
         {
@@ -11887,7 +11887,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0F for 45-60 minutes until potatoes are tender and chops are cooked through."
+          "text": "Bake at 350°F for 45-60 minutes until potatoes are tender and chops are cooked through."
         }
       ],
       "notes": [
@@ -12018,7 +12018,7 @@
         },
         {
           "step": 5,
-          "text": "To the pan, add butter, mushrooms and mustard. Saut\u00e9 1 minute or until mushrooms are heated through."
+          "text": "To the pan, add butter, mushrooms and mustard. Sauté 1 minute or until mushrooms are heated through."
         },
         {
           "step": 6,
@@ -12074,7 +12074,7 @@
       "category": "desserts",
       "description": "Chewy oat toffee bars topped with chocolate and nuts - perfect for the holidays.",
       "source_note": "Nestle Toll House chocolate chip bag",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "servings_yield": "About 6 dozen",
       "pan_size": "15x10-inch jelly roll pan",
       "ingredients": [
@@ -12128,7 +12128,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Heat oven to 400\u00b0F. Grease 15x10-inch jelly roll pan."
+          "text": "Heat oven to 400°F. Grease 15x10-inch jelly roll pan."
         },
         {
           "step": 2,
@@ -12247,10 +12247,10 @@
         "Mix can be stored up to 4 weeks!",
         "HIGH ALTITUDE: 5200 FEET, NO CHANGE. If using Pillsbury's Best Self-Rising Flour, omit baking powder and salt. Decrease flour by 1/2 cup.",
         "[RECONSTRUCTED VARIATIONS - original reverse side not scanned]",
-        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375\u00b0F for 8-10 minutes.",
-        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375\u00b0F for 10-12 minutes.",
-        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350\u00b0F for 12-15 minutes.",
-        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325\u00b0F for 15-18 minutes. Roll in powdered sugar while warm."
+        "SUGAR COOKIES: 2 cups mix + 1 cup sugar + 1 egg + 1 tsp vanilla. Roll into balls, flatten with fork. Bake 375°F for 8-10 minutes.",
+        "PEANUT BUTTER COOKIES: 2 cups mix + 3/4 cup sugar + 1/2 cup peanut butter + 1 egg. Roll into balls, press with fork. Bake 375°F for 10-12 minutes.",
+        "JAM THUMBPRINTS: 2 cups mix + 1/2 cup powdered sugar + 1 egg yolk + 1 tsp vanilla. Roll into balls, press thumb in center, fill with jam. Bake 350°F for 12-15 minutes.",
+        "BUTTER BALLS: 2 cups mix + 1/2 cup powdered sugar + 1 cup finely chopped nuts + 1 tsp vanilla. Roll into balls. Bake 325°F for 15-18 minutes. Roll in powdered sugar while warm."
       ],
       "tags": [
         "dessert",
@@ -12300,7 +12300,7 @@
       "category": "desserts",
       "description": "A simple crust for desserts, from a Pillsbury Bake-Off winner.",
       "source_note": "Pillsbury Bake-Off magazine clipping",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "pan_size": "13x9-inch oblong pan",
       "ingredients": [
         {
@@ -12351,7 +12351,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0 for 12 to 15 minutes. Cool completely."
+          "text": "Bake at 350° for 12 to 15 minutes. Cool completely."
         }
       ],
       "notes": [
@@ -12546,15 +12546,15 @@
       "source_note": "My Great Recipes card",
       "description": "Tender beef cubes braised with mushrooms in a savory sauce.",
       "prep_time": "20 minutes",
-      "cook_time": "1\u00bc to 1\u00bd hours",
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "cook_time": "1¼ to 1½ hours",
+      "temperature": "325°F (165°C)",
       "servings_yield": "4-5 servings",
       "ingredients": [
         {
           "item": "round steak",
           "quantity": "2",
           "unit": "lbs",
-          "prep_note": "cut into \u00bd-inch cubes"
+          "prep_note": "cut into ½-inch cubes"
         },
         {
           "item": "oil",
@@ -12636,7 +12636,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 325\u00b0F for 1\u00bc to 1\u00bd hours until meat is tender."
+          "text": "Cover. Bake at 325°F for 1¼ to 1½ hours until meat is tender."
         },
         {
           "step": 6,
@@ -12692,12 +12692,12 @@
       "description": "A rolled meat loaf filled with salami and mozzarella cheese, Italian-style.",
       "prep_time": "15 minutes",
       "cook_time": "about 1 hour",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
           "item": "ground beef",
-          "quantity": "1\u00bc",
+          "quantity": "1¼",
           "unit": "lbs"
         },
         {
@@ -12745,7 +12745,7 @@
         },
         {
           "item": "salami",
-          "quantity": "2\u00bd",
+          "quantity": "2½",
           "unit": "oz",
           "prep_note": "chopped"
         },
@@ -12779,7 +12779,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0F for 1 hour or until done."
+          "text": "Bake at 350°F for 1 hour or until done."
         },
         {
           "step": 7,
@@ -12788,7 +12788,7 @@
       ],
       "notes": [
         "Health Note: To reduce fat, cholesterol and calories, use extra-lean ground beef or ground turkey. Eliminate the egg yolk.",
-        "Good served with hot rice or noodles and French-cut green beans saut\u00e9ed in olive oil and garlic."
+        "Good served with hot rice or noodles and French-cut green beans sautéed in olive oil and garlic."
       ],
       "tags": [
         "meatloaf",
@@ -12952,7 +12952,7 @@
       "category": "desserts",
       "source_note": "Newspaper clipping, saved by family",
       "description": "A moist cake made with orange cake mix, Galliano liqueur, and a sweet glaze.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "45 minutes",
       "ingredients": [
         {
@@ -12992,7 +12992,7 @@
         },
         {
           "step": 3,
-          "text": "Bake at 350\u00b0F for 45 minutes."
+          "text": "Bake at 350°F for 45 minutes."
         }
       ],
       "notes": [
@@ -13226,7 +13226,7 @@
           "unit": "cups"
         }
       ],
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "confidence": {
         "overall": "medium",
         "flags": [
@@ -13302,7 +13302,7 @@
           "unit": "slices"
         },
         {
-          "item": "Jalape\u00f1o Monterey Jack cheese",
+          "item": "Jalapeño Monterey Jack cheese",
           "quantity": "2",
           "unit": "Tbsp"
         },
@@ -13676,7 +13676,7 @@
       "id": "sweet-surprise-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Sweet Surprise Souffl\u00e9",
+      "title": "Sweet Surprise Soufflé",
       "category": "desserts",
       "source_note": "Kraft Miniature Marshmallows recipe",
       "confidence": {
@@ -13998,7 +13998,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "9 biscuits",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "cook_time": "12 minutes",
       "confidence": {
         "overall": "high",
@@ -14016,7 +14016,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "10 biscuits",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "cook_time": "10 minutes",
       "confidence": {
         "overall": "high",
@@ -14034,7 +14034,7 @@
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
       "servings_yield": "8 muffins",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "cook_time": "10 minutes",
       "notes": [
         "HINT: You can add blueberries, raisins, jelly, cinnamon, etc."
@@ -14054,7 +14054,7 @@
       "title": "Lemon Poppy Seed Muffins",
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "cook_time": "15 minutes",
       "ingredients": [
         {
@@ -14103,7 +14103,7 @@
       "title": "The Easiest Pineapple Upside-Down Cake Ever",
       "category": "desserts",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "35-40 minutes",
       "ingredients": [
         {
@@ -14143,7 +14143,7 @@
       "title": "Garlic Cheese Drop Biscuits (like Red Lobster's)",
       "category": "breads",
       "source_note": "Grandma's Biscuit & Pancake Mix recipe card",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "cook_time": "8-10 minutes",
       "ingredients": [
         {
@@ -14292,7 +14292,7 @@
       "title": "Dump Cake (Handwritten)",
       "category": "desserts",
       "source_note": "handwritten on spiral notebook",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "ingredients": [
         {
           "item": "pineapple",
@@ -14330,7 +14330,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "10 min",
       "cook_time": "20-30 min",
-      "temperature": "450\u00b0F (230\u00b0C)",
+      "temperature": "450°F (230°C)",
       "servings_yield": "4-6 servings",
       "confidence": {
         "overall": "high",
@@ -14350,7 +14350,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "10-15 min",
       "cook_time": "1 hr",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "servings_yield": "4-6 servings",
       "confidence": {
         "overall": "high",
@@ -14370,7 +14370,7 @@
       "source_note": "My Great Recipes card",
       "prep_time": "30 min",
       "cook_time": "2.5-3 hrs",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "servings_yield": "6 servings",
       "confidence": {
         "overall": "high",
@@ -14408,7 +14408,7 @@
       "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
       "category": "breads",
       "source_note": "handwritten on lined paper",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "20-25 min",
       "confidence": {
         "overall": "medium",
@@ -14470,7 +14470,7 @@
       "title": "Low Fat Marble Brownies",
       "category": "desserts",
       "source_note": "Publix recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "confidence": {
         "overall": "high",
         "flags": []
@@ -14518,7 +14518,7 @@
       "title": "Original Nestle Toll House Chocolate Chip Cookies",
       "category": "desserts",
       "source_note": "Nestle chocolate chip bag",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "cook_time": "9-11 minutes",
       "servings_yield": "about 5 dozen cookies",
       "confidence": {
@@ -14589,7 +14589,7 @@
       "title": "Basic Crust",
       "category": "desserts",
       "source_note": "Pillsbury recipe",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "12-15 minutes",
       "pan_size": "13x9-inch baking pan",
       "confidence": {
@@ -14672,7 +14672,7 @@
       "id": "codfish-souffle-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Codfish Souffl\u00e9",
+      "title": "Codfish Soufflé",
       "category": "mains",
       "source_note": "typed recipe sheet - Ways of Serving Salt Cod Fish",
       "confidence": {
@@ -14812,12 +14812,12 @@
       "id": "quick-corn-souffle-full-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "title": "Quick Corn Souffl\u00e9",
+      "title": "Quick Corn Soufflé",
       "category": "sides",
       "source_note": "My Great Recipes card back",
       "prep_time": "10 min",
       "cook_time": "20 min",
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "temperature": "425°F (220°C)",
       "servings_yield": "6 servings",
       "ingredients": [
         {
@@ -14876,11 +14876,11 @@
         },
         {
           "step": 4,
-          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
+          "text": "Spoon into buttered 1-cup soufflé dishes. Place on cookie sheet."
         },
         {
           "step": 5,
-          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
+          "text": "Bake at 425°F for 20 minutes or until puffed and golden brown."
         },
         {
           "step": 6,
@@ -14909,7 +14909,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "10 min",
       "cook_time": "25 min",
-      "temperature": "400\u00b0F (200\u00b0C)",
+      "temperature": "400°F (200°C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
@@ -14982,7 +14982,7 @@
         },
         {
           "step": 5,
-          "text": "Arrange egg slices on top. Sprinkle with parsley. Bake at 400\u00b0F until bubbly and lightly browned, about 25 minutes."
+          "text": "Arrange egg slices on top. Sprinkle with parsley. Bake at 400°F until bubbly and lightly browned, about 25 minutes."
         }
       ],
       "notes": [
@@ -15103,7 +15103,7 @@
       "title": "Buttercups",
       "category": "desserts",
       "source_note": "typed recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "20 min",
       "ingredients": [
         {
@@ -15170,7 +15170,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 350\u00b0F for 20 minutes or until golden brown."
+          "text": "Bake at 350°F for 20 minutes or until golden brown."
         },
         {
           "step": 7,
@@ -15198,7 +15198,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "20 min",
       "cook_time": "50 min",
-      "temperature": "375\u00b0F (190\u00b0C)",
+      "temperature": "375°F (190°C)",
       "servings_yield": "4 servings",
       "ingredients": [
         {
@@ -15270,7 +15270,7 @@
         },
         {
           "step": 6,
-          "text": "Roast hens at 375\u00b0F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
+          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
         },
         {
           "step": 7,
@@ -15469,7 +15469,7 @@
       "source_note": "My Great Recipes card back",
       "prep_time": "20 min",
       "cook_time": "1 1/4 - 1 1/2 hrs",
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "servings_yield": "4-5 servings",
       "ingredients": [
         {
@@ -15547,7 +15547,7 @@
         },
         {
           "step": 5,
-          "text": "Cover. Bake at 325\u00b0F for 1 1/4 to 1 1/2 hours until meat is tender."
+          "text": "Cover. Bake at 325°F for 1 1/4 to 1 1/2 hours until meat is tender."
         },
         {
           "step": 6,
@@ -15573,7 +15573,7 @@
       "title": "Irish Soda Bread (Landmark Tavern, NYC)",
       "category": "breads",
       "source_note": "typed recipe from Landmark Tavern, Ltd., New York, N.Y.",
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "cook_time": "25-30 min",
       "servings_yield": "8-10 loaves",
       "ingredients": [
@@ -15623,7 +15623,7 @@
         },
         {
           "step": 4,
-          "text": "Bake at 325\u00b0F for 25 to 30 minutes."
+          "text": "Bake at 325°F for 25 to 30 minutes."
         },
         {
           "step": 5,
@@ -15725,7 +15725,7 @@
       "title": "Stuffed Peppers (Webb)",
       "category": "mains",
       "source_note": "typed recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "ingredients": [
         {
           "item": "big green peppers",
@@ -15981,7 +15981,7 @@
       "title": "Pumpkin Bread Casserole",
       "category": "breads",
       "description": "A festive yeast bread with pumpkin, coconut, and ginger snap topping.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "30 minutes",
       "prep_time": "30 minutes plus rising time",
       "ingredients": [
@@ -16060,7 +16060,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Toast coconut in preheated oven (350\u00b0F) for 10 minutes or till golden."
+          "text": "Toast coconut in preheated oven (350°F) for 10 minutes or till golden."
         },
         {
           "step": 2,
@@ -16088,7 +16088,7 @@
         },
         {
           "step": 8,
-          "text": "Bake in 350\u00b0F preheated oven for about 1/2 hour."
+          "text": "Bake in 350°F preheated oven for about 1/2 hour."
         },
         {
           "step": 9,
@@ -16121,7 +16121,7 @@
       "title": "Fish Fiesta Dinner",
       "category": "mains",
       "description": "A tangy and beautiful Latin-flavored fish meal with Spanish rice and flan.",
-      "temperature": "425\u00b0F (220\u00b0C)",
+      "temperature": "425°F (220°C)",
       "cook_time": "20 minutes",
       "prep_time": "60 minutes (including day before)",
       "ingredients": [
@@ -16156,7 +16156,7 @@
         },
         {
           "step": 2,
-          "text": "35 Minutes Before: Preheat oven to 425\u00b0F. Assemble ingredients for Spanish rice. Bring to a boil. Cover and bake for 20 minutes."
+          "text": "35 Minutes Before: Preheat oven to 425°F. Assemble ingredients for Spanish rice. Bring to a boil. Cover and bake for 20 minutes."
         },
         {
           "step": 3,
@@ -16168,7 +16168,7 @@
         },
         {
           "step": 5,
-          "text": "10 Minutes Before: Remove rice from oven. Cover and set aside. Reduce heat to 325\u00b0F. Bake fish."
+          "text": "10 Minutes Before: Remove rice from oven. Cover and set aside. Reduce heat to 325°F. Bake fish."
         },
         {
           "step": 6,
@@ -16205,7 +16205,7 @@
       "title": "Welcome Spring Dinner",
       "category": "mains",
       "description": "A Spring or holiday meal featuring pork roast with fennel and Pineapple Dream Cake.",
-      "temperature": "325-350\u00b0F (165-175\u00b0C)",
+      "temperature": "325-350°F (165-175°C)",
       "total_time": "2+ hours",
       "ingredients": [
         {
@@ -16251,11 +16251,11 @@
         },
         {
           "step": 3,
-          "text": "90 Minutes Before: Turn oven down to 350\u00b0F. Drizzle meat with honey. Roast another 30 minutes or until done."
+          "text": "90 Minutes Before: Turn oven down to 350°F. Drizzle meat with honey. Roast another 30 minutes or until done."
         },
         {
           "step": 4,
-          "text": "60 Minutes Before: Reduce heat to 325\u00b0F. Drizzle meat with more honey. Season with fennel stock and wine. Add potatoes. Roast 1 hour or until done."
+          "text": "60 Minutes Before: Reduce heat to 325°F. Drizzle meat with more honey. Season with fennel stock and wine. Add potatoes. Roast 1 hour or until done."
         },
         {
           "step": 5,
@@ -16296,7 +16296,7 @@
       "title": "Let's Have Lunch (Weekend Menu)",
       "category": "mains",
       "description": "A leisurely weekend lunch menu featuring quiche crepes, broccoli side dish, and custard souffle.",
-      "temperature": "300-375\u00b0F",
+      "temperature": "300-375°F",
       "total_time": "4+ hours",
       "ingredients": [
         {
@@ -16328,7 +16328,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "4 Hours Before: Preheat oven to 300\u00b0F. Prepare crust for tart. Bake for 15 minutes. Cool."
+          "text": "4 Hours Before: Preheat oven to 300°F. Prepare crust for tart. Bake for 15 minutes. Cool."
         },
         {
           "step": 2,
@@ -16340,7 +16340,7 @@
         },
         {
           "step": 4,
-          "text": "60 Minutes Before: Preheat oven to 375\u00b0F. Make crepes. Assemble quiche ingredients into baking dishes."
+          "text": "60 Minutes Before: Preheat oven to 375°F. Make crepes. Assemble quiche ingredients into baking dishes."
         },
         {
           "step": 5,
@@ -16458,7 +16458,7 @@
       "title": "Raisin Cream Pound Cake",
       "category": "desserts",
       "description": "Rich pound cake with sour cream and raisins.",
-      "temperature": "325\u00b0F (165\u00b0C)",
+      "temperature": "325°F (165°C)",
       "cook_time": "1 hour 15-30 minutes",
       "ingredients": [
         {
@@ -16529,7 +16529,7 @@
         },
         {
           "step": 6,
-          "text": "Bake at 325\u00b0F for 1 hour 15-30 minutes until done."
+          "text": "Bake at 325°F for 1 hour 15-30 minutes until done."
         }
       ],
       "pan_size": "tube or bundt pan",
@@ -16730,7 +16730,7 @@
       "title": "Chocolate-Cherry Thumbprints",
       "category": "desserts",
       "description": "Oatmeal cookies with chocolate morsels and maraschino cherry centers.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "10-12 minutes",
       "servings_yield": "About 4 dozen",
       "ingredients": [
@@ -16811,7 +16811,7 @@
         },
         {
           "step": 4,
-          "text": "Heat oven to 350\u00b0F. Shape dough into 1-inch balls."
+          "text": "Heat oven to 350°F. Shape dough into 1-inch balls."
         },
         {
           "step": 5,
@@ -17014,7 +17014,7 @@
       "title": "Grandma's Wheat Bran Muffins",
       "category": "breads",
       "description": "Wholesome wheat bran muffins with sunflower seeds.",
-      "temperature": "350\u00b0F (175\u00b0C)",
+      "temperature": "350°F (175°C)",
       "cook_time": "20-25 minutes",
       "ingredients": [
         {
@@ -17087,7 +17087,7 @@
         },
         {
           "step": 5,
-          "text": "Bake at 350\u00b0F for 20-25 minutes."
+          "text": "Bake at 350°F for 20-25 minutes."
         }
       ],
       "tags": [
@@ -17108,6 +17108,98 @@
         ]
       },
       "source_note": "handwritten card - Grandma's recipe"
+    },
+    {
+      "id": "cornish-game-hens-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Cornish Game Hens",
+      "category": "mains",
+      "attribution": "",
+      "source_note": "Handwritten recipe card in red ink",
+      "description": "Herb-stuffed Cornish game hens with wine-butter basting, perfect for picnics.",
+      "servings_yield": "8 servings",
+      "prep_time": "30 minutes",
+      "cook_time": "1 hour",
+      "total_time": "1 hour 30 minutes",
+      "temperature": "425°F (220°C)",
+      "ingredients": [
+        {
+          "item": "frozen Cornish hens",
+          "quantity": "4",
+          "unit": "",
+          "prep_note": "about 1 lb each"
+        },
+        {
+          "item": "herb rice",
+          "quantity": "1",
+          "unit": "pkg",
+          "prep_note": "6 oz"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "dry white wine",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "rosemary",
+          "quantity": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Thaw hens. Cook giblets in 2 1/2 cups water until tender. Drain and save broth. Chop giblets."
+        },
+        {
+          "step": 2,
+          "text": "Cook rice according to package directions, using reserved broth instead of water. Add chopped giblets to rice."
+        },
+        {
+          "step": 3,
+          "text": "Stuff hens with the rice mixture. Truss well with small skewers and white string."
+        },
+        {
+          "step": 4,
+          "text": "Heat butter, wine, and rosemary in a pan until butter is melted."
+        },
+        {
+          "step": 5,
+          "text": "Arrange hens in a shallow roasting pan. Brush with butter mixture."
+        },
+        {
+          "step": 6,
+          "text": "Roast at 425°F for 1 hour or until done, basting several times with the butter mixture."
+        },
+        {
+          "step": 7,
+          "text": "Chill until ready for picnic."
+        }
+      ],
+      "notes": [
+        "This was a family picnic recipe - chill before transporting",
+        "Use the giblet broth for extra flavor in the rice"
+      ],
+      "tags": [
+        "poultry",
+        "main dish",
+        "picnic",
+        "entertaining",
+        "make-ahead"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": []
+      },
+      "image_refs": [
+        "Grannys-recipes - 19"
+      ]
     }
   ],
   "meta": {
