@@ -81,5 +81,43 @@ Enforcement:
   read-only) and `memory-autopersist.sh` (Stop — encoded memories are
   committed+pushed; nothing dies with an ephemeral container). Do not remove or
   bypass; kill-switches are for operator debugging only.
+- **Reasoning log:** `reasoning-log-inject.sh` (SessionStart) and
+  `reasoning-log-persist.sh` (Stop) — see the section below.
+
+**Soli Deo Gloria.**
+
+## 📓 Reasoning log — required, model-independent (operator directive 2026-07-30)
+
+**Operator (Ken) directive: the reasoning log fires EVERY session, under EVERY
+model, with no invocation needed.** Ken reads it to see *how* a conclusion was
+reached and *why* the calls were made — not just what changed.
+
+For each substantive request, append an entry to **`REASONING-LOG.md`** at the
+repo root, newest at the top, in four parts: **Asked / Weighed / Decided /
+Unsure**. Trivial one-liners are skipped deliberately, to keep the log signal
+rather than noise.
+
+Why hooks rather than a skill: a skill only loads when something invokes it, and
+`/model` can swap the runtime mid-session. The harness runs `SessionStart` hooks
+regardless of model, so the obligation cannot be lost to a model swap or a
+forgotten invocation.
+
+Enforcement — belt and suspenders, mirroring the memory pair:
+- **Belt:** `.claude/hooks/reasoning-log-inject.sh` (SessionStart) injects the
+  standing obligation into context every session, any model. Kill-switch
+  `REASONING_LOG_INJECT=0`.
+- **Belt:** `.claude/hooks/reasoning-log-persist.sh` (Stop) commits+pushes
+  `REASONING-LOG.md` — and *only* that path — so no entry dies with an
+  ephemeral container. Kill-switch `REASONING_LOG_PERSIST=0`.
+- **Suspenders:** this section, plus both hooks listed in the `PROTECTED` array
+  of `.githooks/check-required-hooks.sh`, which blocks any commit that silently
+  drops them.
+
+**Honest limit — do not overread the machinery.** The hooks guarantee the
+obligation is *present* and that whatever was written is *persisted*. They
+cannot guarantee an entry was actually written; only the agent can do that. The
+log is a faithful reconstruction of reasoning, not a raw token stream. Guesses
+are labelled as guesses and uncertainty stays on the page — a polished log that
+hides the doubt is exactly the clever shortcut this household forbids.
 
 **Soli Deo Gloria.**

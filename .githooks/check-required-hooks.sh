@@ -23,6 +23,8 @@ PROTECTED=(
   "post-write-validate.sh"
   "prompt-injection-guard.js"
   "session-pulse-scan.sh"
+  "reasoning-log-inject.sh"
+  "reasoning-log-persist.sh"
 )
 
 if [ ! -f "$SETTINGS" ]; then
