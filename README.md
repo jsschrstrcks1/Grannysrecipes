@@ -66,7 +66,9 @@ Grannysrecipes/
 ├── styles.css                 # Stylesheet
 ├── script.js                  # Client-side JavaScript
 ├── robots.txt                 # Search-engine directives (BLOCKS ALL)
-├── granny/                    # Granny Hudson's recipe collection
+├── granny/                    # Granny Hudson's recipe collection — NOTE: this repo's data
+│                              #   lives HERE, not in data/ like every sibling repo. Deployed
+│                              #   consumers pin these URLs; see data/README.md before "fixing".
 │   ├── *.jpeg                 # Original scanned recipe images
 │   ├── processed/             # AI-friendly resized versions (if needed)
 │   ├── recipes_master.json    # All recipes
