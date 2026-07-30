@@ -6,6 +6,12 @@
 
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 
+# Required-hooks guard — runs on EVERY commit, including merges (must precede any
+# merge-skip logic below). See .githooks/check-required-hooks.sh.
+if [ -x "$REPO_ROOT/.githooks/check-required-hooks.sh" ]; then
+    "$REPO_ROOT/.githooks/check-required-hooks.sh" || exit 1
+fi
+
 # Run anti-indexing check
 if [ -f "$REPO_ROOT/scripts/check-noindex.sh" ]; then
     bash "$REPO_ROOT/scripts/check-noindex.sh"
