@@ -1,6 +1,34 @@
 ---
 name: verification-before-completion
-description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always
+description: Use when about to claim work is complete, fixed, or passing, before committing
+  or creating PRs - requires running verification commands and confirming output before
+  making any success claims; evidence before assertions always
+version: 2.0.0
+license: LicenseRef-Proprietary
+category: integrity
+keywords:
+- verification
+- completion
+- testing
+- evidence-before-assertion
+- test-pass-claim
+- regression
+compatibility:
+  claude-code: '>=2.1'
+kind: skill
+runtimes:
+- hermes
+- claude-code
+- grok
+- codex
+capabilities:
+- read
+- shell
+runtime_bindings:
+  claude-code:
+    allowed-tools:
+    - Bash
+    - Read
 ---
 
 # Verification Before Completion
@@ -71,6 +99,8 @@ Skip any step = lying, not verifying
 | "Agent said success" | Verify independently |
 | "I'm tired" | Exhaustion ≠ excuse |
 | "Partial check is enough" | Partial proves nothing |
+| "The change is logically equivalent" | Prediction, not verification |
+| "I've reviewed the code and it looks correct" | Review ≠ execution |
 | "Different words so rule doesn't apply" | Spirit over letter |
 
 ## Key Patterns
@@ -105,6 +135,14 @@ Skip any step = lying, not verifying
 ❌ Trust agent report
 ```
 
+## When verification cannot be run
+
+If verification is not possible in the current environment (no test runner, no browser, no DB, no network), say so explicitly:
+
+> *I cannot verify this claim in the current environment. Required: `<command>`. Expected output: `<description>`. Please run before merging.*
+
+Honest gaps beat invented confirmations. "I made the change but couldn't run the tests" is professionally acceptable. "Tests pass" without running them is not.
+
 ## Why This Matters
 
 From 24 failure memories:
@@ -130,6 +168,15 @@ From 24 failure memories:
 - Implications of success
 - ANY communication suggesting completion/correctness
 
+## Troubleshooting
+
+| Failure mode | Corrective step |
+|---|---|
+| You wrote "tests pass" without running them | Stop. Run the tests. Update the claim with the real result. |
+| The command failed; you described it as "a minor warning" | Quote the actual error. Decide whether to fix or report. |
+| You ran a partial command (e.g., one test file) and claimed full coverage | Re-run the full suite. Adjust the claim. |
+| The environment lacks the verifier | Say so. Don't claim verification anyway. |
+
 ## The Bottom Line
 
 **No shortcuts for verification.**
@@ -137,3 +184,7 @@ From 24 failure memories:
 Run the command. Read the output. THEN claim the result.
 
 This is non-negotiable.
+
+## Inspiration
+
+Two lineages merged 2026-07-05 (ecosystem-audit reconciliation). The Iron Law / Gate Function / rationalization-table core is the household-consensus variant deployed at six locations (ken, manateecreeksheep, Romans, InTheWake, Family-History), itself derived from the superpowers pattern. The honest-gap template ("When verification cannot be run") and the troubleshooting table are this repo's original v1.0.0 contributions, preserved as the superset. The pattern shows up across the household: recipe transcription marks `[UNCLEAR]` rather than guessing, sermon evaluation runs the rubric rather than assuming the score, flock validation runs `validate_flock.py` rather than declaring the database consistent.
