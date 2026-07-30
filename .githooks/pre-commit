@@ -31,4 +31,11 @@ if [ -f "$REPO_ROOT/scripts/validate-recipes.py" ]; then
     # Don't block on validation warnings, only errors
 fi
 
+
+# Reasoning log — the RUNTIME-INDEPENDENT half. Injection hooks only reach agents
+# whose harness runs Claude Code hooks; every runtime commits. Blocks a substantive
+# commit with no reasoning entry dated today. Opt out per-commit with [no-reasoning].
+if [ -x "$REPO_ROOT/.githooks/reasoning-log-guard.sh" ]; then
+  "$REPO_ROOT/.githooks/reasoning-log-guard.sh" || exit 1
+fi
 exit 0

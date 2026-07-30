@@ -19,6 +19,8 @@ SETTINGS="$REPO_ROOT/.claude/settings.json"
 # and JSON reformatting). To retire one, delete its line here in the same commit
 # that removes it from settings.json.
 PROTECTED=(
+  "reasoning-log-inject.sh"
+  "reasoning-log-persist.sh"
   "image-safety-check.sh"
   "post-write-validate.sh"
   "prompt-injection-guard.js"

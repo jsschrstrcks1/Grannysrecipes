@@ -42,3 +42,16 @@ Doctrine: `/Users/kenbaker/atlas-serve/skills/destructive-command-safety/SKILL.m
 6. `/Users/kenbaker/atlas-serve/skills/household-library/SKILL.md`
 
 **Do not skip 5–6 without 1–4.** **Runtime:** [`CLAUDE.md`](./CLAUDE.md)
+
+## Reasoning log — required for this runtime too
+
+This repo keeps `REASONING-LOG.md`: for each substantive request, append an
+entry — newest at top — in four parts: **Asked / Weighed / Decided / Unsure**.
+Explain HOW you reached the conclusion and WHY you made the calls you made, and
+leave your uncertainty on the page rather than polishing it away.
+
+This applies to every runtime, not only Claude Code: a pre-commit guard
+(`.githooks/reasoning-log-guard.sh`) BLOCKS a substantive commit when the log
+has no entry dated today. Close your entry with `_Runtime: <name>_`.
+
+**Soli Deo Gloria.**
