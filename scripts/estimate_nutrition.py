@@ -59,6 +59,8 @@ NUTRITION_DB = {
     'margarine': {'cup': {'cal': 1628, 'fat': 184, 'carb': 0, 'protein': 2, 'sodium': 1284, 'fiber': 0, 'sugar': 0},
                   'tbsp': {'cal': 102, 'fat': 11.5, 'carb': 0, 'protein': 0.1, 'sodium': 80, 'fiber': 0, 'sugar': 0}},
     'milk': {'cup': {'cal': 149, 'fat': 8, 'carb': 12, 'protein': 8, 'sodium': 107, 'fiber': 0, 'sugar': 12}},
+    'lowfat milk': {'cup': {'cal': 102, 'fat': 2.4, 'carb': 12, 'protein': 8, 'sodium': 107, 'fiber': 0, 'sugar': 12}},
+    'skim milk': {'cup': {'cal': 83, 'fat': 0.2, 'carb': 12, 'protein': 8, 'sodium': 103, 'fiber': 0, 'sugar': 12}},
     'heavy cream': {'cup': {'cal': 821, 'fat': 88, 'carb': 7, 'protein': 5, 'sodium': 89, 'fiber': 0, 'sugar': 7}},
     'sour cream': {'cup': {'cal': 445, 'fat': 44, 'carb': 8, 'protein': 6, 'sodium': 123, 'fiber': 0, 'sugar': 5}},
     'cream cheese': {'oz': {'cal': 99, 'fat': 10, 'carb': 1, 'protein': 2, 'sodium': 84, 'fiber': 0, 'sugar': 1}},
@@ -85,6 +87,10 @@ NUTRITION_DB = {
     'noodles': {'cup': {'cal': 220, 'fat': 2, 'carb': 40, 'protein': 8, 'sodium': 10, 'fiber': 2, 'sugar': 0}},
     'bread crumbs': {'cup': {'cal': 427, 'fat': 6, 'carb': 78, 'protein': 14, 'sodium': 930, 'fiber': 3, 'sugar': 6}},
     'hamburger bun': {'each': {'cal': 120, 'fat': 2, 'carb': 21, 'protein': 4, 'sodium': 200, 'fiber': 1, 'sugar': 3}},
+    'bread': {'slice': {'cal': 79, 'fat': 1, 'carb': 15, 'protein': 2.7, 'sodium': 147, 'fiber': 0.6, 'sugar': 1.4}},
+    'white bread': {'slice': {'cal': 79, 'fat': 1, 'carb': 15, 'protein': 2.7, 'sodium': 147, 'fiber': 0.6, 'sugar': 1.4}},
+    'raisin bread': {'slice': {'cal': 88, 'fat': 1.3, 'carb': 17, 'protein': 2.6, 'sodium': 125, 'fiber': 1.1, 'sugar': 4}},
+    'whole grain bread': {'slice': {'cal': 81, 'fat': 1.1, 'carb': 14, 'protein': 4, 'sodium': 146, 'fiber': 1.9, 'sugar': 1.4}},
     'biscuit mix': {'cup': {'cal': 480, 'fat': 16, 'carb': 72, 'protein': 8, 'sodium': 1360, 'fiber': 2, 'sugar': 8}},
     'cornmeal': {'cup': {'cal': 442, 'fat': 4, 'carb': 94, 'protein': 10, 'sodium': 4, 'fiber': 9, 'sugar': 1}},
     'tortilla': {'each': {'cal': 90, 'fat': 2.5, 'carb': 15, 'protein': 2, 'sodium': 200, 'fiber': 1, 'sugar': 0}},
@@ -126,6 +132,7 @@ NUTRITION_DB = {
     'oil': {'tbsp': {'cal': 120, 'fat': 14, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
     'shortening': {'cup': {'cal': 1845, 'fat': 205, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
     'mayonnaise': {'tbsp': {'cal': 94, 'fat': 10, 'carb': 0.1, 'protein': 0.1, 'sodium': 88, 'fiber': 0, 'sugar': 0}},
+    'cooking spray': {'spray': {'cal': 0, 'fat': 0, 'carb': 0, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 0}},
 
     # VEGETABLES
     'onion': {'medium': {'cal': 44, 'fat': 0.1, 'carb': 10, 'protein': 1.2, 'sodium': 4, 'fiber': 2, 'sugar': 5}},
@@ -145,6 +152,8 @@ NUTRITION_DB = {
     'green beans': {'cup': {'cal': 31, 'fat': 0.1, 'carb': 7, 'protein': 2, 'sodium': 6, 'fiber': 3, 'sugar': 1.5}},
     'peas': {'cup': {'cal': 117, 'fat': 0.6, 'carb': 21, 'protein': 8, 'sodium': 7, 'fiber': 7, 'sugar': 8}},
     'lettuce': {'cup': {'cal': 5, 'fat': 0.1, 'carb': 1, 'protein': 0.5, 'sodium': 5, 'fiber': 0.5, 'sugar': 0.5}},
+    'salad': {'serving': {'cal': 35, 'fat': 0.3, 'carb': 7, 'protein': 2, 'sodium': 30, 'fiber': 3, 'sugar': 3}},
+    'green salad': {'serving': {'cal': 35, 'fat': 0.3, 'carb': 7, 'protein': 2, 'sodium': 30, 'fiber': 3, 'sugar': 3}},
     'spinach': {'cup': {'cal': 7, 'fat': 0.1, 'carb': 1, 'protein': 0.9, 'sodium': 24, 'fiber': 0.7, 'sugar': 0}},
     'cabbage': {'cup': {'cal': 17, 'fat': 0.1, 'carb': 4, 'protein': 1, 'sodium': 13, 'fiber': 1.8, 'sugar': 2}},
     'zucchini': {'medium': {'cal': 31, 'fat': 0.4, 'carb': 7, 'protein': 2, 'sodium': 16, 'fiber': 2, 'sugar': 5}},
@@ -282,6 +291,7 @@ NUTRITION_DB = {
     # SWEETS & CANDIES
     'marshmallows': {'cup': {'cal': 159, 'fat': 0.1, 'carb': 41, 'protein': 1.4, 'sodium': 22, 'fiber': 0, 'sugar': 29}},
     'miniature marshmallows': {'cup': {'cal': 159, 'fat': 0.1, 'carb': 41, 'protein': 1.4, 'sodium': 22, 'fiber': 0, 'sugar': 29}},
+    'marshmallow rope': {'oz': {'cal': 80, 'fat': 0, 'carb': 20, 'protein': 0.7, 'sodium': 10, 'fiber': 0, 'sugar': 15}},
     'maraschino cherries': {'each': {'cal': 8, 'fat': 0, 'carb': 2, 'protein': 0, 'sodium': 0, 'fiber': 0, 'sugar': 2}},
     'bing cherries': {'cup': {'cal': 87, 'fat': 0.3, 'carb': 22, 'protein': 1.5, 'sodium': 0, 'fiber': 3, 'sugar': 18}},
     'maple candy': {'oz': {'cal': 100, 'fat': 0, 'carb': 25, 'protein': 0, 'sodium': 3, 'fiber': 0, 'sugar': 24}},
@@ -443,6 +453,8 @@ NUTRITION_DB = {
     'reduced calorie brownie mix': {'package': {'cal': 1200, 'fat': 24, 'carb': 240, 'protein': 16, 'sodium': 1200, 'fiber': 8, 'sugar': 160}},
     'wheat bran': {'cup': {'cal': 125, 'fat': 2.5, 'carb': 37, 'protein': 9, 'sodium': 1, 'fiber': 25, 'sugar': 0.3}},
     'bran cereal': {'cup': {'cal': 125, 'fat': 0.8, 'carb': 37, 'protein': 4, 'sodium': 1, 'fiber': 13, 'sugar': 0.3}},
+    'wheat germ': {'tbsp': {'cal': 26, 'fat': 0.7, 'carb': 3.7, 'protein': 2, 'sodium': 1, 'fiber': 1, 'sugar': 0.5},
+                   'cup': {'cal': 414, 'fat': 11, 'carb': 60, 'protein': 27, 'sodium': 4, 'fiber': 15, 'sugar': 8}},
 
     # Candy and chocolate
     'hersheys kisses': {'each': {'cal': 22, 'fat': 1.3, 'carb': 2.6, 'protein': 0.3, 'sodium': 3, 'fiber': 0.1, 'sugar': 2.4}},
@@ -614,6 +626,7 @@ def find_ingredient_match(item_name):
         # Brand name mappings
         'kraft original barbecue': 'barbecue sauce',
         'kraft barbecue': 'barbecue sauce',
+        'bbq sauce': 'barbecue sauce',
         'kraft singles': 'kraft singles',
         'publix jellied cranberry': 'cranberry sauce',
         'publix cranberry': 'cranberry sauce',
@@ -665,6 +678,19 @@ def find_ingredient_match(item_name):
         # Additional fixes
         'breadcrumbs': 'bread crumbs',
         'orange zest': 'orange rind',
+        # Additional brand mappings
+        'golden griddle syrup': 'maple syrup',
+        'golden griddle': 'maple syrup',
+        'mazola no stick corn oil cooking spray': 'cooking spray',
+        'mazola cooking spray': 'cooking spray',
+        'mazola margarine': 'margarine',
+        'mazola': 'margarine',
+        # Bread types
+        'white, raisin or whole grain bread': 'bread',
+        'white bread': 'white bread',
+        'raisin bread': 'raisin bread',
+        'whole grain bread': 'whole grain bread',
+        'toast': 'bread',
     }
 
     for var, match in variations.items():
@@ -700,6 +726,10 @@ def estimate_nutrition(recipe):
         item = ing.get('item', '')
         qty = parse_quantity(ing.get('quantity', '1'))
         unit = ing.get('unit', '').lower().strip()
+
+        # Normalize plural units to singular
+        if unit.endswith('s') and unit not in ['tbsp', 'tsp', 'oz']:
+            unit = unit[:-1]
 
         # Find matching ingredient
         match = find_ingredient_match(item)
