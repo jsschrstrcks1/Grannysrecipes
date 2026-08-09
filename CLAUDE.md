@@ -97,3 +97,35 @@ Enforcement:
   bypass; kill-switches are for operator debugging only.
 
 **Soli Deo Gloria.**
+
+## ⚡ Sophos injected — every session AND every prompt (operator directive 2026-08-08)
+
+**Sophos is the whole posture loaded from one word, and it now loads itself.** A
+posture that depends on being asked for is exactly the partial Sophos the skill
+forbids — so `.claude/hooks/sophos-inject.sh` puts it in context mechanically,
+under every model and every runtime the harness drives.
+
+| Mode | Event | What it emits |
+|---|---|---|
+| `session` | SessionStart | The five layers with resolved Layer 0 paths, the hierarchy, the publish gate, and the memory-recall command |
+| `prompt` | UserPromptSubmit | ONE terse line, cheap enough to repeat every turn so the posture cannot drift out of attention in a long session |
+
+Layer 0 is resolved at run time in the documented order —
+`$HOUSEHOLD_OCS_ROOT` → sibling `../open-claw-stuff` → fallback hints — and the
+hook **names which candidate won**, so a reader can tell a real root from a lucky
+guess. No machine path is baked in as authoritative; hard-coding one authoring
+machine's layout is UL-173, which this household has already paid for once. If
+nothing resolves, both modes say so loudly: an agent that cannot reach Layer 0 is
+**ungoverned**, and reporting that is the compliant outcome.
+
+Kill-switch (operator debugging only): `SOPHOS_INJECT=0`. Fail-open by design —
+the hook always exits 0, because a posture reminder must never be what breaks a
+session.
+
+**Honest limit.** This guarantees the posture is *present*. It cannot make an
+agent hold it. It is the suspenders; the belt is the bootstrap guard, which
+DENIES mutations until Layer 0 is read, and the dangerous-command guard, which
+BLOCKS at the shell boundary. An injected paragraph has never stopped anything
+by itself — do not read this section as proof the posture was honoured.
+
+**Soli Deo Gloria.**
