@@ -1,13 +1,13 @@
 # Library — Grannysrecipes shelf
 
-**Complete documentation:** `/Users/kenbaker/atlas-serve/docs/HOUSEHOLD-LIBRARY.md`
-**Household SSOT:** `/Users/kenbaker/atlas-serve/.household-library/`
-**CLI:** `node /Users/kenbaker/atlas-serve/admin/library.mjs`
+**Complete documentation:** `<OCS>/docs/HOUSEHOLD-LIBRARY.md`
+**Household SSOT:** `<OCS>/.household-library/`
+**CLI:** `node <OCS>/admin/library.mjs`
 
 ## Before any user task
 
 ```bash
-node /Users/kenbaker/atlas-serve/admin/library.mjs preflight --query "<task>" --patron <you> --merge --repo Grannysrecipes
+node <OCS>/admin/library.mjs preflight --query "<task>" --patron <you> --merge --repo Grannysrecipes
 ```
 
 | File | Role |
