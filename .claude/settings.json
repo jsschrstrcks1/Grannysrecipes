@@ -27,6 +27,16 @@
             "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs posttool",
+            "timeout": 20
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -73,8 +83,37 @@
         "hooks": [
           {
             "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/stop-usage-footer-gate.mjs",
+            "timeout": 20
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/stop-governed-reply.mjs",
+            "timeout": 45
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
             "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/memory-autopersist.sh",
             "timeout": 60
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/hier-memory-inject.mjs prompt",
+            "timeout": 20
           }
         ]
       }
