@@ -1287,6 +1287,11 @@ function normalize(raw) {
 // back to "." rather than to the empty string, keeping the cwd-wipe rule intact.
 function canonicalizePath(p) {
   if (!p.startsWith("/")) {
+    // UL-939 (superset with UL-873 family 2): collapse redundant separators AND `.` segments so a
+    // tilde's separator noise cannot smuggle a home wipe past the anchor regexes. `.`/`./`/`././`
+    // reduce to "." (cwd, kept for its own rule); `~//.*`, `~/./.*`, `~//*` reduce to their bare
+    // home form. This branch is the more aggressive of the two lineages and already blocked family
+    // 2 before navani's UL-873 landed; kept on cherry-pick because it is a strict superset here.
     const kept = p.split("/").filter((s) => s !== "" && s !== ".");
     return kept.length ? kept.join("/") : ".";
   }
@@ -1319,9 +1324,42 @@ function canonicalizePath(p) {
 // `~/.[A-Za-z]*`, `~/.[a-zA-Z0-9]*`, `/root/.[a-z]*` and `/home/<u>/.[a-z]*` all walked through,
 // while the `[!.]` and `[^.]` spellings of the same sweep were correctly refused.
 // A class alongside real literals still constrains: `.[a-z]ache` keeps "ache" and stays allowed.
-function isUnconstrainedGlobSegment(seg) {
+//
+// UL-873 — the bracket strip must understand a POSIX class, or it fails on the very spellings it
+// claims to cover. `/\[[^\]]*\]/` stops at the FIRST `]`, which inside `[[:alpha:]]` is the INNER
+// one, leaving a stray `]` behind. That residue counts as a surviving literal name character, so
+// the segment was classified CONSTRAINED and the whole family walked through: `~/.[[:alpha:]]*`,
+// `[[:lower:]]`, `[[:alnum:]]`, `[[:punct:]]`, and the same under `/root` and an absolute home —
+// all ALLOWED, while `~/.[a-z]*`, the identical sweep in a different spelling, was refused.
+// Measured 2026-08-11 validating UL-344; the comment above asserting "any bracket EXPRESSION is
+// stripped" was simply untrue as written.
+//
+// Stripped in TWO INDEPENDENT LINEAR PASSES, deliberately, not one clever pattern.
+//
+// The obvious single regex puts the sub-expression and the ordinary member in one alternation
+// under a star — `(?:\[[:.=][^\]]*[:.=]\]|[^\]])*` — and `[` matches BOTH branches, so a crafted
+// operand backtracks catastrophically. Measured before this note was written: input `[` + `[:a`
+// repeated grew 11 ms → 69 ms → 437 ms → 2991 ms at n = 200/400/800/1600, i.e. ~7x per doubling,
+// so ~5 KB of command line stalls the detector for seconds. This function runs on EVERY scanned
+// command in a P0 PreToolUse guard, and a guard that hangs is an outage — or worse, a timeout
+// that fails open. Cleverness in a hot safety path is not worth a second of anyone's session.
+//
+// Pass 1 removes POSIX sub-expressions (`[:alpha:]`, `[.coll.]`, `[=equiv=]`), which are the
+// spellings that defeated the old strip. Pass 2 then removes ordinary bracket expressions with a
+// pattern that has no alternation at all: an optional negator and an optional literal `]` in
+// first position (where `]` is a member, not a terminator), then members, then the terminator.
+// Neither pass contains an ambiguous quantified alternation, so both are linear.
+// Exported ONLY so the cost property above can be pinned by a test against the real function.
+// Asserting it against a copy of the pattern in the test file proved worthless: the copy stayed
+// linear while the module could be reverted to the ambiguous form untouched (mutation SURVIVED).
+const POSIX_SUBEXPR = /\[[:.=][^\]]*[:.=]\]/g;
+const BRACKET_EXPR = /\[[!^]?\]?[^\]]*\]/g;
+export function isUnconstrainedGlobSegment(seg) {
   if (!/[*?]/.test(seg)) return false;                    // not a glob at all
-  return seg.replace(/\[[^\]]*\]/g, "").replace(/[.*?]/g, "") === "";
+  return seg
+    .replace(POSIX_SUBEXPR, "")
+    .replace(BRACKET_EXPR, "")
+    .replace(/[.*?]/g, "") === "";
 }
 
 // Is an `rm` operand a whole-filesystem / home / cwd / system-root wipe (vs a specific safe subdir)?
@@ -1341,8 +1379,8 @@ function isCatastrophicTarget(tok) {
   const rawBare = t.replace(/['"]/g, "");
   // Canonicalize absolute paths so every root spelling (// /. /./ /.. …) collapses to "/" before the
   // literal/system-root checks below. Non-absolute forms (~, $HOME, ., *) keep their original shape.
-  // UL-939: canonicalize EVERY operand, not only the absolute ones. The old ternary left the
-  // non-absolute branch of canonicalizePath unreachable, which is why the tilde spellings kept
+  // UL-939 / UL-873: canonicalize EVERY operand, not only the absolute ones. The old ternary left
+  // the non-absolute branch of canonicalizePath unreachable, which is why the tilde spellings kept
   // their separator noise all the way into the anchor regexes below — and those regexes require
   // exactly one separator followed by a single non-slash segment, so `~//.*` simply did not match.
   const bare = canonicalizePath(rawBare);
@@ -2104,7 +2142,25 @@ const RULES = [
   { id: "diskutil-erase", reason: "diskutil erase/zero/reformat", test: (c) => { const m = c.match(/\bdiskutil\b[^\n;&|]*\b(eraseDisk|eraseVolume|zeroDisk|reformat|apfs\s+delete)/i); return m ? { sample: m[0].trim().slice(0, 120) } : null; } },
   { id: "shred-device", reason: "shred against a raw device", test: (c) => { const m = c.match(/\bshred\b[^\n;&|]*\/dev\/\w/i); return m ? { sample: m[0].trim().slice(0, 120) } : null; } },
   { id: "fork-bomb", reason: "fork bomb", test: (c) => { const m = c.match(/\w*\(\)\s*\{[^}]*\|[^}]*&[^}]*\}\s*;\s*\S/); return m ? { sample: m[0].trim().slice(0, 60) } : null; } },
-  { id: "find-delete-root", reason: "find on / ~ or $HOME with -delete or -exec rm", test: (c) => { const m = c.match(/\bfind\s+(?:-\S+\s+)*(\/|~\/?|\$\{?HOME\}?)\s[^\n;]*(-delete\b|-exec\s+rm\b)/i); return m ? { sample: m[0].trim().slice(0, 120) } : null; } },
+  // UL-873. The path was matched by a bespoke alternation — `/`, `~`, `~/`, `$HOME`, `${HOME}` and
+  // nothing else — so every spelling the rm rules understand was invisible here: `find ~/.* -delete`
+  // walked through while `find ~ -delete` and `find / -delete` were both refused. A second, narrower
+  // list of catastrophic targets is how an alias gets added on one side only, which is the exact
+  // failure UL-344 was opened to fix. Ask the SAME predicate the rm rules ask, so the two can never
+  // drift again. The cwd forms stay with `find-delete-cwd` below, which is filter-aware on purpose:
+  // `find . -name '*.tmp' -delete` is ordinary work and must keep passing.
+  {
+    id: "find-delete-root",
+    reason: "find on a whole home / filesystem / system root with -delete or -exec rm",
+    test: (c) => {
+      const m = c.match(/\bfind\s+((?:-\S+\s+)*)(\S+)\s[^\n;]*(-delete\b|-exec\s+rm\b)/i);
+      if (!m) return null;
+      const target = m[2];
+      if (/^\.\/?\*?$/.test(target)) return null;          // cwd → find-delete-cwd owns it
+      if (!isCatastrophicTarget(target)) return null;
+      return { sample: m[0].trim().slice(0, 120) };
+    },
+  },
   // `find . -delete` with no FILTER predicate wipes everything under cwd (same class as `rm -rf .`).
   // Only the unfiltered form blocks: after `find .` we allow a run of non-selecting flags (-maxdepth N,
   // -depth, -xdev …) before -delete/-exec rm, but a predicate (-name/-path/-type/-regex/-size/-mtime…)
