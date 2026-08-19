@@ -8,7 +8,7 @@ description: 'The single entry point for the household operating posture. Saying
   "I only have to ask for Sophos to get everything."
 
   '
-version: 1.3.3
+version: 1.3.4
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -69,6 +69,13 @@ shell boundary. SSOT detector: `cluster/lib/dangerous-command.mjs`. Hooks:
 Probe guards with **INERT** payloads only (`<(echo probe)`). Never a live wipe.
 
 Remove any one layer and the dedication is only words.
+
+**Companion posture (loads with layer 1):** [`../faithful-stewardship/SKILL.md`](../faithful-stewardship/SKILL.md)
+— what is owed to entrusted things (distilled 2026-08-19; memory anchor `personal/2bb3b2b9`):
+proportionate, truthful, durable stewardship; forgetting as first-class governance; structure
+warranted by stewardship obligation, never by possibility; and the inversion prohibition —
+*do not preserve the structure at the expense of what the structure exists to protect*. A
+companion, not a sixth layer — the five-layer contract above is unchanged.
 
 ## Memory is core, not a peripheral (layer 5 mechanics)
 
