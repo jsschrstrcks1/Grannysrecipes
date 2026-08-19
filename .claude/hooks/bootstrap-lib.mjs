@@ -144,16 +144,29 @@ export function normalizeHookInput(raw) {
   };
 }
 
+// Stamp root is HOUSEHOLD-SHARED, not per-repo (spec §5.2 A5, operator directive
+// 2026-07-20): the six-layer read order is household-global and a session is one
+// session across every repo it touches — per-repo buckets demand the same canonical
+// reads once per repo, and a multi-repo session bootstrapped in one repo is denied
+// in the next. Measured live 2026-08-19: Project-Sophos's guard (A5-lineage hooks,
+// shared bucket) was mechanically unsatisfiable because the canonical stamp hook
+// filed reads in a per-repo bucket its checker never consulted. The A5
+// implementation (5ba8fced) never merged to main; the per-repo variant arrived in a
+// bulk hook import (66b53970) with no counter-rationale — this restores the spec'd
+// design, keeping main's dual-runtime split and the env override. `input` stays in
+// the signature for caller compatibility; the location no longer depends on it.
+// Migration cost, named: stamps in the old per-repo buckets are not read from the
+// new location, so each live session re-earns its stamp once via the read order.
+// Operator applied 2026-08-19 (HLS p1-loud-bootstrap-spec-vs-lib-stamp-root).
 export function stampRoot(input = null) {
   if (process.env.HOUSEHOLD_BOOTSTRAP_ROOT) {
     return process.env.HOUSEHOLD_BOOTSTRAP_ROOT;
   }
-  const repo = getRepoName(input);
   const runtime = getRuntime();
   if (runtime === "grok") {
-    return path.join(os.homedir(), ".grok", "household-bootstrap", repo);
+    return path.join(os.homedir(), ".grok", "household-bootstrap", "household");
   }
-  return path.join(os.homedir(), ".claude", "household-bootstrap", repo);
+  return path.join(os.homedir(), ".claude", "household-bootstrap", "household");
 }
 
 export function eventsPath(input = null) {
