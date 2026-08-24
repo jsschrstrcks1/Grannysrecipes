@@ -1,0 +1,33 @@
+#!/bin/bash
+# Soli Deo Gloria.
+# commit-msg — the reasoning-log guard runs HERE, not in pre-commit (UL-210).
+#
+# git passes the path to the real commit message as $1. That is the only hook
+# where a message-dependent policy can be enforced honestly. Read from
+# pre-commit instead, `.git/COMMIT_EDITMSG` is STALE — for `git commit -m` git
+# writes it only after pre-commit succeeds — which made the documented
+# `[no-reasoning]` opt-out fail on the commit carrying it and, worse, silently
+# exempt the NEXT substantive commit. Measured live in both directions
+# 2026-08-10; see UL-210.
+#
+# Enable: git config core.hooksPath .githooks
+set -u
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || echo .)"
+
+if [ -x "$REPO_ROOT/.githooks/reasoning-log-guard.sh" ]; then
+  "$REPO_ROOT/.githooks/reasoning-log-guard.sh" "$1" || exit 1
+fi
+
+# C1 (UL-943): when the commit touches REASONING-LOG.md, the newest entry must
+# carry the four-section shape with a NON-EMPTY Unsure. Message-dependent
+# ([no-reasoning] exemption), so it lives here per UL-210.
+if [ -f "$REPO_ROOT/.githooks/reasoning-log-shape.mjs" ] && command -v node >/dev/null 2>&1; then
+  node "$REPO_ROOT/.githooks/reasoning-log-shape.mjs" "$1" || exit 1
+fi
+
+# D1 (UL-943): no model identifiers in commit messages; Claude-Session trailer
+# well-formed IF present.
+if [ -f "$REPO_ROOT/.githooks/commit-msg-trailers.mjs" ] && command -v node >/dev/null 2>&1; then
+  node "$REPO_ROOT/.githooks/commit-msg-trailers.mjs" "$1" || exit 1
+fi
+exit 0

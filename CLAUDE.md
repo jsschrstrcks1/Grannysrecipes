@@ -129,3 +129,39 @@ BLOCKS at the shell boundary. An injected paragraph has never stopped anything
 by itself — do not read this section as proof the posture was honoured.
 
 **Soli Deo Gloria.**
+
+## 📓 Reasoning log — required, runtime-independent (operator directive 2026-07-30)
+
+**Every agent that works in this repo — Claude, Grok, Codex, Hermes, the
+Sophos/HELM pipeline — records the reasoning behind its calls.** Ken reads this
+to see *how* a conclusion was reached and *why* the calls were made, not just
+what changed.
+
+For each substantive request, append an entry to **`REASONING-LOG.md`** at the
+repo root, newest at the top, in four parts: **Asked / Weighed / Decided /
+Unsure**. Trivial one-liners are skipped deliberately, to keep the log signal
+rather than noise. Be honest — if you guessed, say you guessed; uncertainty
+stays on the page.
+
+Five layers, because no single one reaches every runtime:
+
+| Layer | Mechanism | Covers |
+|---|---|---|
+| Inject | `.claude/hooks/reasoning-log-inject.sh` — SessionStart **and UserPromptSubmit** | Claude Code, any model, every turn |
+| Reveal | `.claude/hooks/reasoning-reveal.mjs` — PreToolUse, observe-only | stated rationale on consequential Claude Code actions |
+| Persist | `.claude/hooks/reasoning-log-persist.sh` — Stop; commits+pushes the log only | anything the harness runs |
+| **Guard** | `.githooks/reasoning-log-guard.sh` — pre-commit **BLOCK** | **every runtime that commits** — Grok, Codex, scripts, humans |
+| Capture | `atlas/server/reasoning-log-capture.mjs` | the pipeline itself — mechanical, needs no compliance |
+
+Kill-switches (operator debugging only): `REASONING_LOG_INJECT=0`,
+`REASONING_LOG_PERSIST=0`, `REASONING_LOG_GUARD=0`, `REASONING_LOG_CAPTURE=off`.
+Per-commit opt-out for a genuinely trivial change: put `[no-reasoning]` in the
+commit message — an explicit, reviewable record of that judgment.
+
+**Honest limit.** Injection guarantees the obligation is *present*; persistence
+guarantees what was written *survives*; the guard makes omission *block a
+commit*; capture is the only layer that is *self-executing*. None of them can
+make a model write a truthful entry. Read the log; do not trust the machinery
+as proof it is current.
+
+**Soli Deo Gloria.**

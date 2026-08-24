@@ -72,3 +72,16 @@ ungoverned and must report that rather than assume posture loaded.
 Kill-switch: `SOPHOS_INJECT=0` (operator debugging only).
 
 **Soli Deo Gloria.**
+
+## Reasoning log — required for this runtime too
+
+This repo keeps `REASONING-LOG.md`: for each substantive request, append an
+entry — newest at top — in four parts: **Asked / Weighed / Decided / Unsure**.
+Explain HOW you reached the conclusion and WHY you made the calls you made, and
+leave your uncertainty on the page rather than polishing it away.
+
+This applies to every runtime, not only Claude Code: a pre-commit guard
+(`.githooks/reasoning-log-guard.sh`) BLOCKS a substantive commit when the log
+has no entry dated today. Close your entry with `_Runtime: <name>_`.
+
+**Soli Deo Gloria.**
