@@ -157,8 +157,7 @@
           "Coffee Syrup (see below): used default unit",
           "frozen lemonade concentrate: used default unit",
           "frozen strawberries: used default unit",
-          "raspberries or peaches: used default unit",
-          "light corn syrup: used default unit"
+          "raspberries or peaches: used default unit"
         ]
       }
     },
@@ -206,27 +205,6 @@
         "gr-297",
         "gr-298"
       ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Combine all ingredients in a glass jar with a tight-fitting lid."
-        },
-        {
-          "step": 2,
-          "text": "Shake well before each use."
-        },
-        {
-          "step": 3,
-          "text": "Take 1-2 tablespoons daily, diluted in water or juice if desired."
-        },
-        {
-          "step": 4,
-          "text": "Store in refrigerator."
-        }
-      ],
-      "notes": [
-        "Apple cider vinegar health tonic - traditional remedy."
-      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -246,7 +224,28 @@
           "wheat germ oil: used default unit",
           "brewer's yeast: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine all ingredients in a blender."
+        },
+        {
+          "step": 2,
+          "text": "Blend until smooth."
+        },
+        {
+          "step": 3,
+          "text": "Strain if desired for smoother texture."
+        },
+        {
+          "step": 4,
+          "text": "Serve immediately over ice or chilled."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     }
   ]
 }

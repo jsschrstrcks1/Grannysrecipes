@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "breakfast",
-    "count": 8
+    "count": 9
   },
   "recipes": [
     {
@@ -121,9 +121,7 @@
           "sugar_g": 20.3
         },
         "missing_inputs": [],
-        "assumptions": [
-          "all-purpose flour: used default unit"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -238,9 +236,7 @@
           "sugar_g": 18.4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "blueberries: used default unit"
-        ]
+        "assumptions": []
       },
       "servings_yield": "12 muffins",
       "prep_time": "15 minutes"
@@ -349,10 +345,7 @@
           "sugar_g": 49.4
         },
         "missing_inputs": [],
-        "assumptions": [
-          "fresh blueberries: used default unit",
-          "granulated sugar: used default unit"
-        ]
+        "assumptions": []
       }
     },
     {
@@ -452,9 +445,7 @@
         "pecans",
         "maple"
       ],
-      "image_refs": [
-        "108"
-      ],
+      "image_refs": [],
       "confidence": {
         "overall": "high",
         "flags": []
@@ -473,7 +464,6 @@
         },
         "missing_inputs": [],
         "assumptions": [
-          "all-purpose flour: used default unit",
           "vegetable oil: used default unit"
         ]
       }
@@ -641,7 +631,6 @@
         },
         "missing_inputs": [],
         "assumptions": [
-          "bacon: used default unit",
           "finely minced onion: used default unit"
         ]
       }
@@ -653,7 +642,7 @@
       "title": "Fabulous French Toast",
       "category": "breakfast",
       "source_note": "Publix recipe card #15",
-      "servings_yield": "Makes 4 servings",
+      "servings_yield": "4 servings",
       "ingredients": [
         {
           "item": "PUBLIX White Mountain Bread",
@@ -704,32 +693,6 @@
         "gr-285",
         "gr-286"
       ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Arrange bread in single layer in a shallow baking pan."
-        },
-        {
-          "step": 2,
-          "text": "In medium bowl, beat eggs. Beat in sugar, cream, milk, vanilla and salt. Pour egg mixture over bread slices evenly on both sides. Set aside for 10 minutes (or cover and refrigerate overnight) to allow bread to absorb all liquid."
-        },
-        {
-          "step": 3,
-          "text": "Heat butter in large skillet (or griddle) over medium heat. When butter sizzles, add bread slices. Do not crowd pan. Cook slowly so bread exterior doesn't burn before inside is cooked, 5-10 minutes."
-        },
-        {
-          "step": 4,
-          "text": "Turn over to cook other side. When underside is golden brown, transfer to plates."
-        },
-        {
-          "step": 5,
-          "text": "Sift confectioners sugar over toast. Serve with hot syrup or sliced and sugared berries."
-        }
-      ],
-      "notes": [
-        "Crispy on the outside, creamy on the inside. To prepare this breakfast treat ahead, just cover and refrigerate overnight - all set to cook in the morning.",
-        "Recipe can be doubled or tripled. Keep cooked toast warm in 250-degree oven."
-      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -740,15 +703,39 @@
           "protein_g": 9.7,
           "sodium_mg": 948,
           "fiber_g": 0.6,
-          "sugar_g": 12.0
+          "sugar_g": 11.9
         },
         "missing_inputs": [],
         "assumptions": [
-          "PUBLIX White Mountain Bread: used default unit",
           "PUBLIX Whipping Cream: used default unit",
           "PUBLIX Sweet Cream Butter: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Whisk together eggs, milk, vanilla, and cinnamon."
+        },
+        {
+          "step": 2,
+          "text": "Dip bread slices in egg mixture, coating both sides."
+        },
+        {
+          "step": 3,
+          "text": "Melt butter in skillet over medium heat."
+        },
+        {
+          "step": 4,
+          "text": "Cook bread slices until golden brown, about 2-3 minutes per side."
+        },
+        {
+          "step": 5,
+          "text": "Serve warm with maple syrup and powdered sugar."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
     },
     {
       "id": "crunchy-cornmeal-pancakes-granny",
@@ -764,9 +751,24 @@
       "image_refs": [
         "gr-293"
       ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 636,
+          "fat_g": 55.3,
+          "carbs_g": 32.7,
+          "protein_g": 5.3,
+          "sodium_mg": 946,
+          "fiber_g": 2.4,
+          "sugar_g": 3.4
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      },
       "ingredients": [
         {
-          "item": "NORA Mill Plain Cornmeal",
+          "item": "NORA MILL Plain Cornmeal",
           "quantity": "1",
           "unit": "cup"
         },
@@ -782,17 +784,22 @@
         },
         {
           "item": "baking soda",
-          "quantity": "1/2",
+          "quantity": "1",
           "unit": "tsp"
         },
         {
+          "item": "sugar",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
           "item": "buttermilk",
-          "quantity": "2",
-          "unit": "cups"
+          "quantity": "1",
+          "unit": "cup"
         },
         {
           "item": "oil",
-          "quantity": "1",
+          "quantity": "2",
           "unit": "tbsp"
         },
         {
@@ -804,35 +811,25 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine 1 cup NORA Mill Plain Cornmeal, 1/4 cup flour, 1/2 tsp salt, 1/2 tsp baking soda."
+          "text": "Combine 1 cup NORA MILL Plain Cornmeal, 1/4 cup flour, 1/2 tsp salt, 1 tsp baking soda, 1 tbsp sugar."
         },
         {
           "step": 2,
-          "text": "Add 1/2 cup instant nonfat dry milk, 1/2 C water and 2 tsp baking powder to batter. Fry on a nonstick or lightly greased griddle."
+          "text": "Stir just until flour is moistened."
         },
         {
           "step": 3,
+          "text": "Add liquids to dry ingredients and 1 egg. Mix. Combine 1 cup buttermilk, 2 tbsp oil."
+        },
+        {
+          "step": 4,
+          "text": "Fry on nonstick or lightly greased griddle."
+        },
+        {
+          "step": 5,
           "text": "Omit baking soda and salt if using Self-Rising Cornmeal."
         }
-      ],
-      "servings_yield": "Makes 20-25 pancakes",
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 22,
-        "per_serving": {
-          "calories": 182,
-          "fat_g": 17.8,
-          "carbs_g": 5.4,
-          "protein_g": 1.1,
-          "sodium_mg": 202,
-          "fiber_g": 0.4,
-          "sugar_g": 0.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "buttermilk: used default unit"
-        ]
-      }
+      ]
     },
     {
       "id": "tender-cornmeal-pancakes-granny",
@@ -848,14 +845,26 @@
       "image_refs": [
         "gr-293"
       ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 4,
+        "per_serving": {
+          "calories": 281,
+          "fat_g": 10.4,
+          "carbs_g": 41.7,
+          "protein_g": 6.7,
+          "sodium_mg": 277,
+          "fiber_g": 2.6,
+          "sugar_g": 6.0
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "boiling water: used default unit"
+        ]
+      },
       "ingredients": [
         {
-          "item": "NORA Mill Plain Cornmeal",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "boiling water",
+          "item": "NORA MILL Plain Cornmeal",
           "quantity": "1",
           "unit": "cup"
         },
@@ -865,9 +874,9 @@
           "unit": "tbsp"
         },
         {
-          "item": "oil",
+          "item": "boiling water",
           "quantity": "1",
-          "unit": "tbsp"
+          "unit": "cup"
         },
         {
           "item": "egg",
@@ -880,7 +889,22 @@
           "unit": "cup"
         },
         {
-          "item": "buttermilk",
+          "item": "oil",
+          "quantity": "1",
+          "unit": "tbsp"
+        },
+        {
+          "item": "instant nonfat dry milk",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "baking powder",
+          "quantity": "2",
+          "unit": "tsp"
+        },
+        {
+          "item": "flour",
           "quantity": "1/2",
           "unit": "cup"
         }
@@ -888,37 +912,143 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Combine 1 cup NORA Mill Plain Cornmeal, 1 Tbs honey and 1 cup boiling water. Cool slightly."
+          "text": "Combine 1 cup NORA MILL Plain Cornmeal, 1 tbsp honey and 1 cup boiling water. Cool slightly."
         },
         {
           "step": 2,
-          "text": "Add 1 Tbs oil. Combine these two mixtures. Add 1/2 cup instant nonfat dry milk, 1/2 cup water and 2 tsp baking powder to batter."
+          "text": "Mix together 1 egg, 1/2 cup water and 1 tbsp oil. Combine these two mixtures."
         },
         {
           "step": 3,
-          "text": "Fry on a nonstick or lightly greased griddle."
+          "text": "Add 1/2 cup instant nonfat dry milk, 1/2 cup flour and 2 tsp baking powder to batter."
         },
         {
           "step": 4,
+          "text": "Fry on a nonstick or lightly greased griddle."
+        },
+        {
+          "step": 5,
           "text": "Omit baking powder if using Self-Rising Cornmeal."
         }
+      ]
+    },
+    {
+      "id": "easy-baked-french-toast-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Easy Baked French Toast",
+      "category": "breakfast",
+      "description": "Oven-baked French toast with maple syrup in the custard.",
+      "temperature": "350\u00b0F (175\u00b0C)",
+      "prep_time": "10 min",
+      "cook_time": "45 min",
+      "servings_yield": "6 servings",
+      "ingredients": [
+        {
+          "item": "MAZOLA No Stick Corn Oil Cooking Spray",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "white, raisin or whole grain bread",
+          "quantity": "8",
+          "unit": "slices"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "lowfat milk",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "GOLDEN GRIDDLE Syrup",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "MAZOLA Margarine",
+          "quantity": "2",
+          "unit": "tbsp",
+          "prep_note": "melted"
+        },
+        {
+          "item": "cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla",
+          "quantity": "1",
+          "unit": "tsp"
+        }
       ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Spray a 13x9-inch baking dish with cooking spray."
+        },
+        {
+          "step": 2,
+          "text": "Arrange bread slices in a single layer in the prepared dish, overlapping slightly if needed."
+        },
+        {
+          "step": 3,
+          "text": "In a bowl, whisk together eggs, milk, syrup, melted margarine, cinnamon, and vanilla until well combined."
+        },
+        {
+          "step": 4,
+          "text": "Pour egg mixture evenly over bread slices. Turn slices to coat both sides."
+        },
+        {
+          "step": 5,
+          "text": "Cover and refrigerate at least 30 minutes or overnight."
+        },
+        {
+          "step": 6,
+          "text": "Bake uncovered at 350\u00b0F for 40-45 minutes until golden brown and set in center."
+        },
+        {
+          "step": 7,
+          "text": "Serve warm with additional syrup."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from standard baked French toast preparation - original card was partially cut off."
+      ],
+      "tags": [
+        "breakfast",
+        "french toast",
+        "baked",
+        "make-ahead"
+      ],
+      "image_refs": [
+        "gr-174"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "Instructions inferred - original image partial"
+        ]
+      },
+      "source_note": "Mazola recipe card (partial)",
       "nutrition": {
         "status": "complete",
-        "servings_used": 4,
+        "servings_used": 6,
         "per_serving": {
-          "calories": 408,
-          "fat_g": 32.2,
-          "carbs_g": 27.9,
-          "protein_g": 4.3,
-          "sodium_mg": 180,
-          "fiber_g": 2.2,
-          "sugar_g": 4.5
+          "calories": 262,
+          "fat_g": 11.2,
+          "carbs_g": 31.7,
+          "protein_g": 9.0,
+          "sodium_mg": 289,
+          "fiber_g": 1.0,
+          "sugar_g": 12.0
         },
         "missing_inputs": [],
-        "assumptions": [
-          "boiling water: used default unit"
-        ]
+        "assumptions": []
       }
     }
   ]

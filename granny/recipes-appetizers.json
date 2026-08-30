@@ -84,8 +84,6 @@
         "mexican"
       ],
       "image_refs": [
-        "76",
-        "77",
         "84",
         "85"
       ],
@@ -319,7 +317,6 @@
         "party food"
       ],
       "image_refs": [
-        "106",
         "107"
       ],
       "confidence": {
@@ -436,7 +433,6 @@
         "flags": []
       },
       "image_refs": [
-        "166",
         "167",
         "gr-175"
       ],
@@ -473,6 +469,26 @@
       "image_refs": [
         "gr-327"
       ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 96,
+          "fat_g": 8.9,
+          "carbs_g": 1.5,
+          "protein_g": 2.6,
+          "sodium_mg": 111,
+          "fiber_g": 0.2,
+          "sugar_g": 0.8
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "Publix Fat Free Cream Cheese: used default unit",
+          "prepared horseradish: used default unit",
+          "Worcestershire sauce: used default unit",
+          "imitation crab: used default unit"
+        ]
+      },
       "ingredients": [
         {
           "item": "nonfat plain yogurt or sour cream",
@@ -480,14 +496,15 @@
           "unit": "cup"
         },
         {
-          "item": "PUBLIX Fat Free Cream Cheese, softened",
+          "item": "fat free mayonnaise",
           "quantity": "2",
           "unit": "tbsp"
         },
         {
-          "item": "fat free mayonnaise",
+          "item": "Publix Fat Free Cream Cheese",
           "quantity": "1",
-          "unit": "8 oz bar"
+          "unit": "bar",
+          "prep_note": "8 oz, softened"
         },
         {
           "item": "prepared horseradish",
@@ -510,55 +527,37 @@
           "unit": "tsp"
         },
         {
-          "item": "fat free shredded cheddar cheese, flaked",
+          "item": "fat free shredded cheddar cheese",
           "quantity": "1/2",
-          "unit": "cup"
+          "unit": "cup",
+          "prep_note": "4 oz"
         },
         {
-          "item": "imitation crab, flaked",
-          "quantity": "6",
-          "unit": "oz"
+          "item": "imitation crab",
+          "quantity": "1/2",
+          "unit": "lb",
+          "prep_note": "flaked"
         },
         {
           "item": "paprika",
-          "quantity": "1/4",
-          "unit": "tsp"
+          "quantity": "",
+          "unit": ""
         }
       ],
       "instructions": [
         {
           "step": 1,
-          "text": "Combine yogurt, mayonnaise, cream cheese and seasonings."
+          "text": "Combine yogurt, mayonnaise, cream cheese and seasonings. Mix well."
         },
         {
           "step": 2,
-          "text": "Mix well. Stir in shredded cheese and crab. Cover and chill 2 hours."
+          "text": "Stir in cheddar cheese and crab. Cover and chill 2 hours."
         },
         {
           "step": 3,
           "text": "Sprinkle with paprika. Serve with crackers, breadsticks or vegetables."
         }
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 113,
-          "fat_g": 9.1,
-          "carbs_g": 3.6,
-          "protein_g": 4.6,
-          "sodium_mg": 248,
-          "fiber_g": 0.1,
-          "sugar_g": 1.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "PUBLIX Fat Free Cream Cheese, softened: used default unit",
-          "fat free mayonnaise: used default unit",
-          "prepared horseradish: used default unit",
-          "Worcestershire sauce: used default unit"
-        ]
-      }
+      ]
     }
   ]
 }

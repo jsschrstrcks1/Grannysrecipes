@@ -1,0 +1,187 @@
+[
+ {
+  "date": "2026-08-30T01:55:16Z",
+  "clusters_linked": 22,
+  "variant_of_added": 22,
+  "variants_entries_added": 22,
+  "conflicts": [],
+  "links": [
+   {
+    "title": "Quaker's Best Oatmeal Cookies",
+    "canonical": "quakers-best-oatmeal-cookies-granny",
+    "members": [
+     "quakers-best-oatmeal-cookies-granny",
+     "quaker-oatmeal-cookies-gr11-granny"
+    ]
+   },
+   {
+    "title": "Joyce's Chicken",
+    "canonical": "joyces-chicken-granny",
+    "members": [
+     "joyces-chicken-granny",
+     "joyces-chicken-full-granny"
+    ]
+   },
+   {
+    "title": "Corned Beef Hash Casserole",
+    "canonical": "corned-beef-hash-casserole-granny",
+    "members": [
+     "corned-beef-hash-casserole-granny",
+     "corned-beef-hash-casserole-full-granny"
+    ]
+   },
+   {
+    "title": "Quick Corn Soufflé",
+    "canonical": "quick-corn-souffle-granny",
+    "members": [
+     "quick-corn-souffle-granny",
+     "quick-corn-souffle-full-granny"
+    ]
+   },
+   {
+    "title": "Deviled Cornish Hens",
+    "canonical": "deviled-cornish-hens-granny",
+    "members": [
+     "deviled-cornish-hens-granny",
+     "deviled-cornish-hens-full-granny"
+    ]
+   },
+   {
+    "title": "Buttercups",
+    "canonical": "buttercups-granny",
+    "members": [
+     "buttercups-granny",
+     "buttercups-full-granny"
+    ]
+   },
+   {
+    "title": "Country-Style Ribs and Corn",
+    "canonical": "country-style-ribs-and-corn-granny",
+    "members": [
+     "country-style-ribs-and-corn-granny",
+     "country-style-ribs-corn-granny"
+    ]
+   },
+   {
+    "title": "Sirloin Steak in Marinade",
+    "canonical": "sirloin-steak-in-marinade-granny",
+    "members": [
+     "sirloin-steak-in-marinade-granny",
+     "sirloin-steak-marinade-granny"
+    ]
+   },
+   {
+    "title": "Sweet and Spicy Pot Roast",
+    "canonical": "sweet-and-spicy-pot-roast-granny",
+    "members": [
+     "sweet-and-spicy-pot-roast-granny",
+     "sweet-spicy-pot-roast-granny"
+    ]
+   },
+   {
+    "title": "Banana Pudding (Bobby Jones)",
+    "canonical": "banana-pudding-bobby-jones-granny",
+    "members": [
+     "banana-pudding-bobby-jones-granny",
+     "banana-pudding-bobby-jones-full-granny"
+    ]
+   },
+   {
+    "title": "Stuffed Peppers (Webb)",
+    "canonical": "stuffed-peppers-webb-granny",
+    "members": [
+     "stuffed-peppers-webb-granny",
+     "stuffed-peppers-webb-full-granny"
+    ]
+   },
+   {
+    "title": "Pickled Beets",
+    "canonical": "pickled-beets-granny",
+    "members": [
+     "pickled-beets-granny",
+     "pickled-beets-shag-taylor-granny"
+    ]
+   },
+   {
+    "title": "Roast Leg of Lamb with Mint Sauce",
+    "canonical": "roast-leg-of-lamb-with-mint-sauce-granny",
+    "members": [
+     "roast-leg-of-lamb-with-mint-sauce-granny",
+     "roast-leg-lamb-mint-sauce-granny"
+    ]
+   },
+   {
+    "title": "Shrimp Newburg in Patty Shells",
+    "canonical": "shrimp-newburg-in-patty-shells-granny",
+    "members": [
+     "shrimp-newburg-in-patty-shells-granny",
+     "shrimp-newburg-patty-shells-granny"
+    ]
+   },
+   {
+    "title": "Linguine with Garden Clam Sauce",
+    "canonical": "linguine-with-garden-clam-sauce-granny",
+    "members": [
+     "linguine-with-garden-clam-sauce-granny",
+     "linguine-garden-clam-sauce-granny"
+    ]
+   },
+   {
+    "title": "Beef Meatballs in Tomato Sauce",
+    "canonical": "beef-meatballs-in-tomato-sauce-granny",
+    "members": [
+     "beef-meatballs-in-tomato-sauce-granny",
+     "beef-meatballs-tomato-sauce-granny"
+    ]
+   },
+   {
+    "title": "Frosty Orange Delight",
+    "canonical": "frosty-orange-delight-granny",
+    "members": [
+     "frosty-orange-delight-granny",
+     "frosty-orange-delight-pillsbury-granny"
+    ]
+   },
+   {
+    "title": "Strawberries 'n Cream Cheese Freeze",
+    "canonical": "strawberries-n-cream-cheese-freeze-granny",
+    "members": [
+     "strawberries-n-cream-cheese-freeze-granny",
+     "strawberries-cream-cheese-freeze-granny"
+    ]
+   },
+   {
+    "title": "Original Nestle Toll House Chocolate Chip Cookies",
+    "canonical": "nestle-toll-house-chocolate-chip-cookies-granny",
+    "members": [
+     "nestle-toll-house-chocolate-chip-cookies-granny",
+     "nestle-toll-house-original-granny"
+    ]
+   },
+   {
+    "title": "Basic Crust",
+    "canonical": "basic-crust-granny",
+    "members": [
+     "basic-crust-granny",
+     "basic-crust-pillsbury-granny"
+    ]
+   },
+   {
+    "title": "Beef, Bean and Noodle Skillet",
+    "canonical": "beef-bean-and-noodle-skillet-granny",
+    "members": [
+     "beef-bean-and-noodle-skillet-granny",
+     "beef-bean-noodle-skillet-full-granny"
+    ]
+   },
+   {
+    "title": "Savory Beef",
+    "canonical": "savory-beef-granny",
+    "members": [
+     "savory-beef-granny",
+     "savory-beef-full-granny"
+    ]
+   }
+  ]
+ }
+]

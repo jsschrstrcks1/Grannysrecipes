@@ -327,7 +327,10 @@
         "missing_inputs": [],
         "assumptions": []
       },
-      "prep_time": "15 minutes"
+      "prep_time": "15 minutes",
+      "variants": [
+        "quaker-oatmeal-cookies-gr11-granny"
+      ]
     },
     {
       "id": "chicken-breasts-roma-granny",
@@ -815,7 +818,10 @@
           "tomato paste: used default unit",
           "chopped parsley: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "joyces-chicken-full-granny"
+      ]
     },
     {
       "id": "corned-beef-hash-casserole-granny",
@@ -942,7 +948,10 @@
           "cayenne: used default unit",
           "corned beef hash: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "corned-beef-hash-casserole-full-granny"
+      ]
     },
     {
       "id": "quick-corn-souffle-granny",
@@ -1064,7 +1073,10 @@
           "all-purpose flour: used default unit",
           "baking powder: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "quick-corn-souffle-full-granny"
+      ]
     },
     {
       "id": "deviled-cornish-hens-granny",
@@ -1201,7 +1213,10 @@
         "assumptions": [
           "Dijon mustard: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "deviled-cornish-hens-full-granny"
+      ]
     },
     {
       "id": "buttercups-granny",
@@ -1312,7 +1327,10 @@
         ]
       },
       "servings_yield": "24 cookies",
-      "prep_time": "15 minutes"
+      "prep_time": "15 minutes",
+      "variants": [
+        "buttercups-full-granny"
+      ]
     },
     {
       "id": "smoky-bacon-burgers-granny",
@@ -3085,7 +3103,10 @@
           "onion salt: used default unit",
           "cream-style corn: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "country-style-ribs-corn-granny"
+      ]
     },
     {
       "id": "sirloin-steak-in-marinade-granny",
@@ -3205,7 +3226,10 @@
           "boneless sirloin: used default unit",
           "soy sauce: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "sirloin-steak-marinade-granny"
+      ]
     },
     {
       "id": "barbecued-spareribs-orientale-granny",
@@ -3471,7 +3495,10 @@
           "onion: used default unit",
           "bottle chili sauce: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "sweet-spicy-pot-roast-granny"
+      ]
     },
     {
       "id": "banana-pudding-bobby-jones-granny",
@@ -3578,7 +3605,10 @@
         ]
       },
       "servings_yield": "10-12 servings",
-      "prep_time": "15 minutes"
+      "prep_time": "15 minutes",
+      "variants": [
+        "banana-pudding-bobby-jones-full-granny"
+      ]
     },
     {
       "id": "stuffed-peppers-webb-granny",
@@ -3689,7 +3719,10 @@
       },
       "servings_yield": "4 servings",
       "prep_time": "20 minutes",
-      "cook_time": "45-60 minutes"
+      "cook_time": "45-60 minutes",
+      "variants": [
+        "stuffed-peppers-webb-full-granny"
+      ]
     },
     {
       "id": "irish-soda-bread-granny",
@@ -3910,7 +3943,10 @@
         ]
       },
       "servings_yield": "6 servings",
-      "prep_time": "10 minutes"
+      "prep_time": "10 minutes",
+      "variants": [
+        "pickled-beets-shag-taylor-granny"
+      ]
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -4687,7 +4723,10 @@
           "fresh mint leaves: used default unit",
           "white wine vinegar: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "roast-leg-lamb-mint-sauce-granny"
+      ]
     },
     {
       "id": "spiced-blueberry-jam-granny",
@@ -6409,7 +6448,10 @@
           "shelled shrimp: used default unit",
           "all-purpose flour: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "shrimp-newburg-patty-shells-granny"
+      ]
     },
     {
       "id": "toasted-herb-rice-granny",
@@ -10222,7 +10264,10 @@
           "Argo or Kingsford's Corn Starch: used default unit",
           "grated Parmesan cheese: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "linguine-garden-clam-sauce-granny"
+      ]
     },
     {
       "id": "peachn-berry-twists-granny",
@@ -10632,7 +10677,10 @@
           "vegetable oil: used default unit",
           "instant beef broth: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "beef-meatballs-tomato-sauce-granny"
+      ]
     },
     {
       "id": "no-bake-easter-basket-cake-granny",
@@ -10905,7 +10953,10 @@
           "cream cheese: used default unit",
           "powdered orange flavored instant breakfast drink: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "frosty-orange-delight-pillsbury-granny"
+      ]
     },
     {
       "id": "berry-banana-dessert-granny",
@@ -11135,7 +11186,10 @@
           "whipping cream: used default unit",
           "cream cheese: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "strawberries-cream-cheese-freeze-granny"
+      ]
     },
     {
       "id": "nestle-toll-house-chocolate-chip-cookies-granny",
@@ -11263,7 +11317,10 @@
           "butter: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-toll-house-original-granny"
+      ]
     },
     {
       "id": "nestle-famous-fudge-granny",
@@ -12297,7 +12354,10 @@
       },
       "servings_yield": "1 crust (13x9-inch)",
       "prep_time": "15 minutes",
-      "cook_time": "12-15 minutes"
+      "cook_time": "12-15 minutes",
+      "variants": [
+        "basic-crust-pillsbury-granny"
+      ]
     },
     {
       "id": "beef-bean-and-noodle-skillet-granny",
@@ -12441,7 +12501,10 @@
           "stewed tomatoes: used default unit",
           "beef bouillon cube: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "beef-bean-noodle-skillet-full-granny"
+      ]
     },
     {
       "id": "savory-beef-granny",
@@ -12585,7 +12648,10 @@
           "mushrooms: used default unit",
           "tomato sauce: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "savory-beef-full-granny"
+      ]
     },
     {
       "id": "italian-meat-loaf-granny",
@@ -16970,7 +17036,8 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
-      ]
+      ],
+      "variant_of": "sirloin-steak-in-marinade-granny"
     },
     {
       "id": "country-style-ribs-corn-granny",
@@ -17067,7 +17134,8 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
-      ]
+      ],
+      "variant_of": "country-style-ribs-and-corn-granny"
     },
     {
       "id": "sweet-spicy-pot-roast-granny",
@@ -17168,7 +17236,8 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
-      ]
+      ],
+      "variant_of": "sweet-and-spicy-pot-roast-granny"
     },
     {
       "id": "beef-rice-meatballs-granny",
@@ -17952,7 +18021,8 @@
           "step": 7,
           "text": "FOR HIGH ALTITUDE BAKING (5,200 feet): INCREASE flour to 2-1/2 cups. Add 2 teaspoons water with flour and reduce both granulated sugar and brown sugar to 2/3 cup each. Bake at 375°F; drop cookies for 8 to 10 minutes and pan cookie for 17 to 19 minutes."
         }
-      ]
+      ],
+      "variant_of": "nestle-toll-house-chocolate-chip-cookies-granny"
     },
     {
       "id": "nestle-famous-fudge-2-granny",
@@ -18253,7 +18323,8 @@
           "step": 5,
           "text": "Makes 15 TO 18 SERVINGS."
         }
-      ]
+      ],
+      "variant_of": "frosty-orange-delight-granny"
     },
     {
       "id": "basic-crust-pillsbury-granny",
@@ -18340,7 +18411,8 @@
           "step": 4,
           "text": "*For use with Pillsbury's Best Self-Rising Flour, omit salt and the 2 tablespoons butter."
         }
-      ]
+      ],
+      "variant_of": "basic-crust-granny"
     },
     {
       "id": "ultimate-chocolate-chip-cookies-granny",
@@ -18569,7 +18641,8 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
-      ]
+      ],
+      "variant_of": "quakers-best-oatmeal-cookies-granny"
     },
     {
       "id": "banana-bread-handwritten-granny",
@@ -19307,7 +19380,8 @@
       ],
       "notes": [
         "Recipe inferred from traditional Shrimp Newburg - original image not readable"
-      ]
+      ],
+      "variant_of": "shrimp-newburg-in-patty-shells-granny"
     },
     {
       "id": "linguine-garden-clam-sauce-granny",
@@ -19422,7 +19496,8 @@
           "step": 4,
           "text": "Makes 4 servings."
         }
-      ]
+      ],
+      "variant_of": "linguine-with-garden-clam-sauce-granny"
     },
     {
       "id": "beef-meatballs-tomato-sauce-granny",
@@ -19540,7 +19615,8 @@
       ],
       "notes": [
         "Recipe inferred from traditional Italian-American meatballs"
-      ]
+      ],
+      "variant_of": "beef-meatballs-in-tomato-sauce-granny"
     },
     {
       "id": "strawberries-cream-cheese-freeze-granny",
@@ -19632,7 +19708,8 @@
       ],
       "notes": [
         "Recipe inferred from traditional frozen strawberry pie"
-      ]
+      ],
+      "variant_of": "strawberries-n-cream-cheese-freeze-granny"
     },
     {
       "id": "roast-leg-lamb-mint-sauce-granny",
@@ -19749,7 +19826,8 @@
       ],
       "notes": [
         "Recipe inferred from traditional British roast lamb"
-      ]
+      ],
+      "variant_of": "roast-leg-of-lamb-with-mint-sauce-granny"
     },
     {
       "id": "quick-corn-souffle-full-granny",
@@ -19859,7 +19937,8 @@
           "creamed-style corn: used default unit",
           "milk: used default unit"
         ]
-      }
+      },
+      "variant_of": "quick-corn-souffle-granny"
     },
     {
       "id": "corned-beef-hash-casserole-full-granny",
@@ -19975,7 +20054,8 @@
         "assumptions": [
           "corned beef hash: used default unit"
         ]
-      }
+      },
+      "variant_of": "corned-beef-hash-casserole-granny"
     },
     {
       "id": "joyces-chicken-full-granny",
@@ -20091,7 +20171,8 @@
           "chopped green pepper: used default unit",
           "cup chopped parsley: used default unit"
         ]
-      }
+      },
+      "variant_of": "joyces-chicken-granny"
     },
     {
       "id": "buttercups-full-granny",
@@ -20200,7 +20281,8 @@
         "assumptions": [
           "Maraschino cherries, cut into quarters: used default unit"
         ]
-      }
+      },
+      "variant_of": "buttercups-granny"
     },
     {
       "id": "deviled-cornish-hens-full-granny",
@@ -20319,7 +20401,8 @@
           "lemon juice: used default unit",
           "watercress or lemon slices, for garnish: used default unit"
         ]
-      }
+      },
+      "variant_of": "deviled-cornish-hens-granny"
     },
     {
       "id": "creamy-mild-seafood-granny",
@@ -20550,7 +20633,8 @@
           "red kidney beans, undrained: used default unit",
           "stewed tomatoes: used default unit"
         ]
-      }
+      },
+      "variant_of": "beef-bean-and-noodle-skillet-granny"
     },
     {
       "id": "savory-beef-full-granny",
@@ -20675,7 +20759,8 @@
           "mushrooms, undrained: used default unit",
           "tomato sauce: used default unit"
         ]
-      }
+      },
+      "variant_of": "savory-beef-granny"
     },
     {
       "id": "irish-soda-bread-landmark-tavern-granny",
@@ -20869,7 +20954,8 @@
           "whipped cream: used default unit",
           "vanilla wafers: used default unit"
         ]
-      }
+      },
+      "variant_of": "banana-pudding-bobby-jones-granny"
     },
     {
       "id": "stuffed-peppers-webb-full-granny",
@@ -20966,7 +21052,8 @@
           "garlic, minced: used default unit",
           "Campbell's condensed tomato soup, family size: used default unit"
         ]
-      }
+      },
+      "variant_of": "stuffed-peppers-webb-granny"
     },
     {
       "id": "beef-rice-meatballs-handwritten-granny",
@@ -21160,7 +21247,8 @@
       ],
       "notes": [
         "Instructions inferred from recipe title"
-      ]
+      ],
+      "variant_of": "pickled-beets-granny"
     },
     {
       "id": "dumps-basic-brownies-handwritten-granny",
