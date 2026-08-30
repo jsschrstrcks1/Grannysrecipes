@@ -821,10 +821,12 @@ function renderOriginalScan(imageRefs, collection) {
       <p class="scan-note">This treasured family recipe in Granny's own handwriting</p>
       <div class="scan-images">
         ${imageRefs.map(ref => {
-          // Build the full filename - handle both "123" and "IMG_1234" formats
-          const filename = ref.startsWith('IMG_')
-            ? ref + ' Medium.jpeg'
-            : ref + ' Medium.jpeg';
+          // Files on disk are plain "<ref>.jpeg" (gr-1.jpeg, 1.jpeg, IMG_*.jpeg).
+          // The old " Medium.jpeg" suffix matched ZERO of 313 refs — the
+          // "Medium" export set was renamed and the code never followed
+          // (audit 2026-08-27: .jpeg resolves 252/313; the remainder are
+          // refs whose scans are genuinely absent, tracked separately).
+          const filename = ref + '.jpeg';
           const safePath = sanitizeUrl(basePath + filename);
           return `
           <figure class="scan-figure">

@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "snacks",
-    "count": 1
+    "count": 3
   },
   "recipes": [
     {
@@ -127,6 +127,179 @@
       "servings_yield": "6 quarts",
       "prep_time": "15 minutes",
       "cook_time": "1 hour"
+    },
+    {
+      "id": "marshmallow-snowman-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Marshmallow Snowman",
+      "category": "snacks",
+      "source_note": "Kraft Marshmallows package craft",
+      "notes": [
+        "Holiday craft using Kraft Miniature Marshmallows"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "holiday",
+          "craft"
+        ]
+      },
+      "image_refs": [
+        "gr-317"
+      ],
+      "nutrition": {
+        "status": "insufficient_data",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 60,
+          "fat_g": 0.0,
+          "carbs_g": 15.4,
+          "protein_g": 0.5,
+          "sodium_mg": 8,
+          "fiber_g": 0.0,
+          "sugar_g": 10.9
+        },
+        "missing_inputs": [
+          "red velour paper",
+          "tiny candies"
+        ],
+        "assumptions": []
+      },
+      "ingredients": [
+        {
+          "item": "Kraft Jet-Puffed Miniature Marshmallows",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "Kraft Jet-Puffed Marshmallows",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "large, for body and head"
+        },
+        {
+          "item": "toothpicks",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for arms and legs"
+        },
+        {
+          "item": "red velour paper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for hat"
+        },
+        {
+          "item": "tiny candies",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "for face"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Skewer 2 Kraft Jet-Puffed Marshmallows for body and head."
+        },
+        {
+          "step": 2,
+          "text": "For arms and legs, skewer Kraft Miniature Marshmallows on toothpicks; attach to body."
+        },
+        {
+          "step": 3,
+          "text": "Make face with tiny candies."
+        },
+        {
+          "step": 4,
+          "text": "Top with cone-shaped hat made of red velour paper; press miniature marshmallow on tip for tassel."
+        }
+      ],
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow"
+      ]
+    },
+    {
+      "id": "santas-boot-marshmallow-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Santa's Boot (Marshmallow Craft)",
+      "category": "snacks",
+      "source_note": "Kraft Marshmallows package craft",
+      "notes": [
+        "Holiday craft using cookies and marshmallows"
+      ],
+      "confidence": {
+        "overall": "high",
+        "flags": [
+          "holiday",
+          "craft"
+        ]
+      },
+      "image_refs": [
+        "gr-317"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 8,
+        "per_serving": {
+          "calories": 267,
+          "fat_g": 6.5,
+          "carbs_g": 52.1,
+          "protein_g": 1.2,
+          "sodium_mg": 98,
+          "fiber_g": 0.2,
+          "sugar_g": 40.6
+        },
+        "missing_inputs": [],
+        "assumptions": []
+      },
+      "ingredients": [
+        {
+          "item": "Kraft Jet-Puffed Miniature Marshmallows",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "boot-shaped cookies",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "frosting",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "red colored sugar",
+          "quantity": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Frost boot-shaped cookies."
+        },
+        {
+          "step": 2,
+          "text": "Press Kraft Miniatures cut in half crosswise, into frosting on top of boot."
+        },
+        {
+          "step": 3,
+          "text": "Sprinkle rest of boot with red colored sugar."
+        }
+      ],
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow",
+        "cookies"
+      ]
     }
   ]
 }

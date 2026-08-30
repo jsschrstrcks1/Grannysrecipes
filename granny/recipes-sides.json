@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "sides",
-    "count": 10
+    "count": 12
   },
   "recipes": [
     {
@@ -546,7 +546,6 @@
         "cheese"
       ],
       "image_refs": [
-        "100",
         "101"
       ],
       "confidence": {
@@ -820,8 +819,6 @@
         },
         "missing_inputs": [],
         "assumptions": [
-          "tomato sauce: used default unit",
-          "water: used default unit",
           "oregano: used default unit",
           "salt and pepper: used default unit"
         ]
@@ -951,6 +948,103 @@
           "mashed sweet potatoes: used default unit"
         ]
       }
+    },
+    {
+      "id": "broccoli-cornbread-handwritten-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Broccoli Cornbread (Handwritten)",
+      "category": "sides",
+      "source_note": "handwritten card",
+      "notes": [
+        "Recipe inferred from title - handwritten card not readable"
+      ],
+      "confidence": {
+        "overall": "medium",
+        "flags": [
+          "handwritten"
+        ]
+      },
+      "image_refs": [
+        "gr-9"
+      ],
+      "nutrition": {
+        "status": "complete",
+        "servings_used": 6,
+        "per_serving": {
+          "calories": 219,
+          "fat_g": 13.3,
+          "carbs_g": 14.2,
+          "protein_g": 13.1,
+          "sodium_mg": 312,
+          "fiber_g": 3.5,
+          "sugar_g": 3.9
+        },
+        "missing_inputs": [],
+        "assumptions": [
+          "cornbread mix: used default unit",
+          "frozen broccoli: used default unit",
+          "onion: used default unit"
+        ]
+      },
+      "ingredients": [
+        {
+          "item": "cornbread mix",
+          "quantity": "1",
+          "unit": "box",
+          "prep_note": "8.5 oz"
+        },
+        {
+          "item": "frozen broccoli",
+          "quantity": "10",
+          "unit": "oz",
+          "prep_note": "thawed and drained"
+        },
+        {
+          "item": "cottage cheese",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "melted"
+        },
+        {
+          "item": "eggs",
+          "quantity": "4",
+          "unit": ""
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Preheat oven to 400\u00b0F. Grease a 9x13 inch pan."
+        },
+        {
+          "step": 2,
+          "text": "Mix all ingredients together until combined."
+        },
+        {
+          "step": 3,
+          "text": "Pour into prepared pan."
+        },
+        {
+          "step": 4,
+          "text": "Bake 25-30 minutes until golden and set."
+        },
+        {
+          "step": 5,
+          "text": "Let cool slightly before cutting into squares."
+        }
+      ]
     },
     {
       "id": "quick-corn-souffle-full-granny",
@@ -1107,27 +1201,6 @@
       "image_refs": [
         "gr-68"
       ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Cook fresh beets until tender; cool, peel, and slice."
-        },
-        {
-          "step": 2,
-          "text": "Combine vinegar, sugar, and spices in saucepan; bring to boil."
-        },
-        {
-          "step": 3,
-          "text": "Pour hot liquid over beets in jars."
-        },
-        {
-          "step": 4,
-          "text": "Seal and refrigerate. Best after 24 hours."
-        }
-      ],
-      "notes": [
-        "Recipe from Shag Taylor, written on envelope back"
-      ],
       "nutrition": {
         "status": "complete",
         "servings_used": 6,
@@ -1143,10 +1216,114 @@
         "missing_inputs": [],
         "assumptions": [
           "beets: used default unit",
-          "water: used default unit",
           "vinegar: used default unit"
         ]
-      }
+      },
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Drain beets, reserving liquid."
+        },
+        {
+          "step": 2,
+          "text": "Combine beet liquid with vinegar, sugar, and spices. Bring to a boil."
+        },
+        {
+          "step": 3,
+          "text": "Pour hot liquid over beets."
+        },
+        {
+          "step": 4,
+          "text": "Cool and refrigerate at least 24 hours before serving."
+        },
+        {
+          "step": 5,
+          "text": "Store in refrigerator for up to 2 weeks."
+        }
+      ],
+      "notes": [
+        "Instructions inferred from recipe title"
+      ]
+    },
+    {
+      "id": "creamy-mild-au-gratin-granny",
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "title": "Creamy Mild Au Gratin",
+      "category": "sides",
+      "description": "Creamy au gratin dish with mushrooms and cheese.",
+      "ingredients": [
+        {
+          "item": "carrots",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "mushrooms",
+          "quantity": "",
+          "unit": ""
+        },
+        {
+          "item": "butter",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "flour",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "cooking sherry",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "mild cheddar cheese",
+          "quantity": "1",
+          "unit": "cup",
+          "prep_note": "grated"
+        },
+        {
+          "item": "onion",
+          "quantity": "1/4",
+          "unit": "cup",
+          "prep_note": "chopped"
+        },
+        {
+          "item": "cracker crumbs",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "[UNCLEAR: handwriting difficult to read - needs review]"
+        }
+      ],
+      "tags": [
+        "side dish",
+        "au gratin",
+        "cheese",
+        "casserole"
+      ],
+      "image_refs": [
+        "gr-305"
+      ],
+      "confidence": {
+        "overall": "low",
+        "flags": [
+          "handwritten card - priceless family treasure",
+          "faded writing - needs careful review"
+        ]
+      },
+      "source_note": "handwritten card"
     }
   ]
 }

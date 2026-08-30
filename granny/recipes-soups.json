@@ -121,7 +121,6 @@
         "clams"
       ],
       "image_refs": [
-        "93",
         "gr-233",
         "gr-234"
       ],
@@ -149,7 +148,6 @@
           "frozen crabmeat: used default unit",
           "minced clams: used default unit",
           "sliced green onions: used default unit",
-          "milk: used default unit",
           "all-purpose flour: used default unit"
         ]
       }
@@ -268,7 +266,6 @@
         "hearty"
       ],
       "image_refs": [
-        "112",
         "113",
         "gr-119",
         "gr-120"

@@ -5,7 +5,8 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-08",
     "version": "3.0.0",
-    "total_recipes": 184,
+    "total_recipes": 197,
+    "recipe_count": 201,
     "sharded": true,
     "shard_strategy": "by_category",
     "shard_count": 10
@@ -24,22 +25,22 @@
     {
       "category": "breads",
       "file": "recipes-breads.json",
-      "count": 20
+      "count": 21
     },
     {
       "category": "breakfast",
       "file": "recipes-breakfast.json",
-      "count": 8
+      "count": 9
     },
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 70
+      "count": 73
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 62
+      "count": 66
     },
     {
       "category": "salads",
@@ -49,12 +50,12 @@
     {
       "category": "sides",
       "file": "recipes-sides.json",
-      "count": 10
+      "count": 12
     },
     {
       "category": "snacks",
       "file": "recipes-snacks.json",
-      "count": 1
+      "count": 3
     },
     {
       "category": "soups",
@@ -1925,7 +1926,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 4-1/2 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -1938,7 +1939,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 2-1/2 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -1951,7 +1952,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "8 servings",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2029,7 +2030,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes 6 servings",
+      "servings_yield": "6 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2055,7 +2056,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes 4 servings",
+      "servings_yield": "4 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2068,7 +2069,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes 8 cups",
+      "servings_yield": "8 cups",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2081,7 +2082,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "4-6 servings",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2120,7 +2121,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 5 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2133,7 +2134,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "48 cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2146,7 +2147,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 3 dozen bars",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2159,7 +2160,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 4 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2172,7 +2173,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 36 bars",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2185,7 +2186,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 3 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2198,7 +2199,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 5 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2211,7 +2212,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 4 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2224,7 +2225,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "12 muffins or sticks",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2250,7 +2251,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes 20-25 pancakes",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2276,7 +2277,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "12 muffins or sticks",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2374,7 +2375,7 @@
     },
     {
       "id": "handwritten-recipe-gr5-granny",
-      "title": "Raisin Cream Pound Cake",
+      "title": "Handwritten Recipe (gr-5)",
       "category": "desserts",
       "tags": [],
       "collection": "granny",
@@ -2401,7 +2402,7 @@
     {
       "id": "broccoli-cornbread-handwritten-granny",
       "title": "Broccoli Cornbread (Handwritten)",
-      "category": "breads",
+      "category": "sides",
       "tags": [],
       "collection": "granny",
       "collection_display": "Granny Hudson",
@@ -2413,13 +2414,13 @@
     },
     {
       "id": "handwritten-recipe-red-ink-granny",
-      "title": "Cornish Game Hens for a Picnic",
+      "title": "Handwritten Recipe (Red Ink)",
       "category": "mains",
       "tags": [],
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "4 servings",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2505,8 +2506,13 @@
     {
       "id": "marshmallow-snowman-granny",
       "title": "Marshmallow Snowman",
-      "category": "desserts",
-      "tags": [],
+      "category": "snacks",
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow"
+      ],
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
@@ -2518,8 +2524,14 @@
     {
       "id": "santas-boot-marshmallow-granny",
       "title": "Santa's Boot (Marshmallow Craft)",
-      "category": "desserts",
-      "tags": [],
+      "category": "snacks",
+      "tags": [
+        "craft",
+        "holiday",
+        "kids",
+        "marshmallow",
+        "cookies"
+      ],
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
@@ -2575,7 +2587,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes about 5 dozen cookies",
+      "servings_yield": "about 5 dozen cookies",
       "total_time": "9-11 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -2601,7 +2613,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "Makes about 4 dozen cookies",
+      "servings_yield": "about 4 dozen cookies",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2614,7 +2626,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "4 servings",
+      "servings_yield": "15-18 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2627,7 +2639,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "2 pie crusts",
+      "servings_yield": "",
       "total_time": "12-15 minutes",
       "variant_of": null,
       "canonical_id": null
@@ -2640,7 +2652,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 5 dozen cookies",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2653,7 +2665,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "About 5 dozen cookies",
+      "servings_yield": "about 5 dozen cookies",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2744,7 +2756,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "",
-      "servings_yield": "6 servings",
+      "servings_yield": "",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -2980,6 +2992,249 @@
       "description": "",
       "servings_yield": "",
       "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "pumpkin-bread-casserole-granny",
+      "title": "Pumpkin Bread Casserole",
+      "category": "breads",
+      "tags": [
+        "bread",
+        "pumpkin",
+        "holiday",
+        "yeast bread",
+        "coconut"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A festive yeast bread with pumpkin, coconut, and ginger snap topping.",
+      "servings_yield": "",
+      "total_time": "30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "fish-fiesta-dinner-granny",
+      "title": "Fish Fiesta Dinner",
+      "category": "mains",
+      "tags": [
+        "fish",
+        "latin",
+        "dinner party",
+        "mexican",
+        "red snapper"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A tangy and beautiful Latin-flavored fish meal with Spanish rice and flan.",
+      "servings_yield": "",
+      "total_time": "20 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "welcome-spring-dinner-granny",
+      "title": "Welcome Spring Dinner",
+      "category": "mains",
+      "tags": [
+        "pork",
+        "spring",
+        "holiday",
+        "dinner party",
+        "fennel"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A Spring or holiday meal featuring pork roast with fennel and Pineapple Dream Cake.",
+      "servings_yield": "",
+      "total_time": "2+ hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "lets-have-lunch-menu-granny",
+      "title": "Let's Have Lunch (Weekend Menu)",
+      "category": "mains",
+      "tags": [
+        "lunch",
+        "brunch",
+        "weekend",
+        "menu",
+        "crepes",
+        "quiche"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "A leisurely weekend lunch menu featuring quiche crepes, broccoli side dish, and custard souffle.",
+      "servings_yield": "",
+      "total_time": "4+ hours",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "peach-mousse-granny",
+      "title": "Peach Mousse",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "mousse",
+        "peach",
+        "frozen dessert"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Light and creamy peach mousse with Dixie Crystals sugar.",
+      "servings_yield": "10 servings",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "raisin-cream-pound-cake-granny",
+      "title": "Raisin Cream Pound Cake",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cake",
+        "pound cake",
+        "sour cream"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Rich pound cake with sour cream and raisins.",
+      "servings_yield": "",
+      "total_time": "1 hour 15-30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "nancys-bran-brownies-granny",
+      "title": "Nancy's Bran Brownies",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "brownies",
+        "bran",
+        "nuts"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Wholesome brownies with bran and nuts.",
+      "servings_yield": "",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "cream-cheese-gems-granny",
+      "title": "Cream Cheese Gems",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "candy",
+        "cream cheese",
+        "walnuts",
+        "no-bake"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Delicate cream cheese walnut confections.",
+      "servings_yield": "",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "chocolate-cherry-thumbprints-granny",
+      "title": "Chocolate-Cherry Thumbprints",
+      "category": "desserts",
+      "tags": [
+        "dessert",
+        "cookies",
+        "chocolate",
+        "cherry",
+        "oatmeal"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Oatmeal cookies with chocolate morsels and maraschino cherry centers.",
+      "servings_yield": "About 4 dozen",
+      "total_time": "10-12 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "creamy-mild-au-gratin-granny",
+      "title": "Creamy Mild Au Gratin",
+      "category": "sides",
+      "tags": [
+        "side dish",
+        "au gratin",
+        "cheese",
+        "casserole"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Creamy au gratin dish with mushrooms and cheese.",
+      "servings_yield": "",
+      "total_time": "",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "grandmas-wheat-bran-muffins-granny",
+      "title": "Grandma's Wheat Bran Muffins",
+      "category": "breads",
+      "tags": [
+        "muffins",
+        "breakfast",
+        "wheat bran",
+        "sunflower seeds",
+        "healthy"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Wholesome wheat bran muffins with sunflower seeds.",
+      "servings_yield": "",
+      "total_time": "20-25 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "cornish-game-hens-granny",
+      "title": "Cornish Game Hens",
+      "category": "mains",
+      "tags": [
+        "poultry",
+        "main dish",
+        "picnic",
+        "entertaining",
+        "make-ahead"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Herb-stuffed Cornish game hens with wine-butter basting, perfect for picnics.",
+      "servings_yield": "8 servings",
+      "total_time": "1 hour 30 minutes",
+      "variant_of": null,
+      "canonical_id": null
+    },
+    {
+      "id": "easy-baked-french-toast-granny",
+      "title": "Easy Baked French Toast",
+      "category": "breakfast",
+      "tags": [
+        "breakfast",
+        "french toast",
+        "baked",
+        "make-ahead"
+      ],
+      "collection": "granny",
+      "collection_display": "Granny Hudson",
+      "description": "Oven-baked French toast with maple syrup in the custard.",
+      "servings_yield": "6 servings",
+      "total_time": "45 min",
       "variant_of": null,
       "canonical_id": null
     }

@@ -42,6 +42,20 @@ def create_shards(dry_run=False):
 
     print(f"Loaded {len(recipes)} recipes from {SOURCE_FILE}")
 
+    # Exclude content-empty placeholders LOUDLY (never silently): a recipe with
+    # zero ingredients AND zero instructions renders as a hollow page. They stay
+    # in the master file as the to-transcribe queue; they do not ship to the
+    # site until transcribed. (Added 2026-08-27 — the 2026-07 master carries 4
+    # such placeholders whose source scans are also absent from granny/.)
+    empty = [r for r in recipes
+             if not r.get('ingredients') and not r.get('instructions')]
+    if empty:
+        print(f"⚠ EXCLUDED {len(empty)} content-empty recipe(s) from index/shards "
+              f"(still in {SOURCE_FILE} awaiting transcription):")
+        for r in empty:
+            print(f"    - {r.get('id', '?')}")
+        recipes = [r for r in recipes if r not in empty]
+
     # Group recipes by category
     by_category = {}
     for recipe in recipes:
