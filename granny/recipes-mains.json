@@ -2974,7 +2974,8 @@
           "mashed potatoes: used default unit",
           "pepper: used default unit"
         ]
-      }
+      },
+      "variant_of": "salt-cod-fish-main-granny"
     },
     {
       "id": "turkey-burgers-deluxe-granny",
@@ -5425,6 +5426,9 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
+      ],
+      "variants": [
+        "beef-rice-meatballs-handwritten-granny"
       ]
     },
     {
@@ -5623,6 +5627,9 @@
       ],
       "notes": [
         "Recipe inferred from traditional salt cod preparation - original image not available"
+      ],
+      "variants": [
+        "salt-cod-fish-recipes-granny"
       ]
     },
     {
@@ -6966,7 +6973,8 @@
           "vegetable oil: used default unit",
           "instant beef broth: used default unit"
         ]
-      }
+      },
+      "variant_of": "beef-rice-meatballs-granny"
     },
     {
       "id": "fish-fiesta-dinner-granny",

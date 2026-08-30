@@ -358,7 +358,10 @@
           "buttermilk: used default unit"
         ]
       },
-      "prep_time": "20 minutes"
+      "prep_time": "20 minutes",
+      "variants": [
+        "irish-soda-bread-landmark-tavern-granny"
+      ]
     },
     {
       "id": "banana-bread-dewolf-granny",
@@ -467,7 +470,10 @@
         ]
       },
       "prep_time": "15 minutes",
-      "cook_time": "55-65 minutes"
+      "cook_time": "55-65 minutes",
+      "variants": [
+        "banana-bread-handwritten-granny"
+      ]
     },
     {
       "id": "danish-kringle-and-pastry-horns-granny",
@@ -1852,7 +1858,8 @@
       "notes": [
         "Recipe from the kitchen of Dewolf",
         "Second page (gr-74) was corrupted - final steps inferred"
-      ]
+      ],
+      "variant_of": "banana-bread-dewolf-granny"
     },
     {
       "id": "irish-soda-bread-landmark-tavern-granny",
@@ -1952,7 +1959,8 @@
           "sugar: used default unit",
           "raisins: used default unit"
         ]
-      }
+      },
+      "variant_of": "irish-soda-bread-granny"
     },
     {
       "id": "pumpkin-bread-casserole-granny",

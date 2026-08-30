@@ -628,7 +628,10 @@
       },
       "servings_yield": "12-15 servings",
       "cook_time": "45-55 minutes",
-      "prep_time": "10 minutes"
+      "prep_time": "10 minutes",
+      "variants": [
+        "dump-cake-handwritten-granny"
+      ]
     },
     {
       "id": "pumpkin-sheet-cookies-granny",
@@ -4186,7 +4189,10 @@
           "miniature marshmallows: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-famous-fudge-2-granny"
+      ]
     },
     {
       "id": "old-fashioned-oatmeal-cookies-nestle-granny",
@@ -4311,7 +4317,10 @@
           "butter or margarine: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-old-fashioned-oatmeal-granny"
+      ]
     },
     {
       "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
@@ -6759,7 +6768,8 @@
       ],
       "notes": [
         "Instructions inferred from recipe title"
-      ]
+      ],
+      "variant_of": "dump-cake-granny"
     },
     {
       "id": "low-fat-marble-brownies-granny",
@@ -7042,7 +7052,8 @@
           "step": 5,
           "text": "Refrigerate for 2 hours or until firm. Lift from pan; remove foil. Cut into pieces."
         }
-      ]
+      ],
+      "variant_of": "nestle-famous-fudge-granny"
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -7158,7 +7169,8 @@
           "step": 6,
           "text": "Cool on baking sheets for 2 minutes; remove to wire racks."
         }
-      ]
+      ],
+      "variant_of": "old-fashioned-oatmeal-cookies-nestle-granny"
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",

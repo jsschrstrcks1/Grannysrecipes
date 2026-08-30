@@ -1,0 +1,102 @@
+[
+ {
+  "date": "2026-08-30T11:33:56Z",
+  "linked": [
+   {
+    "core": "banana bread",
+    "canonical": "banana-bread-dewolf-granny",
+    "linked": [
+     {
+      "id": "banana-bread-handwritten-granny",
+      "title": "Banana Bread (Handwritten with Stove Drawing)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "beef rice meatballs",
+    "canonical": "beef-rice-meatballs-granny",
+    "linked": [
+     {
+      "id": "beef-rice-meatballs-handwritten-granny",
+      "title": "Beef Rice Meatballs (Handwritten)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "dump cake",
+    "canonical": "dump-cake-granny",
+    "linked": [
+     {
+      "id": "dump-cake-handwritten-granny",
+      "title": "Dump Cake (Handwritten)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "famous fudge",
+    "canonical": "nestle-famous-fudge-granny",
+    "linked": [
+     {
+      "id": "nestle-famous-fudge-2-granny",
+      "title": "Famous Fudge (Nestle)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "irish soda bread",
+    "canonical": "irish-soda-bread-granny",
+    "linked": [
+     {
+      "id": "irish-soda-bread-landmark-tavern-granny",
+      "title": "Irish Soda Bread (Landmark Tavern, NYC)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "old fashioned oatmeal cookies",
+    "canonical": "old-fashioned-oatmeal-cookies-nestle-granny",
+    "linked": [
+     {
+      "id": "nestle-old-fashioned-oatmeal-granny",
+      "title": "Old Fashioned Oatmeal Cookies (Nestle)"
+     }
+    ],
+    "already": []
+   },
+   {
+    "core": "salt cod fish",
+    "canonical": "salt-cod-fish-main-granny",
+    "linked": [
+     {
+      "id": "salt-cod-fish-recipes-granny",
+      "title": "Salt Cod Fish (Multiple Preparations)"
+     }
+    ],
+    "already": []
+   }
+  ],
+  "deferred_for_review": [
+   {
+    "core": "wheat berrie muffins",
+    "members": [
+     {
+      "id": "grandmas-wheat-berrie-muffins-granny",
+      "title": "Grandma's Wheat Berrie Muffins",
+      "attribution": null
+     },
+     {
+      "id": "grandmas-wheat-berrie-muffins-handwritten-granny",
+      "title": "Grandma's Wheat Berrie Muffins (Handwritten)",
+      "attribution": null
+     }
+    ]
+   }
+  ],
+  "conflicts": []
+ }
+]

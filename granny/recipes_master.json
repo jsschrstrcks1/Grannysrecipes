@@ -1972,7 +1972,10 @@
       },
       "servings_yield": "12-15 servings",
       "cook_time": "45-55 minutes",
-      "prep_time": "10 minutes"
+      "prep_time": "10 minutes",
+      "variants": [
+        "dump-cake-handwritten-granny"
+      ]
     },
     {
       "id": "broccoli-casserole-granny",
@@ -3871,7 +3874,10 @@
           "buttermilk: used default unit"
         ]
       },
-      "prep_time": "20 minutes"
+      "prep_time": "20 minutes",
+      "variants": [
+        "irish-soda-bread-landmark-tavern-granny"
+      ]
     },
     {
       "id": "pickled-beets-granny",
@@ -4071,7 +4077,10 @@
         ]
       },
       "prep_time": "15 minutes",
-      "cook_time": "55-65 minutes"
+      "cook_time": "55-65 minutes",
+      "variants": [
+        "banana-bread-handwritten-granny"
+      ]
     },
     {
       "id": "grandmas-wheat-berrie-muffins-granny",
@@ -9633,7 +9642,8 @@
           "mashed potatoes: used default unit",
           "pepper: used default unit"
         ]
-      }
+      },
+      "variant_of": "salt-cod-fish-main-granny"
     },
     {
       "id": "senator-russells-sweet-potatoes-granny",
@@ -11441,7 +11451,10 @@
           "miniature marshmallows: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-famous-fudge-2-granny"
+      ]
     },
     {
       "id": "old-fashioned-oatmeal-cookies-nestle-granny",
@@ -11566,7 +11579,10 @@
           "butter or margarine: used default unit",
           "Nestle Toll House Semi-Sweet Chocolate Morsels: used default unit"
         ]
-      }
+      },
+      "variants": [
+        "nestle-old-fashioned-oatmeal-granny"
+      ]
     },
     {
       "id": "ultimate-chocolate-chocolate-chip-cookies-granny",
@@ -16956,7 +16972,8 @@
       ],
       "notes": [
         "Instructions inferred from recipe title"
-      ]
+      ],
+      "variant_of": "dump-cake-granny"
     },
     {
       "id": "sirloin-steak-marinade-granny",
@@ -17358,6 +17375,9 @@
       ],
       "notes": [
         "Recipe inferred from title - original image not readable"
+      ],
+      "variants": [
+        "beef-rice-meatballs-handwritten-granny"
       ]
     },
     {
@@ -18124,7 +18144,8 @@
           "step": 5,
           "text": "Refrigerate for 2 hours or until firm. Lift from pan; remove foil. Cut into pieces."
         }
-      ]
+      ],
+      "variant_of": "nestle-famous-fudge-granny"
     },
     {
       "id": "nestle-old-fashioned-oatmeal-granny",
@@ -18240,7 +18261,8 @@
           "step": 6,
           "text": "Cool on baking sheets for 2 minutes; remove to wire racks."
         }
-      ]
+      ],
+      "variant_of": "old-fashioned-oatmeal-cookies-nestle-granny"
     },
     {
       "id": "frosty-orange-delight-pillsbury-granny",
@@ -18763,7 +18785,8 @@
       "notes": [
         "Recipe from the kitchen of Dewolf",
         "Second page (gr-74) was corrupted - final steps inferred"
-      ]
+      ],
+      "variant_of": "banana-bread-dewolf-granny"
     },
     {
       "id": "salt-cod-fish-main-granny",
@@ -18868,6 +18891,9 @@
       ],
       "notes": [
         "Recipe inferred from traditional salt cod preparation - original image not available"
+      ],
+      "variants": [
+        "salt-cod-fish-recipes-granny"
       ]
     },
     {
@@ -20299,7 +20325,8 @@
           "sugar: used default unit",
           "raisins: used default unit"
         ]
-      }
+      },
+      "variant_of": "irish-soda-bread-granny"
     },
     {
       "id": "beef-rice-meatballs-handwritten-granny",
@@ -20404,7 +20431,8 @@
           "vegetable oil: used default unit",
           "instant beef broth: used default unit"
         ]
-      }
+      },
+      "variant_of": "beef-rice-meatballs-granny"
     },
     {
       "id": "pickled-beets-shag-taylor-granny",

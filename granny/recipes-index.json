@@ -1407,7 +1407,7 @@
       "description": "Collection of traditional salt cod preparations including basic, souffl\u00e9, creamed, fish cakes, and w",
       "servings_yield": "varies",
       "total_time": "",
-      "variant_of": null,
+      "variant_of": "salt-cod-fish-main-granny",
       "canonical_id": null
     },
     {
@@ -2435,7 +2435,7 @@
       "description": "",
       "servings_yield": "",
       "total_time": "",
-      "variant_of": null,
+      "variant_of": "dump-cake-granny",
       "canonical_id": null
     },
     {
@@ -2602,7 +2602,7 @@
       "description": "",
       "servings_yield": "",
       "total_time": "",
-      "variant_of": null,
+      "variant_of": "nestle-famous-fudge-granny",
       "canonical_id": null
     },
     {
@@ -2615,7 +2615,7 @@
       "description": "",
       "servings_yield": "about 4 dozen cookies",
       "total_time": "",
-      "variant_of": null,
+      "variant_of": "old-fashioned-oatmeal-cookies-nestle-granny",
       "canonical_id": null
     },
     {
@@ -2680,7 +2680,7 @@
       "description": "",
       "servings_yield": "1 loaf",
       "total_time": "",
-      "variant_of": null,
+      "variant_of": "banana-bread-dewolf-granny",
       "canonical_id": null
     },
     {
@@ -2862,7 +2862,7 @@
       "description": "",
       "servings_yield": "8-10 loaves",
       "total_time": "25-30 min",
-      "variant_of": null,
+      "variant_of": "irish-soda-bread-granny",
       "canonical_id": null
     },
     {
@@ -2875,7 +2875,7 @@
       "description": "",
       "servings_yield": "",
       "total_time": "1 hr",
-      "variant_of": null,
+      "variant_of": "beef-rice-meatballs-granny",
       "canonical_id": null
     },
     {

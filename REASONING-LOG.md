@@ -2,6 +2,35 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Follow-up C: cross-title same-dish variants, a REVIEWED pass (syl)
+
+**Asked.** Operator: proceed — the "Grandma's Beef Wellington vs Gordon Ramsay's Beef
+Wellington" class, deliberately left out of the mechanical phase 2.
+
+**Weighed.** Candidates come from stripping ONLY attribution markers (leading possessive
+names, trailing parentheticals); a cluster links ONLY when a bare-titled member exists to
+be the canonical — clusters without one (Cheese Cake (Lemon Jello) vs (Philadelphia)) may
+be different dishes and are DEFERRED to admin/CROSS-TITLE-VARIANTS-REVIEW.json, never
+auto-linked. The dry-run lists were read line by line, and review caught three real
+traps, each now a guard in the tool: dish-name possessives (Devil's Cake is not anyone's
+attribution of "Cake"; Millionaire's Shortbread is its own dish), generic cores (Min's
+Cake under a record titled just "Cake" claims more than titles know), and an
+ingredient-overlap check born from Bailey's Peppermint Cream — a liqueur drink that would
+have tabbed under a gelatin candy. Placeholder ingredient lists ("See instructions")
+count as no-data so sparse records are judged by title, not fake mismatch.
+
+**Decided.** Links applied additive-only with the phase-2 contract (no rewrites, no
+2-cycles, family roots adopted). Where the overlap guard deferred pairs that eyes-on
+review confirmed same-dish (apple pie 1796 vs modern, mix vs scratch biscuits,
+bread-machine versions, Chef's Hamburgers, Sara's ancients Sponge Cake, Ethelyn's Carrot
+Casserole), they were hand-linked and recorded as hand_reviewed_links in the report.
+Integrity after: 0 cycles, 0 broken refs, 0 one-directional links; dedup --check CLEAN;
+shards + indexes regenerated.
+
+**Unsure.** The deferred clusters in the review report are genuinely ambiguous and wait
+for Ken. The threshold (0.25 word overlap) is a judgment; its false-defers were caught by
+hand this pass, but a future pass should re-eyeball anything it defers.
+
 ## 2026-08-30 — Follow-up B: the card/-full- twin transcriptions, verified against the scans (syl)
 
 **Asked.** Operator: proceed — merge the summary-card + "-full-" pairs into single records.
