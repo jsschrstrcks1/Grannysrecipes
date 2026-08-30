@@ -781,21 +781,20 @@
         }
       ],
       "notes": [
-        "Health Note: To reduce sodium, use low-salt chicken broth. Good served with a tossed salad and garlic bread."
+        "Health Note: To reduce sodium, use low-salt chicken broth. Good served with a tossed salad and garlic bread.",
+        "Source scan UNLOCATED (2026-08-30 audit): the image refs this record carried were provably wrong (gr-91 is an herb-pot photo, gr-92 the Spiced Blueberry Jam card, gr-29 the Corned Beef Hash photo) and were removed. Two transcriptions of Joyce's Chicken exist and CONFLICT on ingredients; without the scan neither can be verified, so both are kept as linked variants rather than merged. If the original card is found, rescan and correct."
       ],
       "tags": [
         "chicken",
         "italian",
         "main dish"
       ],
-      "image_refs": [
-        "gr-91",
-        "gr-92"
-      ],
+      "image_refs": [],
       "confidence": {
-        "overall": "medium",
+        "overall": "low",
         "flags": [
-          "Black pepper corrected from 1/2 cup to 1/2 tsp (OCR error)"
+          "source-scan-unlocated",
+          "conflicting-transcriptions"
         ]
       },
       "nutrition": {
@@ -860,13 +859,8 @@
         },
         {
           "item": "dry mustard",
-          "quantity": "1/8",
-          "unit": "tsp"
-        },
-        {
-          "item": "black pepper",
           "quantity": "1",
-          "unit": "dash"
+          "unit": "tsp"
         },
         {
           "item": "cayenne",
@@ -874,9 +868,19 @@
           "unit": "dash"
         },
         {
+          "item": "black pepper",
+          "quantity": "1/8",
+          "unit": "tsp"
+        },
+        {
           "item": "corned beef hash",
           "quantity": "2",
           "unit": "cans (1 lb each)"
+        },
+        {
+          "item": "salt",
+          "quantity": "1",
+          "unit": "dash"
         },
         {
           "item": "hard-boiled eggs",
@@ -902,7 +906,7 @@
         },
         {
           "step": 3,
-          "text": "In a medium bowl, combine hash and sour cream mixture. Blend thoroughly."
+          "text": "In a medium bowl, combine hash and sour cream mixture. Blend thoroughly. Add salt, if desired."
         },
         {
           "step": 4,
@@ -914,7 +918,11 @@
         }
       ],
       "notes": [
-        "Tips: Poached eggs may be used instead of hard-boiled. For 8 servings, increase baking time to about 30 minutes."
+        "Tips: Poached eggs may be used instead of hard-boiled. For 8 servings, increase baking time to about 30 minutes.",
+        "Tips: Poached eggs may be used instead of hard-boiled.",
+        "Recipe can be halved or doubled.",
+        "For 8 servings, increase baking time to about 30 minutes.",
+        "Verified against source scans gr-28/gr-29 (My Great Recipes card) on 2026-08-30: butter 2 Tbsp, dry mustard 1 tsp, black pepper 1/8 tsp, dash of salt restored. A second transcription of the same card was merged away; the wrong image refs gr-93/gr-94 (a blueberry-jam photo) were dropped. The sentence split between steps 2 and 3 is hard to read at scan resolution and kept as transcribed."
       ],
       "tags": [
         "casserole",
@@ -923,12 +931,14 @@
         "main dish"
       ],
       "image_refs": [
-        "gr-93",
-        "gr-94"
+        "gr-28",
+        "gr-29"
       ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -948,10 +958,7 @@
           "cayenne: used default unit",
           "corned beef hash: used default unit"
         ]
-      },
-      "variants": [
-        "corned-beef-hash-casserole-full-granny"
-      ]
+      }
     },
     {
       "id": "quick-corn-souffle-granny",
@@ -978,6 +985,12 @@
           "unit": "can (1 lb)"
         },
         {
+          "item": "salt and white pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash each"
+        },
+        {
           "item": "butter or margarine",
           "quantity": "1/4",
           "unit": "cup",
@@ -985,29 +998,23 @@
         },
         {
           "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
           "quantity": "1",
           "unit": "tbsp"
         },
         {
-          "item": "granulated sugar",
-          "quantity": "2/3",
-          "unit": "cup"
-        },
-        {
           "item": "milk",
-          "quantity": "1",
+          "quantity": "2/3",
           "unit": "cup"
         },
         {
           "item": "baking powder",
           "quantity": "1",
           "unit": "tbsp"
-        },
-        {
-          "item": "salt and white pepper",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "dash each"
         },
         {
           "item": "red or green pepper slices",
@@ -1039,7 +1046,8 @@
         }
       ],
       "notes": [
-        "Health Note: To reduce sodium, use no-salt-added canned creamed corn. Good served with ham steaks and rye bread."
+        "Health Note: To reduce sodium, use no-salt-added canned creamed corn. Good served with ham steaks and rye bread.",
+        "Verified against the source scans gr-26/gr-27 (My Great Recipes, Fast & Fabulous card 45) on 2026-08-30: flour is 1/4 cup, sugar 1 Tbsp, milk 2/3 cup, baking powder 1 Tbsp — both earlier transcriptions had scrambled these column-aligned quantities. A second transcription of the same card was merged away; its wrong image refs (gr-95, missing gr-96) were dropped."
       ],
       "tags": [
         "side dish",
@@ -1048,12 +1056,14 @@
         "vegetable"
       ],
       "image_refs": [
-        "gr-95",
-        "gr-96"
+        "gr-26",
+        "gr-27"
       ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1073,10 +1083,7 @@
           "all-purpose flour: used default unit",
           "baking powder: used default unit"
         ]
-      },
-      "variants": [
-        "quick-corn-souffle-full-granny"
-      ]
+      }
     },
     {
       "id": "deviled-cornish-hens-granny",
@@ -1099,7 +1106,7 @@
         },
         {
           "item": "salt",
-          "quantity": "1",
+          "quantity": "2",
           "unit": "tsp"
         },
         {
@@ -1108,7 +1115,7 @@
           "unit": "tsp"
         },
         {
-          "item": "garlic cloves",
+          "item": "garlic clove",
           "quantity": "1",
           "unit": "",
           "prep_note": "peeled, split"
@@ -1120,31 +1127,28 @@
           "prep_note": ""
         },
         {
-          "item": "butter",
+          "item": "lemon juice",
           "quantity": "1/4",
-          "unit": "cup",
-          "prep_note": "melted"
+          "unit": "cup"
         },
         {
-          "item": "Dijon mustard",
+          "item": "honey",
+          "quantity": "1/3",
+          "unit": "cup"
+        },
+        {
+          "item": "garlic",
+          "quantity": "3-4",
+          "unit": "cloves",
+          "prep_note": "minced or pressed"
+        },
+        {
+          "item": "tomato paste",
           "quantity": "2",
-          "unit": "tbsp",
-          "prep_note": ""
+          "unit": "tbsp"
         },
         {
-          "item": "Worcestershire sauce",
-          "quantity": "1",
-          "unit": "tbsp",
-          "prep_note": ""
-        },
-        {
-          "item": "hot pepper sauce",
-          "quantity": "1/2",
-          "unit": "tsp",
-          "prep_note": ""
-        },
-        {
-          "item": "watercress",
+          "item": "watercress or lemon slices",
           "quantity": "",
           "unit": "",
           "prep_note": "for garnish, optional"
@@ -1157,7 +1161,7 @@
         },
         {
           "step": 2,
-          "text": "Rub hens inside and outside with salt, pepper and garlic."
+          "text": "Rub hens inside and outside with salt, pepper, and garlic."
         },
         {
           "step": 3,
@@ -1165,19 +1169,26 @@
         },
         {
           "step": 4,
-          "text": "To prepare basting sauce, mix all ingredients together."
+          "text": "To prepare basting sauce, mix together all sauce ingredients."
         },
         {
           "step": 5,
-          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce until juices run clear. Cooking time will depend on size of birds. Check doneness by pricking thigh. When juices run clear, the hens are ready."
+          "text": "Brush hens with sauce."
         },
         {
           "step": 6,
-          "text": "Garnish hens with watercress, if used."
+          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
+        },
+        {
+          "step": 7,
+          "text": "Garnish with watercress, if used."
         }
       ],
       "notes": [
-        "Good served with brown or wild rice, a tossed salad and French bread."
+        "Good served with brown or wild rice, a tossed salad and French bread.",
+        "Good served with: Brown or wild rice, a tossed green salad and crusty French bread.",
+        "Tips: This recipe is also excellent for chicken halves.",
+        "Verified against the source scan gr-34 (My Great Recipes card, packet 23NB) on 2026-08-30: salt is 2 tsp and the basting sauce is 1/4 cup lemon juice, 1/3 cup honey, 3-4 cloves garlic, 2 Tbsp tomato paste. An earlier transcription carried a butter/Dijon/Worcestershire sauce that appears NOWHERE on the card and cited unrelated photos (gr-97/gr-98, a fish dinner); that unsourced sauce is preserved in admin/MERGED-AWAY.json, not here. A second transcription of the same card was merged in."
       ],
       "tags": [
         "poultry",
@@ -1186,13 +1197,13 @@
         "main dish"
       ],
       "image_refs": [
-        "gr-97",
-        "gr-98"
+        "gr-34",
+        "gr-35"
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "high",
         "flags": [
-          "Basting sauce ingredients were missing - added deviled-style sauce"
+          "verified-against-scan"
         ]
       },
       "nutrition": {
@@ -1213,10 +1224,7 @@
         "assumptions": [
           "Dijon mustard: used default unit"
         ]
-      },
-      "variants": [
-        "deviled-cornish-hens-full-granny"
-      ]
+      }
     },
     {
       "id": "buttercups-granny",
@@ -1275,27 +1283,36 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix sugar and margarine. Cream. Add rest of ingredients. Mix well."
+          "text": "Mix sugar and margarine, cream. Add rest of ingredients, mix well."
         },
         {
           "step": 2,
-          "text": "For ready made pie crust, roll the crust out like you would a pie using 7 by 11 pan. Put crust in bottom, then spread filling over top of crust."
+          "text": "For ready made pie crust or make your own."
         },
         {
           "step": 3,
-          "text": "Take next crust, repeat by rolling dough to fit over top of filling. Cut off all remaining pie crust on side just leaving crust to cover all the filling. With fork pierce top, brush with milk."
+          "text": "Roll the crust out like you would a pie using 7 by 11 pan, put crust in bottom, then spread filling over crust."
         },
         {
           "step": 4,
-          "text": "Oven 350 for 20 minutes or until golden brown."
+          "text": "Take next crust and roll dough to fit over top of filling. Cut off all remaining pie crust on side, just leaving crust to cover all the filling."
         },
         {
           "step": 5,
+          "text": "With fork, pierce top. Brush with milk."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350°F for 20 minutes or until golden brown."
+        },
+        {
+          "step": 7,
           "text": "Cool. Sprinkle with confectionary sugar. Cut into squares."
         }
       ],
       "notes": [
-        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together."
+        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together.",
+        "Verified against the source scan gr-32 (typed family sheet) on 2026-08-30: flour is 2 tbls on the sheet — a second transcription said 1/4 cup and was merged away; its fuller step list (pierce top, brush with milk) was kept."
       ],
       "tags": [
         "dessert",
@@ -1303,10 +1320,14 @@
         "coconut",
         "cherry"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-32"
+      ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -1327,10 +1348,7 @@
         ]
       },
       "servings_yield": "24 cookies",
-      "prep_time": "15 minutes",
-      "variants": [
-        "buttercups-full-granny"
-      ]
+      "prep_time": "15 minutes"
     },
     {
       "id": "smoky-bacon-burgers-granny",
@@ -3575,13 +3593,12 @@
         "southern"
       ],
       "image_refs": [
-        "gr-218",
-        "gr-219"
+        "gr-64"
       ],
       "confidence": {
         "overall": "high",
         "flags": [
-          "typed recipe"
+          "verified-against-scan"
         ]
       },
       "nutrition": {
@@ -3606,8 +3623,8 @@
       },
       "servings_yield": "10-12 servings",
       "prep_time": "15 minutes",
-      "variants": [
-        "banana-pudding-bobby-jones-full-granny"
+      "notes": [
+        "Verified against the source scan gr-64 (typed family sheet, two recipes on one page) on 2026-08-30: both transcriptions matched the sheet. Unverified image refs gr-218/gr-219 dropped; gr-62 on the merged twin was an unrelated Irish Soda Bread sheet. A second transcription was merged away."
       ]
     },
     {
@@ -3626,8 +3643,8 @@
         },
         {
           "item": "lean hamburger",
-          "quantity": "1-1/4",
-          "unit": "lb"
+          "quantity": "1-1/2",
+          "unit": "lbs"
         },
         {
           "item": "chopped onions",
@@ -3647,9 +3664,9 @@
         },
         {
           "item": "Minute Rice",
-          "quantity": "1/3",
-          "unit": "cup",
-          "prep_note": "boxed"
+          "quantity": "",
+          "unit": "",
+          "prep_note": "boxed; quantity not stated on the sheet"
         },
         {
           "item": "milk",
@@ -3688,13 +3705,12 @@
         "stuffed"
       ],
       "image_refs": [
-        "gr-221",
-        "gr-222"
+        "gr-64"
       ],
       "confidence": {
         "overall": "high",
         "flags": [
-          "typed recipe"
+          "verified-against-scan"
         ]
       },
       "nutrition": {
@@ -3720,8 +3736,8 @@
       "servings_yield": "4 servings",
       "prep_time": "20 minutes",
       "cook_time": "45-60 minutes",
-      "variants": [
-        "stuffed-peppers-webb-full-granny"
+      "notes": [
+        "Verified against the source scan gr-64 (typed family sheet) on 2026-08-30: hamburger is 1-1/2 (as written), milk 1/3 cup, and the sheet states NO quantity for the Minute Rice — an earlier '1/3 cup' for the rice was an unmarked guess and is removed rather than kept. Unverified image refs gr-221/gr-222 dropped; a second transcription was merged away."
       ]
     },
     {
@@ -12554,8 +12570,13 @@
           "prep_note": "undrained"
         },
         {
-          "item": "sour cream",
+          "item": "chopped celery",
           "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "sour cream",
+          "quantity": "1",
           "unit": "cup"
         },
         {
@@ -12614,7 +12635,9 @@
       ],
       "notes": [
         "Recipe may be doubled. Cooking time will remain the same.",
-        "Good served with hot white rice and crusty rolls."
+        "Good served with hot white rice and crusty rolls.",
+        "Good served with: Hot white rice and crusty rolls.",
+        "Verified against the source scan gr-58 (My Great Recipes card, packet 23NB) on 2026-08-30: the card lists 1/2 cup chopped celery in the sauce and 1 cup sour cream — both earlier transcriptions had dropped the celery and halved the sour cream (a column misread). Unverified image refs gr-305/gr-306 dropped; a second transcription of the same card was merged away."
       ],
       "tags": [
         "beef",
@@ -12624,11 +12647,12 @@
       ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "image_refs": [
-        "gr-305",
-        "gr-306"
+        "gr-58"
       ],
       "nutrition": {
         "status": "complete",
@@ -12648,10 +12672,7 @@
           "mushrooms: used default unit",
           "tomato sauce: used default unit"
         ]
-      },
-      "variants": [
-        "savory-beef-full-granny"
-      ]
+      }
     },
     {
       "id": "italian-meat-loaf-granny",
@@ -19830,234 +19851,6 @@
       "variant_of": "roast-leg-of-lamb-with-mint-sauce-granny"
     },
     {
-      "id": "quick-corn-souffle-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Quick Corn Soufflé",
-      "category": "sides",
-      "source_note": "My Great Recipes card back",
-      "prep_time": "10 min",
-      "cook_time": "20 min",
-      "temperature": "425°F (220°C)",
-      "servings_yield": "6 servings",
-      "ingredients": [
-        {
-          "item": "eggs, room temperature",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "creamed-style corn",
-          "quantity": "1",
-          "unit": "can (1 lb.)"
-        },
-        {
-          "item": "salt and white pepper",
-          "quantity": "dash",
-          "unit": ""
-        },
-        {
-          "item": "butter or margarine, melted",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "all-purpose flour",
-          "quantity": "3/4",
-          "unit": "cup"
-        },
-        {
-          "item": "granulated sugar",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "In stainless steel bowl, beat eggs lightly."
-        },
-        {
-          "step": 2,
-          "text": "Stir in corn, salt, pepper, butter, flour, sugar and milk. Beat until well mixed."
-        },
-        {
-          "step": 3,
-          "text": "Add baking powder. Mix well."
-        },
-        {
-          "step": 4,
-          "text": "Spoon into buttered 1-cup soufflé dishes. Place on cookie sheet."
-        },
-        {
-          "step": 5,
-          "text": "Bake at 425°F for 20 minutes or until puffed and golden brown."
-        },
-        {
-          "step": 6,
-          "text": "Garnish with pepper slices, if used. Serve immediately."
-        }
-      ],
-      "notes": [
-        "Good served with: Ham steaks and rye bread",
-        "Health Note: To reduce sodium, use no-salt-added canned creamed corn."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-26",
-        "gr-27"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 6,
-        "per_serving": {
-          "calories": 252,
-          "fat_g": 12.8,
-          "carbs_g": 27.5,
-          "protein_g": 7.9,
-          "sodium_mg": 592,
-          "fiber_g": 1.0,
-          "sugar_g": 11.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "creamed-style corn: used default unit",
-          "milk: used default unit"
-        ]
-      },
-      "variant_of": "quick-corn-souffle-granny"
-    },
-    {
-      "id": "corned-beef-hash-casserole-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Corned Beef Hash Casserole",
-      "category": "mains",
-      "source_note": "My Great Recipes card back",
-      "prep_time": "10 min",
-      "cook_time": "25 min",
-      "temperature": "400°F (200°C)",
-      "servings_yield": "4 servings",
-      "ingredients": [
-        {
-          "item": "large green pepper, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "medium onion, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "butter or margarine",
-          "quantity": "1",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "sour cream",
-          "quantity": "3/4",
-          "unit": "cup"
-        },
-        {
-          "item": "dry mustard",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "cayenne",
-          "quantity": "dash",
-          "unit": ""
-        },
-        {
-          "item": "black pepper",
-          "quantity": "dash",
-          "unit": ""
-        },
-        {
-          "item": "corned beef hash",
-          "quantity": "2",
-          "unit": "cans (1 lb. each)"
-        },
-        {
-          "item": "hard-boiled eggs, sliced",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "minced parsley, to garnish",
-          "quantity": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "In a small skillet, melt butter. Add green pepper and onion. Cook until limp but not brown."
-        },
-        {
-          "step": 2,
-          "text": "In a small bowl, combine sour cream, mustard, cayenne and black pepper. Mix well."
-        },
-        {
-          "step": 3,
-          "text": "In a medium bowl, combine hash and onion and green pepper. Add sour cream mixture. Blend thoroughly."
-        },
-        {
-          "step": 4,
-          "text": "Transfer mixture to large shallow casserole. Add salt, if desired."
-        },
-        {
-          "step": 5,
-          "text": "Arrange egg slices on top. Sprinkle with parsley. Bake at 400°F until bubbly and lightly browned, about 25 minutes."
-        }
-      ],
-      "notes": [
-        "Tips: Poached eggs may be used instead of hard-boiled.",
-        "Recipe can be halved or doubled.",
-        "For 8 servings, increase baking time to about 30 minutes."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-28",
-        "gr-29"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 4,
-        "per_serving": {
-          "calories": 237,
-          "fat_g": 19.1,
-          "carbs_g": 6.9,
-          "protein_g": 10.4,
-          "sodium_mg": 274,
-          "fiber_g": 1.3,
-          "sugar_g": 3.0
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "corned beef hash: used default unit"
-        ]
-      },
-      "variant_of": "corned-beef-hash-casserole-granny"
-    },
-    {
       "id": "joyces-chicken-full-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
@@ -20143,15 +19936,17 @@
       ],
       "notes": [
         "Good served with: A tossed salad and garlic bread",
-        "Health Note: To reduce sodium, use low-salt chicken broth and tomatoes."
+        "Health Note: To reduce sodium, use low-salt chicken broth and tomatoes.",
+        "Source scan UNLOCATED (2026-08-30 audit): the image refs this record carried were provably wrong (gr-91 is an herb-pot photo, gr-92 the Spiced Blueberry Jam card, gr-29 the Corned Beef Hash photo) and were removed. Two transcriptions of Joyce's Chicken exist and CONFLICT on ingredients; without the scan neither can be verified, so both are kept as linked variants rather than merged. If the original card is found, rescan and correct."
       ],
       "confidence": {
-        "overall": "high",
-        "flags": []
+        "overall": "low",
+        "flags": [
+          "source-scan-unlocated",
+          "conflicting-transcriptions"
+        ]
       },
-      "image_refs": [
-        "gr-29"
-      ],
+      "image_refs": [],
       "nutrition": {
         "status": "complete",
         "servings_used": 4,
@@ -20173,236 +19968,6 @@
         ]
       },
       "variant_of": "joyces-chicken-granny"
-    },
-    {
-      "id": "buttercups-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Buttercups",
-      "category": "desserts",
-      "source_note": "typed recipe card",
-      "temperature": "350°F (175°C)",
-      "cook_time": "20 min",
-      "ingredients": [
-        {
-          "item": "egg yolks",
-          "quantity": "3",
-          "unit": ""
-        },
-        {
-          "item": "sugar",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "Maraschino cherries, cut into quarters",
-          "quantity": "1",
-          "unit": "8 oz jar"
-        },
-        {
-          "item": "Almond extract",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "margarine, softened",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "flour",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "grated coconut",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "ready-made pie crust",
-          "quantity": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix sugar and margarine, cream. Add rest of ingredients, mix well."
-        },
-        {
-          "step": 2,
-          "text": "For ready made pie crust or make your own."
-        },
-        {
-          "step": 3,
-          "text": "Roll the crust out like you would a pie using 7 by 11 pan, put crust in bottom, then spread filling over crust."
-        },
-        {
-          "step": 4,
-          "text": "Take next crust and roll dough to fit over top of filling. Cut off all remaining pie crust on side, just leaving crust to cover all the filling."
-        },
-        {
-          "step": 5,
-          "text": "With fork, pierce top. Brush with milk."
-        },
-        {
-          "step": 6,
-          "text": "Bake at 350°F for 20 minutes or until golden brown."
-        },
-        {
-          "step": 7,
-          "text": "Cool. Sprinkle with confectionary sugar. Cut into squares."
-        }
-      ],
-      "notes": [
-        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-32"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 290,
-          "fat_g": 14.3,
-          "carbs_g": 37.2,
-          "protein_g": 3.9,
-          "sodium_mg": 118,
-          "fiber_g": 0.8,
-          "sugar_g": 25.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Maraschino cherries, cut into quarters: used default unit"
-        ]
-      },
-      "variant_of": "buttercups-granny"
-    },
-    {
-      "id": "deviled-cornish-hens-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Deviled Cornish Hens",
-      "category": "mains",
-      "source_note": "My Great Recipes card back",
-      "prep_time": "20 min",
-      "cook_time": "50 min",
-      "temperature": "375°F (190°C)",
-      "servings_yield": "4 servings",
-      "ingredients": [
-        {
-          "item": "Cornish game hens, 1 lb. each",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "salt",
-          "quantity": "2",
-          "unit": "tsp"
-        },
-        {
-          "item": "black pepper",
-          "quantity": "3/4",
-          "unit": "tsp"
-        },
-        {
-          "item": "garlic clove, peeled, split",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "honey",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "lemon juice",
-          "quantity": "1/3",
-          "unit": "cup"
-        },
-        {
-          "item": "cloves garlic, minced or pressed",
-          "quantity": "3",
-          "unit": ""
-        },
-        {
-          "item": "tomato paste",
-          "quantity": "1",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "watercress or lemon slices, for garnish",
-          "quantity": "",
-          "unit": "optional"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Wash hens thoroughly. Pat dry."
-        },
-        {
-          "step": 2,
-          "text": "Rub hens inside and outside with salt, pepper, and garlic."
-        },
-        {
-          "step": 3,
-          "text": "Place hens side-by-side in roasting pan."
-        },
-        {
-          "step": 4,
-          "text": "To prepare basting sauce, mix together all sauce ingredients."
-        },
-        {
-          "step": 5,
-          "text": "Brush hens with sauce."
-        },
-        {
-          "step": 6,
-          "text": "Roast hens at 375°F for about 50 minutes, basting occasionally with sauce and pan juices. Check doneness by pricking thigh joint with a toothpick. When juices run clear, the hens are ready."
-        },
-        {
-          "step": 7,
-          "text": "Garnish with watercress, if used."
-        }
-      ],
-      "notes": [
-        "Good served with: Brown or wild rice, a tossed green salad and crusty French bread.",
-        "Tips: This recipe is also excellent for chicken halves."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-34",
-        "gr-35"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 4,
-        "per_serving": {
-          "calories": 205,
-          "fat_g": 1.8,
-          "carbs_g": 48.6,
-          "protein_g": 5.5,
-          "sodium_mg": 1220,
-          "fiber_g": 3.9,
-          "sugar_g": 22.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "lemon juice: used default unit",
-          "watercress or lemon slices, for garnish: used default unit"
-        ]
-      },
-      "variant_of": "deviled-cornish-hens-granny"
     },
     {
       "id": "creamy-mild-seafood-granny",
@@ -20637,132 +20202,6 @@
       "variant_of": "beef-bean-and-noodle-skillet-granny"
     },
     {
-      "id": "savory-beef-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Savory Beef",
-      "category": "mains",
-      "source_note": "My Great Recipes card back",
-      "prep_time": "20 min",
-      "cook_time": "1 1/4 - 1 1/2 hrs",
-      "temperature": "325°F (165°C)",
-      "servings_yield": "4-5 servings",
-      "ingredients": [
-        {
-          "item": "round steak, cut into 1/2-inch cubes",
-          "quantity": "2",
-          "unit": "lbs"
-        },
-        {
-          "item": "oil",
-          "quantity": "3",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "large onion, chopped",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "clove garlic, minced or pressed",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "all-purpose flour",
-          "quantity": "3",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "mushrooms, undrained",
-          "quantity": "1",
-          "unit": "can (3 oz.)"
-        },
-        {
-          "item": "sour cream",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "tomato sauce",
-          "quantity": "1",
-          "unit": "can (8 oz.)"
-        },
-        {
-          "item": "salt",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "chopped celery, for garnish",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "chopped chives, for garnish",
-          "quantity": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "In a large saucepan, heat oil. Add beef. Brown. Add onion and garlic. Cook, stirring, until onions are transparent."
-        },
-        {
-          "step": 2,
-          "text": "Add flour, stirring until beef cubes are coated. Add mushrooms with juice and celery."
-        },
-        {
-          "step": 3,
-          "text": "In a small bowl, combine remaining ingredients. Mix well. Pour over meat. Toss well."
-        },
-        {
-          "step": 4,
-          "text": "Remove from heat. Turn mixture into a greased 2-quart casserole dish."
-        },
-        {
-          "step": 5,
-          "text": "Cover. Bake at 325°F for 1 1/4 to 1 1/2 hours until meat is tender."
-        },
-        {
-          "step": 6,
-          "text": "Sprinkle with chopped celery and chives."
-        }
-      ],
-      "notes": [
-        "Good served with: Hot white rice and crusty rolls.",
-        "Recipe may be doubled. Cooking time will remain the same."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-58"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 4,
-        "per_serving": {
-          "calories": 879,
-          "fat_g": 29.1,
-          "carbs_g": 79.0,
-          "protein_g": 72.1,
-          "sodium_mg": 1050,
-          "fiber_g": 3.8,
-          "sugar_g": 4.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "all-purpose flour: used default unit",
-          "mushrooms, undrained: used default unit",
-          "tomato sauce: used default unit"
-        ]
-      },
-      "variant_of": "savory-beef-granny"
-    },
-    {
       "id": "irish-soda-bread-landmark-tavern-granny",
       "collection": "granny",
       "collection_display": "Granny Hudson",
@@ -20861,199 +20300,6 @@
           "raisins: used default unit"
         ]
       }
-    },
-    {
-      "id": "banana-pudding-bobby-jones-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Banana Pudding (Bobby Jones)",
-      "category": "desserts",
-      "source_note": "typed recipe card",
-      "ingredients": [
-        {
-          "item": "Vanilla Instant Pudding",
-          "quantity": "2",
-          "unit": "boxes"
-        },
-        {
-          "item": "milk",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "sour cream",
-          "quantity": "16",
-          "unit": "oz"
-        },
-        {
-          "item": "whipped cream",
-          "quantity": "12",
-          "unit": "oz"
-        },
-        {
-          "item": "bananas, sliced",
-          "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "vanilla wafers",
-          "quantity": "1",
-          "unit": "box"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Dump pudding in bowl with 2 cups milk. Beat to firm."
-        },
-        {
-          "step": 2,
-          "text": "Fold in sour cream."
-        },
-        {
-          "step": 3,
-          "text": "Fold in whipped cream."
-        },
-        {
-          "step": 4,
-          "text": "Fold in sliced bananas."
-        },
-        {
-          "step": 5,
-          "text": "Fold in wafers."
-        },
-        {
-          "step": 6,
-          "text": "Refrigerate."
-        }
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-64",
-        "gr-62"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 1558,
-          "fat_g": 154.6,
-          "carbs_g": 30.4,
-          "protein_g": 17.3,
-          "sodium_mg": 339,
-          "fiber_g": 0.8,
-          "sugar_g": 21.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Vanilla Instant Pudding: used default unit",
-          "sour cream: used default unit",
-          "whipped cream: used default unit",
-          "vanilla wafers: used default unit"
-        ]
-      },
-      "variant_of": "banana-pudding-bobby-jones-granny"
-    },
-    {
-      "id": "stuffed-peppers-webb-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Stuffed Peppers (Webb)",
-      "category": "mains",
-      "source_note": "typed recipe card",
-      "temperature": "350°F (175°C)",
-      "ingredients": [
-        {
-          "item": "big green peppers",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "lean hamburger",
-          "quantity": "1-1/2",
-          "unit": "lbs"
-        },
-        {
-          "item": "chopped onions",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "garlic, minced",
-          "quantity": "1",
-          "unit": "tablespoon"
-        },
-        {
-          "item": "egg",
-          "quantity": "1",
-          "unit": ""
-        },
-        {
-          "item": "Minute Rice, boxed",
-          "quantity": "",
-          "unit": ""
-        },
-        {
-          "item": "milk",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "Campbell's condensed tomato soup, family size",
-          "quantity": "1",
-          "unit": "large can"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix hamburger, onions, garlic, egg, rice, and milk."
-        },
-        {
-          "step": 2,
-          "text": "Put in pepper loosely."
-        },
-        {
-          "step": 3,
-          "text": "Put tomato soup on top."
-        },
-        {
-          "step": 4,
-          "text": "Bake at 350 degrees."
-        }
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-64",
-        "gr-62"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 4,
-        "per_serving": {
-          "calories": 133,
-          "fat_g": 3.1,
-          "carbs_g": 21.7,
-          "protein_g": 6.0,
-          "sodium_mg": 106,
-          "fiber_g": 2.8,
-          "sugar_g": 5.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "lean hamburger: used default unit",
-          "chopped onions: used default unit",
-          "garlic, minced: used default unit",
-          "Campbell's condensed tomato soup, family size: used default unit"
-        ]
-      },
-      "variant_of": "stuffed-peppers-webb-granny"
     },
     {
       "id": "beef-rice-meatballs-handwritten-granny",

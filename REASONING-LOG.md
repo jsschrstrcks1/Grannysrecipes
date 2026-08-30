@@ -2,6 +2,34 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Follow-up B: the card/-full- twin transcriptions, verified against the scans (syl)
+
+**Asked.** Operator: proceed — merge the summary-card + "-full-" pairs into single records.
+
+**Weighed.** They were not card+full pairs: both sides carried complete transcriptions of
+the SAME source, citing different image refs. Reading the actual scans showed (a) the
+base records' image refs were systematically wrong (a roast, herbs, blueberry jam, a fish
+dinner standing in for soufflé, chicken, hens), and (b) BOTH transcriptions carried real
+errors the card contradicts — scrambled column quantities (soufflé: flour/sugar/milk all
+wrong on both sides), a dropped ingredient (Savory Beef lost its 1/2 cup celery and
+halved the sour cream on both sides), an invented quantity (1/3 cup Minute Rice that the
+sheet does not state), and one wholly UNSOURCED basting sauce (butter/Dijon/
+Worcestershire on Deviled Cornish Hens — nowhere on the card). So each merge was done
+against the scan, not by picking a transcription.
+
+**Decided.** 7 of 8 pairs merged (201 → 194 records), every keeper corrected to its
+verified scan, image refs reduced to the verified ones, every removed record and every
+displaced unsourced fragment preserved whole in admin/MERGED-AWAY.json, and each keeper
+notes exactly what the scan settled. Joyce's Chicken did NOT merge: its source scan is
+unlocated (all cited refs provably show other dishes), the two transcriptions conflict,
+so both stay as linked variants marked low-confidence with the gap stated on the record.
+Gates: dedup --check CLEAN, 0 dangling refs, shards regenerated.
+
+**Unsure.** The corned-beef card's step 2/3 sentence split is hard to read at scan
+resolution (noted on the record). Whether the soufflé card's "1 Tbsp. baking powder" is
+the packet's own typo is not mine to judge — it is what the card says. Joyce's Chicken
+needs the original card found and rescanned.
+
 ## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
 
 **Asked:** One listing per dish; versions as tabs with provenance (operator directive,

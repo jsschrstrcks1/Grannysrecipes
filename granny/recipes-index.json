@@ -5,7 +5,7 @@
     "created": "2026-01-05",
     "last_updated": "2026-01-08",
     "version": "3.0.0",
-    "total_recipes": 201,
+    "total_recipes": 194,
     "recipe_count": 201,
     "sharded": true,
     "shard_strategy": "by_category",
@@ -35,12 +35,12 @@
     {
       "category": "desserts",
       "file": "recipes-desserts.json",
-      "count": 74
+      "count": 72
     },
     {
       "category": "mains",
       "file": "recipes-mains.json",
-      "count": 68
+      "count": 64
     },
     {
       "category": "salads",
@@ -50,7 +50,7 @@
     {
       "category": "sides",
       "file": "recipes-sides.json",
-      "count": 12
+      "count": 11
     },
     {
       "category": "snacks",
@@ -2814,32 +2814,6 @@
       "canonical_id": null
     },
     {
-      "id": "quick-corn-souffle-full-granny",
-      "title": "Quick Corn Souffl\u00e9",
-      "category": "sides",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "6 servings",
-      "total_time": "20 min",
-      "variant_of": "quick-corn-souffle-granny",
-      "canonical_id": null
-    },
-    {
-      "id": "corned-beef-hash-casserole-full-granny",
-      "title": "Corned Beef Hash Casserole",
-      "category": "mains",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "4 servings",
-      "total_time": "25 min",
-      "variant_of": "corned-beef-hash-casserole-granny",
-      "canonical_id": null
-    },
-    {
       "id": "joyces-chicken-full-granny",
       "title": "Joyce's Chicken",
       "category": "mains",
@@ -2850,32 +2824,6 @@
       "servings_yield": "4 servings",
       "total_time": "45 min",
       "variant_of": "joyces-chicken-granny",
-      "canonical_id": null
-    },
-    {
-      "id": "buttercups-full-granny",
-      "title": "Buttercups",
-      "category": "desserts",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "",
-      "total_time": "20 min",
-      "variant_of": "buttercups-granny",
-      "canonical_id": null
-    },
-    {
-      "id": "deviled-cornish-hens-full-granny",
-      "title": "Deviled Cornish Hens",
-      "category": "mains",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "4 servings",
-      "total_time": "50 min",
-      "variant_of": "deviled-cornish-hens-granny",
       "canonical_id": null
     },
     {
@@ -2905,19 +2853,6 @@
       "canonical_id": null
     },
     {
-      "id": "savory-beef-full-granny",
-      "title": "Savory Beef",
-      "category": "mains",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "4-5 servings",
-      "total_time": "1 1/4 - 1 1/2 hrs",
-      "variant_of": "savory-beef-granny",
-      "canonical_id": null
-    },
-    {
       "id": "irish-soda-bread-landmark-tavern-granny",
       "title": "Irish Soda Bread (Landmark Tavern, NYC)",
       "category": "breads",
@@ -2928,32 +2863,6 @@
       "servings_yield": "8-10 loaves",
       "total_time": "25-30 min",
       "variant_of": null,
-      "canonical_id": null
-    },
-    {
-      "id": "banana-pudding-bobby-jones-full-granny",
-      "title": "Banana Pudding (Bobby Jones)",
-      "category": "desserts",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "",
-      "total_time": "",
-      "variant_of": "banana-pudding-bobby-jones-granny",
-      "canonical_id": null
-    },
-    {
-      "id": "stuffed-peppers-webb-full-granny",
-      "title": "Stuffed Peppers (Webb)",
-      "category": "mains",
-      "tags": [],
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "description": "",
-      "servings_yield": "",
-      "total_time": "",
-      "variant_of": "stuffed-peppers-webb-granny",
       "canonical_id": null
     },
     {

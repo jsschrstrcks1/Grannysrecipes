@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "sides",
-    "count": 12
+    "count": 11
   },
   "recipes": [
     {
@@ -29,6 +29,12 @@
           "unit": "can (1 lb)"
         },
         {
+          "item": "salt and white pepper",
+          "quantity": "",
+          "unit": "",
+          "prep_note": "dash each"
+        },
+        {
           "item": "butter or margarine",
           "quantity": "1/4",
           "unit": "cup",
@@ -36,29 +42,23 @@
         },
         {
           "item": "all-purpose flour",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "granulated sugar",
           "quantity": "1",
           "unit": "tbsp"
         },
         {
-          "item": "granulated sugar",
-          "quantity": "2/3",
-          "unit": "cup"
-        },
-        {
           "item": "milk",
-          "quantity": "1",
+          "quantity": "2/3",
           "unit": "cup"
         },
         {
           "item": "baking powder",
           "quantity": "1",
           "unit": "tbsp"
-        },
-        {
-          "item": "salt and white pepper",
-          "quantity": "",
-          "unit": "",
-          "prep_note": "dash each"
         },
         {
           "item": "red or green pepper slices",
@@ -90,7 +90,8 @@
         }
       ],
       "notes": [
-        "Health Note: To reduce sodium, use no-salt-added canned creamed corn. Good served with ham steaks and rye bread."
+        "Health Note: To reduce sodium, use no-salt-added canned creamed corn. Good served with ham steaks and rye bread.",
+        "Verified against the source scans gr-26/gr-27 (My Great Recipes, Fast & Fabulous card 45) on 2026-08-30: flour is 1/4 cup, sugar 1 Tbsp, milk 2/3 cup, baking powder 1 Tbsp \u2014 both earlier transcriptions had scrambled these column-aligned quantities. A second transcription of the same card was merged away; its wrong image refs (gr-95, missing gr-96) were dropped."
       ],
       "tags": [
         "side dish",
@@ -99,12 +100,14 @@
         "vegetable"
       ],
       "image_refs": [
-        "gr-95",
-        "gr-96"
+        "gr-26",
+        "gr-27"
       ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -124,10 +127,7 @@
           "all-purpose flour: used default unit",
           "baking powder: used default unit"
         ]
-      },
-      "variants": [
-        "quick-corn-souffle-full-granny"
-      ]
+      }
     },
     {
       "id": "broccoli-casserole-granny",
@@ -1051,117 +1051,6 @@
           "text": "Let cool slightly before cutting into squares."
         }
       ]
-    },
-    {
-      "id": "quick-corn-souffle-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Quick Corn Souffl\u00e9",
-      "category": "sides",
-      "source_note": "My Great Recipes card back",
-      "prep_time": "10 min",
-      "cook_time": "20 min",
-      "temperature": "425\u00b0F (220\u00b0C)",
-      "servings_yield": "6 servings",
-      "ingredients": [
-        {
-          "item": "eggs, room temperature",
-          "quantity": "4",
-          "unit": ""
-        },
-        {
-          "item": "creamed-style corn",
-          "quantity": "1",
-          "unit": "can (1 lb.)"
-        },
-        {
-          "item": "salt and white pepper",
-          "quantity": "dash",
-          "unit": ""
-        },
-        {
-          "item": "butter or margarine, melted",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "all-purpose flour",
-          "quantity": "3/4",
-          "unit": "cup"
-        },
-        {
-          "item": "granulated sugar",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "milk",
-          "quantity": "1",
-          "unit": "Tbsp"
-        },
-        {
-          "item": "baking powder",
-          "quantity": "1",
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "In stainless steel bowl, beat eggs lightly."
-        },
-        {
-          "step": 2,
-          "text": "Stir in corn, salt, pepper, butter, flour, sugar and milk. Beat until well mixed."
-        },
-        {
-          "step": 3,
-          "text": "Add baking powder. Mix well."
-        },
-        {
-          "step": 4,
-          "text": "Spoon into buttered 1-cup souffl\u00e9 dishes. Place on cookie sheet."
-        },
-        {
-          "step": 5,
-          "text": "Bake at 425\u00b0F for 20 minutes or until puffed and golden brown."
-        },
-        {
-          "step": 6,
-          "text": "Garnish with pepper slices, if used. Serve immediately."
-        }
-      ],
-      "notes": [
-        "Good served with: Ham steaks and rye bread",
-        "Health Note: To reduce sodium, use no-salt-added canned creamed corn."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-26",
-        "gr-27"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 6,
-        "per_serving": {
-          "calories": 252,
-          "fat_g": 12.8,
-          "carbs_g": 27.5,
-          "protein_g": 7.9,
-          "sodium_mg": 592,
-          "fiber_g": 1.0,
-          "sugar_g": 11.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "creamed-style corn: used default unit",
-          "milk: used default unit"
-        ]
-      },
-      "variant_of": "quick-corn-souffle-granny"
     },
     {
       "id": "pickled-beets-shag-taylor-granny",

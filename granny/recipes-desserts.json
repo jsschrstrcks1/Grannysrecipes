@@ -1,7 +1,7 @@
 {
   "meta": {
     "category": "desserts",
-    "count": 74
+    "count": 72
   },
   "recipes": [
     {
@@ -293,27 +293,36 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix sugar and margarine. Cream. Add rest of ingredients. Mix well."
+          "text": "Mix sugar and margarine, cream. Add rest of ingredients, mix well."
         },
         {
           "step": 2,
-          "text": "For ready made pie crust, roll the crust out like you would a pie using 7 by 11 pan. Put crust in bottom, then spread filling over top of crust."
+          "text": "For ready made pie crust or make your own."
         },
         {
           "step": 3,
-          "text": "Take next crust, repeat by rolling dough to fit over top of filling. Cut off all remaining pie crust on side just leaving crust to cover all the filling. With fork pierce top, brush with milk."
+          "text": "Roll the crust out like you would a pie using 7 by 11 pan, put crust in bottom, then spread filling over crust."
         },
         {
           "step": 4,
-          "text": "Oven 350 for 20 minutes or until golden brown."
+          "text": "Take next crust and roll dough to fit over top of filling. Cut off all remaining pie crust on side, just leaving crust to cover all the filling."
         },
         {
           "step": 5,
+          "text": "With fork, pierce top. Brush with milk."
+        },
+        {
+          "step": 6,
+          "text": "Bake at 350\u00b0F for 20 minutes or until golden brown."
+        },
+        {
+          "step": 7,
           "text": "Cool. Sprinkle with confectionary sugar. Cut into squares."
         }
       ],
       "notes": [
-        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together."
+        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together.",
+        "Verified against the source scan gr-32 (typed family sheet) on 2026-08-30: flour is 2 tbls on the sheet \u2014 a second transcription said 1/4 cup and was merged away; its fuller step list (pierce top, brush with milk) was kept."
       ],
       "tags": [
         "dessert",
@@ -321,10 +330,14 @@
         "coconut",
         "cherry"
       ],
-      "image_refs": [],
+      "image_refs": [
+        "gr-32"
+      ],
       "confidence": {
         "overall": "high",
-        "flags": []
+        "flags": [
+          "verified-against-scan"
+        ]
       },
       "nutrition": {
         "status": "complete",
@@ -345,10 +358,7 @@
         ]
       },
       "servings_yield": "24 cookies",
-      "prep_time": "15 minutes",
-      "variants": [
-        "buttercups-full-granny"
-      ]
+      "prep_time": "15 minutes"
     },
     {
       "id": "carrot-cake-granny",
@@ -999,13 +1009,12 @@
         "southern"
       ],
       "image_refs": [
-        "gr-218",
-        "gr-219"
+        "gr-64"
       ],
       "confidence": {
         "overall": "high",
         "flags": [
-          "typed recipe"
+          "verified-against-scan"
         ]
       },
       "nutrition": {
@@ -1030,8 +1039,8 @@
       },
       "servings_yield": "10-12 servings",
       "prep_time": "15 minutes",
-      "variants": [
-        "banana-pudding-bobby-jones-full-granny"
+      "notes": [
+        "Verified against the source scan gr-64 (typed family sheet, two recipes on one page) on 2026-08-30: both transcriptions matched the sheet. Unverified image refs gr-218/gr-219 dropped; gr-62 on the merged twin was an unrelated Irish Soda Bread sheet. A second transcription was merged away."
       ]
     },
     {
@@ -7666,211 +7675,6 @@
         "Recipe inferred from traditional frozen strawberry pie"
       ],
       "variant_of": "strawberries-n-cream-cheese-freeze-granny"
-    },
-    {
-      "id": "buttercups-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Buttercups",
-      "category": "desserts",
-      "source_note": "typed recipe card",
-      "temperature": "350\u00b0F (175\u00b0C)",
-      "cook_time": "20 min",
-      "ingredients": [
-        {
-          "item": "egg yolks",
-          "quantity": "3",
-          "unit": ""
-        },
-        {
-          "item": "sugar",
-          "quantity": "1",
-          "unit": "cup"
-        },
-        {
-          "item": "Maraschino cherries, cut into quarters",
-          "quantity": "1",
-          "unit": "8 oz jar"
-        },
-        {
-          "item": "Almond extract",
-          "quantity": "1",
-          "unit": "tsp"
-        },
-        {
-          "item": "margarine, softened",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "flour",
-          "quantity": "1/4",
-          "unit": "cup"
-        },
-        {
-          "item": "grated coconut",
-          "quantity": "1/2",
-          "unit": "cup"
-        },
-        {
-          "item": "ready-made pie crust",
-          "quantity": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Mix sugar and margarine, cream. Add rest of ingredients, mix well."
-        },
-        {
-          "step": 2,
-          "text": "For ready made pie crust or make your own."
-        },
-        {
-          "step": 3,
-          "text": "Roll the crust out like you would a pie using 7 by 11 pan, put crust in bottom, then spread filling over crust."
-        },
-        {
-          "step": 4,
-          "text": "Take next crust and roll dough to fit over top of filling. Cut off all remaining pie crust on side, just leaving crust to cover all the filling."
-        },
-        {
-          "step": 5,
-          "text": "With fork, pierce top. Brush with milk."
-        },
-        {
-          "step": 6,
-          "text": "Bake at 350\u00b0F for 20 minutes or until golden brown."
-        },
-        {
-          "step": 7,
-          "text": "Cool. Sprinkle with confectionary sugar. Cut into squares."
-        }
-      ],
-      "notes": [
-        "If you want a larger amount, double recipe and use 13 by 9 pan. You can still use ready crust but will have to piece together."
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-32"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 290,
-          "fat_g": 14.3,
-          "carbs_g": 37.2,
-          "protein_g": 3.9,
-          "sodium_mg": 118,
-          "fiber_g": 0.8,
-          "sugar_g": 25.9
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Maraschino cherries, cut into quarters: used default unit"
-        ]
-      },
-      "variant_of": "buttercups-granny"
-    },
-    {
-      "id": "banana-pudding-bobby-jones-full-granny",
-      "collection": "granny",
-      "collection_display": "Granny Hudson",
-      "title": "Banana Pudding (Bobby Jones)",
-      "category": "desserts",
-      "source_note": "typed recipe card",
-      "ingredients": [
-        {
-          "item": "Vanilla Instant Pudding",
-          "quantity": "2",
-          "unit": "boxes"
-        },
-        {
-          "item": "milk",
-          "quantity": "2",
-          "unit": "cups"
-        },
-        {
-          "item": "sour cream",
-          "quantity": "16",
-          "unit": "oz"
-        },
-        {
-          "item": "whipped cream",
-          "quantity": "12",
-          "unit": "oz"
-        },
-        {
-          "item": "bananas, sliced",
-          "quantity": "2",
-          "unit": ""
-        },
-        {
-          "item": "vanilla wafers",
-          "quantity": "1",
-          "unit": "box"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "text": "Dump pudding in bowl with 2 cups milk. Beat to firm."
-        },
-        {
-          "step": 2,
-          "text": "Fold in sour cream."
-        },
-        {
-          "step": 3,
-          "text": "Fold in whipped cream."
-        },
-        {
-          "step": 4,
-          "text": "Fold in sliced bananas."
-        },
-        {
-          "step": 5,
-          "text": "Fold in wafers."
-        },
-        {
-          "step": 6,
-          "text": "Refrigerate."
-        }
-      ],
-      "confidence": {
-        "overall": "high",
-        "flags": []
-      },
-      "image_refs": [
-        "gr-64",
-        "gr-62"
-      ],
-      "nutrition": {
-        "status": "complete",
-        "servings_used": 8,
-        "per_serving": {
-          "calories": 1558,
-          "fat_g": 154.6,
-          "carbs_g": 30.4,
-          "protein_g": 17.3,
-          "sodium_mg": 339,
-          "fiber_g": 0.8,
-          "sugar_g": 21.2
-        },
-        "missing_inputs": [],
-        "assumptions": [
-          "Vanilla Instant Pudding: used default unit",
-          "sour cream: used default unit",
-          "whipped cream: used default unit",
-          "vanilla wafers: used default unit"
-        ]
-      },
-      "variant_of": "banana-pudding-bobby-jones-granny"
     },
     {
       "id": "dumps-basic-brownies-handwritten-granny",
