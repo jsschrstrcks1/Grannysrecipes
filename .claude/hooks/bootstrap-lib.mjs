@@ -1,0 +1,421 @@
+// bootstrap-lib.mjs — shared loud-bootstrap stamp + guard logic.
+// Spec: docs/HOUSEHOLD-LOUD-BOOTSTRAP-REQUIREMENT.md v1.2.0 (R1–R3).
+// HLS: loud-bootstrap-impl-claude-code · loud-bootstrap-impl-grok
+//
+// Dual-runtime: Claude Code (snake_case tools) + Grok (camelCase tools).
+// Tamper-evidence grade: FRICTION, not proof (named limit, spec §4.1).
+import fs from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+
+/** Repo that contains this hooks tree (open-claw-stuff / ocs-work clone). */
+export const HOOK_FILE_REPO_ROOT = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "..",
+  "..",
+);
+/** @deprecated Prefer getRepoRoot(input) — kept for Claude test compatibility. */
+export const REPO_ROOT = HOOK_FILE_REPO_ROOT;
+export const REPO_NAME = path.basename(HOOK_FILE_REPO_ROOT);
+
+// Layer keys → canonical file suffix (read-observed). memory-recall is
+// command-observed (spec §4.1 per-layer observation table).
+export const LAYER_SUFFIXES = {
+  "soli-deo-gloria": "skills/soli-deo-gloria/SKILL.md",
+  "careful-not-clever": "skills/careful-not-clever/SKILL.md",
+  "sophos": "skills/sophos/SKILL.md",
+  "sophos-os": "docs/SOPHOS-OPERATING-SYSTEM.md",
+  "household-rulebook": "docs/HOUSEHOLD-AGENT-RULEBOOK.md",
+  "household-library": "skills/household-library/SKILL.md",
+};
+export const RECALL_CMD_RE =
+  /(memory_ops\.py\s+recall|recall-memory\.mjs|memory_evidence\.py\s+recall)/;
+export const ALL_LAYERS = [...Object.keys(LAYER_SUFFIXES), "memory-recall"];
+
+/** Grok / Claude tool names → canonical names used by stamp + guard.
+ *  Keys are lower-case; lookup is case-insensitive (adv: `bash` / `RUN_TERMINAL_COMMAND`). */
+const TOOL_ALIASES = {
+  read: "Read",
+  read_file: "Read",
+  bash: "Bash",
+  run_terminal_command: "Bash",
+  shell: "Bash",
+  edit: "Edit",
+  write: "Write",
+  multiedit: "Edit",
+  search_replace: "Edit",
+  notebookedit: "NotebookEdit",
+  notebook_edit: "NotebookEdit",
+};
+
+export function getRuntime() {
+  const r = String(process.env.HOUSEHOLD_RUNTIME || "").trim().toLowerCase();
+  if (r === "grok" || r === "claude-code" || r === "codex" || r === "hermes") return r;
+  return "claude-code";
+}
+
+export function getPatron() {
+  return process.env.HOUSEHOLD_PATRON
+    || (getRuntime() === "grok" ? "grok1" : "claude-code");
+}
+
+export function isHouseholdRepo(root) {
+  if (!root) return false;
+  try {
+    return (
+      fs.existsSync(path.join(root, "skills", "sophos", "SKILL.md"))
+      || fs.existsSync(path.join(root, ".household-library"))
+      || fs.existsSync(path.join(root, "docs", "SOPHOS-OPERATING-SYSTEM.md"))
+    );
+  } catch {
+    return false;
+  }
+}
+
+function walkHouseholdRoot(start) {
+  let cur = path.resolve(start);
+  for (let i = 0; i < 8; i++) {
+    if (isHouseholdRepo(cur)) return cur;
+    const parent = path.dirname(cur);
+    if (parent === cur) break;
+    cur = parent;
+  }
+  return null;
+}
+
+/**
+ * Resolve household repo root for this hook invocation.
+ * Prefer env, then workspace/cwd markers, else the hooks tree's clone.
+ */
+export function getRepoRoot(input = null) {
+  if (process.env.HOUSEHOLD_REPO_ROOT) {
+    return path.resolve(process.env.HOUSEHOLD_REPO_ROOT);
+  }
+  if (input) {
+    for (const key of ["workspaceRoot", "workspace_root", "cwd"]) {
+      const v = input[key];
+      if (v) {
+        const found = walkHouseholdRoot(String(v));
+        if (found) return found;
+      }
+    }
+  }
+  return HOOK_FILE_REPO_ROOT;
+}
+
+export function getRepoName(input = null) {
+  return path.basename(getRepoRoot(input));
+}
+
+/**
+ * Normalize Claude (snake_case) and Grok (camelCase) hook stdin into one shape.
+ * tool_name is canonical (Read|Bash|Edit|Write|NotebookEdit|…).
+ */
+export function normalizeHookInput(raw) {
+  if (!raw || typeof raw !== "object") return null;
+  // Session id comes from the hook PAYLOAD only — deliberately never from the
+  // environment. 2026-08-08: an agent proposed a CLAUDE_CODE_SESSION_ID fallback after
+  // seeing an id-less denial, then found it broke three sessionid-contract tests and
+  // was solving a bug that did not exist. Two reasons it must stay payload-only:
+  //   1. The premise was wrong. This runtime DOES supply session_id — the denial came
+  //      from a hand-made probe JSON that omitted it, not from a real invocation. The
+  //      real failure was that the hooks were never registered at all (multi-root/remote;
+  //      SOPHOS-OPERATING-SYSTEM §0 case 2, memory 6857086c, 2026-07-20). Fix the
+  //      registration (admin/install-bootstrap-dispatch.mjs), not the attribution.
+  //   2. Even if it were needed, env is AMBIENT, not per-invocation: an exported value
+  //      lets an id-less call inherit an identity the runtime never assigned it, which
+  //      is exactly the hole sessionIdValid() closes. The tests encode that contract.
+  const session_id = raw.session_id ?? raw.sessionId ?? raw.sessionID ?? "";
+  const rawTool = String(raw.tool_name ?? raw.toolName ?? "");
+  const tool_name = TOOL_ALIASES[rawTool.toLowerCase()] || rawTool;
+  const tool_input = raw.tool_input ?? raw.toolInput ?? {};
+  // Unify path fields: Claude file_path, Grok target_file / path
+  const file_path =
+    tool_input.file_path
+    ?? tool_input.target_file
+    ?? tool_input.path
+    ?? tool_input.notebook_path
+    ?? "";
+  // Shell command: string, or rare array form (join with spaces for scan only).
+  let command = tool_input.command ?? tool_input.cmd ?? "";
+  if (Array.isArray(command)) command = command.map(String).join(" ");
+  else command = String(command ?? "");
+  const normalized_input = {
+    ...tool_input,
+    file_path: file_path || tool_input.file_path,
+    command,
+  };
+  return {
+    session_id: String(session_id),
+    tool_name,
+    tool_input: normalized_input,
+    workspaceRoot: raw.workspaceRoot ?? raw.workspace_root ?? raw.cwd ?? "",
+    raw,
+  };
+}
+
+// Stamp root is HOUSEHOLD-SHARED, not per-repo (spec §5.2 A5, operator directive
+// 2026-07-20): the six-layer read order is household-global and a session is one
+// session across every repo it touches — per-repo buckets demand the same canonical
+// reads once per repo, and a multi-repo session bootstrapped in one repo is denied
+// in the next. Measured live 2026-08-19: Project-Sophos's guard (A5-lineage hooks,
+// shared bucket) was mechanically unsatisfiable because the canonical stamp hook
+// filed reads in a per-repo bucket its checker never consulted. The A5
+// implementation (5ba8fced) never merged to main; the per-repo variant arrived in a
+// bulk hook import (66b53970) with no counter-rationale — this restores the spec'd
+// design, keeping main's dual-runtime split and the env override. `input` stays in
+// the signature for caller compatibility; the location no longer depends on it.
+// Migration cost, named: stamps in the old per-repo buckets are not read from the
+// new location, so each live session re-earns its stamp once via the read order.
+// Operator applied 2026-08-19 (HLS p1-loud-bootstrap-spec-vs-lib-stamp-root).
+export function stampRoot(input = null) {
+  if (process.env.HOUSEHOLD_BOOTSTRAP_ROOT) {
+    return process.env.HOUSEHOLD_BOOTSTRAP_ROOT;
+  }
+  const runtime = getRuntime();
+  if (runtime === "grok") {
+    return path.join(os.homedir(), ".grok", "household-bootstrap", "household");
+  }
+  return path.join(os.homedir(), ".claude", "household-bootstrap", "household");
+}
+
+export function eventsPath(input = null) {
+  if (process.env.HOUSEHOLD_BOOTSTRAP_EVENTS) {
+    return process.env.HOUSEHOLD_BOOTSTRAP_EVENTS;
+  }
+  return path.join(getRepoRoot(input), ".household-library", "events.jsonl");
+}
+
+function secretPath(input = null) {
+  return path.join(stampRoot(input), ".secret");
+}
+
+export function getSecret(input = null) {
+  const p = secretPath(input);
+  try {
+    return fs.readFileSync(p, "utf8").trim();
+  } catch {
+    /* create */
+  }
+  fs.mkdirSync(stampRoot(input), { recursive: true });
+  const s = crypto.randomBytes(32).toString("hex");
+  fs.writeFileSync(p, s, { mode: 0o600 });
+  return s;
+}
+
+export function hmacOf(stamp, secret) {
+  const { hmac, ...body } = stamp;
+  const canon = JSON.stringify(body, Object.keys(body).sort());
+  return crypto.createHmac("sha256", secret).update(canon).digest("hex");
+}
+
+// Invalid ids must never satisfy the gate (loud-bootstrap-sessionid-contract).
+export function sessionIdValid(raw) {
+  const s = String(raw ?? "").trim();
+  return s !== "" && s.toLowerCase() !== "unknown";
+}
+
+export function stampPath(sessionId, input = null) {
+  const safe = String(sessionId || "unknown").replace(/[^A-Za-z0-9_.-]/g, "_");
+  return path.join(stampRoot(input), `${safe}.json`);
+}
+
+export function loadStamp(sessionId, input = null) {
+  try {
+    return JSON.parse(fs.readFileSync(stampPath(sessionId, input), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+export function newStamp(sessionId, input = null) {
+  const layers = {};
+  for (const k of ALL_LAYERS) layers[k] = null;
+  const runtime = getRuntime();
+  return {
+    session_id: String(sessionId || "unknown"),
+    runtime,
+    repo: getRepoName(input),
+    patron: getPatron(),
+    started_at: new Date().toISOString(),
+    layers_read: layers,
+    grade: "friction",
+    written_by:
+      runtime === "grok" ? "bootstrap-stamp-hook.mjs(grok)" : "bootstrap-stamp-hook.mjs",
+    ledgered: false,
+    denials: 0,
+  };
+}
+
+export function saveStamp(stamp, input = null) {
+  fs.mkdirSync(stampRoot(input), { recursive: true });
+  stamp.hmac = hmacOf(stamp, getSecret(input));
+  fs.writeFileSync(
+    stampPath(stamp.session_id, input),
+    JSON.stringify(stamp, null, 2) + "\n",
+  );
+}
+
+// null = missing; "forged" = HMAC mismatch; otherwise the verified stamp object.
+export function verifyStamp(sessionId, input = null) {
+  const stamp = loadStamp(sessionId, input);
+  if (!stamp) return null;
+  if (!stamp.hmac || stamp.hmac !== hmacOf(stamp, getSecret(input))) return "forged";
+  return stamp;
+}
+
+export function missingLayers(stamp) {
+  if (!stamp || stamp === "forged") return [...ALL_LAYERS];
+  return ALL_LAYERS.filter((k) => !stamp.layers_read?.[k]);
+}
+
+/** Canonicalize like admin/event-chain.mjs so sealed hashes match library.mjs. */
+function canonicalEventBody(value) {
+  if (Array.isArray(value)) return value.map(canonicalEventBody);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.keys(value)
+        .sort()
+        .map((key) => [key, canonicalEventBody(value[key])]),
+    );
+  }
+  return value;
+}
+
+/**
+ * When the household events ledger has started a hash chain, seal appends so
+ * hook denials cannot brick library.mjs with `unchained_event_after_chain`.
+ * Test ledgers (HOUSEHOLD_BOOTSTRAP_EVENTS) and pre-chain ledgers stay plain.
+ */
+function sealIfChainStarted(payload, file) {
+  if (process.env.HOUSEHOLD_BOOTSTRAP_EVENTS) return payload;
+  let prior = [];
+  try {
+    const text = fs.readFileSync(file, "utf8");
+    prior = text.trim()
+      ? text.trim().split("\n").filter(Boolean).map((l) => JSON.parse(l))
+      : [];
+  } catch {
+    return payload;
+  }
+  let parent = null;
+  for (let i = prior.length - 1; i >= 0; i--) {
+    if (typeof prior[i]?.event_hash === "string") {
+      parent = prior[i].event_hash;
+      break;
+    }
+  }
+  if (!parent) return payload; // chain not started (or empty)
+  const sealed = { ...payload, prev_hash: parent };
+  const body = { ...sealed };
+  delete body.event_hash;
+  const digest = crypto
+    .createHash("sha256")
+    .update(JSON.stringify(canonicalEventBody(body)), "utf8")
+    .digest("hex");
+  return { ...sealed, event_hash: `sha256:${digest}` };
+}
+
+function pidAlive(pid) {
+  if (!Number.isInteger(pid) || pid <= 0) return false;
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch (error) {
+    return error?.code === "EPERM";
+  }
+}
+
+// Hook side-channels share the library CLI's .catalog.lock. The CLI may repair
+// events.jsonl from a full snapshot before appending; an unlocked hook append in
+// that interval would otherwise be erased by the atomic rename.
+function withLibraryLock(file, fn) {
+  const root = path.dirname(file);
+  fs.mkdirSync(root, { recursive: true });
+  const lockPath = path.join(root, ".catalog.lock");
+  const deadline = Date.now() + 5000;
+  let fd = null;
+  for (;;) {
+    try {
+      fd = fs.openSync(lockPath, "wx");
+      fs.writeSync(fd, String(process.pid));
+      break;
+    } catch (error) {
+      if (error?.code !== "EEXIST") throw error;
+      try {
+        const pid = Number.parseInt(fs.readFileSync(lockPath, "utf8").trim(), 10);
+        const ageMs = Date.now() - fs.statSync(lockPath).mtimeMs;
+        const reclaim = Number.isInteger(pid)
+          ? (!pidAlive(pid) || ageMs > 300_000)
+          : ageMs > 30_000;
+        if (reclaim) fs.unlinkSync(lockPath);
+      } catch {
+        /* raced away or already gone */
+      }
+      if (Date.now() > deadline) throw new Error("catalog locked by another live writer");
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 50);
+    }
+  }
+  try {
+    return fn();
+  } finally {
+    try { fs.closeSync(fd); } catch { /* already closed */ }
+    try {
+      if (Number.parseInt(fs.readFileSync(lockPath, "utf8").trim(), 10) === process.pid) {
+        fs.unlinkSync(lockPath);
+      }
+    } catch { /* gone */ }
+  }
+}
+
+export function appendEvent(ev, input = null) {
+  try {
+    const file = eventsPath(input);
+    withLibraryLock(file, () => {
+      const payload = sealIfChainStarted(
+        {
+          at: new Date().toISOString(),
+          runtime: getRuntime(),
+          repo: getRepoName(input),
+          ...ev,
+        },
+        file,
+      );
+      fs.appendFileSync(file, JSON.stringify(payload) + "\n");
+    });
+  } catch {
+    /* ledger append is best-effort */
+  }
+}
+
+export function readStdinJson() {
+  try {
+    return JSON.parse(fs.readFileSync(0, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+/** Layer path hit from a file path string. */
+export function layerFromFilePath(fp) {
+  const s = String(fp || "");
+  for (const [key, suffix] of Object.entries(LAYER_SUFFIXES)) {
+    if (s.endsWith(suffix)) return key;
+  }
+  // Also accept Grok home install copies of the front door.
+  if (s.includes(`${path.sep}.grok${path.sep}skills${path.sep}sophos${path.sep}SKILL.md`)) {
+    return "sophos";
+  }
+  if (s.includes(`${path.sep}.grok${path.sep}skills${path.sep}soli-deo-gloria${path.sep}`)) {
+    return "soli-deo-gloria";
+  }
+  if (s.includes(`${path.sep}.grok${path.sep}skills${path.sep}careful-not-clever${path.sep}`)) {
+    return "careful-not-clever";
+  }
+  if (s.includes(`${path.sep}.grok${path.sep}skills${path.sep}household-library${path.sep}`)) {
+    return "household-library";
+  }
+  return null;
+}
