@@ -453,6 +453,44 @@ function renderRecipeCard(recipe) {
 /**
  * Render full recipe detail page (async for on-demand shard loading)
  */
+/**
+ * Reader display settings (operator directive 2026-08-30): the recipe page shows
+ * the recipe itself (ingredients, instructions, oven directions, frosting) and
+ * nutrition facts by default; every other section is opt-in via the gear panel.
+ * Choices persist in this browser only (localStorage) — never on the server.
+ */
+const DISPLAY_PREFS_KEY = 'recipe-display-prefs';
+const DISPLAY_DEFAULTS = { nutrition: true };
+const DISPLAY_LABELS = {
+  description: 'Description',
+  source: 'Source note',
+  quickfacts: 'Quick facts',
+  milksub: 'Milk substitution',
+  nutrition: 'Nutrition facts',
+  notes: 'Notes',
+  tags: 'Tags',
+  tips: 'Related kitchen tips',
+  flags: 'Transcription confidence',
+  scan: 'Original recipe scan'
+};
+
+function loadDisplayPrefs() {
+  try {
+    return Object.assign({}, DISPLAY_DEFAULTS, JSON.parse(localStorage.getItem(DISPLAY_PREFS_KEY)) || {});
+  } catch (e) {
+    return Object.assign({}, DISPLAY_DEFAULTS);
+  }
+}
+let displayPrefs = loadDisplayPrefs();
+function saveDisplayPrefs() {
+  try { localStorage.setItem(DISPLAY_PREFS_KEY, JSON.stringify(displayPrefs)); } catch (e) { /* private mode */ }
+}
+function prefOn(key) { return !!displayPrefs[key]; }
+function prefWrap(key, html) {
+  if (!html) return '';
+  return `<div class="pref-section" data-pref="${key}"${prefOn(key) ? '' : ' hidden'}>${html}</div>`;
+}
+
 async function renderRecipeDetail(recipeId) {
   const container = document.getElementById('recipe-content');
 
@@ -486,28 +524,27 @@ async function renderRecipeDetail(recipeId) {
       <header class="recipe-header">
         <h1>${escapeHtml(recipe.title)}</h1>
         ${recipe.attribution ? `<p class="recipe-attribution">From: ${escapeHtml(recipe.attribution)}</p>` : ''}
-        ${recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : ''}
-        ${recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : ''}
 
         <div class="header-controls">
-          <div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
+          ${prefWrap('flags', `<div class="confidence-indicator confidence-${escapeAttr(recipe.confidence?.overall || 'high')}">
             Confidence: ${escapeHtml(capitalizeFirst(recipe.confidence?.overall || 'high'))}
-          </div>
+          </div>`)}
 
           ${variants.length > 0 ? renderVariantTabs(recipe, variants) : ''}
         </div>
 
         <div class="action-buttons" style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
           <button id="print-btn" class="btn btn-secondary btn-print">Print Recipe</button>
+          <button id="display-settings-btn" class="btn btn-secondary" aria-expanded="false" aria-controls="display-settings-panel">&#9881; Display</button>
           ${recipe.conversions?.has_conversions ? `
             <button id="metric-toggle" class="btn btn-secondary">
               ${showMetric ? 'Show US Units' : 'Show Metric'}
             </button>
           ` : ''}
         </div>
+        <div id="display-settings-panel" class="display-settings-panel" hidden></div>
       </header>
 
-      ${renderQuickFacts(recipe)}
 
       <section class="ingredients-section">
         <h2>Ingredients ${showMetric && recipe.conversions?.has_conversions ? '<span class="unit-badge">Metric (approx.)</span>' : ''}</h2>
@@ -527,12 +564,15 @@ async function renderRecipeDetail(recipeId) {
 
       ${recipe.oven_directions ? renderOvenDirections(recipe.oven_directions) : ''}
       ${recipe.frosting ? renderFrosting(recipe.frosting) : ''}
-      ${recipe.nutrition ? renderNutrition(recipe.nutrition, recipe.servings_yield) : ''}
-      ${recipe.notes && recipe.notes.length > 0 ? renderNotes(recipe.notes) : ''}
+      ${recipe.nutrition ? prefWrap('nutrition', renderNutrition(recipe.nutrition, recipe.servings_yield)) : ''}
+      ${prefWrap('description', recipe.description ? `<p>${escapeHtml(recipe.description)}</p>` : '')}
+      ${prefWrap('source', recipe.source_note ? `<p class="recipe-source">${escapeHtml(recipe.source_note)}</p>` : '')}
+      ${prefWrap('quickfacts', renderQuickFacts(recipe))}
+      ${recipe.notes && recipe.notes.length > 0 ? prefWrap('notes', renderNotes(recipe.notes)) : ''}
       ${recipe.conversions?.conversion_assumptions?.length > 0 && showMetric ? renderConversionNotes(recipe.conversions) : ''}
-      ${renderTags(recipe.tags)}
-      ${renderConfidenceFlags(recipe.confidence?.flags)}
-      ${renderOriginalScan(recipe.image_refs, recipe.collection)}
+      ${prefWrap('tags', renderTags(recipe.tags))}
+      ${prefWrap('flags', renderConfidenceFlags(recipe.confidence?.flags))}
+      ${prefWrap('scan', renderOriginalScan(recipe.image_refs, recipe.collection))}
     </article>
   `;
 
@@ -542,6 +582,29 @@ async function renderRecipeDetail(recipeId) {
   const printBtn = document.getElementById('print-btn');
   if (printBtn) {
     printBtn.addEventListener('click', () => window.print());
+  }
+
+
+  // Display settings: the panel lists only the sections this page actually has
+  const settingsBtn = document.getElementById('display-settings-btn');
+  const settingsPanel = document.getElementById('display-settings-panel');
+  if (settingsBtn && settingsPanel) {
+    const present = [...new Set([...container.querySelectorAll('[data-pref]')].map(n => n.dataset.pref))];
+    settingsPanel.innerHTML = '<span class="display-settings-title">Show on this page:</span>' +
+      present.map(k => `
+        <label class="display-settings-row"><input type="checkbox" data-prefkey="${escapeAttr(k)}" ${prefOn(k) ? 'checked' : ''}> ${escapeHtml(DISPLAY_LABELS[k] || k)}</label>`).join('');
+    settingsBtn.addEventListener('click', () => {
+      const opening = settingsPanel.hidden;
+      settingsPanel.hidden = !opening;
+      settingsBtn.setAttribute('aria-expanded', String(opening));
+    });
+    settingsPanel.querySelectorAll('input[data-prefkey]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        displayPrefs[cb.dataset.prefkey] = cb.checked;
+        saveDisplayPrefs();
+        container.querySelectorAll(`[data-pref="${cb.dataset.prefkey}"]`).forEach(n => { n.hidden = !cb.checked; });
+      });
+    });
   }
 
   const metricToggle = document.getElementById('metric-toggle');

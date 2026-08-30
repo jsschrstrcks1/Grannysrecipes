@@ -2749,3 +2749,35 @@ main {
   font-weight: 600;
   cursor: default;
 }
+
+/* Display settings — reader-chosen sections (gear panel on recipe pages) */
+.display-settings-panel {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--color-teal, #4db6ac);
+  border-radius: 8px;
+  background-color: var(--color-warm-white, #fffdf7);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+}
+
+.display-settings-title {
+  flex-basis: 100%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-light, #666);
+}
+
+.display-settings-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.display-settings-row input {
+  accent-color: var(--color-teal, #4db6ac);
+}

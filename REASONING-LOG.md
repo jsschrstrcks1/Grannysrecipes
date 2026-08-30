@@ -2,6 +2,33 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Reader display settings on recipe pages (syl)
+
+**Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers
+pick sections. Default view: the recipe with instructions first, then nutrition facts;
+everything else unchecked. And (mid-work directive): with ALL settings on, the recipe
+still leads and nutrition still follows it. Also answered: no, this did not exist before
+— this session had only added variant tabs.
+
+**Weighed.** The four sites share one script lineage, so one transformation was verified
+on Allrecipes then applied with per-pattern exact-match counts (Grandmas needed its own
+function-signature anchor and had an unconditional milk-substitution div to wrap). The
+template was REORDERED, not just gated: description, source note, quick facts, and the
+milk-substitution panel moved from above the ingredients to after nutrition, so section
+order no longer depends on which toggles are on. The gear panel lists only sections the
+current page actually has; prefs persist in localStorage (per browser, never server).
+
+**Decided.** Defaults: nutrition ON; description, source, quick facts, milk-sub, notes,
+tags, tips, confidence/flags, original scan all OFF. Verified in a real browser
+(Playwright against a locally served copy): section order ingredients → instructions →
+nutrition → optionals; nutrition visible and quick facts hidden by default; the gear
+lists only present sections; checking Notes reveals it; the choice SURVIVES a reload.
+
+**Unsure.** A pre-existing page error fires on recipe.html opened without a recipe hash
+("Cannot read properties of null (reading style)") — reproduced on HEAD before this
+change, left for its own fix. The conversion-notes block stays tied to the metric button
+rather than the gear, deliberately — it already has a control.
+
 ## 2026-08-30 — Follow-up C: cross-title same-dish variants, a REVIEWED pass (syl)
 
 **Asked.** Operator: proceed — the "Grandma's Beef Wellington vs Gordon Ramsay's Beef
