@@ -2139,11 +2139,14 @@
       "confidence": {
         "overall": "low",
         "flags": [
-          "typed commercial recipe",
-          "details hard to read"
+          "source-card-unscanned",
+          "content-unrecovered"
         ]
       },
-      "source_note": "typed coupon card - Enova"
+      "source_note": "typed coupon card - Enova",
+      "notes": [
+        "SOURCE UNRECOVERABLE so far (2026-08-30): the Enova coupon card was never scanned (gr-240 absent), and Enova oil is a discontinued brand whose recipes are no longer on the indexable web. Nothing is invented here \u2014 the record stays a stub until the physical card is found and rescanned."
+      ]
     },
     {
       "id": "grandmas-wheat-bran-muffins-granny",

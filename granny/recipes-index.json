@@ -3046,7 +3046,7 @@
       ],
       "collection": "granny",
       "collection_display": "Granny Hudson",
-      "description": "Collection of fish recipes including Parmesan Fillets, Almond Fillets, Fish and Vegetable Salad, and",
+      "description": "Collection of fish recipes: Fillets in Foil, Dilled Fish and Vegetable Salad, Almond Fillets on Curr",
       "servings_yield": "",
       "total_time": "",
       "variant_of": null,
@@ -3120,7 +3120,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Grilled pork with Kikkoman marinade, Yucatan style.",
-      "servings_yield": "",
+      "servings_yield": "6 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null
@@ -3138,7 +3138,7 @@
       "collection": "granny",
       "collection_display": "Granny Hudson",
       "description": "Creamy rice pudding made with lactose-free milk.",
-      "servings_yield": "",
+      "servings_yield": "12 servings",
       "total_time": "",
       "variant_of": null,
       "canonical_id": null

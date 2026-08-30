@@ -8287,12 +8287,73 @@
         "gr-240"
       ],
       "confidence": {
-        "overall": "low",
+        "overall": "medium",
         "flags": [
-          "typed commercial recipe"
+          "researched-reconstruction",
+          "source-card-unscanned"
         ]
       },
-      "source_note": "typed coupon card - Lactaid"
+      "source_note": "typed coupon card - Lactaid",
+      "ingredients": [
+        {
+          "item": "LACTAID fat-free milk",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "uncooked white rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk, rice, sugar and salt in top of a double boiler."
+        },
+        {
+          "step": 2,
+          "text": "Cover and cook over simmering water 1 to 2 hours, or until thickened, stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and add cinnamon, vanilla and raisins."
+        },
+        {
+          "step": 4,
+          "text": "Serve hot or cold."
+        }
+      ],
+      "servings_yield": "12 servings",
+      "attribution": "LACTAID\u00ae",
+      "notes": [
+        "RESEARCHED RECONSTRUCTION (2026-08-30): the family's Lactaid coupon card was never scanned (its gr-240 image is absent from the archive). This is the LACTAID\u00ae published recipe 'Delicious Rice Pudding' (lactaid.com/recipes/desserts/delicious-rice-pudding; quantities via The Dairy Alliance's credited mirror). Verify against the physical card when it is found and rescanned."
+      ]
     }
   ]
 }

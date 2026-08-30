@@ -2,6 +2,36 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Rebuilding the empty records, as far as honesty reaches (syl)
+
+**Asked.** Operator: investigate the records with no ingredients/instructions and try to
+rebuild them. (Correction to the earlier phrasing: it is 4 records showing 8 validator
+errors, not 8 records.)
+
+**Weighed.** All four point at scans that were never committed (gr-190, gr-240 — part of
+a ~60-ref gap of unpushed images). The archive itself could not supply the text, so the
+paths were: neighboring scans (gr-189 IS the Fish Is Good Food pamphlet PHOTO side —
+panels and Gorton's branding match the record; its text side is the missing gr-190), and
+brand research for the three "typed coupon card" records, since those are published
+branded recipes, not family compositions. Fabricating from training memory was not on
+the table.
+
+**Decided.** Lactaid Rice Pudding and Kikkoman Yucatan Grilled Pork rebuilt from the
+brands' own published recipes (lactaid.com via The Dairy Alliance credited mirror;
+kikkomanusa.com), each marked RESEARCHED RECONSTRUCTION with the source URL, medium
+confidence, and a verify-against-the-card note. The Enova muffins could NOT be recovered
+(discontinued brand, recipe gone from the indexable web) — the record says so and stays a
+stub rather than getting an invented ingredient list; same for the fish pamphlet text
+side, whose record gained the verified gr-189 photo ref and Gorton's attribution. Bonus
+verified fix while in the scans: the handwritten Beef Rice Meatballs card (gr-66) says
+mix with 1/4 cup tomato juice — the transcription said 1/2; corrected with a note.
+Validator errors 8 -> 4, both remaining are the deliberate honest stubs.
+
+**Unsure.** Whether the coupon cards carried exactly the brands' web-published versions —
+the notes say to verify when the physical cards are found and rescanned as gr-240. The
+missing-scan gap (60 refs, gr-1xx-3xx) needs the originals pushed from wherever they
+live; that is an operator-side step no agent can do from here.
+
 ## 2026-08-30 — Reader display settings on recipe pages (syl)
 
 **Asked.** Operator: recipe pages show a LOT of data — add a settings area so readers

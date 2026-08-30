@@ -20391,7 +20391,7 @@
       "instructions": [
         {
           "step": 1,
-          "text": "Mix ground beef with rice, onion, thyme, egg, salt & pepper into 1/2 cup of tomato juice. Shape into large balls using tablespoon."
+          "text": "Mix ground beef with rice, onion, thyme, egg, salt & pepper into 1/4 cup of tomato juice. Shape into large balls using tablespoon."
         },
         {
           "step": 2,
@@ -20403,10 +20403,9 @@
         }
       ],
       "confidence": {
-        "overall": "medium",
+        "overall": "high",
         "flags": [
-          "handwritten",
-          "family-heirloom"
+          "verified-against-scan"
         ]
       },
       "image_refs": [
@@ -20432,7 +20431,10 @@
           "instant beef broth: used default unit"
         ]
       },
-      "variant_of": "beef-rice-meatballs-granny"
+      "variant_of": "beef-rice-meatballs-granny",
+      "notes": [
+        "Verified against the source card (gr-66/gr-67; also photographed as IMG_4389-91) on 2026-08-30: the card mixes with 1/4 cup of the tomato juice — an earlier transcription said 1/2 cup."
+      ]
     },
     {
       "id": "pickled-beets-shag-taylor-granny",
@@ -21382,12 +21384,13 @@
       "collection_display": "Granny Hudson",
       "title": "Fish Is Good Food (Recipe Collection)",
       "category": "mains",
-      "description": "Collection of fish recipes including Parmesan Fillets, Almond Fillets, Fish and Vegetable Salad, and Fillets in Foil.",
+      "description": "Collection of fish recipes: Fillets in Foil, Dilled Fish and Vegetable Salad, Almond Fillets on Curried Rice, and Parmesan Fillets and Kabobs (Gorton's Fishmarket Fresh Fillets pamphlet).",
       "notes": [
         "Parmesan Fillets: Coat fish with Parmesan, bake until flaky.",
         "Almond Fillets on Curried Rice: Bake fish with almonds, serve on curried rice.",
         "Fish and Vegetable Salad: Combine flaked fish with vegetables.",
-        "Fillets in Foil: Wrap seasoned fish in foil, bake until done."
+        "Fillets in Foil: Wrap seasoned fish in foil, bake until done.",
+        "Verified 2026-08-30: gr-189 is this pamphlet's PHOTO side (panel titles and Gorton's branding match); the recipe-text side (gr-190) was never scanned, so the full ingredient lists and steps are not in the archive. Rescan the text side to complete this record."
       ],
       "tags": [
         "fish",
@@ -21395,17 +21398,17 @@
         "healthy"
       ],
       "image_refs": [
-        "gr-190"
+        "gr-189"
       ],
       "confidence": {
         "overall": "low",
         "flags": [
-          "typed commercial pamphlet",
-          "multiple recipes on one sheet",
-          "details hard to read"
+          "verified-against-scan",
+          "text-side-unscanned"
         ]
       },
-      "source_note": "typed pamphlet - Fish Is Good Food"
+      "source_note": "typed pamphlet - Fish Is Good Food",
+      "attribution": "Gorton's"
     },
     {
       "id": "cream-cheese-gems-granny",
@@ -21634,11 +21637,14 @@
       "confidence": {
         "overall": "low",
         "flags": [
-          "typed commercial recipe",
-          "details hard to read"
+          "source-card-unscanned",
+          "content-unrecovered"
         ]
       },
-      "source_note": "typed coupon card - Enova"
+      "source_note": "typed coupon card - Enova",
+      "notes": [
+        "SOURCE UNRECOVERABLE so far (2026-08-30): the Enova coupon card was never scanned (gr-240 absent), and Enova oil is a discontinued brand whose recipes are no longer on the indexable web. Nothing is invented here — the record stays a stub until the physical card is found and rescanned."
+      ]
     },
     {
       "id": "yucatan-grilled-pork-granny",
@@ -21656,12 +21662,75 @@
         "gr-240"
       ],
       "confidence": {
-        "overall": "low",
+        "overall": "medium",
         "flags": [
-          "typed commercial recipe"
+          "researched-reconstruction",
+          "source-card-unscanned"
         ]
       },
-      "source_note": "typed coupon card - Kikkoman"
+      "source_note": "typed coupon card - Kikkoman",
+      "ingredients": [
+        {
+          "item": "Kikkoman Soy Sauce",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "grapefruit juice",
+          "quantity": "1/4",
+          "unit": "cup"
+        },
+        {
+          "item": "serrano chilies",
+          "quantity": "2",
+          "unit": "medium",
+          "prep_note": "seeded and minced"
+        },
+        {
+          "item": "vegetable oil",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "pepper",
+          "quantity": "1/4",
+          "unit": "tsp"
+        },
+        {
+          "item": "pork tenderloins",
+          "quantity": "2",
+          "unit": "",
+          "prep_note": "about 3/4 pound each"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine soy sauce, grapefruit juice, chilies, oil, cumin and pepper; pour over pork in a large plastic food storage bag."
+        },
+        {
+          "step": 2,
+          "text": "Press air out of bag; close top securely. Turn bag over several times to coat pieces well. Refrigerate 1 hour."
+        },
+        {
+          "step": 3,
+          "text": "Place pork on grill 5 to 7 inches from medium-hot coals. Cook 20 minutes, or until a meat thermometer inserted into the thickest part registers 160°F, turning over occasionally."
+        },
+        {
+          "step": 4,
+          "text": "Let stand 5 minutes before carving."
+        }
+      ],
+      "servings_yield": "6 servings",
+      "attribution": "Kikkoman",
+      "notes": [
+        "RESEARCHED RECONSTRUCTION (2026-08-30): the family's Kikkoman coupon card was never scanned (gr-240 absent). This is Kikkoman's published 'Yucatan Grilled Pork' (kikkomanusa.com/homecooks/recipes/Yucatan-Grilled-Pork---Low-Carb). Verify against the physical card when found."
+      ]
     },
     {
       "id": "rice-pudding-lactaid-granny",
@@ -21680,12 +21749,73 @@
         "gr-240"
       ],
       "confidence": {
-        "overall": "low",
+        "overall": "medium",
         "flags": [
-          "typed commercial recipe"
+          "researched-reconstruction",
+          "source-card-unscanned"
         ]
       },
-      "source_note": "typed coupon card - Lactaid"
+      "source_note": "typed coupon card - Lactaid",
+      "ingredients": [
+        {
+          "item": "LACTAID fat-free milk",
+          "quantity": "5",
+          "unit": "cups"
+        },
+        {
+          "item": "uncooked white rice",
+          "quantity": "1",
+          "unit": "cup"
+        },
+        {
+          "item": "sugar",
+          "quantity": "1/2",
+          "unit": "cup"
+        },
+        {
+          "item": "salt",
+          "quantity": "1/2",
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "vanilla extract",
+          "quantity": "1",
+          "unit": "tsp"
+        },
+        {
+          "item": "raisins",
+          "quantity": "1/2",
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Combine milk, rice, sugar and salt in top of a double boiler."
+        },
+        {
+          "step": 2,
+          "text": "Cover and cook over simmering water 1 to 2 hours, or until thickened, stirring occasionally."
+        },
+        {
+          "step": 3,
+          "text": "Remove from heat and add cinnamon, vanilla and raisins."
+        },
+        {
+          "step": 4,
+          "text": "Serve hot or cold."
+        }
+      ],
+      "servings_yield": "12 servings",
+      "attribution": "LACTAID®",
+      "notes": [
+        "RESEARCHED RECONSTRUCTION (2026-08-30): the family's Lactaid coupon card was never scanned (its gr-240 image is absent from the archive). This is the LACTAID® published recipe 'Delicious Rice Pudding' (lactaid.com/recipes/desserts/delicious-rice-pudding; quantities via The Dairy Alliance's credited mirror). Verify against the physical card when it is found and rescanned."
+      ]
     },
     {
       "id": "creamy-mild-au-gratin-granny",
