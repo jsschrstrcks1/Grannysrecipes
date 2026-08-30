@@ -2721,3 +2721,31 @@ main {
 }
 
 /* Collection filter responsive - merged into main mobile styles above */
+
+/* Variant Tabs - one dish, its versions side by side, labeled by provenance */
+.variant-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs, 0.5rem);
+  margin-top: var(--spacing-sm, 0.75rem);
+}
+
+.variant-tab {
+  padding: var(--spacing-xs, 0.35rem) var(--spacing-md, 1rem);
+  border: 2px solid var(--color-teal, #4db6ac);
+  border-radius: 20px;
+  font-size: 0.9rem;
+  background-color: var(--color-warm-white, #fffdf7);
+  cursor: pointer;
+}
+
+.variant-tab:hover {
+  border-color: var(--color-teal-dark, #00897b);
+}
+
+.variant-tab.on {
+  background-color: var(--color-teal, #4db6ac);
+  color: #fff;
+  font-weight: 600;
+  cursor: default;
+}

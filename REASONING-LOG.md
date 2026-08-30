@@ -2,6 +2,25 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Variant tabs on the recipe page, phase 3 (syl)
+
+**Asked:** One listing per dish; versions as tabs with provenance (operator directive,
+household dup/variant campaign).
+
+**Weighed:** This site already collapsed variants in its lists and resolved families in
+findVariants, but presented them as a <select> dropdown. Tabs put the versions in sight:
+labeled by attribution (then short source note, then title), canonical first, active tab
+inert, aria tablist roles, hover shows full title + variant notes. Identical change
+applied across the three family sites and Other Recipes — the scripts share one lineage
+and were patched from one verified template (exact-match replacement, node --check on
+each).
+
+**Decided:** renderVariantsDropdown -> renderVariantTabs; select-change handler -> tab
+click handlers; .variant-tab styles appended beside the dropdown styles. Presentation
+only; 0 data records changed.
+
+**Unsure:** Untested in a browser here; logic mirrors the dropdown handler one-for-one.
+
 ## 2026-08-30 — Variant linking, phase 2 (syl)
 
 **Asked:** Link same-dish recipes to a canonical primary per operator law 990f37e1

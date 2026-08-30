@@ -494,7 +494,7 @@ async function renderRecipeDetail(recipeId) {
             Confidence: ${escapeHtml(capitalizeFirst(recipe.confidence?.overall || 'high'))}
           </div>
 
-          ${variants.length > 0 ? renderVariantsDropdown(recipe, variants) : ''}
+          ${variants.length > 0 ? renderVariantTabs(recipe, variants) : ''}
         </div>
 
         <div class="action-buttons" style="margin-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
@@ -553,15 +553,14 @@ async function renderRecipeDetail(recipeId) {
   }
 
   // Variant dropdown handler
-  const variantSelect = document.getElementById('variant-select');
-  if (variantSelect) {
-    variantSelect.addEventListener('change', (e) => {
-      if (e.target.value) {
-        window.location.hash = e.target.value;
-        renderRecipeDetail(e.target.value);
-      }
+  // Variant tab handler — the active tab is inert; the rest navigate
+  document.querySelectorAll('.variant-tab[data-vid]').forEach(tab => {
+    if (tab.dataset.vid === recipe.id) return;
+    tab.addEventListener('click', () => {
+      window.location.hash = tab.dataset.vid;
+      renderRecipeDetail(tab.dataset.vid);
     });
-  }
+  });
 }
 
 /**
@@ -594,16 +593,28 @@ function findVariants(recipe) {
 /**
  * Render variants dropdown
  */
-function renderVariantsDropdown(currentRecipe, variants) {
+function renderVariantTabs(currentRecipe, variants) {
+  // One dish, one page: the versions sit as tabs, labeled by provenance
+  // (attribution first), canonical version first; the active tab is inert.
+  const canonicalId = currentRecipe.variant_of || currentRecipe.canonical_id || currentRecipe.id;
+  const family = new Map();
+  family.set(currentRecipe.id, currentRecipe);
+  variants.forEach(v => { if (!family.has(v.id)) family.set(v.id, v); });
+  const members = [...family.values()].sort((a, b) =>
+    (a.id === canonicalId ? -1 : b.id === canonicalId ? 1 : 0) ||
+    String(a.title).localeCompare(String(b.title)) || String(a.id).localeCompare(String(b.id)));
+  if (members.length < 2) return '';
+  const label = (m) => m.attribution ||
+    (m.source_note ? m.source_note.substring(0, 40) : '') || m.title;
   return `
-    <div class="variants-dropdown">
-      <label for="variant-select">Variants:</label>
-      <select id="variant-select" class="variant-select">
-        <option value="${escapeAttr(currentRecipe.id)}" selected>${escapeHtml(currentRecipe.source_note || 'Current version')}</option>
-        ${variants.map(v => `
-          <option value="${escapeAttr(v.id)}">${escapeHtml(v.source_note || v.title)}${v.variant_notes ? ` - ${escapeHtml(v.variant_notes.substring(0, 50))}...` : ''}</option>
-        `).join('')}
-      </select>
+    <div class="variant-tabs" role="tablist" aria-label="Recipe versions">
+      ${members.map(m => `
+        <button class="variant-tab${m.id === currentRecipe.id ? ' on' : ''}" role="tab"
+          aria-selected="${m.id === currentRecipe.id}" data-vid="${escapeAttr(m.id)}"
+          title="${escapeAttr(m.title)}${m.variant_notes ? ' — ' + escapeAttr(m.variant_notes) : ''}">
+          ${escapeHtml(label(m))}
+        </button>
+      `).join('')}
     </div>
   `;
 }
