@@ -2,6 +2,24 @@
 
 # Reasoning Log
 
+## 2026-08-30 — Grandma's memorial album moved out (syl)
+
+**Asked.** Operator (cleanup item 6): the Memorial/Grandma images belong to Grandma, not
+Granny — move them to the Grandmasrecipes repo.
+
+**Weighed.** 618 files, 394 MB — most of this repo's weight, and the wrong person's
+archive. Verified landed in Grandmasrecipes (commit 255f4f2b, pushed) BEFORE removal
+here, so the history never has a moment where the album exists nowhere. Reviewed samples
+plus a document-likeness triage over all 606 photos found no recipe content, so nothing
+recipe-linked in THIS repo's data depended on the folder (no record references any
+Memorial path — checked).
+
+**Decided.** git rm Memorial/Grandma; the album now lives in
+Grandmasrecipes/Memorial/Grandma with a README pointer there.
+
+**Unsure.** Nothing material — the copy was verified on the remote before the removal
+committed.
+
 ## 2026-08-30 — Rebuilding the empty records, as far as honesty reaches (syl)
 
 **Asked.** Operator: investigate the records with no ingredients/instructions and try to
