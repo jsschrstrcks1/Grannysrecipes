@@ -2,6 +2,16 @@
 
 # Reasoning Log
 
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
+
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
 **Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.

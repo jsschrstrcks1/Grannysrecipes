@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/observe-tool-use-dispatch.sh"
           }
         ]
       },
