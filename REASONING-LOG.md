@@ -2,6 +2,16 @@
 
 # Reasoning Log
 
+## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
+
+**Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
+
+**Weighed.** CLAUDE.md here asserts the household guards; the repo carried none of the hook files and no registrations, so the user-level dispatcher (which delegates only to repos carrying the guard file) admitted an unstamped Write — measured with an inert probe, exit 0. The remedy is the canonical installer, not a hand copy; the alternative of relying on user-level dispatch alone is exactly the false-CALM the parent task names.
+
+**Decided.** Ran `admin/onboard-loud-bootstrap.mjs` from a canonical clone at the #3077 fix: five hook files plus four settings registrations. Re-probed: DENIED (exit 2), no orphan .household-library, stamped session still allowed.
+
+**Unsure.** core.hooksPath is unset here, so the .githooks chain (including the reasoning-log guard) is dead in git — a separate household task (hh-hookspath-arming-parity); I did not arm it in this change.
+
 ## 2026-08-30 — Grandma's memorial album moved out (syl)
 
 **Asked.** Operator (cleanup item 6): the Memorial/Grandma images belong to Grandma, not
