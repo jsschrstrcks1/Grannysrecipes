@@ -2,6 +2,16 @@
 
 # Reasoning Log
 
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
 ## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
 
 **Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
