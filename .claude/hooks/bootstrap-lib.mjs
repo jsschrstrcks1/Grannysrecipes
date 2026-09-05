@@ -196,9 +196,9 @@ export function stampRoot(input = null) {
   }
   const runtime = getRuntime();
   if (runtime === "grok") {
-    return path.join(os.homedir(), ".grok", "household-bootstrap", "household");
+    return path.join(os.homedir(), ".grok", "household-bootstrap", "household-v2");
   }
-  return path.join(os.homedir(), ".claude", "household-bootstrap", "household");
+  return path.join(os.homedir(), ".claude", "household-bootstrap", "household-v2");
 }
 
 export function eventsPath(input = null) {
@@ -212,22 +212,38 @@ function secretPath(input = null) {
   return path.join(stampRoot(input), ".secret");
 }
 
-export function getSecret(input = null) {
+// The HMAC key for stamp sealing/verification. A failed READ must never become a WRITE
+// (p1-guard-residual / #2752): distinguish a genuine first run (no secret yet -> create) from
+// an existing-but-UNREADABLE secret. Overwriting the latter would ROTATE the key and ERASE the
+// on-disk tamper signal, and THROWING would escape bootstrap-guard's outer catch, which fails
+// OPEN (exit 0). On any non-ENOENT read error — or a read-only caller (verify) that reached a
+// missing secret — do neither: return an EPHEMERAL, unpersisted key so every HMAC check fails
+// CLOSED ("forged") while the on-disk secret is left untouched. `allowCreate` is the asymmetry:
+// only sealing (first run) may mint; verification is strictly read-only.
+export function getSecret(input = null, { allowCreate = true } = {}) {
   const p = secretPath(input);
   try {
     return fs.readFileSync(p, "utf8").trim();
-  } catch {
-    /* create */
+  } catch (e) {
+    const code = e && e.code;
+    if (code === "ENOENT" && allowCreate) {
+      fs.mkdirSync(stampRoot(input), { recursive: true });
+      const s = crypto.randomBytes(32).toString("hex");
+      fs.writeFileSync(p, s, { mode: 0o600 });
+      return s;
+    }
+    console.error(
+      `bootstrap-lib.getSecret: secret at ${p} could not be read (${code || "unknown"})${allowCreate ? "" : " under a read-only check"} — using an ephemeral key so verification fails CLOSED; the on-disk secret was NOT overwritten. Restore its permissions to re-enable bootstrap.`,
+    );
+    return crypto.randomBytes(32).toString("hex");
   }
-  fs.mkdirSync(stampRoot(input), { recursive: true });
-  const s = crypto.randomBytes(32).toString("hex");
-  fs.writeFileSync(p, s, { mode: 0o600 });
-  return s;
 }
 
 export function hmacOf(stamp, secret) {
   const { hmac, ...body } = stamp;
-  const canon = JSON.stringify(body, Object.keys(body).sort());
+  // Recursively bind the read evidence too. A replacer array drops nested keys.
+  // Legacy seals must be re-earned through observed reads; never accept both formats.
+  const canon = JSON.stringify(canonicalEventBody(body));
   return crypto.createHmac("sha256", secret).update(canon).digest("hex");
 }
 
@@ -235,6 +251,20 @@ export function hmacOf(stamp, secret) {
 export function sessionIdValid(raw) {
   const s = String(raw ?? "").trim();
   return s !== "" && s.toLowerCase() !== "unknown";
+}
+
+/**
+ * The ONE session-id resolution both the guard and the stamp writer use. They
+ * MUST agree: if the stamp hook records reads under one key and the guard checks
+ * another, a fully-bootstrapped session is denied and pushed to the escape hatch
+ * (p2-bootstrap-guard-stamp-writer-session-id-split, measured 2026-08-09). An id
+ * sessionIdValid rejects (empty, "unknown" in any case, whitespace-only) resolves
+ * to the literal "unknown" — the same key the guard denies under — so the two can
+ * never key a different stamp file for the same payload.
+ */
+export function resolveSessionId(input) {
+  const id = input && typeof input === "object" ? input.session_id : input;
+  return sessionIdValid(id) ? String(id) : "unknown";
 }
 
 export function stampPath(sessionId, input = null) {
@@ -278,11 +308,35 @@ export function saveStamp(stamp, input = null) {
   );
 }
 
+/**
+ * Merge-on-write for parallel Reads (UL-078). The stamp hook is read-modify-write: two Read events
+ * in one session both load the SAME stamp, each set their own layer, and the last saveStamp()
+ * clobbers the layer the other added. A fully-read session then looks incomplete and is denied.
+ * Before writing, union this stamp layers_read with whatever is on disk NOW (a concurrent hook may
+ * have written a layer since we loaded), keeping the EARLIER timestamp per layer, and adopt an
+ * on-disk ledgered:true so the bootstrap event is not appended twice. Not a lock: it converts a
+ * last-writer CLOBBER into a last-writer UNION, the standard mitigation for this class.
+ */
+export function mergeLayersFromDisk(stamp, input = null) {
+  const onDisk = verifyStamp(stamp.session_id, input);
+  if (!onDisk || typeof onDisk !== "object") return stamp;
+  stamp.layers_read = stamp.layers_read || {};
+  for (const [layer, ts] of Object.entries(onDisk.layers_read || {})) {
+    if (!ts) continue;
+    const mine = stamp.layers_read[layer];
+    stamp.layers_read[layer] = mine ? (mine < ts ? mine : ts) : ts;   // earliest read wins
+  }
+  if (onDisk.ledgered) stamp.ledgered = true;
+  return stamp;
+}
+
 // null = missing; "forged" = HMAC mismatch; otherwise the verified stamp object.
 export function verifyStamp(sessionId, input = null) {
   const stamp = loadStamp(sessionId, input);
   if (!stamp) return null;
-  if (!stamp.hmac || stamp.hmac !== hmacOf(stamp, getSecret(input))) return "forged";
+  // Verification is READ-ONLY: never mint/write a secret while checking one (a failed read must
+  // not become a write — p1-guard-residual/#2752). A missing-or-unreadable secret -> ephemeral -> forged.
+  if (!stamp.hmac || stamp.hmac !== hmacOf(stamp, getSecret(input, { allowCreate: false }))) return "forged";
   return stamp;
 }
 
