@@ -2,6 +2,16 @@
 
 # Reasoning Log
 
+## 2026-09-05 — adopt reviewed v2 bootstrap integrity without replacing sibling work
+
+**Asked.** Continue the authorized household guard rollout under parent HLS task hh-dangerous-command-guard-parity; adopt Granny's stale onboarding safely, preserving recipe data and settings.
+
+**Weighed.** PR38 at 3245a712 contains valuable leaf detection but an old signature serializer and secret verification. Canonical PR3308 merged as dc5d62f1 with the complete reviewed trio (reviewed source 35be2379). Partial copying would retain compatibility gaps. The existing required-hooks list also omitted the newly registered guards.
+
+**Decided.** In an isolated branch based on PR38, adopt the canonical trio, eight isolated adoption tests and v2 transition document. Adopt Grandma's required-hook removal test from 6c8aec68 and protect the three registered guard basenames. Nine tests pass; privacy check and shell syntax pass. Recipe validation reports four missing-field errors in two existing records and 59 warnings across 194 recipes; git diff confirms recipe data, validator and settings are unchanged from the onboarding base. No recipe or memorial files are staged. This is source adoption pending independent leaf review, not deployment or HLS completion.
+
+**Unsure.** Existing recipe errors require a separate evidence-backed repair, never invented ingredients. Later stack PRs39–41 still need reconciliation and retesting; the arming script's overbroad live-guard announcement is not repaired here. Runtime registrations and explicit stamp-root overrides still require rollout checks. HMAC remains local friction, disk union is not a lock, and required-hooks protects working-tree substrings rather than proving event matchers or staged-index integrity.
+
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
 **Asked.** Household loop (patron yumi): close the guard gap the distribution check reports for this repo.
@@ -179,4 +189,3 @@ admin/VARIANTS-LINKED.json. Shards + index regenerated with scripts/shard_recipe
 
 **Unsure:** Whether "-full-" pairs should eventually be merged rather than tabbed; left
 as variants per the letter of the law.
-

@@ -19,6 +19,9 @@ SETTINGS="$REPO_ROOT/.claude/settings.json"
 # and JSON reformatting). To retire one, delete its line here in the same commit
 # that removes it from settings.json.
 PROTECTED=(
+  "bootstrap-guard.mjs"
+  "bootstrap-stamp-hook.mjs"
+  "dangerous-command-guard.mjs"
   "sophos-inject.sh"
   "image-safety-check.sh"
   "post-write-validate.sh"

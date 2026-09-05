@@ -18,6 +18,7 @@ import {
   readStdinJson,
   normalizeHookInput,
   sessionIdValid,
+  resolveSessionId,
   getRuntime,
 } from "./bootstrap-lib.mjs";
 
@@ -32,7 +33,19 @@ const MUTATING_BASH_RE = new RegExp(
 );
 
 function realOr(p) {
-  try { return fs.realpathSync(p); } catch { return path.resolve(p); }
+  const resolved = path.resolve(p);
+  let ancestor = resolved;
+  const suffix = [];
+  for (;;) {
+    try { return path.join(fs.realpathSync(ancestor), ...suffix); }
+    catch (error) {
+      if (error.code !== "ENOENT" && error.code !== "ENOTDIR") return resolved;
+      const parent = path.dirname(ancestor);
+      if (parent === ancestor) return resolved;
+      suffix.unshift(path.basename(ancestor));
+      ancestor = parent;
+    }
+  }
 }
 
 // Is `fp` inside `root`? Literal prefix first; then by REAL identity. #3077 landed this on
@@ -41,12 +54,12 @@ function realOr(p) {
 // so the fallback repo root is the realpath while the tool input carries the alias — the
 // literal comparison then reads an in-repo edit as out-of-repo and ALLOWS it. Same rule
 // hls-claim-guard.mjs already applies (self-attack 2026-07-28). A not-yet-existing Write
-// target realpaths its parent directory instead.
+// target resolves its nearest existing ancestor, preserving the missing suffix.
 function insideRepo(fp, root) {
   const a = path.resolve(fp);
   const r = path.resolve(root);
   if (a.startsWith(r + path.sep)) return true;
-  const ra = realOr(fs.existsSync(a) ? a : path.dirname(a));
+  const ra = realOr(a);
   const rr = realOr(r);
   return ra === rr || ra.startsWith(rr + path.sep);
 }
@@ -90,7 +103,7 @@ try {
   if (!isRepoMutation(input, repoRoot)) process.exit(0);
 
   const idValid = sessionIdValid(input.session_id);
-  const sessionId = idValid ? input.session_id : "unknown";
+  const sessionId = resolveSessionId(input);   // SSOT — must match the stamp writer exactly
   const stamp = verifyStamp(sessionId, input.raw || input);
   const missing = missingLayers(stamp);
 
@@ -170,7 +183,7 @@ try {
     // #3077: a leaf repo (Project-Sophos, the recipe repos) carries the guard but no library, so
     // there is no ledger to append to — say so rather than let a missing row read as "no denial".
     ...(ledgered === false
-      ? [`Denial NOT ledgered: ${repoRoot} carries no .household-library (leaf repo) — this message is the record.`]
+      ? [`Denial NOT ledgered: the ledger for ${repoRoot} is absent or could not be written — this message is the record.`]
       : []),
     `Read the layers in ${pointer} §Read order (front door skills/sophos first); the stamp hook records reads automatically.`,
     "Operator escape hatch: HOUSEHOLD_BOOTSTRAP_GUARD_BLOCK=0 (warn-only). Spec: docs/HOUSEHOLD-LOUD-BOOTSTRAP-REQUIREMENT.md",

@@ -8,9 +8,11 @@ import {
   saveStamp,
   verifyStamp,
   missingLayers,
+  mergeLayersFromDisk,
   appendEvent,
   readStdinJson,
   normalizeHookInput,
+  resolveSessionId,
   ALL_LAYERS,
   layerFromFilePath,
   isHouseholdRepo,
@@ -25,7 +27,7 @@ try {
   const repoRoot = getRepoRoot(input.raw || input);
   if (!isHouseholdRepo(repoRoot)) process.exit(0);
 
-  const sessionId = input.session_id || "unknown";
+  const sessionId = resolveSessionId(input);   // SSOT — must match the guard exactly
   const tool = input.tool_name || "";
   const now = new Date().toISOString();
 
@@ -45,10 +47,13 @@ try {
   }
   if (!stamp.layers_read[layerHit]) stamp.layers_read[layerHit] = now;
 
+  // UL-078: union with whatever a concurrent Read wrote since we loaded, so a parallel Read is not
+  // clobbered and the bootstrap event is not double-appended.
+  stamp = mergeLayersFromDisk(stamp, input.raw || input);
+
   const missing = missingLayers(stamp);
   if (missing.length === 0 && !stamp.ledgered) {
-    stamp.ledgered = true;
-    appendEvent(
+    stamp.ledgered = appendEvent(
       {
         type: "bootstrap",
         patron: stamp.patron,
