@@ -10,7 +10,7 @@ import { fileURLToPath } from 'node:url';
 const repo = fileURLToPath(new URL('../../', import.meta.url));
 const guard = path.join(repo, '.githooks/check-required-hooks.sh');
 const settings = JSON.parse(fs.readFileSync(path.join(repo, '.claude/settings.json'), 'utf8'));
-const required = ['bootstrap-guard.mjs', 'bootstrap-stamp-hook.mjs', 'dangerous-command-guard.mjs'];
+const required = ['bootstrap-guard.mjs', 'bootstrap-stamp-hook.mjs', 'dangerous-command-guard.mjs', 'arm-hooks-path.sh', 'observe-tool-use-dispatch.sh'];
 
 test('required-hooks accepts the shipped registrations and refuses each removed bootstrap guard', t => {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'leaf-required-hooks-'));

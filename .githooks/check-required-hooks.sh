@@ -19,6 +19,8 @@ SETTINGS="$REPO_ROOT/.claude/settings.json"
 # and JSON reformatting). To retire one, delete its line here in the same commit
 # that removes it from settings.json.
 PROTECTED=(
+  "arm-hooks-path.sh"
+  "observe-tool-use-dispatch.sh"
   "bootstrap-guard.mjs"
   "bootstrap-stamp-hook.mjs"
   "dangerous-command-guard.mjs"

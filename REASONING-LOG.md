@@ -2,6 +2,16 @@
 
 # Reasoning Log
 
+## 2026-09-05 — integrate the preserved observation, discovery and arming stack
+
+**Asked.** Finish Granny's remaining guard stack in isolation, preserving sibling history and family content; publish for independent review, not deployment.
+
+**Weighed.** Repaired onboarding 5f488807 and original stack head 0c774f9f share an ancestor. Merged the original histories without rewriting them. Only this log conflicted; exact inclusion checks preserve all nine sections from one conflict side and ten from the other. The original arming banner claimed downstream checks that Granny does not carry. Grandma main 5c289f9e contains independently reviewed corrections and fixture tests.
+
+**Decided.** Adopt those truthful arming/observer-failure changes and five integration tests; protect arm and observer registrations alongside the bootstrap guards. Fourteen tests pass, plus privacy and shell syntax checks. Recipe validation remains at four errors and 59 warnings across 194 recipes. Existing log evidence explains the two incomplete records as deliberately honest stubs awaiting absent sources; no recipe repair is inferred here. Recipe, image, site, privacy and Granny pre-commit files are unchanged from main. Original root/observer/arming commits remain ancestors of this integration.
+
+**Unsure.** Independent integration review, remote checks and live installation are still pending. Root discovery on this machine may require explicit environment paths, and absent observer roots remain a reported runtime gap. Configuration and executable bits are not proof of downstream enforcement; required-hook checks retain their documented substring/working-tree limitations.
+
 ## 2026-09-05 — adopt reviewed v2 bootstrap integrity without replacing sibling work
 
 **Asked.** Continue the authorized household guard rollout under parent HLS task hh-dangerous-command-guard-parity; adopt Granny's stale onboarding safely, preserving recipe data and settings.
@@ -11,6 +21,26 @@
 **Decided.** In an isolated branch based on PR38, adopt the canonical trio, eight isolated adoption tests and v2 transition document. Adopt Grandma's required-hook removal test from 6c8aec68 and protect the three registered guard basenames. Nine tests pass; privacy check and shell syntax pass. Recipe validation reports four missing-field errors in two existing records and 59 warnings across 194 recipes; git diff confirms recipe data, validator and settings are unchanged from the onboarding base. No recipe or memorial files are staged. This is source adoption pending independent leaf review, not deployment or HLS completion.
 
 **Unsure.** Existing recipe errors require a separate evidence-backed repair, never invented ingredients. Later stack PRs39–41 still need reconciliation and retesting; the arming script's overbroad live-guard announcement is not repaired here. Runtime registrations and explicit stamp-root overrides still require rollout checks. HMAC remains local friction, disk union is not a lock, and required-hooks protects working-tree substrings rather than proving event matchers or staged-index integrity.
+
+## 2026-09-03 — .household-root: the doctrine and runtime roots, discoverable by reading (open-claw-stuff #3098)
+
+**Asked.** Household loop (patron yumi): make this repo able to say where Sophos is from here.
+
+**Weighed.** Hooks fire unevenly across repos (this one registers few), so the discovery file exists precisely for the case where no hook runs — it is read, not executed. The generator writes layouts, never a machine path (UL-173/UL-337). Alternative of hand-writing the file: rejected, the generator is the SSOT and its output is what the household tests pin.
+
+**Decided.** Generated `.household-root` with `admin/write-household-root-file.mjs`; verified it names both roots, instructs fail-loud on non-resolution, and carries no absolute machine path. Stacked on this repo's open hook branch.
+
+**Unsure.** On this Mac the runtime clone is `~/ocs-work`, not `open-claw-stuff`, so the sibling/ancestor steps in the file do not find it by name here and a reader must say so — the standing naming mismatch (open-claw-stuff #2993), not something this file can fix.
+
+## 2026-09-03 — observe hook: dead container path replaced by machine-neutral dispatch (open-claw-stuff #3094)
+
+**Asked.** Household loop (patron yumi): close the dead-path defect the hls-dead-path-hooks task left open here.
+
+**Weighed.** The PostToolUse observe hook pointed at `/home/user/ken/...`, absent on this Mac, so observation capture never ran and nothing said so. Alternatives: point it at a Mac path (the same defect mirrored — rejected); drop the hook (capture is doctrine — rejected); the canonical dispatch, which resolves by layout and fails loud-not-fatal — chosen, the same fix Project-Sophos #13 applied.
+
+**Decided.** Installed `observe-tool-use-dispatch.sh` from canonical and repointed the settings entry to `$CLAUDE_PROJECT_DIR`. Probed: this layout → NOT FOUND on stderr, exit 0; inert fake ken via HOUSEHOLD_KEN_ROOT → runs, exit 0. No machine path remains in settings.
+
+**Unsure.** Until `HOUSEHOLD_KEN_ROOT` is exported or a ken checkout sits beside this repo, capture still does not run here — now loudly instead of silently; whether the operator wants it running on the Mac at all is their call.
 
 ## 2026-09-03 — onboard the loud-bootstrap hook set (open-claw-stuff #3093)
 
