@@ -2,6 +2,18 @@
 
 # Reasoning Log
 
+## 2026-09-06 — preserve observer diagnostics across the cluster resolver merge
+
+**Asked.** Resume the authorized guard rollout and verify Granny's installed stack.
+
+**Weighed.** Fresh main 0f94bf2 passes 12 of 14 hook tests. Its cluster-root resolver merge replaced the reviewed observer-failure diagnostic with a silent successful exit. The new fallback also let the missing-observer fixture reach a real household observer. Both failures were reproduced before editing.
+
+**Decided.** Restore the nonfatal failure diagnostic while retaining every resolver candidate. Pin the fixture cluster root to a disposable directory and test payload forwarding and failure reporting through that fallback. All 15 hook tests, shell syntax, diff checks and privacy checks pass. Recipe validation still reports four errors and 59 warnings across 194 recipes; recipe data and validators are unchanged.
+
+**Unsure.** Independent review and installed verification are pending. A successful dispatcher invocation does not establish downstream persistence. This repair does not establish household-wide deployment or settle Mom's earlier Git-hook arming refusal.
+
+_Runtime: Codex_
+
 ## 2026-09-06 — merge train: land PR #39 with the CURRENT canonical loud-bootstrap hooks
 
 **Asked.** Ken (2026-09-05): "merge them careful not clever" — land the open yumi PRs, this repo's hook rollout stack included.
