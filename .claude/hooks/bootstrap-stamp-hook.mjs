@@ -4,6 +4,7 @@
 // HLS: loud-bootstrap-impl-claude-code · loud-bootstrap-impl-grok
 import {
   RECALL_CMD_RE,
+  layersFromBashRead,
   newStamp,
   saveStamp,
   verifyStamp,
@@ -31,21 +32,30 @@ try {
   const tool = input.tool_name || "";
   const now = new Date().toISOString();
 
-  let layerHit = null;
+  let layerHits = [];
   if (tool === "Read") {
-    layerHit = layerFromFilePath(input.tool_input?.file_path || "");
+    const hit = layerFromFilePath(input.tool_input?.file_path || "");
+    if (hit) layerHits = [hit];
   } else if (tool === "Bash") {
-    if (RECALL_CMD_RE.test(String(input.tool_input?.command || ""))) {
-      layerHit = "memory-recall";
+    const command = String(input.tool_input?.command || "");
+    if (RECALL_CMD_RE.test(command)) {
+      layerHits = ["memory-recall"];
+    } else {
+      // #3317: a shell read of one or more Layer 0/1 files credits each. The Read tool is not the
+      // only way an agent legitimately loads the layers — "auto mode" reads them via cat/sed, and
+      // an uncredited read falsely denied every mutation for a whole session (measured ~15 turns).
+      layerHits = layersFromBashRead(command);
     }
   }
-  if (!layerHit) process.exit(0);
+  if (layerHits.length === 0) process.exit(0);
 
   let stamp = verifyStamp(sessionId, input.raw || input);
   if (stamp === null || stamp === "forged") {
     stamp = newStamp(sessionId, input.raw || input);
   }
-  if (!stamp.layers_read[layerHit]) stamp.layers_read[layerHit] = now;
+  for (const hit of layerHits) {
+    if (!stamp.layers_read[hit]) stamp.layers_read[hit] = now;
+  }
 
   // UL-078: union with whatever a concurrent Read wrote since we loaded, so a parallel Read is not
   // clobbered and the bootstrap event is not double-appended.
