@@ -23,10 +23,18 @@ payload="$(cat 2>/dev/null || true)"
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Resolution order, widest-to-narrowest. Every candidate is a LAYOUT, never a
-# specific machine: an explicit env override, then the sibling-checkout layout
-# relative to this hook, then a repo-local copy.
+# hard-coded-only machine path: an explicit env override, then the household
+# cluster-root resolution (the SAME env var + default as admin/household-repos.mjs,
+# which is the SSOT for where cluster repos live — a drift test keeps this default
+# in sync with it), then the sibling-checkout layout relative to this hook, then a
+# repo-local copy. Without the cluster-root candidate the operator's Mac (ocs at
+# ~/ocs-work, ken deep under ~/Documents/.../Openclaw Cluster 2.0 — not a sibling of
+# ocs and not ~/ken) resolved NONE of the layouts and observation silently degraded.
+# This is the #3315-parallel for the ken resolver (HLS #3318).
+CLUSTER_ROOT="${HOUSEHOLD_CLUSTER_ROOT:-/Users/kenbaker/Documents/Claude/Projects/Openclaw Cluster 2.0}"
 candidates=()
 [ -n "${HOUSEHOLD_KEN_ROOT:-}" ] && candidates+=("$HOUSEHOLD_KEN_ROOT/.claude/hooks/observe-tool-use.sh")
+candidates+=("$CLUSTER_ROOT/ken/.claude/hooks/observe-tool-use.sh")
 candidates+=("$here/../../../ken/.claude/hooks/observe-tool-use.sh")
 candidates+=("$here/observe-tool-use.sh")
 
@@ -47,6 +55,6 @@ done
   for c in "${candidates[@]}"; do echo "     $c"; done
   echo "   Consequence: this session's tool use is not being observed; memory continuity is degraded,"
   echo "   not broken — recall still works, but nothing new is captured automatically."
-  echo "   Remedy: set HOUSEHOLD_KEN_ROOT=<path to the ken checkout>, or place ken beside this repo."
+  echo "   Remedy: set HOUSEHOLD_KEN_ROOT or HOUSEHOLD_CLUSTER_ROOT (see admin/household-repos.mjs, the SSOT), or place ken beside this repo."
 } >&2
 exit 0

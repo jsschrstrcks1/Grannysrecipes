@@ -2,6 +2,28 @@
 
 # Reasoning Log
 
+## 2026-09-06 — preserve observer diagnostics across the cluster resolver merge
+
+**Asked.** Resume the authorized guard rollout and verify Granny's installed stack.
+
+**Weighed.** Fresh main 0f94bf2 passes 12 of 14 hook tests. Its cluster-root resolver merge replaced the reviewed observer-failure diagnostic with a silent successful exit. The new fallback also let the missing-observer fixture reach a real household observer. Both failures were reproduced before editing.
+
+**Decided.** Restore the nonfatal failure diagnostic while retaining every resolver candidate. Pin the fixture cluster root to a disposable directory and test payload forwarding and failure reporting through that fallback. All 15 hook tests, shell syntax, diff checks and privacy checks pass. Recipe validation still reports four errors and 59 warnings across 194 recipes; recipe data and validators are unchanged.
+
+**Unsure.** Independent review and installed verification are pending. A successful dispatcher invocation does not establish downstream persistence. This repair does not establish household-wide deployment or settle Mom's earlier Git-hook arming refusal.
+
+_Runtime: Codex_
+
+## 2026-09-06 — merge train: land PR #39 with the CURRENT canonical loud-bootstrap hooks
+
+**Asked.** Ken (2026-09-05): "merge them careful not clever" — land the open yumi PRs, this repo's hook rollout stack included.
+
+**Weighed.** The PR's copies of the loud-bootstrap hooks were a 2026-09-03 snapshot of a canonical branch that has since changed on open-claw-stuff main (household markers adopted, the read-order guard's own secret made fail-closed, the stamp hook's parallel-read merge). Merging the snapshot as-is would install a guard that matches no canonical commit. The household's own tool for this, admin/onboard-loud-bootstrap.mjs, copies the CURRENT canonical trio and is idempotent.
+
+**Decided.** Merge the PR (its intent is exactly "resync from canonical"), then run onboard-loud-bootstrap from open-claw-stuff main on the merged tree so the trio is byte-identical to canonical, and gate the result on an INERT live probe of this repo's guard: an unstamped Write inside the repo is denied (exit 2), an outside Write allowed, and any drift from canonical is refused rather than reported clean.
+
+**Unsure.** Synced copies drift again the moment canonical moves; the named limit of spec §5.2 stands. This repo's reasoning-log guard reads .git/COMMIT_EDITMSG, which does not exist in a git worktree, so the [no-reasoning] opt-out is invisible here — registered as a finding rather than worked around; this entry is the honest record instead.
+
 ## 2026-09-05 — integrate the preserved observation, discovery and arming stack
 
 **Asked.** Finish Granny's remaining guard stack in isolation, preserving sibling history and family content; publish for independent review, not deployment.
