@@ -40,7 +40,9 @@ candidates+=("$here/observe-tool-use.sh")
 
 for c in "${candidates[@]}"; do
   if [ -f "$c" ]; then
-    printf '%s' "$payload" | bash "$c" || true
+    if ! printf '%s' "$payload" | bash "$c"; then
+      echo "⚠ observe-tool-use: observer failed at $c — this observation may be lost." >&2
+    fi
     exit 0
   fi
 done

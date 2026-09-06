@@ -17,6 +17,8 @@ function fixture(t) {
   for (const file of ['arm-hooks-path.sh', 'observe-tool-use-dispatch.sh']) fs.copyFileSync(path.join(hooks, file), path.join(dir, file));
   const env = { ...process.env, CLAUDE_PROJECT_DIR: repo, GIT_CONFIG_GLOBAL: path.join(root, 'no-global-config'), GIT_CONFIG_NOSYSTEM: '1' };
   for (const key of ['GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE', 'GIT_COMMON_DIR', 'HOUSEHOLD_KEN_ROOT', 'HOOKS_PATH_ARM', 'OBSERVE_TOOL_USE']) delete env[key];
+  // Keep the cluster fallback inside the fixture, never the operator's live observer.
+  env.HOUSEHOLD_CLUSTER_ROOT = path.join(root, 'cluster');
   const run = (cmd, args, input = '') => spawnSync(cmd, args, { cwd: repo, env, input, encoding: 'utf8' });
   const init = run('git', ['init', '-q']);
   assert.equal(init.status, 0, init.stderr);
@@ -79,4 +81,21 @@ test('observation dispatch forwards payload and reports observer failure without
   const failed = f.hook('observe-tool-use-dispatch.sh');
   assert.equal(failed.status, 0, failed.stderr);
   assert.match(failed.stderr, /observer failed/);
+});
+
+test('observation dispatch reaches the cluster fallback and reports its failure', t => {
+  const f = fixture(t);
+  const observer = path.join(f.env.HOUSEHOLD_CLUSTER_ROOT, 'ken/.claude/hooks/observe-tool-use.sh');
+  fs.mkdirSync(path.dirname(observer), { recursive: true });
+  fs.writeFileSync(observer, '#!/bin/sh\ncat\n');
+  const payload = '{"session_id":"isolated-cluster-probe"}';
+  const r = f.run('bash', [path.join(f.repo, '.claude/hooks/observe-tool-use-dispatch.sh')], payload);
+  assert.equal(r.status, 0, r.stderr);
+  assert.equal(r.stdout, payload);
+  assert.equal(r.stderr, '');
+  fs.writeFileSync(observer, '#!/bin/sh\nexit 7\n');
+  const failed = f.hook('observe-tool-use-dispatch.sh');
+  assert.equal(failed.status, 0, failed.stderr);
+  assert.match(failed.stderr, /observer failed/);
+  assert.ok(failed.stderr.includes(observer));
 });
