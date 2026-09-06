@@ -34,6 +34,25 @@ export const RECALL_CMD_RE =
   /(memory_ops\.py\s+recall|recall-memory\.mjs|memory_evidence\.py\s+recall)/;
 export const ALL_LAYERS = [...Object.keys(LAYER_SUFFIXES), "memory-recall"];
 
+// A Bash READ of one or more Layer 0/1 files credits each of them, mirroring RECALL_CMD_RE
+// for recall. Closes the gap where an agent reading the layers via `cat`/`sed`/`head` — which
+// "auto mode" actively instructs — got NO credit and was falsely denied every mutation for the
+// whole session (measured live 2026-09-05, cost ~15 turns; HLS #3317). A read VERB is REQUIRED,
+// so a mere mention (`echo path`), a delete (`rm path`), or a move (`mv path`) of a layer path
+// is never miscredited as a read. The credit is no weaker than the Read tool's: both mean "the
+// layer content was accessed", and neither can prove the agent absorbed it.
+export const LAYER_READ_VERB_RE =
+  /(?:^|[;&|]\s*|\s|\()(?:cat|bat|less|more|view|nl|od|xxd|sed|head|tail)\b/;
+export function layersFromBashRead(command) {
+  const s = String(command || "");
+  if (!LAYER_READ_VERB_RE.test(s)) return [];
+  const hits = [];
+  for (const [key, suffix] of Object.entries(LAYER_SUFFIXES)) {
+    if (s.includes(suffix)) hits.push(key);
+  }
+  return hits;
+}
+
 /** Grok / Claude tool names → canonical names used by stamp + guard.
  *  Keys are lower-case; lookup is case-insensitive (adv: `bash` / `RUN_TERMINAL_COMMAND`). */
 const TOOL_ALIASES = {
