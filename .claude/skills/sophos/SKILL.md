@@ -260,5 +260,13 @@ enforcement layer that survives a repo whose hooks are missing or unwired.
 Canonical SSOT: `open-claw-stuff/skills/sophos/`. Must stay **byte-identical** at:
 `Project-Sophos/.claude/skills/sophos/` and `~/.grok/skills/sophos/` (Grok home mirror).
 Phase notes only (not the front door): `~/.grok/skills/sophos-kernel/`.
+**Canonical kernel home (operator directive 2026-09-06/07):** Project-Sophos is the
+Sophos kernel and where Sophos development happens — the superset all models use.
+The running sophosGovern and HELM runtime now live in Project-Sophos under
+atlas/server (merged to its main as PRs 18 through 21). `open-claw-stuff/atlas/server/sophos.mjs`
+is the live-deployment mirror until the cutover points atlas-serve at Project-Sophos;
+new Sophos kernel and design work goes to Project-Sophos, not to open-claw-stuff.
+Named by repository on purpose: this file is synced byte-identically into fifteen other
+checkouts, so "this repo" and "here" would name the wrong one in every copy but this.
 
 **Soli Deo Gloria.**
