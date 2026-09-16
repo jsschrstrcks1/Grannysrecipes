@@ -4,7 +4,7 @@ description: 'The single entry point for the household operating posture. Saying
   "Sophos" loads EVERYTHING: Soli Deo Gloria (the why), careful-not-clever (the
   how), the Sophos OS hierarchy and publish gate (the operating system), and
   cognitive memory recall through the evidence envelope (the continuity). One
-  invocation, five layers (incl. hard safety), no partial posture. Operator 2026-07-24/27:
+  invocation, SEVEN layers (incl. hard safety), no partial posture. Operator 2026-07-24/27:
   "I only have to ask for Sophos to get everything."
 
   '
@@ -48,23 +48,33 @@ runtime_bindings:
 # Sophos — the whole posture, one word
 
 When this skill activates — the operator says "Sophos", a session starts in a
-household repo, or any non-trivial task begins — **all five layers load. There
+household repo, or any non-trivial task begins — **all seven layers load. There
 is no partial Sophos.** Asking for Sophos and getting only procedure is the
 non-compliance this skill exists to end.
 
-## The five layers (load in order, every time)
+Seven, not five, because the number is not a preference: it is the set the
+bootstrap guard actually requires a session to read (`bootstrap-lib.mjs`
+`ALL_LAYERS`). Sophos OS is two reads (the kernel front door and the operating
+doctrine), and the household rulebook and library are reads of their own. A
+session that parrots "five layers" is repeating a sentence it never checked
+against the guard.
+
+## The seven layers the guard requires (load in order, every time)
 
 | # | Layer | Load | Role |
 |---|-------|------|------|
 | 1 | **Soli Deo Gloria** | [`../soli-deo-gloria/SKILL.md`](../soli-deo-gloria/SKILL.md) | The *why* — work as worship; right over fast |
 | 2 | **Careful, not clever** | [`../careful-not-clever/SKILL.md`](../careful-not-clever/SKILL.md) | The *how* — verified, documented, reversible, honest |
-| 3 | **Hard safety** | [`../destructive-command-safety/SKILL.md`](../destructive-command-safety/SKILL.md) | No catastrophic shell — operational belt, not optional |
-| 4 | **Sophos OS** | [`../../docs/SOPHOS-OPERATING-SYSTEM.md`](../../docs/SOPHOS-OPERATING-SYSTEM.md); kernel [`../../atlas/server/sophos.mjs`](../../atlas/server/sophos.mjs) | The *operating system* — hierarchy + publish gate |
-| 5 | **Cognitive memory** | §Memory below — recall NOW, not later | The *continuity* — a session that does not remember starts over |
+| 3 | **Sophos kernel (front door)** | [`SKILL.md`](./SKILL.md); kernel [`../../atlas/server/sophos.mjs`](../../atlas/server/sophos.mjs) | The *operating system* — hierarchy + publish gate |
+| 4 | **Sophos OS (doctrine)** | [`../../docs/SOPHOS-OPERATING-SYSTEM.md`](../../docs/SOPHOS-OPERATING-SYSTEM.md) | The constitution — axioms, preambles, gates |
+| 5 | **Household rulebook** | [`../../docs/HOUSEHOLD-AGENT-RULEBOOK.md`](../../docs/HOUSEHOLD-AGENT-RULEBOOK.md) | The house rules every agent follows |
+| 6 | **Household library** | [`../household-library/SKILL.md`](../household-library/SKILL.md) | HLS coordination — fetch, resolve, merge before claiming |
+| 7 | **Cognitive memory** | §Memory below — recall NOW, not later | The *continuity* — a session that does not remember starts over |
 
-**Hard safety (Sophos OS `destructive_execution`):** enforced *outside* `sophosGovern`, at the
-shell boundary. SSOT detector: `cluster/lib/dangerous-command.mjs`. Hooks:
-`.claude/hooks/dangerous-command-guard.mjs` (Claude PreToolUse Bash; Grok PreToolUse
+**Hard safety (Sophos OS `destructive_execution`)** is a mandatory posture layer, but it is
+NOT one of the seven read-keys above: it is enforced *outside* `sophosGovern`, at the shell
+boundary, on EVERY command rather than read once. SSOT detector: `cluster/lib/dangerous-command.mjs`.
+Hooks: `.claude/hooks/dangerous-command-guard.mjs` (Claude PreToolUse Bash; Grok PreToolUse
 `run_terminal_command` via `~/.grok/hooks/`). Git pre-commit/pre-push + `cluster/scripts/scan-command.mjs`.
 Probe guards with **INERT** payloads only (`<(echo probe)`). Never a live wipe.
 
@@ -75,9 +85,9 @@ Remove any one layer and the dedication is only words.
 proportionate, truthful, durable stewardship; forgetting as first-class governance; structure
 warranted by stewardship obligation, never by possibility; and the inversion prohibition —
 *do not preserve the structure at the expense of what the structure exists to protect*. A
-companion, not a sixth layer — the five-layer contract above is unchanged.
+companion, not an eighth layer — the seven-layer contract above is unchanged.
 
-## Memory is core, not a peripheral (layer 5 mechanics)
+## Memory is core, not a peripheral (layer 7 mechanics)
 
 Sophos CALLS memory — recall is part of loading the posture, not an optional
 follow-up. At activation, run recall for the task at hand **through the
@@ -260,5 +270,13 @@ enforcement layer that survives a repo whose hooks are missing or unwired.
 Canonical SSOT: `open-claw-stuff/skills/sophos/`. Must stay **byte-identical** at:
 `Project-Sophos/.claude/skills/sophos/` and `~/.grok/skills/sophos/` (Grok home mirror).
 Phase notes only (not the front door): `~/.grok/skills/sophos-kernel/`.
+**Canonical kernel home (operator directive 2026-09-06/07):** Project-Sophos is the
+Sophos kernel and where Sophos development happens — the superset all models use.
+The running sophosGovern and HELM runtime now live in Project-Sophos under
+atlas/server (merged to its main as PRs 18 through 21). `open-claw-stuff/atlas/server/sophos.mjs`
+is the live-deployment mirror until the cutover points atlas-serve at Project-Sophos;
+new Sophos kernel and design work goes to Project-Sophos, not to open-claw-stuff.
+Named by repository on purpose: this file is synced byte-identically into fifteen other
+checkouts, so "this repo" and "here" would name the wrong one in every copy but this.
 
 **Soli Deo Gloria.**
