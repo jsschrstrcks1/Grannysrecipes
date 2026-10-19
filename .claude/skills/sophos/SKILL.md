@@ -111,6 +111,30 @@ warranted by stewardship obligation, never by possibility; and the inversion pro
 *do not preserve the structure at the expense of what the structure exists to protect*. A
 companion, not an eighth layer — the seven-layer contract above is unchanged.
 
+## ⚡ DONE MEANS USABLE — the whole stack, planned and built (operator directive 2026-10-19)
+
+**Proclaimed from the rooftops to every agent Sophos governs, every runtime, every repo:**
+
+> **A plan is not complete until the WHOLE STACK is planned. A build is not complete until the
+> WHOLE STACK is built and wired — front end, back end, database, and all the connections in
+> between — and the END USER can actually use it.**
+
+A feature that compiles is not done. A branch that merges is not done. A layer that exists but is
+not connected to the layers above and below it is *zero layers* from the user's seat. "Done" with
+an unwired layer is a part reported as a whole — the false-CALM careful-not-clever exists to
+refuse. Plan the whole stack or the plan is a fragment; build and wire the whole stack, verified
+end to end from the user's first action to the data landing in the store and back, or it is not
+complete. If a layer is deliberately out of scope, name which, why, and what remains. Full
+doctrine: careful-not-clever §"Done means usable by the end user". **Say this to any agent you
+hand work to.**
+
+**BLOCKING precondition — consult memory first (operator directive 2026-10-19).** Before you plan
+or build anything, run a real memory recall through the evidence envelope (the §Memory command
+below) — EVERY time. Skipping it is a **blocking error**, not a lint: the plan/build does not
+proceed and "done" cannot be claimed without it. State in the deliverable that the recall ran and
+what it surfaced. (Doctrine is the discipline tie; a PreToolUse gate that refuses a build/plan
+edit when no recall is observed is the belt — a named harness candidate, not yet built.)
+
 ## Memory is core, not a peripheral (layer 7 mechanics)
 
 Sophos CALLS memory — recall is part of loading the posture, not an optional
@@ -159,6 +183,23 @@ Before completion: **encode** durable knowledge, decisions, and corrections
 (`memory_ops.py encode`), and record failures in the failure ledger
 (`memory_failures.py record`) so `check_retry` can block unchanged retries in
 the next session. Continuity is a write discipline, not just a read one.
+
+### Persistence architecture — Alethia, the memory system (operator ruling 2026-10-15)
+
+The household cognitive-memory system is named **Alethia** (ἀλήθεια, "truth"; this is the system
+Ken refers to aloud as "Althea"). It has two tiers: the **hot tier** is the local `.memory/` JSON
+store (first write, unchanged), and the **deep tier** is a **PostgreSQL** database on a
+Tailnet-only VPS — a deduplicated read-only superset of all household memory and logs across every
+worktree. Discipline: **write the file first, SQL second** (SQL never holds what files do not);
+**recall returns the union** of both deduped by id and **falls back loudly to files** when the DB
+is unreachable (never silent-empty). The deep tier is a *location*, not a trust verdict — it never
+upgrades `verification_state`, and quarantined/refuted memories are never in it. This is the
+**memory** backend specifically, **not** a general app database. Built: the storage box + dedup
+mirror; planned: tiered recall, the autopersist SQL feed, and the promotion tier. Two systems, two
+jobs: **Tekton** (τέκτων) is task custody; **Alethia** is memory. Docs:
+`Project-Sophos/docs/ALETHIA.md`, `ALETHIA-SCOPE.md`, `MEMORY-STORAGE-LAYER-AND-PROMOTION-TIER.md`.
+**Do not fabricate** connection or schema details not written down — if you need one, say it is
+unknown and ask.
 
 ## The operating system (layer 4 mechanics)
 
