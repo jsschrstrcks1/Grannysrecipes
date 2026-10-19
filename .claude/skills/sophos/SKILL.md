@@ -8,7 +8,7 @@ description: 'The single entry point for the household operating posture. Saying
   "I only have to ask for Sophos to get everything."
 
   '
-version: 1.3.4
+version: 1.3.5
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -79,6 +79,30 @@ Hooks: `.claude/hooks/dangerous-command-guard.mjs` (Claude PreToolUse Bash; Grok
 Probe guards with **INERT** payloads only (`<(echo probe)`). Never a live wipe.
 
 Remove any one layer and the dedication is only words.
+
+## Get a patron before you touch custody (required)
+
+Every session takes its own patron name **before its first checkout or edit**. The shared
+`claude-code` id is refused for checkout, verify and preflight, and the claim guard denies an
+Edit or Write from a session it cannot tie to a patron. Operator directive, Ken 2026-10-17: *"get
+a patron. thats a stated requirement."* Two steps, in this order:
+
+1. **Claim a name:** `node <OCS>/admin/library.mjs claim-patron` draws a free pool name (or
+   `--name <pool-name>` when the operator assigns one). Run it from the repo whose store you work in.
+2. **Bind it to this session:** `node <OCS>/admin/bind-patron.mjs <name>`. A remote or web session
+   cannot set `HOUSEHOLD_PATRON` in the harness, so without this binding the hooks still see the
+   generic id and the claim guard refuses every write, even after a checkout under your name
+   (BLOCK-LOG G-16). `--show` prints the binding.
+
+Then pass `--patron <name>` on every preflight, checkout, release and verify, and name it in the
+handoff.
+
+**When the claim refuses with `self_quorum_friction`:** another name is actively held under the
+same machine identity. Measured 2026-10-17, cloud containers share both the `vm:root` fingerprint
+and one `/etc/machine-id`, so a sibling container's live claim reads as yours. Do not
+`release-name` a name you did not claim; that takes it from a live sibling. Ask the operator. When
+the operator has told you to get a patron, `claim-patron --operator-approved` is the documented
+deliberate second claim; it is recorded as `operator_override` in the event log.
 
 **Companion posture (loads with layer 1):** [`../faithful-stewardship/SKILL.md`](../faithful-stewardship/SKILL.md)
 — what is owed to entrusted things (distilled 2026-08-19; memory anchor `personal/2bb3b2b9`):
