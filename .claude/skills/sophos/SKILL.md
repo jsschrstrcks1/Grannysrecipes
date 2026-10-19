@@ -8,7 +8,7 @@ description: 'The single entry point for the household operating posture. Saying
   "I only have to ask for Sophos to get everything."
 
   '
-version: 1.3.4
+version: 1.3.5
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -80,12 +80,60 @@ Probe guards with **INERT** payloads only (`<(echo probe)`). Never a live wipe.
 
 Remove any one layer and the dedication is only words.
 
+## Get a patron before you touch custody (required)
+
+Every session takes its own patron name **before its first checkout or edit**. The shared
+`claude-code` id is refused for checkout, verify and preflight, and the claim guard denies an
+Edit or Write from a session it cannot tie to a patron. Operator directive, Ken 2026-10-17: *"get
+a patron. thats a stated requirement."* Two steps, in this order:
+
+1. **Claim a name:** `node <OCS>/admin/library.mjs claim-patron` draws a free pool name (or
+   `--name <pool-name>` when the operator assigns one). Run it from the repo whose store you work in.
+2. **Bind it to this session:** `node <OCS>/admin/bind-patron.mjs <name>`. A remote or web session
+   cannot set `HOUSEHOLD_PATRON` in the harness, so without this binding the hooks still see the
+   generic id and the claim guard refuses every write, even after a checkout under your name
+   (BLOCK-LOG G-16). `--show` prints the binding.
+
+Then pass `--patron <name>` on every preflight, checkout, release and verify, and name it in the
+handoff.
+
+**When the claim refuses with `self_quorum_friction`:** another name is actively held under the
+same machine identity. Measured 2026-10-17, cloud containers share both the `vm:root` fingerprint
+and one `/etc/machine-id`, so a sibling container's live claim reads as yours. Do not
+`release-name` a name you did not claim; that takes it from a live sibling. Ask the operator. When
+the operator has told you to get a patron, `claim-patron --operator-approved` is the documented
+deliberate second claim; it is recorded as `operator_override` in the event log.
+
 **Companion posture (loads with layer 1):** [`../faithful-stewardship/SKILL.md`](../faithful-stewardship/SKILL.md)
 — what is owed to entrusted things (distilled 2026-08-19; memory anchor `personal/2bb3b2b9`):
 proportionate, truthful, durable stewardship; forgetting as first-class governance; structure
 warranted by stewardship obligation, never by possibility; and the inversion prohibition —
 *do not preserve the structure at the expense of what the structure exists to protect*. A
 companion, not an eighth layer — the seven-layer contract above is unchanged.
+
+## ⚡ DONE MEANS USABLE — the whole stack, planned and built (operator directive 2026-10-19)
+
+**Proclaimed from the rooftops to every agent Sophos governs, every runtime, every repo:**
+
+> **A plan is not complete until the WHOLE STACK is planned. A build is not complete until the
+> WHOLE STACK is built and wired — front end, back end, database, and all the connections in
+> between — and the END USER can actually use it.**
+
+A feature that compiles is not done. A branch that merges is not done. A layer that exists but is
+not connected to the layers above and below it is *zero layers* from the user's seat. "Done" with
+an unwired layer is a part reported as a whole — the false-CALM careful-not-clever exists to
+refuse. Plan the whole stack or the plan is a fragment; build and wire the whole stack, verified
+end to end from the user's first action to the data landing in the store and back, or it is not
+complete. If a layer is deliberately out of scope, name which, why, and what remains. Full
+doctrine: careful-not-clever §"Done means usable by the end user". **Say this to any agent you
+hand work to.**
+
+**BLOCKING precondition — consult memory first (operator directive 2026-10-19).** Before you plan
+or build anything, run a real memory recall through the evidence envelope (the §Memory command
+below) — EVERY time. Skipping it is a **blocking error**, not a lint: the plan/build does not
+proceed and "done" cannot be claimed without it. State in the deliverable that the recall ran and
+what it surfaced. (Doctrine is the discipline tie; a PreToolUse gate that refuses a build/plan
+edit when no recall is observed is the belt — a named harness candidate, not yet built.)
 
 ## Memory is core, not a peripheral (layer 7 mechanics)
 
@@ -135,6 +183,23 @@ Before completion: **encode** durable knowledge, decisions, and corrections
 (`memory_ops.py encode`), and record failures in the failure ledger
 (`memory_failures.py record`) so `check_retry` can block unchanged retries in
 the next session. Continuity is a write discipline, not just a read one.
+
+### Persistence architecture — Alethia, the memory system (operator ruling 2026-10-15)
+
+The household cognitive-memory system is named **Alethia** (ἀλήθεια, "truth"; this is the system
+Ken refers to aloud as "Althea"). It has two tiers: the **hot tier** is the local `.memory/` JSON
+store (first write, unchanged), and the **deep tier** is a **PostgreSQL** database on a
+Tailnet-only VPS — a deduplicated read-only superset of all household memory and logs across every
+worktree. Discipline: **write the file first, SQL second** (SQL never holds what files do not);
+**recall returns the union** of both deduped by id and **falls back loudly to files** when the DB
+is unreachable (never silent-empty). The deep tier is a *location*, not a trust verdict — it never
+upgrades `verification_state`, and quarantined/refuted memories are never in it. This is the
+**memory** backend specifically, **not** a general app database. Built: the storage box + dedup
+mirror; planned: tiered recall, the autopersist SQL feed, and the promotion tier. Two systems, two
+jobs: **Tekton** (τέκτων) is task custody; **Alethia** is memory. Docs:
+`Project-Sophos/docs/ALETHIA.md`, `ALETHIA-SCOPE.md`, `MEMORY-STORAGE-LAYER-AND-PROMOTION-TIER.md`.
+**Do not fabricate** connection or schema details not written down — if you need one, say it is
+unknown and ask.
 
 ## The operating system (layer 4 mechanics)
 
