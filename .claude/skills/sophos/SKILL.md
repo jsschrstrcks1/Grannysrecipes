@@ -11,7 +11,7 @@ description: 'The single entry point for the household operating posture. Saying
   and it is copied into all 21 household repos.
 
   '
-version: 1.4.0
+version: 1.4.1
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -129,30 +129,50 @@ a branch, but not verify, complete, merge or push to main. **Contained** (the ta
 the operator releases it. Operator 2026-10-11: it is for ANY LLM that connects to Sophos. Doctrine:
 `Project-Sophos/docs/NOESIS.md` §8.
 
-## Get a patron before you touch custody (required)
+## Get a patron: it is a step of the bootstrap (required)
 
-Every session takes its own patron name **before its first checkout or edit**. The shared
-`claude-code` id is refused for checkout, verify and preflight, and the claim guard denies an
-Edit or Write from a session it cannot tie to a patron. Operator directive, Ken 2026-10-17: *"get
-a patron. thats a stated requirement."* Two steps, in this order:
+**Getting a patron is part of bootstrapping Sophos, not a later chore.** Operator directive, Ken
+2026-10-21: *"You should get a patron as part of bootstrap Sophos."* (Before that, 2026-10-17: *"get
+a patron. thats a stated requirement."*) A session is not bootstrapped until it holds a patron name
+of its own and that name is bound to the session, done alongside the seven reads, the recall and
+Noesis admission, **before its first checkout or edit**. The shared `claude-code` id is refused for
+checkout, verify and preflight, and the claim guard denies an Edit or Write from a session it cannot
+tie to a patron.
 
-1. **Claim a name:** `node admin/tekton.mjs claim-patron` from the Project-Sophos checkout draws a
-   free pool name (or `--name <pool-name>` when the operator assigns one). Tekton is the custody
-   store now; the HLS `library.mjs claim-patron` writes to a retired store.
+Three commands, in this order. Every one is needed today, because the binding and the custody store
+are still two different stores:
+
+1. **Claim a name in the library store:** `node <OCS>/admin/library.mjs claim-patron`. It writes a
+   `claim-patron` event carrying your session id into the armed store, which on a machine with a
+   Project-Sophos checkout is `Project-Sophos/.household-library/events.jsonl`. This is the only
+   claim `bind-patron.mjs` can see.
 2. **Bind it to this session:** `node <OCS>/admin/bind-patron.mjs <name>`. A remote or web session
    cannot set `HOUSEHOLD_PATRON` in the harness, so without this binding the hooks still see the
    generic id and the claim guard refuses every write, even after a checkout under your name
    (BLOCK-LOG G-16). `--show` prints the binding.
+3. **Hold the same name in Tekton:** from the Project-Sophos checkout,
+   `node admin/tekton.mjs claim-patron --name <name> --session <session id>`. Tekton is the custody
+   store, so this is what lets `--patron <name>` pass preflight, checkout, release and attest.
+
+**Do not reverse steps 1 and 3.** A name drawn first in Tekton cannot be bound: `bind-patron.mjs`
+reads only the library store's events, and refuses with *"this session does not currently hold
+'<name>'"*. Measured 2026-10-21: a Tekton-drawn name was refused that way, and a name held in the
+library store bound, then claimed in Tekton with `--name`, passed Tekton preflight. Teaching
+`bind-patron.mjs` to accept a Tekton claim is the open code fix
+(`claim-guard-identity-requires-hls-claim-20261014`); when it lands, step 1 drops out and this
+section shrinks to two commands.
 
 Then pass `--patron <name>` on every Tekton preflight, checkout, release and attest, and name it in
 the handoff.
 
-**When the claim refuses with `self_quorum_friction`:** another name is actively held under the
-same machine identity. Measured 2026-10-17, cloud containers share both the `vm:root` fingerprint
-and one `/etc/machine-id`, so a sibling container's live claim reads as yours. Do not
-`release-name` a name you did not claim; that takes it from a live sibling. Ask the operator. When
-the operator has told you to get a patron, `claim-patron --operator-approved` is the documented
-deliberate second claim; it is recorded as `operator_override` in the event log.
+**When a claim refuses with `self_quorum_friction`:** another name is actively held under the same
+machine identity. Measured 2026-10-17, cloud containers share both the `vm:root` fingerprint and
+one `/etc/machine-id`, so a sibling container's live claim reads as yours. Do not `release-name` a
+name you did not claim; that takes it from a live sibling. Because the operator has made getting a
+patron part of the bootstrap (2026-10-21), the bootstrap is itself the operator telling you to get
+one: `claim-patron --operator-approved` is the documented deliberate second claim, and it is
+recorded as `operator_override` in the event log, where the operator can count it. Release only a
+name you drew yourself (`release-name --patron <name> --session <id>`).
 
 **Companion posture (loads with layer 1):** [`../faithful-stewardship/SKILL.md`](../faithful-stewardship/SKILL.md)
 — what is owed to entrusted things (distilled 2026-08-19; memory anchor `personal/2bb3b2b9`):
@@ -326,7 +346,8 @@ is eyes and specialists under you, not peers of the kernel.
    catastrophic irreversible shell — machine belt first.
 4. Layers 3–4 load: the hierarchy and the publish gate frame every deliverable.
 5. Layers 5–6 load: the house rules, and Tekton custody (fetch, resolve, merge, then claim).
-6. Noesis admission runs before the first change; a patron is claimed and bound.
+6. Noesis admission runs before the first change, and the patron is claimed, bound and held in
+   Tekton as part of the same bootstrap (§Get a patron), not left for the first checkout to find.
 7. Layer 7 fires: `memory_evidence.py recall` for the task topic — directives
    honored, evidence weighed — and the session commits to encoding what it
    learns before it ends.
