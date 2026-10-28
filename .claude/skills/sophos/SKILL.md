@@ -11,7 +11,7 @@ description: 'The single entry point for the household operating posture. Saying
   and it is copied into all 21 household repos.
 
   '
-version: 1.4.1
+version: 1.4.2
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -181,6 +181,30 @@ warranted by stewardship obligation, never by possibility; and the inversion pro
 *do not preserve the structure at the expense of what the structure exists to protect*. A
 companion, not an eighth layer — the seven-layer contract above is unchanged.
 
+## ⚡ An expired bootstrap is redone at that point (operator directive 2026-10-28)
+
+> "Going forward, when a bootstrap expires, your requirement is to rebootstrap it at that point." Ken,
+> 2026-10-28 (memory `f34f3c1a`)
+
+Layer reads expire (`LAYER_READ_TTL_MS` in `.claude/hooks/bootstrap-lib.mjs`). **When the bootstrap guard
+reports reads EXPIRED or stale (`BOOTSTRAP_READS_EXPIRED`), or `bootstrap-status` shows your session
+`complete: false` after it was complete, re-bootstrap at that point:** before any other work, not after the
+task in hand, and never by an override. Re-bootstrap is the whole sequence, not only the reads the guard
+names:
+
+1. Re-read the six layer files above and the repo's runtime pointer (`CLAUDE.md`, `GROK.md`, `AGENT.md`).
+2. Run a real recall (`python3 <OCS>/admin/memory_evidence.py recall "<topic>"`).
+3. Run the directives (`memory-directives-inject.sh`, or `memory_evidence.py directives`).
+4. Re-confirm the patron (§Get a patron). A hold may have ended and handed you a new name; use it.
+5. Confirm `bootstrap-status` shows this session `complete: true`, then resume.
+
+Measured 2026-10-28: a session re-read the six layers after a CI wake found them expired and left the recall
+and directives unrun. That half re-bootstrap is what this rule forbids. **Enforcement:** the bootstrap guard ages every checklist step on the same clock as the reads
+(`missingActions`; open-claw-stuff since 2026-10-12, Project-Sophos from `5c9802a9`), so a re-bootstrap that
+skips a step credited longer ago than `LAYER_READ_TTL_MS` is refused, and the refusal names this sequence.
+**Honest limit:** a credit still inside its window is not demanded again, so the guard enforces each expired
+piece rather than the whole sequence at one moment; this section, the memory and the guide carry the rest.
+
 ## ⚡ DONE MEANS USABLE — the whole stack, planned and built (operator directive 2026-10-19)
 
 **Proclaimed from the rooftops to every agent Sophos governs, every runtime, every repo:**
@@ -348,6 +372,7 @@ is eyes and specialists under you, not peers of the kernel.
 5. Layers 5–6 load: the house rules, and Tekton custody (fetch, resolve, merge, then claim).
 6. Noesis admission runs before the first change, and the patron is claimed, bound and held in
    Tekton as part of the same bootstrap (§Get a patron), not left for the first checkout to find.
+   When the bootstrap later expires, all of it is redone at that point (§An expired bootstrap).
 7. Layer 7 fires: `memory_evidence.py recall` for the task topic — directives
    honored, evidence weighed — and the session commits to encoding what it
    learns before it ends.
