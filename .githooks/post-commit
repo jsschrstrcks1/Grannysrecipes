@@ -1,0 +1,16 @@
+#!/bin/sh
+# >>> argus-observer (M8) — managed block; saved edits may be overwritten >>>
+if [ "${ARGUS_OBSERVE:-1}" != "0" ]; then
+  ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+  A=""
+  for c in "${ARGUS_CHECKOUT:-}" "$ROOT/argus" "$ROOT/../Project-Sophos/argus" "$ROOT/../argus"; do
+    if [ -n "$c" ] && [ -f "$c/src/cli/observe.mjs" ]; then A="$c"; break; fi
+  done
+  if [ -z "$A" ]; then
+    echo "argus-observer: not run (no argus checkout found; set ARGUS_CHECKOUT)" >&2
+  elif command -v node >/dev/null 2>&1; then
+    node "$A/src/cli/observe.mjs" capture --repo "$ROOT" || true
+    ( node "$A/src/cli/observe.mjs" refresh --repo "$ROOT" >/dev/null 2>&1 & ) || true
+  fi
+fi
+# <<< argus-observer (M8) <<<
