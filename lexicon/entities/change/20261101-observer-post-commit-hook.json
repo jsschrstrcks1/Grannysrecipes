@@ -1,0 +1,571 @@
+{
+  "format": "lexicon-entity/1",
+  "entity": "change:20261101-observer-post-commit-hook",
+  "_about": "Written by admin/change-record.mjs new. Append-only once on main; a correction is a new entry naming this one in supersedes. docs/lexicon/CHANGE-RECORD.md",
+  "statements": [
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#task",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook task = \"argus-s32-observer-all-repos\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "task",
+        "value": "argus-s32-observer-all-repos",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-e1dc68317dc79d87"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#why",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook why = \"This repository had no Argus observer hook, so its commits, reverts and test receipts were never captured and a lesson learned here could not open a need in another repository.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "why",
+        "value": "This repository had no Argus observer hook, so its commits, reverts and test receipts were never captured and a lesson learned here could not open a need in another repository.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-8ac3cc0c34ad50be"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#enables",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook enables = \"Every commit here is captured as an event after it lands, advisory only: the hook cannot refuse a commit, runs nothing when ARGUS_OBSERVE=0, and says on stderr when no Argus checkout is found.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "enables",
+        "value": "Every commit here is captured as an event after it lands, advisory only: the hook cannot refuse a commit, runs nothing when ARGUS_OBSERVE=0, and says on stderr when no Argus checkout is found.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-af6c43853ce8bfd8"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#untested_reason",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook untested_reason = \"The hook body is generated by Argus and its behaviour is pinned by tests in the Argus repository (observer-hook-cli.test.mjs, 58 observer tests passing there); this repository has no test for it. Here the file was checked by sh -n, a mode check, byte equality across three repos, and an opt-out probe that exited 0 silently.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "untested_reason",
+        "value": "The hook body is generated by Argus and its behaviour is pinned by tests in the Argus repository (observer-hook-cli.test.mjs, 58 observer tests passing there); this repository has no test for it. Here the file was checked by sh -n, a mode check, byte equality across three repos, and an opt-out probe that exited 0 silently.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-c3ebfc55f7b44ca1"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#rests_on",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook rests_on = \"argus-s09; precedent-normative-status mayCopy; plan M8\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "rests_on",
+        "value": "argus-s09; precedent-normative-status mayCopy; plan M8",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-07d92ecb769773cc"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#costs",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook costs = \"hooks in each repo's .githooks chain\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "costs",
+        "value": "hooks in each repo's .githooks chain",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-87b13dbfe5da532e"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#retires",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook retires = \"nothing\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "retires",
+        "value": "nothing",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-6eef10afffa89260"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261101-observer-post-commit-hook#moved",
+      "content": {
+        "summary": "change:20261101-observer-post-commit-hook moved = {\"modules_added\":[],\"modules_removed\":[],\"exports_changed\":[]}",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:argus-s32-observer-all-repos",
+        "uri": null,
+        "publisher": "measured",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:argus-s32-observer-all-repos",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-01T00:06:37.100Z",
+        "observed_at": "2026-11-01T00:06:37.100Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261101-observer-post-commit-hook",
+        "property": "moved",
+        "value": {
+          "modules_added": [],
+          "modules_removed": [],
+          "exports_changed": []
+        },
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-e62e99a6fe2e69c5"
+    }
+  ]
+}
