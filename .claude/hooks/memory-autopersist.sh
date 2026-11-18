@@ -6,10 +6,18 @@
 # swept up) and push the current branch.
 #
 # Fail-open contract: ALWAYS exits 0 — a broken push must never block session
-# teardown. Failures are loud: logged to /tmp/memory-autopersist.err and
+# teardown. Failures are loud: logged to $ERR_LOG (see below) and
 # echoed so the transcript shows them.
 #
 # Kill-switch: MEMORY_AUTOPERSIST=0
+# Log paths (docs/HOOK-TMP-PATHS.md). A fixed /tmp file that another user or job already owns makes
+# the redirect fail, and then the command it belongs to never runs. Keep the familiar path when it is
+# appendable (tried, not tested with -w, which root passes even for a directory); otherwise fall back to
+# a per-user file under $TMPDIR (open-claw-stuff's 2026-10-07 idea, with the check made real).
+ERR_LOG=/tmp/memory-autopersist.err
+if ! { : >>"$ERR_LOG"; } 2>/dev/null; then
+  ERR_LOG="${TMPDIR:-/tmp}/memory-autopersist.${UID:-$$}.err"
+fi
 set +e
 
 [ "${MEMORY_AUTOPERSIST:-1}" = "0" ] && exit 0
@@ -36,7 +44,7 @@ N=$(echo "$CHANGES" | wc -l | tr -d ' ')
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
 
 echo "$CHANGES" | sed 's/^...//' | while IFS= read -r F; do
-    [ -n "$F" ] && git add -- "$F" 2>>/tmp/memory-autopersist.err
+    [ -n "$F" ] && git add -- "$F" 2>>"$ERR_LOG"
 done
 git commit -m "chore(memory): autopersist ${N} store change(s) at session stop
 
@@ -44,11 +52,11 @@ Automated by .claude/hooks/memory-autopersist.sh — cognitive memory is
 git-persisted; an encoded memory left uncommitted dies with an
 ephemeral container. Only .memory/ paths are included.
 
-Soli Deo Gloria." >>/tmp/memory-autopersist.err 2>&1
+Soli Deo Gloria." >>"$ERR_LOG" 2>&1
 
-if git push origin "$BRANCH" >>/tmp/memory-autopersist.err 2>&1; then
+if git push origin "$BRANCH" >>"$ERR_LOG" 2>&1; then
     echo "[memory-autopersist] committed+pushed ${N} memory change(s) on ${BRANCH}"
 else
-    echo "[memory-autopersist] WARNING: committed ${N} memory change(s) on ${BRANCH} but PUSH FAILED — see /tmp/memory-autopersist.err; memories are safe in the local commit only"
+    echo "[memory-autopersist] WARNING: committed ${N} memory change(s) on ${BRANCH} but PUSH FAILED — see $ERR_LOG; memories are safe in the local commit only"
 fi
 exit 0

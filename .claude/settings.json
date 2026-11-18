@@ -24,7 +24,16 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/home/user/ken/.claude/hooks/observe-tool-use.sh"
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/observe-tool-use-dispatch.sh"
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/bootstrap-stamp-hook.mjs"
           }
         ]
       }
@@ -47,9 +56,39 @@
             "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/prompt-injection-guard.js"
           }
         ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/dangerous-command-guard.mjs"
+          },
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/bootstrap-guard.mjs"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node $CLAUDE_PROJECT_DIR/.claude/hooks/bootstrap-guard.mjs"
+          }
+        ]
       }
     ],
     "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PROJECT_DIR/.claude/hooks/arm-hooks-path.sh"
+          }
+        ]
+      },
       {
         "hooks": [
           {

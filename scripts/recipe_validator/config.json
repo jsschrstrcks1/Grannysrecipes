@@ -1,0 +1,106 @@
+{
+  "repo_label": "Grannysrecipes (Granny Hudson's Recipe Archive)",
+  "data_file": "granny/recipes_master.json",
+  "image_dir": "granny",
+  "required_fields": [
+    "id",
+    "title",
+    "ingredients",
+    "instructions",
+    "category"
+  ],
+  "optional_fields": [
+    "attribution",
+    "source_note",
+    "description",
+    "servings_yield",
+    "prep_time",
+    "cook_time",
+    "total_time",
+    "temperature",
+    "pan_size",
+    "notes",
+    "tags",
+    "confidence",
+    "image_refs",
+    "page_continuation",
+    "conversions",
+    "nutrition",
+    "variant_of",
+    "variant_notes",
+    "canonical_id",
+    "frosting",
+    "oven_directions"
+  ],
+  "valid_categories": [
+    "appetizers",
+    "beverages",
+    "breads",
+    "breakfast",
+    "desserts",
+    "mains",
+    "salads",
+    "sides",
+    "soups",
+    "snacks"
+  ],
+  "valid_confidence": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "ingredient_optional_categories": [],
+  "empty_instructions_ok_categories": [],
+  "warn_missing_nutrition": false,
+  "sanity_limits": {
+    "salt": {
+      "max_cups": 0.5,
+      "max_tbsp": 3,
+      "max_tsp": 6
+    },
+    "sugar": {
+      "max_cups": 6
+    },
+    "flour": {
+      "max_cups": 10
+    },
+    "butter": {
+      "max_cups": 4
+    },
+    "baking soda": {
+      "max_tsp": 4
+    },
+    "baking powder": {
+      "max_tbsp": 4
+    }
+  },
+  "sanity_match": "substring",
+  "sanity_skip_quantity_over": null,
+  "quantity_parse": "simple",
+  "sanity_skip_item_substrings": [],
+  "limit_overrides": [],
+  "temperature_mode": "plain",
+  "temp_min": 200,
+  "temp_max": 550,
+  "temp_min_low": null,
+  "cheese_temp_min": null,
+  "cheese_temp_max": null,
+  "low_temp_categories": [],
+  "low_temp_tags": [],
+  "low_temp_title_terms": [],
+  "low_temp_title_id_keywords": [],
+  "image_skip_urls": false,
+  "image_extensions": [
+    "",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".gif"
+  ],
+  "meta_count_fields": [],
+  "declared_unused": {},
+  "_notes": [
+    "Values copied from Grannysrecipes HEAD scripts/validate-recipes.py (5daa0c7).",
+    "meta_count note: granny/recipes_master.json meta says total_recipes 1338 and recipe_count 201 while the file holds 194 recipes; the importer leaves both untouched (operator decision)."
+  ]
+}

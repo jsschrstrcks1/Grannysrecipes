@@ -1,0 +1,603 @@
+{
+  "format": "lexicon-entity/1",
+  "entity": "change:20261108-shared-recipe-validator",
+  "_about": "Written by admin/change-record.mjs new. Append-only once on main; a correction is a new entry naming this one in supersedes. docs/lexicon/CHANGE-RECORD.md",
+  "statements": [
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#task",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator task = \"recipe-repos-one-shared-validator-and-importer\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "task",
+        "value": "recipe-repos-one-shared-validator-and-importer",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-bfc8c549707f4351"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#why",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator why = \"Four forked copies of validate-recipes.py had diverged (350/412/305/323 lines) and every batch of recipes needed a new hand-written add_*_batchN.py script, one of which could duplicate itself.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "why",
+        "value": "Four forked copies of validate-recipes.py had diverged (350/412/305/323 lines) and every batch of recipes needed a new hand-written add_*_batchN.py script, one of which could duplicate itself.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-09de477533370653"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#enables",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator enables = \"One shared validator (scripts/recipe_validator/core.py, byte-identical across the recipe repos, behavior set by config.json) gives this repo the same findings as before, and one importer lands a JSON batch with validation, duplicate skipping and atomic writes.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "enables",
+        "value": "One shared validator (scripts/recipe_validator/core.py, byte-identical across the recipe repos, behavior set by config.json) gives this repo the same findings as before, and one importer lands a JSON batch with validation, duplicate skipping and atomic writes.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-8af4c3b965a53912"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#proved_by",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator proved_by = \"scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "proved_by",
+        "value": "scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-d3c84447de4110bf"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#rests_on",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator rests_on = \"the four scripts/validate-recipes.py forks and their current findings on each repo's own data (the differential oracle)\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "rests_on",
+        "value": "the four scripts/validate-recipes.py forks and their current findings on each repo's own data (the differential oracle)",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-0f2e98b558b030e6"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#costs",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator costs = \"scripts/recipe_validator/ in four repos plus a per-repo config; skill-sync manifest entry for the shared core\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "costs",
+        "value": "scripts/recipe_validator/ in four repos plus a per-repo config; skill-sync manifest entry for the shared core",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-b757f6db1d338e1d"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#retires",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator retires = \"plan §5 item 2: four forked validators (350/412/305/323 lines) and ~98 hand add_*_batchN.py scripts\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "retires",
+        "value": "plan §5 item 2: four forked validators (350/412/305/323 lines) and ~98 hand add_*_batchN.py scripts",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-6b23011f9ae88f03"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261108-shared-recipe-validator#moved",
+      "content": {
+        "summary": "change:20261108-shared-recipe-validator moved = {\"modules_added\":[],\"modules_removed\":[],\"exports_changed\":[]}",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+        "uri": null,
+        "publisher": "measured",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:recipe-repos-one-shared-validator-and-importer",
+            "tier": "primary"
+          },
+          {
+            "ref": "test:scripts/recipe_validator/differential_check.py::real data, normal and --strict, byte-identical to the original validator",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 2 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-08T11:47:46.924Z",
+        "observed_at": "2026-11-08T11:47:46.924Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261108-shared-recipe-validator",
+        "property": "moved",
+        "value": {
+          "modules_added": [],
+          "modules_removed": [],
+          "exports_changed": []
+        },
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-8f88ceb2f7fa8c9d"
+    }
+  ]
+}
