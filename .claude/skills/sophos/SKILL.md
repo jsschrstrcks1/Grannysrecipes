@@ -11,7 +11,7 @@ description: 'The single entry point for the household operating posture. Saying
   and it is copied into all 21 household repos.
 
   '
-version: 1.4.2
+version: 1.4.3
 license: LicenseRef-Proprietary
 category: foundation
 keywords:
@@ -380,6 +380,10 @@ is eyes and specialists under you, not peers of the kernel.
    for memory, Tekton for custody.
 9. Fleet orientation loads: prefer the specialist fleet for fleet-class tasks;
    never treat it as mandatory.
+10. Whenever code is written or changed, the `state-machines` skill runs on the code being touched:
+    name any implicit state machine and make the one change that lifts UX, DX and AX without breaking
+    anything, or say there is none (Ken, 2026-11-19; the whole-app audit only when he asks). The hook
+    `.claude/hooks/state-machines-nudge.mjs` points to it on the first code edit of a session.
 
 Skills that already reference each other (`soli-deo-gloria` ↔
 `memory-recall`) remain in force; this skill is the named front door that
