@@ -1,0 +1,571 @@
+{
+  "format": "lexicon-entity/1",
+  "entity": "change:20261120-skill-sync-sophos-state-machines",
+  "_about": "Written by admin/change-record.mjs new. Append-only once on main; a correction is a new entry naming this one in supersedes. docs/lexicon/CHANGE-RECORD.md",
+  "statements": [
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#task",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines task = \"skill-sync-four-repos-20261119\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "task",
+        "value": "skill-sync-four-repos-20261119",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-deecb528fcaa32bd"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#why",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines why = \"This repo's synced copies of the sophos skill (9d2d57df) and the state-machines skill (missing) had fallen behind their sources, and open-claw-stuff's skill-sync pre-push gate refuses every push from a machine holding stale synced skills.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "why",
+        "value": "This repo's synced copies of the sophos skill (9d2d57df) and the state-machines skill (missing) had fallen behind their sources, and open-claw-stuff's skill-sync pre-push gate refuses every push from a machine holding stale synced skills.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-21d935984abf46c0"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#enables",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines enables = \"The sophos skill matches its source (open-claw-stuff skills/sophos/SKILL.md, 472edd07) and the state-machines skill matches Project-Sophos skills/state-machines/SKILL.md, so this repo no longer blocks open-claw-stuff pushes.\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "enables",
+        "value": "The sophos skill matches its source (open-claw-stuff skills/sophos/SKILL.md, 472edd07) and the state-machines skill matches Project-Sophos skills/state-machines/SKILL.md, so this repo no longer blocks open-claw-stuff pushes.",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-9024470eeb24bb2f"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#untested_reason",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines untested_reason = \"two synced skill files copied byte-for-byte from their declared sources; the skill-sync verify check is the test\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "committer",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "untested_reason",
+        "value": "two synced skill files copied byte-for-byte from their declared sources; the skill-sync verify check is the test",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-00c17fc43558260d"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#rests_on",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines rests_on = \"p1-mirror-2a-2c-to-ocs-20261119\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "rests_on",
+        "value": "p1-mirror-2a-2c-to-ocs-20261119",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-a7de1b47825a7267"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#costs",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines costs = \"low: two skill files per repo, from clean worktrees\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "costs",
+        "value": "low: two skill files per repo, from clean worktrees",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-e8493b7a4d487f92"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#retires",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines retires = \"skill-sync pre-push refusal on every open-claw-stuff push from this Mac\"",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "Tekton",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "retires",
+        "value": "skill-sync pre-push refusal on every open-claw-stuff push from this Mac",
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-c018278564987bfb"
+    },
+    {
+      "schema_version": "envelope/1",
+      "kind": "claim",
+      "subject": "change:20261120-skill-sync-sophos-state-machines#moved",
+      "content": {
+        "summary": "change:20261120-skill-sync-sophos-state-machines moved = {\"modules_added\":[],\"modules_removed\":[],\"exports_changed\":[]}",
+        "ref": null,
+        "hash": null
+      },
+      "provenance": {
+        "source_kind": "lexicon-statement",
+        "source_ref": "tekton:skill-sync-four-repos-20261119",
+        "uri": null,
+        "publisher": "measured",
+        "trust_tier": "unrated"
+      },
+      "actor": {
+        "kind": "agent",
+        "id": "unknown",
+        "provider": "household",
+        "model": null
+      },
+      "epistemic": {
+        "status": "known",
+        "tier": null,
+        "evidence": [
+          {
+            "ref": "tekton:skill-sync-four-repos-20261119",
+            "tier": "primary"
+          }
+        ]
+      },
+      "uncertainty": {
+        "ignorance": 0.25,
+        "conflict": 0,
+        "basis": "statement with status 'known' and 1 evidence ref(s); not calibrated"
+      },
+      "validators": [],
+      "policies": [],
+      "dependencies": [],
+      "lineage": {
+        "parents": [],
+        "derived_by": null
+      },
+      "cost": {
+        "tokens_in": null,
+        "tokens_out": null,
+        "usd": null,
+        "ms": null
+      },
+      "timestamps": {
+        "valid_from": null,
+        "valid_until": null,
+        "asserted_at": "2026-11-20T03:59:49.390Z",
+        "observed_at": "2026-11-20T03:59:49.390Z"
+      },
+      "decision": null,
+      "ext": {
+        "type": "lexicon-statement/1",
+        "pack": "household.change",
+        "entity": "change:20261120-skill-sync-sophos-state-machines",
+        "property": "moved",
+        "value": {
+          "modules_added": [],
+          "modules_removed": [],
+          "exports_changed": []
+        },
+        "unit": null,
+        "rank": "normal",
+        "partition": "household-internal"
+      },
+      "classification": "authorized-external",
+      "id": "env-ad505c95a5b73711"
+    }
+  ]
+}
